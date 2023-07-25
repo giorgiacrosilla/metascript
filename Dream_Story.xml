@@ -3,6 +3,50 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
 
+        <fileDesc>
+          <titleStmt>
+           <title type="main">
+                Dream Stories
+           </title>
+           <title type="alt">
+                Traumnovelle
+           </title>
+            <title type="alt">
+                Rhapsody: A Dream Novel
+           </title>
+           <editor role="Translator">
+               Otto P. Schinnerer
+           </editor>
+          </titleStmt>
+          <extent>
+            <measure unit="pages" quantity="143">143 pages</measure>
+          </extent>
+          <publicationStmt>
+           <publisher>Green Integer</publisher>
+           <pubPlace>Los Angeles</pubPlace>
+           <idno type="ISBN-10">1931243484</idno>
+           <idno type="ISBN-13">9781931243483</idno>
+           <date>2003</date>
+          </publicationStmt>
+          <seriesStmt>
+          <p>
+            Masterworks of fiction
+          </p>
+           <biblScope unit="volume">94</biblScope>
+          </seriesStmt>
+          <notesStmt>
+           <note>
+        <!-- notes on other aspects of the resource -->
+           </note>
+          </notesStmt>
+          <sourceDesc>
+           <p>
+        <!-- information about the source from which
+                                the resource was derived  -->
+           </p>
+          </sourceDesc>
+         </fileDesc>
+    
     </teiHeader>
     <text>
         <body>
