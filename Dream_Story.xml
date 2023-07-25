@@ -46,6 +46,11 @@
            </p>
           </sourceDesc>
          </fileDesc>
+        <profileDesc>
+         <langUsage>
+          <language ident="en">English</language>
+         </langUsage>
+        </profileDesc>
     
     </teiHeader>
     <text>
