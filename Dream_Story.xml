@@ -39,7 +39,56 @@
   </teiHeader>
   <text>
     <body>
+      <div n="1" type="chapter">
 
+
+        <p>
+          But now that the day's work was done— the child had gone to bed and no disturbance was
+          likely—the
+          shadowy forms of the masquerade, the melancholy stranger and the red dominoes, rose again
+          into
+          reality. And all at once those insignificant events were imbued, magically and painfully,
+          with the
+          deceptive glow of neglected opportunities. Harmless but probing questions, and sly,
+          ambiguous answers
+          were exchanged. Neither failed to notice that the other was not absolutely honest, and so
+          they became
+          slightly vindictive. They exaggerated the degree of attraction that their unknown partners
+          at the ball had
+          exerted upon them while each made fun of the other's tendencies to jealousy and denied his
+          own. Soon,
+          their light conversation about the trifling matters of the night before changed into a
+          more serious
+          discussion of those hidden, scarcely suspected wishes, which can produce dangerous
+          whirlpools even in
+          the serenest and purest soul. They spoke of those mysterious regions of which they were
+          hardly
+          conscious but toward which the incomprehensible wind of fate might some day drive them,
+          even if only
+          in their dreams. For though they were united in thought and feeling, they knew that the
+          preceding day
+          had not been the first time that the spirit of adventure, freedom and danger had beckoned
+          them.
+          Uneasy, and tormenting themselves, each sought with disingenuous curiosity to draw out
+          confessions
+          from the other. Anxiously, they searched within themselves for some indifferent fact, or
+          trifling
+          experience, which might express the inexpressible, and the honest confession of which
+          might relieve
+          them of the strain and the suspicion which were becoming unbearable.</p>
+
+        <p> Whether <persName ref="#Albertina">Albertina</persName> was more impatient, more honest
+          or more kind-hearted of the two, it was she who first summoned the courage for a frank
+          confession. She asked <persName ref="#Fridolin">Fridolin</persName> in a rather uncertain
+          voice whether he remembered the young man who—last summer at the seashore in <placeName
+            ref="#Denmark">Denmark</placeName>—had been sitting one evening with two other officers
+          at an adjoining table. He had received a telegram during dinner, whereupon he had hastily
+          said "good-bye" to his friends.</p>
+
+        <p>
+          <persName ref="Fridolin">Fridolin</persName> nodded. "What about him?" he asked.
+        </p>
+      </div>
     </body>
   </text>
 </TEI>
