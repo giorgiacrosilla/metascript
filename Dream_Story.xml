@@ -138,7 +138,8 @@
           said "good-bye" to his friends.</p>
 
         <p>
-          <persName ref="Fridolin">Fridolin</persName> nodded. "What about him?" he asked. </p>
+          <persName ref="#Fridolin">Fridolin</persName> nodded. "What about him?" he asked.
+        </p>
       </div>
     </body>
   </text>
