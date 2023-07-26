@@ -2,95 +2,6 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
-<<<<<<< Updated upstream
-    <fileDesc>
-      <titleStmt>
-        <title type="main">Dream Story</title>
-        <title type="alt">Traumnovelle</title>
-        <title type="alt">Rhapsody: A Dream Novel</title>
-        <editor role="Translator">Otto P. Schinnerer</editor>
-      </titleStmt>
-      <extent>
-        <measure unit="pages" quantity="143">143 pages</measure>
-      </extent>
-      <publicationStmt>
-        <publisher>Green Integer</publisher>
-        <pubPlace>Los Angeles</pubPlace>
-        <idno type="ISBN-10">1931243484</idno>
-        <idno type="ISBN-13">9781931243483</idno>
-        <date>2003</date>
-      </publicationStmt>
-      <seriesStmt>
-        <title level="s">Masterworks of fiction</title>
-        <biblScope unit="volume">94</biblScope>
-      </seriesStmt>
-      <notesStmt>
-        <note><!-- notes on other aspects of the resource --></note>
-      </notesStmt>
-      <sourceDesc>
-        <p><!-- information about the source from which the resource was derived  --></p>
-      </sourceDesc>
-    </fileDesc>
-    <profileDesc>
-      <langUsage>
-        <language ident="en">English</language>
-      </langUsage>
-    </profileDesc>
-
-  </teiHeader>
-  <text>
-    <body>
-      <div n="1" type="chapter">
-
-
-        <p>
-          But now that the day's work was done— the child had gone to bed and no disturbance was
-          likely—the
-          shadowy forms of the masquerade, the melancholy stranger and the red dominoes, rose again
-          into
-          reality. And all at once those insignificant events were imbued, magically and painfully,
-          with the
-          deceptive glow of neglected opportunities. Harmless but probing questions, and sly,
-          ambiguous answers
-          were exchanged. Neither failed to notice that the other was not absolutely honest, and so
-          they became
-          slightly vindictive. They exaggerated the degree of attraction that their unknown partners
-          at the ball had
-          exerted upon them while each made fun of the other's tendencies to jealousy and denied his
-          own. Soon,
-          their light conversation about the trifling matters of the night before changed into a
-          more serious
-          discussion of those hidden, scarcely suspected wishes, which can produce dangerous
-          whirlpools even in
-          the serenest and purest soul. They spoke of those mysterious regions of which they were
-          hardly
-          conscious but toward which the incomprehensible wind of fate might some day drive them,
-          even if only
-          in their dreams. For though they were united in thought and feeling, they knew that the
-          preceding day
-          had not been the first time that the spirit of adventure, freedom and danger had beckoned
-          them.
-          Uneasy, and tormenting themselves, each sought with disingenuous curiosity to draw out
-          confessions
-          from the other. Anxiously, they searched within themselves for some indifferent fact, or
-          trifling
-          experience, which might express the inexpressible, and the honest confession of which
-          might relieve
-          them of the strain and the suspicion which were becoming unbearable.</p>
-
-        <p> Whether <persName ref="#Albertina">Albertina</persName> was more impatient, more honest
-          or more kind-hearted of the two, it was she who first summoned the courage for a frank
-          confession. She asked <persName ref="#Fridolin">Fridolin</persName> in a rather uncertain
-          voice whether he remembered the young man who—last summer at the seashore in <placeName
-            ref="#Denmark">Denmark</placeName>—had been sitting one evening with two other officers
-          at an adjoining table. He had received a telegram during dinner, whereupon he had hastily
-          said "good-bye" to his friends.</p>
-
-        <p>
-          <persName ref="Fridolin">Fridolin</persName> nodded. "What about him?" he asked.
-        </p>
-=======
-
     <fileDesc>
       <titleStmt>
         <title type="main">
@@ -171,21 +82,63 @@
           alone on the deck
             under the dark-blue, starry sky, and his gaze—"</quote><lb /> So far the little girl had
           read aloud.Then, suddenly, her eyelids drooped. Her parents looked at each other and
-          smiled. <persName ref="#Fridolin">Fridolin</persName> bent down, kissed her blond hair and closed
-          the book which was lying on the untidy table. The child looked up as if caught at some
-          mischief.<lb />
-          
-          
-          
-            <said aloud="true" direct="true">"It's nine o'clock,"</said> her father
-          said, <said aloud="true" direct="true">"and time you were in bed."</said> <persName ref="#Albertina">Albertina</persName>also bent over her, and as her hand met her husband's
-          on the beloved forehead, they looked at each other with a tender smile not meant for the
-          child. The governess entered and asked the little girl to say good-night. She got up
-          obediently, kissed her father and mother and walked out quietly hand in hand with the
-          young woman. <persName ref="#Fridolin">Fridolin</persName> and <persName ref="#Albertina">Albertina</persName>,
-          left alone under the reddish glow of the hanging-lamp, continued the conversation they had
-          begun before supper. </p>
->>>>>>> Stashed changes
+          smiled. <persName ref="#Fridolin">Fridolin</persName> bent down, kissed her blond hair and
+          closed the book which was lying on the untidy table. The child looked up as if caught at
+          some mischief.<lb />
+            <said aloud="true" direct="true">"It's nine o'clock,"</said> her
+          father said, <said aloud="true" direct="true">"and time you were in bed."</said> <persName
+            ref="#Albertina">Albertina</persName>also bent over her, and as her hand met her
+          husband's on the beloved forehead, they looked at each other with a tender smile not meant
+          for the child. The governess entered and asked the little girl to say good-night. She got
+          up obediently, kissed her father and mother and walked out quietly hand in hand with the
+          young woman. <persName ref="#Fridolin">Fridolin</persName> and <persName ref="#Albertina">
+          Albertina</persName>, left alone under the reddish glow of the hanging-lamp, continued the
+          conversation they had begun before supper. </p>
+        <p>
+          But now that the day's work was done— the child had gone to bed and no disturbance was
+          likely—the
+          shadowy forms of the masquerade, the melancholy stranger and the red dominoes, rose again
+          into
+          reality. And all at once those insignificant events were imbued, magically and painfully,
+          with the
+          deceptive glow of neglected opportunities. Harmless but probing questions, and sly,
+          ambiguous answers
+          were exchanged. Neither failed to notice that the other was not absolutely honest, and so
+          they became
+          slightly vindictive. They exaggerated the degree of attraction that their unknown partners
+          at the ball had
+          exerted upon them while each made fun of the other's tendencies to jealousy and denied his
+          own. Soon,
+          their light conversation about the trifling matters of the night before changed into a
+          more serious
+          discussion of those hidden, scarcely suspected wishes, which can produce dangerous
+          whirlpools even in
+          the serenest and purest soul. They spoke of those mysterious regions of which they were
+          hardly
+          conscious but toward which the incomprehensible wind of fate might some day drive them,
+          even if only
+          in their dreams. For though they were united in thought and feeling, they knew that the
+          preceding day
+          had not been the first time that the spirit of adventure, freedom and danger had beckoned
+          them.
+          Uneasy, and tormenting themselves, each sought with disingenuous curiosity to draw out
+          confessions
+          from the other. Anxiously, they searched within themselves for some indifferent fact, or
+          trifling
+          experience, which might express the inexpressible, and the honest confession of which
+          might relieve
+          them of the strain and the suspicion which were becoming unbearable.</p>
+
+        <p> Whether <persName ref="#Albertina">Albertina</persName> was more impatient, more honest
+          or more kind-hearted of the two, it was she who first summoned the courage for a frank
+          confession. She asked <persName ref="#Fridolin">Fridolin</persName> in a rather uncertain
+          voice whether he remembered the young man who—last summer at the seashore in <placeName
+            ref="#Denmark">Denmark</placeName>—had been sitting one evening with two other officers
+          at an adjoining table. He had received a telegram during dinner, whereupon he had hastily
+          said "good-bye" to his friends.</p>
+
+        <p>
+          <persName ref="Fridolin">Fridolin</persName> nodded. "What about him?" he asked. </p>
       </div>
     </body>
   </text>
