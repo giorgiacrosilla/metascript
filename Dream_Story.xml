@@ -2,6 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
+<<<<<<< Updated upstream
     <fileDesc>
       <titleStmt>
         <title type="main">Dream Story</title>
@@ -88,6 +89,104 @@
         <p>
           <persName ref="Fridolin">Fridolin</persName> nodded. "What about him?" he asked.
         </p>
+=======
+
+    <fileDesc>
+      <titleStmt>
+        <title type="main">
+          Dream Stories
+        </title>
+        <title type="alt">
+          Traumnovelle
+        </title>
+        <title type="alt">
+          Rhapsody: A Dream Novel
+        </title>
+        <editor role="Translator">
+          Otto P. Schinnerer
+        </editor>
+      </titleStmt>
+      <extent>
+        <measure unit="pages" quantity="143">143 pages</measure>
+      </extent>
+      <publicationStmt>
+        <publisher>Green Integer</publisher>
+        <pubPlace>Los Angeles</pubPlace>
+        <idno type="ISBN-10">1931243484</idno>
+        <idno type="ISBN-13">9781931243483</idno>
+        <date>2003</date>
+      </publicationStmt>
+      <seriesStmt>
+        <p>
+          Masterworks of fiction
+        </p>
+        <biblScope unit="volume">94</biblScope>
+      </seriesStmt>
+      <notesStmt>
+        <note>
+          <!-- notes on other aspects of the resource -->
+        </note>
+      </notesStmt>
+      <sourceDesc>
+        <p>
+          <!-- information about the source from which
+                                the resource was derived  -->
+        </p>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+      <particDesc>
+        <listPerson>
+          <person>
+            <persName>Fridolin</persName>
+          </person>
+          <person>
+            <persName>Albertina</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+    </profileDesc>
+
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart>RHAPSODY A DREAM NOVEL</titlePart>
+          <byline>
+            <docAuthor>Arthur Schnitzler</docAuthor> Translated from the German by OTTO P.
+            SCHINNERER </byline>
+        </docTitle>
+      </titlePage>
+    </front>
+    <body>
+      <div type="chapter" n="1">
+        <head>1.</head>
+        <p>
+          <quote>"TWENTY-FOUR brown-skinned slaves rowed the splendid galley which was to bring
+          Prince Amgiad to the palace of the caliph. The Prince, wrapped in his purple cloak, lay
+          alone on the deck
+            under the dark-blue, starry sky, and his gaze—"</quote><lb /> So far the little girl had
+          read aloud.Then, suddenly, her eyelids drooped. Her parents looked at each other and
+          smiled. <name type="character">Fridolin</name> bent down, kissed her blond hair and closed
+          the book which was lying on the untidy table. The child looked up as if caught at some
+          mischief.<lb />
+          
+          
+          
+            <said aloud="true" direct="true">"It's nine o'clock,"</said> her father
+          said, <said aloud="true" direct="true">"and time you were in bed."</said> <name
+            type="character">Albertina</name> also bent over her, and as her hand met her husband's
+          on the beloved forehead, they looked at each other with a tender smile not meant for the
+          child. The governess entered and asked the little girl to say good-night. She got up
+          obediently, kissed her father and mother and walked out quietly hand in hand with the
+          young woman. <name type="character">Fridolin</name> and <name type="character">Albertina</name>,
+          left alone under the reddish glow of the hanging-lamp, continued the conversation they had
+          begun before supper. </p>
+>>>>>>> Stashed changes
       </div>
     </body>
   </text>
