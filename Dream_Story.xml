@@ -13,6 +13,7 @@
         <title type="alt">
           Rhapsody: A Dream Novel
         </title>
+        <author>Arthut Schnitzler</author>
         <editor role="Translator">
           Otto P. Schinnerer
         </editor>
@@ -67,17 +68,17 @@
       <titlePage>
         <docTitle>
           <titlePart>RHAPSODY A DREAM NOVEL</titlePart>
-          <byline>
-            <docAuthor>Arthur Schnitzler</docAuthor> Translated from the German by OTTO P.
-            SCHINNERER </byline>
         </docTitle>
+        <byline>
+          <docAuthor>Arthur Schnitzler</docAuthor> Translated from the German by OTTO P. SCHINNERER
+        </byline>
       </titlePage>
     </front>
     <body>
       <div type="chapter" n="1">
         <head>1.</head>
         <p>
-          <quote>"TWENTY-FOUR brown-skinned slaves rowed the splendid galley which was to bring
+          <quote>"TWENTY-FOUR brown-skinned slaves rowed the splendid gallery which was to bring
           Prince Amgiad to the palace of the caliph. The Prince, wrapped in his purple cloak, lay
           alone on the deck
             under the dark-blue, starry sky, and his gaze—"</quote><lb /> So far the little girl had
