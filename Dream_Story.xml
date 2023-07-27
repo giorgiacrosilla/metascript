@@ -24,10 +24,12 @@
         <biblScope unit="volume">94</biblScope>
       </seriesStmt>
       <notesStmt>
-        <note><!-- notes on other aspects of the resource --></note>
+        <note><!-- notes on other aspects of the resource -->
+        </note>
       </notesStmt>
       <sourceDesc>
-        <p><!-- information about the source from which the resource was derived  --></p>
+        <p><!-- information about the source from which the resource was derived  -->
+        </p>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -36,40 +38,40 @@
       </langUsage>
     </profileDesc>
     <particDesc>
-        <listPerson>
-          <person>
-            <persName xml:id="Fridolin">Fridolin</persName>
-            <age>30s</age>
-            <description>rugged</description>
-          </person>
-          <person>
-            <persName xml:id="Albertina">Albertina</persName>
-          </person>
-          <person>
-            <persName xml:id="STRANGER">A stranger</persName>
-            <description>blase manner, apparently Polish accent</description>
-          </person>
-          <person>
-            <persName xml:id="2W">Two women in red dominoes</persName>
-          </person>
-        </listPerson>
-        <listEvent>
-          <event>
-            <eventDesc xml:id="MASQ">masquerade ball</eventDesc>
-          </event>
-          <event>
-            <eventDesc xml:id="CARNIVAL">carnival period</eventDesc>
-          </event>
-        </listEvent>
-        <listPlace>
-          <place>
-            <placeName xml:id="Denmark">Denmark</placeName>
-          </place>
-          <place>
-            <placeName xml:id="ball-room">ball-room</placeName>
-          </place>
-        </listPlace>
-      </particDesc>
+      <listPerson>
+        <rs type="person" >
+          <rs type="person" xml:id="Fridolin">Fridolin</rs>
+          <age>30s</age>
+          <description>rugged</description>
+        </rs>
+        <rs type="person" >
+          <rs type="person" xml:id="Albertina">Albertina</rs>
+        </rs>
+        <rs type="person" >
+          <rs type="person" xml:id="STRANGER">A stranger</rs>
+          <description>blase manner, apparently Polish accent</description>
+        </rs>
+        <rs type="person" >
+          <rs type="person" xml:id="2W">Two women in red dominoes</rs>
+        </rs>
+      </listPerson>
+      <listEvent>
+        <event>
+          <eventDesc xml:id="MASQ">masquerade ball</eventDesc>
+        </event>
+        <event>
+          <eventDesc xml:id="CARNIVAL">carnival period</eventDesc>
+        </event>
+      </listEvent>
+      <listPlace>
+        <place>
+          <placeName xml:id="Denmark">Denmark</placeName>
+        </place>
+        <place>
+          <placeName xml:id="ball-room">ball-room</placeName>
+        </place>
+      </listPlace>
+    </particDesc>
   </teiHeader>
   <text>
     <front>
@@ -78,8 +80,7 @@
           <titlePart>RHAPSODY A DREAM NOVEL</titlePart>
         </docTitle>
         <byline>
-          <docAuthor>Arthur Schnitzler</docAuthor> Translated from the German by OTTO P. SCHINNERER
-        </byline>
+          <docAuthor>Arthur Schnitzler</docAuthor> Translated from the German by OTTO P. SCHINNERER </byline>
       </titlePage>
     </front>
     <body>
@@ -91,89 +92,79 @@
           alone on the deck
             under the dark-blue, starry sky, and his gaze—"</quote><lb /> So far the little girl had
           read aloud.Then, suddenly, her eyelids drooped. Her parents looked at each other and
-          smiled. <persName ref="#Fridolin">Fridolin</persName> bent down, kissed her blond hair and
-          closed the book which was lying on the untidy table. The child looked up as if caught at
-          some mischief.<lb />
+          smiled. <rs type="person" ref="#Fridolin">Fridolin</rs> bent down, kissed her blond hair
+          and closed the book which was lying on the untidy table. The child looked up as if caught
+          at some mischief.<lb />
             <said aloud="true" direct="true">"It's nine o'clock,"</said> her
-          father said, <said aloud="true" direct="true">"and time you were in bed."</said> <persName
-            ref="#Albertina">Albertina</persName>also bent over her, and as her hand met her
-          husband's on the beloved forehead, they looked at each other with a tender smile not meant
-          for the child. The governess entered and asked the little girl to say good-night. She got
-          up obediently, kissed her father and mother and walked out quietly hand in hand with the
-          young woman. <persName ref="#Fridolin">Fridolin</persName> and <persName ref="#Albertina">
-          Albertina</persName>, left alone under the reddish glow of the hanging-lamp, continued the
-          conversation they had begun before supper. 
-        </p>
+          father said, <said aloud="true" direct="true">"and time you were in bed."</said> <rs
+            ref="#Albertina">Albertina</rs>also bent over her, and as her hand met her husband's on
+          the beloved forehead, they looked at each other with a tender smile not meant for the
+          child. The governess entered and asked the little girl to say good-night. She got up
+          obediently, kissed her father and mother and walked out quietly hand in hand with the
+          young woman. <rs
+            ref="#Fridolin">Fridolin</rs> and <rs type="person" ref="#Albertina">
+            Albertina</rs>, left alone under the reddish glow of the hanging-lamp, continued the
+          conversation they had begun before supper. </p>
 
+        <p> It dealt with their experiences the night before at the <eventName ref="#MASQ">masquerade
+          ball</eventName>. They had decided to attend it just before the end of the <eventName
+            ref="#CARNIVAL">carnival period</eventName>, as their first one of the season. No sooner
+          had <rs type="person" ref="Fridolin">Fridolin</rs> entered the ball-room than he was
+          greeted, like a long lost friend, by <rs type="person" ref="#2W">two
+            women</rs> in red dominoes. <rs type="person" ref="#Fridolin">He</rs> had no idea who
+          they were, although they were unusually well-informed about many affairs of his student
+          days and internship. They had invited him into a box with great friendliness, but had left
+          again with the promise that they would soon return without masks. When they did not
+          appear, he became impatient and went down to the ball-room floor hoping to meet them
+          again, but eagerly as he scanned the room, he could not see them anywhere. Instead,
+          however, another woman unexpectedly took his arm. It was his <rs type="person"
+            ref="#Albertina">wife</rs>. She had just freed herself from the company of a <rs
+            type="person"
+            ref="#STRANGER">stranger</rs> whose blase manner and apparently Polish accent had at
+          first charmed her. Suddenly he had offended her--frightened her by a rather common and
+          impertinent remark. <rs type="person" ref="#Fridolin">Fridolin</rs> and <rs
+            ref="#Albertina">Albertina</rs> were glad to have escaped from a disappointingly
+          commonplace masquerade prank, and soon sat like two lovers, among the other couples, in
+          the buffet, eating oysters and drinking champagne. They chatted gaily, as though they had
+          just made each other's acquaintance, acting a comedy of courting, bashful resistance,
+          seduction and surrender. After driving home quickly through the snowy winter night, they
+          sank into each other's arms and were more blissful in their ardent love than they had been
+          for a long time. The gray of morning awakened them only too soon. Fridolin's profession
+          summoned him to his patients at an early hour, while <rs type="person" ref="#Albertina">
+          Albertina</rs> would not stay in bed longer because of her duties as housewife and mother.
+          So the ensuing hours passed, soberly and predetermined, in daily routine and work, and the
+          events of the night before, both those at the beginning and at the end, had faded. </p>
 
-        <p>
-        It dealt with their experiences the night before at the <eventName ref="#MASQ">masquerade ball</eventName>. 
-        They had decided to attend it just before the end of the <eventName ref="#CARNIVAL">carnival period</eventName>, 
-        as their first one of the season. No sooner had <persName ref="Fridolin">Fridolin</persName> entered the 
-        <placeName ref="#ball-room">ball-room</placeName> than he was greeted, like a long lost friend, by <person ref="#2W">two women</person>
-        in red dominoes. <persName ref="Fridolin">He</persName> had no idea who they were, although they were unusually well-informed 
-        about many affairs of his student days and internship. <person ref="#2W">They</person> had invited him into a box with great friendliness,
-        but had left again with the promise that they would soon return without masks. When they did not appear, he became impatient and went down
-        to the ball-room floor hoping to meet them again, but eagerly as he scanned the room, he could not see them anywhere. 
-        Instead, however, another woman unexpectedly took his arm. It was his <person ref="#Albertina">wife</person>. 
-        She had just freed herself from the company of a <person ref="#STRANGER">stranger</person> whose blase manner and apparently Polish
-        accent had at first charmed her. Suddenly he had offended her--frightened her by a rather common and impertinent remark. 
-        <persName ref="#Fridolin">Fridolin</persName> and <persName ref="#Albertina">Albertina</persName> were glad to have escaped from a disappointingly
-        commonplace masquerade prank, and soon sat like two lovers, among the other couples, in the buffet, eating oysters and drinking champagne. 
-        They chatted gaily, as though they had just made each other's acquaintance, acting a comedy of courting, bashful resistance, seduction and surrender. 
-        After driving home quickly through the snowy winter night, they sank into each other's arms and were more blissful in their ardent love than 
-        they had been for a long time. The gray of morning awakened them only too soon. Fridolin's profession summoned him to his patients at an early hour,
-        while <persName ref="Albertina">Albertina</persName> would not stay in bed longer because of her duties as housewife and mother. 
-        So the ensuing hours passed, soberly and predetermined, in daily routine and work, and the events of the night before, 
-        both those at the beginning and at the end, had faded.
-        </p>
-
-        <p>
-          But now that the day's work was done— the child had gone to bed and no disturbance was
-          likely—the
-          shadowy forms of the masquerade, the melancholy stranger and the red dominoes, rose again
-          into
-          reality. And all at once those insignificant events were imbued, magically and painfully,
-          with the
-          deceptive glow of neglected opportunities. Harmless but probing questions, and sly,
-          ambiguous answers
-          were exchanged. Neither failed to notice that the other was not absolutely honest, and so
-          they became
-          slightly vindictive. They exaggerated the degree of attraction that their unknown partners
-          at the ball had
-          exerted upon them while each made fun of the other's tendencies to jealousy and denied his
-          own. Soon,
-          their light conversation about the trifling matters of the night before changed into a
-          more serious
-          discussion of those hidden, scarcely suspected wishes, which can produce dangerous
-          whirlpools even in
-          the serenest and purest soul. They spoke of those mysterious regions of which they were
-          hardly
-          conscious but toward which the incomprehensible wind of fate might some day drive them,
-          even if only
-          in their dreams. For though they were united in thought and feeling, they knew that the
-          preceding day
-          had not been the first time that the spirit of adventure, freedom and danger had beckoned
-          them.
-          Uneasy, and tormenting themselves, each sought with disingenuous curiosity to draw out
-          confessions
-          from the other. Anxiously, they searched within themselves for some indifferent fact, or
-          trifling
+        <p> But now that the day's work was done— the child had gone to bed and no disturbance was
+          likely—the shadowy forms of the masquerade, the melancholy stranger and the red dominoes,
+          rose again into reality. And all at once those insignificant events were imbued, magically
+          and painfully, with the deceptive glow of neglected opportunities. Harmless but probing
+          questions, and sly, ambiguous answers were exchanged. Neither failed to notice
+          that the other was not absolutely honest, and so they became slightly vindictive. They
+          exaggerated the degree of attraction that their unknown partners at the ball had exerted
+          upon them while each made fun of the other's tendencies to jealousy and denied his own.
+          Soon, their light conversation about the trifling matters of the night before changed into
+          a more serious discussion of those hidden, scarcely suspected wishes, which can produce
+          dangerous whirlpools even in the serenest and purest soul. They spoke of those mysterious
+          regions of which they were hardly conscious but toward which the incomprehensible wind of
+          fate might some day drive them, even if only in their dreams. For though they were united
+          in thought and feeling, they knew that the preceding day had not been the first time that
+          the spirit of adventure, freedom and danger had beckoned them. Uneasy, and tormenting
+          themselves, each sought with disingenuous curiosity to draw out confessions from the
+          other. Anxiously, they searched within themselves for some indifferent fact, or trifling
           experience, which might express the inexpressible, and the honest confession of which
-          might relieve
-          them of the strain and the suspicion which were becoming unbearable.
-        </p>
+          might relieve them of the strain and the suspicion which were becoming unbearable. </p>
 
-        <p> Whether <persName ref="#Albertina">Albertina</persName> was more impatient, more honest
-          or more kind-hearted of the two, it was she who first summoned the courage for a frank
-          confession. She asked <persName ref="#Fridolin">Fridolin</persName> in a rather uncertain
-          voice whether he remembered the young man who—last summer at the seashore in <placeName
-            ref="#Denmark">Denmark</placeName>—had been sitting one evening with two other officers
-          at an adjoining table. He had received a telegram during dinner, whereupon he had hastily
-          said "good-bye" to his friends.</p>
+        <p> Whether <rs type="person" ref="#Albertina">Albertina</rs> was more impatient, more
+          honest or more kind-hearted of the two, it was she who first summoned the courage for a
+          frank confession. She asked <rs type="person" ref="#Fridolin">Fridolin</rs> in a rather
+          uncertain voice whether he remembered the young man who—last summer at the seashore in
+          Denmark—had been sitting one evening with two other officers at an adjoining table. He had
+          received a telegram during dinner, whereupon he had hastily said "good-bye" to his
+          friends.</p>
         <p>
-          <persName ref="#Fridolin">Fridolin</persName> nodded. "What about him?" he asked.
-        </p>
+          <rs type="person" ref="#Fridolin">Fridolin</rs> nodded. <said aloud="true" direct="true">"What
+          about him?"</said> he asked. </p>
       </div>
     </body>
   </text>
