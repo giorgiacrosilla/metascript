@@ -4,19 +4,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">
-          Dream Stories
-        </title>
-        <title type="alt">
-          Traumnovelle
-        </title>
-        <title type="alt">
-          Rhapsody: A Dream Novel
-        </title>
-        <author>Arthut Schnitzler</author>
-        <editor role="Translator">
-          Otto P. Schinnerer
-        </editor>
+        <title type="main">Dream Story</title>
+        <title type="alt">Traumnovelle</title>
+        <title type="alt">Rhapsody: A Dream Novel</title>
+        <editor role="Translator">Otto P. Schinnerer</editor>
       </titleStmt>
       <extent>
         <measure unit="pages" quantity="143">143 pages</measure>
@@ -29,39 +20,56 @@
         <date>2003</date>
       </publicationStmt>
       <seriesStmt>
-        <p>
-          Masterworks of fiction
-        </p>
+        <title level="s">Masterworks of fiction</title>
         <biblScope unit="volume">94</biblScope>
       </seriesStmt>
       <notesStmt>
-        <note>
-          <!-- notes on other aspects of the resource -->
-        </note>
+        <note><!-- notes on other aspects of the resource --></note>
       </notesStmt>
       <sourceDesc>
-        <p>
-          <!-- information about the source from which
-                                the resource was derived  -->
-        </p>
+        <p><!-- information about the source from which the resource was derived  --></p>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <langUsage>
         <language ident="en">English</language>
       </langUsage>
-      <particDesc>
+    </profileDesc>
+    <particDesc>
         <listPerson>
           <person>
-            <persName>Fridolin</persName>
+            <persName xml:id="Fridolin">Fridolin</persName>
+            <age>30s</age>
+            <description>rugged</description>
           </person>
           <person>
-            <persName>Albertina</persName>
+            <persName xml:id="Albertina">Albertina</persName>
+          </person>
+          <person>
+            <persName xml:id="STRANGER">A stranger</persName>
+            <description>blase manner, apparently Polish accent</description>
+          </person>
+          <person>
+            <persName xml:id="2W">Two women in red dominoes</persName>
           </person>
         </listPerson>
+        <listEvent>
+          <event>
+            <eventDesc xml:id="MASQ">masquerade ball</eventDesc>
+          </event>
+          <event>
+            <eventDesc xml:id="CARNIVAL">carnival period</eventDesc>
+          </event>
+        </listEvent>
+        <listPlace>
+          <place>
+            <placeName xml:id="Denmark">Denmark</placeName>
+          </place>
+          <place>
+            <placeName xml:id="ball-room">ball-room</placeName>
+          </place>
+        </listPlace>
       </particDesc>
-    </profileDesc>
-
   </teiHeader>
   <text>
     <front>
@@ -94,7 +102,32 @@
           up obediently, kissed her father and mother and walked out quietly hand in hand with the
           young woman. <persName ref="#Fridolin">Fridolin</persName> and <persName ref="#Albertina">
           Albertina</persName>, left alone under the reddish glow of the hanging-lamp, continued the
-          conversation they had begun before supper. </p>
+          conversation they had begun before supper. 
+        </p>
+
+
+        <p>
+        It dealt with their experiences the night before at the <eventName ref="#MASQ">masquerade ball</eventName>. 
+        They had decided to attend it just before the end of the <eventName ref="#CARNIVAL">carnival period</eventName>, 
+        as their first one of the season. No sooner had <persName ref="Fridolin">Fridolin</persName> entered the 
+        <placeName ref="#ball-room">ball-room</placeName> than he was greeted, like a long lost friend, by <person ref="#2W">two women</person>
+        in red dominoes. <persName ref="Fridolin">He</persName> had no idea who they were, although they were unusually well-informed 
+        about many affairs of his student days and internship. <person ref="#2W">They</person> had invited him into a box with great friendliness,
+        but had left again with the promise that they would soon return without masks. When they did not appear, he became impatient and went down
+        to the ball-room floor hoping to meet them again, but eagerly as he scanned the room, he could not see them anywhere. 
+        Instead, however, another woman unexpectedly took his arm. It was his <person ref="#Albertina">wife</person>. 
+        She had just freed herself from the company of a <person ref="#STRANGER">stranger</person> whose blase manner and apparently Polish
+        accent had at first charmed her. Suddenly he had offended her--frightened her by a rather common and impertinent remark. 
+        <persName ref="#Fridolin">Fridolin</persName> and <persName ref="#Albertina">Albertina</persName> were glad to have escaped from a disappointingly
+        commonplace masquerade prank, and soon sat like two lovers, among the other couples, in the buffet, eating oysters and drinking champagne. 
+        They chatted gaily, as though they had just made each other's acquaintance, acting a comedy of courting, bashful resistance, seduction and surrender. 
+        After driving home quickly through the snowy winter night, they sank into each other's arms and were more blissful in their ardent love than 
+        they had been for a long time. The gray of morning awakened them only too soon. Fridolin's profession summoned him to his patients at an early hour,
+        while <persName ref="Albertina">Albertina</persName> would not stay in bed longer because of her duties as housewife and mother. 
+        So the ensuing hours passed, soberly and predetermined, in daily routine and work, and the events of the night before, 
+        both those at the beginning and at the end, had faded.
+        </p>
+
         <p>
           But now that the day's work was done— the child had gone to bed and no disturbance was
           likely—the
@@ -128,7 +161,8 @@
           trifling
           experience, which might express the inexpressible, and the honest confession of which
           might relieve
-          them of the strain and the suspicion which were becoming unbearable.</p>
+          them of the strain and the suspicion which were becoming unbearable.
+        </p>
 
         <p> Whether <persName ref="#Albertina">Albertina</persName> was more impatient, more honest
           or more kind-hearted of the two, it was she who first summoned the courage for a frank
@@ -137,7 +171,6 @@
             ref="#Denmark">Denmark</placeName>—had been sitting one evening with two other officers
           at an adjoining table. He had received a telegram during dinner, whereupon he had hastily
           said "good-bye" to his friends.</p>
-
         <p>
           <persName ref="#Fridolin">Fridolin</persName> nodded. "What about him?" he asked.
         </p>
