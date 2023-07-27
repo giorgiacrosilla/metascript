@@ -80,7 +80,8 @@
           <titlePart>RHAPSODY A DREAM NOVEL</titlePart>
         </docTitle>
         <byline>
-          <docAuthor>Arthur Schnitzler</docAuthor> Translated from the German by OTTO P. SCHINNERER </byline>
+          <docAuthor>Arthur Schnitzler</docAuthor> Translated from the German by OTTO P. SCHINNERER
+        </byline>
       </titlePage>
     </front>
     <body>
@@ -165,6 +166,7 @@
         <p>
           <rs type="person" ref="#Fridolin">Fridolin</rs> nodded. <said aloud="true" direct="true">"What
           about him?"</said> he asked. </p>
+
       </div>
     </body>
   </text>
