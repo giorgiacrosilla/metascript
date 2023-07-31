@@ -16,8 +16,8 @@ def xml_parser(script, destination_file):
     xml_str = ''
 
     xml_blocks = {
-        'speech': '''<sp who="#{0}">\n   <speaker>{0}</speaker>\n   <p>{1}</p>\n</sp>\n''',
-        'charstage': '''<sp who="#{0}">\n   <speaker>{0}</speaker>\n   <stage type="#replace">{1}</stage>\n\t<p>{2}</p>\n</sp>\n''',
+        'speech': '''<sp who="#{0}">\n\t<speaker>{0}</speaker>\n\t<p>{1}</p>\n</sp>\n''',
+        'charstage': '''<sp who="#{0}">\n\t<speaker>{0}</speaker>\n\t<stage type="#replace">{1}</stage>\n\t<p>{2}</p>\n</sp>\n''',
         'stage': '<stage type="#replace">{}</stage>\n',
         'p': '\t<p>{}</p>\n</sp>\n',
         'location': '<stage type="location">{}</stage>\n'
@@ -66,7 +66,7 @@ def xml_parser(script, destination_file):
 
 if __name__ == "__main__":
     script = './0085.html'
-    destination_file = 'parsed_xml.xml'
+    destination_file = './parsed_xml.xml'
     xml_parser(script, destination_file)
 
 # Manual labour:
