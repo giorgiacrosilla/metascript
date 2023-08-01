@@ -36,42 +36,110 @@
       <langUsage>
         <language ident="en">English</language>
       </langUsage>
+      <particDesc>
+        <listPerson>
+          <rs type="person">
+            <rs type="person" xml:id="Fridolin">Fridolin</rs>
+            <age>30s</age>
+            <description> doctor, rugged, knows how to play piano</description>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="Albertina">Albertina</rs>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="STRANGER">A stranger</rs>
+            <description>blase manner, apparently Polish accent</description>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="2W">Two women in red dominoes</rs>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="daughter">Fridolin and Albertina's daughter</rs>
+            <description>blonde hair</description>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="governess">Governess</rs>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="younggirl">Young girl</rs>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="councilor">councilor</rs>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="Marianne">Marianne</rs>
+            <description>Councilor's daughter, was blond and thick, but dry; her neck well-formed
+              and
+              slender, although a little wrinkled
+              and rather yellow; and her lips were thin and firmly pressed together.</description>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="Roediger">Doctor Roediger</rs>
+            <description>Marianne's fiance.</description>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="Mizzi">Mizzi</rs>
+          </rs>
+          <rs type="person">
+            <rs type="person" xml:id="Nachtigall">Nachtigall</rs>
+            <description>young
+              man, Jew, tall, rather broad, and none too thin. His long, blond, slightly curly hair
+              had a
+              touch of gray in it, and his moustache drooped in Polish fashion. He was wearing an
+              open
+              gray top-coat, underneath which were visible a greasy dress-suit, a crumpled shirt
+              with
+              three false diamond studs, a crinkled collar and a dangling, white silk tie. His
+              eyelids
+              were inflamed, as if from many sleepless nights, but his blue eyes gleamed brightly.</description>
+          </rs>
+        </listPerson>
+        <listEvent>
+          <event>
+            <eventDesc xml:id="MASQ">masquerade ball</eventDesc>
+          </event>
+          <event>
+            <eventDesc xml:id="CARNIVAL">carnival period</eventDesc>
+          </event>
+        </listEvent>
+        <listPlace>
+          <place xml:id="Denmark" type="country">
+            <placeName>Denmark</placeName>
+          </place>
+          <place>
+            <placeName xml:id="ball-room">ball-room</placeName>
+          </place>
+          <place>
+            <placeName xml:id="worther">Lake Worther</placeName>
+          </place>
+          <place>
+            <placeName xml:id="schrey">Schreyvogel Strasse</placeName>
+          </place>
+          <place>
+            <placeName xml:id="hospital">General Hospital</placeName>
+          </place>
+          <place>
+            <placeName xml:id="park">Rathaus Park</placeName>
+          </place>
+          <place xml:id="Vienna" type="city">
+            <placeName>Vienna</placeName>
+            <location>
+              <country>Austria</country>
+              <geo>48.210033 16.363449</geo>
+            </location>
+          </place>
+          <place>
+            <placeName xml:id="square">Rathaus Square</placeName>
+          </place>
+          <place>
+            <placeName xml:id="schonbrunn">Schonbrunn Strasse</placeName>
+          </place>
+          <place>
+            <placeName xml:id="hotel">Riedhof Hotel</placeName>
+          </place>
+        </listPlace>
+      </particDesc>
     </profileDesc>
-    <particDesc>
-      <listPerson>
-        <rs type="person" >
-          <rs type="person" xml:id="Fridolin">Fridolin</rs>
-          <age>30s</age>
-          <description>rugged</description>
-        </rs>
-        <rs type="person" >
-          <rs type="person" xml:id="Albertina">Albertina</rs>
-        </rs>
-        <rs type="person" >
-          <rs type="person" xml:id="STRANGER">A stranger</rs>
-          <description>blase manner, apparently Polish accent</description>
-        </rs>
-        <rs type="person" >
-          <rs type="person" xml:id="2W">Two women in red dominoes</rs>
-        </rs>
-      </listPerson>
-      <listEvent>
-        <event>
-          <eventDesc xml:id="MASQ">masquerade ball</eventDesc>
-        </event>
-        <event>
-          <eventDesc xml:id="CARNIVAL">carnival period</eventDesc>
-        </event>
-      </listEvent>
-      <listPlace>
-        <place>
-          <placeName xml:id="Denmark">Denmark</placeName>
-        </place>
-        <place>
-          <placeName xml:id="ball-room">ball-room</placeName>
-        </place>
-      </listPlace>
-    </particDesc>
   </teiHeader>
   <text>
     <front>
@@ -80,8 +148,7 @@
           <titlePart>RHAPSODY A DREAM NOVEL</titlePart>
         </docTitle>
         <byline>
-          <docAuthor>Arthur Schnitzler</docAuthor> Translated from the German by OTTO P. SCHINNERER
-        </byline>
+          <docAuthor>Arthur Schnitzler</docAuthor> Translated from the German by OTTO P. SCHINNERER </byline>
       </titlePage>
     </front>
     <body>
@@ -91,18 +158,20 @@
           <quote>"TWENTY-FOUR brown-skinned slaves rowed the splendid gallery which was to bring
           Prince Amgiad to the palace of the caliph. The Prince, wrapped in his purple cloak, lay
           alone on the deck
-            under the dark-blue, starry sky, and his gaze—"</quote><lb /> So far the little girl had
-          read aloud.Then, suddenly, her eyelids drooped. Her parents looked at each other and
-          smiled. <rs type="person" ref="#Fridolin">Fridolin</rs> bent down, kissed her blond hair
-          and closed the book which was lying on the untidy table. The child looked up as if caught
-          at some mischief.<lb />
-            <said aloud="true" direct="true">"It's nine o'clock,"</said> her
-          father said, <said aloud="true" direct="true">"and time you were in bed."</said> <rs
+            under the dark-blue, starry sky, and his gaze—"</quote><lb /> So far the <rs
+            ref="#daughter">little girl</rs> had read aloud.Then, suddenly, her eyelids drooped. Her
+          parents looked at each other and smiled. <rs type="person" ref="#Fridolin">Fridolin</rs>
+          bent down, kissed her blond hair and closed the book which was lying on the untidy table.
+          The child looked up as if caught at some mischief.<lb />
+            <said aloud="true" direct="true"
+            who="Fridolin" listener="daughter">"It's nine o'clock,"</said> her father said, <said
+            aloud="true" direct="true" who="Fridolin" listener="daughter">"and time you were in
+            bed."</said> <rs
             ref="#Albertina">Albertina</rs>also bent over her, and as her hand met her husband's on
           the beloved forehead, they looked at each other with a tender smile not meant for the
-          child. The governess entered and asked the little girl to say good-night. She got up
-          obediently, kissed her father and mother and walked out quietly hand in hand with the
-          young woman. <rs
+          child. The <rs ref="#governess">governess</rs> entered and asked the little girl to say
+          good-night. She got up obediently, kissed her father and mother and walked out quietly
+          hand in hand with the young woman. <rs
             ref="#Fridolin">Fridolin</rs> and <rs type="person" ref="#Albertina">
             Albertina</rs>, left alone under the reddish glow of the hanging-lamp, continued the
           conversation they had begun before supper. </p>
@@ -136,7 +205,8 @@
           So the ensuing hours passed, soberly and predetermined, in daily routine and work, and the
           events of the night before, both those at the beginning and at the end, had faded. </p>
 
-        <p> But now that the day's work was done— the child had gone to bed and no disturbance was
+        <p>
+          But now that the day's work was done— the child had gone to bed and no disturbance was
           likely—the shadowy forms of the masquerade, the melancholy stranger and the red dominoes,
           rose again into reality. And all at once those insignificant events were imbued, magically
           and painfully, with the deceptive glow of neglected opportunities. Harmless but probing
@@ -164,9 +234,793 @@
           received a telegram during dinner, whereupon he had hastily said "good-bye" to his
           friends.</p>
         <p>
-          <rs type="person" ref="#Fridolin">Fridolin</rs> nodded. <said aloud="true" direct="true">"What
-          about him?"</said> he asked. </p>
+          <rs type="person" ref="#Fridolin">Fridolin</rs> nodded. <said aloud="true" direct="true"
+            who="Fridolin" listener="Albertina">"What
+            about him?"</said> he asked. </p>
+        <p>
+          <said aloud="true" direct="true" who="Albertina" listener="Fridolin">I'd already seen him
+          in the morning,"</said> she replied, <said aloud="true" direct="true" who="Albertina"
+            listener="Fridolin">"as he was hurrying up the stairs in the hotel with
+            his yellow hand-bag. He looked at me as he passed, but didn't stop until he had gone a
+          few more steps.
+            Then he turned and our eyes met. He didn't smile; in fact, it seemed to me that he
+          scowled. I suppose I
+            did the same, for I was very much stirred. That whole day I lay on the beach, lost in
+          dreams. Had he
+            called me—I thought—I could not have resisted. I thought I was ready for anything. I had
+          practically
+            resolved to give up you, the child, my future, and at the same time —if you can
+          understand it?—you
+            were dearer to me than ever. That same afternoon—surely you remember—we discussed many
+          things
+            very intimately, among others our common future, and our child. At sunset you and I were
+          sitting on the
+            balcony, when, down below on the beach, he passed without looking up. I was extremely
+          thrilled to see
+            him, but I stroked your forehead and kissed your hair, and my love for you was both
+          sorrowful and
+            compassionate. That evening at dinner I wore a white rose and you yourself said I was
+          very beautiful.
+            Perhaps it wasn't mere chance that the stranger and his friends sat near us. He didn't
+          look at me, but I
+            considered getting up, walking over to him and saying: Here I am, my beloved for whom I
+          have waited —
+            take me. At that moment the telegram was handed to him. He read it, turned pale,
+          whispered a few
+            words to the younger of the two officers—and glancing at me mysteriously he left the
+          room."</said>
+        </p>
 
+        <p>
+          <said aloud="true" direct="true" who="Fridolin" listener="Albertina">"And then?"</said>
+          <rs
+            ref="#Fridolin">Fridolin</rs> asked dryly when she stopped. </p>
+        <p>
+          <said aloud="true" direct="true" who="Albertina" listener="Fridolin">"That is all. I
+            remember that I woke the next morning with a restless anxiety. I don't know whether I
+            was afraid that he had left or that he might still be there. But when he didn't appear
+            at noon, I breathed a sigh of relief. Don't ask any more, <rs ref="#Fridolin">Fridolin</rs>.
+            I've told you the whole truth. And you, too, had some sort of experience at the
+            seashore—I know it."</said>
+        </p>
+
+        <p>
+          <rs ref="#Fridolin">Fridolin</rs> rose, walked up and down the room several times and then
+          said: <said aloud="true" direct="true" who="Fridolin" listener="Albertina">"You're right."</said>
+          He was standing at the window, his face in shadow and in a hoarse and slightly hostile
+          voice he began: <said aloud="true" direct="true" who="Fridolin" listener="Albertina">In
+          the morning, sometimes very early before you got up, I used to stroll along the beach, out
+          beyond the town. Even at that hour the sun was always shining over the sea, bright and
+          strong. Out there on the beach, as you know, were cottages, each one standing like a world
+          in itself. Some had fenced-in gardens, others were surrounded only by the woods. The
+          bathing-huts were separated from the cottages by the road and part of the beach. I hardly
+          ever met people at such an early hour, and bathers were never out. One morning, quite
+          suddenly, I noticed the figure of a woman. She had suddenly appeared on the narrow ledge
+          of a bathing-hut, which rested on piles driven into the sand. She was cautiously
+          advancing, placing one foot before the other, her arms extended backward against the
+          wooden boards. She was quite a <rs ref="#younggirl">young girl</rs>, possibly fifteen
+          years old, with loose blond hair hanging over her shoulders and on one side over her
+          delicate breast. She was looking down into the water and was slowly moving along the wall,
+          her gaze lowered in the direction of the far corner. All at once she stopped opposite me
+          and reached far back with her arms as though trying to secure a firmer hold. Looking up,
+          she suddenly saw me. A tremor passed through her body, as though she wished to drop into
+          the water or run. But as she could move only very slowly on the narrow ledge, she had to
+          stay where she was. She stood there with a face expressing at first fright, then anger,
+          and finally embarrassment. All at once, however, she smiled, smiled marvelously. Her eyes
+          welcomed me, beckoned to me, and at the same time slightly mocked me, as she glanced at
+          the strip of water between us. Then she stretched her young and slender body, glad of her
+          beauty, and proudly and sweetly stirred by my obvious admiration. We stood facing each
+          other for perhaps ten seconds, with half-open lips and dazzled eyes. Involuntarily I
+          stretched out my arms to her; her eyes expressed surrender and joy. Then she shook her
+          head vigorously, took one arm from the wall and commanded me with a gesture to go away.
+          When I didn't at once obey, her childlike eyes turned on me such a beseeching look that
+          there was nothing for me to do but to go, and I went as quickly as possible. I did not
+          look back once—not because I felt considerate, obedient or chivalrous, but because in her
+          last glance I sensed an emotion so intense, so far beyond anything I had ever experienced,
+          that I was not far from fainting."</said> And he stopped. </p>
+        <p> With her eyes cast down and in a monotonous voice, <rs ref="#Albertina">
+            Albertina</rs> asked: <said aloud="true" direct="true" who="Albertina"
+            listener="Fridolin">And
+            how often
+            did you
+            see her
+            after that?"</said>
+        </p>
+        <p>
+          <said aloud="true" direct="true" who="Fridolin" listener="Albertina">"What I have told
+          you,"</said> <rs ref="#Fridolin">Fridolin</rs> answered, <said aloud="true" direct="true"
+            who="Fridolin" listener="Albertina">"happened on the last day of our stay in Denmark.
+          Otherwise I don't know what might have taken place. You, too, mustn't ask any more, <rs
+              ref="#Albertina">Albertina</rs>."</said>
+        </p>
+        <p> He was still standing at the window, motionless as <rs
+            ref="#Albertina">Albertina</rs> arose and walked over to him. There were tears in her
+          eyes and a slight frown on her face. <said aloud="true" direct="true" who="Albertina"
+            listener="Fridolin">"In the future let's always tell each other such
+            things at once,"</said> she said. </p>
+        <p>He nodded in silence. <said aloud="true" direct="true" who="Albertina"
+            listener="Fridolin">"Will you promise me?"</said>
+        </p>
+        <p> He took her into his arms. <said aloud="true" direct="true" who="Fridolin"
+            listener="Albertina">"Don't
+            you know that?"</said> he asked. But his voice was still harsh. </p>
+        <p>She took his hands and looked up at him with misty eyes, in the depths of which he could
+          read her thoughts. She was thinking of his other and more real experiences, those of his
+          young manhood, many of which she knew about. When they were first married he had yielded,
+          all too readily, to her jealous curiosity and had told her (indeed it often seemed to him)
+          had surrendered to her many secrets which he should rather have kept to himself. He knew
+          that she was inevitably reminded of these affairs and he was hardly surprised when she
+          murmured the half-forgotten name of one of his early sweethearts. It sounded to him a
+          little like a reproach, or was it a covert threat?
+        </p>
+        <p> He raised her hands to his lips. <said
+            aloud="true" direct="true" who="Fridolin" listener="Albertina">"You may believe me, even
+          though it sounds trite, that in every woman I thought I loved it was always you I was
+          looking for—I know that better than you can understand it, <rs ref="#Albertina">Albertina</rs>
+          ." </said>
+        </p>
+        <p>A dispirited smile passed over her face. <said aloud="true" direct="true"
+            who="Albertina" listener="Fridolin">"And suppose before meeting you, I, too, had gone on
+          a search for a
+            mate?"</said> she asked. The look in her eyes changed, becoming cool and impenetrable,
+          and he allowed her hands to slip from his, as though he had caught her lying or committing
+          a breach of faith. She, however, continued: <said aloud="true" direct="true"
+            who="Albertina" listener="Fridolin">"Oh, if you men knew!"</said> and again was silent. <said
+            aloud="true" direct="true" who="Fridolin" listener="Albertina">"If we
+            knew—? What do you mean by that?"</said> In a strangely harsh voice she replied: <said
+            aloud="true" direct="true" who="Albertina" listener="Fridolin">"About what you imagine,
+          my dear."</said> <said aloud="true" direct="true" who="Fridolin" listener="Albertina">"<rs
+              ref="#Albertina">Albertina</rs>!—then there is something that you've kept from me?"</said>
+          She nodded, and looked down with a strange smile. Incomprehensible, monstrous doubts
+          crossed his mind. <said aloud="true" direct="true" who="Fridolin" listener="Albertina">"I
+          don't quite understand,"</said> he said. <said aloud="true" direct="true" who="Fridolin"
+            listener="Albertina">"You were barely seventeen when we became engaged."</said><said
+            aloud="true" direct="true" who="Albertina" listener="Fridolin">"Past sixteen, yes, <rs
+              ref="#Fridolin">Fridolin</rs>. But it wasn't my fault that I was a virgin when I
+          became your wife."</said> She looked at him brightly. <said aloud="true" direct="true"
+            who="Fridolin" listener="Albertina">"<rs ref="#Albertina">Albertina</rs>——!"</said> But
+          she continued: <said aloud="true" direct="true" who="Albertina" listener="Fridolin">"It
+            was a beautiful summer evening at Lake Worther, just before our engagement, and a very
+          handsome young man stood before my window that overlooked a large and spacious meadow. As
+          we talked I thought to myself—just listen to this—what a charming young man that is—he
+          would only have to say the word—it would have to be the right one, certainly—and I would
+            go out with him into the meadow or the woods—or it would be even more beautiful in a
+            boat
+            on the lake—and I would grant him this night anything he might desire. That is what I
+          thought to myself.—But he didn't say a word, that charming young man. He only kissed my
+          hand tenderly— and next morning he asked me—if I would be his wife. And I said yes."</said>
+        </p>
+        <p>
+          <rs
+            ref="#Fridolin">Fridolin</rs> was annoyed and dropped her hand. <said aloud="true"
+            direct="true" who="Fridolin" listener="Albertina">"And if,"</said> he said, <said
+            aloud="true" direct="true" who="Fridolin" listener="Albertina">"someone else had stood
+            by your window that night and the right word had occurred to him, if it had been, for
+          instance—"</said> He was considering, but she raised her hand protestingly. </p>
+        <p><said
+            aloud="true" direct="true" who="Fridolin" listener="Albertina">"Any other man—no
+            matter who—could have said anything he liked—it would have been useless. And if it
+            hadn't
+            been you standing by the window, then very likely the summer evening wouldn't have been
+          so
+            beautiful."</said> And she smiled at him. </p>
+        <p> There was a scornful expression about his mouth. <said
+            aloud="true" direct="true" who="Fridolin" listener="Albertina">"Yes,
+            that's what you say now. Perhaps you even believe it at this moment. But——"</said>
+        </p>
+        <p>There was a knock on the door. The maid entered and said that the housekeeper from
+          Schreyvogel Strasse had come to fetch the doctor, as the Privy Councilor was very low
+          again. <rs
+            ref="#Fridolin">
+            Fridolin</rs> went out into the hall, and when the woman told him that the Councilor had
+          had a very serious heart attack, he promised to come at once. As he was leaving, <rs
+            ref="#Albertina">Albertina</rs> asked: <said
+            aloud="true" direct="true" who="Albertina" listener="Fridolin">"You're going away?"</said>
+          She said it with as much annoyance as if he were deliberately doing her an injustice. <rs
+            ref="#Fridolin">Fridolin</rs> replied, with astonishment: <said
+            aloud="true" direct="true" who="Fridolin" listener="Albertina">"I suppose I've got to."</said>
+          She sighed regretfully. <said
+            aloud="true" direct="true" who="Fridolin" listener="Albertina">"I hope it
+            won't be very serious,"</said> said <rs
+            ref="#Fridolin">Fridolin</rs>. <said
+            aloud="true" direct="true" who="Fridolin" listener="Albertina">"Up to now three
+          centigrams
+            of morphine have always
+            pulled him through."</said> The maid brought his fur coat, and absent-mindedly kissing <rs
+            ref="#Albertina">Albertina</rs> on her forehead and mouth, as if everything during the
+          last hour had been completely forgotten, he hurried away. </p>
+      </div>
+      <div type="chapter" n="2">
+        <head>2.</head>
+        <p>WHEN <rs ref="#Fridolin">
+            Fridolin</rs> reached the street, he unbuttoned his coat. It had suddenly begun to thaw;
+          the snow on the sidewalk was almost gone, and there was a touch of spring in the air. It
+          was less than a quarter of an hour's walk to Schreyvogel Strasse from his home near the
+          General Hospital, and he soon reached the old house. He walked up the dimly lighted
+          winding staircase to the second floor and pulled the bell-rope. But before the
+          old-fashioned bell was heard, he noticed that the door was ajar, and entering through the
+          unlighted foyer into the living room he saw at once that he had come too late. The
+          green-shaded kerosene lamp which was hanging from the low ceiling cast a dim light on the
+          bedspread under which a lean body lay motionless. <rs ref="#Fridolin">Fridolin</rs> knew
+          the old man so well that he seemed to see the face plainly, although it was outside the
+          circle of light— the high forehead, the thin and lined cheeks, the snow-white beard and
+          also the strikingly ugly ears with coarse, white hairs. At the foot of the bed sat <rs
+            ref="#Marianne">Marianne</rs>, the Councilor's daughter, completely exhausted, her arms
+          hanging limply from her shoulders. An odor of old furniture, medicine, petroleum and
+          cooking pervaded the room, and in addition to that there was a trace of eau de Cologne and
+          scented soap. <rs
+            ref="#Fridolin">Fridolin</rs> also noticed the indefinite, sweetish scent of this pale
+          girl who was still young and who had been slowly fading for months and years under the
+          stress of severe household duties, nursing and night watches. When the doctor entered she
+          looked up, but because of the dim light he could not see whether she had blushed, as
+          usual, when he appeared. She started to rise, but he stopped her with a movement of his
+          hand, and so she merely greeted him with a nod, her eyes large and sad. He stepped to the
+          head of the bed and mechanically placed his hands on the forehead of the dead man and on
+          the arms which were lying on the bed-spread in loose and open shirt sleeves. His shoulders
+          drooped with a slight expression of regret. He stuck his hands into the pockets of his
+          coat and his eyes wandered about the room until they finally rested on <rs ref="#Marianne">
+          Marianne</rs>. Her hair was blond and thick, but dry; her neck well-formed and slender,
+          although a little wrinkled and rather yellow; and her lips were thin and firmly pressed
+          together. <said aloud="true" direct="true" who="Fridolin" listener="Marianne">Well, my
+          dear <rs ref="#Marianne">Marianne</rs>,"</said> he said in a slightly embarrassed whisper, <said
+            aloud="true" direct="true" who="Fridolin" listener="Marianne">"you weren't entirely
+          unprepared for
+            this."</said> She held out her hand to him. He took it sympathetically and inquired
+          about the particulars of the final, fatal attack. <said aloud="true" direct="false"
+            who="Marianne" listener="Fridolin">She reported briefly and to the point, and then spoke
+          of her father's last comparatively easy days, during which <rs ref="#Fridolin">
+              Fridolin</rs> had not seen him.</said> Drawing up a chair, he sat down opposite her,
+          and tried to console her by <said aloud="true" direct="false" who="Fridolin"
+            listener="Marianne">saying that her father must have suffered very little at the last.
+            He then
+            asked if any of her relatives had been notified.</said> <said aloud="true" direct="false"
+            who="Marianne" listener="Fridolin">Yes, she said, the housekeeper had
+            already gone to tell her uncle, and very likely Doctor Roediger would soon appear.</said> <said
+            aloud="true" direct="true" who="Marianne" listener="Fridolin">"My
+            fiance,"</said> she added, and did not look him straight in the eye. <rs ref="#Fridolin">
+          Fridolin</rs> simply nodded. During the year he had met <rs ref="#Roediger">Doctor
+            Roediger</rs> two or three times in the Councilor's house. The pale young man—an
+          instructor in History at the University of Vienna—was of an unusually slender build with a
+          short, blond beard and spectacles, and had made quite a good impression upon him, without,
+          however, arousing his interest beyond that. <rs ref="#Marianne">Marianne</rs> would
+          certainly look better, he thought to himself, if she were his mistress. Her hair would be
+          less dry, her lips would be fuller and redder. <said aloud="false" direct="false"
+            who="Fridolin">I wonder how
+            old she is, he reflected. The first time I attended the Councilor, three or four years
+          ago, she was twentv-three. At that time her mother was still living and she was more
+          cheerful than now. She even took singing lessons for a while. So she is going to marry
+            this instructor! I wonder why? She surely isn't in love with him, and he isn't likely to
+          have much money either. What kind of a marriage will it turn out to be? Probably like a
+          thousand others. But it's none of my business. It's quite possible that I shall never see
+          her again, since there's nothing more for me to do here. Well, many others that I cared
+            for have gone the same way.</said> As these thoughts passed through his mind, <rs
+            ref="#Marianne">Marianne</rs> began to speak of her father—with fervor—as if his death
+          had suddenly made him a more remarkable person. <said aloud="false" direct="false"
+            who="Fridolin">Then he was really only fifty-four years old? Well, of course, he had had
+          so many worries and disappointments—his wife always ill—and his son such a grief! What,
+            she had a brother? Certainly, she had once told the doctor about him. </said>Her brother
+          was now living somewhere abroad. A picture that he had painted when he was fifteen was
+          hanging over there in <rs ref="#Marianne">Marianne</rs>'s room. It represented an officer
+          galloping down a hill. Her father had always pretended not to see it although it wasn't
+          bad. Oh yes, if he'd had a chance her brother might have made something of himself. <said
+            aloud="false" direct="false"
+            who="Fridolin">How
+            excitedly she speaks</said>, <rs ref="#Fridolin">
+            Fridolin</rs> thought, <said aloud="false" direct="false"
+            who="Fridolin">and how bright her eyes are! Is it fever? Quite possibly. She's
+            grown much thinner. Probably has tuberculosis.</said> She kept up her stream of talk,
+          but it seemed to him that she didn't quite know what she was saying. It was twelve years
+          since her brother had left home. In fact, she had been a child when he disappeared. They
+          had last heard from him four or five years ago, at Christmas, from a small city in Italy.
+          Strange to say, she had forgotten the name. She continued like this for a while, almost
+          incoherently. Suddenly she stopped and sat there silently, her head resting in her hands. <rs
+            ref="#Fridolin">Fridolin</rs> was tired and even more bored. He was anxiously waiting
+          for some one to come, her relatives, or her fiance. The silence in the room was
+          oppressive. It seemed to him that the dead man joined in the silence, deliberately and
+          with malicious joy. With a side glance at the corpse, he said: <said aloud="true"
+            direct="true" who="Fridolin" listener="Marianne">At any rate, Fraulein <rs
+              ref="#Marianne">Marianne</rs>, as things are now, it is fortunate that you won't have
+          to stay in this house very much longer."</said> And when she raised her head a little,
+          without, however, looking at <rs
+            ref="#Fridolin">Fridolin</rs>, he continued: <said aloud="true" direct="true"
+            who="Fridolin" listener="Marianne">"I suppose your fiance will soon get a
+            professorship. The chances for promotion are more favorable in the Faculty of Philosophy
+          than with us in Medicine."</said> He was thinking that, years ago, he also had aspired to
+          an academic career, but because he wanted a comfortable income, he had finally decided to
+          practice medicine. Suddenly he felt that compared with this noble <rs ref="#Roediger">Doctor
+          Roediger</rs>, he was the inferior. <said aloud="true" direct="true" who="Marianne"
+            listener="Fridolin">We shall move soon,"</said> <rs ref="#Marianne">Marianne</rs>
+          listlessly, <said aloud="true" direct="true" who="Marianne" listener="Fridolin">"he has a
+          post at the University of Gottingen."</said> <said aloud="true" direct="true"
+            who="Fridolin" listener="Marianne">"Oh,"</said> said <rs ref="#Fridolin">Fridolin</rs>,
+          and was about to congratulate her but it seemed rather out of place at the moment. He
+          glanced at the closed window, and without asking for permission but availing himself of
+          his privilege as a doctor, he opened both casements and let some air in. It had become
+          even warmer and more spring-like, and the breeze seemed to bring with it a slight
+          fragrance of the distant awakening woods. When he turned back into the room, he saw <rs
+            ref="#Marianne">Marianne</rs>'s eyes fixed upon him with a questioning look. He moved
+          nearer to her and said: <said aloud="true" direct="true" who="Fridolin"
+            listener="Marianne">"I hope the fresh air will be good for you. It has become quite
+            warm, and last night"</said>—he was about to say: we drove home from the masquerade in a
+          snowstorm, but he quickly changed the sentence and continued: <said aloud="true"
+            direct="true" who="Fridolin" listener="Marianne">"Last night the snow was
+            still lying on the streets a foot and a half deep."</said> She hardly heard what he
+          said. Her eyes became moist, large tears streamed down her cheeks and again she buried her
+          face in her hands. In spite of himself, he placed his hand on her head, caressing it. He
+          could feel her body beginning to tremble, and her sobs which were at first very quiet,
+          gradually became louder and finally quite unrestrained. All at once she slipped down from
+          her chair and lay at <rs ref="#Fridolin">Fridolin</rs>'s feet, clasping his knees with her
+          arms and pressing her face against them. Then she looked up to him with large eyes, wild
+          with grief, and whispered ardently: <said aloud="true" direct="true" who="Marianne"
+            listener="Fridolin">"I don't want to leave here. Even if you never return, if I
+            am never to see you again, I want, at least, to live near you."</said> He was touched
+          rather than surprised, for he had always known that she either was, or imagined herself to
+          be, in love with him. <said aloud="true" direct="true" who="Fridolin" listener="Marianne">"Please—get
+          up, <rs ref="#Marianne">Marianne</rs>,"</said> he said softly and bending down he gently
+          raised her. Of course, she is hysterical, he remarked to himself and he glanced at her
+          dead father. <said aloud="false" direct="false" who="Fridolin">I wonder if he hears
+          everything</said>, he thought. Perhaps he isn't really dead. Perhaps everyone in the first
+          hours after passing away, is only in a coma. He put his arms about her in a very
+          hesitating embrace, and almost against his will he kissed her on the forehead, an act that
+          somehow seemed rather ridiculous. He had a fleeting recollection of reading a novel years
+          ago in which a young man, still almost a boy, had been seduced, in fact, practically
+          raped, by the friend of his mother at the latter's deathbed. At the same time he thought
+          of his wife, without knowing why, and he was conscious of some bitterness and a vague
+          animosity against the man with the yellow hand-bag on the hotel stairs in Denmark. He held <rs
+            ref="#Marianne">Marianne</rs> closer, but without the slightest emotion. The sight of
+          her lustreless, dry hair, the indefinite, sweetish scent of her unaired dress gave him a
+          slight feeling of revulsion. The bell outside rang again, and feeling he was released, he
+          hastily kissed <rs ref="#Marianne">
+            Marianne</rs>'s hand, as if in gratitude, and went to open the door. <rs ref="#Roediger">Doctor
+          Roediger</rs> stood there, in a dark gray top-coat, an umbrella in his hand and a serious
+          face, appropriate to the occasion. The two men greeted each other much more cordially than
+          was called for by their actual state of acquaintance. Then they stepped into the room.
+          After an embarrassed look at the deceased, <rs ref="#Roediger">Roediger</rs> expressed his
+          sympathy to <rs
+            ref="#Marianne">Marianne</rs>, while <rs ref="#Fridolin">Fridolin</rs> went into the
+          adjoining room to write out the official death certificate. He turned up the gas-light
+          over the desk and his eyes fell upon the picture of the whiteuniformed officer, galloping
+          down hill, with drawn sabre, to meet an invisible enemy. It hung in a narrow frame of dull
+          gold and rather resembled a modest chromo-lithograph. With his death-certificate filled
+          out, <rs
+            ref="#Fridolin">Fridolin</rs> returned to the room where the engaged couple sat, hand in
+          hand, by the bed of the dead Councilor. Again the door-bell rang and Doctor Roediger rose
+          to answer it. While he was gone, <rs ref="#Marianne">Marianne</rs>, with her eyes on the
+          floor, said, almost inaudibly: <said aloud="true" direct="true" who="Marianne"
+            listener="Fridolin">"I love you,"</said>and <rs ref="#Fridolin">Fridolin</rs> answered
+          by <said aloud="true" direct="false" who="Fridolin" listener="Marianne">pronouncing her
+          name tenderly</said>. Then <rs ref="#Roediger">Roediger</rs> came back with an elderly
+          couple, <rs
+            ref="#Marianne">Marianne</rs>'s uncle and aunt, and a few words, appropriate to the
+          occasion, were exchanged, with the usual embarrassment in the presence of one who has just
+          died. The little room suddenly seemed crowded with mourners. <rs
+            ref="#Fridolin">Fridolin</rs> felt superfluous, took his leave and was escorted to the
+          door by Roediger who said a few words of gratitude and expressed the hope of seeing him
+          soon again. </p>
+      </div>
+      <div type="chapter" n="3">
+        <head>3.</head>
+        <p>WHEN <rs ref="#Fridolin">Fridolin</rs> stood on the street in front of the house, he
+          looked up at the window which he himself had opened a little while before. The casements
+          were swaying slightly in the wind of early spring, and the people who remained behind them
+          up there, the living as well as the dead, all seemed unreal and phantomlike. He felt as if
+          he had escaped from something, not so much from an adventure, but rather from a melancholy
+          spell the power of which he was trying to break. He felt strangely disinclined to go home.
+          The snow in the streets had melted, except where little heaps of dirty white had been
+          piled up on either side of the curb. The gas-flame in the street lamps flickered and a
+          nearby church bell struck eleven. <rs ref="#Fridolin">
+            Fridolin</rs> decided that before going to bed, he would spend a half hour in a quiet
+          nook of a cafe near his residence. As he walked through Rathaus Park he noticed here and
+          there on benches standing in the shadow, that couples were sitting, clasped together, just
+          as if Spring had actually arrived and no danger were lurking in the deceptive, warm air. A
+          tramp in tattered clothes was lying full length on a bench with his hat over his face. <said
+            aloud="false" direct="false" who="Fridolin">Suppose I wake him and give him some money
+          for a night's lodging </said>, <rs ref="#Fridolin">
+            Fridolin</rs> thought. <said
+            aloud="false" direct="false" who="Fridolin">But what good would that do? Then I would
+          have to provide for the
+            next night, too, or there'd be no sense in it, and in the end I might be suspected of
+          having criminal relations with him.</said> He quickened his steps to escape as rapidly as
+          possible from all responsibility and temptation. <said
+            aloud="false" direct="false" who="Fridolin">And why only this one?</said> he asked
+          himself. There are thousands of such poor devils in Vienna alone. It's manifestly
+          impossible to help all of them or to worry about all the poor wretches! He was reminded of
+          the dead man he had just left, and shuddered; in fact, he felt slightly nauseated at the
+          thought that decay and decomposition, according to eternal laws, had already begun their
+          work in the lean body under the brown flannel blanket. He was glad that he was still
+          alive, and in all probability these ugly things were still far removed from him. He was,
+          in fact, still in the prime of youth, he had a charming and lovable wife and could have
+          several women in addition, if he happened to want them, although, to be sure, such affairs
+          required more leisure than was his. He then remembered that he would have to be in his
+          ward at the hospital at eight in the morning, visit his private patients from eleven to
+          one, keep office hours from three to five, and that even in the evening he had several
+          appointments to visit patients. Well, he hoped that it would be some time before he would
+          again be called out so late at night. As he crossed Rathaus Square, which had a dull gleam
+          like a brownish pond, and turned homeward, he heard the muffled sound of marching steps in
+          the distance. Then he saw, still quite far away, a small group of fraternity students, six
+          or eight in number, turning a corner and coming towards him. When the light of a street
+          lamp fell upon them he thought he recognized them, with their blue caps, as members of the
+          Alemannia, for although he had never belonged to a fraternity, he had fought a few sabre
+          duels in his time. In thinking of his student days he was reminded again of the <rs
+            ref="#2W">red
+            dominoes</rs> who had lured him into a box at the ball the night before and then had so
+          shamefully deserted him. The students were quite near now; they were laughing and talking
+          loudly. Perhaps one or two of them were from the hospital? But it was impossible to see
+          their faces plainly because of the dim light, and he had to stay quite close to the houses
+          so as not to collide with them. Now they had passed. Only the one in the rear, a tall
+          fellow with open overcoat and a bandage over his left eye, seemed to lag behind, and
+          deliberately bumped into him with his raised elbow. It couldn't have been mere chance. <said
+            aloud="false" direct="false" who="Fridolin">What's got into that fellow?</said> <rs
+            ref="#Fridolin">Fridolin</rs> thought, and involuntarily he stopped. The other took two
+          more steps and turned. They looked at each other for a moment with only a short distance
+          separating them. Suddenly <rs ref="#Fridolin">
+            Fridolin</rs> turned around again and went on. He heard a short laugh behind him and he
+          longed to challenge the fellow, but he felt his heart beating strangely, just as it had on
+          a previous occasion, twelve or fourteen years before. There had been an unusually loud
+          knock on his door while he had had with him a certain charming young creature who was
+          never tired of prattling about her jealous fiance. As a matter of fact, it was only the
+          postman who had knocked in such a threatening manner. And now he felt his heart beating
+          just as it had at that time. <said
+            aloud="false" direct="false" who="Fridolin">What's the meaning of this?</said> he asked
+          himself, and he noticed that his knees were shaking a little. <said
+            aloud="false" direct="false" who="Fridolin">Am I a coward? Oh! nonsense</said>, he
+          reassured himself. <said
+            aloud="false" direct="false" who="Fridolin">Why should I go and face a drunken student,
+          I, a man of thirty-five, a practising
+            physician, a married man and father of a child? Formal challenge! Seconds! A duel! And
+          perhaps because of such a silly encounter receive a cut in my arm and be unable to perform
+          my professional duties?—Or lose an eye?—Or even get blood-poisoning?—And in a week perhaps
+          be in the same position as the man in Schreyvogel Strasse under the brown flannel blanket?
+          Coward—?</said> He had fought three sabre duels, and had even been ready to fight a duel
+          with pistols, and it wasn't at his request that the matter had been called off. And what
+          about his profession! There were dangers lurking everywhere and at all times—except that
+          one usually forgets about them. Why, how long ago was it that that child with diphtheria
+          had coughed in his face? Only three or four days, that's all. After all, that was much
+          more dangerous than a little fencing match with sabres, and he hadn't given it a second
+          thought. Well, if he ever met that fellow again, the affair could still be straightened
+          out. He was by no means bound by the code of honor to take a silly encounter with a
+          student seriously when on an errand of mercy, to or from a patient. But if, for instance,
+          he should meet the young Dane with whom <rs
+            ref="#Albertina">Albertina</rs>— oh, nonsense, what was he thinking of? Well, after all,
+          it was just as bad as if she had been his mistress. Even worse. Yes, just let that fellow
+          cross his path! What a joy it would be to face him somewhere in a clearing in the woods
+          and aim a pistol at his forehead with its smoothly combed blond hair. He suddenly
+          discovered that he had passed his destination. He was in a narrow street in which only a
+          few doubtful-looking women were strolling about in a pitiful attempt to bag their game. <said
+            aloud="false" direct="false" who="Fridolin">It's phantomlike</said>, he thought. And in
+          retrospect the students, too, with their blue caps, suddenly seemed unreal. The same was
+          true of <rs ref="#Marianne">Marianne</rs>, her fiance, her uncle and aunt, all of whom he
+          pictured standing hand in hand around the deathbed of the old <rs ref="councilor">
+          Councilor</rs>. <rs
+            ref="#Albertina">Albertina</rs>, too, whom he could see in his mind's eye soundly
+          sleeping, her arms folded under her head—even his child lying in the narrow white brass
+          bed, rolled up in a heap, and the red-cheeked governess with the mole on her left
+          temple—all of them seemed to belong to another world. Although this idea made him shudder
+          a bit, it also reassured him, for it seemed to free him from all responsibility, and to
+          loosen all the bonds of human relationship. <rs ref="#Mizzi">One of the girls</rs>
+          wandering about stopped him. She was still a young and pretty little thing, very pale with
+          red-painted lips. <said
+            aloud="false" direct="false" who="Fridolin">She also
+            might lead to a fatal end, only not as quickly</said>, he thought. <said
+            aloud="false" direct="false" who="Fridolin">Is this cowardice too? I
+            suppose really it is</said>. He heard her steps and then her voice behind him. <said
+            aloud="true" direct="true" who="Mizzi" listener="Fridolin">Won't you come
+            with me, doctor?"</said> He turned around involuntarily. <said
+            aloud="true" direct="true" who="Fridolin" listener="Mizzi">"How do you know who I am?"</said>
+          he asked. <said
+            aloud="true" direct="true" who="Mizzi" listener="Fridolin">"Why, I don't know you,"</said>
+          she said, <said
+            aloud="true" direct="true" who="Mizzi" listener="Fridolin">"but here in this part of
+            town they're all doctors, aren't they?"</said> He had had no relations with a woman of
+          this sort since he had been a student at the Gymnasium. Was the attraction this girl had
+          for him a sign that he was suddenly reverting to adolescence? He recalled a casual
+          acquaintance, a smart young man, who was supposed to be extremely successful with women.
+          Once while <rs ref="#Fridolin">
+            Fridolin</rs> was a student he had been sitting with him in an all-night cafe, after a
+          ball. When the young man proposed to leave with one of the regular girls of the place, <rs
+            ref="#Fridolin">Fridolin</rs> looked at him in surprise. Thereupon he answered: <said
+            aloud="true" direct="true" who="Fridolin" listener="Mizzi">"After
+            all, it's the most convenient way— and they aren't by any means the worst." "What's your
+          name?"</said> <rs ref="#Fridolin">Fridolin</rs> asked the girl. <said
+            aloud="true" direct="true" who="Mizzi" listener="Fridolin">"Well, what do you think?
+          Mizzi,
+            of course."</said> She unlocked the house-door, stepped into the hallway and waited for <rs
+            ref="#Fridolin">Fridolin</rs> to follow her. <said
+            aloud="true" direct="true" who="Mizzi" listener="Fridolin">"Come on,"</said> she said
+          when he hesitated. He stepped in beside her, the door closed behind him, she locked it,
+          lit a wax candle and went ahead, lighting the way.<said
+            aloud="false" direct="false" who="Fridolin">—Am I mad?</said> he asked himself. Of
+          course I shall have nothing to do with her. An oil-lamp was burning in her room, and she
+          turned it up. It was a fairly pleasant place and neatly kept. At any rate, it smelled
+          fresher than <rs ref="#Marianne">
+            Marianne</rs>'s home, for instance. But then, of course, no old man had been lying ill
+          there for months. <rs ref="#Mizzi">The girl</rs> smiled, and without forwardness
+          approached <rs ref="#Fridolin">
+            Fridolin</rs> who gently kept her at a distance. She pointed to a rocking-chair into
+          which he was glad to drop. <said
+            aloud="true" direct="true" who="Mizzi" listener="Fridolin">"You must be very tired,"</said>
+          she remarked. He nodded. Undressing without haste, she continued: <said
+            aloud="true" direct="true" who="Mizzi" listener="Fridolin">"Well, no wonder, with all
+            the things a man like you has to do in
+            the course of a day. We have an easier time of it."</said> He noticed that her lips were
+          not painted, as he had thought, but were a natural red, and he complimented her on that. <said
+            aloud="true" direct="true" who="Mizzi" listener="Fridolin">"But
+            why should I rouge?" she inquired. "How old do you think I am?"</said> <said
+            aloud="true" direct="true" who="Fridolin" listener="Mizzi">"Twenty?"</said> <rs
+            ref="#Fridolin">Fridolin</rs> ventured. <said
+            aloud="true" direct="true" who="Mizzi" listener="Fridolin">"Seventeen,"</said> she said,
+          and sat on his lap, putting her arms around his neck like a child. <said
+            aloud="false" direct="false" who="Fridolin">Who in the world would suspect that I'm
+            here in this room at this moment?</said> <rs
+            ref="#Fridolin">Fridolin</rs> thought. <said
+            aloud="false" direct="false" who="Fridolin">I'd never have thought it possible an hour
+            or
+            even ten minutes ago. And— why? Why am I here?</said> Her lips were seeking his, but he
+          drew back his head. She looked at him with sad surprise and slipped down from his lap. He
+          was sorry, for he had felt much comforting tenderness in her embrace. She took a red
+          dressing-gown which was hanging over the foot of the open bed, slipped into it and folded
+          her arms over her breast so that her entire body was concealed. <said aloud="true"
+            direct="true" who="Mizzi" listener="Fridolin">"Does this suit you better?"</said> she
+          asked without mockery, almost timidly, as though making an effort to understand him. He
+          hardly knew what to answer. <said aloud="true"
+            direct="true" who="Fridolin" listener="Mizzi">"You're right,"</said> he said. <said
+            aloud="true"
+            direct="true" who="Fridolin" listener="Mizzi">"I am really tired, and I find it
+            very pleasant sitting here in the rocking-chair and simply listening to you. You have
+          such
+            a nice gentle voice. Just talk to me."</said> She sat down on the couch and shook her
+          head. <said aloud="true"
+            direct="true" who="Mizzi" listener="Fridolin">"You're simply afraid,"</said> she said
+          softly —and then to herself in a barely audible voice: <said aloud="true"
+            direct="true" who="Mizzi">"It's too bad."</said> These last words made the blood race
+          through his veins. He walked over to her, longing to touch her, and declared that he
+          trusted her implicitly and saying so he spoke the truth. He put his arms around her and
+          wooed her like a sweetheart, like a beloved woman, but she resisted, until he felt ashamed
+          and finally gave it up. She explained: <said aloud="true"
+            direct="true" who="Mizzi" listener="Fridolin">"You never can tell, some time or other
+          it's bound to get out.
+            It's quite right of you to be afraid. If something should happen, you would curse me."</said>
+          She was so positive in refusing the banknotes which he offered her that he did not insist.
+          She put a little blue woolen shawl about her shoulders, lit a candle to light him
+          downstairs, went down with him and unlocked the door. <said aloud="true"
+            direct="true" who="Mizzi" listener="Fridolin">"I'm not going out any more tonight,"</said>she
+          said. He took her hand and involuntarily kissed it. She looked up to him astonished,
+          almost frightened. Then she laughed, embarrassed and happy. <said aloud="true"
+            direct="true" who="Mizzi" listener="Fridolin">"Just as if I were a young lady,"</said>
+          she said. The door closed behind <rs ref="#Fridolin">Fridolin</rs> and he quickly made a
+          mental note of the street number, so as to be able to send the poor little thing some wine
+          and cakes the following day. </p>
+      </div>
+      <div type="chapter" n="4">
+        <head>4.</head>
+        <p> MEANWHILE it had become even milder outside. A fragrance from dewy meadows and distant
+          mountains drifted with the gentle breezes into the narrow street. <said aloud="false"
+            direct="false" who="Fridolin">Where shall I go now? </said><rs
+            ref="#Fridolin">Fridolin</rs> asked himself, as though it weren't the obvious thing to
+          go home to bed. But he couldn't persuade himself to do so. He felt homeless, an outcast,
+          since his annoying meeting with the students ... or was it since <rs ref="#Marianne">
+          Marianne</rs>'s confession? No, it was longer than that—ever since this evening's
+          conversation with <rs ref="#Albertina">Albertina</rs> he was moving farther and farther
+          away from his everyday existence into some strange and distant world. He wandered about
+          aimlessly through the dark streets, letting the breeze blow through his hair. Finally, he
+          turned resolutely into a third-rate coffee-house. The place was dimly lighted and not
+          especially large, but it had an old-fashioned, cozy air about it, and was almost empty at
+          this late hour. Three men were playing cards in a corner. The waiter who had been watching
+          them helped <rs
+            ref="#Fridolin">Fridolin</rs> take off his fur coat, took his order and placed
+          illustrated journals and evening papers on his table. <rs ref="#Fridolin">Fridolin</rs>
+          felt slightly more secure and began to look through the papers. His eyes were arrested
+          here and there by some news-item. In some Bohemian city, street signs with German names
+          had been torn down. There was a conference in Constantinople in which Lord Cranford took
+          part about constructing a railway in Asia Minor. The firm Benies &amp; Weingruber had gone
+          into bankruptcy. The prostitute Anna Tiger, in a fit of jealousy, had attempted to throw
+          vitriol on her friend, Hermine Drobizky. An Ash Wednesday fishdinner was being given that
+          evening in Sophia Hall. Marie B., a young girl residing at No. 28 Schonbrunn Strasse, had
+          poisoned herself with mercuric chloride.—Prosaically commonplace as they were, all these
+          facts, the insignificant as well as the sad, had a sobering and reassuring effect on <rs
+            ref="#Fridolin">Fridolin</rs>. He felt sorry for the young girl, Marie B. How stupid to
+          take mercuric chloride! At this very moment, while he was sitting snugly in the cafe,
+          while <rs
+            ref="#Albertina">Albertina</rs> was calmly sleeping, and the <rs ref="#councilor">
+          Councilor</rs>had passed beyond all human suffering, Marie B., No. 28 Schonbrunn Strasse,
+          was writhing in incredible pain. He looked up from his paper and encountered the gaze of a
+          man seated opposite. <said aloud="false" direct="false" who="Fridolin">Was it possible? <rs
+              ref="#Nachtigall">Nachtigall</rs>—?</said> The latter had already recognized him,
+          threw up his hands in pleased surprise and joined him at his table. He was still a young
+          man, tall, rather broad, and none too thin. His long, blond, slightly curly hair had a
+          touch of gray in it, and his moustache drooped in Polish fashion. He was wearing an open
+          gray top-coat, underneath which were visible a greasy dress-suit, a crumpled shirt with
+          three false diamond studs, a crinkled collar and a dangling, white silk tie. His eyelids
+          were inflamed, as if from many sleepless nights, but his blue eyes gleamed brightly. <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">You here in Vienna, <rs
+              ref="#Nachtigall">Nachtigall</rs>?"</said> exclaimed <rs
+            ref="#Fridolin">Fridolin</rs>. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Didn't you know?"</said>
+          said <rs ref="#Nachtigall">Nachtigall</rs> with a soft, Polish accent and a slightly
+          Jewish twang. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"How could you miss it,
+          and me so
+            famous?"</said> He laughed loudly and good-naturedly, and sat down opposite <rs
+            ref="#Fridolin">Fridolin</rs>. <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"What,"</said> asked <rs
+            ref="#Fridolin">Fridolin</rs>, <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"have
+            you been appointed Professor of Surgery without my hearing of it?"</said> <rs
+            ref="#Nachtigall">
+            Nachtigall</rs> laughed still louder. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Didn't you hear me just
+          now, just a minute ago?"</said>
+          <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"What do you mean—hear
+          you?—Why, of course."</said> Suddenly it occurred to him that someone had been playing the
+          piano when he entered; in fact, he had heard music coming from some basement as he
+          approached the cafe. <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"So that was you
+          playing?"</said> he exclaimed. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"It was,"</said> <rs
+            ref="#Nachtigall">Nachtigall</rs> said, laughing. <rs
+            ref="#Fridolin">Fridolin</rs> nodded. Why, of course—the strangely vigorous touch, the
+          peculiar, but euphonious bass chords had at once seemed familiar to him. <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Are you devoting
+          yourself entirely to it?"</said> he asked. He remembered that <rs ref="#Nachtigall">
+          Nachtigall</rs> had definitely given up the study of medicine after his second preliminary
+          examination in zoology, which he had passed although he was seven years late in taking it.
+          Since then he had been hanging around the hospital, the dissecting room, the laboratories
+          and classrooms for some time afterwards. With his blond artist's head, his crinkled
+          collar, his dangling tie that had once been white, he had been a striking and, in the
+          humorous sense, popular figure. He had been much liked, not only by his fellow-students,
+          but also by many professors. The son of a Jewish gin-shop owner in a small Polish town, he
+          had left home early and had come to Vienna to study medicine. The trifling sums he
+          received from his parents had from the very-beginning been scarcely worth mention and were
+          soon discontinued. However, this didn't prevent his appearing in the Riedhof Hotel at the
+          table reserved for medical students where <rs
+            ref="#Fridolin">Fridolin</rs> was a regular guest. At intervals, one after another of
+          his more well-todo fellow-students would pay his bill. He sometimes, also, was given
+          clothes, which he accepted gladly and without false pride. He had already learned to play
+          in his home town from a pianist stranded there, and while he was a medical student in
+          Vienna he had studied at the Conservatory where he was considered a talented musician of
+          great promise. But here, too, he was neither serious nor diligent enough to develop his
+          art systematically. He soon became entirely content with the impression he made on his
+          acquaintances, or rather with the pleasure he gave them by his playing. For a while he had
+          a position as pianist in a suburban dancing-school. Fellow-students and table-companions
+          tried to introduce him into fashionable houses in the same capacity, but on such occasions
+          he would play only what suited him and as long as he chose. His conversations with the
+          young girls present were not always harmless, and he drank more than he could carry. Once,
+          playing for a dance in the house of a wealthy banker, he embarrassed several couples with
+          flattering but improper remarks, and ended up by playing a wild cancan and singing a
+          risque song with his powerful, bass voice. The host gave him a severe calling down, but <rs
+            ref="#Nachtigall">Nachtigall</rs>, blissfully hilarious, got up and embraced him. The
+          latter was furious and, although himself a Jew, hurled a common insult at him. <rs
+            ref="#Nachtigall">Nachtigall</rs> at once retaliated with a powerful box on his ears,
+          and this definitely concluded his career in the fashionable houses of the city. He behaved
+          better, on the whole, in more intimate circles, although sometimes when the hour was late,
+          he had to be put out of the place by force. But the following morning all was forgiven and
+          forgotten. One day, long after his friends had graduated, he disappeared from the city
+          without a word. For a few months he sent post cards from various Russian and Polish
+          cities, and once <rs
+            ref="#Fridolin">Fridolin</rs>, who was one of <rs ref="#Nachtigall">Nachtigall</rs>'s
+          favorites, was reminded of his existence not only by a card, but by a request for a
+          moderate sum of money, without explanation. <rs ref="#Fridolin">Fridolin</rs> sent it at
+          once, but never received a word of thanks or any other sign of life from <rs
+            ref="#Nachtigall">Nachtigall</rs>. At this moment, however, eight years later, at a
+          quarter to one in the morning, <rs ref="#Nachtigall">Nachtigall</rs> insisted on paying
+          his debt, and took the exact amount in bank-notes from a rather shabby pocket-book. As the
+          latter was fairly well filled, <rs ref="#Fridolin">Fridolin</rs> accepted the repayment
+          with a good conscience. <said aloud="true" direct="true" who="Fridolin"
+            listener="Nachtigall">Are you getting along well,"</said> he asked with a smile, in
+          order to make sure. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"I can't complain,"</said>
+          replied <rs ref="#Nachtigall">Nachtigall</rs>. Placing his hand on <rs ref="#Fridolin">
+          Fridolin</rs>'s arm, he continued: <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"But tell me, why are
+            you
+            here so late at night?"</said> <rs ref="#Fridolin">
+            Fridolin</rs> explained that <said aloud="true" direct="false" who="Fridolin"
+            listener="Nachtigall">he had needed a cup of coffee after visiting a patient,
+            although he didn't say, without quite knowing why, that he hadn't found his patient
+          alive.
+            Then he talked in very general terms of his duties at the hospital and his private
+          practice, and mentioned that he was happily married, and the father of a six-year old
+            girl.</said> <rs ref="#Nachtigall">Nachtigall</rs> in his turn, <said aloud="true"
+            direct="false" who="Nachtigall" listener="Fridolin">explained that he had spent the time
+          as a pianist in every possible sort of Polish, Roumanian, Serbian and Bulgarian city and
+          town, just as <rs
+              ref="#Fridolin">Fridolin</rs> had surmised. He had a wife and four children living in
+          Lemberg, and he laughed heartily, as though it were unusually jolly to have four children,
+          all of them living in Lemberg, and all by one and the same woman. He had been back in
+          Vienna since the preceding fall. The vaudeville company he had been with had suddenly gone
+          to pieces. He was now playing anywhere and everywhere, anything that happened to come
+          along, sometimes in two or three different houses the same night. For example, down there
+          in that basement—not at all a fashionable place, as he remarked, really a sort of bowling
+          alley, and with very doubtful patrons. . . .</said><said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin"> "But if you have to
+          provide for four children
+            and a wife in Lemberg"—he laughed again, though not quite as gaily as before, and added:
+          "But sometimes I am privately engaged."</said> Noticing a reminiscent smile on <rs
+            ref="#Fridolin">Fridolin</rs>'s face, he continued: <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Not just in the houses
+          of bankers
+            and such, but in all kinds of circles, even larger ones, both public and secret."</said>
+          <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Secret?</said>" <rs
+            ref="#Fridolin">Fridolin</rs> asked. <rs ref="#Nachtigall">Nachtigall</rs> looked
+          straight before him with a gloomy and crafty air, and said: <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"They will be calling
+            for me
+            again in a minute."</said> <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"What, are you playing
+          somewhere else tonight?"</said> <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Yes, they only begin
+          there at two."</said> <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"It must be an unusually
+          smart place."</said> <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Yes and no,"</said>
+          said <rs
+            ref="#Nachtigall">Nachtigall</rs>, laughing, but he became serious again at once. <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Yes
+            and no?"</said> queried <rs ref="#Fridolin">Fridolin</rs>, curiously. <rs
+            ref="#Nachtigall">
+            Nachtigall</rs> bent across the table. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"I'm playing tonight in
+            a private house, but I
+            don't know whose it is."</said> <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Then you're playing
+          there for the first time?"</said> <rs
+            ref="#Fridolin">
+            Fridolin</rs> asked with increasing interest. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"No, it's the third
+            time, but it will
+            probably be a different house again."</said> <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"I don't understand."</said> <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Neither do I,"</said>
+          said <rs
+            ref="#Nachtigall">Nachtigall</rs>, laughing, <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"but you'd better not
+            ask any more."</said> <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Oh, I
+            see,"</said> remarked <rs
+            ref="#Fridolin">Fridolin</rs>. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"No, you're wrong. It's
+          not what you think. I've seen a
+            great deal in my time. It's unbelievable what one sees in such small towns, especially
+            in
+            Roumania, but here . . ."</said> He drew back the yellow curtain from the window, looked
+          out on the street and said as if to himself: <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Not here yet."</said>
+          Then he turned to <rs
+            ref="#Fridolin">Fridolin</rs> and explained: <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"I mean the carriage.
+          There's always a
+            carriage to call for me, a different one each time."</said> <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"You're making me very
+          curious, <rs
+              ref="#Nachtigall">Nachtigall</rs>,"</said> <rs ref="#Fridolin">Fridolin</rs> assured
+          him. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Listen to me,"</said>
+          said <rs ref="#Nachtigall">Nachtigall</rs> after a slight pause. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"I'd like
+            to be able to arrange it—'but how can I do it—"</said> Suddenly he burst out: <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Have you got
+            plenty of nerve?"</said> <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"That's a strange
+          question,"</said> said <rs
+            ref="#Fridolin">Fridolin</rs> in the tone of an offended fraternity student. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"I don't
+            mean that."</said> <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Well, what do you
+          mean?—Why does one need so much courage for this affair?
+            What can possibly happen?"</said> He gave a short and contemptuous laugh. <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Nothing can happen to
+          me. At best this would be the last time—but perhaps that may be the case anyhow."</said>
+          He stopped and looked out again through the crevice in the curtain. <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Well, then where's the
+          difficulty?"</said> <said
+            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"What did you say?"</said>
+          asked <rs ref="#Nachtigall">Nachtigall</rs>, as if coming out of a dream. <said
+            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Tell me the rest of the
+          story, now that you've started. A secret party?
+            Closed affair? Nothing but invited guests?"</said>
+        </p>
       </div>
     </body>
   </text>
