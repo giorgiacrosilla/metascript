@@ -93,6 +93,34 @@
               eyelids
               were inflamed, as if from many sleepless nights, but his blue eyes gleamed brightly.</description>
           </rs>
+          <rs type="person" xml:id="Gibiser">Gibiser</rs>
+              <description>
+                    He was a bald-headed, haggard man and wore an old-fashioned, 
+                    flowered dressing-gown and a tasselled, Turkish cap which made him look like a foolish old man on the 
+                    stage.
+              </description>
+          </rs>
+          <rs type="person">
+              <rs type="person" xml:id="Pierette">Pierrette</rs>
+          </rs>
+          <rs type="person">
+              <rs type="person" xml:id="2Servants">two servants</rs>
+          </rs>
+          <rs type="person">
+              <rs type="person" xml:id="woman">woman</rs>
+          </rs>
+          <rs type="person">
+              <rs type="person" xml:id="cavalier">cavalier in black</rs>
+          </rs>
+          <rs type="person">
+              <rs type="person" xml:id="YellowGentlemen">gentleman in yellow</rs>
+          </rs>
+          <rs type="person">
+              <rs type="person" xml:id="RedCavalier">cavalier in red</rs>
+          </rs>
+          <rs type="person">
+              <rs type="person" xml:id="nun">nun</rs>
+          </rs>
         </listPerson>
         <listEvent>
           <event>
@@ -136,6 +164,27 @@
           </place>
           <place>
             <placeName xml:id="hotel">Riedhof Hotel</placeName>
+          </place>
+          <place>
+            <placeName xml:id="CafeVindobona">Cafe Vindobona</placeName>
+          </place>
+          <place>
+              <placeName xml:id="costume-shop">costume-shop</placeName>
+          </place>
+          <place>
+              <placeName xml:id="AlserStrasse">Alser Strasse</placeName>
+          </place>
+          <place>
+              <placeName xml:id="Galitzinberg">Galitzinberg</placeName>
+          </place>
+          <place>
+              <placeName xml:id="BuchfeldStrasse">Buchfeld Strasse</placeName>
+          </place>
+          <place>
+              <placeName xml:id="Liebhartstal">Liebhartstal</placeName>
+          </place>
+          <place>
+              <placeName xml:id="villa">villa</placeName>
           </place>
         </listPlace>
       </particDesc>
@@ -1021,6 +1070,491 @@
           story, now that you've started. A secret party?
             Closed affair? Nothing but invited guests?"</said>
         </p>
+
+        [START ERICA PART 2]
+
+        <p>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"I don't know. The last time there were thirty people, and the first time only sixteen."</said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"A ball?"</said> 
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Of course, a ball."</said> He seemed to be sorry he had spoken of the matter at all. 
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"And you're furnishing the music for the occasion?"</said>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"What do you mean—for the occasion? I don't know for what occasion. I simply play—with bandaged 
+          eyes."</said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"<rs ref="#Nachtigall" type="character">Nachtigall</rs>, what do you mean?"</said>
+          <rs ref="#Nachtigall" type="character">Nachtigall</rs> sighed a little and continued: <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Unfortunately my eyes are not completely bandaged, so that 
+          I can occasionally see something. I can see through the black silk handkerchief over my eyes in the mirror 
+          opposite. . . ."</said> And he stopped. 
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"In other words,"</said> said Fridolin impatiently and contemptuously, but feeling strangely excited, <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"naked
+          females."</said>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Don't say females,"</said> replied <rs ref="#Nachtigall" type="character">Nachtigall</rs> in an offended tone, <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"you never saw such women."</said>
+          <rs ref="#Fridolin" type="character">Fridolin</rs> hemmed and hawed a little. <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"And what's the price of admission?"</said> he asked casually. 
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Do you mean tickets and such? There are none."</said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Well, how does one gain admittance?"</said> asked <rs ref="#Fridolin" type="character">Fridolin</rs> with compressed lips and tapping on the table 
+          with his fingers. 
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"You have to know the password, and it's a new one each time."</said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"And what's the one for tonight?"</said>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"I don't know yet. I'll only find out from the coachman."</said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Take me along, Nachtigall."</said>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Impossible. It's too dangerous."</said> 
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"But a minute ago you yourself spoke ... of being willing to ... I think you can manage all right."</said>
+        </p>
+        <p>
+          <rs ref="#Nachtigall" type="character">Nachtigall</rs> looked at him critically and said: <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"It would be absolutely impossible in your street clothes, 
+          for everyone is masked, men and women. As you haven't a masquerade outfit with you, it's out of the 
+          question. Perhaps the next time. I'll try to figure out some way."</said> He listened attentively, peered again
+          through the opening in the curtain and said with a sigh of relief: <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"There's my carriage, good-bye."</said>
+        </p>
+        <p>
+          <rs ref="#Fridolin" type="character">Fridolin</rs> hung on to his arm and said: <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"You can't get away that way. You've got to take me along."</said>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"But my dear man . . ."</said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Leave it to me. I know that it's dangerous. Perhaps that's the very thing that tempts me."</said> 
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"But I've already told you—without costume and mask———"</said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"There are places to rent costumes."</said>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"At one o'clock in the morning?"</said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Listen here, <rs ref="#Nachtigall" type="character">Nachtigall</rs>. There's just such a place at the corner of Wickenburg Strasse. I walk past it
+          several times a day."</said> And he added, with growing excitement: 
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"You stay here for another quarter of an hour, <rs ref="#Nachtigall" type="character">Nachtigall</rs>. In the meantime I'll see what luck I have. The 
+          proprietor of the costume shop probably lives in the same building. If he doesn't—well, then I'll simply 
+          give it up for tonight. Let fate decide the question. There's a cafe in the same building. I think it's called 
+          Cafe Vindobona. You tell the coachman that you've forgotten something in the cafe, walk in, and I'll be
+          waiting near the door. Then you can give me the password and get back into your carriage. If I manage to 
+          get a costume I'll take a cab and immediately follow you. The rest will take care of itself. I give you my 
+          word of honor, <rs ref="#Nachtigall" type="character">Nachtigall</rs>, that if you run any risk, I'll assume complete responsibility."</said>
+          <rs ref="#Nachtigall" type="character">Nachtigall</rs> had tried several times to interrupt <rs ref="#Fridolin" type="character">Fridolin</rs>, but it was useless—— 
+        </p>
+        <p>
+          The former threw some money on the table to pay his bill, including a generous tip which seemed 
+          appropriate for the style of the night, and left. A closed carriage was standing outside. A coachman 
+          dressed entirely in black with a tall silk hat, sat on the box, motionless. It looks like a mourning-coach,
+          <rs ref="#Fridolin" type="character">Fridolin</rs> thought. He ran down the street and reached the corner-house he was looking for a few minutes 
+          later. He rang the bell, inquired from the care-taker whether the costumer <rs ref="#Gibiser" type="character">Gibiser</rs> lived in the house, and 
+          hoped in the bottom of his heart that he would receive a negative answer. But <rs ref="#Gibiser" type="character">Gibiser</rs> actually lived 
+          there, on the floor below that of the costume shop. The care-taker did not seem especially surprised at 
+          having such a late caller. Made affable by <rs ref="#Fridolin" type="character">Fridolin</rs>'s liberal tip, he stated that it was not unusual during
+          the carnival for people to come at such a late hour to hire costumes. He lighted the way from below with
+          a candle until <rs ref="#Fridolin" type="character">Fridolin</rs> had rung the bell on the second floor.<rs ref="#Gibiser" type="character">Herr Gibiser</rs> himself opened the door for 
+          him, as if he had been waiting there. He was a bald-headed, haggard man and wore an old-fashioned, 
+          flowered dressing-gown and a tasselled, Turkish cap which made him look like a foolish old man on the 
+          stage. <rs ref="#Fridolin" type="character">Fridolin</rs> asked for a costume and said that the price did not matter, whereupon <rs ref="#Gibiser" type="character">Herr Gibiser</rs> 
+          remarked, almost disdainfully: <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"I ask a fair price, no more."</said> 
+        </p>
+        <p>
+          He led the way up a winding staircase into the store. There was an odor of silk, velvet, perfume, dust 
+          and withered flowers, and a glitter of silver and red out of the indistinct darkness. A number of little 
+          electric bulbs suddenly shone between the open cabinets of a long, narrow passage, the end of which 
+          was enveloped in darkness. There were all kinds of costumes hanging to the right and to the left. On one 
+          side knights, squires, peasants, hunters, scholars, Orientals and clowns; on the other, ladies-at-court, 
+          baronesses, peasant women, lady's maids, queens of the night. The corresponding head-dresses were on 
+          a shelf above the costumes. <rs ref="#Fridolin" type="character">Fridolin</rs> felt as though he were walking through a gallery of hanged people 
+          who were on the point of asking each other to dance. <rs ref="#Gibiser" type="character">Herr Gibiser</rs> followed him. Finally he asked: <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"Is 
+          there anything special you want? Louis Quatorze, Directoire, or Old-German?</said>
+        </p>
+        <p>
+          <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"I need a dark cassock and a black mask, that's all."</said>
+          At this moment the clink of glasses rang out from the end of the passage. <rs ref="#Fridolin" type="character">Fridolin</rs> was startled and 
+          looked at the costumer, as though he felt an explanation were due. <rs ref="#Gibiser" type="character">Gibiser</rs>, however, merely groped for 
+          a switch which was concealed somewhere. A blinding light was diffused over the entire passage down to 
+          the end where a little table, covered with plates, glasses and bottles, could be seen. Two men, dressed in 
+          the red robes of vehmic judges, sprang up from two chairs beside the table and a graceful little girl 
+          disappeared at the same moment. <rs ref="#Gibiser" type="character">Gibiser</rs> rushed forward with long strides, reached across the table and 
+          grabbed a white wig in his hand. Simultaneously a young and charming girl, still almost a child, wearing a 
+          Pierrette costume, wriggled out from under the table and ran along the passage to <rs ref="#Fridolin" type="character">Fridolin</rs> who caught 
+          her in his arms. <rs ref="#Gibiser" type="character">Gibiser</rs> dropped the white wig and grabbed the two vehmic judges by their robes. At the 
+          same time he called out to <rs ref="#Fridolin" type="character">Fridolin</rs>: <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"Hold on to that girl for me."</said> The child pressed against <rs ref="#Fridolin" type="character">Fridolin</rs> as
+          though sure of protection. Her little oval face was covered with powder and several beauty spots, and a 
+          fragrance of roses and powder arose from her delicate breasts. There was a smile of impish desire in her 
+          eyes. 
+        </p>
+        <p>
+          <said aloud="true" direct="true" who="Gibiser" listener="Gentlemen">"Gentlemen,"</said> cried <rs ref="#Gibiser" type="character">Gibiser</rs>, <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"you will stay here while I call the police."</said>
+          <said aloud="true" direct="true" who="Gentlemen" listener="Gibiser">"What's got into you?"</said> they exclaimed, and continued as if with one voice: <said aloud="true" direct="true" who="Gentlemen" listener="Gibiser">"We were invited by the 
+          young lady."</said>
+          <rs ref="#Gibiser" type="character">Gibiser</rs> released his hold and <rs ref="#Fridolin" type="character">Fridolin</rs> heard him saying: <said aloud="true" direct="true" who="Gibiser" listener="Gentlemen">"You will have to explain this. Couldn't you see 
+          that the girl was deranged?"</said> Then turning to <rs ref="#Fridolin" type="character">Fridolin</rs>, he said: <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"Sorry to keep you waiting."</said> 
+          <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"Oh, it doesn't matter,"</said> said <rs ref="#Fridolin" type="character">Fridolin</rs>. 
+          He would have liked to stay, or, better still, to take the girl with him, no matter where —and whatever 
+          the consequences. She looked up at him with alluring and child-like eyes, as if spellbound. The men at 
+          the end of the passage were arguing excitedly. <rs ref="#Gibiser" type="character">Gibiser</rs> turned to <rs ref="#Fridolin" type="character">Fridolin</rs> and asked in a matter-of-fact 
+          way: <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"You wanted a cassock, a pilgrim's hat and a mask?"</said> 
+          <said aloud="true" direct="true" who="Pierrette" listener="Gibiser">"No,"</said> said <rs ref="#Pierrette" type="character">Pierrette</rs> with gleaming eyes, <said aloud="true" direct="true" who="Pierrette" listener="Gibiser">"you must give this gentleman a cloak lined with ermine and a 
+          doublet of red silk."</said>
+          <said aloud="true" direct="true" who="Gibiser" listener="Pierrette">"Don't you budge from my side,"</said> answered <rs ref="#Gibiser" type="character">Gibiser</rs>. Then he pointed to a dark frock hanging between 
+          a medieval soldier and a Venetian Senator, and said: <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"That's about your size and here's the hat. Take it
+          quick."</said>
+          The two strange men protested again: <said aloud="true" direct="true" who="Gentlemen" listener="Gibiser">"You'll have to let us out at once,  <rs ref="#Gibiser" type="character">Herr Chibisier</rs>."</said> <rs ref="#Fridolin" type="character">Fridolin</rs> 
+          noticed with surprise the French pronunciation of the name <rs ref="#Gibiser" type="character">Gibiser</rs>. 
+          <said aloud="true" direct="true" who="Gibiser" listener="Gentlemen">"That's out of the question,"</said> replied the costumer scornfully. <said aloud="true" direct="true" who="Gibiser" listener="Gentlemen">"You'll kindly wait here until I return."</said> 
+          Meanwhile <rs ref="#Fridolin" type="character">Fridolin</rs> slipped into the cassock and tied the white cords. <rs ref="#Gibiser" type="character">Gibiser</rs>, who was standing on a 
+          narrow ladder, handed him the black, broad-rimmed pilgrim's hat, and he put it on. But he did all this
+          unwillingly, being more and more convinced that danger was threatening <rs ref="#Pierrette" type="character">Pierrette</rs> and that it was his 
+          duty to remain and help her. The mask which <rs ref="#Gibiser" type="character">Gibiser</rs> gave him and which he at once tried on, smelt 
+          strange and rather disagreeable. 
+          <said aloud="true" direct="true" who="Gibiser" listener="Pierrette">"You walk down ahead of me,"</said> <rs ref="#Gibiser" type="character">Gibiser</rs> commanded the girl, pointing to the stairs. <rs ref="#Pierrette" type="character">Pierrette</rs> turned and 
+          waved a gay, yet wistful farewell. <rs ref="#Fridolin" type="character">Fridolin</rs>'s eyes followed the direction of her gaze. The two men were 
+          no longer in costume but wore evening clothes and white ties, though their faces were still covered by 
+          their red masks. <rs ref="#Pierrette" type="character">Pierrette</rs> went down the winding staircase with a light step, <rs ref="#Gibiser" type="character">Gibiser</rs> behind her and 
+          <rs ref="#Fridolin" type="character">Fridolin</rs> following in the rear. In the anteroom below <rs ref="#Gibiser" type="character">Gibiser</rs> opened a door leading to the inner rooms 
+          and said to <rs ref="#Pierrette" type="character">Pierrette</rs>: <said aloud="true" direct="true" who="Gibiser" listener="Pierrette">"Go to bed at once, you depraved creature. I'll talk to you as soon as I've settled 
+          with those two upstairs."</said>
+          She stood in the doorway, white and delicate, and with a glance at <rs ref="#Fridolin" type="character">Fridolin</rs>, sadly shook her head. He
+          noticed with surprise, in a large wall-mirror to the right, a haggard pilgrim who seemed to be himself. At
+          the same time he knew very well that it could be no other. 
+          The girl disappeared and the old costumer locked the door behind her. Then he opened the entrance 
+          door and hurried <rs ref="#Fridolin" type="character">Fridolin</rs> out into the hallway. 
+          <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"Well,"</said> said <rs ref="#Fridolin" type="character">Fridolin</rs>, <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"how much do I owe you?"</said>
+          <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"Never mind, sir, you can pay when you return the things. I'll trust you." </said>
+          <rs ref="#Fridolin" type="character">Fridolin</rs>, however, refused to move. <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"Swear that you won't hurt that poor child,"</said> he said. 
+          <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"What business is it of yours?"</said> 
+          <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"I heard you, a minute ago, say that the girl was insane—and just now you called her a depraved 
+          creature. That sounds pretty contradictory." </said>
+          <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"Well,"</said> replied <rs ref="#Gibiser" type="character">Gibiser</rs> theatrically, <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"aren't insanity and depravity the same in the eyes of God?" </said>
+          <rs ref="#Fridolin" type="character">Fridolin</rs> shuddered with disgust. 
+          <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"Whatever it is,"</said> he remarked, <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"there are ways and means of attending to it. I am a doctor. We'll have 
+          another talk about this tomorrow." </said>
+          <rs ref="#Gibiser" type="character">Gibiser</rs> laughed mockingly without uttering a sound. A light flared up in the hallway, and the door 
+          between them was closed and immediately bolted. <rs ref="#Fridolin" type="character">Fridolin</rs> took off the hat, cassock and mask while 
+          going downstairs, carrying the bundle under his arm. The care-taker opened the outer door and <rs ref="#Fridolin" type="character">Fridolin</rs> 
+          saw the mourning-coach standing opposite with the motionless driver on the box. <rs ref="#Nachtigall" type="character">Nachtigall</rs> was just on 
+          the point of leaving the cafe, and seemed somewhat taken aback at seeing <rs ref="#Fridolin" type="character">Fridolin</rs> at hand so promptly. 
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Then you did manage to get a costume?"</said> 
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"You can see for yourself. What's the password?"</said>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"You insist on knowing it?" </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Absolutely." </said>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Well then—it's Denmark." </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Are you mad, Nachtigall?" </said>
+          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">"Why mad?" </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">"Oh, never mind—I was at the seashore in Denmark this summer. Get back into your carriage—but not 
+          too fast, so that I'll have time to take a cab over on the other side." </said>
+          <rs ref="#Nachtigall" type="character">Nachtigall</rs> nodded and leisurely lighted a cigarette. <rs ref="#Fridolin" type="character">Fridolin</rs> quickly crossed the street, hailed a cab in 
+          an offhand way, as though he were playing a joke, and told the driver to follow the mourning-coach 
+          which was just starting in front of them. 
+        </p>
+        <p>
+          They crossed Alser Strasse, and drove on through dim, deserted side-streets under a railroad viaduct 
+          toward the suburbs. 
+          <rs ref="#Fridolin" type="character">Fridolin</rs> was afraid that the driver might lose sight of the carriage, but whenever he put his head out of 
+          the open window, into the abnormally warm air, he always saw it. It was a moderate distance ahead of 
+          them, and the coachman with his high, black silk hat sat motionless on the box. This business may end 
+          badly, thought <rs ref="#Fridolin" type="character">Fridolin</rs>. At the same time he remembered the fragrance of roses and powder that had 
+          arisen from <rs ref="#Pierrette" type="character">Pierrette</rs>'s breasts. <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">What strange story is behind all that?</said> he wondered. <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">I shouldn't have 
+          left—perhaps it was even a great mistake—I wonder where I am now. </said>
+          The road wound slowly up-hill between modest villas. <rs ref="#Fridolin" type="character">Fridolin</rs> thought that he now had his bearings. 
+          He had sometimes come this way on walks, years ago. It must be the Galitzinberg that he was going up. 
+          Down to his left he could see the city indistinct in the mist, but glimmering with a thousand lights. He 
+          heard the rumbling of wheels behind him and looked out of the window back of him. There were two 
+          carriages following his. He was glad of that, for now the driver of the mourning-coach would certainly 
+          not be suspicious of him. 
+          With a violent jolt, the cab turned into a side street and went down into something like a ravine, 
+          between iron fences, stone walls and terraces. <rs ref="#Fridolin" type="character">Fridolin</rs> realized that it was high time to put on his 
+          costume. He took off his fur coat and slipped into the cassock, just as he slipped into the sleeves of his 
+          white linen coat every morning in his ward at the hospital. He was relieved to think that, if everything 
+          went well, it would be only a few hours before he would be back again by the beds of his patients, ready 
+          to give aid. 
+        </p>
+        <p>
+          His cab stopped. <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">What if I don't get out at all,</said> <rs ref="#Fridolin" type="character">Fridolin</rs> thought, <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">and go back at once? But go where? To 
+          little <rs ref="#Pierrette" type="character">Pierrette</rs>? To the girl in Buchfeld Strasse? Or to <rs
+          ref="#Marianne" type="character">Marianne</rs>, the daughter of the deceased? Or 
+          perhaps home?</said> He shuddered slightly and decided he'd rather go anywhere than home. Was it because 
+          it was farthest to go? <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">No, I can't turn back</said>, he thought. <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">I must go through with this, even if it means 
+          death.</said> And he laughed at himself, using such a big word but without feeling very cheerful about it. 
+        </p>
+        <p>
+          A garden gate stood wide open. The mourning-coach drove on deeper into the ravine, or into the 
+          darkness that seemed like one. <rs ref="#Nachtigall" type="character">Nachtigall</rs> must, therefore, have got out. <rs ref="#Fridolin" type="character">Fridolin</rs> quickly sprang out of 
+          the cab and told the driver to wait for him up at the turn, no matter how late he might be. To make sure 
+          of him, he paid him well in advance and promised him a large sum for the return trip. The other carriages 
+          drove up and <rs ref="#Fridolin" type="character">Fridolin</rs> saw the veiled figure of a woman step out of the first. Then he turned into the 
+          garden and put on his mask. A narrow path, lighted up by a lamp from the house, led to the entrance. 
+        </p>
+        <p>
+          Doors opened before him, and he found himself in a narrow, white vestibule. He could hear an organ 
+          playing, and <rs ref="#2Servants" type="character">two servants</rs> in dark livery, their faces covered by gray masks, stood on each side of him. 
+          Two voices whispered in unison: <said aloud="true" direct="true" who="2Servants" listener="Fridolin">"Password?"</said> He replied: <said aloud="true" direct="true" who="Fridolin" listener="2Servants">"Denmark."</said> One of them took his fur coat 
+          and disappeared with it into an adjoining room, while the other opened a door. <rs ref="#Fridolin" type="character">Fridolin</rs> entered a dimly
+          lighted room with high ceilings, hung on all sides with black silk. Sixteen to twenty people masked and 
+          dressed as monks and nuns were walking up and down. The gently swelling strains of Italian church 
+          music came from above. A small group, composed of three nuns and two monks, stood in a corner of the 
+          room. They watched him for a second, but turned away again at once, almost deliberately. <rs ref="#Fridolin" type="character">Fridolin</rs>, 
+          noticing that he was the only one who wore a hat, took his off and walked up and down as nonchalantly 
+          as possible. A monk brushed against him and nodded a greeting, but from behind the mask <rs ref="#Fridolin" type="character">Fridolin</rs> 
+          encountered a searching and penetrating glance. A strange, heavy perfume, as of Southern gardens, 
+          scented the room. Again an arm brushed against him, but this time it was that of a nun. Like all the 
+          others she had a black veil over her face, head and neck, a blood-red mouth glowed under the black 
+          laces of the mask. <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">Where am I?</said> thought <rs ref="#Fridolin" type="character">Fridolin</rs>. <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">Among lunatics? Or conspirators? Is this a meeting of 
+          some religious sect? Can it be that <rs ref="#Nachtigall" type="character">Nachtigall</rs> was ordered or paid to bring along some stranger to be the
+          target of their jokes?</said> But everything seemed too serious, too intense, too uncanny for a masquerade 
+          prank. A <rs ref="woman" type="character">woman</rs>'s voice joined the strains of the organ and an Old. Italian sacred aria resounded through 
+          the room. They all stood still and listened and <rs ref="#Fridolin" type="character">Fridolin</rs> surrendered himself for a moment to the 
+          wondrously swelling melody. A soft voice suddenly whispered from behind: <said aloud="true" direct="true" who="woman" listener="Fridolin">"Don't turn around. There's 
+          still a chance for you to get away. You don't belong here. If it's discovered it will go hard with you." </said>
+          <rs ref="#Fridolin" type="character">Fridolin</rs> gave a frightened start. For a second he thought of leaving, but his curiosity, the allurement 
+          and, above all, his pride, were stronger than any of his misgivings. Now that I've gone this far, he 
+          thought, <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">I don't care what happens</said>. And he shook his head negatively without turning around. 
+          The voice behind him whispered: <said aloud="true" direct="true" who="woman" listener="Fridolin">"I should feel very sorry for you."</said> He turned and looked at her. He 
+          saw the blood-red mouth glimmering under the lace. Dark eyes were fixed on him. <said aloud="true" direct="true" who="Fridolin" listener="woman">"I shall stay,"</said> he said 
+          in a heroic voice which he hardly recognized as his own, and he looked away again. The song was now 
+          ringing through the room; the organ had a new sound which was anything but sacred. It was worldly, 
+          voluptuous, and pealing. Looking around <rs ref="#Fridolin" type="character">Fridolin</rs> saw that all the nuns had disappeared and that only the 
+          monks were left. The voice had meanwhile also changed. It rose by way of an artistically executed trill 
+          from its low and serious pitch to a high and jubilant tone. In place of the organ a piano had suddenly 
+          chimed in with its worldly and brazen tunes. <rs ref="#Fridolin" type="character">Fridolin</rs> at once recognized <rs ref="#Nachtigall" type="character">Nachtigall</rs>'s wild and 
+          inflammatory touch. The woman's voice which had been so reverent a moment before had vanished 
+          with a last wild, voluptuous outburst through the ceiling, as it were, into infinity. Doors opened to the 
+          right and left On one side <rs ref="#Fridolin" type="character">Fridolin</rs> recognized the indistinct outlines of <rs ref="#Nachtigall" type="character">Nachtigall</rs>'s figure; the room 
+          opposite was radiant with a blaze of light. All the women were standing there motionless. They wore 
+          dark veils over their heads, faces and necks and black masks over their eyes, but otherwise they were 
+          completely naked. <rs ref="#Fridolin" type="character">Fridolin</rs>'s eyes wandered eagerly from voluptuous to slender bodies, from delicate 
+          figures to those luxuriously developed. He realized that each of these women would forever be a 
+          mystery, and that the enigma of their large eyes peering at him from beneath the black masks would 
+          remain unsolved. The delight of beholding was changed to an almost unbearable agony of desire. And 
+          the others seemed to experience a similar sensation. The first gasps of rapture had changed to sighs that 
+          held a note very near anguish. A cry broke out somewhere. Suddenly all of them, as though pursued, 
+          rushed from the darkened room to the women, who received them with wild and wicked laughter. The 
+          men were no longer in cassocks, but dressed as cavaliers, in white, yellow, blue and red. <rs ref="#Fridolin" type="character">Fridolin</rs> was the
+          only one in monk's dress. Somewhat nervously he slunk into the farthest corner, where he was near 
+          <rs ref="#Nachtigall" type="character">Nachtigall</rs> whose back was turned to him. <rs ref="#Nachtigall" type="character">Nachtigall</rs> had a bandage over his eyes, but <rs ref="#Fridolin" type="character">Fridolin</rs> thought 
+          he could see him peering underneath the bandage into the tall mirror opposite. In it the cavaliers with 
+          their gay-colored costumes were reflected, dancing with their naked partners. 
+          A woman came up suddenly behind <rs ref="#Fridolin" type="character">Fridolin</rs> and whispered—for no one spoke aloud, as if the voices, 
+          too, were to remain a secret—: <said aloud="true" direct="true" who="another woman" listener="Fridolin">"What is the matter? Why don't you dance?" </said>
+          <rs ref="#Fridolin" type="character">Fridolin</rs>, seeing two noblemen watch fixedly from another corner, suspected that this woman with the 
+          boyish and slender figure, was sent to put him to the test. In spite of it he meant to dance with her, but
+          at that moment another woman left her partner and walked quickly up to him. He knew at once that it 
+          was the same one who had already warned him. She pretended that she had just seen him and 
+          whispered, in a voice loud enough to be heard in the other corner: <said aloud="true" direct="true" who="woman" listener="Fridolin">"Returned at last!"</said> Laughingly, she 
+          continued: <said aloud="true" direct="true" who="woman" listener="Fridolin">"All your efforts are useless. I know you."</said> Then turning to the woman with the boyish figure, 
+          she said: <said aloud="true" direct="true" who="woman" listener="another woman">"Let me have him for just two minutes, then he shall be yours again until morning, if you wish."</said> 
+          In a softer voice she added: <said aloud="true" direct="true" who="woman" listener="Fridolin">"It is really he."</said> The other replied in astonishment: <said aloud="true" direct="true" who="another woman" listener="woman">"Really?"</said> and with a light 
+          step went to join the cavaliers in the corner. 
+          Alone with <rs ref="#Fridolin" type="character">Fridolin</rs>, the woman cautioned him, <said aloud="true" direct="true" who="woman" listener="Fridolin">"Don't ask questions, and don't be surprised at 
+          anything. I tried to lead them astray, but you can't continue to deceive them for long. Go, before it is too 
+          late—and it may be too late at almost any moment—and be careful that no one follows you. No one 
+          must know who you are. There would be no more peace and quiet for you. Go!" </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="woman">"Will I see you again?" </said>
+          <said aloud="true" direct="true" who="woman" listener="Fridolin">"It's impossible." </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="woman">"Then I shall stay." </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="woman">"My life, at most, is at stake,"</said> he said, <said aloud="true" direct="true" who="Fridolin" listener="woman">"and I'm ready at this moment to give it for you."</said> He took her 
+          hands and tried to draw her to him. 
+          She whispered again, almost despairingly: <said aloud="true" direct="true" who="woman" listener="Fridolin">"Go!" </said>
+          He laughed, and he heard himself laughing as in a dream. <said aloud="true" direct="true" who="Fridolin" listener="woman">"But I know what I'm doing. You are not all
+          here just to make us mad by looking at you. You are doing this to unnerve me still more." </said>
+          <said aloud="true" direct="true" who="woman" listener="Fridolin">"It will soon be too late. You must go!" </said>
+          But he wouldn't listen to her. <said aloud="true" direct="true" who="Fridolin" listener="woman">"Do you mean to say that there are no rooms here for the convenience 
+          of congenial couples? Will all these people leave with just a courteous 'good-bye'? They don't look like 
+          it." </said>
+          He pointed to the dancers, glowing white bodies closely pressed against the blue, red and yellow silk 
+          of their partners, circling, in the brilliant, mirrored room adjoining, to the wild tunes of the piano. It 
+          seemed to him that no longer was any attention paid to him and the woman beside him. They stood 
+          alone in the semi-dark middle room. 
+          <said aloud="true" direct="true" who="woman" listener="Fridolin">"You are hoping in vain,"</said> she whispered. <said aloud="true" direct="true" who="woman" listener="Fridolin">"There are no such rooms here. This is your last opportunity 
+          to leave." </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="woman">"Come with me!" </said>
+          She shook her head violently, despairingly. 
+          .. He laughed again, not recognizing his laughter. <said aloud="true" direct="true" who="Fridolin" listener="woman">"You're making game of me. Did all these men and 
+          women come here merely to fan the flames of their desire and then depart? Who can forbid you to 
+          come away with me if you choose?" </said>
+          She took a deep breath and drooped her head. 
+          <said aloud="true" direct="true" who="Fridolin" listener="woman">"Oh, now I understand,"</said> he said. <said aloud="true" direct="true" who="Fridolin" listener="woman">"That's the punishment you impose on those who come here 
+          uninvited. You couldn't have invented a more cruel one. Please let me off and forgive me. Impose some 
+          other penalty, anything but that I must leave you."</said>
+          <said aloud="true" direct="true" who="woman" listener="Fridolin">"You are mad. I can't go with you, let alone anyone else. Whomever I went with would forfeit his life 
+          and mine." </said>
+          <rs ref="#Fridolin" type="character">Fridolin</rs> felt intoxicated, not only with her, her fragrant body and her red-glowing mouth—not only
+          with the atmosphere of this room and the voluptuous mysteries that surrounded him—he was 
+          intoxicated, his thirst unsatisfied, with all the experiences of the night, none of which had come to a 
+          satisfactory conclusion. He was intoxicated with himself, with his boldness, the change he felt in himself, 
+          and he touched the veil which was wound about her head, as though he intended to remove it. 
+          She seized his hands. <said aloud="true" direct="true" who="woman" listener="Fridolin">"One night during the dance here one of the men took it into his head to tear the 
+          veil from one of us. They ripped the mask from his face and drove him out with whips." </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="woman">"And—she?"</said> 
+          <said aloud="true" direct="true" who="woman" listener="Fridolin">"Did you read of a beautiful young girl, only a few weeks ago, who took poison the day before her 
+          wedding?" </said>
+          He remembered the incident, even the name, and mentioned it. <said aloud="true" direct="true" who="Fridolin" listener="woman">"Wasn't it a girl of the nobility who 
+          was engaged to marry an Italian Prince?" </said>
+          She nodded. 
+          One of the cavaliers, the most distinguished looking of them all and the only one dressed in white, 
+          suddenly stopped before them. With a slight bow, courteous but imperative, he asked the woman with 
+          whom <rs ref="#Fridolin" type="character">Fridolin</rs> was talking to dance with him. She seemed to hesitate a moment, but he put his arm 
+          around her waist and they drifted away to join the other couples in the adjoining room. 
+          A sudden feeling of solitude made <rs ref="#Fridolin" type="character">Fridolin</rs> shiver as if with cold. He looked about him. Nobody seemed 
+          to be paying any attention to him. This was perhaps his last chance to leave with impunity. He didn't 
+          know, however, why it was that he remained spell-bound in his corner where he now felt sure that he 
+          was not observed. It might be his aversion to an inglorious and perhaps ridiculous retreat, or the 
+          excruciating ungratified desire for the beautiful woman whose fragrance was still in his nostrils. Or he 
+          may have stayed because he vaguely hoped that all that had happened so far was intended as a test of 
+          his courage and that this magnificent woman would be his reward. It was clear at any rate that the strain 
+          was too great to be endured, and that, no matter what the danger, he would have to end it. It could 
+          hardly cost him his life, no matter what he decided. He might be among fools, or libertines, but certainly
+          not among rascals or criminals. The thought occurred to him to acknowledge himself as an intruder and 
+          to place himself at their disposal in chivalrous fashion. This night could only conclude in such a 
+          manner,—with a harmonious finale, as it were—if it were to mean more than a wild, shadow-like 
+          succession of gloomy and lascivious adventures, all without an end. So, taking a deep breath, he 
+          prepared to carry out his plan. 
+          At this moment, however, a voice whispered beside him: <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"Password!"</said> A <rs ref="#cavalier" type="character">cavalier</rs> in black had stepped 
+          up to him unseen. As <rs ref="#Fridolin" type="character">Fridolin</rs> didn't reply, he repeated his question. <said aloud="true" direct="true" who="Fridolin" listener="cavalier">"Denmark,"</said> said <rs ref="#Fridolin" type="character">Fridolin</rs>. 
+          <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"That's right, sir, that's the password for admittance, but what's the password of the house, may I 
+          ask?"</said> <rs ref="#Fridolin" type="character">Fridolin</rs> was silent. 
+          <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"Won't you be kind enough to tell me the password of the house?"</said> It sounded like a sharp threat. 
+          <rs ref="#Fridolin" type="character">Fridolin</rs> shrugged his shoulders. The other walked to the middle of the room and raised his hand. The 
+          piano ceased playing and the dance stopped. Two other cavaliers, one in yellow, the other in red, 
+          stepped up. <said aloud="true" direct="true" who="cavaliers" listener="Fridolin">"The password, sir,"</said> they said simultaneously. 
+          <said aloud="true" direct="true" who="Fridolin" listener="cavalier">"I have forgotten it,"</said> replied <rs ref="#Fridolin" type="character">Fridolin</rs> with a vacant smile but feeling quite calm. 
+          <said aloud="true" direct="true" who="YellowGentlemen" listener="Fridolin">"That's unfortunate,"</said> said the <rs ref="YellowGentlemen" type="character">gentleman</rs> in yellow, <said aloud="true" direct="true" who="YellowGentlemen" listener="Fridolin">"for here it doesn't matter whether you have 
+          forgotten it or if you never knew it." </said>
+          The other men flocked in and the doors on both sides were closed. <rs ref="#Fridolin" type="character">Fridolin</rs> stood alone in the garb of a 
+          monk in the midst of the gay-colored cavaliers. 
+          <said aloud="true" direct="true" who="gentlemen" listener="Fridolin">"Take off your mask!"</said> several of them demanded. <rs ref="#Fridolin" type="character">Fridolin</rs> held out his arm to protect himself. It 
+          seemed a thousand times worse to be the only one unmasked amongst so many that were, than to stand 
+          suddenly naked amongst people who were dressed. He replied firmly: <said aloud="true" direct="true" who="Fridolin" listener="gentlemen">"If my appearance here has 
+          offended any of the gentlemen present, I am ready to give satisfaction in the usual manner, but I shall 
+          take off my mask only if all of you will do the same." </said>
+          <said aloud="true" direct="true" who="RedCavalier" listener="Fridolin">"It's not a question of satisfaction,"</said> said the <rs ref="RedCavalier" type="character">cavalier</rs> in red, who until now had not spoken, <said aloud="true" direct="true" who="RedCavalier" listener="Fridolin">"but one of 
+          expiation." </said>
+          <said aloud="true" direct="true" who="unkown" listener="Fridolin">"Take off your mask!"</said> commanded another in a high-pitched, insolent voice which reminded <rs ref="#Fridolin" type="character">Fridolin</rs> 
+          of an officer giving orders, <said aloud="true" direct="true" who="unkown" listener="Fridolin">"and we'll tell you to your face what's in store for you." </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="gentlemen">"I shall not take it off,"</said> said <rs ref="#Fridolin" type="character">Fridolin</rs> in an even sharper tone, <said aloud="true" direct="true" who="Fridolin" listener="gentlemen">"and woe to him who dares to touch me." </said>
+          A hand suddenly reached out, as if to tear off the mask, when a door suddenly opened and one of the 
+          women—<rs ref="#Fridolin" type="character">Fridolin</rs> did not doubt which one it was—stood there, dressed as a nun, as he had first seen 
+          her. The others could be seen behind her in the brilliantly lighted room, naked, with veiled faces, 
+          crowding together in a terrified group. The door at once closed again. 
+          <said aloud="true" direct="true" who="woman" listener="gentlemen">"Leave him alone,"</said> said the <rs ref="woman" type="character">nun</rs>.  <said aloud="true" direct="true" who="woman" listener="gentlemen">"I am ready to redeem him."</said> 
+          There was a short, deep silence, as though something monstrous had happened. The <rs ref="cavalier" type="character">cavalier </rs>in black 
+          who had first demanded the password from <rs ref="#Fridolin" type="character">Fridolin</rs> turned to the nun, saying: <said aloud="true" direct="true" who="cavaliers" listener="Fridolin">"You know what you are 
+          taking upon yourself in doing this." </said>
+          <said aloud="true" direct="true" who="Fridolin" listener="cavalier">"I know." </said>
+          There was a general sigh of relief from those present. 
+          <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"You are free,"</said> said the <rs ref="cavalier" type="character"> to <rs ref="#Fridolin" type="character">Fridolin</rs>. <said aloud="true" direct="true" who="cavaliers" listener="Fridolin">"Leave this house at once and be careful not to inquire 
+          further into what you have seen here. If you attempt to put anyone on our trail, whether you succeed or 
+          not—you will be doomed." </said>
+          <rs ref="#Fridolin" type="character">Fridolin</rs> stood motionless. <said aloud="true" direct="true" who="Fridolin" listener="gentlemen">"How is this woman—to redeem me?"</said> he asked. 
+          There was no answer. Hands pointed to the door indicated that he must go. 
+          <rs ref="#Fridolin" type="character">Fridolin</rs> shook his head. <said aloud="true" direct="true" who="Fridolin" listener="gentlemen">"Impose what punishment you wish, gentlemen, I won't let this woman pay 
+          for me." </said>
+          <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"You would be unable, in any case, to change her lot,"</said> the <rs ref="cavalier" type="character"> in black said very gently. <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"When a 
+          promise has been made here there is no turning back."</said>
+          The <rs ref="woman" type="character">nun</rs> slowly nodded, as if to confirm the statement. <said aloud="true" direct="true" who="woman" listener="Fridolin">"Go!"</said> she said to <rs ref="#Fridolin" type="character">Fridolin</rs>. 
+          <said aloud="true" direct="true" who="Fridolin" listener="woman">"No,"</said> replied the latter, elevating his voice. <said aloud="true" direct="true" who="Fridolin" listener="woman">"Life means nothing to me if I must leave here without 
+          you. I shall not ask who you are or where you come from. What difference can it make to you, 
+          gentlemen, whether or not you keep up this carnival comedy, though it may aim at a serious conclusion. 
+          Whoever you may be, you surely lead other lives. I won't play a part, here or elsewhere, and if I have 
+          been forced to do so up to now, I shall give it up. I feel that a fate has overtaken me which has nothing to 
+          do with this foolery. I will tell you my name, take off my mask and be responsible for the consequences." </said>
+          <said aloud="true" direct="true" who="woman" listener="Fridolin">"Don't do it,"</said> exclaimed the <rs ref="woman" type="character">nun</rs>, <said aloud="true" direct="true" who="woman" listener="Fridolin">"you would only ruin yourself without saving me. Go!"</said> Then she 
+          turned to the others, saying: <said aloud="true" direct="true" who="woman" listener="gentlemen">"Here I am, take me—all of you!"</said> The dark costume dropped from her, as if 
+          by magic. She stood there in the radiance of her white body; reached for the veil which was wrapped 
+          about her head, face and neck and unwound it with a wonderful circular motion. It sank to the floor, 
+          dark hair fell in great profusion over her shoulders, breasts and hips—but before <rs ref="#Fridolin" type="character">Fridolin</rs> could even 
+          glance at her face, he was seized by irresistible arms, and pushed to the door. A moment later he found 
+          himself in the anteroom, the door closed behind him. A masked servant brought him his fur coat and 
+          helped him put it on. The main door opened automatically, and as if driven by some invisible force, he 
+          hurried out. As he stood on the street the light behind disappeared. The house stood there in silence 
+          with closed windows from which not a glimmer issued. I must remember everything clearly, was his main 
+          thought; I must find the house again—the rest will follow as a matter of course. 
+          Darkness surrounded him. The dull reddish glow of a street lamp was visible a slight distance above 
+          where the cab was to wait for him. The mourning-coach drove up from the street below, as though he 
+          had called it. A servant opened the door. 
+        </p>
+        <p>
+          <said aloud="true" direct="true" who="Fridolin" listener="servant">"I have my own cab,"</said> said <rs ref="#Fridolin" type="character">Fridolin</rs>. When the servant shook his head, <rs ref="#Fridolin" type="character">Fridolin</rs> continued: <said aloud="true" direct="true" who="Fridolin" listener="servant">"If it has 
+          already gone, I'll walk back to the city." </said>
+          The man replied with a wave of his hand which was anything but servant-like, so that objection was 
+          out of the question. The ridiculously high silk hat of the coachman towered up into the night. The wind
+          was blowing a gale; violet clouds raced across the sky. <rs ref="#Fridolin" type="character">Fridolin</rs> felt that, after his previous experience, 
+          there was nothing for him to do but to get into the carriage. It started the moment he was inside. 
+          He resolved, as soon as possible, to clear up the mystery of his adventure, no matter how dangerous it 
+          might be. His life, it seemed, would not have the slightest meaning any more, if he did not succeed in 
+          finding the incomprehensible <rs ref="woman" type="character">woman</rs> who at this very moment was paying for his safety. It was only too 
+          easy to guess the price. But why should she sacrifice herself for him? To sacrifice—? Was she the kind of 
+          woman to whom the things that were facing her, that she was now submitting to, could mean a 
+          sacrifice? If she attended these affairs—and since she seemed to understand the rules so well it could 
+          not be her first time—what difference could it make to her if she belonged to one of the cavaliers, or to 
+          all? Indeed, could she possibly be anything but a woman of easy virtue? Were any of them anything else? 
+          That's what they were, without a doubt, even if all of them led another, more normal life, so to speak, 
+          besides this one of promiscuity. Perhaps everything he had just gone through had been only an 
+          outrageous joke. A joke planned, prepared and even rehearsed for such an occasion when some bold 
+          outsider should be caught intruding? 
+          And yet, as he thought of the <rs ref="woman" type="character">woman</rs> who had warned him from the very beginning, who was now 
+          ready to pay for him—he remembered something in her voice, her bearing, in the royal nobility of her 
+          nude body which could not possibly have been false. Or was it possible that only his sudden appearance 
+          had caused her to change? After everything that had happened, such a supposition did not seem 
+          impossible. There was no conceit in this idea. There may be hours or nights, he thought, in which some 
+          strange, irresistible charm emanates from men who under normal circumstances have no special power 
+          over the other sex. 
+          The carriage continued up-hill. If all were well, he should have turned into the main street long ago. 
+          What were they going to do with him? Where was the carriage taking him? Was the comedy to be 
+          continued elsewhere? And what would the continuation be? A solution of the mystery and a happy 
+          reunion at some other place. Would he be rewarded for passing the test so creditably and made a 
+          member of the secret society? Was he to have unchallenged possession of the lovely nun? 
+        </p>
+        <p>
+          The windows of the carriage were closed and <rs ref="#Fridolin" type="character">Fridolin</rs> tried to look out—but they were opaque. He attempted to open 
+          them, first on one side, then on the other, but it was impossible. The glass partition between him and 
+          the coachman's box was just as thick and just as firmly closed. He knocked on the glass, he called, he 
+          shouted, but the carriage went on. He tried to open both the doors, but they wouldn't budge. His 
+          renewed calling was drowned by the rattling of the wheels and the roaring of the wind. The carriage 
+          began to jolt, going down-hill, faster and faster. <rs ref="#Fridolin" type="character">Fridolin</rs>, uneasy and alarmed, was on the point of 
+          smashing one of the blind windows, when the carriage suddenly stopped. Both doors opened together, 
+          as if by some mechanism, and as though <rs ref="#Fridolin" type="character">Fridolin</rs> had been ironically given the choice between one side 
+          or the other. He jumped out, the doors closed with a bang—and without the coachman paying the 
+          slightest attention to him, the carriage drove away across the open field into the darkness of the night. 
+          The sky was overcast, clouds raced across it, and the wind whistled. <rs ref="#Fridolin" type="character">Fridolin</rs> stood in the snow which 
+          shed a faint light round about. He was alone, his open fur coat over his monk's costume, the pilgrim's hat 
+          on his head; and an uncanny feeling overcame him. The main street was a slight distance away, where a 
+          row of dimly-flickering street lamps indicated the direction of the city. However, he ran straight down 
+          across the sloping, snow-covered field, which shortened the way, so as to get among people as quickly as 
+          possible. His feet soaked, he came into a narrow, almost unlighted street, and at first walked along 
+          between high board fences which groaned in the wind. Turning the next corner, he reached a somewhat 
+          wider street, where scattered little houses alternated with empty building lots. Somewhere a tower clock 
+          struck three. 
+        </p>
+        <p>
+          Someone was coming towards him. The person wore a short jacket, he had his hands in his trouser 
+          pockets, his head was down between his shoulders, and his hat was pulled over his forehead. <rs ref="#Fridolin" type="character">Fridolin</rs> got 
+          ready for an attack, but the tramp unexpectedly turned and ran. <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">What does that mean?</said> he asked 
+          himself. Then he decided that he must present a very uncanny appearance, took off the pilgrim's hat and 
+          buttoned his coat, underneath which the monk's gown was flapping around his ankles. Again he turned a 
+          corner into a suburban main street. A man in peasant's dress walked past and spoke to him, thinking him 
+          a priest. The light of a street lamp fell upon a sign on a corner house. Liebhartstal—then he wasn't very 
+          far from the house which he had left less than an hour before. For a second he felt tempted to retrace 
+          his steps and to wait in the vicinity for further developments. But he gave up the idea when he realized
+          that he would only expose himself to grave danger without solving the mystery. As he imagined what 
+          was probably taking place in the villa at this very moment he was filled with wrath, despair, shame and 
+          fear. This state of mind was so unbearable that it almost made him sorry the tramp had not attacked 
+          him; in fact, he almost regretted that he wasn't lying against the fence in the deserted street with a 
+          knife-gash in his side. That, at least, might have given some significance to this senseless night with its 
+          childish adventures, all of which had been so ruthlessly cut short. It seemed positively ridiculous to 
+          return home, as he now intended doing. But nothing was lost as yet. There was another day ahead, and 
+          he swore that he would not rest until he had found again the beautiful <rs ref="woman" type="character">woman</rs> whose dazzling 
+          nakedness had so intoxicated him. It was only now that he thought of <rs ref="Albertina" type="character">Albertina</rs>, but with a feeling that 
+          she, too, would first have to be won. He could not, must not, be reunited with her until he had deceived 
+          her with all the other women of the night. With the naked <rs ref="woman" type="character">woman</rs>, with <rs ref="Pierrette" type="character">Pierrette</rs>, with <rs ref="Marianne" type="character">Marianne</rs>, with 
+          <rs ref="Mizzi" type="character">Mizzi</rs> in the narrow street. And shouldn't he also try to find the insolent student who had bumped into 
+          him, so that he might challenge him to a duel with sabres or, better still, with pistols? What did someone
+          else's life, what did his own, matter to him? Is one always to stake one's life just from a sense of duty or 
+          self-sacrifice, and never because of a whim or a passion, or simply to match oneself against Fate? 
+          Again the thought came to him that even now the germ of a fatal disease might be in his body. 
+          Wouldn't it be silly to die just because a child with diphtheria had coughed in his face? Perhaps he was 
+          already ill. Wasn't he feverish? Perhaps at this moment he was lying at home in bed—and everything he 
+          thought he had experienced was merely delirium? 
+        </p>
+        <p>
+          <rs ref="#Fridolin" type="character">Fridolin</rs> opened his eyes as wide as possible, passed his hand over his forehead and cheeks and felt his 
+          pulse. It scarcely beat faster. Everything was all right. He was completely awake. 
+          He continued along the street, towards the city. A few market-wagons rumbled by, and now and then 
+          he met poorly dressed people whose day was just beginning. Behind the window of a coffee-house, at a 
+          table over which a gas-flame flickered, sat a fat man with a scarf around his neck, his head on his hands,
+          fast asleep. The houses were still enveloped in darkness, though here and there a few windows were 
+          lighted and <rs ref="#Fridolin" type="character">Fridolin</rs> thought he could feel the people gradually awaking. It seemed that he could see 
+          them stretching themselves in their beds and preparing for their pitiful and strenuous day. A new day 
+          faced him, too, but for him it wasn't pitiful and dull. And with a strange, happy beating of his heart, he 
+          realized that in a few hours he would be walking around between the beds of his patients in his white 
+          hospital coat. A one-horse cab stood at the next corner, the coachman asleep on the box. <rs ref="#Fridolin" type="character">Fridolin</rs> 
+          awakened him, gave his address and got in. 
+        </p>
+        
+        [END ERICA PART 2]
+        
       </div>
     </body>
   </text>
