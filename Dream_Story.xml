@@ -38,50 +38,64 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          <rs type="person">
-            <rs type="person" xml:id="Fridolin">Fridolin</rs>
+          <person>
+            <persName xml:id="Fridolin">Fridolin</persName>
             <age>30s</age>
+            <gender>male</gender>
             <description> doctor, rugged, knows how to play piano</description>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="Albertina">Albertina</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="STRANGER">A stranger</rs>
+          </person>
+          <person>
+            <persName xml:id="Albertina">Albertina</persName>
+            <gender>female</gender>
+          </person>
+          <person>
+            <persName xml:id="STRANGER">A stranger</persName>
+            <gender>male</gender>
             <description>blase manner, apparently Polish accent</description>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="2W">Two women in red dominoes</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="daughter">Fridolin and Albertina's daughter</rs>
+          </person>
+          <person>
+            <persName xml:id="TWOW">Two women in red dominoes</persName>
+          </person>
+          <person>
+            <persName xml:id="daughter">Fridolin and Albertina's daughter</persName>
+            <gender>female</gender>
             <description>blonde hair</description>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="governess">Governess</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="younggirl">Young girl</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="councilor">councilor</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="Marianne">Marianne</rs>
+          </person>
+          <person>
+            <persName xml:id="governess">Governess</persName>
+            <gender>female</gender>
+          </person>
+          <person>
+            <persName xml:id="younggirl">Young girl</persName>
+            <gender>female</gender>
+          </person>
+          <person>
+            <persName xml:id="councilor">councilor</persName>
+            <gender>male</gender>
+          </person>
+          <person>
+            <persName xml:id="Marianne">Marianne</persName>
+            <gender>female</gender>
             <description>Councilor's daughter, was blond and thick, but dry; her neck well-formed
               and
               slender, although a little wrinkled
               and rather yellow; and her lips were thin and firmly pressed together.</description>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="Roediger">Doctor Roediger</rs>
+          </person>
+          <person>
+            <persName xml:id="Roediger">Doctor Roediger
+            </persName>
+            <gender>female</gender>
             <description>Marianne's fiance.</description>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="Mizzi">Mizzi</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="Nachtigall">Nachtigall</rs>
+          </person>
+          <person>
+            <persName xml:id="Mizzi">Mizzi
+            </persName>
+            <gender>female</gender>
+          </person>
+          <person>
+            <persName xml:id="Nachtigall">Nachtigall
+            </persName>
+            <gender>male</gender>
             <description>young
               man, Jew, tall, rather broad, and none too thin. His long, blond, slightly curly hair
               had a
@@ -92,37 +106,42 @@
               three false diamond studs, a crinkled collar and a dangling, white silk tie. His
               eyelids
               were inflamed, as if from many sleepless nights, but his blue eyes gleamed brightly.</description>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="Gibiser">Gibiser</rs>
+          </person>
+          <person>
+            <persName xml:id="Gibiser">Gibiser</persName>
+            <gender>male</gender>
             <description>
               He was a bald-headed, haggard man and wore an old-fashioned,
               flowered dressing-gown and a tasselled, Turkish cap which made him look like a foolish
               old man on the
               stage.
             </description>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="Pierette">Pierrette</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="2Servants">two servants</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="woman">woman</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="cavalier">cavalier in black</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="YellowGentlemen">gentleman in yellow</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="RedCavalier">cavalier in red</rs>
-          </rs>
-          <rs type="person">
-            <rs type="person" xml:id="nun">nun</rs>
-          </rs>
+          </person>
+          <person>
+            <persName xml:id="Pierette">Pierrette</persName>
+            <gender>female</gender>
+          </person>
+          <person>
+            <persName xml:id="TWOServants">two servants</persName>
+          </person>
+          <person>
+            <persName xml:id="woman">woman</persName>
+          </person>
+          <person>
+            <persName xml:id="cavalier">cavalier in black</persName>
+            <gender>male</gender>
+          </person>
+          <person>
+            <persName xml:id="YellowGentlemen">gentleman in yellow</persName>
+            <gender>male</gender>
+          </person>
+          <person>
+            <persName xml:id="RedCavalier">cavalier in red</persName>
+            <gender>male</gender>
+          </person>
+          <person>
+            <persName xml:id="nun">nun</persName>
+          </person>
         </listPerson>
         <listEvent>
           <event>
@@ -136,11 +155,11 @@
           <place xml:id="Denmark" type="country">
             <placeName>Denmark</placeName>
           </place>
-          <place>
-            <placeName xml:id="ball-room">ball-room</placeName>
+          <place xml:id="ball-room">
+            <placeName>ball-room</placeName>
           </place>
           <place xml:id="worther" type="lake">
-            <placeName ref="http://vocab.getty.edu/page/tgn/1118608">Lake Worther</placeName>
+            <placeName ref="https://www.geonames.org/2760837/woerthersee.html">Lake Worther</placeName>
             <location>
               <country>Austria</country>
               <geo>46.6167, 14.1667</geo>
@@ -155,7 +174,8 @@
             </location>
           </place>
           <place xml:id="hospital" type="building">
-            <placeName>General Hospital</placeName>
+            <placeName ref="https://www.geonames.org/7522227/vienna-general-hospital.html">General
+              Hospital</placeName>
             <location>
               <settlement type="city">Vienna</settlement>
               <country>Austria</country>
@@ -163,7 +183,7 @@
             </location>
           </place>
           <place xml:id="park" type="park">
-            <placeName>Rathaus Park</placeName>
+            <placeName ref="https://www.geonames.org/6942415/rathauspark.html">Rathaus Park</placeName>
             <location>
               <settlement type="city">Vienna</settlement>
               <country>Austria</country>
@@ -171,7 +191,7 @@
             </location>
           </place>
           <place xml:id="Vienna" type="city">
-            <placeName>Vienna</placeName>
+            <placeName ref="https://www.geonames.org/2761369/vienna.html">Vienna</placeName>
             <location>
               <country>Austria</country>
               <geo>48.210033, 16.363449</geo>
@@ -198,7 +218,7 @@
             <location>
               <settlement type="city">Vienna</settlement>
               <country>Austria</country>
-              <geo></geo>
+              <geo>48.21350113821943, 16.353812096310836</geo>
             </location>
           </place>
           <place xml:id="CafeVindobona" type="building">
@@ -206,26 +226,52 @@
             <location>
               <settlement type="city">Vienna</settlement>
               <country>Austria</country>
-              <geo>48.186506409066695, 16.356094399037087</geo>
+              <geo>48.214713666174134, 16.35378139764215</geo>
             </location>
           </place>
-          <place>
-            <placeName xml:id="costume-shop">costume-shop</placeName>
+          <place xml:id="costume-shop">
+            <placeName>costume shop</placeName>
+            <location>
+              <settlement type="city">Vienna</settlement>
+              <country>Austria</country>
+              <geo>48.214713666174134, 16.35378139764215</geo>
+              <description>at the end of Wickeburgstrasse, in the same building of Vindebona Cafè</description>
+            </location>
           </place>
-          <place>
-            <placeName xml:id="AlserStrasse">Alser Strasse</placeName>
+          <place xml:id="AlserStrasse">
+            <placeName>Alser Strasse</placeName>
+            <location>
+              <settlement type="city">Vienna</settlement>
+              <country>Austria</country>
+              <geo>48.21532225102417, 16.34818653818485</geo>
+            </location>
           </place>
-          <place>
-            <placeName xml:id="Galitzinberg">Galitzinberg</placeName>
+          <place xml:id="Galitzinberg" type="slope">
+            <placeName ref="https://www.geonames.org/2601048/galitzinberg.html">Galitzinberg</placeName>
+            <location>
+              <settlement type="city">Vienna</settlement>
+              <country>Austria</country>
+              <geo>48.21667, 16.28333</geo>
+            </location>
           </place>
-          <place>
-            <placeName xml:id="BuchfeldStrasse">Buchfeld Strasse</placeName>
+          <place xml:id="BuchfeldStrasse">
+            <placeName>Buchfeld Strasse</placeName>
+            <location>
+              <settlement type="city">Vienna</settlement>
+              <country>Austria</country>
+              <geo>48.21072806886215, 16.353211626981153</geo>
+            </location>
           </place>
-          <place>
-            <placeName xml:id="Liebhartstal">Liebhartstal</placeName>
+          <place xml:id="Liebhartstal">
+            <placeName>Liebhartstal</placeName>
+            <location>
+              <settlement type="city">Vienna</settlement>
+              <country>Austria</country>
+              <geo>48.21697, 16.289</geo>
+            </location>
           </place>
-          <place>
-            <placeName xml:id="villa">villa</placeName>
+          <place xml:id="villa">
+            <placeName>villa</placeName>
           </place>
         </listPlace>
       </particDesc>
@@ -250,7 +296,7 @@
           alone on the deck
             under the dark-blue, starry sky, and his gaze—"</quote><lb /> So far the <rs
             ref="#daughter">little girl</rs> had read aloud.Then, suddenly, her eyelids drooped. Her
-          parents looked at each other and smiled. <rs type="person" ref="#Fridolin">Fridolin</rs>
+          parents looked at each other and smiled. <rs type="character" ref="#Fridolin">Fridolin</rs>
           bent down, kissed her blond hair and closed the book which was lying on the untidy table.
           The child looked up as if caught at some mischief.<lb />
             <said aloud="true" direct="true"
@@ -262,27 +308,27 @@
           child. The <rs ref="#governess">governess</rs> entered and asked the little girl to say
           good-night. She got up obediently, kissed her father and mother and walked out quietly
           hand in hand with the young woman. <rs
-            ref="#Fridolin">Fridolin</rs> and <rs type="person" ref="#Albertina">
+            ref="#Fridolin">Fridolin</rs> and <rs type="character" ref="#Albertina">
             Albertina</rs>, left alone under the reddish glow of the hanging-lamp, continued the
           conversation they had begun before supper. </p>
 
         <p> It dealt with their experiences the night before at the <eventName ref="#MASQ">masquerade
           ball</eventName>. They had decided to attend it just before the end of the <eventName
             ref="#CARNIVAL">carnival period</eventName>, as their first one of the season. No sooner
-          had <rs type="person" ref="Fridolin">Fridolin</rs> entered the ball-room than he was
-          greeted, like a long lost friend, by <rs type="person" ref="#2W">two
-            women</rs> in red dominoes. <rs type="person" ref="#Fridolin">He</rs> had no idea who
+          had <rs type="character" ref="Fridolin">Fridolin</rs> entered the ball-room than he was
+          greeted, like a long lost friend, by <rs type="character" ref="#TWOW">two
+            women</rs> in red dominoes. <rs type="character" ref="#Fridolin">He</rs> had no idea who
           they were, although they were unusually well-informed about many affairs of his student
           days and internship. They had invited him into a box with great friendliness, but had left
           again with the promise that they would soon return without masks. When they did not
           appear, he became impatient and went down to the ball-room floor hoping to meet them
           again, but eagerly as he scanned the room, he could not see them anywhere. Instead,
-          however, another woman unexpectedly took his arm. It was his <rs type="person"
+          however, another woman unexpectedly took his arm. It was his <rs type="character"
             ref="#Albertina">wife</rs>. She had just freed herself from the company of a <rs
-            type="person"
+            type="character"
             ref="#STRANGER">stranger</rs> whose blase manner and apparently Polish accent had at
           first charmed her. Suddenly he had offended her--frightened her by a rather common and
-          impertinent remark. <rs type="person" ref="#Fridolin">Fridolin</rs> and <rs
+          impertinent remark. <rs type="character" ref="#Fridolin">Fridolin</rs> and <rs
             ref="#Albertina">Albertina</rs> were glad to have escaped from a disappointingly
           commonplace masquerade prank, and soon sat like two lovers, among the other couples, in
           the buffet, eating oysters and drinking champagne. They chatted gaily, as though they had
@@ -290,7 +336,7 @@
           seduction and surrender. After driving home quickly through the snowy winter night, they
           sank into each other's arms and were more blissful in their ardent love than they had been
           for a long time. The gray of morning awakened them only too soon. Fridolin's profession
-          summoned him to his patients at an early hour, while <rs type="person" ref="#Albertina">
+          summoned him to his patients at an early hour, while <rs type="character" ref="#Albertina">
           Albertina</rs> would not stay in bed longer because of her duties as housewife and mother.
           So the ensuing hours passed, soberly and predetermined, in daily routine and work, and the
           events of the night before, both those at the beginning and at the end, had faded. </p>
@@ -316,15 +362,16 @@
           experience, which might express the inexpressible, and the honest confession of which
           might relieve them of the strain and the suspicion which were becoming unbearable. </p>
 
-        <p> Whether <rs type="person" ref="#Albertina">Albertina</rs> was more impatient, more
+        <p> Whether <rs type="character" ref="#Albertina">Albertina</rs> was more impatient, more
           honest or more kind-hearted of the two, it was she who first summoned the courage for a
-          frank confession. She asked <rs type="person" ref="#Fridolin">Fridolin</rs> in a rather
+          frank confession. She asked <rs type="character" ref="#Fridolin">Fridolin</rs> in a rather
           uncertain voice whether he remembered the young man who—last summer at the seashore in
           Denmark—had been sitting one evening with two other officers at an adjoining table. He had
           received a telegram during dinner, whereupon he had hastily said "good-bye" to his
           friends.</p>
         <p>
-          <rs type="person" ref="#Fridolin">Fridolin</rs> nodded. <said aloud="true" direct="true"
+          <rs type="character" ref="#Fridolin">Fridolin</rs> nodded. <said aloud="true"
+            direct="true"
             who="Fridolin" listener="Albertina">"What
             about him?"</said> he asked. </p>
         <p>
@@ -732,7 +779,7 @@
           lamp fell upon them he thought he recognized them, with their blue caps, as members of the
           Alemannia, for although he had never belonged to a fraternity, he had fought a few sabre
           duels in his time. In thinking of his student days he was reminded again of the <rs
-            ref="#2W">red
+            ref="#TWOW">red
             dominoes</rs> who had lured him into a box at the ball the night before and then had so
           shamefully deserted him. The students were quite near now; they were laughing and talking
           loudly. Perhaps one or two of them were from the hospital? But it was impossible to see
@@ -1276,7 +1323,7 @@
           <rs ref="#Gibiser" type="character">Gibiser</rs> released his hold
         and <rs ref="#Fridolin" type="character">Fridolin</rs> heard him saying: <said aloud="true"
             direct="true" who="Gibiser" listener="Gentlemen">"You will have to explain this.
-        Couldn't you see
+            Couldn't you see
             that the girl was deranged?"</said> Then turning to <rs ref="#Fridolin" type="character">
         Fridolin</rs>, he said: <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"Sorry
         to keep you waiting."</said> 
@@ -1426,7 +1473,7 @@
         Was it because it was farthest to go? <said aloud="false" direct="false" who="Fridolin"
             listener="Fridolin">No, I can't turn back</said>, he thought. <said aloud="false"
             direct="false" who="Fridolin" listener="Fridolin">I must go through with this, even if
-        it means
+            it means
             death.</said> And he laughed at himself, using such a big word but without feeling very
         cheerful about it. </p>
         <p> A garden gate stood wide open. The mourning-coach drove on deeper
@@ -1440,11 +1487,12 @@
         lighted up by a lamp from the house, led to the entrance. </p>
         <p> Doors opened before him,
         and he found himself in a narrow, white vestibule. He could hear an organ playing, and <rs
-            ref="#2Servants" type="character">two servants</rs> in dark livery, their faces covered
-        by gray masks, stood on each side of him. Two voices whispered in unison: <said aloud="true"
-            direct="true" who="2Servants" listener="Fridolin">"Password?"</said> He replied: <said
-            aloud="true" direct="true" who="Fridolin" listener="2Servants">"Denmark."</said> One of
-        them took his fur coat and disappeared with it into an adjoining room, while the other
+            ref="#TWOServants" type="character">two servants</rs> in dark livery, their faces
+        covered by gray masks, stood on each side of him. Two voices whispered in unison: <said
+            aloud="true"
+            direct="true" who="TWOServants" listener="Fridolin">"Password?"</said> He replied: <said
+            aloud="true" direct="true" who="Fridolin" listener="TWOServants">"Denmark."</said> One
+        of them took his fur coat and disappeared with it into an adjoining room, while the other
         opened a door. <rs ref="#Fridolin" type="character">Fridolin</rs> entered a dimly lighted
         room with high ceilings, hung on all sides with black silk. Sixteen to twenty people masked
         and dressed as monks and nuns were walking up and down. The gently swelling strains of
@@ -1469,12 +1517,13 @@
         moment to the wondrously swelling melody. A soft voice suddenly whispered from behind: <said
             aloud="true" direct="true" who="woman" listener="Fridolin">"Don't turn around. There's
         still a chance for you to get away. You don't belong here. If it's discovered it will go
-        hard with you." </said>
-          <rs ref="#Fridolin" type="character">Fridolin</rs> gave a frightened
-        start. For a second he thought of leaving, but his curiosity, the allurement and, above all,
-        his pride, were stronger than any of his misgivings. Now that I've gone this far, he
-        thought, <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">I don't care
-        what happens</said>. And he shook his head negatively without turning around. The voice
+            hard with you." </said>
+          <rs ref="#Fridolin" type="character">Fridolin</rs> gave a
+        frightened start. For a second he thought of leaving, but his curiosity, the allurement and,
+        above all, his pride, were stronger than any of his misgivings. Now that I've gone this far,
+        he thought, <said aloud="false" direct="false" who="Fridolin" listener="Fridolin">I don't
+        care
+            what happens</said>. And he shook his head negatively without turning around. The voice
         behind him whispered: <said aloud="true" direct="true" who="woman" listener="Fridolin">"I
         should feel very sorry for you."</said> He turned and looked at her. He saw the blood-red
         mouth glimmering under the lace. Dark eyes were fixed on him. <said aloud="true"
@@ -1522,9 +1571,10 @@
         whispered, in a voice loud enough to be heard in the other corner: <said aloud="true"
             direct="true" who="woman" listener="Fridolin">"Returned at last!"</said> Laughingly, she
         continued: <said aloud="true" direct="true" who="woman" listener="Fridolin">"All your
-        efforts are useless. I know you."</said> Then turning to the woman with the boyish figure,
-        she said: <said aloud="true" direct="true" who="woman" listener="another woman">"Let me have
-        him for just two minutes, then he shall be yours again until morning, if you wish."</said>
+            efforts are useless. I know you."</said> Then turning to the woman with the boyish
+        figure, she said: <said aloud="true" direct="true" who="woman" listener="another woman">"Let
+        me have
+            him for just two minutes, then he shall be yours again until morning, if you wish."</said>
         In a softer voice she added: <said aloud="true" direct="true" who="woman"
             listener="Fridolin">"It is really he."</said> The other replied in astonishment: <said
             aloud="true" direct="true" who="another woman" listener="woman">"Really?"</said> and
@@ -1552,11 +1602,12 @@
         as in a dream. <said aloud="true" direct="true" who="Fridolin" listener="woman">"But I know
         what I'm doing. You are not all
             here just to make us mad by looking at you. You are doing this to unnerve me still
-        more." </said>
-          <said aloud="true" direct="true" who="woman" listener="Fridolin">"It will soon
-        be too late. You must go!" </said> But he wouldn't listen to her. <said aloud="true"
+            more." </said>
+          <said aloud="true" direct="true" who="woman" listener="Fridolin">"It will
+        soon
+            be too late. You must go!" </said> But he wouldn't listen to her. <said aloud="true"
             direct="true" who="Fridolin" listener="woman">"Do you mean to say that there are no
-        rooms here for the convenience
+            rooms here for the convenience
             of congenial couples? Will all these people leave with just a courteous 'good-bye'? They
         don't look like
             it." </said> He pointed to the dancers, glowing white bodies closely pressed against the
@@ -1565,7 +1616,7 @@
         paid to him and the woman beside him. They stood alone in the semi-dark middle room. <said
             aloud="true" direct="true" who="woman" listener="Fridolin">"You are hoping in vain,"</said>
         she whispered. <said aloud="true" direct="true" who="woman" listener="Fridolin">"There are
-        no such rooms here. This is your last opportunity
+            no such rooms here. This is your last opportunity
             to leave." </said>
           <said aloud="true" direct="true" who="Fridolin" listener="woman">"Come
         with me!" </said> She shook her head violently, despairingly. .. He laughed again, not
@@ -1578,7 +1629,7 @@
         he said. <said aloud="true" direct="true" who="Fridolin" listener="woman">"That's the
         punishment you impose on those who come here
             uninvited. You couldn't have invented a more cruel one. Please let me off and forgive
-        me. Impose some
+            me. Impose some
             other penalty, anything but that I must leave you."</said>
           <said aloud="true"
             direct="true" who="woman" listener="Fridolin">"You are mad. I can't go with you, let
@@ -1592,7 +1643,7 @@
         himself, and he touched the veil which was wound about her head, as though he intended to
         remove it. She seized his hands. <said aloud="true" direct="true" who="woman"
             listener="Fridolin">"One night during the dance here one of the men took it into his
-        head to tear the
+            head to tear the
             veil from one of us. They ripped the mask from his face and drove him out with whips." </said>
           <said
             aloud="true" direct="true" who="Fridolin" listener="woman">"And—she?"</said> 
@@ -1628,10 +1679,10 @@
         in black had stepped up to him unseen. As <rs ref="#Fridolin" type="character">Fridolin</rs>
         didn't reply, he repeated his question. <said aloud="true" direct="true" who="Fridolin"
             listener="cavalier">"Denmark,"</said> said <rs ref="#Fridolin" type="character">Fridolin</rs>
-        . 
-          <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"That's
-        right, sir, that's the password for admittance, but what's the password of the house, may I
-        ask?"</said> <rs ref="#Fridolin" type="character">Fridolin</rs> was silent. <said
+        . <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"That's
+            right, sir, that's the password for admittance, but what's the password of the house,
+            may I
+            ask?"</said> <rs ref="#Fridolin" type="character">Fridolin</rs> was silent. <said
             aloud="true" direct="true" who="cavalier" listener="Fridolin">"Won't you be kind enough
         to tell me the password of the house?"</said> It sounded like a sharp threat. <rs
             ref="#Fridolin" type="character">Fridolin</rs> shrugged his shoulders. The other walked
@@ -1688,7 +1739,8 @@
           <said aloud="true" direct="true"
             who="Fridolin" listener="cavalier">"I know." </said> There was a general sigh of relief
         from those present. <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"You
-        are free,"</said> said the <rs ref="cavalier" type="character">cavalier </rs> to <rs ref="#Fridolin"
+        are free,"</said> said the <rs ref="cavalier" type="character">cavalier </rs> to <rs
+            ref="#Fridolin"
             type="character">Fridolin</rs>. <said aloud="true" direct="true" who="cavaliers"
             listener="Fridolin">"Leave this house at once and be careful not to inquire
             further into what you have seen here. If you attempt to put anyone on our trail, whether
@@ -1696,14 +1748,15 @@
             not—you will be doomed." </said>
           <rs ref="#Fridolin" type="character">Fridolin</rs> stood
         motionless. <said aloud="true" direct="true" who="Fridolin" listener="gentlemen">"How is
-        this woman—to redeem me?"</said> he asked. There was no answer. Hands pointed to the door
-        indicated that he must go. <rs ref="#Fridolin" type="character">Fridolin</rs> shook his
+            this woman—to redeem me?"</said> he asked. There was no answer. Hands pointed to the
+        door indicated that he must go. <rs ref="#Fridolin" type="character">Fridolin</rs> shook his
         head. <said aloud="true" direct="true" who="Fridolin" listener="gentlemen">"Impose what
         punishment you wish, gentlemen, I won't let this woman pay
             for me." </said>
           <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"You
         would be unable, in any case, to change her lot,"</said> the <rs ref="cavalier"
-            type="character">cavalier </rs> in black said very gently. <said aloud="true" direct="true"
+            type="character">cavalier </rs> in black said very gently. <said aloud="true"
+            direct="true"
             who="cavalier" listener="Fridolin">"When a
             promise has been made here there is no turning back."</said> The <rs ref="woman"
             type="character">nun</rs> slowly nodded, as if to confirm the statement. <said
@@ -1711,7 +1764,7 @@
             ref="#Fridolin" type="character">Fridolin</rs>. <said aloud="true" direct="true"
             who="Fridolin" listener="woman">"No,"</said> replied the latter, elevating his voice. <said
             aloud="true" direct="true" who="Fridolin" listener="woman">"Life means nothing to me if
-        I must leave here without
+            I must leave here without
             you. I shall not ask who you are or where you come from. What difference can it make to
         you,
             gentlemen, whether or not you keep up this carnival comedy, though it may aim at a
