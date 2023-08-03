@@ -14,7 +14,7 @@
                 <p>...</p>
             </publicationStmt>
             <seriesStmt>
-               <p></p> <!-- info about series  -->
+                <p></p> <!-- info about series  -->
             </seriesStmt>
             <notesStmt>
                 <note>
@@ -32,9 +32,77 @@
             <langUsage>
                 <language ident="en">English</language>
             </langUsage>
-            
+            <particDesc>
+                <listPerson>
+                    <rs type="person">
+                        <rs type="person" xml:id="ALICE">Alice Harford</rs>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="BILL">Bill Harford</rs>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="HELENA">Helena Harford</rs>
+                        <description>Bill and Alice' daughter</description>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="BABY-SITTER">babysitter</rs>
+                        <description>young college girl</description>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="ZIEGLER">Victor Ziegler</rs>
+                        <description>fit, sun-tanned, man in his mid-fifties</description>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="NICK">Nick Nightingale</rs>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="SZABO"> Sandor Szabo</rs>
+                        <description>handsome man, in his mid-forties with a slight Central European
+                            accent, hungarian</description>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="NUALA">Nuala</rs>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="GAYLE">Gayle</rs>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="HARRIS">Harris</rs>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="MARION">Marion</rs>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="CARL">Carl</rs>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="DOORMAN">Doorman</rs>
+                    </rs>
+                    <rs type="person">
+                        <rs type="person" xml:id="DOMINO">Domino</rs>
+                    </rs>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="ap" type="building">
+                        <placeName>Central Park West Apartment</placeName>
+                        <location>New York</location>
+                        <country>USA</country>
+                    </place>
+                    <place xml:id="rockefeller" type="building">
+                        <placeName>Rockefeller Center</placeName>
+                        <location>New York</location>
+                        <country>USA</country>
+                        <geo>40.75887832552362, -73.97873797769469</geo>
+                    </place>
+                    <place xml:id="5av" type="street">
+                        <placeName>5th Avenue</placeName>
+                        <location>New York</location>
+                        <country>USA</country>
+                        <geo>40.774601441653054, -73.9656606200207</geo>
+                    </place>
+                </listPlace>
+            </particDesc>
         </profileDesc>
-
     </teiHeader>
     <text>
         <front>
@@ -90,15 +158,15 @@
                 <view>Bill kisses her neck.</view>
                 <sp who="#bill">
                     <speaker>Bill</speaker>
-                    <p>It's absolutely beautiful.  You always
+                    <p>It's absolutely beautiful. You always
                         look beautiful.</p>
                 </sp>
                 <sp who="#alice">
                     <speaker>Alice</speaker>
-                    <p>Oh, shut up...  OK, let's go.</p>
+                    <p>Oh, shut up... OK, let's go.</p>
                 </sp>
-                <view>They walk into the living room.  The baby sitter gets to her feet.</view>
-                <pb/>
+                <view>They walk into the living room. The baby sitter gets to her feet.</view>
+                <pb />
             </div>
         </body>
     </text>
