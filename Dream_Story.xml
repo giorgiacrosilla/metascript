@@ -1424,14 +1424,14 @@
           taking upon yourself in doing this." </said>
           <said aloud="true" direct="true" who="Fridolin" listener="cavalier">"I know." </said>
           There was a general sigh of relief from those present. 
-          <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"You are free,"</said> said the <rs ref="cavalier" type="character"> to <rs ref="#Fridolin" type="character">Fridolin</rs>. <said aloud="true" direct="true" who="cavaliers" listener="Fridolin">"Leave this house at once and be careful not to inquire 
+          <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"You are free,"</said> said the <rs ref="cavalier" type="character">cavalier </rs> to <rs ref="#Fridolin" type="character">Fridolin</rs>. <said aloud="true" direct="true" who="cavaliers" listener="Fridolin">"Leave this house at once and be careful not to inquire 
           further into what you have seen here. If you attempt to put anyone on our trail, whether you succeed or 
           not—you will be doomed." </said>
           <rs ref="#Fridolin" type="character">Fridolin</rs> stood motionless. <said aloud="true" direct="true" who="Fridolin" listener="gentlemen">"How is this woman—to redeem me?"</said> he asked. 
           There was no answer. Hands pointed to the door indicated that he must go. 
           <rs ref="#Fridolin" type="character">Fridolin</rs> shook his head. <said aloud="true" direct="true" who="Fridolin" listener="gentlemen">"Impose what punishment you wish, gentlemen, I won't let this woman pay 
           for me." </said>
-          <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"You would be unable, in any case, to change her lot,"</said> the <rs ref="cavalier" type="character"> in black said very gently. <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"When a 
+          <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"You would be unable, in any case, to change her lot,"</said> the <rs ref="cavalier" type="character"> cavalier</rs> in black said very gently. <said aloud="true" direct="true" who="cavalier" listener="Fridolin">"When a 
           promise has been made here there is no turning back."</said>
           The <rs ref="woman" type="character">nun</rs> slowly nodded, as if to confirm the statement. <said aloud="true" direct="true" who="woman" listener="Fridolin">"Go!"</said> she said to <rs ref="#Fridolin" type="character">Fridolin</rs>. 
           <said aloud="true" direct="true" who="Fridolin" listener="woman">"No,"</said> replied the latter, elevating his voice. <said aloud="true" direct="true" who="Fridolin" listener="woman">"Life means nothing to me if I must leave here without 
