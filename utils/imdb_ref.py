@@ -11,7 +11,7 @@ def print_imdb_actor_page(actor_name):
         # Get the first search result (assumes the most relevant match)
         actor = search_results[0]
         actor_id = actor.personID
-        actor_url = f"https://www.imdb.com/name/{actor_id}/"
+        actor_url = f"https://www.imdb.com/name/nm{actor_id}/"
         return(actor_url)
     else:
         return(f"No IMDb record found for {actor_name}")
