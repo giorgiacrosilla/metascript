@@ -108,10 +108,14 @@
         <front>
             <castList>
                 <castItem>
-                    <role xml:id="alice">Alice</role>: <actor ref="http://viaf.org/viaf/117530728">Nicole
-                    Kidman</actor>
-                    <role xml:id="bill">Bill</role>: <actor
-                        ref="http://viaf.org/viaf/84032940">Tom Cruise</actor>
+                    <role xml:id="alice">Alice Harford</role>
+                    <roleDesc>Bill's wife</roleDesc>
+                    <actor ref="http://viaf.org/viaf/117530728">Nicole Kidman</actor>
+                </castItem>
+                <castItem>
+                    <role xml:id="bill">Dr. William Harford, Bill</role>
+                    <roleDesc>Doctor, Alice's husband</roleDesc>
+                    <actor ref="http://viaf.org/viaf/84032940">Tom Cruise</actor>
                 </castItem>
             </castList>
             <set>
