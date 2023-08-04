@@ -34,71 +34,91 @@
             </langUsage>
             <particDesc>
                 <listPerson>
-                    <rs type="person">
-                        <rs type="person" xml:id="ALICE">Alice Harford</rs>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="BILL">Bill Harford</rs>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="HELENA">Helena Harford</rs>
+                    <person>
+                        <persName xml:id="ALICE">Alice Harford</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="BILL">Bill Harford</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="HELENA">Helena Harford</persName>
                         <description>Bill and Alice' daughter</description>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="BABY-SITTER">babysitter</rs>
+                    </person>
+                    <person>
+                        <persName xml:id="BABY-SITTER">babysitter</persName>
                         <description>young college girl</description>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="ZIEGLER">Victor Ziegler</rs>
+                    </person>
+                    <person>
+                        <persName xml:id="ZIEGLER">Victor Ziegler</persName>
                         <description>fit, sun-tanned, man in his mid-fifties</description>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="NICK">Nick Nightingale</rs>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="SZABO"> Sandor Szabo</rs>
+                    </person>
+                    <person>
+                        <persName xml:id="NICK">Nick Nightingale</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="SZABO"> Sandor Szabo</persName>
                         <description>handsome man, in his mid-forties with a slight Central European
                             accent, hungarian</description>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="NUALA">Nuala</rs>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="GAYLE">Gayle</rs>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="HARRIS">Harris</rs>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="MARION">Marion</rs>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="CARL">Carl</rs>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="DOORMAN">Doorman</rs>
-                    </rs>
-                    <rs type="person">
-                        <rs type="person" xml:id="DOMINO">Domino</rs>
-                    </rs>
+                    </person>
+                    <person>
+                        <persName xml:id="NUALA">Nuala</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="GAYLE">Gayle</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="HARRIS">Harris</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="MARION">Marion</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="CARL">Carl</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="DOORMAN">Doorman</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="DOMINO">Domino</persName>
+                    </person>
                 </listPerson>
                 <listPlace>
                     <place xml:id="ap" type="building">
                         <placeName>Central Park West Apartment</placeName>
-                        <location>New York</location>
-                        <country>USA</country>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                        </location>
                     </place>
                     <place xml:id="rockefeller" type="building">
                         <placeName>Rockefeller Center</placeName>
-                        <location>New York</location>
-                        <country>USA</country>
-                        <geo>40.75887832552362, -73.97873797769469</geo>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.75887832552362, -73.97873797769469</geo>
+                        </location>
                     </place>
-                    <place xml:id="5av" type="street">
+                    <place xml:id="fifthav" type="street">
                         <placeName>5th Avenue</placeName>
-                        <location>New York</location>
-                        <country>USA</country>
-                        <geo>40.774601441653054, -73.9656606200207</geo>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.774601441653054, -73.9656606200207</geo>
+                        </location>
+                    </place>
+                    <place xml:id="greenwich" type="neighborhood">
+                        <placeName>Greenwich Village</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.4401, -74.0010</geo>
+                        </location>
+                    </place>
+                    <place xml:id="newjersey" type="state">
+                        <placeName>New Jersey</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
                     </place>
                 </listPlace>
             </particDesc>
@@ -108,6 +128,7 @@
         <front>
             <castList>
                 <castItem>
+<<<<<<< Updated upstream
                     <role xml:id="alice">Alice Harford</role>
                     <roleDesc>Bill's wife</roleDesc>
                     <actor ref="http://viaf.org/viaf/117530728">Nicole Kidman</actor>
@@ -115,6 +136,15 @@
                 <castItem>
                     <role xml:id="bill">Dr. William Harford, Bill</role>
                     <roleDesc>Doctor, Alice's husband</roleDesc>
+=======
+                    <role xml:id="ALICE">Alice Harford</role>
+                    <roleDesc></roleDesc> 
+                    <actor ref="http://viaf.org/viaf/117530728">Nicole Kidman</actor>
+                </castItem>
+                <castItem>
+                    <role xml:id="BILL">Bill Harford</role> 
+                    <roleDesc></roleDesc>
+>>>>>>> Stashed changes
                     <actor ref="http://viaf.org/viaf/84032940">Tom Cruise</actor>
                 </castItem>
             </castList>

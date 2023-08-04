@@ -38,64 +38,53 @@
       </langUsage>
       <particDesc>
         <listPerson>
-          <person>
-            <persName xml:id="Fridolin">Fridolin</persName>
+          <person xml:id="Fridolin" sex="MALE">
+            <persName>Fridolin</persName>
             <age>30s</age>
-            <gender>male</gender>
             <description> doctor, rugged, knows how to play piano</description>
           </person>
-          <person>
-            <persName xml:id="Albertina">Albertina</persName>
-            <gender>female</gender>
+          <person xml:id="Albertina" sex="FEMALE">
+            <persName>Albertina</persName>
           </person>
-          <person>
-            <persName xml:id="STRANGER">A stranger</persName>
-            <gender>male</gender>
+          <person xml:id="STRANGER" sex="MALE">
+            <persName>A stranger</persName>
             <description>blase manner, apparently Polish accent</description>
           </person>
-          <person>
-            <persName xml:id="TWOW">Two women in red dominoes</persName>
+          <person xml:id="TWOW" sex="FEMALE">
+            <persName>Two women in red dominoes</persName>
           </person>
-          <person>
-            <persName xml:id="daughter">Fridolin and Albertina's daughter</persName>
-            <gender>female</gender>
+          <person xml:id="daughter" sex="FEMALE">
+            <persName>Fridolin and Albertina's daughter</persName>
             <description>blonde hair</description>
           </person>
-          <person>
-            <persName xml:id="governess">Governess</persName>
-            <gender>female</gender>
+          <person xml:id="governess" sex="FEMALE">
+            <persName>Governess</persName>
           </person>
-          <person>
-            <persName xml:id="younggirl">Young girl</persName>
-            <gender>female</gender>
+          <person xml:id="younggirl" sex="FEMALE">
+            <persName>Young girl</persName>
           </person>
-          <person>
-            <persName xml:id="councilor">councilor</persName>
-            <gender>male</gender>
+          <person xml:id="councilor" sex="MALE">
+            <persName>councilor</persName>
           </person>
-          <person>
-            <persName xml:id="Marianne">Marianne</persName>
-            <gender>female</gender>
+          <person xml:id="Marianne" sex="FEMALE">
+            <persName>Marianne</persName>
             <description>Councilor's daughter, was blond and thick, but dry; her neck well-formed
               and
               slender, although a little wrinkled
               and rather yellow; and her lips were thin and firmly pressed together.</description>
           </person>
-          <person>
-            <persName xml:id="Roediger">Doctor Roediger
+          <person xml:id="Roediger" sex="MALE">
+            <persName>Doctor Roediger
             </persName>
-            <gender>female</gender>
             <description>Marianne's fiance.</description>
           </person>
-          <person>
-            <persName xml:id="Mizzi">Mizzi
+          <person xml:id="Mizzi" sex="FEMALE">
+            <persName>Mizzi
             </persName>
-            <gender>female</gender>
           </person>
-          <person>
-            <persName xml:id="Nachtigall">Nachtigall
+          <person xml:id="Nachtigall" sex="MALE">
+            <persName>Nachtigall
             </persName>
-            <gender>male</gender>
             <description>young
               man, Jew, tall, rather broad, and none too thin. His long, blond, slightly curly hair
               had a
@@ -107,9 +96,8 @@
               eyelids
               were inflamed, as if from many sleepless nights, but his blue eyes gleamed brightly.</description>
           </person>
-          <person>
-            <persName xml:id="Gibiser">Gibiser</persName>
-            <gender>male</gender>
+          <person xml:id="Gibiser" sex="MALE">
+            <persName>Gibiser</persName>
             <description>
               He was a bald-headed, haggard man and wore an old-fashioned,
               flowered dressing-gown and a tasselled, Turkish cap which made him look like a foolish
@@ -117,30 +105,26 @@
               stage.
             </description>
           </person>
-          <person>
-            <persName xml:id="Pierette">Pierrette</persName>
-            <gender>female</gender>
+          <person xml:id="Pierette" sex="FEMALE">
+            <persName>Pierrette</persName>
           </person>
-          <person>
-            <persName xml:id="TWOServants">two servants</persName>
+          <person xml:id="TWOServants" sex="MALE">
+            <persName>two servants</persName>
           </person>
-          <person>
-            <persName xml:id="woman">woman</persName>
+          <person xml:id="woman" sex="FEMALE">
+            <persName>woman</persName>
           </person>
-          <person>
-            <persName xml:id="cavalier">cavalier in black</persName>
-            <gender>male</gender>
+          <person xml:id="cavalier" sex="MALE">
+            <persName>cavalier in black</persName>
           </person>
-          <person>
-            <persName xml:id="YellowGentlemen">gentleman in yellow</persName>
-            <gender>male</gender>
+          <person xml:id="YellowGentlemen" sex="MALE">
+            <persName>gentleman in yellow</persName>
           </person>
-          <person>
-            <persName xml:id="RedCavalier">cavalier in red</persName>
-            <gender>male</gender>
+          <person xml:id="RedCavalier" sex="MALE">
+            <persName>cavalier in red</persName>
           </person>
-          <person>
-            <persName xml:id="nun">nun</persName>
+          <person xml:id="nun" sex="FEMALE">
+            <persName>nun</persName>
           </person>
         </listPerson>
         <listEvent>
@@ -213,7 +197,7 @@
               <geo>48.18707509460442, 16.341815922836787</geo>
             </location>
           </place>
-          <place xml:id="hotel" type="building">
+          <place xml:id="riedhofhotel" type="building">
             <placeName>Riedhof Hotel</placeName>
             <location>
               <settlement type="city">Vienna</settlement>
@@ -229,16 +213,16 @@
               <geo>48.214713666174134, 16.35378139764215</geo>
             </location>
           </place>
-          <place xml:id="costume-shop">
+          <place xml:id="costume-shop" type="building">
             <placeName>costume shop</placeName>
             <location>
               <settlement type="city">Vienna</settlement>
               <country>Austria</country>
               <geo>48.214713666174134, 16.35378139764215</geo>
-              <description>at the end of Wickeburgstrasse, in the same building of Vindebona Cafè</description>
+              <description>at the end of Wickeburgstrasse, in the same building of Vindobona Cafè</description>
             </location>
           </place>
-          <place xml:id="AlserStrasse">
+          <place xml:id="AlserStrasse" type="street">
             <placeName>Alser Strasse</placeName>
             <location>
               <settlement type="city">Vienna</settlement>
@@ -254,7 +238,7 @@
               <geo>48.21667, 16.28333</geo>
             </location>
           </place>
-          <place xml:id="BuchfeldStrasse">
+          <place xml:id="BuchfeldStrasse" type="street">
             <placeName>Buchfeld Strasse</placeName>
             <location>
               <settlement type="city">Vienna</settlement>
