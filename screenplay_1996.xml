@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">
+                    Eyes Wide Shut
+                </title>
+                <author>Stanley Kubrick</author>
+                <author>Frederic Raphael</author>
+            </titleStmt>
+            <publicationStmt>
+                <p>...</p>
+            </publicationStmt>
+            <seriesStmt>
+                <p></p> <!-- info about series  -->
+            </seriesStmt>
+            <notesStmt>
+                <note>
+                    <!-- notes on other aspects of the resource -->
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <p>
+                    <!-- information about the source from which
+                                the resource was derived  -->
+                </p>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person>
+                        <persName xml:id="ALICE">Alice Harford</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="BILL">Bill Harford</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="HELENA">Helena Harford</persName>
+                        <description>Bill and Alice' daughter</description>
+                    </person>
+                    <person>
+                        <persName xml:id="BABY-SITTER">babysitter</persName>
+                        <description>young college girl</description>
+                    </person>
+                    <person>
+                        <persName xml:id="ZIEGLER">Victor Ziegler</persName>
+                        <description>fit, sun-tanned, man in his mid-fifties</description>
+                    </person>
+                    <person>
+                        <persName xml:id="NICK">Nick Nightingale</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="SZABO"> Sandor Szabo</persName>
+                        <description>handsome man, in his mid-forties with a slight Central European
+                            accent, hungarian</description>
+                    </person>
+                    <person>
+                        <persName xml:id="NUALA">Nuala</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="GAYLE">Gayle</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="HARRIS">Harris</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="MARION">Marion</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="CARL">Carl</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="DOORMAN">Doorman</persName>
+                    </person>
+                    <person>
+                        <persName xml:id="DOMINO">Domino</persName>
+                    </person>
+                </listPerson>
+                <listPlace>
+                    <place xml:id="ap" type="building">
+                        <placeName>Central Park West Apartment</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="rockefeller" type="building">
+                        <placeName>Rockefeller Center</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.75887832552362, -73.97873797769469</geo>
+                        </location>
+                    </place>
+                    <place xml:id="fifthav" type="street">
+                        <placeName>5th Avenue</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.774601441653054, -73.9656606200207</geo>
+                        </location>
+                    </place>
+                    <place xml:id="greenwich" type="neighborhood">
+                        <placeName>Greenwich Village</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.4401, -74.0010</geo>
+                        </location>
+                    </place>
+                    <place xml:id="newjersey" type="state">
+                        <placeName>New Jersey</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                </listPlace>
+            </particDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <castList>
+                <castItem>
+                    <role xml:id="alice">Alice Harford</role>
+                    <roleDesc>Bill's wife</roleDesc>
+                    <actor ref='https://www.imdb.com/name/nm0000173/'> Nicole Kidman </actor>
+                </castItem>
+                <castItem>
+                    <role xml:id="bill">Dr. William Harford, Bill</role>
+                    <roleDesc>Doctor, Alice's husband</roleDesc>
+                    <actor ref='https://www.imdb.com/name/nm0000129/'> Tom Cruise </actor>
+                </castItem>
+                <castItem>
+                    <role> Helena Harford </role>
+                    <actor ref='https://www.imdb.com/name/nm0251036/'> Madison Eginton </actor>
+                </castItem>
+                <castItem>
+                    <role> Roz </role>
+                    <actor ref='https://www.imdb.com/name/nm0768113/'> Jackie Sawiris </actor>
+                </castItem>
+                <castItem>
+                    <role> Victor Ziegler </role>
+                    <actor ref='https://www.imdb.com/name/nm0001628/'> Sydney Pollack </actor>
+                </castItem>
+                <castItem>
+                    <role> Illona </role>
+                    <actor ref='https://www.imdb.com/name/nm0522992/'> Leslie Lowe </actor>
+                </castItem>
+                <castItem>
+                    <role> Bandleader </role>
+                    <actor ref='https://www.imdb.com/name/nm0072613/'> Peter Hans Benson </actor>
+                </castItem>
+                <castItem>
+                    <role> Nick Nightingale </role>
+                    <actor ref='https://www.imdb.com/name/nm0276062/'> Todd Field </actor>
+                </castItem>
+                <castItem>
+                    <role> Ziegler's Secretary </role>
+                    <actor ref='https://www.imdb.com/name/nm0006440/'> Michael Doven </actor>
+                </castItem>
+                <castItem>
+                    <role> Sandor Szavost </role>
+                    <actor ref='https://www.imdb.com/name/nm0241694/'> Sky du Mont </actor>
+                </castItem>
+                <castItem>
+                    <role> Gayle </role>
+                    <actor ref='https://www.imdb.com/name/nm0852801/'> Louise J. Taylor </actor>
+                </castItem>
+                <castItem>
+                    <role> Nuala </role>
+                    <actor ref='https://www.imdb.com/name/nm0861344/'> Stewart Thorndike </actor>
+                </castItem>
+                <castItem>
+                    <role> Harris </role>
+                    <actor ref='https://www.imdb.com/name/nm0666955/'> Randall Paul </actor>
+                </castItem>
+                <castItem>
+                    <role> Mandy </role>
+                    <actor ref='https://www.imdb.com/name/nm0204924/'> Julienne Davis </actor>
+                </castItem>
+                <castItem>
+                    <role> Lisa </role>
+                    <actor ref='https://www.imdb.com/name/nm0502900/'> Lisa Leone </actor>
+                </castItem>
+                <castItem>
+                    <role> Lou Nathanson </role>
+                    <actor ref='https://www.imdb.com/name/nm0174941/'> Kevin Connealy </actor>
+                </castItem>
+                <castItem>
+                    <role> Marion </role>
+                    <actor ref='https://www.imdb.com/name/nm0724688/'> Marie Richardson </actor>
+                </castItem>
+                <castItem>
+                    <role> Carl </role>
+                    <actor ref='https://www.imdb.com/name/nm0004959/'> Thomas Gibson </actor>
+                </castItem>
+                <castItem>
+                    <role> Rosa </role>
+                    <actor ref='https://www.imdb.com/name/nm0381984/'> Mariana Hewett </actor>
+                </castItem>
+                <castItem>
+                    <role> Domino </role>
+                    <actor ref='https://www.imdb.com/name/nm0005416/'> Vinessa Shaw </actor>
+                </castItem>
+                <castItem>
+                    <role> Milich </role>
+                    <actor ref='https://www.imdb.com/name/nm0784884/'> Rade Serbedzija </actor>
+                </castItem>
+                <castItem>
+                    <role> Mysterious Woman / Masked Party Principal </role>
+                    <actor ref='https://www.imdb.com/name/nm0328661/'> Abigail Good </actor>
+                </castItem>
+                <castItem>
+                    <role> Red Cloak </role>
+                    <actor ref='https://www.imdb.com/name/nm0899920/'> Leon Vitali </actor>
+                </castItem>
+                <castItem>
+                    <role> Tall Butler </role>
+                    <actor ref='https://www.imdb.com/name/nm0176929/'> Brian W. Cook </actor>
+                </castItem>
+                <castItem>
+                    <role> Sally </role>
+                    <actor ref='https://www.imdb.com/name/nm0557739/'> Fay Masterson </actor>
+                </castItem>
+                <castItem>
+                    <role> Stalker </role>
+                    <actor ref='https://www.imdb.com/name/nm1765910/'> Phil Davies </actor>
+                </castItem>    
+            </castList>
+            <set>
+                <p>...</p>
+            </set>
+        </front>
+
+        <body>
+            <div type="scene">
+                <stage type="setting">
+                    <p>INT BILL &amp; ALICE'S APT - LIVING ROOM - NIGHT</p>
+                    <p>It is a week before Christmas. The tree is decorated and Christmas
+                        cards stand open everywhere in the comfortable Central Park West
+                        apartment.</p>
+                    <p>Settled into the couch in the living room, watching TV, are seven
+                        year-old , HELENA, and the BABY-SITTER, a young college girl.</p>
+                </stage>
+                <stage type="setting">
+                    <p>BEDROOM</p>
+                    <p>BILL and ALICE HARFORD, an attractive couple in their thirties, are
+                        in evening clothes preparing to leave for a party.</p>
+                </stage>
+                <sp who="#alice">
+                    <speaker>Alice</speaker>
+                    <stage>(looking in the mirror)</stage>
+                    <p>How do I look?</p>
+                </sp>
+                <sp who="#bill">
+                    <speaker>Bill</speaker>
+                    <p>You look great.</p>
+                </sp>
+                <sp who="#alice">
+                    <speaker>Alice</speaker>
+                    <p>My hair okay?</p>
+                </sp>
+                <sp who="#bill">
+                    <speaker>Bill</speaker>
+                    <p>Perfect.</p>
+                </sp>
+                <sp who="#alice">
+                    <speaker>Alice</speaker>
+                    <p>You're not even looking at it.</p>
+                </sp>
+                <view>Bill kisses her neck.</view>
+                <sp who="#bill">
+                    <speaker>Bill</speaker>
+                    <p>It's absolutely beautiful. You always
+                        look beautiful.</p>
+                </sp>
+                <sp who="#alice">
+                    <speaker>Alice</speaker>
+                    <p>Oh, shut up... OK, let's go.</p>
+                </sp>
+                <view>They walk into the living room. The baby sitter gets to her feet.</view>
+                <pb />
+            </div>
+        </body>
+    </text>
+</TEI>
