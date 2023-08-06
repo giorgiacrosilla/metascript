@@ -16,20 +16,24 @@ def xml_parser(script, destination_file):
     xml_str = ''
 
     xml_blocks = {
-        'speech': '''<sp who="#{0}">\n\t<speaker>{0}</speaker>\n\t<p>{1}</p>\n</sp>\n''',
-        'charstage': '''<sp who="#{0}">\n\t<speaker>{0}</speaker>\n\t<stage type="#replace">{1}</stage>\n\t<p>{2}</p>\n</sp>\n''',
-        'stage': '<stage type="#replace">{}</stage>\n',
-        'p': '\t<p>{}</p>\n</sp>\n',
-        'location': '<stage type="location">{}</stage>\n'
+        'speech': '''\t<sp who="#{0}">\n\t\t<speaker>{0}</speaker>\n\t\t<p>{1}</p>\n\t</sp>\n''',
+        'charstage': '''\t<sp who="#{0}">\n\t\t<speaker>{0}</speaker>\n\t\t<stage type="delivery">{1}</stage>\n\t\t<p>{2}</p>\n\t</sp>\n''',
+        'stage': '\t<stage type="#replace">{}</stage>\n',
+        'p': '\t\t<p>{}</p>\n\t</sp>\n',
+        'location': '\t<set>\n\t\t<p>{}</p>\n\t</set>\n',
+        'end': '\t<trailer>{}</trailer>'
     }
 
     patterns = {
+        'the_end': (r'^[\n|\s]+?The End', 'end'),
         'character': (r'(?![^\n]*\()\t{3,}t?\s+[A-Z|A-Z\.]{2,}+', 'speech'),
-        'location': (r'^(INT|EXT).*', 'location'),
+        'location': (r'^[A-Z].+?-', 'location'),
         'stage': (r'^\w.*', 'stage'),
         'charstage': (r'\t{2,}\t?\s+[A-Z|A-Z\.]{2,}.*\(+', 'charstage'),
         'trail_p': (r'^[\t\t]{1,}\s+?.*', 'p')
     }
+
+    scene_count = 1
 
     for pre_tag in soup.find_all('pre'):
         for block in pre_tag:
@@ -43,13 +47,19 @@ def xml_parser(script, destination_file):
             elif match[1] == 'stage':
                 xml_str += xml_blocks[block].format(' '.join(map(str.strip, lines[0:])))
             elif match[1] == 'location':
-                xml_str += xml_blocks[block].format(lines[0].strip())
+                if scene_count == 1:
+                    xml_str += f'<div type="scene" n="{scene_count}">\n' + xml_blocks[block].format(lines[0].strip()) + '\n'
+                else:
+                    xml_str += f'</div>\n<div type="scene" n="{scene_count}">\n' + xml_blocks[block].format(lines[0].strip())
+                scene_count += 1
             elif match[1] == 'charstage':
                 xml_str += xml_blocks[block].format(lines[0].strip().split(' (')[0],'(' + lines[0].strip().split(' (')[1],' '.join(map(str.strip, lines[1:])))
             elif match[1] == 'trail_p':
                 previous_lines = xml_str.splitlines()[:-1]
                 previous_lines.append(xml_blocks[block].format(' '.join(map(str.strip, lines[0:]))))
                 xml_str = '\n'.join(previous_lines)
+            elif match[1] == 'the_end':
+                xml_str += xml_blocks[block].format(lines[0].strip())
             
             else:
                 print(lines)
@@ -77,4 +87,4 @@ if __name__ == "__main__":
 #pages have to be manually dealt with
 #stage's #replace has to be manually replaced
 #ex beauty queen
-#location da decidere come implementarlo
+#close the last div
