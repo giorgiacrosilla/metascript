@@ -4752,10 +4752,12 @@
           seven, there was a knock on the door; and, with the usual noises from the street, a
           victorious ray of light
           through the opening of the curtain, and the clear laughter of a child through the door,
-          the
-          new day</p>
-
+          the new day</p>
       </div>
+
+      <milestone unit="end">
+        <p>THE END</p>
+      </milestone>
     </body>
   </text>
 </TEI>
