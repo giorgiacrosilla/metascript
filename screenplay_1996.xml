@@ -56,7 +56,7 @@
                         <persName xml:id="NICK">Nick Nightingale</persName>
                     </person>
                     <person>
-                        <persName xml:id="SZABO"> Sandor Szabo</persName>
+                        <persName xml:id="SZABO">Sandor Szabo</persName>
                         <description>handsome man, in his mid-forties with a slight Central European
                             accent, hungarian</description>
                     </person>
@@ -130,108 +130,108 @@
                 <castItem>
                     <role xml:id="alice">Alice Harford</role>
                     <roleDesc>Bill's wife</roleDesc>
-                    <actor ref='https://www.imdb.com/name/nm0000173/'> Nicole Kidman </actor>
+                    <actor ref='https://www.imdb.com/name/nm0000173/'>Nicole Kidman</actor>
                 </castItem>
                 <castItem>
                     <role xml:id="bill">Dr. William Harford, Bill</role>
                     <roleDesc>Doctor, Alice's husband</roleDesc>
-                    <actor ref='https://www.imdb.com/name/nm0000129/'> Tom Cruise </actor>
+                    <actor ref='https://www.imdb.com/name/nm0000129/'>Tom Cruise</actor>
                 </castItem>
                 <castItem>
-                    <role> Helena Harford </role>
-                    <actor ref='https://www.imdb.com/name/nm0251036/'> Madison Eginton </actor>
+                    <role>Helena Harford</role>
+                    <actor ref='https://www.imdb.com/name/nm0251036/'>Madison Eginton</actor>
                 </castItem>
                 <castItem>
-                    <role> Roz </role>
-                    <actor ref='https://www.imdb.com/name/nm0768113/'> Jackie Sawiris </actor>
+                    <role>Roz</role>
+                    <actor ref='https://www.imdb.com/name/nm0768113/'>Jackie Sawiris</actor>
                 </castItem>
                 <castItem>
-                    <role> Victor Ziegler </role>
-                    <actor ref='https://www.imdb.com/name/nm0001628/'> Sydney Pollack </actor>
+                    <role>Victor Ziegler</role>
+                    <actor ref='https://www.imdb.com/name/nm0001628/'>Sydney Pollack</actor>
                 </castItem>
                 <castItem>
-                    <role> Illona </role>
-                    <actor ref='https://www.imdb.com/name/nm0522992/'> Leslie Lowe </actor>
+                    <role>Illona</role>
+                    <actor ref='https://www.imdb.com/name/nm0522992/'>Leslie Lowe</actor>
                 </castItem>
                 <castItem>
-                    <role> Bandleader </role>
-                    <actor ref='https://www.imdb.com/name/nm0072613/'> Peter Hans Benson </actor>
+                    <role>Bandleader</role>
+                    <actor ref='https://www.imdb.com/name/nm0072613/'>Peter Hans Benson</actor>
                 </castItem>
                 <castItem>
-                    <role> Nick Nightingale </role>
-                    <actor ref='https://www.imdb.com/name/nm0276062/'> Todd Field </actor>
+                    <role>Nick Nightingale</role>
+                    <actor ref='https://www.imdb.com/name/nm0276062/'>Todd Field</actor>
                 </castItem>
                 <castItem>
-                    <role> Ziegler's Secretary </role>
-                    <actor ref='https://www.imdb.com/name/nm0006440/'> Michael Doven </actor>
+                    <role>Ziegler's Secretary</role>
+                    <actor ref='https://www.imdb.com/name/nm0006440/'>Michael Doven</actor>
                 </castItem>
                 <castItem>
-                    <role> Sandor Szavost </role>
-                    <actor ref='https://www.imdb.com/name/nm0241694/'> Sky du Mont </actor>
+                    <role>Sandor Szavost</role>
+                    <actor ref='https://www.imdb.com/name/nm0241694/'>Sky du Mont</actor>
                 </castItem>
                 <castItem>
-                    <role> Gayle </role>
-                    <actor ref='https://www.imdb.com/name/nm0852801/'> Louise J. Taylor </actor>
+                    <role>Gayle</role>
+                    <actor ref='https://www.imdb.com/name/nm0852801/'>Louise J. Taylor</actor>
                 </castItem>
                 <castItem>
-                    <role> Nuala </role>
-                    <actor ref='https://www.imdb.com/name/nm0861344/'> Stewart Thorndike </actor>
+                    <role>Nuala</role>
+                    <actor ref='https://www.imdb.com/name/nm0861344/'>Stewart Thorndike</actor>
                 </castItem>
                 <castItem>
-                    <role> Harris </role>
-                    <actor ref='https://www.imdb.com/name/nm0666955/'> Randall Paul </actor>
+                    <role>Harris</role>
+                    <actor ref='https://www.imdb.com/name/nm0666955/'>Randall Paul</actor>
                 </castItem>
                 <castItem>
-                    <role> Mandy </role>
-                    <actor ref='https://www.imdb.com/name/nm0204924/'> Julienne Davis </actor>
+                    <role>Mandy</role>
+                    <actor ref='https://www.imdb.com/name/nm0204924/'>Julienne Davis</actor>
                 </castItem>
                 <castItem>
-                    <role> Lisa </role>
-                    <actor ref='https://www.imdb.com/name/nm0502900/'> Lisa Leone </actor>
+                    <role>Lisa</role>
+                    <actor ref='https://www.imdb.com/name/nm0502900/'>Lisa Leone</actor>
                 </castItem>
                 <castItem>
-                    <role> Lou Nathanson </role>
-                    <actor ref='https://www.imdb.com/name/nm0174941/'> Kevin Connealy </actor>
+                    <role>Lou Nathanson</role>
+                    <actor ref='https://www.imdb.com/name/nm0174941/'>Kevin Connealy</actor>
                 </castItem>
                 <castItem>
-                    <role> Marion </role>
-                    <actor ref='https://www.imdb.com/name/nm0724688/'> Marie Richardson </actor>
+                    <role>Marion</role>
+                    <actor ref='https://www.imdb.com/name/nm0724688/'>Marie Richardson</actor>
                 </castItem>
                 <castItem>
-                    <role> Carl </role>
-                    <actor ref='https://www.imdb.com/name/nm0004959/'> Thomas Gibson </actor>
+                    <role>Carl</role>
+                    <actor ref='https://www.imdb.com/name/nm0004959/'>Thomas Gibson</actor>
                 </castItem>
                 <castItem>
-                    <role> Rosa </role>
-                    <actor ref='https://www.imdb.com/name/nm0381984/'> Mariana Hewett </actor>
+                    <role>Rosa</role>
+                    <actor ref='https://www.imdb.com/name/nm0381984/'>Mariana Hewett</actor>
                 </castItem>
                 <castItem>
-                    <role> Domino </role>
-                    <actor ref='https://www.imdb.com/name/nm0005416/'> Vinessa Shaw </actor>
+                    <role>Domino</role>
+                    <actor ref='https://www.imdb.com/name/nm0005416/'>Vinessa Shaw</actor>
                 </castItem>
                 <castItem>
-                    <role> Milich </role>
-                    <actor ref='https://www.imdb.com/name/nm0784884/'> Rade Serbedzija </actor>
+                    <role>Milich</role>
+                    <actor ref='https://www.imdb.com/name/nm0784884/'>Rade Serbedzija</actor>
                 </castItem>
                 <castItem>
-                    <role> Mysterious Woman / Masked Party Principal </role>
-                    <actor ref='https://www.imdb.com/name/nm0328661/'> Abigail Good </actor>
+                    <role>Mysterious Woman / Masked Party Principal</role>
+                    <actor ref='https://www.imdb.com/name/nm0328661/'>Abigail Good</actor>
                 </castItem>
                 <castItem>
-                    <role> Red Cloak </role>
-                    <actor ref='https://www.imdb.com/name/nm0899920/'> Leon Vitali </actor>
+                    <role>Red Cloak</role>
+                    <actor ref='https://www.imdb.com/name/nm0899920/'>Leon Vitali</actor>
                 </castItem>
                 <castItem>
-                    <role> Tall Butler </role>
-                    <actor ref='https://www.imdb.com/name/nm0176929/'> Brian W. Cook </actor>
+                    <role>Tall Butler</role>
+                    <actor ref='https://www.imdb.com/name/nm0176929/'>Brian W. Cook</actor>
                 </castItem>
                 <castItem>
-                    <role> Sally </role>
-                    <actor ref='https://www.imdb.com/name/nm0557739/'> Fay Masterson </actor>
+                    <role>Sally</role>
+                    <actor ref='https://www.imdb.com/name/nm0557739/'>Fay Masterson</actor>
                 </castItem>
                 <castItem>
-                    <role> Stalker </role>
-                    <actor ref='https://www.imdb.com/name/nm1765910/'> Phil Davies </actor>
+                    <role>Stalker</role>
+                    <actor ref='https://www.imdb.com/name/nm1765910/'>Phil Davies</actor>
                 </castItem>    
             </castList>
             <set>

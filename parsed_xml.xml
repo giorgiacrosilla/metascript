@@ -1,10 +1,7 @@
-<stage type="location">INT BILL &amp; ALICE'S APT - LIVING ROOM - NIGHT</stage>
-<stage type="#replace">It is a week before Christmas. The tree is decorated and Christmas cards
-	stand open everywhere in the comfortable Central Park West apartment.</stage>
-<stage type="#replace">Settled into the couch in the living room, watching TV, are seven year-old ,
-	HELENA, and the BABY-SITTER, a young college girl.</stage>
-<stage type="#replace">BEDROOM BILL and ALICE HARFORD, an attractive couple in their thirties, are
-	in evening clothes preparing to leave for a party.</stage>
+<stage type="location">INT BILL & ALICE'S APT - LIVING ROOM - NIGHT</stage>
+<stage type="#replace">It is a week before Christmas.  The tree is decorated and Christmas cards stand open everywhere in the comfortable Central Park West apartment.</stage>
+<stage type="#replace">Settled into the couch in the living room, watching TV, are seven year-old , HELENA, and the BABY-SITTER, a young college girl.</stage>
+<stage type="#replace">BEDROOM BILL and ALICE HARFORD, an attractive couple in their thirties, are in evening clothes preparing to leave for a party.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
 	<stage type="#replace">(looking in mirror)</stage>
@@ -29,13 +26,13 @@
 <stage type="#replace">Bill kisses her neck.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>It's absolutely beautiful. You always look beautiful.</p>
+	<p>It's absolutely beautiful.  You always look beautiful.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Oh, shut up... OK, let's go.</p>
+	<p>Oh, shut up...  OK, let's go.</p>
 </sp>
-<stage type="#replace">They walk into the living room. The baby sitter gets to her feet.</stage>
+<stage type="#replace">They walk into the living room.  The baby sitter gets to her feet.</stage>
 <sp who="#BABY-SITTER">
 	<speaker>BABY-SITTER</speaker>
 	<p>Oh, you look so-ooo lovely, Mrs. Harford.</p>
@@ -47,7 +44,7 @@
 </sp>
 <sp who="#HELENA">
 	<speaker>HELENA</speaker>
-	<p>Yes, Mommy. I took my bath and brushed my teeth.</p>
+	<p>Yes, Mommy.  I took my bath and brushed my teeth.</p>
 </sp>
 <stage type="#replace">AD-LIBS of praise as BILL and ALICE kiss HELENA goodnight.</stage>
 <sp who="#BABY-SITTER">
@@ -56,7 +53,7 @@
 </sp>
 <sp who="#HELENA">
 	<speaker>HELENA</speaker>
-	<p>Please, Mommy, can I stay up late tonight and watch the (name of TV show) Ple-eease.</p>
+	<p>Please, Mommy, can I stay up late tonight and watch the (name of TV show)  Ple-eease.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -74,7 +71,7 @@
 	<speaker>HELENA</speaker>
 	<p>Thank you, Mommy.</p>
 </sp>
-<stage type="#replace">The house intercom rings. BILL goes to answer it.</stage>
+<stage type="#replace">The house intercom rings.  BILL goes to answer it.</stage>
 <sp who="#DOORMAN">
 	<speaker>DOORMAN</speaker>
 	<stage type="#replace">(VOICE)</stage>
@@ -95,8 +92,7 @@
 <stage type="#replace">Bill returns to sitting room.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>OK the car's here - let's go. (to Baby-sitter) Roz, we might be late tonight but I'll hold
-		the car to take you home.</p>
+	<p>OK the car's here - let's go. (to Baby-sitter) Roz, we might be late tonight but I'll hold the car to take you home.</p>
 </sp>
 <sp who="#BABY-SITTER">
 	<speaker>BABY-SITTER</speaker>
@@ -119,11 +115,11 @@
 </sp>
 <sp who="#DRIVER">
 	<speaker>DRIVER</speaker>
-	<p>Thanks. (handing his card) Just phone about half hour before you want to be picked up.</p>
+	<p>Thanks.  (handing his card)  Just phone about half hour before you want to be picked up.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>OK. Fine.</p>
+	<p>OK.  Fine.</p>
 </sp>
 <sp who="#DRIVER">
 	<speaker>DRIVER</speaker>
@@ -133,16 +129,13 @@
 <stage type="location">INT ZIEGLER MANSION - NIGHT</stage>
 <stage type="#replace">Sound of a dance band off.</stage>
 <stage type="#replace">Many guests still arriving.</stage>
-<stage type="#replace">Two ladies seated at a table confirm that Doctor and Mrs Harford are on the
-	invitation roster.</stage>
+<stage type="#replace">Two ladies seated at a table confirm that Doctor and Mrs Harford are on the invitation roster.</stage>
 <stage type="#replace">Their coats are taken.</stage>
-<stage type="#replace">The hosts, VICTOR ZIEGLER, a fit, sun-tanned, man in his mid-fifties, and his
-	wife, ILLONA, a Hungarian beauty, stand to one side greeting their guests in the large entrance
-	hall.</stage>
+<stage type="#replace">The hosts, VICTOR ZIEGLER, a fit, sun-tanned, man in his mid-fifties, and his wife, ILLONA, a Hungarian beauty, stand to one side greeting their guests in the large entrance hall.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
 	<stage type="#replace">(speaking above the noise)</stage>
-	<p>Bill!...Alice!... I'm so glad you could come. It's wonderful to see you both,</p>
+	<p>Bill!...Alice!...  I'm so glad you could come.  It's wonderful to see you both,</p>
 </sp>
 <stage type="#replace">AD-LIBS of further greetings while they shake hands and kiss on both cheeks.</stage>
 <sp who="#ZIEGLER">
@@ -152,18 +145,15 @@
 <stage type="#replace">Victor and Alice exchange if-there-was-world-enough-and-time smiles.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>And Bill, that osteopath you sent me to? He was wonderful. You should see my serve now.</p>
+	<p>And Bill, that osteopath you sent me to?  He was wonderful.  You should see my serve now.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>Yes, he's the top man in the world.</p>
 </sp>
-<stage type="#replace">ANOTHER FABULOUS ROOM - A LITTLE LATER BILL and ALICE, carrying champagne
-	glasses make their way through the glitterati.</stage>
-<stage type="#replace">They stop to admire the 17 foot Christmas tree trimmed with colored lights
-	and antique ornaments.</stage>
-<stage type="#replace">BALLROOM - BILL &amp; ALICE DANCING BILL's attention is caught by one of the
-	musicians on the bandstand.</stage>
+<stage type="#replace">ANOTHER FABULOUS ROOM - A LITTLE LATER BILL and ALICE, carrying champagne glasses make their way through the glitterati.</stage>
+<stage type="#replace">They stop to admire the 17 foot Christmas tree trimmed with colored lights and antique ornaments.</stage>
+<stage type="#replace">BALLROOM - BILL & ALICE DANCING BILL's attention is caught by one of the musicians on the bandstand.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>I don't believe it.</p>
@@ -174,7 +164,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>The guy at the piano. That's Nick Nightingale, I went to medical school with him.</p>
+	<p>The guy at the piano.  That's Nick Nightingale, I went to medical school with him.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -182,7 +172,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>He's not a doctor. He dropped out. I'm going to have to say hello to him.</p>
+	<p>He's not a doctor.  He dropped out.  I'm going to have to say hello to him.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -195,11 +185,11 @@
 <stage type="#replace">BILL walks over to the bandstand as they finish a set.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Nick!.. Nick Nightingale!</p>
+	<p>Nick!..  Nick Nightingale!</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Hey! Bill Harford! What a surprise. How the hell are you?</p>
+	<p>Hey!  Bill Harford!  What a surprise. How the hell are you?</p>
 </sp>
 <stage type="#replace">AD LIBS of greetings as they shake hands.</stage>
 <sp who="#BILL">
@@ -220,7 +210,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Not too bad. And you've become a pianist.</p>
+	<p>Not too bad.  And you've become a pianist.</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
@@ -238,7 +228,7 @@
 <stage type="#replace">They both laugh.</stage>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>How about you. Still in the doctor business?</p>
+	<p>How about you.  Still in the doctor business?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -246,7 +236,7 @@
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>In my case, never a doctor, never a doctor. You _don't_ know how that is.</p>
+	<p>In my case, never a doctor, never a doctor.  You _don't_ know how that is.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -254,26 +244,24 @@
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>No? It's a nice feeling. I do it a lot.</p>
+	<p>No?  It's a nice feeling.  I do it a lot.</p>
 </sp>
 <stage type="#replace">The BAND LEADER comes over and gives NICK a nod and BILL an polite smile.</stage>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Okay, we're off again. Listen, if I don't catch you later, I'm down in the Village for the
-		next two weeks, at the Cafe Sonata. Come by if you get a chance.</p>
+	<p>Okay, we're off again.  Listen, if I don't catch you later, I'm down in the Village for the next two weeks, at the Cafe Sonata.  Come by if you get a chance.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<stage type="#replace">(nods)</stage>
-	<p>Cafe Sonata, right. Okay, and listen, it was great seeing you again.</p>
+	<p>Cafe Sonata, right.  Okay, and listen, it was great seeing you again.</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Same here. Take care.</p>
+	<p>Same here.  Take care.</p>
 </sp>
 <stage type="#replace">The band starts up again.</stage>
-<stage type="#replace">The ballroom is crowded and BILL starts to make his way around the dance
-	floor to the bar.</stage>
+<stage type="#replace">The ballroom is crowded and BILL starts to make his way around the dance floor to the bar.</stage>
 <stage type="#replace">ALICE is at the bar waiting for him.</stage>
 <stage type="#replace">She reaches absently for her champagne glass...</stage>
 <stage type="#replace">and finds she is holding - or touching - a man's hand.</stage>
@@ -286,10 +274,8 @@
 	<speaker>SZABO</speaker>
 	<p>I'm absolutely certain of it.</p>
 </sp>
-<stage type="#replace">SZABO is a handsome man, in his mid-forties with a slight Central European
-	accent.</stage>
-<stage type="#replace">He drinks slowly from ALICE'S glass and looks directly into her eyes as he
-	does so.</stage>
+<stage type="#replace">SZABO is a handsome man, in his mid-forties with a slight Central European accent.</stage>
+<stage type="#replace">He drinks slowly from ALICE'S glass and looks directly into her eyes as he does so.</stage>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
 	<p>Did you ever read the Latin poet Ovid on The Art of Love?</p>
@@ -300,7 +286,7 @@
 </sp>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
-	<p>But he also had a good time first. A very good time.</p>
+	<p>But he also had a good time first.  A very good time.</p>
 </sp>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
@@ -308,7 +294,7 @@
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Pleased to meet you. My name is Alice. I'm American.</p>
+	<p>Pleased to meet you.  My name is Alice. I'm American.</p>
 </sp>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
@@ -319,8 +305,7 @@
 	<speaker>ALICE</speaker>
 	<p>Why not? - Sandor.</p>
 </sp>
-<stage type="#replace">ACROSS THE ROOM - BILL &amp; THE MODELS GAYLE, the taller model, shouts to
-	BILL above the music.</stage>
+<stage type="#replace">ACROSS THE ROOM - BILL & THE MODELS GAYLE, the taller model, shouts to BILL above the music.</stage>
 <sp who="#GAYLE">
 	<speaker>GAYLE</speaker>
 	<p>Nobody likes you? (louder)</p>
@@ -331,8 +316,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Put it this way, nobody _wants_ to admit how much they like me. But I'm confident it can
-		still happen.</p>
+	<p>Put it this way, nobody _wants_ to admit how much they like me.  But I'm confident it can still happen.</p>
 </sp>
 <sp who="#GAYLE">
 	<speaker>GAYLE</speaker>
@@ -343,7 +327,7 @@
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<stage type="#replace">(smiles)</stage>
-	<p>Nuala...I certainly feel like I do. How do you spell, Nuala?</p>
+	<p>Nuala...I certainly feel like I do.  How do you spell, Nuala?</p>
 </sp>
 <sp who="#NUALA">
 	<speaker>NUALA</speaker>
@@ -364,13 +348,12 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Only once? That sounds like an oversight.</p>
+	<p>Only once?  That sounds like an oversight.</p>
 </sp>
 <sp who="#NUALA">
 	<speaker>NUALA</speaker>
 	<p></p>
-	<p>I was on a shoot, modelling at Rockefeller Center, on a very windy day. You happened to be
-		passing by.</p>
+	<p>I was on a shoot, modelling at Rockefeller Center, on a very windy day.  You happened to be passing by.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -379,7 +362,7 @@
 </sp>
 <sp who="#NUALA">
 	<speaker>NUALA</speaker>
-	<p>Just about half of 5th Avenue. You were such a gentleman.</p>
+	<p>Just about half of 5th Avenue.  You were such a gentleman.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -393,19 +376,18 @@
 	<speaker>BILL</speaker>
 	<p>That's the kind of hero I can be sometimes!</p>
 </sp>
-<stage type="#replace">ALICE is dancing with the Sandor. He holds her close to him.</stage>
+<stage type="#replace">ALICE is dancing with the Sandor.  He holds her close to him.</stage>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
 	<p>What do you do, Alice?</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Well, actually, I'm looking for a job at the moment. I was an editor at a publishing house
-		but they went broke.</p>
+	<p>Well, actually, I'm looking for a job at the moment.  I was an editor at a publishing house but they went broke.</p>
 </sp>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
-	<p>Perhaps I can be of some help. I know a few people in publishing.</p>
+	<p>Perhaps I can be of some help.  I know a few people in publishing.</p>
 </sp>
 <stage type="#replace">Alice doesn't reply to this.</stage>
 <sp who="#SZABO">
@@ -428,8 +410,7 @@
 <stage type="#replace">Alice makes a that's-life face.</stage>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
-	<p>But of course I should have guessed that. If you weren't with your husband tonight you
-		wouldn't be so careful.</p>
+	<p>But of course I should have guessed that.  If you weren't with your husband tonight you wouldn't be so careful.</p>
 </sp>
 <stage type="#replace">ALICE laughs.</stage>
 <sp who="#SZABO">
@@ -450,8 +431,7 @@
 </sp>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
-	<p>It was the only way they could lose their virginity's and be free to do what they wanted with
-		other men. The ones they really wanted.</p>
+	<p>It was the only way they could lose their virginity's and be free to do what they wanted with other men.  The ones they really wanted.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -513,7 +493,7 @@
 </sp>
 <sp who="#NUALA">
 	<speaker>NUALA</speaker>
-	<p>They look so... knowledgable! </p>
+	<p>They look so...  knowledgable! </p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -521,11 +501,11 @@
 </sp>
 <sp who="#GAYLE">
 	<speaker>GAYLE</speaker>
-	<p>But I'll bet they work too hard. I bet they miss out on a lot of fun.</p>
+	<p>But I'll bet they work too hard.  I bet they miss out on a lot of fun.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>You're absolutely right. Where we going, girls?</p>
+	<p>You're absolutely right.  Where we going, girls?</p>
 </sp>
 <sp who="#NUALA">
 	<speaker>NUALA</speaker>
@@ -541,11 +521,10 @@
 	<speaker>BILL</speaker>
 	<p>Do I want to go where the rainbow ends?</p>
 </sp>
-<stage type="#replace">Before he can answer, a big man who looks like he stepped right out of _The
-	Godfather_ walks up - HARRIS, Ziegler's _personal assistant_.</stage>
+<stage type="#replace">Before he can answer, a big man who looks like he stepped right out of _The Godfather_ walks up - HARRIS, Ziegler's _personal assistant_.</stage>
 <sp who="#HARRIS">
 	<speaker>HARRIS</speaker>
-	<p>Excuse me, Doctor Harford. May I trouble you for a moment?</p>
+	<p>Excuse me, Doctor Harford.  May I trouble you for a moment?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -578,7 +557,7 @@
 	<speaker>GAYLE</speaker>
 	<p>Come back soon.</p>
 </sp>
-<stage type="#replace">The girls blow kisses. Bill smiles.</stage>
+<stage type="#replace">The girls blow kisses.  Bill smiles.</stage>
 <stage type="#replace">ALICE AND SZABO DANCING</stage>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
@@ -595,10 +574,9 @@
 </sp>
 <sp who="#SZABO">
 	<speaker>SZABO</speaker>
-	<p>You _are_ cruel. What about lunch, later this week?</p>
+	<p>You _are_ cruel.  What about lunch, later this week?</p>
 </sp>
-<stage type="#replace">BILL AND HARRIS - CORRIDORS AND STAIRCASE Muffled sounds of the music echo
-	from the ballroom below.</stage>
+<stage type="#replace">BILL AND HARRIS - CORRIDORS AND STAIRCASE Muffled sounds of the music echo from the ballroom below.</stage>
 <stage type="#replace">HARRIS stops in front of a large door and knocks quietly.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
@@ -609,15 +587,13 @@
 	<speaker>HARRIS</speaker>
 	<p>It's Harris, sir.</p>
 </sp>
-<stage type="#replace">After a few seconds the key is turned in the lock and the door slowly opens
-	revealing a barefoot ZIEGLER wearing only his pants and undershirt.</stage>
+<stage type="#replace">After a few seconds the key is turned in the lock and the door slowly opens revealing a barefoot ZIEGLER wearing only his pants and undershirt.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
 	<p>Thanks very much for coming up, Bill.</p>
 </sp>
-<stage type="#replace">He gestures BILL in. HARRIS waits outside.</stage>
-<stage type="#replace">A strikingly beautiful, half-naked woman in her late twenties, is sprawled
-	face up, her clothing scattered on the floor.</stage>
+<stage type="#replace">He gestures BILL in.  HARRIS waits outside.</stage>
+<stage type="#replace">A strikingly beautiful, half-naked woman in her late twenties, is sprawled face up, her clothing scattered on the floor.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>What happened?</p>
@@ -651,12 +627,10 @@
 	<speaker>BILL</speaker>
 	<p>She's starting to come around.</p>
 </sp>
-<stage type="#replace">The woman makes a few unintelligible sounds. BILL takes her wrist again and
-	looks at his watch.</stage>
+<stage type="#replace">The woman makes a few unintelligible sounds. BILL takes her wrist again and looks at his watch.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Good...Well...I don't think there's really anything to worry about. Coke wears off in half an
-		hour or so.</p>
+	<p>Good...Well...I don't think there's really anything to worry about.  Coke wears off in half an hour or so.</p>
 </sp>
 <stage type="#replace">ZIEGLER is visibly relieved.</stage>
 <stage type="#replace">BILL continues to watch her in silence.</stage>
@@ -684,19 +658,18 @@
 	<speaker>ZIEGLER</speaker>
 	<p>I'll take care of that...She's a friend of the family.</p>
 </sp>
-<stage type="#replace">Bill nods and watches her for a few moments longer. The he makes moves like
-	he wants to go..</stage>
+<stage type="#replace">Bill nods and watches her for a few moments longer.  The he makes moves like he wants to go..</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>She'll be all right, Victor. Okay if I leave the rest to you?</p>
+	<p>She'll be all right, Victor.  Okay if I leave the rest to you?</p>
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>Sure... And listen, Bill, I don't know how to thank you enough for this.</p>
+	<p>Sure...  And listen, Bill, I don't know how to thank you enough for this.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>It was nothing. Glad to be of help.</p>
+	<p>It was nothing.  Glad to be of help.</p>
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
@@ -706,8 +679,7 @@
 	<speaker>BILL</speaker>
 	<p>Of course.</p>
 </sp>
-<stage type="#replace">BALLROOM BILL re-enters the ballroom and looks around for the two models but
-	he doesn't see them.</stage>
+<stage type="#replace">BALLROOM BILL re-enters the ballroom and looks around for the two models but he doesn't see them.</stage>
 <stage type="#replace">Then... a woman's arm slips through his.</stage>
 <stage type="#replace">He looks down at the wedding-ringed hand.</stage>
 <stage type="#replace">It's ALICE.</stage>
@@ -718,16 +690,14 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Could be. What's your name again?</p>
+	<p>Could be.  What's your name again?</p>
 </sp>
 <stage type="#replace">She kisses him.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
 	<p>Can we go home now?</p>
 </sp>
-<stage type="#replace">BILL AND ALICE'S BEDROOM - NIGHT ALICE stands naked in front of her dressing
-	table mirror rubbing face cream. BILL comes up behind her, kisses her shoulder and runs his
-	hands lightly over her breasts.</stage>
+<stage type="#replace">BILL AND ALICE'S BEDROOM - NIGHT ALICE stands naked in front of her dressing table mirror rubbing face cream.  BILL comes up behind her, kisses her shoulder and runs his hands lightly over her breasts.</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
 	<p>That night they were more blissful in their ardent love than they had been for a long time.</p>
@@ -740,19 +710,16 @@
 	<speaker>V.O.</speaker>
 	<p>The gray of morning awakened them only too soon.</p>
 </sp>
-<p>And Bill had a number of early appointments.</p>
-<p>So the evening hours passed in the predetermined daily routine of work, and the events of the
-	night before began to fade.</p>
+	<p>And Bill had a number of early appointments.</p>
+	<p>So the evening hours passed in the predetermined daily routine of work, and the events of the night before began to fade.</p>
 </sp>
-<stage type="#replace">BILL'S APARTMENT - HELENA'S BEDROOM - NIGHT HELENA reading aloud to BILL and
-	ALICE from "A Child's Garden of Verses". She finishes her poem and yawns.</stage>
+<stage type="#replace">BILL'S APARTMENT - HELENA'S BEDROOM - NIGHT HELENA reading aloud to BILL and ALICE from "A Child's Garden of Verses".  She finishes her poem and yawns.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>And now, my darling, time for bed. What do you say?</p>
 </sp>
 <stage type="#replace">HELENA smiles and puts her arms around BILL.</stage>
-<stage type="#replace">BILL and ALICE kiss her goodnight, turn out the lights and go into the living
-	room.</stage>
+<stage type="#replace">BILL and ALICE kiss her goodnight, turn out the lights and go into the living room.</stage>
 <stage type="#replace">LIVING ROOM ALICE sighs comfortably.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -760,10 +727,9 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Kind of negative. We can do it tomorrow.</p>
+	<p>Kind of negative.  We can do it tomorrow.</p>
 </sp>
-<stage type="#replace">Bill drops down on the couch, picks up the TV controller and starts switching
-	channels.</stage>
+<stage type="#replace">Bill drops down on the couch, picks up the TV controller and starts switching channels.</stage>
 <stage type="#replace">Alice snuggles up to him.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -783,11 +749,9 @@
 	<speaker>ALICE</speaker>
 	<p>Let's break the law a little first</p>
 </sp>
-<stage type="#replace">BATHROOM - A FEW MOMENTS LATER Bill takes a Band-Aid box from the bathroom
-	medicine cabinet and removes a small plastic bag of pot.</stage>
+<stage type="#replace">BATHROOM - A FEW MOMENTS LATER Bill takes a Band-Aid box from the bathroom medicine cabinet and removes a small plastic bag of pot.</stage>
 <stage type="#replace">BEDROOM Alice skillfully rolls two joints.</stage>
-<stage type="#replace">MINUTES LATER Bill and Alice sitting in bed, partly undressed and smoking the
-	joints.</stage>
+<stage type="#replace">MINUTES LATER Bill and Alice sitting in bed, partly undressed and smoking the joints.</stage>
 <stage type="#replace">Alice inhales and leans back with an ashtray in her lap. She is high.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -811,7 +775,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Don't really know. One of them just started talking to me.</p>
+	<p>Don't really know.  One of them just started talking to me.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -819,8 +783,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>No such luck. They're models. One of them said I once removed something from her eyes on
-		windy day in Rockefeller Plaza.</p>
+	<p>No such luck.  They're models.  One of them said I once removed something from her eyes on windy day in Rockefeller Plaza.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -841,7 +804,7 @@
 <stage type="#replace">ALICE doesn't find the remark particularly amusing.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Hey, come on - all I did was talk to them... Anyway, who was the guy _you_ were dancing with?</p>
+	<p>Hey, come on - all I did was talk to them...  Anyway, who was the guy _you_ were dancing with?</p>
 </sp>
 <stage type="#replace">BILL is not that interested and just wants to change the subject.</stage>
 <sp who="#ALICE">
@@ -850,7 +813,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Sandor... Who is he?</p>
+	<p>Sandor...  Who is he?</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -878,7 +841,7 @@
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Sex. Upstairs. Then and there.</p>
+	<p>Sex.  Upstairs.  Then and there.</p>
 </sp>
 <stage type="#replace">The pot makes ALICE think this is hilarious.</stage>
 <sp who="#BILL">
@@ -895,7 +858,7 @@
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Oh, I see. So does exhaustive research show that every man I meet wants to screw me?</p>
+	<p>Oh, I see.  So does exhaustive research show that every man I meet wants to screw me?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -903,8 +866,7 @@
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Does that mean that all men, with _possibly_ _some_ _exceptions_, want to screw all beautiful
-		women, married or otherwise? </p>
+	<p>Does that mean that all men, with _possibly_ _some_ _exceptions_, want to screw all beautiful women, married or otherwise? </p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -952,8 +914,7 @@
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>So basically what it comes down to is that you wouldn't screw the two models out of
-		_consideration_ for me, but otherwise you would.</p>
+	<p>So basically what it comes down to is that you wouldn't screw the two models out of _consideration_ for me, but otherwise you would.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -966,7 +927,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Hey, come on, honey. The pot's making you aggressive.</p>
+	<p>Hey, come on, honey.  The pot's making you aggressive.</p>
 </sp>
 <stage type="#replace">He takes her cigarette and puts it out.</stage>
 <sp who="#ALICE">
@@ -976,22 +937,19 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Okay. Okay. Okay.</p>
+	<p>Okay.  Okay.  Okay.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Now try to be honest. When some really great-looking woman comes in to your office to have
-		her tits checked out, don't you ever think about screwing her?</p>
+	<p>Now try to be honest.  When some really great-looking woman comes in to your office to have her tits checked out, don't you ever think about screwing her?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Come on, give me a break. I'm a doctor. It's all very impersonal. And anyway my insurance
-		requires that a nurse is always present.</p>
+	<p>Come on, give me a break.  I'm a doctor.  It's all very impersonal.  And anyway my insurance requires that a nurse is always present.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>You're being evasive. When you're feeling her tits, is it never any more than sheer
-		professionalism?</p>
+	<p>You're being evasive.  When you're feeling her tits, is it never any more than sheer professionalism?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1003,13 +961,11 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Oh, come on. There are no absolutes in anything.</p>
+	<p>Oh, come on.  There are no absolutes in anything.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>No absolutes... Okay. Fine... And does the same thing go for women? While they're having
-		their tits squeezed, do you suppose your lady patients ever wonder what your dick might be
-		like?</p>
+	<p>No absolutes...  Okay.  Fine...  And does the same thing go for women?  While they're having their tits squeezed, do you suppose your lady patients ever wonder what your dick might be like?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1031,7 +987,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>No, again. Not most of them.</p>
+	<p>No, again.  Not most of them.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -1043,9 +999,7 @@
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Oh, yes, I forgot. Millions of years of evolution - right? Men have to put their sperm into
-		as many women as they can, but women stay at home with pretty pink things and take care of
-		the children?</p>
+	<p>Oh, yes, I forgot.  Millions of years of evolution - right?  Men have to put their sperm into as many women as they can, but women stay at home with pretty pink things and take care of the children?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1056,12 +1010,11 @@
 	<speaker>ALICE</speaker>
 	<p>Oh, if you men only knew.</p>
 </sp>
-<stage type="#replace">The look in her eyes changes, becoming cool and impenetrable, and BILL allows
-	her hands to slip from his.</stage>
+<stage type="#replace">The look in her eyes changes, becoming cool and impenetrable, and BILL allows her hands to slip from his.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p></p>
-	<p>If we knew -? What do you mean by that?</p>
+	<p>If we knew -?  What do you mean by that?</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -1070,7 +1023,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Hey, Alice, hey, look at me... The truth. Is there something you've kept from me?</p>
+	<p>Hey, Alice, hey, look at me...  The truth. Is there something you've kept from me?</p>
 </sp>
 <stage type="#replace">ALICE looks down with a strange smile.</stage>
 <sp who="#BILL">
@@ -1084,8 +1037,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>If I say so? Wait a minute. I'm not going to let you get away with that... Seriously... Is
-		there's something you haven't told me?</p>
+	<p>If I say so?  Wait a minute.  I'm not going to let you get away with that... Seriously...  Is there's something you haven't told me?</p>
 </sp>
 <stage type="#replace">ALICE stops short of saying something.</stage>
 <sp who="#BILL">
@@ -1095,12 +1047,11 @@
 <stage type="#replace">ALICE nods.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Well, last summer at Cape Cod - I don't suppose you remember one night in the dining room,
-		there was a young Naval officer sitting near us. He was with two other officers.</p>
+	<p>Well, last summer at Cape Cod - I don't suppose you remember one night in the dining room, there was a young Naval officer sitting near us.  He was with two other officers.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>As a matter of fact, I don't But what about him?</p>
+	<p>As a matter of fact, I don't  But what about him?</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -1109,17 +1060,14 @@
 <stage type="#replace">Bill waits for her to continue.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Well...I first saw him that morning in the lobby. He was checking in and he was following the
-		bellboy with his luggage to the elevator.</p>
-	<p>He glanced at me as he walked past but didn't stop until he had gone a few more steps. Then
-		he turned and looked at me.</p>
-	<p>He didn't say anything. He didn't smile. In fact, it seemed to me that he scowled. Maybe I
-		did the same thing.</p>
+	<p>Well...I first saw him that morning in the lobby.  He was checking in and he was following the bellboy with his luggage to the elevator.</p>
+	<p>He glanced at me as he walked past but didn't stop until he had gone a few more steps.  Then he turned and looked at me.</p>
+	<p>He didn't say anything.  He didn't smile. In fact, it seemed to me that he scowled.  Maybe I did the same thing.</p>
 </sp>
 <stage type="#replace">ALICE stops for a moment.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>I was very stirred by him. That whole day I lay on the beach, lost in dreams.</p>
+	<p>I was very stirred by him.  That whole day I lay on the beach, lost in dreams.</p>
 </sp>
 <stage type="#replace">She stops.</stage>
 <sp who="#BILL">
@@ -1132,25 +1080,17 @@
 	<speaker>ALICE</speaker>
 	<p>That afternoon you and I made love and talked about our future, and our child.</p>
 	<p>Later we were sitting on the balcony and he passed below us without looking up.</p>
-	<p>Just the sight of him stirred me deeply and I thought if he wanted me, I could not have
-		resisted. I thought I was ready to give up you, the child, my whole future.</p>
-	<p>And yet at the same time - if you can understand it - you were dearer to me than ever, and I
-		stroked your forehead and kissed your hair, and at that moment my love for you was both
-		tender and sad.</p>
-	<p>At dinner I wore a white rose and you said I was very beautiful. It might not have been just
-		an accident that he and his friends sat near us.</p>
-	<p>He didn't look up but I actually considered getting up, walking over to him and like someone
-		in a movie, saying, 'Here I am, my love, for whom I have waited - take me.'</p>
-	<p>Well, it was about then that the waiter brought him the envelope. He read it, turned pale,
-		said goodbye to his friends - and glancing at me mysteriously, he left the room.</p>
+	<p>Just the sight of him stirred me deeply and I thought if he wanted me, I could not have resisted.  I thought I was ready to give up you, the child, my whole future.</p>
+	<p>And yet at the same time - if you can understand it - you were dearer to me than ever, and I stroked your forehead and kissed your hair, and at that moment my love for you was both tender and sad.</p>
+	<p>At dinner I wore a white rose and you said I was very beautiful.  It might not have been just an accident that he and his friends sat near us.</p>
+	<p>He didn't look up but I actually considered getting up, walking over to him and like someone in a movie, saying, 'Here I am, my love, for whom I have waited - take me.'</p>
+	<p>Well, it was about then that the waiter brought him the envelope.  He read it, turned pale, said goodbye to his friends - and glancing at me mysteriously, he left the room.</p>
 </sp>
 <stage type="#replace">ALICE stops for a moment.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
 	<p></p>
-	<p>I barely slept that night and woke up the next morning very agitated. I didn't know whether I
-		was afraid that he had left or that he might still be there... But by dinner I realised he
-		was gone and I breathed a sigh of relief.</p>
+	<p>I barely slept that night and woke up the next morning very agitated.  I didn't know whether I was afraid that he had left or that he might still be there...  But by dinner I realised he was gone and I breathed a sigh of relief.</p>
 </sp>
 <stage type="#replace">Long silence</stage>
 <sp who="#BILL">
@@ -1162,13 +1102,11 @@
 	<speaker>ALICE</speaker>
 	<p>I don't know.</p>
 </sp>
-<stage type="#replace">BILL doesn't say anything but there is a scornful expression around his
-	mouth.</stage>
+<stage type="#replace">BILL doesn't say anything but there is a scornful expression around his mouth.</stage>
 <stage type="#replace">The phone rings.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Hello?...Oh... When did they call?... No, I have the address...If they call again say I'm on
-		my way.</p>
+	<p>Hello?...Oh...  When did they call?... No, I have the address...If they call again say I'm on my way.</p>
 </sp>
 <stage type="#replace">He hangs up the phone and starts to put on his shoes.</stage>
 <sp who="#BILL">
@@ -1177,7 +1115,7 @@
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Oh, that's too bade. But you were expecting that, weren't you?</p>
+	<p>Oh, that's too bade.  But you were expecting that, weren't you?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1204,7 +1142,7 @@
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<stage type="#replace">(coldly)</stage>
-	<p>Not at all.. We must always tell each other everything.</p>
+	<p>Not at all..  We must always tell each other everything.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -1213,7 +1151,7 @@
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<stage type="#replace">(coldly)</stage>
-	<p>It doesn't really matter. Nothing happened. Just a passing fancy.</p>
+	<p>It doesn't really matter.  Nothing happened.  Just a passing fancy.</p>
 </sp>
 <stage type="location">EXT MARION'S APARTMENT HOUSE - NIGHT</stage>
 <stage type="location">INT MARION'S LOBBY</stage>
@@ -1224,58 +1162,46 @@
 	<p>Marion?</p>
 </sp>
 <stage type="#replace">He walks through the quiet apartment.</stage>
-<stage type="#replace">MASTER BEDROOM The body of LOU NATHANSON lies on a large bed with an oxygen
-	cylinder and other medical paraphernalia on tables on each side of the bed.</stage>
-<stage type="#replace">MARION, the dead man's daughter, a pretty girl in her late twenties, sits at
-	the foot of the bed, exhausted, her arms hanging limply at her side.</stage>
-<stage type="#replace">She starts to get up but BILL stops her with a movement from his hand, and
-	she merely greets him with a nod, her eyes large and sad.</stage>
-<stage type="#replace">BILL moves to the head of the bed and mechanically places his hands on the
-	forehead of the dead man and on his arms.</stage>
-<stage type="#replace">He shakes his head a couple of times and his shoulders drop with a slight
-	expression of regret.</stage>
+<stage type="#replace">MASTER BEDROOM The body of LOU NATHANSON lies on a large bed with an oxygen cylinder and other medical paraphernalia on tables on each side of the bed.</stage>
+<stage type="#replace">MARION, the dead man's daughter, a pretty girl in her late twenties, sits at the foot of the bed, exhausted, her arms hanging limply at her side.</stage>
+<stage type="#replace">She starts to get up but BILL stops her with a movement from his hand, and she merely greets him with a nod, her eyes large and sad.</stage>
+<stage type="#replace">BILL moves to the head of the bed and mechanically places his hands on the forehead of the dead man and on his arms.</stage>
+<stage type="#replace">He shakes his head a couple of times and his shoulders drop with a slight expression of regret.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>I hope his last moments were peaceful.</p>
 </sp>
 <stage type="#replace">Marion gives him a despairing look.</stage>
-<stage type="#replace">He puts his hands in his pockets and his eyes wander about the room until
-	they finally rest again on Marion.</stage>
+<stage type="#replace">He puts his hands in his pockets and his eyes wander about the room until they finally rest again on Marion.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>Well, Marion, at least you weren't entirely unprepared for this.</p>
 </sp>
-<stage type="#replace">She holds out her hand to him. He takes it sympathetically.</stage>
+<stage type="#replace">She holds out her hand to him.  He takes it sympathetically.</stage>
 <stage type="#replace">Marion sighs, woefully.</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
-	<p>Dad seemed pretty good today. Around nine o'clock he said he felt like taking a nap. So I
-		went into the living room to watch television. I don't think I was out of his room for more
-		than half-an-hour.</p>
+	<p>Dad seemed pretty good today.  Around nine o'clock he said he felt like taking a nap.  So I went into the living room to watch television.  I don't think I was out of his room for more than half-an-hour.</p>
 </sp>
 <stage type="#replace">Marion starts to weep.</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
-	<p>When I went back, at first I though he was still asleep... The I realized he wasn't
-		breathing... I did everything you had told me but.. he was....</p>
+	<p>When I went back, at first I though he was still asleep...  The I realized he wasn't breathing...  I did everything you had told me but..  he was....</p>
 </sp>
 <stage type="#replace">She can't bring herself to say, dead, and she shakes her head, despairingly.</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
-	<p>I called the emergency people... But when they got here they just said he was...dead and
-		asked whether I wanted them to take him away?</p>
+	<p>I called the emergency people... But when they got here they just said he was...dead and asked whether I wanted them to take him away?</p>
 </sp>
 <stage type="#replace">She breaks down sobbing.</stage>
 <stage type="#replace">BILL draws up a chair and sits down opposite her.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Marion, from what you've said, it sounds like your father died in his sleep. He wouldn't have
-		suffered.</p>
+	<p>Marion, from what you've said, it sounds like your father died in his sleep.  He wouldn't have suffered.</p>
 </sp>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
-	<p>Oh, God...I hope not... I've been so afraid of the actual... dying business... But he made it
-		_so_ _easy_, just as he tried to make everything else in my life easy.</p>
+	<p>Oh, God...I hope not...  I've been so afraid of the actual...  dying business... But he made it _so_ _easy_, just as he tried to make everything else in my life easy.</p>
 </sp>
 <stage type="#replace">BILL takes her hands.</stage>
 <sp who="#BILL">
@@ -1297,38 +1223,29 @@
 </sp>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
-	<p>I think you've met Carl here a few times? We're planning to get married in April.</p>
+	<p>I think you've met Carl here a few times?  We're planning to get married in April.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Oh, that's wonderful. I'm very happy for you.</p>
+	<p>Oh, that's wonderful.  I'm very happy for you.</p>
 </sp>
 <stage type="#replace">They sit for a few moments without speaking.</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>I certainly do remember Carl. So she's going to marry him, Bill thought to himself. I wonder
-		why? She surely can't be in love with him. He's nothing to look at, and he hasn't got any
-		money... He's just an assistant in professor of something or other... But then it's none of
-		my business. Still... if she were my mistress, her hair would be less dry and her lips would
-		be fuller and redder.</p>
+	<p>I certainly do remember Carl.  So she's going to marry him, Bill thought to himself.  I wonder why?  She surely can't be in love with him.  He's nothing to look at, and he hasn't got any money...  He's just an assistant in professor of something or other...  But then it's none of my business.  Still... if she were my mistress, her hair would be less dry and her lips would be fuller and redder.</p>
 </sp>
 <stage type="#replace">Marion suddenly starts to talk.</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
-	<p>Dad had so many worries and disappointments. My mother was never well... And my
-		_brother_...he was such a disappointment... I don't even know where he is. The last we heard
-		from him was from some small town in Mexico. I can't even remember where.</p>
+	<p>Dad had so many worries and disappointments.  My mother was never well...  And my _brother_...he was such a disappointment...  I don't even know where he is.  The last we heard from him was from some small town in Mexico.  I can't even remember where.</p>
 	<p>[POSSIBLE MISSING PAGE]</p>
 </sp>
-<stage type="#replace">In spite of himself, BILL places his hand on her head, caressing it. He feels
-	her body begin to tremble and her sobs become louder and finally quite unrestrained.</stage>
-<stage type="#replace">All at once, she slips down from her chair and kneels in front of him,
-	clasping his legs with her arms and pressing her face into them.</stage>
+<stage type="#replace">In spite of himself, BILL places his hand on her head, caressing it.  He feels her body begin to tremble and her sobs become louder and finally quite unrestrained.</stage>
+<stage type="#replace">All at once, she slips down from her chair and kneels in front of him, clasping his legs with her arms and pressing her face into them.</stage>
 <stage type="#replace">She looks up at him with large eyes, wild with grief, and whispers ardently:</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
-	<p>I don't want to leave here... Even if you never return... Even if I am never to see you
-		again... I want, at least, to live near you.</p>
+	<p>I don't want to leave here...  Even if you never return...  Even if I am never to see you again...  I want, at least, to live near you.</p>
 </sp>
 <stage type="#replace">BILL looks touched rather than surprised.</stage>
 <sp who="#BILL">
@@ -1336,33 +1253,27 @@
 	<p>Please - get up, Marion.</p>
 </sp>
 <stage type="#replace">He says this softly, and bending down he gently raises her up.</stage>
-<stage type="#replace">He glances at the dead man on the bed and only puts his arms around her in a
-	very hesitant embrace and kisses her on the forehead.</stage>
-<stage type="#replace">At the same time, without knowing why, a sense of anger wells up against
-	ALICE.</stage>
+<stage type="#replace">He glances at the dead man on the bed and only puts his arms around her in a very hesitant embrace and kisses her on the forehead.</stage>
+<stage type="#replace">At the same time, without knowing why, a sense of anger wells up against ALICE.</stage>
 <stage type="#replace">_Jealous fantasy image of Alice and the Naval officer._</stage>
 <stage type="#replace">The door bell rings.</stage>
 <stage type="#replace">He hastily kisses Marion's cheek, as if in gratitude, and goes to the door.</stage>
-<stage type="#replace">It's CARL standing there - a very ordinary looking man with an umbrella in
-	his hand and a serious face appropriate to the situation.</stage>
-<stage type="#replace">The two men greet each other much more cordially than is called for by their
-	actual state of acquaintance.</stage>
+<stage type="#replace">It's CARL standing there - a very ordinary looking man with an umbrella in his hand and a serious face appropriate to the situation.</stage>
+<stage type="#replace">The two men greet each other much more cordially than is called for by their actual state of acquaintance.</stage>
 <stage type="#replace">They walk to the bedroom and CARL has an embarrassed look at the deceased.</stage>
 <sp who="#CARL">
 	<speaker>CARL</speaker>
-	<p>Oh, my poor, dear Marion. I am so sorry.</p>
+	<p>Oh, my poor, dear Marion.  I am so sorry.</p>
 </sp>
 <stage type="#replace">He puts his arms around her.</stage>
 <stage type="#replace">BILL goes into the next room to write out the death certificate.</stage>
-<stage type="#replace">When he finishes, he returns to the bedroom where the engaged couple sit,
-	hand in hand, by the bed of the dead man.</stage>
+<stage type="#replace">When he finishes, he returns to the bedroom where the engaged couple sit, hand in hand, by the bed of the dead man.</stage>
 <stage type="#replace">The door-bell rings.</stage>
 <sp who="#CARL">
 	<speaker>CARL</speaker>
 	<p>I'll get it.</p>
 </sp>
-<stage type="#replace">While he is out of the room, Marion, with her eyes on the floor, says, almost
-	inaudibly:</stage>
+<stage type="#replace">While he is out of the room, Marion, with her eyes on the floor, says, almost inaudibly:</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
 	<p>I love you.</p>
@@ -1372,8 +1283,7 @@
 	<speaker>BILL</speaker>
 	<p>Marion.</p>
 </sp>
-<stage type="#replace">CARL returns with Marion's UNCLE and AUNT and aunt, whose presence gives BILL
-	the opportunity to make his goodbyes and leave.</stage>
+<stage type="#replace">CARL returns with Marion's UNCLE and AUNT and aunt, whose presence gives BILL the opportunity to make his goodbyes and leave.</stage>
 <stage type="#replace">At the door.</stage>
 <sp who="#CARL">
 	<speaker>CARL</speaker>
@@ -1386,65 +1296,48 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>No thanks. I think I'll walk for a bit.</p>
+	<p>No thanks.  I think I'll walk for a bit.</p>
 </sp>
 <stage type="location">EXT STREET TO PARK - NIGHT</stage>
 <stage type="location">EXT PARK - NIGHT</stage>
-<stage type="#replace">A tramp lies full length on a bench wrapped in newspapers with his hat over
-	his face.</stage>
+<stage type="#replace">A tramp lies full length on a bench wrapped in newspapers with his hat over his face.</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>The image of the tramp made him think of the dead man he had just left, and he shuddered and
-		felt slightly nauseated at the thought that decay and decomposition had already begun their
-		work in the body he just left.</p>
-	<p>He was glad he was still alive and in all probability that these ugly things were still far
-		removed from him, and that he was, in fact, still in the prime of life, had a beautiful wife
-		and could have several women in addition, if he wanted to, although doing so would require
-		more free time than he had.</p>
+	<p>The image of the tramp made him think of the dead man he had just left, and he shuddered and felt slightly nauseated at the thought that decay and decomposition had already begun their work in the body he just left.</p>
+	<p>He was glad he was still alive and in all probability that these ugly things were still far removed from him, and that he was, in fact, still in the prime of life, had a beautiful wife and could have several women in addition, if he wanted to, although doing so would require more free time than he had.</p>
 </sp>
-<stage type="#replace">BILL notices a group of rowdy college boys coming towards him, six of them
-	taking up the whole walkway.</stage>
+<stage type="#replace">BILL notices a group of rowdy college boys coming towards him, six of them taking up the whole walkway.</stage>
 <stage type="#replace">He moves aside to keep out of their way.</stage>
-<stage type="#replace">But as they pass, one of them, a tall boy with an open overcoat, deliberately
-	bumps into him with his raised elbow.</stage>
+<stage type="#replace">But as they pass, one of them, a tall boy with an open overcoat, deliberately bumps into him with his raised elbow.</stage>
 <stage type="#replace">BILL involuntarily stops.</stage>
 <stage type="#replace">The tall student takes two more steps and turns.</stage>
-<stage type="#replace">They glare at each other for a moment with only a short distance separating
-	them.</stage>
+<stage type="#replace">They glare at each other for a moment with only a short distance separating them.</stage>
 <stage type="#replace">Suddenly, BILL turns around again and walks.</stage>
 <stage type="#replace">He hears a short laugh behind him.</stage>
 <stage type="#replace">He wants to turn around and fight but he feels his heart beating strangely.</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>Had he become a coward, he asked himself, and noticed his knees were shaking a little bit.
-		Ridiculous! Why should he get involved in a street fight with some drunken college student
-		who had five friends with him.</p>
+	<p>Had he become a coward, he asked himself, and noticed his knees were shaking a little bit.  Ridiculous!  Why should he get involved in a street fight with some drunken college student who had five friends with him.</p>
 </sp>
-<p>He, a man of thirty-five, a practising physician, a married man and father of a child. He might
-	wind up in the hospital or worse and tomorrow be in the same position as the man he just left..
-	Then he thought about his profession? There were dangers lurking there, too, everywhere and at
-	all times - except that one usually forgets about them.</p>
+	<p>He, a man of thirty-five, a practising physician, a married man and father of a child.  He might wind up in the hospital or worse and tomorrow be in the same position as the man he just left..  Then he thought about his profession?  There were dangers lurking there, too, everywhere and at all times - except that one usually forgets about them.</p>
 </sp>
 <stage type="location">EXT STREET - ON WAY DOMINO - NIGHT</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
 	<p></p>
-	<p>Surely, it had been nothing but common sense to avoid a ridiculous fight with the student...
-		but if he ever meet the Naval officer with whom Alice...</p>
+	<p>Surely, it had been nothing but common sense to avoid a ridiculous fight with the student...  but if he ever meet the Naval officer with whom Alice...</p>
 </sp>
 <stage type="#replace">JEALOUS FANTASY IMAGE - ALICE AND NAVAL OFFICER</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>But what insanity! After all, nothing happened... What was he thinking about?... But then,
-		wasn't it really just as bad as if she had actually fucked him - she might just as well
-		have. Wasn't it even worse, in a way. What a joy it would be to teach _him_ a lesson.</p>
+	<p>But what insanity!  After all, nothing happened...  What was he thinking about?...  But then, wasn't it really just as bad as if she had actually fucked him - she might just as well have.  Wasn't it even worse, in a way.  What a joy it would be to teach _him_ a lesson.</p>
 </sp>
 <stage type="location">EXT STREET - DOMINO'S APARTMENT - NIGHT</stage>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
 	<p>Hi.</p>
 </sp>
-<stage type="#replace">BILL slows down and looks at her. She is very pretty with dark red lips.</stage>
+<stage type="#replace">BILL slows down and looks at her.  She is very pretty with dark red lips.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>Hi.</p>
@@ -1455,7 +1348,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Fine. How are you doing?</p>
+	<p>Fine.  How are you doing?</p>
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
@@ -1468,7 +1361,7 @@
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
-	<p>Have a little fun. Come inside with me? I just live over there.</p>
+	<p>Have a little fun.  Come inside with me? I just live over there.</p>
 </sp>
 <stage type="#replace">She points to a nearby doorway.</stage>
 <stage type="#replace">BILL a little off balance.</stage>
@@ -1478,7 +1371,7 @@
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
-	<p>Yes. It's a lot nicer than it is out here.</p>
+	<p>Yes.  It's a lot nicer than it is out here.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1504,7 +1397,7 @@
 <stage type="#replace">BILL smiles, uncertainly.</stage>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
-	<p>Really, it's okay. Come on.</p>
+	<p>Really, it's okay.  Come on.</p>
 </sp>
 <stage type="#replace">BILL allows himself to be led to the door.</stage>
 <sp who="#DOMINO">
@@ -1524,7 +1417,7 @@
 <stage type="#replace">BILL nods, a little uncomfortably.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Sixty. Sounds good.</p>
+	<p>Sixty.  Sounds good.</p>
 </sp>
 <stage type="#replace">DOMINO laughs.</stage>
 <sp who="#DOMINO">
@@ -1534,8 +1427,7 @@
 </sp>
 <stage type="#replace">She unlocks the door and they go inside.</stage>
 <stage type="#replace">It's a clean, reasonably tidy, ex cold-water railway flat.</stage>
-<stage type="#replace">The girl smiles sweetly, and walks ahead of BILL into the narrow bedroom
-	where there is a neatly made king-size bed without a bedspread..</stage>
+<stage type="#replace">The girl smiles sweetly, and walks ahead of BILL into the narrow bedroom where there is a neatly made king-size bed without a bedspread..</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>By the way, what's your name?</p>
@@ -1546,7 +1438,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Domino. That's an unusual name.</p>
+	<p>Domino.  That's an unusual name.</p>
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
@@ -1579,7 +1471,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>No thanks. I'm fine.</p>
+	<p>No thanks.  I'm fine.</p>
 </sp>
 <stage type="#replace">She puts on some music.</stage>
 <sp who="#BILL">
@@ -1600,8 +1492,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>No, it just that I was under the impression that most girls didn't use their own apartment -
-		too much hassle.</p>
+	<p>No, it just that I was under the impression that most girls didn't use their own apartment - too much hassle.</p>
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
@@ -1626,7 +1517,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>NYU. What are you studying?</p>
+	<p>NYU.  What are you studying?</p>
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
@@ -1638,7 +1529,7 @@
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
-	<p>Pretty good. Ever hear of Pearlstein and Johnson?</p>
+	<p>Pretty good.  Ever hear of Pearlstein and Johnson?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1676,7 +1567,7 @@
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<stage type="#replace">(laughs)</stage>
-	<p>No kidding? I hope I don't know him.</p>
+	<p>No kidding?  I hope I don't know him.</p>
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
@@ -1699,8 +1590,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Well, to be honest, I would have said sixteen or seventeen but obviously if you're going to
-		college... eighteen?</p>
+	<p>Well, to be honest, I would have said sixteen or seventeen but obviously if you're going to college...  eighteen?</p>
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
@@ -1715,8 +1605,7 @@
 <stage type="#replace">_Bleep-bleep_.</stage>
 <stage type="#replace">BILL's cellular phone.</stage>
 <stage type="#replace">_Bleep-bleep_</stage>
-<stage type="#replace">He fumbles in his pockets for the phone and DOMINO has to get off his lap for
-	him to get it out.</stage>
+<stage type="#replace">He fumbles in his pockets for the phone and DOMINO has to get off his lap for him to get it out.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>Hello?</p>
@@ -1724,16 +1613,14 @@
 <stage type="#replace">It's ALICE.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Hi, honey. Yes, everything's okay... I'm not sure... We're waiting for some relatives to show
-		up... It could be late... No, don't wait up. Can't really talk... Okay, as soon as I can...
-		Same here.</p>
+	<p>Hi, honey.  Yes, everything's okay...  I'm not sure...  We're waiting for some relatives to show up...  It could be late... No, don't wait up.  Can't really talk... Okay, as soon as I can...  Same here.</p>
 </sp>
 <stage type="#replace">He disconnects and puts the phone back in his pocket.</stage>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
 	<p>Was that Mrs Doctor Bill?</p>
 </sp>
-<stage type="#replace">BILL thinks for a moment and nods. Then he sighs and gets to his feet.</stage>
+<stage type="#replace">BILL thinks for a moment and nods.  Then he sighs and gets to his feet.</stage>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
 	<stage type="#replace">(not a question)</stage>
@@ -1758,11 +1645,11 @@
 </sp>
 <sp who="#DOMINO">
 	<speaker>DOMINO</speaker>
-	<p>Really. It's okay.</p>
+	<p>Really.  It's okay.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>No, no. Listen, we need more good sociologists.</p>
+	<p>No, no.  Listen, we need more good sociologists.</p>
 </sp>
 <stage type="#replace">They both laugh.</stage>
 <sp who="#DOMINO">
@@ -1776,14 +1663,11 @@
 <stage type="location">EXT STREET TO CAFE SONATA - NIGHT</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>Where shall I go now, he asked himself? The obvious thing was home to bed. But he couldn't
-		persuade himself to do that.</p>
+	<p>Where shall I go now, he asked himself? The obvious thing was home to bed. But he couldn't persuade himself to do that.</p>
 	<p>He thought of going back to the girl but that somehow seemed ridiculous now.</p>
-	<p>He was overcome with a sense that he was moving farther and farther away from his everyday
-		existence into a completely different world. </p>
+	<p>He was overcome with a sense that he was moving farther and farther away from his everyday existence into a completely different world. </p>
 </sp>
-<stage type="#replace">By the chance, he passes a small nightclub, Cafe Sonata, and notices Nick
-	Nightingale's name and photograph outside.</stage>
+<stage type="#replace">By the chance, he passes a small nightclub, Cafe Sonata, and notices Nick Nightingale's name and photograph outside.</stage>
 <stage type="#replace">He stops and looks at it.</stage>
 <stage type="#replace">The DOORMAN drifts over.</stage>
 <sp who="#DOORMAN">
@@ -1792,11 +1676,10 @@
 </sp>
 <stage type="#replace">BILL nods and goes in.</stage>
 <stage type="location">INT CAFE SONATA - NIGHT</stage>
-<stage type="#replace">The place is about a quarter full. BILL sits down at a table near the band.</stage>
+<stage type="#replace">The place is about a quarter full.  BILL sits down at a table near the band.</stage>
 <stage type="#replace">Nick sees him and winks.</stage>
 <stage type="#replace">BILL gestures hello, orders a beer.</stage>
-<stage type="#replace">The band finishes their last number and take a perfunctory bow to a
-	scattering of applause.</stage>
+<stage type="#replace">The band finishes their last number and take a perfunctory bow to a scattering of applause.</stage>
 <stage type="#replace">NICK comes over to the table.</stage>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
@@ -1820,7 +1703,7 @@
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p></p>
-	<p>Just happened to be passing by. I have a patient in the neighbourhood.</p>
+	<p>Just happened to be passing by.  I have a patient in the neighbourhood.</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
@@ -1857,7 +1740,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>An eight year old daughter. How about you?</p>
+	<p>An eight year old daughter.  How about you?</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
@@ -1865,7 +1748,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>That's great. So is this your band?</p>
+	<p>That's great.  So is this your band?</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
@@ -1877,7 +1760,7 @@
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Anybody. Anywhere. As a matter of fact, I've got another gig later tonight.</p>
+	<p>Anybody.  Anywhere.  As a matter of fact, I've got another gig later tonight.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1929,7 +1812,7 @@
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>What kind of a function is it?... Well, to be completely honest, it's not easy to describe.</p>
+	<p>What kind of a function is it?...  Well, to be completely honest, it's not easy to describe.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1961,11 +1844,10 @@
 	<stage type="#replace">(stands up)</stage>
 	<p>Back in a minute.</p>
 </sp>
-<stage type="#replace">He walks to the front window of the club and looks out into the snowy street.
-	He doesn't see what he's looking for and returns.</stage>
+<stage type="#replace">He walks to the front window of the club and looks out into the snowy street.  He doesn't see what he's looking for and returns.</stage>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Sorry about that. I'm supposed to meet somebody here.</p>
+	<p>Sorry about that.  I'm supposed to meet somebody here.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1978,7 +1860,7 @@
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>No, that's the truth. They're very strict about that.</p>
+	<p>No, that's the truth.  They're very strict about that.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -1986,21 +1868,19 @@
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Maybe so, but listen, I was sworn to secrecy, and please, just forget I said anything at all
-		about it.</p>
+	<p>Maybe so, but listen, I was sworn to secrecy, and please, just forget I said anything at all about it.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Nick, you can trust me. I won't say a word about this to anyone but since you've told me this
-		much, you can't stop now.</p>
+	<p>Nick, you can trust me.  I won't say a word about this to anyone but since you've told me this much, you can't stop now.</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>No, really, this is not a joke. I'm not saying anything else.</p>
+	<p>No, really, this is not a joke.  I'm not saying anything else.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Nick, you can't do this to me. I'll wonder about this for the rest of my life. Trust me.</p>
+	<p>Nick, you can't do this to me.  I'll wonder about this for the rest of my life.  Trust me.</p>
 </sp>
 <stage type="#replace">NICK is very uncomfortable about this but is also dying to talk about it.</stage>
 <sp who="#NICK">
@@ -2024,8 +1904,7 @@
 <stage type="#replace">NICK also lets that sink in.</stage>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Bill...I've seen a few things in my life but never anything like this... And I have never
-		seen such women.</p>
+	<p>Bill...I've seen a few things in my life but never anything like this...  And I have never seen such women.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2049,23 +1928,20 @@
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>It's not a matter of money. These people aren't interested in money. It's a completely closed
-		affair.</p>
+	<p>It's not a matter of money.  These people aren't interested in money.  It's a completely closed affair.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>_These_ _people_. Who are _these_ _people_?</p>
+	<p>_These_ _people_.  Who are _these_ _people_?</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
 	<p></p>
-	<p>Put it this way - if I knew their names it would be worth more than my life to say them out
-		loud.</p>
+	<p>Put it this way - if I knew their names it would be worth more than my life to say them out loud.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Nick, don't you think you might just be over-dramatising this a little bit? There must be
-		some way you can get me in.</p>
+	<p>Nick, don't you think you might just be over-dramatising this a little bit? There must be some way you can get me in.</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
@@ -2086,8 +1962,7 @@
 	<p>I'll be right back.</p>
 </sp>
 <stage type="#replace">He gets up and hurries outside to the street.</stage>
-<stage type="#replace">BILL watches him through the window, hunched up against the cold, stamping
-	his feet up and down, talking to a man and writing something down.</stage>
+<stage type="#replace">BILL watches him through the window, hunched up against the cold, stamping his feet up and down, talking to a man and writing something down.</stage>
 <stage type="#replace">Nick returns blowing on his hands.</stage>
 <stage type="#replace">Bill gives him and inquiring look.</stage>
 <sp who="#BILL">
@@ -2104,26 +1979,22 @@
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Yes. You can't get in without the password and they change it every time. And. listen, I'm
-		going to have to get weaving pretty soon.</p>
+	<p>Yes.  You can't get in without the password and they change it every time. And. listen, I'm going to have to get weaving pretty soon.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<stage type="#replace">(said with a smile)</stage>
-	<p>Nick, you son-of-a-bitch, you know you are definitely going to have to take me with you
-		tonight. You know that, don't you.</p>
+	<p>Nick, you son-of-a-bitch, you know you are definitely going to have to take me with you tonight.  You know that, don't you.</p>
 </sp>
 <stage type="#replace">Nick sighs and shakes his head.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Look, I'll tell you what - you give me the password and the address and I'll go there by
-		myself. There won't be the slightest connection with you, whatsoever.</p>
+	<p>Look, I'll tell you what - you give me the password and the address and I'll go there by myself.  There won't be the slightest connection with you, whatsoever.</p>
 </sp>
 <stage type="#replace">NICK squirms.</stage>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Look, even if I were crazy enough to do that, you couldn't get in the way you're dressed,
-		anyway.</p>
+	<p>Look, even if I were crazy enough to do that, you couldn't get in the way you're dressed, anyway.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2144,16 +2015,15 @@
 <stage type="#replace">Bill looks at his watch.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Okay. Point taken. _But_ there's a possibility I know a place that might still be open.</p>
+	<p>Okay.  Point taken.  _But_ there's a possibility I know a place that might still be open.</p>
 </sp>
 <sp who="#NICK">
 	<speaker>NICK</speaker>
-	<p>Bill, you're out of your mind. No costume place would be open at this time of night.</p>
+	<p>Bill, you're out of your mind.  No costume place would be open at this time of night.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Look, Nick, what the hell. Just give me a chance. Let me try. If I can't get the gear I'll
-		forget about the whole thing. Scouts honour.</p>
+	<p>Look, Nick, what the hell.  Just give me a chance.  Let me try.  If I can't get the gear I'll forget about the whole thing. Scouts honour.</p>
 </sp>
 <stage type="#replace">NICK looks ready to give in.</stage>
 <sp who="#BILL">
@@ -2163,7 +2033,7 @@
 <stage type="#replace">NICK sighs in resignation.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Okay. So, let me have the address and the password, and tell me what kind of costume I need?</p>
+	<p>Okay.  So, let me have the address and the password, and tell me what kind of costume I need?</p>
 </sp>
 <stage type="location">EXT BUSY GREENWICH VILLAGE STREET - NIGHT</stage>
 <stage type="#replace">The place is closed.</stage>
@@ -2191,11 +2061,9 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Mister Gibson, I'm very sorry to disturb you at this hour. I'm a Doctor. My name is Harford.
-		I need to see you. It's important.</p>
+	<p>Mister Gibson, I'm very sorry to disturb you at this hour.  I'm a Doctor.  My name is Harford.  I need to see you.  It's important.</p>
 </sp>
-<stage type="#replace">Bill holds up his New York State Medical Board card to the doorway TV
-	security camera.</stage>
+<stage type="#replace">Bill holds up his New York State Medical Board card to the doorway TV security camera.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
 	<p>Somebody hurt?</p>
@@ -2219,13 +2087,12 @@
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p></p>
-	<p>Mr. Gibson, tomorrow will be too late. I really need to see you now. It won't take long.</p>
+	<p>Mr. Gibson, tomorrow will be too late.  I really need to see you now.  It won't take long.</p>
 </sp>
 <stage type="#replace">Silence.</stage>
 <stage type="#replace">Then the door buzzer sounds.</stage>
 <stage type="#replace">BILL pushes open the door and goes upstairs two at a time.</stage>
-<stage type="#replace">A door opens on the chain and a man in his fifties, wearing flannel pyjamas
-	and a heavy bathrobe, who has the looks and manner of a road-company ham actor peers out.</stage>
+<stage type="#replace">A door opens on the chain and a man in his fifties, wearing flannel pyjamas and a heavy bathrobe, who has the looks and manner of a road-company ham actor peers out.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>Mr. Gibson?</p>
@@ -2237,8 +2104,7 @@
 <stage type="#replace">BILL holds up his New York State medical card again. </stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Good evening, Mister Gibson. This is my New York State Medical Board card, just so you know
-		who I am.</p>
+	<p>Good evening, Mister Gibson.  This is my New York State Medical Board card, just so you know who I am.</p>
 </sp>
 <stage type="#replace">Gibson looks at the card and at BILL.</stage>
 <sp who="#GIBSON">
@@ -2247,8 +2113,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Mister Gibson, you may not find it that easy to understand the urgency of this, but
-		basically, uhm... I need...a costume and a tux..</p>
+	<p>Mister Gibson, you may not find it that easy to understand the urgency of this, but basically, uhm...  I need...a costume and a tux..</p>
 </sp>
 <stage type="#replace">Gibson stares at him in disbelief.</stage>
 <sp who="#GIBSON">
@@ -2265,8 +2130,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>I can imagine how this may seem to you, Mister Gibson, and I am prepared to pay an extra two
-		hundred dollars for the inconvenience.</p>
+	<p>I can imagine how this may seem to you, Mister Gibson, and I am prepared to pay an extra two hundred dollars for the inconvenience.</p>
 </sp>
 <stage type="#replace">Gibson doesn't reply.</stage>
 <sp who="#BILL">
@@ -2277,8 +2141,7 @@
 <stage type="location">INT COSTUME SHOP - NIGHT</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>Okay, now let me get this straight. You want a tuxedo, a black monk's cassock and a mask that
-		completely covers your face?</p>
+	<p>Okay, now let me get this straight.  You want a tuxedo, a black monk's cassock and a mask that completely covers your face?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2286,8 +2149,7 @@
 </sp>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>I have to tell you doctor, I've had some very strange requests in my day and this is
-		certainly one of them.</p>
+	<p>I have to tell you doctor, I've had some very strange requests in my day and this is certainly one of them.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2301,8 +2163,7 @@
 <stage type="#replace">GIBSON chuckles at his own witticism.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>Now, let me get this straight. You want a tuxedo, a monks cassock and a mask that completely
-		covers your face?</p>
+	<p>Now, let me get this straight.  You want a tuxedo, a monks cassock and a mask that completely covers your face?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2312,22 +2173,17 @@
 <stage type="#replace">GIBSON flips a light switch.</stage>
 <stage type="#replace">A light come on in a little office at the end of the passage.</stage>
 <stage type="#replace">The desk is covered with plates, glasses and bottles.</stage>
-<stage type="#replace">Two JAPANESE MEN, wearing blonde female wigs, naked except for Japanese
-	kimonos, spring up from their chairs besides the desk.</stage>
-<stage type="#replace">At the same moment, the semi-naked figure of a graceful GIRL disappears under
-	the desk.</stage>
-<stage type="#replace">GIBSON rushes forward with long strides, reaches across the desk and grabs
-	one of the blond wigs.</stage>
-<stage type="#replace">Simultaneously, the young GIRL, maybe fourteen, wriggles out from under the
-	desk and runs along the passage to BILL who catches her in his arms.</stage>
+<stage type="#replace">Two JAPANESE MEN, wearing blonde female wigs, naked except for Japanese kimonos, spring up from their chairs besides the desk.</stage>
+<stage type="#replace">At the same moment, the semi-naked figure of a graceful GIRL disappears under the desk.</stage>
+<stage type="#replace">GIBSON rushes forward with long strides, reaches across the desk and grabs one of the blond wigs.</stage>
+<stage type="#replace">Simultaneously, the young GIRL, maybe fourteen, wriggles out from under the desk and runs along the passage to BILL who catches her in his arms.</stage>
 <stage type="#replace">GIBSON drops the wig and grabs the two kimono garbed men.</stage>
 <stage type="#replace">At the same time he calls out to BILL.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
 	<p>Hold on to that girl for me, please.</p>
 </sp>
-<stage type="#replace">The GIRL presses against BILL as if now sure of her protection. Her pretty
-	little face covered with powder and a smile of impish desire in her eyes.</stage>
+<stage type="#replace">The GIRL presses against BILL as if now sure of her protection.  Her pretty little face covered with powder and a smile of impish desire in her eyes.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
 	<stage type="#replace">(shouts)</stage>
@@ -2343,7 +2199,7 @@
 </sp>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>You will have to explain this. Couldn't you see the girl is unbalanced?</p>
+	<p>You will have to explain this.  Couldn't you see the girl is unbalanced?</p>
 </sp>
 <stage type="#replace">Then GIBSON he turns to BILL.</stage>
 <sp who="#GIBSON">
@@ -2354,8 +2210,7 @@
 	<speaker>BILL</speaker>
 	<p>That's okay.</p>
 </sp>
-<stage type="#replace">BILL looks down with fascination at the GIRL, who looks up at him with
-	alluring and childlike eyes, as if spellbound.</stage>
+<stage type="#replace">BILL looks down with fascination at the GIRL, who looks up at him with alluring and childlike eyes, as if spellbound.</stage>
 <stage type="#replace">The two KIMONO MEN start to argue with each other in Japanese..</stage>
 <stage type="#replace">GIBSON turns to BILL.</stage>
 <sp who="#GIBSON">
@@ -2370,7 +2225,7 @@
 	<speaker>YOUNG GIRL</speaker>
 	<stage type="#replace">(with gleaming eyes)</stage>
 	<p></p>
-	<p>No. You must give this gentleman a cloak lined with ermine and a doublet of red silk.</p>
+	<p>No.  You must give this gentleman a cloak lined with ermine and a doublet of red silk.</p>
 </sp>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
@@ -2382,8 +2237,7 @@
 	<speaker>BILL</speaker>
 	<p>I take a 38 jacket.</p>
 </sp>
-<stage type="#replace">GIBSON picks up a brown monk's cassock hanging nearby and holds it up for
-	BILL'S approval.</stage>
+<stage type="#replace">GIBSON picks up a brown monk's cassock hanging nearby and holds it up for BILL'S approval.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
 	<p>This will fit you.</p>
@@ -2400,26 +2254,23 @@
 <stage type="#replace">_GIBSON locks them in._</stage>
 <sp who="#KIMONO 1">
 	<speaker>KIMONO 1</speaker>
-	<p>Gibson, this is preposterous!! You will have to let us out at once.</p>
+	<p>Gibson, this is preposterous!!  You will have to let us out at once.</p>
 </sp>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>I'm afraid that's out of the question, gentlemen. This is now a police matter. You will
-		kindly wait here until I return.</p>
+	<p>I'm afraid that's out of the question, gentlemen.  This is now a police matter. You will kindly wait here until I return.</p>
 </sp>
 <stage type="#replace">Ad-libs of further protest from the two men</stage>
 <stage type="#replace">The girl skips lightly up the stairs ahead of them.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>Now go to bed at once, you depraved creature. I'll talk to you as soon as I've settled with
-		those two.</p>
+	<p>Now go to bed at once, you depraved creature.  I'll talk to you as soon as I've settled with those two.</p>
 </sp>
 <stage type="#replace">The girl gives BILL a sad shake of her head and exits.</stage>
 <stage type="location">INT FRONT OF COSTUME SHOP - A LITTLE LATER</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>Okay - that's a hundred and fifty for the rental. Three hundred deposit. And the two hundred
-		inconvenience money. That's six hundred and fifty bucks..</p>
+	<p>Okay - that's a hundred and fifty for the rental.  Three hundred deposit.  And the two hundred inconvenience money. That's six hundred and fifty bucks..</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2437,7 +2288,7 @@
 <stage type="#replace">Gibson takes the credit card.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Thanks. And - by the way - I hope you wont be too hard on the child.</p>
+	<p>Thanks.  And - by the way - I hope you wont be too hard on the child.</p>
 </sp>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
@@ -2446,20 +2297,17 @@
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p></p>
-	<p>Well, it's just that I first heard you say the girl was unbalanced, and then you called her
-		depraved. Those things are a little contradictory.</p>
+	<p>Well, it's just that I first heard you say the girl was unbalanced, and then you called her depraved.  Those things are a little contradictory.</p>
 </sp>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
 	<stage type="#replace">(a bit theatrically)</stage>
 	<p>Well, aren't insanity and depravity the same in the eyes of God?</p>
 </sp>
-<stage type="#replace">The last thing BILL wants right now is to get into an argument with GIBSON,
-	so he replies in his most professional manner.</stage>
+<stage type="#replace">The last thing BILL wants right now is to get into an argument with GIBSON, so he replies in his most professional manner.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Well, in any event, there _are_ things that can be done that might help the situation. Maybe
-		we can have another talk about it tomorrow.</p>
+	<p>Well, in any event, there _are_ things that can be done that might help the situation.  Maybe we can have another talk about it tomorrow.</p>
 </sp>
 <stage type="#replace">Gibson laughs mockingly without uttering a sound.</stage>
 <stage type="location">EXT STREET OUTSIDE COSTUME SHOP - NIGHT</stage>
@@ -2490,14 +2338,12 @@
 <stage type="location">INT CAB BILL - NIGHT</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>Bills Thoughts: Variations of, "I must be mad."</p>
+	<p>Bills Thoughts:  Variations of, "I must be mad."</p>
 </sp>
 <stage type="location">EXT LONG ISLAND MANSION ROAD - NIGHT</stage>
 <stage type="location">INT CAB</stage>
-<stage type="#replace">Up ahead, he sees a stretch-limo with darkened windows pulling into a drive
-	protected by iron gates flanked by two gatehouses.</stage>
-<stage type="#replace">As they drive slowly past the gates, BILL sees a sign that says, 'Bletchly
-	Manor'.</stage>
+<stage type="#replace">Up ahead, he sees a stretch-limo with darkened windows pulling into a drive protected by iron gates flanked by two gatehouses.</stage>
+<stage type="#replace">As they drive slowly past the gates, BILL sees a sign that says, 'Bletchly Manor'.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>Okay, driver - that's the place. Stop a little way down the road.</p>
@@ -2509,12 +2355,10 @@
 	<speaker>BILL</speaker>
 	<p>Okay, here's eighty dollars and...</p>
 </sp>
-<stage type="#replace">BILL carefully tears a hundred-dollar bill in half and gives one part to the
-	driver.</stage>
+<stage type="#replace">BILL carefully tears a hundred-dollar bill in half and gives one part to the driver.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>...I promised you fifty bucks over the meter but I'll make it a hundred if you wait for me.
-		Let the meter run and you'll get the other half plus the meter when I come back... Okay?</p>
+	<p>...I promised you fifty bucks over the meter but I'll make it a hundred if you wait for me.  Let the meter run and you'll get the other half plus the meter when I come back...  Okay?</p>
 </sp>
 <stage type="#replace">The driver gives BILL a wary look.</stage>
 <sp who="#CAB DRIVER">
@@ -2523,22 +2367,18 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>That's the thing - I'm not sure. I could be ten minutes. I could be an hour or so. But look,
-		I'm leaving all my stuff in the back. Okay?</p>
+	<p>That's the thing - I'm not sure.  I could be ten minutes.  I could be an hour or so.  But look, I'm leaving all my stuff in the back.  Okay?</p>
 </sp>
 <stage type="#replace">The cab driver takes half of the torn hundred-dollar bill.</stage>
 <sp who="#CAB DRIVER">
 	<speaker>CAB DRIVER</speaker>
 	<p>Okay.</p>
 </sp>
-<stage type="#replace">BILL gets out of the cab, puts on the monk's cassock, throws his coat over
-	his shoulders and walks back to the gates.</stage>
+<stage type="#replace">BILL gets out of the cab, puts on the monk's cassock, throws his coat over his shoulders and walks back to the gates.</stage>
 <stage type="location">EXT GATES - NIGHT</stage>
 <stage type="#replace">Security cameras look at him.</stage>
-<stage type="#replace">The road leading to the Manor House curves away into a small wood which
-	covers the house.</stage>
-<stage type="#replace">BILL rings a bell at the side of the gate and two men promptly come out of
-	the gate house.</stage>
+<stage type="#replace">The road leading to the Manor House curves away into a small wood which covers the house.</stage>
+<stage type="#replace">BILL rings a bell at the side of the gate and two men promptly come out of the gate house.</stage>
 <sp who="#GATEMAN 1">
 	<speaker>GATEMAN 1</speaker>
 	<stage type="#replace">(polite and well-spoken)</stage>
@@ -2576,7 +2416,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Uh - yes. Yes - my chauffeur came down with the flu at the last minute.</p>
+	<p>Uh - yes.  Yes - my chauffeur came down with the flu at the last minute.</p>
 </sp>
 <sp who="#GATEMAN 1">
 	<speaker>GATEMAN 1</speaker>
@@ -2584,18 +2424,18 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Listen, I'm lucky I got here at all. The guy's straight from Bulgaria.</p>
+	<p>Listen, I'm lucky I got here at all.  The guy's straight from Bulgaria.</p>
 </sp>
 <stage type="#replace">Bill laughs uncomfortably without getting a penny's change from the men.</stage>
 <sp who="#GATEMAN 1">
 	<speaker>GATEMAN 1</speaker>
 	<stage type="#replace">(pointing a car)</stage>
 	<p></p>
-	<p>If you'd like to get in the car, sir. We'll run you up to the house.</p>
+	<p>If you'd like to get in the car, sir.  We'll run you up to the house.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Okay. Thanks.</p>
+	<p>Okay.  Thanks.</p>
 </sp>
 <stage type="#replace">They get into the car.</stage>
 <stage type="#replace">Gateman 2 remains at the gate.</stage>
@@ -2610,7 +2450,7 @@
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<stage type="#replace">(casually)</stage>
-	<p>Oh, yes. Of course.</p>
+	<p>Oh, yes.  Of course.</p>
 </sp>
 <stage type="#replace">BILL takes the mask from his pocket and puts it on.</stage>
 <stage type="location">EXT MANOR HOUSE - NIGHT</stage>
@@ -2618,8 +2458,7 @@
 	<speaker>BILL</speaker>
 	<p>Thanks.</p>
 </sp>
-<stage type="#replace">He walks up the stone steps and the front doors are opened before he reaches
-	them.</stage>
+<stage type="#replace">He walks up the stone steps and the front doors are opened before he reaches them.</stage>
 <stage type="location">INT HOUSE</stage>
 <sp who="#SERVANTS">
 	<speaker>SERVANTS</speaker>
@@ -2634,38 +2473,29 @@
 	<p>Thank you, sir.</p>
 </sp>
 <stage type="#replace">One of them takes his coat, while the other opens a door.</stage>
-<stage type="#replace">BILL enters a long room, dimly lit with candles, with high ceilings and walls
-	covered with black silk.</stage>
+<stage type="#replace">BILL enters a long room, dimly lit with candles, with high ceilings and walls covered with black silk.</stage>
 <stage type="#replace">A line of mirrored doors on each side run the length of the room.</stage>
-<stage type="#replace">There are about fifty men and women dressed as monks and nuns, their faces
-	completely covered by masks.</stage>
-<stage type="#replace">Gently swelling strains of Italian liturgical music comes from an organ
-	playing somewhere.</stage>
-<stage type="#replace">As his eyes become accustomed to the dim light, BILL sees that the women are
-	naked beneath the full-length, black veils that flow down from their head bands.</stage>
-<stage type="#replace">His eyes wander from voluptuous bodies to slender bodies, from delicate to
-	richly developed figures, and he is filled with inexpressible desire.</stage>
-<stage type="#replace">Occasionally, eyes turn towards him but immediately look away as soon as he
-	notices them.</stage>
-<stage type="#replace">A monk brushes against him and nods a greeting, but from behind the mask BILL
-	sense a searching and penetrating glance.</stage>
+<stage type="#replace">There are about fifty men and women dressed as monks and nuns, their faces completely covered by masks.</stage>
+<stage type="#replace">Gently swelling strains of Italian liturgical music comes from an organ playing somewhere.</stage>
+<stage type="#replace">As his eyes become accustomed to the dim light, BILL sees that the women are naked beneath the full-length, black veils that flow down from their head bands.</stage>
+<stage type="#replace">His eyes wander from voluptuous bodies to slender bodies, from delicate to richly developed figures, and he is filled with inexpressible desire.</stage>
+<stage type="#replace">Occasionally, eyes turn towards him but immediately look away as soon as he notices them.</stage>
+<stage type="#replace">A monk brushes against him and nods a greeting, but from behind the mask BILL sense a searching and penetrating glance.</stage>
 <stage type="#replace">A strange, heavy perfume, as of southern gardens, pervades the room.</stage>
-<stage type="#replace">Again an arm brushes against him, but this time it is that of a nun. Her face
-	is fully masked, and like the others, naked under the black transparent lace of her veil.</stage>
+<stage type="#replace">Again an arm brushes against him, but this time it is that of a nun. Her face is fully masked, and like the others, naked under the black transparent lace of her veil.</stage>
 <sp who="#THE WOMAN">
 	<speaker>THE WOMAN</speaker>
 	<p></p>
-	<p>You don't belong here. There's still a chance for you to get away.</p>
+	<p>You don't belong here.  There's still a chance for you to get away.</p>
 </sp>
-<stage type="#replace">BILL is momentarily unnerved by this but he is also completely captivated by
-	the beauty and sensuality of this woman.</stage>
+<stage type="#replace">BILL is momentarily unnerved by this but he is also completely captivated by the beauty and sensuality of this woman.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>I'm terribly sorry but I think you've mistaken me for someone else.</p>
 </sp>
 <sp who="#THE WOMAN">
 	<speaker>THE WOMAN</speaker>
-	<p>Please don't be foolish about this. You must leave at once.</p>
+	<p>Please don't be foolish about this.  You must leave at once.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2673,7 +2503,7 @@
 </sp>
 <sp who="#THE WOMAN">
 	<speaker>THE WOMAN</speaker>
-	<p>It doesn't matter. You must go.</p>
+	<p>It doesn't matter.  You must go.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2697,39 +2527,34 @@
 </sp>
 <sp who="#THE WOMAN">
 	<speaker>THE WOMAN</speaker>
-	<p>Absolutely not. Please believe me, if you are discovered it will go hard with you.</p>
+	<p>Absolutely not.  Please believe me, if you are discovered it will go hard with you.</p>
 </sp>
 <stage type="#replace">BILL moves closer to her but she steps back.</stage>
 <sp who="#ANOTHER WOMAN">
 	<speaker>ANOTHER WOMAN</speaker>
-	<p>What's the matter. Why don't you dance?</p>
+	<p>What's the matter.  Why don't you dance?</p>
 </sp>
-<stage type="#replace">BILL sees two men watching him from another corner and suspects that this
-	woman has been sent to put him to the test.</stage>
+<stage type="#replace">BILL sees two men watching him from another corner and suspects that this woman has been sent to put him to the test.</stage>
 <stage type="#replace">He smiles.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>I would love to dance.</p>
 </sp>
 <stage type="#replace">But just at that moment, THE WOMAN returns.</stage>
-<stage type="#replace">She pretends that she has just noticed him and says in a voice that can be
-	heard by the two men.</stage>
+<stage type="#replace">She pretends that she has just noticed him and says in a voice that can be heard by the two men.</stage>
 <sp who="#THE WOMAN">
 	<speaker>THE WOMAN</speaker>
-	<p>Returned at last. (she laughs) All your efforts are useless. I know you.</p>
+	<p>Returned at last. (she laughs) All your efforts are useless.  I know you.</p>
 </sp>
 <stage type="#replace">Then turning to the other woman she whispers:</stage>
 <sp who="#THE WOMAN">
 	<speaker>THE WOMAN</speaker>
 	<p>Let me have him first - just for a while.</p>
 </sp>
-<stage type="#replace">The other woman smiles agreement, and with a light step goes to join the two
-	men who have been watching.</stage>
+<stage type="#replace">The other woman smiles agreement, and with a light step goes to join the two men who have been watching.</stage>
 <sp who="#THE WOMAN">
 	<speaker>THE WOMAN</speaker>
-	<p>Don't ask any questions, and don't be surprised at anything. I have tried to lead them astray
-		but you can't fool them for much longer. Go before it is too late, - and be careful that no
-		one follows you. No one must know who you are. There would be no more peace for you. Go!</p>
+	<p>Don't ask any questions, and don't be surprised at anything.  I have tried to lead them astray but you can't fool them for much longer.  Go before it is too late, - and be careful that no one follows you.  No one must know who you are.  There would be no more peace for you.  Go!</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2755,16 +2580,14 @@
 </sp>
 <sp who="#THE WOMAN">
 	<speaker>THE WOMAN</speaker>
-	<p>No. We must never meet again. It could cost your life and mine.</p>
+	<p>No.  We must never meet again.  It could cost your life and mine.</p>
 </sp>
-<stage type="#replace">Just at that moment, a tall man stops before them, and with a slight bow,
-	courteous but imperative, says:</stage>
+<stage type="#replace">Just at that moment, a tall man stops before them, and with a slight bow, courteous but imperative, says:</stage>
 <sp who="#TALL MAN">
 	<speaker>TALL MAN</speaker>
 	<p>Will you dance with me?</p>
 </sp>
-<stage type="#replace">THE WOMAN hesitates but the TALL MAN puts his arm around her waist and leads
-	her away the adjoining room.</stage>
+<stage type="#replace">THE WOMAN hesitates but the TALL MAN puts his arm around her waist and leads her away the adjoining room.</stage>
 <stage type="#replace">A moment later, a voice whispers behind BILL.</stage>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
@@ -2783,28 +2606,26 @@
 </sp>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
-	<p>That's right, sir. That's the password for admittance, but may I ask what is the password for
-		the house?</p>
+	<p>That's right, sir.  That's the password for admittance, but may I ask what is the password for the house?</p>
 </sp>
-<stage type="#replace">BILL is stuck. He takes a deep breath..</stage>
+<stage type="#replace">BILL is stuck.  He takes a deep breath..</stage>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
 	<p>Won't you be kind enough to tell me the password of the house?</p>
 </sp>
 <stage type="#replace">This time it sounds like a threat.</stage>
-<stage type="#replace">BILL can't think of anything to say. He shakes his head and shrugs.</stage>
+<stage type="#replace">BILL can't think of anything to say.  He shakes his head and shrugs.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Sorry. It looks like I must have forgotten it.</p>
+	<p>Sorry.  It looks like I must have forgotten it.</p>
 </sp>
 <stage type="#replace">The elegant man walks to the middle of the room and raises his hand.</stage>
 <stage type="#replace">Everything gradually comes to a stop.</stage>
-<stage type="#replace">Blindfolded, Nick stops playing when someone places a hand on his shoulder
-	and whispers something to him.</stage>
+<stage type="#replace">Blindfolded, Nick stops playing when someone places a hand on his shoulder and whispers something to him.</stage>
 <stage type="#replace">With all eyes on him, the two men walk back to BILL.</stage>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
-	<p>The password, sir! I must demand that you give it.</p>
+	<p>The password, sir!  I must demand that you give it.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2812,8 +2633,7 @@
 </sp>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
-	<p>That's unfortunate. For here it doesn't matter whether you have forgotten it or if you never
-		knew it.</p>
+	<p>That's unfortunate.  For here it doesn't matter whether you have forgotten it or if you never knew it.</p>
 </sp>
 <stage type="#replace">The rest of the men slowly gather around BILL.</stage>
 <sp who="#BILL">
@@ -2826,8 +2646,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Well, be that as it may, you have my most sincere regrets for not remembering the second
-		password.</p>
+	<p>Well, be that as it may, you have my most sincere regrets for not remembering the second password.</p>
 </sp>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
@@ -2835,7 +2654,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Well, gentlemen, you must excuse me now. I am leaving.</p>
+	<p>Well, gentlemen, you must excuse me now.  I am leaving.</p>
 </sp>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
@@ -2862,10 +2681,8 @@
 	<p>I am ready to redeem him.</p>
 </sp>
 <stage type="#replace">There is a murmur of surprise in the room.</stage>
-<stage type="#replace">THE WOMAN reaches for the veil, which is wrapped around her head, face and
-	neck and unwinds it with a wonderful circular movement.</stage>
-<stage type="#replace">It sinks to the floor, leaving her naked, her dark hair falling in great
-	profusion over her shoulders, breasts and hips.</stage>
+<stage type="#replace">THE WOMAN reaches for the veil, which is wrapped around her head, face and neck and unwinds it with a wonderful circular movement.</stage>
+<stage type="#replace">It sinks to the floor, leaving her naked, her dark hair falling in great profusion over her shoulders, breasts and hips.</stage>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
 	<p>You are ready to redeem him?</p>
@@ -2887,9 +2704,7 @@
 <stage type="#replace">The elegant man turns back to BILL.</stage>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
-	<p>You are free. Leave this house at once. But first I must warn you that if you make any
-		further inquiries or inform anyone about what you have seen here tonight, there will be the
-		most serious consequences for yourself and your family. Do you understand that?</p>
+	<p>You are free.  Leave this house at once.  But first I must warn you that if you make any further inquiries or inform anyone about what you have seen here tonight, there will be the most serious consequences for yourself and your family.  Do you understand that?</p>
 </sp>
 <stage type="#replace">BILL doesn't reply immediately.</stage>
 <sp who="#BILL">
@@ -2907,15 +2722,13 @@
 </sp>
 <sp who="#ELEGANT MAN">
 	<speaker>ELEGANT MAN</speaker>
-	<p>You would be unable, in any case, to change her fate. When a promise has been made here there
-		is no turning back.</p>
+	<p>You would be unable, in any case, to change her fate.  When a promise has been made here there is no turning back.</p>
 </sp>
 <sp who="#THE WOMAN">
 	<speaker>THE WOMAN</speaker>
-	<p>_Go! You cannot save me._</p>
+	<p>_Go!  You cannot save me._</p>
 </sp>
-<stage type="#replace">As she says this, she tears off the mask, allowing BILL a momentary glimpse
-	of her face.</stage>
+<stage type="#replace">As she says this, she tears off the mask, allowing BILL a momentary glimpse of her face.</stage>
 <stage type="#replace">Then he is seized by irresistible arms and pushed out.</stage>
 <stage type="location">INT BILL'S APARTMENT - NIGHT</stage>
 <stage type="#replace">BILL, now changed back into his own clothes, enters his apartment.</stage>
@@ -2925,8 +2738,7 @@
 <stage type="#replace">BEDROOM ALICE is asleep, lying with her arms folded under her head</stage>
 <stage type="#replace">Her lips are half open and painful shadows surround them.</stage>
 <stage type="#replace">It is a face BILL does not know.</stage>
-<stage type="#replace">He bends down over her, and at once her forehead becomes lined with furrows,
-	as though someone had touched it, and her features seem strangely distorted.</stage>
+<stage type="#replace">He bends down over her, and at once her forehead becomes lined with furrows, as though someone had touched it, and her features seem strangely distorted.</stage>
 <stage type="#replace">Suddenly, still in her sleep, she laughs so shrilly that he becomes alarmed.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -2964,7 +2776,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>It will be very soon. It's a little past four o'clock. I've just come home.</p>
+	<p>It will be very soon.  It's a little past four o'clock.  I've just come home.</p>
 </sp>
 <stage type="#replace">She nods but barely seems to have heard or understood him.</stage>
 <stage type="#replace">She stares into space, as though she can see through him.</stage>
@@ -3005,8 +2817,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Not really. I don't think I'll go to bed at all. You know, sometimes when I come home so late
-		it's better to just go straight to work.</p>
+	<p>Not really.  I don't think I'll go to bed at all.  You know, sometimes when I come home so late it's better to just go straight to work.</p>
 </sp>
 <stage type="#replace">ALICE nods without interest.</stage>
 <sp who="#BILL">
@@ -3018,31 +2829,21 @@
 	<speaker>ALICE</speaker>
 	<p>You really ought to lie down and take a little rest.</p>
 </sp>
-<stage type="#replace">BILL hesitates a moment, then he stretches himself beside her, though he is
-	careful not to touch her.</stage>
-<stage type="#replace">They lie there silently with open eyes, and they feel both their closeness
-	and the distance that separates them.</stage>
-<stage type="#replace">After a while he raises his head on his arm and looks at her for a long time,
-	as though he can see much more than just the outlines of her face.</stage>
+<stage type="#replace">BILL hesitates a moment, then he stretches himself beside her, though he is careful not to touch her.</stage>
+<stage type="#replace">They lie there silently with open eyes, and they feel both their closeness and the distance that separates them.</stage>
+<stage type="#replace">After a while he raises his head on his arm and looks at her for a long time, as though he can see much more than just the outlines of her face.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>Tell me about your dream.</p>
 </sp>
 <stage type="#replace">Bill says this, once more, as if she had been waiting for his invitation.</stage>
-<stage type="#replace">She holds out her hand to him, he takes it, and as he had often done before,
-	he holds it and plays with her slender fingers, more absent- mindedly than tenderly.</stage>
+<stage type="#replace">She holds out her hand to him, he takes it, and as he had often done before, he holds it and plays with her slender fingers, more absent- mindedly than tenderly.</stage>
 <stage type="#replace">ALICE sighs and begins to speak uncertainly.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>I think it started in my parents house. They weren't there. I was alone. That surprised me
-		because our wedding was the next day and I didn't have a wedding dress.</p>
-	<p>Then you and I were floating above a ancient city. It was a kind of crazy mix of ancient
-		architectural styles. Oriental, Egyptian, Greek and Roman architecture. And it was
-		completely deserted. The streets were empty - no people, no animals. And I remember
-		thinking, so this is our honeymoon.</p>
-	<p>Then it was night and the sky was so full of stars, and so blue and wide it seemed like it
-		was painted. You said it was the ceiling of our bridal chamber and you took me in your arms
-		and made love to me and said you would love me forever.</p>
+	<p>I think it started in my parents house. They weren't there.  I was alone.  That surprised me because our wedding was the next day and I didn't have a wedding dress.</p>
+	<p>Then you and I were floating above a ancient city.  It was a kind of crazy mix of ancient architectural styles. Oriental, Egyptian, Greek and Roman architecture.  And it was completely deserted.  The streets were empty - no people, no animals.  And I remember thinking, so this is our honeymoon.</p>
+	<p>Then it was night and the sky was so full of stars, and so blue and wide it seemed like it was painted.  You said it was the ceiling of our bridal chamber and you took me in your arms and made love to me and said you would love me forever.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3051,29 +2852,18 @@
 <stage type="#replace">BILL says this with an invisible, malicious smile.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Even more than you did me. We made love and it was wonderful, though there was a sadness to
-		it, and a presentment of sorrow.</p>
+	<p>Even more than you did me.  We made love and it was wonderful, though there was a sadness to it, and a presentment of sorrow.</p>
 	<p>Suddenly it was morning and we were somewhere in the strange city.</p>
-	<p>We were still completely alone. But something terrible had happened - our clothes were gone.
-		I was terrified as I had never been before, and felt such a burning shame that it almost
-		consumed me.</p>
-	<p>At the same time I was furious with you because I thought it was your fault. And this
-		sensation of terror, shame and fury was more intense than any emotion I had ever felt
-		before.</p>
+	<p>We were still completely alone.  But something terrible had happened - our clothes were gone.  I was terrified as I had never been before, and felt such a burning shame that it almost consumed me.</p>
+	<p>At the same time I was furious with you because I thought it was your fault. And this sensation of terror, shame and fury was more intense than any emotion I had ever felt before.</p>
 	<p>You felt guilty and rushed away naked, to go and get clothes for us.</p>
-	<p>As soon as you were gone I felt wonderful. I neither felt sorry for you, or worried about
-		you. It was heavenly to be alone.</p>
-	<p>I was lying in a lush garden, stretched out naked in the sunlight, and I was far more
-		beautiful than I ever was in reality.</p>
-	<p>And while I lay there, a young man walked out of the woods. He was the young Naval officer I
-		told you about from the hotel.</p>
-	<p>He looked different but I knew it was him. He stopped in front of me and looked at me
-		searchingly.</p>
-	<p>I laughed seductively and wantonly, as I have never laughed in my life, and he held out his
-		arms to me and sank down beside me.</p>
+	<p>As soon as you were gone I felt wonderful.  I neither felt sorry for you, or worried about you.  It was heavenly to be alone.</p>
+	<p>I was lying in a lush garden, stretched out naked in the sunlight, and I was far more beautiful than I ever was in reality.</p>
+	<p>And while I lay there, a young man walked out of the woods.  He was the young Naval officer I told you about from the hotel.</p>
+	<p>He looked different but I knew it was him.  He stopped in front of me and looked at me searchingly.</p>
+	<p>I laughed seductively and wantonly, as I have never laughed in my life, and he held out his arms to me and sank down beside me.</p>
 </sp>
-<stage type="#replace">ALICE falls silent. BILLS throat is parched. In the darkness of the room he
-	can see she has concealed her face in her hands.</stage>
+<stage type="#replace">ALICE falls silent.  BILLS throat is parched.  In the darkness of the room he can see she has concealed her face in her hands.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>A strange dream, but that's not the end, is it?</p>
@@ -3093,7 +2883,7 @@
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>It's not easy. Some things are not easy to say.</p>
+	<p>It's not easy.  Some things are not easy to say.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3107,42 +2897,24 @@
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
 	<stage type="#replace">(continuing)</stage>
-	<p>I seemed to live through countless days and nights - there was neither time nor space. And
-		the more we made love the more our hunger for each other increased.</p>
-	<p>And just as that earlier feeling of terror and shame went beyond anything I had ever felt, so
-		nothing can be compared with the freedom and happiness and the..._desire_ that I now felt.</p>
-	<p>Then I realized there other couples around us - hundreds of them, and they too were making
-		love.</p>
-	<p>Then I was making love to the other men, and as soon as my longing was satisfied with one, I
-		wanted another.</p>
-	<p>I can't say how many I was with. And yet I didn't for one moment forget you. And all this
-		time, you were buying the most beautiful clothes and jewellery you could find for me.</p>
-	<p>Then you were being followed by a crowd of people who were shouting threats. Then you were
-		seized by soldiers, and there were also priests among them. Somebody - a gigantic person,
-		tied your hands. You were still naked.</p>
-	<p>I knew you were going to be crucified but I felt no sympathy for you. I still blamed you for
-		everything that had happened.</p>
-	<p>I felt that I was far removed from you but I knew you could see me naked in the arms of
-		countless men in this sea of nakedness which foamed around me.</p>
-	<p>The soldiers began to whip you and blood flowed down you in streams. I saw it without feeling
-		any surprise or pity.</p>
-	<p>Then you smiled at me as if to show you had fulfilled my wish and bought me everything I
-		wanted. But I thought your actions were ridiculous and I wanted to make fun of you - to
-		laugh in your face.</p>
-	<p>They began to nail you to the cross and I hoped that you would be able to hear my laughter.
-		And so I laughed as shrill and loud as I could... That must have been the laugh that you
-		heard when I woke up.</p>
+	<p>I seemed to live through countless days and nights - there was neither time nor space.  And the more we made love the more our hunger for each other increased.</p>
+	<p>And just as that earlier feeling of terror and shame went beyond anything I had ever felt, so nothing can be compared with the freedom and happiness and the..._desire_ that I now felt.</p>
+	<p>Then I realized there other couples around us - hundreds of them, and they too were making love.</p>
+	<p>Then I was making love to the other men, and as soon as my longing was satisfied with one, I wanted another.</p>
+	<p>I can't say how many I was with. And yet I didn't for one moment forget you.  And all this time, you were buying the most beautiful clothes and jewellery you could find for me.</p>
+	<p>Then you were being followed by a crowd of people who were shouting threats.  Then you were seized by soldiers, and there were also priests among them.  Somebody - a gigantic person, tied your hands.  You were still naked.</p>
+	<p>I knew you were going to be crucified but I felt no sympathy for you.  I still blamed you for everything that had happened.</p>
+	<p>I felt that I was far removed from you but I knew you could see me naked in the arms of countless men in this sea of nakedness which foamed around me.</p>
+	<p>The soldiers began to whip you and blood flowed down you in streams.  I saw it without feeling any surprise or pity.</p>
+	<p>Then you smiled at me as if to show you had fulfilled my wish and bought me everything I wanted.  But I thought your actions were ridiculous and I wanted to make fun of you - to laugh in your face.</p>
+	<p>They began to nail you to the cross and I hoped that you would be able to hear my laughter.  And so I laughed as shrill and loud as I could...  That must have been the laugh that you heard when I woke up.</p>
 </sp>
-<stage type="#replace">Neither of them moves or says anything. Any remark at this moment would seem
-	futile.</stage>
+<stage type="#replace">Neither of them moves or says anything.  Any remark at this moment would seem futile.</stage>
 <stage type="#replace">BILL realizes he is still holding ALICE'S hand.</stage>
 <stage type="#replace">She remains silent and motionless.</stage>
-<stage type="#replace">Ready as he is to hate her, his feeling of tenderness for these slender, cool
-	fingers is unchanged except that it is more acute.</stage>
-<stage type="#replace">Involuntarily, he gently presses his lips on the familiar hand before he lets
-	it go.</stage>
-<stage type="#replace">ALICE'S eyes are closed and there is the trace of a happy, innocent smile
-	playing about her mouth.</stage>
+<stage type="#replace">Ready as he is to hate her, his feeling of tenderness for these slender, cool fingers is unchanged except that it is more acute.</stage>
+<stage type="#replace">Involuntarily, he gently presses his lips on the familiar hand before he lets it go.</stage>
+<stage type="#replace">ALICE'S eyes are closed and there is the trace of a happy, innocent smile playing about her mouth.</stage>
 <stage type="#replace">He feels an incomprehensible desire to make love to her.</stage>
 <stage type="#replace">He rolls over and puts his arm around her but then checks himself.</stage>
 <stage type="#replace">He stretches himself out beside ALICE, who now seems asleep.</stage>
@@ -3154,20 +2926,17 @@
 <stage type="#replace">There is now a sword between us.</stage>
 <stage type="#replace">We are lying here like mortal enemies.</stage>
 <stage type="location">INT BILL'S APARTMENT - BEDROOM - DAWN</stage>
-<stage type="#replace">HELENA'S BEDROOM On his way out he stops off in his daughter's room. She is
-	asleep in her bed. He kisses her on the forehead.</stage>
+<stage type="#replace">HELENA'S BEDROOM On his way out he stops off in his daughter's room.  She is asleep in her bed.  He kisses her on the forehead.</stage>
 <stage type="#replace">STUDY He collects his costume and leaves.</stage>
 <stage type="location">EXT CAFE SONATA - DAY</stage>
 <stage type="#replace">He takes a cab to the Cafe Sonata where he met Nick Nightingale.</stage>
-<stage type="#replace">It is closed but he peers in through the window and sees the chairs are
-	stacked on the tables and the place is being cleaned.</stage>
+<stage type="#replace">It is closed but he peers in through the window and sees the chairs are stacked on the tables and the place is being cleaned.</stage>
 <stage type="#replace">He taps on the glass.</stage>
-<stage type="#replace">After a couple of "we're closed" wave-offs from the manageress working at a
-	table in the back, the door is finally opened by one of the cleaners.</stage>
+<stage type="#replace">After a couple of "we're closed" wave-offs from the manageress working at a table in the back, the door is finally opened by one of the cleaners.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p></p>
-	<p>Good morning. I'd like to have a quick word with the manager, if I may.</p>
+	<p>Good morning.  I'd like to have a quick word with the manager, if I may.</p>
 </sp>
 <sp who="#CLEANING LADY">
 	<speaker>CLEANING LADY</speaker>
@@ -3204,8 +2973,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Of course. I completely understand. But I'm a doctor... (shows her his medical card) ...and
-		this is a personal medical matter I know he'll want to know about as soon as possible.</p>
+	<p>Of course.  I completely understand.  But I'm a doctor... (shows her his medical card) ...and this is a personal medical matter I know he'll want to know about as soon as possible.</p>
 </sp>
 <stage type="location">EXT HOTEL JASON - DAY</stage>
 <stage type="location">INT - LOBBY</stage>
@@ -3215,7 +2983,7 @@
 </sp>
 <sp who="#DESK CLERK">
 	<speaker>DESK CLERK</speaker>
-	<p>Good morning, sir. How can I help you?</p>
+	<p>Good morning, sir.  How can I help you?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3259,7 +3027,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Five o'clock. That's a pretty early check out, isn't it?</p>
+	<p>Five o'clock.  That's a pretty early check out, isn't it?</p>
 </sp>
 <sp who="#DESK CLERK">
 	<speaker>DESK CLERK</speaker>
@@ -3275,7 +3043,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>No, I'm a doctor. Nick and I are old friends.</p>
+	<p>No, I'm a doctor.  Nick and I are old friends.</p>
 </sp>
 <sp who="#DESK CLERK">
 	<speaker>DESK CLERK</speaker>
@@ -3287,23 +3055,18 @@
 </sp>
 <sp who="#DESK CLERK">
 	<speaker>DESK CLERK</speaker>
-	<p>Well, he came in at about four- thirty a.m. There were two men with him - _big-guys_.</p>
+	<p>Well, he came in at about four- thirty a.m.  There were two men with him - _big-guys_.</p>
 </sp>
-<stage type="#replace">The DESK CLERK bends his elbows and clenches his fists to make a 'big-guy'
-	gesture.</stage>
+<stage type="#replace">The DESK CLERK bends his elbows and clenches his fists to make a 'big-guy' gesture.</stage>
 <sp who="#DESK CLERK">
 	<speaker>DESK CLERK</speaker>
 	<p>And I noticed he had a bruise on his cheek I'm sure he didn't have the night before.</p>
 	<p>The two men with him were</p>
-	<p>well-dressed and well-spoken, but they weren't the kind of people you'd want to fool around
-		with, if you know what I mean.</p>
+	<p>well-dressed and well-spoken, but they weren't the kind of people you'd want to fool around with, if you know what I mean.</p>
 	<p>Mr. Nightingale said he would be checking out and went up to his room with one of the men.</p>
 	<p>The other one stayed in the lobby and settled his bill, which was a couple of weeks overdue.</p>
-	<p>When they came down, I thought Mr. Nightingale looked...well - _scared_. Very scared, if you
-		ask me.</p>
-	<p>He tried to pass me an envelope but they saw him and took it away and said any mail or
-		messages for him would be collected by a person properly authorised to do so. When they took
-		him outside, I could see there was a car waiting for them.</p>
+	<p>When they came down, I thought Mr. Nightingale looked...well - _scared_. Very scared, if you ask me.</p>
+	<p>He tried to pass me an envelope but they saw him and took it away and said any mail or messages for him would be collected by a person properly authorised to do so.  When they took him outside, I could see there was a car waiting for them.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3332,8 +3095,7 @@
 	<speaker>BILL</speaker>
 	<p>Yes, it was fine.</p>
 </sp>
-<stage type="#replace">BILL hands him the clothes. Gibson carefully takes the them out of the bag
-	and lays them out on the counter to check them.</stage>
+<stage type="#replace">BILL hands him the clothes.  Gibson carefully takes the them out of the bag and lays them out on the counter to check them.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
 	<p>I think you've forgotten the mask.</p>
@@ -3344,11 +3106,11 @@
 </sp>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>It's not here. Maybe you left it at the partly.</p>
+	<p>It's not here.  Maybe you left it at the partly.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>I don't know. I must have lost it. Just put it on the bill.</p>
+	<p>I don't know.  I must have lost it.  Just put it on the bill.</p>
 </sp>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
@@ -3371,25 +3133,18 @@
 <stage type="#replace">BILL speaks with outstretched fingers resting on the desk.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Well, it's just that last night I think you said that your daughter was not quite normal,
-		mentally. The situation in which we found her certainly suggests something like that. And
-		since I took part in it, or was at least a spectator, I feel I should recommend that you to
-		get some medical advice.</p>
+	<p>Well, it's just that last night I think you said that your daughter was not quite normal, mentally.  The situation in which we found her certainly suggests something like that.  And since I took part in it, or was at least a spectator, I feel I should recommend that you to get some medical advice.</p>
 </sp>
 <stage type="#replace">GIBSON smiles at BILL, insolently.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
 	<p>And I suppose you yourself would like to take charge of the treatment?</p>
 </sp>
-<stage type="#replace">At this moment, a door which leads to one of the inner rooms opens, and a
-	young man with a top-coat over his evening clothes steps out.</stage>
+<stage type="#replace">At this moment, a door which leads to one of the inner rooms opens, and a young man with a top-coat over his evening clothes steps out.</stage>
 <stage type="#replace">BILL recognises him as one of the KIMONO men from the night before.</stage>
-<stage type="#replace">He also catches a glimpse of the YOUNG GIRL, in bra and panties getting
-	dressed, behind him before the door closes.</stage>
-<stage type="#replace">The KIMONO MAN seems taken aback when he sees BILL, but he regains his
-	composure at once.</stage>
-<stage type="#replace">He lights a cigarette with a match from Gibson's counter, waves goodbye and
-	leaves the shop.</stage>
+<stage type="#replace">He also catches a glimpse of the YOUNG GIRL, in bra and panties getting dressed, behind him before the door closes.</stage>
+<stage type="#replace">The KIMONO MAN seems taken aback when he sees BILL, but he regains his composure at once.</stage>
+<stage type="#replace">He lights a cigarette with a match from Gibson's counter, waves goodbye and leaves the shop.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>So that's how it is.</p>
@@ -3411,21 +3166,18 @@
 <stage type="#replace">BILL looks it over.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>Okay. It's a hundred and fifty for the basic rental. Two hundred for the inconvenience.
-		Twenty five for the mask. And I've credited the three hundred deposit. Okay?</p>
+	<p>Okay.  It's a hundred and fifty for the basic rental.  Two hundred for the inconvenience.  Twenty five for the mask.  And I've credited the three hundred deposit.  Okay?</p>
 </sp>
 <stage type="#replace">BILL nods.</stage>
 <sp who="#GIBSON">
 	<speaker>GIBSON</speaker>
-	<p>And if the doctor should ever want anything again... (smiles) ...it needn't be a monk's
-		costume.</p>
+	<p>And if the doctor should ever want anything again... (smiles) ...it needn't be a monk's costume.</p>
 </sp>
 <stage type="location">EXT BILL'S SURGERY - DAY</stage>
 <stage type="location">INT BILL'S SURGERY - DAY</stage>
 <stage type="#replace">_Possible scene_.</stage>
 <stage type="#replace">BILL'S colleague, MAX</stage>
-<stage type="#replace">In addition to whatever else they may talk about, BILL says he feels a bit
-	under the weather and asks MAX to take his appointments for the afternoon.</stage>
+<stage type="#replace">In addition to whatever else they may talk about, BILL says he feels a bit under the weather and asks MAX to take his appointments for the afternoon.</stage>
 <stage type="location">EXT BILL'S SURGERY - DAY</stage>
 <stage type="location">INT CAB - DAY</stage>
 <sp who="#V.O.">
@@ -3436,55 +3188,43 @@
 <stage type="location">EXT LONG ISLAND MANSION - DAY</stage>
 <stage type="#replace">It stops a little past the house and BILL get out and walks to the gates.</stage>
 <stage type="#replace">The big gates are locked and there is no one in sight.</stage>
-<stage type="#replace">He hears the faint whine of the zoom lens motor on one of the surveillance
-	cameras.</stage>
+<stage type="#replace">He hears the faint whine of the zoom lens motor on one of the surveillance cameras.</stage>
 <stage type="#replace">He looks up anxiously but is determined to carry out his inquiry.</stage>
 <stage type="#replace">He rings the bell mounted on one of the gate pillars.</stage>
 <stage type="#replace">He hears the motor on another surveillance camera, as it pans on to him.</stage>
 <stage type="#replace">He waits.</stage>
-<stage type="#replace">A few moments later, a car slowly approaches down the road from the house and
-	stops at the gate.</stage>
+<stage type="#replace">A few moments later, a car slowly approaches down the road from the house and stops at the gate.</stage>
 <stage type="#replace">An elderly servant gets out and walks slowly to the gate.</stage>
-<stage type="#replace">He holds a letter and without a word pushes it through the iron bars to BILL,
-	whose heart is beating wildly.</stage>
+<stage type="#replace">He holds a letter and without a word pushes it through the iron bars to BILL, whose heart is beating wildly.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>For me?</p>
 </sp>
 <stage type="#replace">The servant nods, walks back to the car and drives back up the road.</stage>
-<stage type="#replace">BILL looks at the envelope and sees: 'Dr. William Harford' written on it in a
-	neat, dignified handwriting.</stage>
+<stage type="#replace">BILL looks at the envelope and sees: 'Dr. William Harford' written on it in a neat, dignified handwriting.</stage>
 <stage type="#replace">_How did they know his name_?</stage>
-<p>Give up your inquiries which are completely useless, and consider these words a second warning.
-	We hope, for your own good, that this will be sufficient.</p>
+	<p>Give up your inquiries which are completely useless, and consider these words a second warning.  We hope, for your own good, that this will be sufficient.</p>
 </sp>
 <stage type="#replace">BILL stands there looking at the note.</stage>
 <stage type="location">EXT CAB - DAY</stage>
 <stage type="location">INT CAB - DAY</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>Second warning -? Why the second warning - and not the last?.</p>
-	<p>The tone of the note was strangely reserved and seemed to show that the people who sent it by
-		no means felt secure.</p>
+	<p>Second warning -?  Why the second warning - and not the last?.</p>
+	<p>The tone of the note was strangely reserved and seemed to show that the people who sent it by no means felt secure.</p>
 	<p>The note disappointed him, though, in a way, it reassured him, just why he couldn't say.</p>
 	<p>But, at least, he now felt the woman had come to no real harm, and that it</p>
 	<p>would be possible to find her if he went about it cautiously and cleverly.</p>
 </sp>
 <stage type="location">INT BILL'S APARTMENT - NIGHT</stage>
-<stage type="#replace">Some simple, natural dialog will be worked out for the action, over which the
-	V.O. will be heard.</stage>
+<stage type="#replace">Some simple, natural dialog will be worked out for the action, over which the V.O. will be heard.</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>He had gone home, feeling a little tired but surprisingly cheerful, with a strange sense of
-		security, which somehow seemed deceptive.</p>
-	<p>He was in an excited and cheerful mood and he felt unusually fresh and clear in spite of
-		spending the last two nights without sleep</p>
-	<p>At the same time, he felt that all this order, this normality, all the security of his
-		existence, was nothing but deception and delusion.</p>
+	<p>He had gone home, feeling a little tired but surprisingly cheerful, with a strange sense of security, which somehow seemed deceptive.</p>
+	<p>He was in an excited and cheerful mood and he felt unusually fresh and clear in spite of spending the last two nights without sleep</p>
+	<p>At the same time, he felt that all this order, this normality, all the security of his existence, was nothing but deception and delusion.</p>
 </sp>
-<p>And, he thought, there she sits with an angelic look, like a good wife and mother - the whore of
-	her dreams who made love to a hundred men the preceding night and laughed when he was crucified,
-	and to his surprise he didn't hate her.</p>
+	<p>And, he thought, there she sits with an angelic look, like a good wife and mother - the whore of her dreams who made love to a hundred men the preceding night and laughed when he was crucified, and to his surprise he didn't hate her.</p>
 </sp>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
@@ -3493,7 +3233,7 @@
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p></p>
-	<p>I'm afraid so. I've got some patients to see in the hospital.</p>
+	<p>I'm afraid so.  I've got some patients to see in the hospital.</p>
 </sp>
 <stage type="location">EXT MARION'S APARTMENT - NIGHT</stage>
 <stage type="location">INT MARION'S LOBBY - NIGHT</stage>
@@ -3512,7 +3252,7 @@
 <stage type="#replace">Carl shakes his head..</stage>
 <sp who="#CARL">
 	<speaker>CARL</speaker>
-	<p>She's taken it very hard. And when came for the body...it was just terrible.</p>
+	<p>She's taken it very hard.  And when came for the body...it was just terrible.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3521,8 +3261,7 @@
 </sp>
 <sp who="#CARL">
 	<speaker>CARL</speaker>
-	<p>No, they won't be coming until tonight. She'll be very glad to have some company. I'm taking
-		her to stay with my mother in Connecticut tomorrow.</p>
+	<p>No, they won't be coming until tonight. She'll be very glad to have some company.  I'm taking her to stay with my mother in Connecticut tomorrow.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3532,10 +3271,10 @@
 <sp who="#CARL">
 	<speaker>CARL</speaker>
 	<stage type="#replace">(putting out his hand)</stage>
-	<p>Well, good to see you again. It's unbelievable how much there is to do to arrange a funeral.</p>
+	<p>Well, good to see you again.  It's unbelievable how much there is to do to arrange a funeral.</p>
 </sp>
 <stage type="location">INT MARION'S APARTMENT - NIGHT</stage>
-<stage type="#replace">She is dressed in black. Her face becomes slightly flushed.</stage>
+<stage type="#replace">She is dressed in black.  Her face becomes slightly flushed.</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
 	<stage type="#replace">(smiling wearily)</stage>
@@ -3543,15 +3282,14 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>I'm sorry, Marion. This was a particularly busy day for me.</p>
+	<p>I'm sorry, Marion.  This was a particularly busy day for me.</p>
 </sp>
-<stage type="#replace">In the living room, Marion smiles and offers him a seat on the couch, sitting
-	down next to him.</stage>
+<stage type="#replace">In the living room, Marion smiles and offers him a seat on the couch, sitting down next to him.</stage>
 <stage type="#replace">BILL takes her hand in his and looks at her warmly.</stage>
 <stage type="#replace">She makes little attempt to hide her desperate love.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>I bumped into Carl downstairs. He said you're going to Connecticut tomorrow.</p>
+	<p>I bumped into Carl downstairs.  He said you're going to Connecticut tomorrow.</p>
 </sp>
 <stage type="#replace">She gazes into his eyes, mournfully.</stage>
 <sp who="#MARION">
@@ -3562,13 +3300,13 @@
 <stage type="#replace">They embrace and fall back on the couch.</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
-	<p>Oh, Bill, I love you. I love you so much.</p>
+	<p>Oh, Bill, I love you.  I love you so much.</p>
 </sp>
 <stage type="#replace">He kisses her and starts to fondle her breasts and other regions.</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
 	<stage type="#replace">(whimpers)</stage>
-	<p>Oh, Bill, I love you. I love you.</p>
+	<p>Oh, Bill, I love you.  I love you.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3632,23 +3370,20 @@
 <stage type="#replace">She rests her chin on his shoulder.</stage>
 <sp who="#MARION">
 	<speaker>MARION</speaker>
-	<p>Oh, Bill... Say something nice to me. I am so confused.</p>
+	<p>Oh, Bill...  Say something nice to me.  I am so confused.</p>
 </sp>
 <stage type="#replace">BILL doesn't move.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Marion, I guess this _is_ crazy. I'm a happily married man with a child, and you are engaged
-		to Carl.</p>
+	<p>Marion, I guess this _is_ crazy.  I'm a happily married man with a child, and you are engaged to Carl.</p>
 </sp>
 <stage type="#replace">Marion's shoulders droop. </stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>I'm sure the best thing for your to do is to go Connecticut tomorrow with Carl as you had
-		planned. A complete change of environment and the fresh air will do you a world of good.</p>
+	<p>I'm sure the best thing for your to do is to go Connecticut tomorrow with Carl as you had planned.  A complete change of environment and the fresh air will do you a world of good.</p>
 </sp>
 <stage type="#replace">Marion sits motionless and tears begin to stream down her face.</stage>
-<stage type="#replace">BILL sits in silence for a few moments, feeling impatience rather than
-	sympathy.</stage>
+<stage type="#replace">BILL sits in silence for a few moments, feeling impatience rather than sympathy.</stage>
 <stage type="#replace">Then he looks at his watch and gets to his feet.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3657,11 +3392,9 @@
 <stage type="#replace">He would gladly say something kinder to her, but finds it difficult to do so.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>If we don't see each other before the wedding, let me offer you my most sincere
-		congratulations and best wishes.</p>
+	<p>If we don't see each other before the wedding, let me offer you my most sincere congratulations and best wishes.</p>
 </sp>
-<stage type="#replace">She doesn't move, as though she understands neither his congratulations nor
-	his farewell.</stage>
+<stage type="#replace">She doesn't move, as though she understands neither his congratulations nor his farewell.</stage>
 <stage type="#replace">He holds out his hand but she refuses it, and he says almost reproachfully:</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3672,22 +3405,21 @@
 	<speaker>BILL</speaker>
 	<p>Goodbye Marion.</p>
 </sp>
-<stage type="#replace">He leaves the room, stopping for a second in the doorway, as though giving
-	her a last opportunity to call him back.</stage>
+<stage type="#replace">He leaves the room, stopping for a second in the doorway, as though giving her a last opportunity to call him back.</stage>
 <stage type="#replace">But she turns her head away.</stage>
 <stage type="location">EXT STREET - ON WAY TO DOMINO - NIGHT</stage>
 <stage type="location">INT/EXT BAKERY - BILL BUYS A CAKE - NIGHT</stage>
 <stage type="location">EXT. DOMINO STREET - NIGHT</stage>
 <stage type="#replace">He carries a small cake-box tied with a blue ribbon.</stage>
-<stage type="#replace">He finds the address and rings the bell. The buzzer sounds and he goes in.</stage>
+<stage type="#replace">He finds the address and rings the bell.  The buzzer sounds and he goes in.</stage>
 <stage type="location">INT DOMINO STAIRCASE CORRIDOR - NIGHT</stage>
 <sp who="#ARTY WOMAN">
 	<speaker>ARTY WOMAN</speaker>
-	<p>Hi. What can I do for you?</p>
+	<p>Hi.  What can I do for you?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Good evening. I'm looking for Domino</p>
+	<p>Good evening.  I'm looking for Domino</p>
 </sp>
 <sp who="#ARTY WOMAN">
 	<speaker>ARTY WOMAN</speaker>
@@ -3695,18 +3427,17 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Yes. Is she in by any chance?</p>
+	<p>Yes.  Is she in by any chance?</p>
 </sp>
-<stage type="#replace">An attractive girl in her twenties, wet hair and wrapped in a towel robe,
-	pokes her head out.</stage>
+<stage type="#replace">An attractive girl in her twenties, wet hair and wrapped in a towel robe, pokes her head out.</stage>
 <sp who="#SALLY">
 	<speaker>SALLY</speaker>
 	<stage type="#replace">(smiles)</stage>
-	<p>You're looking for Domino? You'll have to excuse the way I look. I just got out of the bath..</p>
+	<p>You're looking for Domino?  You'll have to excuse the way I look.  I just got out of the bath..</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Yes. Is she in?</p>
+	<p>Yes.  Is she in?</p>
 </sp>
 <stage type="#replace">SALLY takes the door off the chain.</stage>
 <sp who="#SALLY">
@@ -3716,7 +3447,7 @@
 <stage type="location">INT DOMINO APARTMENT - NIGHT</stage>
 <sp who="#SALLY">
 	<speaker>SALLY</speaker>
-	<p>Hi. I'm Sally. This is Pietra.</p>
+	<p>Hi.  I'm Sally.  This is Pietra.</p>
 </sp>
 <stage type="#replace">Ad-libs of hellos.</stage>
 <stage type="#replace">Bill looks around - no Domino.</stage>
@@ -3726,7 +3457,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Okay. Do you expect her back soon?</p>
+	<p>Okay.  Do you expect her back soon?</p>
 </sp>
 <sp who="#SALLY">
 	<speaker>SALLY</speaker>
@@ -3738,12 +3469,12 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Okay. Well, I'll just leave this cake for her, if I may.</p>
+	<p>Okay.  Well, I'll just leave this cake for her, if I may.</p>
 </sp>
 <sp who="#ARTY WOMAN">
 	<speaker>ARTY WOMAN</speaker>
 	<stage type="#replace">(akes the cake)</stage>
-	<p>Okay. Great. We'll see that she gets it.</p>
+	<p>Okay.  Great.  We'll see that she gets it.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3756,23 +3487,21 @@
 <stage type="#replace">Sally gives her a look.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Oh, I'm sorry to hear that. I hope it's nothing serious.</p>
+	<p>Oh, I'm sorry to hear that.  I hope it's nothing serious.</p>
 </sp>
 <sp who="#ARTY WOMAN">
 	<speaker>ARTY WOMAN</speaker>
-	<p>We're not really sure. It was for some kind of tests.</p>
+	<p>We're not really sure.  It was for some kind of tests.</p>
 </sp>
-<stage type="#replace">Sally gives her another look and moves close to BILL, her towel robe parting
-	a little to show her naked underneath.</stage>
+<stage type="#replace">Sally gives her another look and moves close to BILL, her towel robe parting a little to show her naked underneath.</stage>
 <sp who="#SALLY">
 	<speaker>SALLY</speaker>
-	<p>Listen, I'm not sure what's was on your mind but if it was more than cake, there's nothing
-		wrong with me.</p>
+	<p>Listen, I'm not sure what's was on your mind but if it was more than cake, there's nothing wrong with me.</p>
 </sp>
 <stage type="#replace">BILL hesitates.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Look, I'd love to but some other time. Okay? I was just passing by with the cake.</p>
+	<p>Look, I'd love to but some other time. Okay?  I was just passing by with the cake.</p>
 </sp>
 <sp who="#SALLY">
 	<speaker>SALLY</speaker>
@@ -3786,25 +3515,18 @@
 <stage type="location">EXT DOMINO STREET - BILL WALKING - NIGHT</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>Was this another and final sign that everything he put his hand to was bound to turn out a
-		failure for him?</p>
-	<p>But why should it be. Wasn't the fact that he had just escaped a possibly fatal infection
-		from the girl a good sign?</p>
-	<p>Everything now seemed so unreal; his home, his wife, his child, his profession, and even
-		himself.</p>
-	<p>Bill felt choked with tears. He had not slept for two days and his nerves were gradually
-		giving way.</p>
+	<p>Was this another and final sign that everything he put his hand to was bound to turn out a failure for him?</p>
+	<p>But why should it be.  Wasn't the fact that he had just escaped a possibly fatal infection from the girl a good sign?</p>
+	<p>Everything now seemed so unreal; his home, his wife, his child, his profession, and even himself.</p>
+	<p>Bill felt choked with tears.  He had not slept for two days and his nerves were gradually giving way.</p>
 	<p>He intentionally struck up a quicker pace than he was in the mood for.</p>
 </sp>
 <stage type="location">EXT STREET - BILL FOLLOWED - NIGHT</stage>
 <stage type="#replace">Suddenly, BILL feels he is being followed.</stage>
-<stage type="#replace">He glances back and sees a man about half a block behind him walking at the
-	same rapid pace.</stage>
-<stage type="#replace">As soon as the man notices BILL has seen him, he stops and looks in a shop
-	window.</stage>
+<stage type="#replace">He glances back and sees a man about half a block behind him walking at the same rapid pace.</stage>
+<stage type="#replace">As soon as the man notices BILL has seen him, he stops and looks in a shop window.</stage>
 <stage type="#replace">SHORT SEQUENCE OF THE MAN FOLLOWING BILL - SEVERAL STREETS</stage>
-<stage type="#replace">STREET - NEWS-STAND NEAR COFFEE SHOP BILL stops at the news-stand and buys a
-	paper.</stage>
+<stage type="#replace">STREET - NEWS-STAND NEAR COFFEE SHOP BILL stops at the news-stand and buys a paper.</stage>
 <stage type="#replace">He looks back again.</stage>
 <stage type="#replace">The man is still there, walking slowly towards him.</stage>
 <stage type="#replace">BILL goes into a nearby Coffee Bar.</stage>
@@ -3812,7 +3534,7 @@
 <stage type="#replace">A waitress comes over with a glass of ice water and a plastic menu.</stage>
 <sp who="#WAITRESS">
 	<speaker>WAITRESS</speaker>
-	<p>Hi. Would you like to order now?</p>
+	<p>Hi.  Would you like to order now?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3828,43 +3550,34 @@
 	<p>Okay, great.</p>
 </sp>
 <stage type="#replace">She leaves, taking away the menu.</stage>
-<stage type="#replace">BILL opens his eyes as wide as possible, arches his neck and drinks some
-	water. He looks terrible.</stage>
+<stage type="#replace">BILL opens his eyes as wide as possible, arches his neck and drinks some water.  He looks terrible.</stage>
 <stage type="#replace">He idly picks up the newspaper he just bought and starts to look through it.</stage>
-<p>EX-BEAUTY QUEEN IN HOTEL DRUGS OVERDOSE Kelly Curran, 30, a former Miss Wisconsin, was taken to
-	New York Hospital this morning in critical condition after taking a drugs overdose. She was
-	found unconscious when police broke into her room at the San Carlos hotel after she failed to
-	respond to efforts to contact her. The night manager told police she had returned to the hotel
-	at four o'clock in the morning accompanied by two unidentified men.</p>
+	<p>EX-BEAUTY QUEEN IN HOTEL DRUGS OVERDOSE Kelly Curran, 30, a former Miss Wisconsin, was taken to New York Hospital this morning in critical condition after taking a drugs overdose. She was found unconscious when police broke into her room at the San Carlos hotel after she failed to respond to efforts to contact her. The night manager told police she had returned to the hotel at four o'clock in the morning accompanied by two unidentified men.</p>
 </sp>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>Four o'clock in the morning! The same time he returned home!</p>
+	<p>Four o'clock in the morning!  The same time he returned home!</p>
 </sp>
-<p>Wasn't it two men who took Nick Nightingale from his hotel only an hour later?</p>
-<p>There was no compelling reason to believe that Kelly Curran and a certain other woman were one
-	and the same. And yet - his heart throbbed and his hand trembled.</p>
+	<p>Wasn't it two men who took Nick Nightingale from his hotel only an hour later?</p>
+	<p>There was no compelling reason to believe that Kelly Curran and a certain other woman were one and the same. And yet - his heart throbbed and his hand trembled.</p>
 </sp>
 <stage type="#replace">BILL looks for the waitress to get his check.</stage>
-<stage type="#replace">At the same time, he notices the man who had been following him sitting at
-	another table.</stage>
+<stage type="#replace">At the same time, he notices the man who had been following him sitting at another table.</stage>
 <stage type="#replace">The man slowly raises a newspaper, partly covering his face.</stage>
 <stage type="#replace">BILL pays his check.</stage>
-<stage type="#replace">At the door, he turns to look for the suspicious character at the table but
-	he is already gone.</stage>
+<stage type="#replace">At the door, he turns to look for the suspicious character at the table but he is already gone.</stage>
 <stage type="location">EXT HOSPITAL - NIGHT</stage>
 <stage type="location">INT HOSPITAL</stage>
 <stage type="#replace">BILL the signs to the Emergency Room Waiting Area.</stage>
 <stage type="#replace">He walks up a young black woman at the information desk.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Good evening, I'm Doctor Harford. I'd like to see a patient of mine who I believe was
-		admitted this morning.</p>
+	<p>Good evening, I'm Doctor Harford.  I'd like to see a patient of mine who I believe was admitted this morning.</p>
 </sp>
 <stage type="#replace">He shows her his identity card.</stage>
 <sp who="#CLERK">
 	<speaker>CLERK</speaker>
-	<p>Okay, thanks, Doctor. What did you say the name was?</p>
+	<p>Okay, thanks, Doctor.  What did you say the name was?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -3912,21 +3625,15 @@
 <stage type="location">INT MORGUE</stage>
 <stage type="#replace">There is no one else working in the room.</stage>
 <stage type="#replace">The black orderly checks a slip of paper and goes to that crypt.</stage>
-<stage type="#replace">He opens the door, slides out the pallet and pulls down the sheet covering
-	the body.</stage>
+<stage type="#replace">He opens the door, slides out the pallet and pulls down the sheet covering the body.</stage>
 <stage type="#replace">BILL stares down at the naked body of a young woman.</stage>
-<stage type="#replace">The orderly gives BILL an inquiring look. BILL nods and the orderly crosses
-	the room and lights a cigarette.</stage>
+<stage type="#replace">The orderly gives BILL an inquiring look.  BILL nods and the orderly crosses the room and lights a cigarette.</stage>
 <stage type="#replace">BILL lifts the woman's head a little.</stage>
-<stage type="#replace">Her face is white. Her half-closed eyes stare at him. The lower jaw hangs
-	down limply, the narrow upper lip is drawn up, revealing bluish gums and a beautiful set of
-	white teeth.</stage>
+<stage type="#replace">Her face is white.  Her half-closed eyes stare at him.  The lower jaw hangs down limply, the narrow upper lip is drawn up, revealing bluish gums and a beautiful set of white teeth.</stage>
 <stage type="#replace">He gently lays her head back on the pallet.</stage>
 <stage type="#replace">His eyes follow the lines of her body.</stage>
-<stage type="#replace">He touches her forehead and her cheeks, her shoulders and her arms, doing so
-	as if compelled and directed to by an invisible power.</stage>
-<stage type="#replace">He twines his fingers about those of the corpse, and rigid as they are, they
-	seem to make an effort to move, to seize his hand.</stage>
+<stage type="#replace">He touches her forehead and her cheeks, her shoulders and her arms, doing so as if compelled and directed to by an invisible power.</stage>
+<stage type="#replace">He twines his fingers about those of the corpse, and rigid as they are, they seem to make an effort to move, to seize his hand.</stage>
 <stage type="#replace">He bends over her, as if magically attracted.</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
@@ -3934,22 +3641,18 @@
 	<p>Were these the eyes that had shone at him the day before with so much passion?</p>
 	<p>Was this the alluring body for which, only yesterday, he had felt such agonising desire?</p>
 	<p>He bent lower, as if he could extract an answer from the rigid features.</p>
-	<p>But he had only seen her face for an instant, and he knew that if it were _her_ face, and
-		_her_ eyes, he would not, could not - and in reality did not want to know.</p>
+	<p>But he had only seen her face for an instant, and he knew that if it were _her_ face, and _her_ eyes, he would not, could not - and in reality did not want to know.</p>
 	<p>He also realized that from the time he</p>
 	<p>read the account in the newspaper, he had imagined her as having the features of his wife.</p>
-	<p>And he shuddered to realise that his wife had constantly been in his mind's eye as the woman
-		he had been seeking.</p>
+	<p>And he shuddered to realise that his wife had constantly been in his mind's eye as the woman he had been seeking.</p>
 </sp>
-<stage type="#replace">He frees his fingers from those of the corpse, and taking her thin wrists,
-	places the ice cold arms alongside the body very carefully.</stage>
+<stage type="#replace">He frees his fingers from those of the corpse, and taking her thin wrists, places the ice cold arms alongside the body very carefully.</stage>
 <stage type="#replace">He looks at the orderly.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Okay - thanks. I'm finished.</p>
+	<p>Okay - thanks.  I'm finished.</p>
 </sp>
-<stage type="#replace">Bill watches the orderly slide the pallet back into the crypt and close the
-	door.</stage>
+<stage type="#replace">Bill watches the orderly slide the pallet back into the crypt and close the door.</stage>
 <sp who="#ORDERLY">
 	<speaker>ORDERLY</speaker>
 	<p>Want to wash up, Doc?</p>
@@ -3963,8 +3666,7 @@
 <stage type="#replace">His cellular phone goes off.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Hello... Yes... That's perfectly all right... Okay... Oh, I guess about twenty minutes...
-		Okay... Goodbye.</p>
+	<p>Hello...  Yes...  That's perfectly all right...  Okay...  Oh, I guess about twenty minutes...  Okay...  Goodbye.</p>
 </sp>
 <stage type="location">EXT ZIEGLER MANSION - NIGHT</stage>
 <stage type="#replace">The butler opens the door and takes BILL's coat.</stage>
@@ -3987,9 +3689,9 @@
 </sp>
 <sp who="#HARRIS">
 	<speaker>HARRIS</speaker>
-	<p>I'm afraid I don't know. Will you follow me, please?</p>
+	<p>I'm afraid I don't know.  Will you follow me, please?</p>
 </sp>
-<stage type="#replace">BILL follows HARRIS. Their footsteps sound loud in the quiet house.</stage>
+<stage type="#replace">BILL follows HARRIS.  Their footsteps sound loud in the quiet house.</stage>
 <stage type="#replace">They stop in front of the library door and HARRIS knocks.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
@@ -4000,7 +3702,7 @@
 <stage type="#replace">ZIEGLER gets up from an armchair and shakes hands.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>Hi, Bill. Sorry to drag you over here at this time of night.</p>
+	<p>Hi, Bill.  Sorry to drag you over here at this time of night.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -4084,9 +3786,7 @@
 <stage type="#replace">ZIEGLER nods and returns a tense smile.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>I'm not exactly sure how to begin this. But maybe the best thing is to just to put the cards
-		on the table and say that I happen to know quite a lot about what you've been doing for the
-		past twenty-four hours.</p>
+	<p>I'm not exactly sure how to begin this. But maybe the best thing is to just to put the cards on the table and say that I happen to know quite a lot about what you've been doing for the past twenty-four hours.</p>
 </sp>
 <stage type="#replace">He lets this sink in</stage>
 <sp who="#BILL">
@@ -4096,19 +3796,17 @@
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
 	<stage type="#replace">(quietly)</stage>
-	<p>Bill, please believe me, I know this is awkward - perhaps as awkward for me as it is for you.
-		Okay?</p>
+	<p>Bill, please believe me, I know this is awkward - perhaps as awkward for me as it is for you.  Okay?</p>
 </sp>
 <stage type="#replace">Bill says nothing.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>Okay?... Now, the reason I wanted to talk to you is that I think you may be harbouring one or
-		two misapprehensions about last night, which I would like to clear up.</p>
+	<p>Okay?...  Now, the reason I wanted to talk to you is that I think you may be harbouring one or two misapprehensions about last night, which I would like to clear up.</p>
 </sp>
 <stage type="#replace">Silence</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>Okay. I think I should also tell you that I was there. At the house.</p>
+	<p>Okay.  I think I should also tell you that I was there.  At the house.</p>
 </sp>
 <stage type="#replace">ZIEGLER says this in a very matter-of-fact way.</stage>
 <sp who="#ZIEGLER">
@@ -4122,21 +3820,16 @@
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>The words practically right out of my mouth. An amazing coincidence. That's what I first
-		thought. But then I remembered seeing you and your musician friend, Nick, renewing old
-		acquaintances at the party, and it didn't take me very long to realize that the rotten
-		little prick was the reason you were there.</p>
+	<p>The words practically right out of my mouth.  An amazing coincidence. That's what I first thought.  But then I remembered seeing you and your musician friend, Nick, renewing old acquaintances at the party, and it didn't take me very long to realize that the rotten little prick was the reason you were there.</p>
 </sp>
-<stage type="#replace">Bill gets to his feet. There's no point in denying anything and he has to
-	protect Nick.</stage>
+<stage type="#replace">Bill gets to his feet.  There's no point in denying anything and he has to protect Nick.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Look, Victor, this was all my fault. Nick did his best to talk me out of it.</p>
+	<p>Look, Victor, this was all my fault.  Nick did his best to talk me out of it.</p>
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>Yes, I know. He told us. But the fact remains that the little cocksucker told you in the
-		first place and gave you the password and the address.</p>
+	<p>Yes, I know.  He told us.  But the fact remains that the little cocksucker told you in the first place and gave you the password and the address.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -4161,7 +3854,7 @@
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>That was my man following you. He told me you spotted him.</p>
+	<p>That was my man following you.  He told me you spotted him.</p>
 </sp>
 <stage type="#replace">BILL shakes his head incredulously.</stage>
 <sp who="#BILL">
@@ -4170,7 +3863,7 @@
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>For your own good? To avoid any foolishness?</p>
+	<p>For your own good?  To avoid any foolishness?</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -4178,8 +3871,7 @@
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>That's right. They gave him an airline ticket and took him to the airport. By now he's
-		probably back with his family in Seattle.</p>
+	<p>That's right.  They gave him an airline ticket and took him to the airport.  By now he's probably back with his family in Seattle.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -4203,27 +3895,22 @@
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>He's okay. Phone him in Seattle if you're concerned. I'll give you his phone number.</p>
+	<p>He's okay.  Phone him in Seattle if you're concerned.  I'll give you his phone number.</p>
 </sp>
 <stage type="#replace">ZIEGLER pours more brandy.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Nick never said anything about a second password. Was that what gave me away?</p>
+	<p>Nick never said anything about a second password.  Was that what gave me away?</p>
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>There was no second password. You gave yourself away as soon as you arrived. Invited guests
-		come in limos not taxis, and they don't get out of their cars half a block from the gate.</p>
-	<p>After the servants took your coat, one of our people went through your pockets and found the
-		receipt for the rented tux and cassock made out to Doctor W. Harford, a name obviously not
-		on the guest list.</p>
+	<p>There was no second password.  You gave yourself away as soon as you arrived.  Invited guests come in limos not taxis, and they don't get out of their cars half a block from the gate.</p>
+	<p>After the servants took your coat, one of our people went through your pockets and found the receipt for the rented tux and cassock made out to Doctor W. Harford, a name obviously not on the guest list.</p>
 </sp>
 <stage type="#replace">ZIEGLER sips some brandy.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>Bill, these were not just _ordinary_ people. I don't think you have any idea how fortunate
-		you are to have got out of that situation as easily as you did. Someday you can thank me for
-		that.</p>
+	<p>Bill, these were not just _ordinary_ people.  I don't think you have any idea how fortunate you are to have got out of that situation as easily as you did. Someday you can thank me for that.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -4244,22 +3931,17 @@
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>Bill, are you so sure she was the kind of woman for whom the things you imagined were
-		actually a sacrifice?</p>
-	<p>If she attended these affairs and knew the rules so well, do you suppose it would have made
-		any difference to her whether she belonged to one of the men, or to all of them?</p>
+	<p>Bill, are you so sure she was the kind of woman for whom the things you imagined were actually a sacrifice?</p>
+	<p>If she attended these affairs and knew the rules so well, do you suppose it would have made any difference to her whether she belonged to one of the men, or to all of them?</p>
 	<p>Bill, she was just a thousand-a-night- hooker - no more, no less.</p>
 </sp>
 <stage type="#replace">BILL stares at him blankly.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>Bill, tell me, did you never consider the possibility that the whole thing might have been
-		nothing more than a charade?... A charade played out for the benefit of someone who didn't
-		belong - to frighten them and make sure they keep quiet?</p>
+	<p>Bill, tell me, did you never consider the possibility that the whole thing might have been nothing more than a charade?...  A charade played out for the benefit of someone who didn't belong - to frighten them and make sure they keep quiet?</p>
 </sp>
 <stage type="#replace">BILL takes a deep breath and tries to absorb what he has just been told</stage>
-<stage type="#replace">Then takes the newspaper from his pocket with the story about the drugs
-	overdose.</stage>
+<stage type="#replace">Then takes the newspaper from his pocket with the story about the drugs overdose.</stage>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
 	<p>What about this?</p>
@@ -4270,7 +3952,7 @@
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>Is it her? I went to the morgue but I couldn't tell.</p>
+	<p>Is it her?  I went to the morgue but I couldn't tell.</p>
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
@@ -4283,26 +3965,19 @@
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>No - it wasn't But I was afraid you might think it was, and that's why I wanted to see you.</p>
+	<p>No - it wasn't  But I was afraid you might think it was, and that's why I wanted to see you.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
-	<p>You say it was a charade but isn't a but strange, a woman offers herself as a sacrifice and
-		the next morning she's dead?</p>
+	<p>You say it was a charade but isn't a but strange, a woman offers herself as a sacrifice and the next morning she's dead?</p>
 </sp>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>That _was_ a coincidence. An amazing coincidence, perhaps but a genuine coincidence,
-		nonetheless. </p>
-	<p>Bill, please believe me, nothing happened to her that hadn't happened before. She got a lot
-		of attention, that was certainly true, but nothing she didn't want. And later, when my
-		people left her at the hotel, they said everything was absolutely okay.</p>
-	<p>What then happened in her room, she did to herself, as she had done many times before. But,
-		sadly, this would be the last time. </p>
-	<p>She OD'd on crack, like the papers said. No chance for foul play. Her door was locked from
-		the _inside_ and the police had to break it down.</p>
-	<p>No, I'm afraid for her it was always going to be just a matter of time - you said as much
-		yourself when she passed out in my bedroom at the Christmas party.</p>
+	<p>That _was_ a coincidence.  An amazing coincidence, perhaps but a genuine coincidence, nonetheless. </p>
+	<p>Bill, please believe me, nothing happened to her that hadn't happened before.  She got a lot of attention, that was certainly true, but nothing she didn't want.  And later, when my people left her at the hotel, they said everything was absolutely okay.</p>
+	<p>What then happened in her room, she did to herself, as she had done many times before.  But, sadly, this would be the last time. </p>
+	<p>She OD'd on crack, like the papers said.  No chance for foul play.  Her door was locked from the _inside_ and the police had to break it down.</p>
+	<p>No, I'm afraid for her it was always going to be just a matter of time - you said as much yourself when she passed out in my bedroom at the Christmas party.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -4313,30 +3988,20 @@
 <stage type="#replace">Then ZIEGLER stands up with a comfortable end-of-conversation-sigh.</stage>
 <sp who="#ZIEGLER">
 	<speaker>ZIEGLER</speaker>
-	<p>So, Bill, I hope you understand why I thought it was important to tidy this up. But now I
-		think all the dishes are washed and put away. Nobody killed anybody. Someone died. That's
-		sad. But life goes on. It always does. Until it doesn't. Okay?</p>
+	<p>So, Bill, I hope you understand why I thought it was important to tidy this up.  But now I think all the dishes are washed and put away.  Nobody killed anybody.  Someone died.  That's sad. But life goes on.  It always does.  Until it doesn't.  Okay?</p>
 </sp>
 <stage type="location">INT BILL'S APARTMENT - NIGHT</stage>
-<stage type="#replace">He hears ALICE breathing softly and regularly and sees the outline of her
-	head on the pillow.</stage>
-<stage type="#replace">Unexpectedly, his heart is filled with a feeling of tenderness and even of
-	security.</stage>
+<stage type="#replace">He hears ALICE breathing softly and regularly and sees the outline of her head on the pillow.</stage>
+<stage type="#replace">Unexpectedly, his heart is filled with a feeling of tenderness and even of security.</stage>
 <stage type="#replace">Then he notices something dark quite near ALICE'S face.</stage>
-<stage type="#replace">It has definite outlines like the shadowy features of a human face, and it is
-	lying on his pillow.</stage>
-<stage type="#replace">For a moment his heart stops beating, but an instant later he sees what it
-	is, and stretching out his hand, picks up the MASK he had worn the night before.</stage>
+<stage type="#replace">It has definite outlines like the shadowy features of a human face, and it is lying on his pillow.</stage>
+<stage type="#replace">For a moment his heart stops beating, but an instant later he sees what it is, and stretching out his hand, picks up the MASK he had worn the night before.</stage>
 <sp who="#V.O.">
 	<speaker>V.O.</speaker>
-	<p>He thought he must have dropped it in the morning when he packed the costume away, and Alice
-		had found it and placed it on the pillow beside her, as though it signified _his_ face, the
-		face of a husband who had become an enigma to her.</p>
+	<p>He thought he must have dropped it in the morning when he packed the costume away, and Alice had found it and placed it on the pillow beside her, as though it signified _his_ face, the face of a husband who had become an enigma to her.</p>
 </sp>
-<stage type="#replace">All at once he reaches the end of his strength. Clutching the mask, he utters
-	a loud and painful</stage>
-<stage type="#replace">sob - quite unexpectedly - and sinks down beside the bed, buries his head in
-	the pillows, and cries.</stage>
+<stage type="#replace">All at once he reaches the end of his strength. Clutching the mask, he utters a loud and painful</stage>
+<stage type="#replace">sob - quite unexpectedly - and sinks down beside the bed, buries his head in the pillows, and cries.</stage>
 <stage type="#replace">A minute later he feels a soft hand caressing his hair.</stage>
 <stage type="#replace">He looks into ALICE'S worried eyes.</stage>
 <sp who="#BILL">
@@ -4349,8 +4014,7 @@
 	<p>No, I will tell you everything.</p>
 </sp>
 <stage type="#replace">BEDROOM - IT IS NOW DAWN The grey light creeps through the curtains.</stage>
-<stage type="#replace">ALICE sits expressionlessly at a small table near the window, finishing a
-	cigarette. A full ashtray next to her.</stage>
+<stage type="#replace">ALICE sits expressionlessly at a small table near the window, finishing a cigarette.  A full ashtray next to her.</stage>
 <stage type="#replace">BILL sits miserably on the edge of the bed staring at the carpet..</stage>
 <stage type="#replace">He sighs and looks at Alice.</stage>
 <stage type="#replace">She smiles at him sadly and reaches out her hand.</stage>
@@ -4362,8 +4026,7 @@
 <stage type="#replace">She gazes into his eyes.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>I think we should both be grateful that we have come unharmed out of all our adventures,
-		whether they were real or only a dream.</p>
+	<p>I think we should both be grateful that we have come unharmed out of all our adventures, whether they were real or only a dream.</p>
 </sp>
 <stage type="#replace">BILL kneels down in front of her.</stage>
 <sp who="#BILL">
@@ -4374,8 +4037,7 @@
 <stage type="#replace">She takes his hands in hers and looks at them.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>Only as sure as I am that the reality of one night, let alone that of a whole lifetime, is
-		not the whole truth.</p>
+	<p>Only as sure as I am that the reality of one night, let alone that of a whole lifetime, is not the whole truth.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -4384,7 +4046,7 @@
 <stage type="#replace">She presses his head to her breast.</stage>
 <sp who="#ALICE">
 	<speaker>ALICE</speaker>
-	<p>But I think we're awake now.. And for a long time to come.</p>
+	<p>But I think we're awake now..  And for a long time to come.</p>
 </sp>
 <sp who="#BILL">
 	<speaker>BILL</speaker>
@@ -4397,5 +4059,5 @@
 	<stage type="#replace">(whispers as if to herself)</stage>
 	<p>We should never look into the future.</p>
 </sp>
-<p>The End ----------------------------------------------------------------------------</p>
+	<p>The End ----------------------------------------------------------------------------</p>
 </sp>
