@@ -1,0 +1,44 @@
+Character,Listener,Interaction Count
+Fridolin,daughter,2
+Fridolin,Albertina,42
+Albertina,Fridolin,29
+Fridolin,Marianne,16
+Marianne,Fridolin,8
+Fridolin,unknown,24
+Mizzi,Fridolin,14
+Fridolin,Mizzi,5
+Mizzi,unknown,1
+Fridolin,Nachtigall,39
+Nachtigall,Fridolin,44
+Gibiser,Fridolin,16
+Fridolin,Gibiser,17
+Gibiser,Gentlemen,4
+Gentlemen,Gibiser,3
+Pierrette,Gibiser,2
+Gibiser,Pierrette,3
+Fridolin,Fridolin,10
+TWOServants,Fridolin,1
+Fridolin,TWOServants,1
+woman,Fridolin,22
+Fridolin,woman,17
+another woman,Fridolin,1
+woman,another woman,1
+another woman,woman,1
+cavalier,Fridolin,6
+Fridolin,cavalier,3
+cavaliers,Fridolin,3
+YellowGentlemen,Fridolin,2
+gentlemen,Fridolin,1
+Fridolin,gentlemen,5
+RedCavalier,Fridolin,2
+unkown,Fridolin,2
+woman,gentlemen,3
+Fridolin,servant,2
+Fridolin,maid,2
+Fridolin,Fuchstaler,1
+Fridolin,Roediger,4
+Roediger,Fridolin,4
+Adler,Fridolin,22
+Fridolin,Adler,14
+ADler,Fridolin,1
+Fridolin,ADler,1

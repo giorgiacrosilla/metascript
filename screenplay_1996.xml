@@ -241,8 +241,8 @@
 
         <body>
             <div type="scene" n="1">
-                <set>
-                    <p>INT BILL & ALICE'S APT - LIVING ROOM - NIGHT</p>
+                <set> <!--questo si usa nel front, nel body si usa stage -->
+                    <p>INT BILL &amp; ALICE'S APT - LIVING ROOM - NIGHT</p>
                 </set>
 
                 <stage type="#replace">It is a week before Christmas. The tree is decorated and
@@ -458,7 +458,7 @@
             </div>
             <div type="scene" n="13">
                 <set>
-                    <p>BALLROOM - BILL & ALICE DANCING</p>
+                    <p>BALLROOM - BILL &amp; ALICE DANCING</p>
                 </set>
                 <sp who="#BILL">
                     <speaker>BILL</speaker>
@@ -626,7 +626,7 @@
             </div>
             <div type="scene" n="15">
                 <set>
-                    <p>ACROSS THE ROOM - BILL & THE MODELS</p>
+                    <p>ACROSS THE ROOM - BILL &amp; THE MODELS</p>
                 </set>
                 <sp who="#GAYLE">
                     <speaker>GAYLE</speaker>

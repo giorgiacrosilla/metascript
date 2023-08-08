@@ -1634,6 +1634,7 @@ root = ET.fromstring(xml_content)
 # Dictionary to store interactions between characters
 interactions = defaultdict(int)
 
+
 # Iterate through each <said> element
 for said_elem in root.findall('.//said'):
     who = said_elem.get('who')
@@ -1645,6 +1646,7 @@ for said_elem in root.findall('.//said'):
             interactions[(who, listener)] += 1
         else:
             interactions[(who, None)] += 1
+print(interactions)
 
 # Write interactions to a CSV file
 with open('interactions.csv', 'w', newline='') as csvfile:
