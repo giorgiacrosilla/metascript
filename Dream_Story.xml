@@ -73,9 +73,9 @@
             <age>
               30s
             </age>
-            <description>
+            <note>
               doctor, rugged, knows how to play piano
-            </description>
+            </note>
           </person>
           <person xml:id="Albertina" sex="FEMALE">
             <persName>
@@ -86,9 +86,9 @@
             <persName>
               A stranger
             </persName>
-            <description>
+            <note>
               blase manner, apparently Polish accent
-            </description>
+            </note>
           </person>
           <person xml:id="TWOW" sex="FEMALE">
             <persName>
@@ -99,9 +99,9 @@
             <persName>
               Fridolin and Albertina's daughter
             </persName>
-            <description>
+            <note>
               blonde hair
-            </description>
+            </note>
           </person>
           <person xml:id="governess" sex="FEMALE">
             <persName>
@@ -122,20 +122,20 @@
             <persName>
               Marianne
             </persName>
-            <description>
+            <note>
               Councilor's daughter, was blond and thick, but dry; her neck well-formed
               and
               slender, although a little wrinkled
               and rather yellow; and her lips were thin and firmly pressed together.
-            </description>
+            </note>
           </person>
           <person xml:id="Roediger" sex="MALE">
             <persName>
               Doctor Roediger
             </persName>
-            <description>
+            <note>
               Marianne's fiance.
-            </description>
+            </note>
           </person>
           <person xml:id="Fuchstaler" sex="MALE">
             <persName>
@@ -146,9 +146,9 @@
             <persName>
               Doctor Adler
             </persName>
-            <description>
+            <note>
               An assistant in the Institute and an old fellow-student of Fridolin
-            </description>
+            </note>
           </person>
           <person xml:id="Mizzi" sex="FEMALE">
             <persName>
@@ -159,7 +159,7 @@
             <persName>
               Herr Nachtigall
             </persName>
-            <description>
+            <note>
               young
               man, Jew, tall, rather broad, and none too thin. His long, blond, slightly curly hair
               had a
@@ -170,18 +170,18 @@
               three false diamond studs, a crinkled collar and a dangling, white silk tie. His
               eyelids
               were inflamed, as if from many sleepless nights, but his blue eyes gleamed brightly.
-            </description>
+            </note>
           </person>
           <person xml:id="Gibiser" sex="MALE">
             <persName>
               Herr Gibiser
             </persName>
-            <description>
+            <note>
               He was a bald-headed, haggard man and wore an old-fashioned,
               flowered dressing-gown and a tasselled, Turkish cap which made him look like a foolish
               old man on the
               stage.
-            </description>
+            </note>
           </person>
           <person xml:id="Pierette" sex="FEMALE">
             <persName>
@@ -222,7 +222,7 @@
             <persName>
               mother
             </persName>
-            <description>Fridolin's mother</description>
+            <note>Fridolin's mother</note>
           </person>
           <person xml:id="Baroness" sex="FEMALE">
             <persName>

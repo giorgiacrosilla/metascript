@@ -42,23 +42,23 @@
                     </person>
                     <person>
                         <persName xml:id="HELENA">Helena Harford</persName>
-                        <description>Bill and Alice' daughter</description>
+                        <note>Bill and Alice' daughter</note>
                     </person>
                     <person>
                         <persName xml:id="BABY-SITTER">babysitter</persName>
-                        <description>young college girl</description>
+                        <note>young college girl</note>
                     </person>
                     <person>
                         <persName xml:id="ZIEGLER">Victor Ziegler</persName>
-                        <description>fit, sun-tanned, man in his mid-fifties</description>
+                        <note>fit, sun-tanned, man in his mid-fifties</note>
                     </person>
                     <person>
                         <persName xml:id="NICK">Nick Nightingale</persName>
                     </person>
                     <person>
                         <persName xml:id="SZABO">Sandor Szabo</persName>
-                        <description>handsome man, in his mid-forties with a slight Central European
-                            accent, hungarian</description>
+                        <note>handsome man, in his mid-forties with a slight Central European
+                            accent, hungarian</note>
                     </person>
                     <person>
                         <persName xml:id="NUALA">Nuala</persName>
