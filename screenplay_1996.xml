@@ -32,6 +32,47 @@
             <langUsage>
                 <language ident="en">English</language>
             </langUsage>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="ap" type="building">
+                        <placeName>Central Park West Apartment</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="rockefeller" type="building">
+                        <placeName>Rockefeller Center</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.75887832552362, -73.97873797769469</geo>
+                        </location>
+                    </place>
+                    <place xml:id="fifthav" type="street">
+                        <placeName>5th Avenue</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.774601441653054, -73.9656606200207</geo>
+                        </location>
+                    </place>
+                    <place xml:id="greenwich" type="neighborhood">
+                        <placeName>Greenwich Village</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.4401, -74.0010</geo>
+                        </location>
+                    </place>
+                    <place xml:id="newjersey" type="state">
+                        <placeName>New Jersey</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                </listPlace>
+            </settingDesc>
             <particDesc>
                 <listPerson>
                     <person>
@@ -82,45 +123,6 @@
                         <persName xml:id="DOMINO">Domino</persName>
                     </person>
                 </listPerson>
-                <listPlace>
-                    <place xml:id="ap" type="building">
-                        <placeName>Central Park West Apartment</placeName>
-                        <location>
-                            <settlement type="city">New York</settlement>
-                            <country>USA</country>
-                        </location>
-                    </place>
-                    <place xml:id="rockefeller" type="building">
-                        <placeName>Rockefeller Center</placeName>
-                        <location>
-                            <settlement type="city">New York</settlement>
-                            <country>USA</country>
-                            <geo>40.75887832552362, -73.97873797769469</geo>
-                        </location>
-                    </place>
-                    <place xml:id="fifthav" type="street">
-                        <placeName>5th Avenue</placeName>
-                        <location>
-                            <settlement type="city">New York</settlement>
-                            <country>USA</country>
-                            <geo>40.774601441653054, -73.9656606200207</geo>
-                        </location>
-                    </place>
-                    <place xml:id="greenwich" type="neighborhood">
-                        <placeName>Greenwich Village</placeName>
-                        <location>
-                            <settlement type="city">New York</settlement>
-                            <country>USA</country>
-                            <geo>40.4401, -74.0010</geo>
-                        </location>
-                    </place>
-                    <place xml:id="newjersey" type="state">
-                        <placeName>New Jersey</placeName>
-                        <location>
-                            <country>USA</country>
-                        </location>
-                    </place>
-                </listPlace>
             </particDesc>
         </profileDesc>
     </teiHeader>
@@ -232,7 +234,7 @@
                 <castItem>
                     <role>Stalker</role>
                     <actor ref='https://www.imdb.com/name/nm1765910/'>Phil Davies</actor>
-                </castItem>    
+                </castItem>
             </castList>
             <set>
                 <p>...</p>
@@ -241,7 +243,8 @@
 
         <body>
             <div type="scene" n="1">
-                <set> <!--questo si usa nel front, nel body si usa stage -->
+                <set> <!--questo
+                    si usa nel front, nel body si usa stage -->
                     <p>INT BILL &amp; ALICE'S APT - LIVING ROOM - NIGHT</p>
                 </set>
 
@@ -1072,10 +1075,10 @@
                 <sp who="#V.O.">
                     <speaker>V.O.</speaker>
                     <p>The gray of morning awakened them only too soon.</p>
-                </sp>
-                <p>And Bill had a number of early appointments.</p>
-                <p>So the evening hours passed in the predetermined daily routine of work, and the
-                    events of the night before began to fade.</p>
+                    <p>And Bill had a number of early appointments.</p>
+                    <p>So the evening hours passed in the predetermined daily routine of work, and
+                        the
+                        events of the night before began to fade.</p>
                 </sp>
             </div>
             <div type="scene" n="22">
@@ -1819,7 +1822,6 @@
                     position as the man he just left.. Then he thought about his profession? There
                     were dangers lurking there, too, everywhere and at all times - except that one
                     usually forgets about them.</p>
-                </sp>
             </div>
             <div type="scene" n="30">
                 <set>
@@ -4081,7 +4083,6 @@
                 <stage type="#replace">_How did they know his name_?</stage>
                 <p>Give up your inquiries which are completely useless, and consider these words a
                     second warning. We hope, for your own good, that this will be sufficient.</p>
-                </sp>
                 <stage type="#replace">BILL stands there looking at the note.</stage>
             </div>
             <div type="scene" n="68">
@@ -4118,10 +4119,11 @@
                         in spite of spending the last two nights without sleep</p>
                     <p>At the same time, he felt that all this order, this normality, all the
                         security of his existence, was nothing but deception and delusion.</p>
-                </sp>
-                <p>And, he thought, there she sits with an angelic look, like a good wife and mother
-                    - the whore of her dreams who made love to a hundred men the preceding night and
-                    laughed when he was crucified, and to his surprise he didn't hate her.</p>
+                    <p>And, he thought, there she sits with an angelic look, like a good wife and
+                        mother
+                        - the whore of her dreams who made love to a hundred men the preceding night
+                        and
+                        laughed when he was crucified, and to his surprise he didn't hate her.</p>
                 </sp>
                 <sp who="#ALICE">
                     <speaker>ALICE</speaker>
@@ -4551,14 +4553,15 @@
                     her room at the San Carlos hotel after she failed to respond to efforts to
                     contact her. The night manager told police she had returned to the hotel at four
                     o'clock in the morning accompanied by two unidentified men.</p>
-                </sp>
                 <sp who="#V.O.">
                     <speaker>V.O.</speaker>
                     <p>Four o'clock in the morning! The same time he returned home!</p>
-                </sp>
-                <p>Wasn't it two men who took Nick Nightingale from his hotel only an hour later?</p>
-                <p>There was no compelling reason to believe that Kelly Curran and a certain other
-                    woman were one and the same. And yet - his heart throbbed and his hand trembled.</p>
+                    <p>Wasn't it two men who took Nick Nightingale from his hotel only an hour
+                        later?</p>
+                    <p>There was no compelling reason to believe that Kelly Curran and a certain
+                        other
+                        woman were one and the same. And yet - his heart throbbed and his hand
+                        trembled.</p>
                 </sp>
                 <stage type="#replace">BILL looks for the waitress to get his check.</stage>
                 <stage type="#replace">At the same time, he notices the man who had been following
@@ -5110,66 +5113,69 @@
                 </sp>
             </div>
             <div type="scene" n="93">
-            <set>
-                <p>BEDROOM - IT IS NOW DAWN</p>
-            </set>
-            <stage type="#replace">ALICE sits expressionlessly at a small table near the window,
-                finishing a cigarette. A full ashtray next to her.</stage>
-            <stage type="#replace">BILL sits miserably on the edge of the bed staring at the
-                carpet..</stage>
-            <stage type="#replace">He sighs and looks at Alice.</stage>
-            <stage type="#replace">She smiles at him sadly and reaches out her hand.</stage>
-            <stage type="#replace">He gets up slowly and goes over to her.</stage>
-            <sp who="#BILL">
-                <speaker>BILL</speaker>
-                <p>What are we going to do now?</p>
-            </sp>
-            <stage type="#replace">She gazes into his eyes.</stage>
-            <sp who="#ALICE">
-                <speaker>ALICE</speaker>
-                <p>I think we should both be grateful that we have come unharmed out of all our
-                    adventures, whether they were real or only a dream.</p>
-            </sp>
-            <stage type="#replace">BILL kneels down in front of her.</stage>
-            <sp who="#BILL">
-                <speaker>BILL</speaker>
-                <p></p>
-                <p>Are you really sure that?</p>
-            </sp>
-            <stage type="#replace">She takes his hands in hers and looks at them.</stage>
-            <sp who="#ALICE">
-                <speaker>ALICE</speaker>
-                <p>Only as sure as I am that the reality of one night, let alone that of a whole
-                    lifetime, is not the whole truth.</p>
-            </sp>
-            <sp who="#BILL">
-                <speaker>BILL</speaker>
-                <p>And no dream is entirely a dream.</p>
-            </sp>
-            <stage type="#replace">She presses his head to her breast.</stage>
-            <sp who="#ALICE">
-                <speaker>ALICE</speaker>
-                <p>But I think we're awake now.. And for a long time to come.</p>
-            </sp>
-            <sp who="#BILL">
-                <speaker>BILL</speaker>
-                <stage type="delivery">(whispers)</stage>
-                <p>Forever.</p>
-            </sp>
-            <stage type="#replace">Almost before he finishes the word, ALICE lays her fingers on his
-                lips.</stage>
-            <sp who="#ALICE">
-                <speaker>ALICE</speaker>
-                <stage type="delivery">(whispers as if to herself)</stage>
-                <p>We should never look into the future.</p>
-            </sp>
-            <stage type="#replace">They kiss tenderly and lie down on the bed, dozing a little,
-                dreamlessly, close to one another - until with the usual noises from the street, and
-                a victorious ray of sunlight through the opening of the curtain, there is a knock on
-                the door and their seven-year-old daughter, HELENA, runs into the room and,
-                laughing, jumps into their bed. And a new day begins.</stage>
-            <trailer>The End</trailer>
-
+                <set>
+                    <p>BEDROOM - IT IS NOW DAWN</p>
+                </set>
+                <stage type="#replace">ALICE sits expressionlessly at a small table near the window,
+                    finishing a cigarette. A full ashtray next to her.</stage>
+                <stage type="#replace">BILL sits miserably on the edge of the bed staring at the
+                    carpet..</stage>
+                <stage type="#replace">He sighs and looks at Alice.</stage>
+                <stage type="#replace">She smiles at him sadly and reaches out her hand.</stage>
+                <stage type="#replace">He gets up slowly and goes over to her.</stage>
+                <sp who="#BILL">
+                    <speaker>BILL</speaker>
+                    <p>What are we going to do now?</p>
+                </sp>
+                <stage type="#replace">She gazes into his eyes.</stage>
+                <sp who="#ALICE">
+                    <speaker>ALICE</speaker>
+                    <p>I think we should both be grateful that we have come unharmed out of all our
+                        adventures, whether they were real or only a dream.</p>
+                </sp>
+                <stage type="#replace">BILL kneels down in front of her.</stage>
+                <sp who="#BILL">
+                    <speaker>BILL</speaker>
+                    <p></p>
+                    <p>Are you really sure that?</p>
+                </sp>
+                <stage type="#replace">She takes his hands in hers and looks at them.</stage>
+                <sp who="#ALICE">
+                    <speaker>ALICE</speaker>
+                    <p>Only as sure as I am that the reality of one night, let alone that of a whole
+                        lifetime, is not the whole truth.</p>
+                </sp>
+                <sp who="#BILL">
+                    <speaker>BILL</speaker>
+                    <p>And no dream is entirely a dream.</p>
+                </sp>
+                <stage type="#replace">She presses his head to her breast.</stage>
+                <sp who="#ALICE">
+                    <speaker>ALICE</speaker>
+                    <p>But I think we're awake now.. And for a long time to come.</p>
+                </sp>
+                <sp who="#BILL">
+                    <speaker>BILL</speaker>
+                    <stage type="delivery">(whispers)</stage>
+                    <p>Forever.</p>
+                </sp>
+                <stage type="#replace">Almost before he finishes the word, ALICE lays her fingers on
+                    his
+                    lips.</stage>
+                <sp who="#ALICE">
+                    <speaker>ALICE</speaker>
+                    <stage type="delivery">(whispers as if to herself)</stage>
+                    <p>We should never look into the future.</p>
+                </sp>
+                <stage type="#replace">They kiss tenderly and lie down on the bed, dozing a little,
+                    dreamlessly, close to one another - until with the usual noises from the street,
+                    and
+                    a victorious ray of sunlight through the opening of the curtain, there is a
+                    knock on
+                    the door and their seven-year-old daughter, HELENA, runs into the room and,
+                    laughing, jumps into their bed. And a new day begins.</stage>
+                <trailer>The End</trailer>
+            </div>
         </body>
     </text>
 </TEI>

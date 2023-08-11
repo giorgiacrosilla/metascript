@@ -64,6 +64,317 @@
           English
         </language>
       </langUsage>
+      <settingDesc>
+        <listPlace>
+          <place xml:id="Denmark" type="country">
+            <placeName>
+              Denmark
+            </placeName>
+          </place>
+          <place xml:id="ball-room">
+            <placeName>
+              ball-room
+            </placeName>
+          </place>
+          <place xml:id="worther" type="lake">
+            <placeName ref="https://www.geonames.org/2760837/woerthersee.html">
+              Lake Worther
+            </placeName>
+            <location>
+              <country>
+                Austria
+              </country>
+              <geo>
+                46.6167, 14.1667
+              </geo>
+            </location>
+          </place>
+          <place xml:id="schreyvogel" type="street">
+            <placeName>
+              Schreyvogel Strasse
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.21210168278503, 16.362480920927464
+              </geo>
+            </location>
+          </place>
+          <place xml:id="hospital" type="building">
+            <placeName ref="https://www.geonames.org/7522227/vienna-general-hospital.html">
+              General
+              Hospital
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.22098151523374, 16.34658639194407
+              </geo>
+            </location>
+          </place>
+          <place xml:id="park" type="park">
+            <placeName ref="https://www.geonames.org/6942415/rathauspark.html">
+              Rathaus Park
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.20986226627008, 16.35899229400207
+              </geo>
+            </location>
+          </place>
+          <place xml:id="Vienna" type="city">
+            <placeName ref="https://www.geonames.org/2761369/vienna.html">
+              Vienna
+            </placeName>
+            <location>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.210033, 16.363449
+              </geo>
+            </location>
+          </place>
+          <place xml:id="square" type="square">
+            <placeName>
+              Rathaus Square
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.21072017047699, 16.358734801637993
+              </geo>
+            </location>
+          </place>
+          <place xml:id="schonbrunn" type="street">
+            <placeName>
+              Schonbrunn Strasse
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.18707509460442, 16.341815922836787
+              </geo>
+            </location>
+          </place>
+          <place xml:id="riedhofhotel" type="building">
+            <placeName>
+              Riedhof Hotel
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.21350113821943, 16.353812096310836
+              </geo>
+            </location>
+          </place>
+          <place xml:id="CafeVindobona" type="building">
+            <placeName>
+              Cafe Vindobona
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.214713666174134, 16.35378139764215
+              </geo>
+            </location>
+          </place>
+          <place xml:id="costume-shop" type="building">
+            <placeName>
+              costume shop
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.214713666174134, 16.35378139764215
+              </geo>
+              <desc>
+                at the end of Wickeburgstrasse, in the same building of Vindobona Cafè
+              </desc>
+            </location>
+          </place>
+          <place xml:id="AlserStrasse" type="street">
+            <placeName>
+              Alser Strasse
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.21532225102417, 16.34818653818485
+              </geo>
+            </location>
+          </place>
+          <place xml:id="Modling" type="city">
+            <placeName ref="https://www.geonames.org/2771335/moedling.html">
+              Modling
+            </placeName>
+            <location>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.08605, 16.28921
+              </geo>
+            </location>
+          </place>
+          <place xml:id="Galitzinberg" type="slope">
+            <placeName ref="https://www.geonames.org/2601048/galitzinberg.html">
+              Galitzinberg
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.21667, 16.28333
+              </geo>
+            </location>
+          </place>
+          <place xml:id="BuchfeldStrasse" type="street">
+            <placeName>
+              Buchfeld Strasse
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.21072806886215, 16.353211626981153
+              </geo>
+            </location>
+          </place>
+          <place xml:id="Liebhartstal">
+            <placeName>
+              Liebhartstal
+            </placeName>
+            <location>
+              <settlement type="city">
+                Vienna
+              </settlement>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.21697, 16.289
+              </geo>
+            </location>
+          </place>
+          <place xml:id="villa">
+            <placeName>
+              villa
+            </placeName>
+          </place>
+          <place xml:id="Leopoldstadt" type="district">
+            <placeName ref="https://www.geonames.org/2761369/vienna.html">
+              Leopoldstadt
+            </placeName>
+            <location>
+              <country>
+                Austria
+              </country>
+              <geo>
+                48.20718, 16.42098
+              </geo>
+            </location>
+          </place>
+          <place xml:id="Lemberg" type="city">
+            <placeName ref="https://www.geonames.org/702550/lviv.html">Lemberg</placeName>
+            <location>
+              <country>Ukraine</country>
+              <geo>49.83826, 24.02324</geo>
+            </location>
+          </place>
+          <place xml:id="Ottakring" type="district">
+            <placeName>Ottakring</placeName>
+            <location>
+              <settlement type="city">Vienna</settlement>
+              <country>Austria</country>
+              <geo>48.212905425415286, 16.31000672509179</geo>
+            </location>
+          </place>
+          <place xml:id="hotelbristol" type="building">
+            <placeName>Hotel Bristol</placeName>
+            <location>
+              <settlement type="city">Vienna</settlement>
+              <country>Austria</country>
+              <geo>48.202703680208955, 16.370222109347424</geo>
+            </location>
+          </place>
+          <place xml:id="hotelkarl" type="building">
+            <placeName>Hotel Erzherzog Karl</placeName>
+            <location>
+              <settlement type="city">Vienna</settlement>
+              <country>Austria</country>
+              <geo>48.20605954308207, 16.37145681440317</geo>
+              <desc>destroyed in 1945</desc>
+            </location>
+          </place>
+        </listPlace>
+      </settingDesc>
+      <!--<listEvent>
+        <event>
+          <eventDesc xml:id="MASQ">
+            masquerade ball
+          </eventDesc>
+        </event>
+        <event>
+          <eventDesc xml:id="CARNIVAL">
+            carnival period
+          </eventDesc>
+        </event>
+      </listEvent>-->
       <particDesc>
         <listPerson>
           <person xml:id="Fridolin" sex="MALE">
@@ -230,315 +541,6 @@
             </persName>
           </person>
         </listPerson>
-        <listEvent>
-          <event>
-            <eventDesc xml:id="MASQ">
-              masquerade ball
-            </eventDesc>
-          </event>
-          <event>
-            <eventDesc xml:id="CARNIVAL">
-              carnival period
-            </eventDesc>
-          </event>
-        </listEvent>
-        <listPlace>
-          <place xml:id="Denmark" type="country">
-            <placeName>
-              Denmark
-            </placeName>
-          </place>
-          <place xml:id="ball-room">
-            <placeName>
-              ball-room
-            </placeName>
-          </place>
-          <place xml:id="worther" type="lake">
-            <placeName ref="https://www.geonames.org/2760837/woerthersee.html">
-              Lake Worther
-            </placeName>
-            <location>
-              <country>
-                Austria
-              </country>
-              <geo>
-                46.6167, 14.1667
-              </geo>
-            </location>
-          </place>
-          <place xml:id="schreyvogel" type="street">
-            <placeName>
-              Schreyvogel Strasse
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.21210168278503, 16.362480920927464
-              </geo>
-            </location>
-          </place>
-          <place xml:id="hospital" type="building">
-            <placeName ref="https://www.geonames.org/7522227/vienna-general-hospital.html">
-              General
-              Hospital
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.22098151523374, 16.34658639194407
-              </geo>
-            </location>
-          </place>
-          <place xml:id="park" type="park">
-            <placeName ref="https://www.geonames.org/6942415/rathauspark.html">
-              Rathaus Park
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.20986226627008, 16.35899229400207
-              </geo>
-            </location>
-          </place>
-          <place xml:id="Vienna" type="city">
-            <placeName ref="https://www.geonames.org/2761369/vienna.html">
-              Vienna
-            </placeName>
-            <location>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.210033, 16.363449
-              </geo>
-            </location>
-          </place>
-          <place xml:id="square" type="square">
-            <placeName>
-              Rathaus Square
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.21072017047699, 16.358734801637993
-              </geo>
-            </location>
-          </place>
-          <place xml:id="schonbrunn" type="street">
-            <placeName>
-              Schonbrunn Strasse
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.18707509460442, 16.341815922836787
-              </geo>
-            </location>
-          </place>
-          <place xml:id="riedhofhotel" type="building">
-            <placeName>
-              Riedhof Hotel
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.21350113821943, 16.353812096310836
-              </geo>
-            </location>
-          </place>
-          <place xml:id="CafeVindobona" type="building">
-            <placeName>
-              Cafe Vindobona
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.214713666174134, 16.35378139764215
-              </geo>
-            </location>
-          </place>
-          <place xml:id="costume-shop" type="building">
-            <placeName>
-              costume shop
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.214713666174134, 16.35378139764215
-              </geo>
-              <description>
-                at the end of Wickeburgstrasse, in the same building of Vindobona Cafè
-              </description>
-            </location>
-          </place>
-          <place xml:id="AlserStrasse" type="street">
-            <placeName>
-              Alser Strasse
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.21532225102417, 16.34818653818485
-              </geo>
-            </location>
-          </place>
-          <place xml:id="Modling" type="city">
-            <placeName ref="https://www.geonames.org/2771335/moedling.html">
-              Modling
-            </placeName>
-            <location>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.08605, 16.28921
-              </geo>
-            </location>
-          </place>
-          <place xml:id="Galitzinberg" type="slope">
-            <placeName ref="https://www.geonames.org/2601048/galitzinberg.html">
-              Galitzinberg
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.21667, 16.28333
-              </geo>
-            </location>
-          </place>
-          <place xml:id="BuchfeldStrasse" type="street">
-            <placeName>
-              Buchfeld Strasse
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.21072806886215, 16.353211626981153
-              </geo>
-            </location>
-          </place>
-          <place xml:id="Liebhartstal">
-            <placeName>
-              Liebhartstal
-            </placeName>
-            <location>
-              <settlement type="city">
-                Vienna
-              </settlement>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.21697, 16.289
-              </geo>
-            </location>
-          </place>
-          <place xml:id="villa">
-            <placeName>
-              villa
-            </placeName>
-          </place>
-          <place xml:id="Leopoldstadt" type="district">
-            <placeName ref="https://www.geonames.org/2761369/vienna.html">
-              Leopoldstadt
-            </placeName>
-            <location>
-              <country>
-                Austria
-              </country>
-              <geo>
-                48.20718, 16.42098
-              </geo>
-            </location>
-          </place>
-          <place xml:id="Lemberg" type="city">
-            <placeName ref="https://www.geonames.org/702550/lviv.html">Lemberg</placeName>
-            <location>
-              <country>Ukraine</country>
-              <geo>49.83826, 24.02324</geo>
-            </location>
-          </place>
-          <place xml:id="Ottakring" type="district">
-            <placeName>Ottakring</placeName>
-            <location>
-              <settlement type="city">Vienna</settlement>
-              <country>Austria</country>
-              <geo>48.212905425415286, 16.31000672509179</geo>
-            </location>
-          </place>
-          <place xml:id="hotelbristol" type="building">
-            <placeName>Hotel Bristol</placeName>
-            <location>
-              <settlement type="city">Vienna</settlement>
-              <country>Austria</country>
-              <geo>48.202703680208955, 16.370222109347424</geo>
-            </location>
-          </place>
-          <place xml:id="hotelkarl" type="building">
-            <placeName>Hotel Erzherzog Karl</placeName>
-            <location>
-              <settlement type="city">Vienna</settlement>
-              <country>Austria</country>
-              <geo>48.20605954308207, 16.37145681440317</geo>
-              <description>destroyed in 1945</description>
-            </location>
-          </place>
-        </listPlace>
       </particDesc>
     </profileDesc>
   </teiHeader>
@@ -578,11 +580,11 @@
           </rs> bent down, kissed her blond hair and closed the book
           which was lying on the untidy table. The child looked up as if caught at some mischief. <lb />
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="daughter">
+            aloud="true" direct="true" who="Fridolin" toWhom="daughter">
             "It's nine o'clock,"
           </said> her father said, <said aloud="true"
             direct="true"
-            who="Fridolin" listener="daughter">
+            who="Fridolin" toWhom="daughter">
             "and time you were in
             bed."
           </said>
@@ -686,17 +688,17 @@
             Fridolin
           </rs> nodded. <said aloud="true" direct="true"
             who="Fridolin"
-            listener="Albertina">
+            toWhom="Albertina">
             "What
             about him?"
           </said> he asked. </p>
         <p>
-          <said aloud="true" direct="true" who="Albertina" listener="Fridolin">
+          <said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">
             I'd already seen him
             in the morning,"
           </said> she
           replied, <said
-            aloud="true" direct="true" who="Albertina" listener="Fridolin">
+            aloud="true" direct="true" who="Albertina" toWhom="Fridolin">
             "as he was hurrying up the stairs in the hotel with
             his yellow hand-bag. He looked at me as he passed, but didn't stop until he had gone a
           few more steps.
@@ -729,14 +731,14 @@
           </said>
         </p>
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="Albertina">
+          <said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">
             "And then?"
           </said>
 					<rs ref="#Fridolin">
             Fridolin
           </rs> asked dryly when she stopped. </p>
         <p>
-          <said aloud="true" direct="true" who="Albertina" listener="Fridolin"> "That is all. I
+          <said aloud="true" direct="true" who="Albertina" toWhom="Fridolin"> "That is all. I
             remember that I woke the next morning with a restless anxiety. I don't know whether I
             was afraid that he had left or that he might still be there. But when he didn't appear
             at noon, I breathed a sigh of relief. Don't ask any more, <rs ref="#Fridolin">
@@ -749,12 +751,12 @@
             Fridolin
           </rs> rose, walked up and down the room several times
           and then said: <said
-            aloud="true" direct="true" who="Fridolin" listener="Albertina">
+            aloud="true" direct="true" who="Fridolin" toWhom="Albertina">
             "You're right."
           </said> He was standing at the window, his face
           in shadow and in a hoarse and slightly hostile voice he began: <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Albertina"> In the morning, sometimes very early before you got
+            who="Fridolin" toWhom="Albertina"> In the morning, sometimes very early before you got
           up, I used to stroll along the beach, out beyond the town. Even at that hour the sun was
           always shining over the sea, bright and strong. Out there on the beach, as you know, were
           cottages, each one standing like a world in itself. Some had fenced-in gardens, others
@@ -789,7 +791,7 @@
             Albertina
           </rs> asked: <said aloud="true" direct="true"
             who="Albertina"
-            listener="Fridolin">
+            toWhom="Fridolin">
             And
             how often
             did you
@@ -798,7 +800,7 @@
           </said>
         </p>
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="Albertina">
+          <said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">
             "What I have told
             you,"
           </said>
@@ -806,8 +808,8 @@
           Fridolin
           </rs> answered, <said aloud="true" direct="true"
             who="Fridolin"
-            listener="Albertina"> "happened on the last day of our stay in Denmark. Otherwise I
-          don't know what might have taken place. You, too, mustn't ask any more, <rs
+            toWhom="Albertina"> "happened on the last day of our stay in Denmark. Otherwise I don't
+          know what might have taken place. You, too, mustn't ask any more, <rs
               ref="#Albertina">
               Albertina
             </rs> ." </said>
@@ -816,18 +818,18 @@
             Albertina
           </rs> arose and walked over to him. There were tears in
           her eyes and a slight frown on her face. <said aloud="true" direct="true" who="Albertina"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "In the future let's always tell each other such
             things at once,"
           </said>
           she said. </p>
         <p> He nodded in silence. <said aloud="true" direct="true" who="Albertina"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Will you promise me?"
           </said>
         </p>
         <p> He took her into his arms. <said aloud="true" direct="true" who="Fridolin"
-            listener="Albertina">
+            toWhom="Albertina">
             "Don't
             you know that?"
           </said> he asked. But his
@@ -843,14 +845,14 @@
           little like a reproach, or was it a covert threat?
         </p>
         <p> He raised her hands to his lips. <said aloud="true" direct="true" who="Fridolin"
-            listener="Albertina"> "You may believe me, even though it sounds trite, that in every
+            toWhom="Albertina"> "You may believe me, even though it sounds trite, that in every
           woman I thought I loved it was always you I was looking for—I know that better than you
           can understand it, <rs ref="#Albertina">
               Albertina
             </rs> ." </said>
         </p>
         <p> A dispirited smile passed over her face. <said aloud="true" direct="true"
-            who="Albertina" listener="Fridolin">
+            who="Albertina" toWhom="Fridolin">
             "And suppose before meeting you, I, too, had gone on
             a search for a
             mate?"
@@ -858,47 +860,47 @@
           she asked. The look in her eyes changed, becoming cool and impenetrable, and he allowed
           her hands to slip from his, as though he had caught her lying or committing a breach of
           faith. She, however, continued: <said aloud="true" direct="true" who="Albertina"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Oh, if you men knew!"
           </said> and again was silent. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="Albertina">
+            direct="true" who="Fridolin" toWhom="Albertina">
             "If we
             knew—? What do you mean by that?"
           </said> In
           a strangely harsh voice she replied: <said aloud="true" direct="true" who="Albertina"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "About what you imagine,
             my dear."
           </said>
 					<said
             aloud="true"
-            direct="true" who="Fridolin" listener="Albertina"> " <rs ref="#Albertina">
+            direct="true" who="Fridolin" toWhom="Albertina"> " <rs ref="#Albertina">
               Albertina
             </rs> !—then there is something that you've kept
           from me?" </said> She nodded, and looked down with a strange smile. Incomprehensible,
           monstrous doubts crossed his mind. <said aloud="true" direct="true" who="Fridolin"
-            listener="Albertina">
+            toWhom="Albertina">
             "I
             don't quite understand,"
           </said> he said. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="Albertina">
+            direct="true" who="Fridolin" toWhom="Albertina">
             "You were barely seventeen when we became engaged."
           </said>
 					<said
             aloud="true"
-            direct="true" who="Albertina" listener="Fridolin"> "Past sixteen, yes, <rs
+            direct="true" who="Albertina" toWhom="Fridolin"> "Past sixteen, yes, <rs
               ref="#Fridolin">
               Fridolin
             </rs> . But it wasn't my fault that I was a virgin
           when I became your wife." </said> She looked at him brightly. <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Albertina"> " <rs ref="#Albertina">
+            who="Fridolin" toWhom="Albertina"> " <rs ref="#Albertina">
               Albertina
             </rs> ——!" </said> But she continued: <said
             aloud="true"
-            direct="true" who="Albertina" listener="Fridolin">
+            direct="true" who="Albertina" toWhom="Fridolin">
             "It
             was a beautiful summer evening at Lake Worther, just before our engagement, and a very
           handsome young man stood before my window that overlooked a large and spacious meadow. As
@@ -916,18 +918,18 @@
             Fridolin
           </rs> was annoyed and dropped her hand. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="Albertina">
+            direct="true" who="Fridolin" toWhom="Albertina">
             "And if,"
           </said> he said, <said aloud="true" direct="true"
             who="Fridolin"
-            listener="Albertina">
+            toWhom="Albertina">
             "someone else had stood
             by your window that night and the right word had occurred to him, if it had been, for
           instance—"
           </said>
           He was considering, but she raised her hand protestingly. </p>
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="Albertina">
+          <said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">
             "Any other man—no
             matter who—could have said anything he liked—it would have been useless. And if it
             hadn't
@@ -937,7 +939,7 @@
           </said>
           And she smiled at him. </p>
         <p> There was a scornful expression about his mouth. <said aloud="true" direct="true"
-            who="Fridolin" listener="Albertina">
+            who="Fridolin" toWhom="Albertina">
             "Yes,
             that's what you say now. Perhaps you even believe it at this moment. But——"
           </said>
@@ -952,25 +954,25 @@
             Albertina
           </rs> asked: <said aloud="true" direct="true"
             who="Albertina"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "You're going away?"
           </said> She said it with as much annoyance
           as if he were deliberately doing her an injustice. <rs ref="#Fridolin">
             Fridolin
           </rs> replied, with astonishment: <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Albertina">
+            who="Fridolin" toWhom="Albertina">
             "I suppose I've got to."
           </said> She sighed regretfully. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="Albertina">
+            direct="true" who="Fridolin" toWhom="Albertina">
             "I hope it
             won't be very serious,"
           </said> said <rs
             ref="#Fridolin">
             Fridolin
           </rs> . <said aloud="true" direct="true" who="Fridolin"
-            listener="Albertina">
+            toWhom="Albertina">
             "Up to now three
             centigrams
             of morphine have always
@@ -1022,36 +1024,36 @@
           </rs> . Her hair was blond and thick, but dry; her neck
           well-formed and slender, although a little wrinkled and rather yellow; and her lips were
           thin and firmly pressed together. <said aloud="true" direct="true" who="Fridolin"
-            listener="Marianne"> Well, my dear <rs ref="#Marianne">
+            toWhom="Marianne"> Well, my dear <rs ref="#Marianne">
               Marianne
             </rs> ," </said> he said in a slightly embarrassed
           whisper, <said
-            aloud="true" direct="true" who="Fridolin" listener="Marianne">
+            aloud="true" direct="true" who="Fridolin" toWhom="Marianne">
             "you weren't entirely
             unprepared for
             this."
           </said>
           She held out her hand to him. He took it sympathetically and inquired about the
           particulars of the final, fatal attack. <said aloud="true" direct="false" who="Marianne"
-            listener="Fridolin"> She reported briefly and to the point, and then spoke of her
-          father's last comparatively easy days, during which <rs ref="#Fridolin">
+            toWhom="Fridolin"> She reported briefly and to the point, and then spoke of her father's
+          last comparatively easy days, during which <rs ref="#Fridolin">
               Fridolin
             </rs> had not seen him. </said> Drawing up a
           chair, he sat down opposite her, and tried to console her by <said aloud="true"
             direct="false"
             who="Fridolin"
-            listener="Marianne">
+            toWhom="Marianne">
             saying that her father must have suffered very little at the last.
             He then
             asked if any of her relatives had been notified.
           </said>
 					<said
-            aloud="true" direct="false" who="Marianne" listener="Fridolin">
+            aloud="true" direct="false" who="Marianne" toWhom="Fridolin">
             Yes, she said, the housekeeper had
             already gone to tell her uncle, and very likely Doctor Roediger would soon appear.
           </said>
 					<said
-            aloud="true" direct="true" who="Marianne" listener="Fridolin">
+            aloud="true" direct="true" who="Marianne" toWhom="Fridolin">
             "My
             fiance,"
           </said> she added, and did not look him
@@ -1120,7 +1122,7 @@
           oppressive. It seemed to him that the dead man joined in the silence, deliberately and
           with malicious joy. With a side glance at the corpse, he said: <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Marianne"> At any rate, Fraulein <rs ref="#Marianne">
+            who="Fridolin" toWhom="Marianne"> At any rate, Fraulein <rs ref="#Marianne">
               Marianne
             </rs> , as things are now, it is fortunate that
           you won't have to stay in this house very much longer." </said> And when she raised her
@@ -1128,7 +1130,7 @@
             Fridolin
           </rs> , he continued: <said aloud="true" direct="true"
             who="Fridolin"
-            listener="Marianne">
+            toWhom="Marianne">
             "I suppose your fiance will soon get a
             professorship. The chances for promotion are more favorable in the Faculty of Philosophy
           than with us in Medicine."
@@ -1140,19 +1142,19 @@
             Roediger
           </rs> , he was the inferior. <said
             aloud="true"
-            direct="true" who="Marianne" listener="Fridolin">
+            direct="true" who="Marianne" toWhom="Fridolin">
             We shall move soon,"
           </said>
 					<rs ref="#Marianne">
             Marianne
           </rs> listlessly, <said aloud="true" direct="true"
             who="Marianne"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "he has a
             post at the University of Gottingen."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Marianne">
+            aloud="true" direct="true" who="Fridolin" toWhom="Marianne">
             "Oh,"
           </said> said <rs ref="#Fridolin">
             Fridolin
@@ -1165,13 +1167,13 @@
             Marianne
           </rs> 's eyes fixed upon him with a questioning look. He
           moved nearer to her and said: <said aloud="true" direct="true" who="Fridolin"
-            listener="Marianne">
+            toWhom="Marianne">
             "I hope the fresh air will be good for you. It has become quite
             warm, and last night"
           </said>
           —he was about to say: we drove home from the masquerade in a snowstorm, but he quickly
           changed the sentence and continued: <said aloud="true" direct="true" who="Fridolin"
-            listener="Marianne">
+            toWhom="Marianne">
             "Last night the snow was
             still lying on the streets a foot and a half deep."
           </said>
@@ -1184,13 +1186,13 @@
           </rs> 's feet, clasping his knees with her arms and
           pressing her face against them. Then she looked up to him with large eyes, wild with
           grief, and whispered ardently: <said aloud="true" direct="true" who="Marianne"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "I don't want to leave here. Even if you never return, if I
             am never to see you again, I want, at least, to live near you."
           </said>
           He was touched rather than surprised, for he had always known that she either was, or
           imagined herself to be, in love with him. <said aloud="true" direct="true" who="Fridolin"
-            listener="Marianne"> "Please—get up, <rs ref="#Marianne">
+            toWhom="Marianne"> "Please—get up, <rs ref="#Marianne">
               Marianne
             </rs> ," </said> he said softly and bending down
           he gently raised her. Of course, she is hysterical, he remarked to himself and he glanced
@@ -1239,13 +1241,13 @@
             Marianne
           </rs> , with her eyes on the floor, said, almost
           inaudibly: <said
-            aloud="true" direct="true" who="Marianne" listener="Fridolin">
+            aloud="true" direct="true" who="Marianne" toWhom="Fridolin">
             "I love you,"
           </said> and <rs ref="#Fridolin">
             Fridolin
           </rs> answered by <said aloud="true" direct="false"
             who="Fridolin"
-            listener="Marianne">
+            toWhom="Marianne">
             pronouncing her
             name tenderly
           </said> . Then <rs
@@ -1410,20 +1412,20 @@
           </said>
           . He heard her steps and then her voice behind him. <said aloud="true" direct="true"
             who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             Won't you come
             with me, doctor?"
           </said> He turned
           around involuntarily. <said
-            aloud="true" direct="true" who="Fridolin" listener="Mizzi">
+            aloud="true" direct="true" who="Fridolin" toWhom="Mizzi">
             "How do you know who I am?"
           </said> he asked. <said aloud="true"
             direct="true"
-            who="Mizzi" listener="Fridolin">
+            who="Mizzi" toWhom="Fridolin">
             "Why, I don't know you,"
           </said> she said, <said aloud="true"
             direct="true"
-            who="Mizzi" listener="Fridolin">
+            who="Mizzi" toWhom="Fridolin">
             "but here in this part of
             town they're all doctors, aren't they?"
           </said>
@@ -1437,7 +1439,7 @@
           girls of the place, <rs ref="#Fridolin">
             Fridolin
           </rs> looked at him in surprise. Thereupon he answered: <said
-            aloud="true" direct="true" who="Fridolin" listener="Mizzi">
+            aloud="true" direct="true" who="Fridolin" toWhom="Mizzi">
             "After
             all, it's the most convenient way— and they aren't by any means the worst." "What's your
           name?"
@@ -1447,7 +1449,7 @@
             Fridolin
           </rs> asked the girl. <said aloud="true" direct="true"
             who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Well, what do you think?
             Mizzi,
             of course."
@@ -1456,7 +1458,7 @@
           Fridolin
           </rs> to follow her. <said aloud="true" direct="true"
             who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Come on,"
           </said> she said when he hesitated. He stepped in
           beside her, the door closed behind him, she locked it, lit a wax candle and went ahead,
@@ -1477,30 +1479,30 @@
           </rs> who gently kept her at a distance. She pointed to
           a rocking-chair into which he was glad to drop. <said aloud="true" direct="true"
             who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "You must be very tired,"
           </said> she remarked. He nodded.
           Undressing without haste, she continued: <said aloud="true" direct="true" who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Well, no wonder, with all
             the things a man like you has to do in
             the course of a day. We have an easier time of it."
           </said>
           He noticed that her lips were not painted, as he had thought, but were a natural red, and
           he complimented her on that. <said aloud="true" direct="true" who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "But
             why should I rouge?" she inquired. "How old do you think I am?"
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Mizzi">
+            aloud="true" direct="true" who="Fridolin" toWhom="Mizzi">
             "Twenty?"
           </said>
 					<rs ref="#Fridolin">
             Fridolin
           </rs> ventured. <said aloud="true" direct="true"
             who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Seventeen,"
           </said> she said, and sat on his lap, putting her
           arms around his neck like a child. <said aloud="false" direct="false" who="Fridolin">
@@ -1520,22 +1522,22 @@
           and slipped down from his lap. He was sorry, for he had felt much comforting tenderness in
           her embrace. She took a red dressing-gown which was hanging over the foot of the open bed,
           slipped into it and folded her arms over her breast so that her entire body was concealed. <said
-            aloud="true" direct="true" who="Mizzi" listener="Fridolin">
+            aloud="true" direct="true" who="Mizzi" toWhom="Fridolin">
             "Does this suit you better?"
           </said> she asked without mockery,
           almost timidly, as though making an effort to understand him. He hardly knew what to
           answer. <said
-            aloud="true" direct="true" who="Fridolin" listener="Mizzi">
+            aloud="true" direct="true" who="Fridolin" toWhom="Mizzi">
             "You're right,"
           </said> he said. <said aloud="true" direct="true"
-            who="Fridolin" listener="Mizzi">
+            who="Fridolin" toWhom="Mizzi">
             "I am really tired, and I find it
             very pleasant sitting here in the rocking-chair and simply listening to you. You have
           such
             a nice gentle voice. Just talk to me."
           </said>
           She sat down on the couch and shook her head. <said aloud="true" direct="true" who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "You're simply afraid,"
           </said> she said softly —and then to
           herself in a barely audible voice: <said aloud="true" direct="true" who="Mizzi">
@@ -1545,7 +1547,7 @@
           trusted her implicitly and saying so he spoke the truth. He put his arms around her and
           wooed her like a sweetheart, like a beloved woman, but she resisted, until he felt ashamed
           and finally gave it up. She explained: <said aloud="true" direct="true" who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "You never can tell, some time or other
             it's bound to get out.
             It's quite right of you to be afraid. If something should happen, you would curse me."
@@ -1553,12 +1555,12 @@
           She was so positive in refusing the banknotes which he offered her that he did not insist.
           She put a little blue woolen shawl about her shoulders, lit a candle to light him
           downstairs, went down with him and unlocked the door. <said aloud="true" direct="true"
-            who="Mizzi" listener="Fridolin">
+            who="Mizzi" toWhom="Fridolin">
             "I'm not going out any more tonight,"
           </said> she said. He took
           her hand and involuntarily kissed it. She looked up to him astonished, almost frightened.
           Then she laughed, embarrassed and happy. <said aloud="true" direct="true" who="Mizzi"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Just as if I were a young lady,"
           </said> she said. The door
           closed behind <rs
@@ -1629,19 +1631,19 @@
           crumpled shirt with three false diamond studs, a crinkled collar and a dangling, white
           silk tie. His eyelids were inflamed, as if from many sleepless nights, but his blue eyes
           gleamed brightly. <said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall"> You here in Vienna, <rs
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> You here in Vienna, <rs
               ref="#Nachtigall">
               Nachtigall
             </rs> ?" </said> exclaimed <rs ref="#Fridolin">
           Fridolin
           </rs> . <said aloud="true" direct="true" who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Didn't you know?"
           </said> said <rs ref="#Nachtigall">
             Nachtigall
           </rs> with a soft, Polish accent and a slightly Jewish
           twang. <said
-            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+            aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "How could you miss it,
             and me so
             famous?"
@@ -1649,12 +1651,12 @@
           He laughed loudly and good-naturedly, and sat down opposite <rs ref="#Fridolin">
             Fridolin
           </rs> . <said aloud="true" direct="true" who="Fridolin"
-            listener="Nachtigall">
+            toWhom="Nachtigall">
             "What,"
           </said> asked <rs ref="#Fridolin">
             Fridolin
           </rs> , <said aloud="true" direct="true" who="Fridolin"
-            listener="Nachtigall">
+            toWhom="Nachtigall">
             "have
             you been appointed Professor of Surgery without my hearing of it?"
           </said>
@@ -1663,24 +1665,24 @@
             Nachtigall
           </rs> laughed still louder. <said aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "Didn't you hear me just
             now, just a minute ago?"
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "What do you mean—hear
             you?—Why, of course."
           </said>
           Suddenly it occurred to him that someone had been playing the piano when he entered; in
           fact, he had heard music coming from some basement as he approached the cafe. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="Nachtigall">
+            direct="true" who="Fridolin" toWhom="Nachtigall">
             "So that was you
             playing?"
           </said> he exclaimed. <said
             aloud="true"
-            direct="true" who="Nachtigall" listener="Fridolin">
+            direct="true" who="Nachtigall" toWhom="Fridolin">
             "It was,"
           </said>
 					<rs ref="#Nachtigall">
@@ -1690,7 +1692,7 @@
           </rs> nodded. Why, of course—the strangely vigorous
           touch, the peculiar, but euphonious bass chords had at once seemed familiar to him. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="Nachtigall">
+            direct="true" who="Fridolin" toWhom="Nachtigall">
             "Are you devoting
             yourself entirely to it?"
           </said>
@@ -1756,18 +1758,18 @@
             ref="#Fridolin">
             Fridolin
           </rs> accepted the repayment with a good conscience. <said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             Are you getting along well,"
           </said> he asked with a smile, in
-          order to make sure. <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
-          "I can't complain,"
+          order to make sure. <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
+            "I can't complain,"
           </said> replied <rs ref="#Nachtigall">
           Nachtigall
           </rs> . Placing his hand on <rs ref="#Fridolin">
             Fridolin
           </rs> 's arm, he continued: <said aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "But tell me, why are
             you
             here so late at night?"
@@ -1777,7 +1779,7 @@
             Fridolin
           </rs> explained that <said aloud="true" direct="false"
             who="Fridolin"
-            listener="Nachtigall">
+            toWhom="Nachtigall">
             he had needed a cup of coffee after visiting a patient,
             although he didn't say, without quite knowing why, that he hadn't found his patient
           alive.
@@ -1789,8 +1791,8 @@
             ref="#Nachtigall">
             Nachtigall
           </rs> in his turn, <said aloud="true" direct="false"
-            who="Nachtigall" listener="Fridolin"> explained that he had spent the time as a pianist
-          in every possible sort of Polish, Roumanian, Serbian and Bulgarian city and town, just as <rs
+            who="Nachtigall" toWhom="Fridolin"> explained that he had spent the time as a pianist in
+          every possible sort of Polish, Roumanian, Serbian and Bulgarian city and town, just as <rs
               ref="#Fridolin">
               Fridolin
             </rs> had surmised. He had a wife and four
@@ -1803,7 +1805,7 @@
           really a sort of bowling alley, and with very doubtful patrons. . . . </said>
 					<said
             aloud="true" direct="true" who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "But if you have to
             provide for four children
             and a wife in Lemberg"—he laughed again, though not quite as gaily as before, and added:
@@ -1813,13 +1815,13 @@
             Fridolin
           </rs> 's face, he continued: <said aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "Not just in the houses
             of bankers
             and such, but in all kinds of circles, even larger ones, both public and secret."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "Secret?
           </said> " <rs ref="#Fridolin">
             Fridolin
@@ -1827,35 +1829,35 @@
             Nachtigall
           </rs> looked straight before him with a gloomy and
           crafty air, and said: <said aloud="true" direct="true" who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "They will be calling
             for me
             again in a minute."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "What, are you playing
             somewhere else tonight?"
           </said>
 					<said
-            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+            aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "Yes, they only begin
             there at two."
           </said>
 					<said
             aloud="true"
-            direct="true" who="Fridolin" listener="Nachtigall">
+            direct="true" who="Fridolin" toWhom="Nachtigall">
             "It must be an unusually
             smart place."
           </said>
 					<said
             aloud="true"
-            direct="true" who="Nachtigall" listener="Fridolin">
+            direct="true" who="Nachtigall" toWhom="Fridolin">
             "Yes and no,"
           </said> said <rs ref="#Nachtigall">
             Nachtigall
           </rs> , laughing, but he became serious again at once. <said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "Yes
             and no?"
           </said> queried <rs ref="#Fridolin">
@@ -1864,13 +1866,13 @@
             Nachtigall
           </rs> bent across the table. <said aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "I'm playing tonight in
             a private house, but I
             don't know whose it is."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "Then you're playing
             there for the first time?"
           </said>
@@ -1878,36 +1880,36 @@
             ref="#Fridolin">
             Fridolin
           </rs> asked with increasing interest. <said aloud="true"
-            direct="true" who="Nachtigall" listener="Fridolin">
+            direct="true" who="Nachtigall" toWhom="Fridolin">
             "No, it's the third
             time, but it will
             probably be a different house again."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "I don't understand."
           </said>
 					<said aloud="true" direct="true"
             who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Neither do I,"
           </said> said <rs ref="#Nachtigall">
             Nachtigall
           </rs> , laughing, <said aloud="true" direct="true"
             who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "but you'd better not
             ask any more."
           </said>
 					<said
             aloud="true"
-            direct="true" who="Fridolin" listener="Nachtigall">
+            direct="true" who="Fridolin" toWhom="Nachtigall">
             "Oh, I
             see,"
           </said> remarked <rs ref="#Fridolin">
           Fridolin
           </rs> . <said aloud="true" direct="true" who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "No, you're wrong. It's
             not what you think. I've seen a
             great deal in my time. It's unbelievable what one sees in such small towns, especially
@@ -1915,18 +1917,18 @@
             Roumania, but here . . ."
           </said>
           He drew back the yellow curtain from the window, looked out on the street and said as if
-          to himself: <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+          to himself: <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "Not here yet."
           </said> Then he turned to <rs ref="#Fridolin">
           Fridolin
           </rs> and explained: <said aloud="true" direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "I mean the carriage.
             There's always a
             carriage to call for me, a different one each time."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall"> "You're making me very
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "You're making me very
           curious, <rs ref="#Nachtigall">
               Nachtigall
             </rs> ," </said>
@@ -1934,61 +1936,61 @@
             Fridolin
           </rs> assured him. <said aloud="true" direct="true"
             who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Listen to me,"
           </said> said <rs ref="#Nachtigall">
             Nachtigall
           </rs> after a slight pause. <said aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "I'd like
             to be able to arrange it—'but how can I do it—"
           </said>
           Suddenly he burst out: <said aloud="true" direct="true" who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Have you got
             plenty of nerve?"
           </said>
 					<said
             aloud="true"
             direct="true"
-            who="Fridolin" listener="Nachtigall">
+            who="Fridolin" toWhom="Nachtigall">
             "That's a strange
             question,"
           </said> said <rs
             ref="#Fridolin">
             Fridolin
           </rs> in the tone of an offended fraternity student. <said
-            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+            aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "I don't
             mean that."
           </said>
 					<said aloud="true"
             direct="true"
-            who="Fridolin" listener="Nachtigall">
+            who="Fridolin" toWhom="Nachtigall">
             "Well, what do you
             mean?—Why does one need so much courage for this affair?
             What can possibly happen?"
           </said>
           He gave a short and contemptuous laugh. <said aloud="true" direct="true" who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Nothing can happen to
             me. At best this would be the last time—but perhaps that may be the case anyhow."
           </said>
           He stopped and looked out again through the crevice in the curtain. <said aloud="true"
-            direct="true" who="Fridolin" listener="Nachtigall">
+            direct="true" who="Fridolin" toWhom="Nachtigall">
             "Well, then where's the
             difficulty?"
           </said>
 					<said
             aloud="true"
-            direct="true" who="Nachtigall" listener="Fridolin">
+            direct="true" who="Nachtigall" toWhom="Fridolin">
             "What did you say?"
           </said> asked <rs ref="#Nachtigall">
           Nachtigall
           </rs> , as if coming out of a dream. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="Nachtigall">
+            direct="true" who="Fridolin" toWhom="Nachtigall">
             "Tell me the rest of the
             story, now that you've started. A secret party?
             Closed affair? Nothing but invited guests?"
@@ -1996,32 +1998,32 @@
         </p>
         <!-- [START ERICA PART 2] -->
         <p>
-          <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+          <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "I don't know. The
             last time there were thirty people, and the first time only sixteen."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "A ball?"
           </said>
 					<said aloud="true" direct="true"
             who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Of course, a ball."
           </said> He seemed to be sorry he had spoken
           of the matter at all. <said aloud="true" direct="true" who="Fridolin"
-            listener="Nachtigall">
+            toWhom="Nachtigall">
             "And you're furnishing the music for the occasion?"
           </said>
 					<said
             aloud="true"
-            direct="true" who="Nachtigall" listener="Fridolin">
+            direct="true" who="Nachtigall" toWhom="Fridolin">
             "What do you mean—for
             the occasion? I don't know for what occasion. I simply play—with bandaged
             eyes."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall"> " <rs ref="#Nachtigall"
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> " <rs ref="#Nachtigall"
               type="character">
               Nachtigall
             </rs> , what do you mean?" </said>
@@ -2031,25 +2033,25 @@
             Nachtigall
           </rs> sighed a little and continued: <said
             aloud="true"
-            direct="true" who="Nachtigall" listener="Fridolin">
+            direct="true" who="Nachtigall" toWhom="Fridolin">
             "Unfortunately my eyes
             are not completely bandaged, so that
             I can occasionally see something. I can see through the black silk handkerchief over my
           eyes in the mirror
             opposite. . . ."
           </said>
-          And he stopped. <said aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+          And he stopped. <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "In other words,"
           </said> said Fridolin impatiently and
           contemptuously, but feeling strangely excited, <said aloud="true" direct="true"
             who="Fridolin"
-            listener="Nachtigall">
+            toWhom="Nachtigall">
             "naked
             females."
           </said>
 					<said aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "Don't
             say females,"
           </said> replied <rs
@@ -2058,7 +2060,7 @@
             Nachtigall
           </rs> in an offended tone, <said aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "you
             never saw such women."
           </said>
@@ -2068,17 +2070,17 @@
             Fridolin
           </rs> hemmed and hawed a little. <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Nachtigall">
+            who="Fridolin" toWhom="Nachtigall">
             "And
             what's the price of admission?"
           </said> he
           asked casually. <said
-            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+            aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "Do you mean tickets and such? There are none."
           </said>
 					<said
             aloud="true"
-            direct="true" who="Fridolin" listener="Nachtigall">
+            direct="true" who="Fridolin" toWhom="Nachtigall">
             "Well, how does one gain
             admittance?"
           </said> asked <rs
@@ -2087,35 +2089,35 @@
             Fridolin
           </rs> with compressed lips and tapping on the table with
           his fingers. <said
-            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+            aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "You have to know the password, and it's a new one
             each time."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "And
             what's the one for tonight?"
           </said>
 					<said
             aloud="true"
-            direct="true" who="Nachtigall" listener="Fridolin">
+            direct="true" who="Nachtigall" toWhom="Fridolin">
             "I don't know yet. I'll only find out from the coachman."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "Take me along,
             Nachtigall."
           </said>
 					<said
             aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "Impossible.
             It's too dangerous."
           </said>
 					<said
             aloud="true"
-            direct="true" who="Fridolin" listener="Nachtigall">
+            direct="true" who="Fridolin" toWhom="Nachtigall">
             "But a minute ago you yourself spoke ... of being willing to ... I
             think you can manage all right."
           </said>
@@ -2125,7 +2127,7 @@
             Nachtigall
           </rs> looked at him critically and said: <said
             aloud="true"
-            direct="true" who="Nachtigall" listener="Fridolin">
+            direct="true" who="Nachtigall" toWhom="Fridolin">
             "It would be absolutely
             impossible in your street clothes,
             for everyone is masked, men and women. As you haven't a masquerade outfit with you, it's
@@ -2133,7 +2135,7 @@
             question. Perhaps the next time. I'll try to figure out some way."
           </said>
           He listened attentively, peered again through the opening in the curtain and said with a
-          sigh of relief: <said aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+          sigh of relief: <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
           "There's my carriage,
             good-bye."
           </said>
@@ -2143,44 +2145,44 @@
             Fridolin
           </rs> hung on to his arm and said: <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Nachtigall">
+            who="Fridolin" toWhom="Nachtigall">
             "You can't get away that
             way. You've got to take me along."
           </said>
 					<said
-            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+            aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "But my dear man . . ."
           </said>
 					<said aloud="true" direct="true"
             who="Fridolin"
-            listener="Nachtigall">
+            toWhom="Nachtigall">
             "Leave it to me. I know that it's dangerous.
             Perhaps that's the very thing that tempts me."
           </said>
 					<said
-            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+            aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "But I've already told you—without costume and
             mask———"
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall">
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
             "There
             are places to rent costumes."
           </said>
 					<said
             aloud="true"
-            direct="true" who="Nachtigall" listener="Fridolin">
+            direct="true" who="Nachtigall" toWhom="Fridolin">
             "At one o'clock in the morning?"
           </said>
 					<said aloud="true"
             direct="true"
-            who="Fridolin" listener="Nachtigall"> "Listen here, <rs ref="#Nachtigall"
+            who="Fridolin" toWhom="Nachtigall"> "Listen here, <rs ref="#Nachtigall"
               type="character">
               Nachtigall
             </rs> . There's just such a place at the corner
           of Wickenburg Strasse. I walk past it several times a day." </said> And he added, with
           growing excitement: <said
-            aloud="true" direct="true" who="Fridolin" listener="Nachtigall"> "You stay here for
+            aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "You stay here for
           another quarter of an hour, <rs ref="#Nachtigall" type="character">
               Nachtigall
             </rs> . In the meantime I'll see what luck I
@@ -2238,7 +2240,7 @@
             Herr Gibiser
           </rs> remarked, almost disdainfully: <said
             aloud="true"
-            direct="true" who="Gibiser" listener="Fridolin">
+            direct="true" who="Gibiser" toWhom="Fridolin">
             "I ask a fair price, no more."
           </said>
         </p>
@@ -2258,13 +2260,13 @@
             Herr Gibiser
           </rs> followed him. Finally he asked: <said
             aloud="true"
-            direct="true" who="Gibiser" listener="Fridolin">
+            direct="true" who="Gibiser" toWhom="Fridolin">
             "Is
             there anything special you want? Louis Quatorze, Directoire, or Old-German?
           </said>
         </p>
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">
+          <said aloud="true" direct="true" who="Fridolin" toWhom="Gibiser">
             "I need a dark cassock
             and a black mask, that's all."
           </said>
@@ -2294,7 +2296,7 @@
             type="character">
             Fridolin
           </rs> : <said aloud="true" direct="true" who="Gibiser"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Hold on to that girl
             for me."
           </said> The child
@@ -2305,20 +2307,20 @@
           was covered with powder and several beauty spots, and a fragrance of roses and powder
           arose from her delicate breasts. There was a smile of impish desire in her eyes. </p>
         <p>
-          <said aloud="true" direct="true" who="Gibiser" listener="Gentlemen">
+          <said aloud="true" direct="true" who="Gibiser" toWhom="Gentlemen">
             "Gentlemen,"
           </said> cried <rs ref="#Gibiser" type="character">
           Gibiser
           </rs> , <said aloud="true" direct="true" who="Gibiser"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "you will stay here while I call the police."
           </said>
 					<said
             aloud="true"
-            direct="true" who="Gentlemen" listener="Gibiser">
+            direct="true" who="Gentlemen" toWhom="Gibiser">
             "What's got into you?"
           </said> they exclaimed, and continued as
-          if with one voice: <said aloud="true" direct="true" who="Gentlemen" listener="Gibiser">
+          if with one voice: <said aloud="true" direct="true" who="Gentlemen" toWhom="Gibiser">
             "We were invited by the
             young lady."
           </said>
@@ -2330,7 +2332,7 @@
             type="character">
             Fridolin
           </rs> heard him saying: <said aloud="true" direct="true"
-            who="Gibiser" listener="Gentlemen">
+            who="Gibiser" toWhom="Gentlemen">
             "You will have to explain this.
             Couldn't you see
             that the girl was deranged?"
@@ -2339,14 +2341,14 @@
             Fridolin
           </rs> , he said: <said aloud="true" direct="true"
             who="Gibiser"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Sorry
             to keep you waiting."
           </said>
 					<said
             aloud="true"
             direct="true"
-            who="Fridolin" listener="Gibiser">
+            who="Fridolin" toWhom="Gibiser">
             "Oh, it doesn't matter,"
           </said> said <rs ref="#Fridolin"
             type="character">
@@ -2360,24 +2362,24 @@
           Fridolin
           </rs> and asked in a matter-of-fact way: <said
             aloud="true"
-            direct="true" who="Gibiser" listener="Fridolin">
+            direct="true" who="Gibiser" toWhom="Fridolin">
             "You wanted a cassock, a
             pilgrim's hat and a mask?"
           </said>
 					<said
-            aloud="true" direct="true" who="Pierrette" listener="Gibiser">
+            aloud="true" direct="true" who="Pierrette" toWhom="Gibiser">
             "No,"
           </said> said <rs ref="#Pierrette" type="character">
           Pierrette
           </rs> with gleaming eyes, <said aloud="true"
             direct="true"
-            who="Pierrette" listener="Gibiser">
+            who="Pierrette" toWhom="Gibiser">
             "you
             must give this gentleman a cloak lined with ermine and a
             doublet of red silk."
           </said>
 					<said
-            aloud="true" direct="true" who="Gibiser" listener="Pierrette">
+            aloud="true" direct="true" who="Gibiser" toWhom="Pierrette">
             "Don't you budge from my side,"
           </said> answered <rs
             ref="#Gibiser"
@@ -2386,12 +2388,12 @@
           </rs> . Then he pointed to a dark frock hanging between a
           medieval soldier and a Venetian Senator, and said: <said aloud="true" direct="true"
             who="Gibiser"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "That's about your size and here's the hat. Take it
             quick."
           </said>
           The two strange men protested again: <said aloud="true" direct="true" who="Gentlemen"
-            listener="Gibiser"> "You'll have to let us out at once, <rs ref="#Gibiser"
+            toWhom="Gibiser"> "You'll have to let us out at once, <rs ref="#Gibiser"
               type="character">
               Herr Chibisier
             </rs> ." </said>
@@ -2403,11 +2405,11 @@
             ref="#Gibiser" type="character">
             Gibiser
           </rs> . <said aloud="true" direct="true" who="Gibiser"
-            listener="Gentlemen">
+            toWhom="Gentlemen">
             "That's out of the question,"
           </said> replied the costumer
           scornfully. <said
-            aloud="true" direct="true" who="Gibiser" listener="Gentlemen">
+            aloud="true" direct="true" who="Gibiser" toWhom="Gentlemen">
             "You'll
             kindly wait here until I return."
           </said>
@@ -2427,7 +2429,7 @@
             Gibiser
           </rs> gave him and which he at once tried on, smelt
           strange and rather disagreeable. <said aloud="true" direct="true" who="Gibiser"
-            listener="Pierrette">
+            toWhom="Pierrette">
             "You walk down ahead of me,"
           </said>
 					<rs ref="#Gibiser"
@@ -2458,7 +2460,7 @@
             ref="#Pierrette" type="character">
             Pierrette
           </rs> : <said aloud="true" direct="true" who="Gibiser"
-            listener="Pierrette">
+            toWhom="Pierrette">
             "Go to bed at once, you depraved
             creature. I'll talk to you as soon as I've settled
             with those two upstairs."
@@ -2475,17 +2477,17 @@
             Fridolin
           </rs> out into the hallway. <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Gibiser">
+            who="Fridolin" toWhom="Gibiser">
             "Well,"
           </said> said <rs ref="#Fridolin" type="character">
           Fridolin
           </rs> , <said aloud="true" direct="true" who="Fridolin"
-            listener="Gibiser">
+            toWhom="Gibiser">
             "how much do I owe you?"
           </said>
 					<said aloud="true" direct="true"
             who="Gibiser"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Never mind, sir, you can pay when you
             return the things. I'll trust you."
           </said>
@@ -2494,29 +2496,29 @@
             Fridolin
           </rs> , however, refused to move. <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Gibiser">
+            who="Fridolin" toWhom="Gibiser">
             "Swear
             that you won't hurt that poor child,"
           </said>
           he said. <said
-            aloud="true" direct="true" who="Gibiser" listener="Fridolin">
+            aloud="true" direct="true" who="Gibiser" toWhom="Fridolin">
             "What business is it of yours?"
           </said>
 					<said aloud="true"
             direct="true"
-            who="Fridolin" listener="Gibiser">
+            who="Fridolin" toWhom="Gibiser">
             "I heard you, a minute ago,
             say that the girl was insane—and just now you called her a depraved
             creature. That sounds pretty contradictory."
           </said>
 					<said
-            aloud="true" direct="true" who="Gibiser" listener="Fridolin">
+            aloud="true" direct="true" who="Gibiser" toWhom="Fridolin">
             "Well,"
           </said> replied <rs ref="#Gibiser" type="character">
           Gibiser
           </rs> theatrically, <said aloud="true" direct="true"
             who="Gibiser"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "aren't insanity and depravity the same in the eyes of
             God?"
           </said>
@@ -2525,11 +2527,11 @@
             Fridolin
           </rs> shuddered with disgust. <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Gibiser">
+            who="Fridolin" toWhom="Gibiser">
             "Whatever it is,"
           </said> he remarked, <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Gibiser">
+            who="Fridolin" toWhom="Gibiser">
             "there are ways
             and means of attending to it. I am a doctor. We'll have
             another talk about this tomorrow."
@@ -2553,41 +2555,41 @@
             Fridolin
           </rs> at hand so promptly. <said aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "Then you did manage to get a costume?"
           </said>
 					<said aloud="true"
-            direct="true" who="Fridolin" listener="Nachtigall">
+            direct="true" who="Fridolin" toWhom="Nachtigall">
             "You can see for yourself. What's the
             password?"
           </said>
 					<said
-            aloud="true" direct="true" who="Nachtigall" listener="Fridolin">
+            aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
             "You
             insist on knowing it?"
           </said>
 					<said
             aloud="true"
             direct="true"
-            who="Fridolin" listener="Nachtigall">
+            who="Fridolin" toWhom="Nachtigall">
             "Absolutely."
           </said>
 					<said aloud="true" direct="true"
             who="Nachtigall"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Well then—it's Denmark."
           </said>
 					<said aloud="true" direct="true"
-            who="Fridolin" listener="Nachtigall">
+            who="Fridolin" toWhom="Nachtigall">
             "Are you mad, Nachtigall?"
           </said>
 					<said aloud="true"
             direct="true"
-            who="Nachtigall" listener="Fridolin">
+            who="Nachtigall" toWhom="Fridolin">
             "Why mad?"
           </said>
 					<said aloud="true" direct="true" who="Fridolin"
-            listener="Nachtigall">
+            toWhom="Nachtigall">
             "Oh, never mind—I was at
             the seashore in Denmark this summer. Get back into your carriage—but not
             too fast, so that I'll have time to take a cab over on the other side."
@@ -2618,10 +2620,10 @@
             Pierrette
           </rs> 's breasts. <said aloud="false" direct="false"
             who="Fridolin"
-            listener="Fridolin">
+            toWhom="Fridolin">
             What strange story is behind all that?
           </said> he wondered. <said
-            aloud="false" direct="false" who="Fridolin" listener="Fridolin">
+            aloud="false" direct="false" who="Fridolin" toWhom="Fridolin">
             I
             shouldn't have
             left—perhaps it was even a great mistake—I wonder where I am now.
@@ -2643,7 +2645,7 @@
           relieved to think that, if everything went well, it would be only a few hours before he
           would be back again by the beds of his patients, ready to give aid. </p>
         <p> His cab stopped. <said aloud="false"
-            direct="false" who="Fridolin" listener="Fridolin">
+            direct="false" who="Fridolin" toWhom="Fridolin">
             What if I don't get out
             at all,
           </said>
@@ -2653,7 +2655,7 @@
             Fridolin
           </rs> thought, <said aloud="false" direct="false"
             who="Fridolin"
-            listener="Fridolin"> and go back at once? But go where? To little <rs ref="#Pierrette"
+            toWhom="Fridolin"> and go back at once? But go where? To little <rs ref="#Pierrette"
               type="character">
               Pierrette
             </rs> ? To the girl in Buchfeld Strasse? Or to <rs
@@ -2662,11 +2664,11 @@
             </rs> , the daughter of the deceased? Or perhaps
           home? </said> He shuddered slightly and decided he'd rather go anywhere than home. Was it
           because it was farthest to go? <said aloud="false" direct="false" who="Fridolin"
-            listener="Fridolin">
+            toWhom="Fridolin">
             No, I can't turn back
           </said> , he thought. <said aloud="false"
             direct="false"
-            who="Fridolin" listener="Fridolin">
+            who="Fridolin" toWhom="Fridolin">
             I must go through with this, even if
             it means
             death.
@@ -2696,10 +2698,10 @@
           </rs> in dark livery, their faces covered by gray
           masks, stood on each side of him. Two voices whispered in unison: <said aloud="true"
             direct="true"
-            who="TWOServants" listener="Fridolin">
+            who="TWOServants" toWhom="Fridolin">
             "Password?"
           </said> He replied: <said aloud="true" direct="true"
-            who="Fridolin" listener="TWOServants">
+            who="Fridolin" toWhom="TWOServants">
             "Denmark."
           </said> One of them took his fur coat and disappeared
           with it into an adjoining room, while the other opened a door. <rs ref="#Fridolin"
@@ -2722,13 +2724,13 @@
           strange, heavy perfume, as of Southern gardens, scented the room. Again an arm brushed
           against him, but this time it was that of a nun. Like all the others she had a black veil
           over her face, head and neck, a blood-red mouth glowed under the black laces of the mask. <said
-            aloud="false" direct="false" who="Fridolin" listener="Fridolin">
+            aloud="false" direct="false" who="Fridolin" toWhom="Fridolin">
             Where am I?
           </said> thought <rs ref="#Fridolin" type="character">
           Fridolin
           </rs> . <said aloud="false" direct="false" who="Fridolin"
-            listener="Fridolin"> Among lunatics? Or conspirators? Is this a meeting of some
-          religious sect? Can it be that <rs ref="#Nachtigall" type="character">
+            toWhom="Fridolin"> Among lunatics? Or conspirators? Is this a meeting of some religious
+          sect? Can it be that <rs ref="#Nachtigall" type="character">
               Nachtigall
             </rs> was ordered or paid to bring along some
           stranger to be the target of their jokes? </said> But everything seemed too serious, too
@@ -2741,7 +2743,7 @@
           </rs> surrendered himself for a moment to the wondrously
           swelling melody. A soft voice suddenly whispered from behind: <said aloud="true"
             direct="true"
-            who="woman" listener="Fridolin">
+            who="woman" toWhom="Fridolin">
             "Don't turn around. There's
             still a chance for you to get away. You don't belong here. If it's discovered it will go
           hard with you."
@@ -2753,20 +2755,20 @@
           of leaving, but his curiosity, the allurement and, above all, his pride, were stronger
           than any of his misgivings. Now that I've gone this far, he thought, <said aloud="false"
             direct="false"
-            who="Fridolin" listener="Fridolin">
+            who="Fridolin" toWhom="Fridolin">
             I don't
             care
             what happens
           </said> . And
           he shook his head negatively without turning around. The voice behind him whispered: <said
             aloud="true"
-            direct="true" who="woman" listener="Fridolin">
+            direct="true" who="woman" toWhom="Fridolin">
             "I
             should feel very sorry for you."
           </said> He
           turned and looked at her. He saw the blood-red mouth glimmering under the lace. Dark eyes
           were fixed on him. <said
-            aloud="true" direct="true" who="Fridolin" listener="woman">
+            aloud="true" direct="true" who="Fridolin" toWhom="woman">
             "I shall stay,"
           </said> he said in a heroic voice which he hardly
           recognized as his own, and he looked away again. The song was now ringing through the
@@ -2832,7 +2834,7 @@
           </rs> and whispered—for no one spoke aloud, as if the
           voices, too, were to remain a secret—: <said aloud="true" direct="true"
             who="another woman"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "What is the matter? Why don't you
             dance?"
           </said>
@@ -2847,33 +2849,33 @@
           who had already warned him. She pretended that she had just seen him and whispered, in a
           voice loud enough to be heard in the other corner: <said aloud="true" direct="true"
             who="woman"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Returned at last!"
           </said> Laughingly, she continued: <said
             aloud="true"
-            direct="true" who="woman" listener="Fridolin">
+            direct="true" who="woman" toWhom="Fridolin">
             "All your
             efforts are useless. I know you."
           </said>
           Then turning to the woman with the boyish figure, she said: <said aloud="true"
             direct="true" who="woman"
-            listener="another woman">
+            toWhom="another woman">
             "Let
             me have
             him for just two minutes, then he shall be yours again until morning, if you wish."
           </said>
           In a softer voice she added: <said aloud="true" direct="true" who="woman"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "It is really he."
           </said> The other replied in astonishment: <said
-            aloud="true" direct="true" who="another woman" listener="woman">
+            aloud="true" direct="true" who="another woman" toWhom="woman">
             "Really?"
           </said> and with a light step went to join the
           cavaliers in the corner. Alone with <rs ref="#Fridolin" type="character">
             Fridolin
           </rs> , the woman cautioned him, <said aloud="true"
             direct="true"
-            who="woman" listener="Fridolin">
+            who="woman" toWhom="Fridolin">
             "Don't ask questions, and don't be
             surprised at
             anything. I tried to lead them astray, but you can't continue to deceive them for long.
@@ -2883,49 +2885,49 @@
             must know who you are. There would be no more peace and quiet for you. Go!"
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="woman">
+            aloud="true" direct="true" who="Fridolin" toWhom="woman">
             "Will I see you again?"
           </said>
 					<said aloud="true" direct="true"
             who="woman"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "It's impossible."
           </said>
 					<said aloud="true" direct="true"
             who="Fridolin"
-            listener="woman">
+            toWhom="woman">
             "Then I shall stay."
           </said>
 					<said aloud="true" direct="true"
             who="Fridolin"
-            listener="woman">
+            toWhom="woman">
             "My life, at most, is at
             stake,"
           </said> he said, <said
             aloud="true"
-            direct="true" who="Fridolin" listener="woman">
+            direct="true" who="Fridolin" toWhom="woman">
             "and
             I'm ready at this moment to give it for you."
           </said>
           He took her hands and tried to draw her to him. She whispered again, almost despairingly: <said
-            aloud="true" direct="true" who="woman" listener="Fridolin">
+            aloud="true" direct="true" who="woman" toWhom="Fridolin">
             "Go!"
           </said> He laughed, and he heard himself laughing as in a
           dream. <said
-            aloud="true" direct="true" who="Fridolin" listener="woman">
+            aloud="true" direct="true" who="Fridolin" toWhom="woman">
             "But I know
             what I'm doing. You are not all
             here just to make us mad by looking at you. You are doing this to unnerve me still
             more."
           </said>
 					<said
-            aloud="true" direct="true" who="woman" listener="Fridolin">
+            aloud="true" direct="true" who="woman" toWhom="Fridolin">
             "It will
             soon
             be too late. You must go!"
           </said>
           But he wouldn't listen to her. <said aloud="true" direct="true" who="Fridolin"
-            listener="woman">
+            toWhom="woman">
             "Do you mean to say that there are no
             rooms here for the convenience
             of congenial couples? Will all these people leave with just a courteous 'good-bye'? They
@@ -2936,24 +2938,24 @@
           yellow silk of their partners, circling, in the brilliant, mirrored room adjoining, to the
           wild tunes of the piano. It seemed to him that no longer was any attention paid to him and
           the woman beside him. They stood alone in the semi-dark middle room. <said aloud="true"
-            direct="true" who="woman" listener="Fridolin">
+            direct="true" who="woman" toWhom="Fridolin">
             "You are hoping in vain,"
           </said> she whispered. <said
             aloud="true"
-            direct="true" who="woman" listener="Fridolin">
+            direct="true" who="woman" toWhom="Fridolin">
             "There are
             no such rooms here. This is your last opportunity
             to leave."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="woman">
+            aloud="true" direct="true" who="Fridolin" toWhom="woman">
             "Come
             with me!"
           </said> She shook her head
           violently, despairingly. .. He laughed again, not recognizing his laughter. <said
             aloud="true"
             direct="true"
-            who="Fridolin" listener="woman">
+            who="Fridolin" toWhom="woman">
             "You're
             making game of me. Did all these men and
             women come here merely to fan the flames of their desire and then depart? Who can forbid
@@ -2962,11 +2964,11 @@
           </said>
           She took a deep breath and drooped her head. <said aloud="true" direct="true"
             who="Fridolin"
-            listener="woman">
+            toWhom="woman">
             "Oh, now I understand,"
           </said> he said. <said aloud="true"
             direct="true"
-            who="Fridolin" listener="woman">
+            who="Fridolin" toWhom="woman">
             "That's the
             punishment you impose on those who come here
             uninvited. You couldn't have invented a more cruel one. Please let me off and forgive
@@ -2974,7 +2976,7 @@
             other penalty, anything but that I must leave you."
           </said>
 					<said
-            aloud="true" direct="true" who="woman" listener="Fridolin">
+            aloud="true" direct="true" who="woman" toWhom="Fridolin">
             "You are mad. I can't go with you, let
             alone anyone else. Whomever I went with would forfeit his life
             and mine."
@@ -2989,23 +2991,23 @@
           was intoxicated with himself, with his boldness, the change he felt in himself, and he
           touched the veil which was wound about her head, as though he intended to remove it. She
           seized his hands. <said
-            aloud="true" direct="true" who="woman" listener="Fridolin">
+            aloud="true" direct="true" who="woman" toWhom="Fridolin">
             "One night during the dance here one of the men took it into his
             head to tear the
             veil from one of us. They ripped the mask from his face and drove him out with whips."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="woman">
+            aloud="true" direct="true" who="Fridolin" toWhom="woman">
             "And—she?"
           </said>
 					<said aloud="true" direct="true" who="woman"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Did you read of a beautiful
             young girl, only a few weeks ago, who took poison the day before her
             wedding?"
           </said>
           He remembered the incident, even the name, and mentioned it. <said aloud="true"
-            direct="true" who="Fridolin" listener="woman">
+            direct="true" who="Fridolin" toWhom="woman">
             "Wasn't it a girl of the
             nobility who
             was engaged to marry an Italian Prince?"
@@ -3037,7 +3039,7 @@
           carry out his plan. At this moment, however, a voice whispered beside him: <said
             aloud="true"
             direct="true" who="cavalier"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Password!"
           </said> A <rs ref="#cavalier" type="character">
           cavalier
@@ -3047,12 +3049,12 @@
             Fridolin
           </rs> didn't reply, he repeated his question. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="cavalier">
+            direct="true" who="Fridolin" toWhom="cavalier">
             "Denmark,"
           </said> said <rs ref="#Fridolin" type="character">
           Fridolin
           </rs> . <said aloud="true" direct="true" who="cavalier"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "That's
             right, sir, that's the password for admittance, but what's the password of the house,
             may I
@@ -3063,7 +3065,7 @@
             Fridolin
           </rs> was silent. <said aloud="true" direct="true"
             who="cavalier"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Won't you be kind enough
             to tell me the password of the house?"
           </said>
@@ -3073,18 +3075,18 @@
           middle of the room and raised his hand. The piano ceased playing and the dance stopped.
           Two other cavaliers, one in yellow, the other in red, stepped up. <said aloud="true"
             direct="true"
-            who="cavaliers" listener="Fridolin">
+            who="cavaliers" toWhom="Fridolin">
             "The password, sir,"
           </said> they said simultaneously. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="cavalier">
+            direct="true" who="Fridolin" toWhom="cavalier">
             "I have forgotten it,"
           </said> replied <rs ref="#Fridolin"
             type="character">
             Fridolin
           </rs> with a vacant smile but feeling quite calm. <said
             aloud="true"
-            direct="true" who="YellowGentlemen" listener="Fridolin">
+            direct="true" who="YellowGentlemen" toWhom="Fridolin">
             "That's
             unfortunate,"
           </said> said the <rs
@@ -3092,7 +3094,7 @@
             type="character">
             gentleman
           </rs> in yellow, <said aloud="true" direct="true"
-            who="YellowGentlemen" listener="Fridolin">
+            who="YellowGentlemen" toWhom="Fridolin">
             "for here
             it doesn't matter whether you have
             forgotten it or if you never knew it."
@@ -3102,7 +3104,7 @@
             Fridolin
           </rs> stood alone in the garb of a monk in the midst of
           the gay-colored cavaliers. <said aloud="true" direct="true" who="gentlemen"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Take off your mask!"
           </said> several of them demanded. <rs
             ref="#Fridolin"
@@ -3112,7 +3114,7 @@
           thousand times worse to be the only one unmasked amongst so many that were, than to stand
           suddenly naked amongst people who were dressed. He replied firmly: <said aloud="true"
             direct="true"
-            who="Fridolin" listener="gentlemen">
+            who="Fridolin" toWhom="gentlemen">
             "If my
             appearance here has
             offended any of the gentlemen present, I am ready to give satisfaction in the usual
@@ -3120,7 +3122,7 @@
             take off my mask only if all of you will do the same."
           </said>
 					<said
-            aloud="true" direct="true" who="RedCavalier" listener="Fridolin">
+            aloud="true" direct="true" who="RedCavalier" toWhom="Fridolin">
             "It's not a question of
             satisfaction,"
           </said> said
@@ -3129,13 +3131,13 @@
             cavalier
           </rs> in red, who until now had not spoken, <said
             aloud="true"
-            direct="true" who="RedCavalier" listener="Fridolin">
+            direct="true" who="RedCavalier" toWhom="Fridolin">
             "but one of
             expiation."
           </said>
 					<said aloud="true"
             direct="true"
-            who="unkown" listener="Fridolin">
+            who="unknown" toWhom="Fridolin">
             "Take
             off your mask!"
           </said> commanded another in a
@@ -3143,19 +3145,19 @@
             Fridolin
           </rs> of an officer giving orders, <said aloud="true"
             direct="true"
-            who="unkown" listener="Fridolin">
+            who="unknown" toWhom="Fridolin">
             "and we'll tell you to your
             face what's in store for you."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="gentlemen">
+            aloud="true" direct="true" who="Fridolin" toWhom="gentlemen">
             "I shall not take it off,"
           </said> said <rs ref="#Fridolin"
             type="character">
             Fridolin
           </rs> in an even sharper tone, <said aloud="true"
             direct="true"
-            who="Fridolin" listener="gentlemen">
+            who="Fridolin" toWhom="gentlemen">
             "and woe to him who dares to touch me."
           </said> A hand suddenly
           reached out, as if to tear off the mask, when a door suddenly opened and one of the women— <rs
@@ -3165,13 +3167,13 @@
           dressed as a nun, as he had first seen her. The others could be seen behind her in the
           brilliantly lighted room, naked, with veiled faces, crowding together in a terrified
           group. The door at once closed again. <said aloud="true" direct="true" who="woman"
-            listener="gentlemen">
+            toWhom="gentlemen">
             "Leave him alone,"
           </said> said the <rs ref="woman"
             type="character">
             nun
           </rs> . <said aloud="true" direct="true" who="woman"
-            listener="gentlemen">
+            toWhom="gentlemen">
             "I am ready to
             redeem him."
           </said> There was a
@@ -3183,17 +3185,17 @@
             Fridolin
           </rs> turned to the nun, saying: <said aloud="true"
             direct="true"
-            who="cavaliers" listener="Fridolin">
+            who="cavaliers" toWhom="Fridolin">
             "You know
             what you are
             taking upon yourself in doing this."
           </said>
 					<said
-            aloud="true" direct="true" who="Fridolin" listener="cavalier">
+            aloud="true" direct="true" who="Fridolin" toWhom="cavalier">
             "I know."
           </said> There was a general sigh of relief from those
           present. <said
-            aloud="true" direct="true" who="cavalier" listener="Fridolin">
+            aloud="true" direct="true" who="cavalier" toWhom="Fridolin">
             "You
             are free,"
           </said> said the <rs ref="cavalier"
@@ -3202,7 +3204,7 @@
           </rs> to <rs ref="#Fridolin" type="character">
             Fridolin
           </rs> . <said aloud="true" direct="true" who="cavaliers"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "Leave this house at once and be careful not to inquire
             further into what you have seen here. If you attempt to put anyone on our trail, whether
           you succeed or
@@ -3212,7 +3214,7 @@
             ref="#Fridolin" type="character">
             Fridolin
           </rs> stood motionless. <said aloud="true" direct="true"
-            who="Fridolin" listener="gentlemen">
+            who="Fridolin" toWhom="gentlemen">
             "How is
             this woman—to redeem me?"
           </said> he asked.
@@ -3221,13 +3223,13 @@
             Fridolin
           </rs> shook his head. <said aloud="true" direct="true"
             who="Fridolin"
-            listener="gentlemen">
+            toWhom="gentlemen">
             "Impose what
             punishment you wish, gentlemen, I won't let this woman pay
             for me."
           </said>
 					<said
-            aloud="true" direct="true" who="cavalier" listener="Fridolin">
+            aloud="true" direct="true" who="cavalier" toWhom="Fridolin">
             "You
             would be unable, in any case, to change her lot,"
           </said>
@@ -3236,7 +3238,7 @@
             cavalier
           </rs> in black said very gently. <said aloud="true"
             direct="true"
-            who="cavalier" listener="Fridolin">
+            who="cavalier" toWhom="Fridolin">
             "When a
             promise has been made here there is no turning back."
           </said>
@@ -3244,16 +3246,16 @@
             nun
           </rs> slowly nodded, as if to confirm the statement. <said
             aloud="true"
-            direct="true" who="woman" listener="Fridolin">
+            direct="true" who="woman" toWhom="Fridolin">
             "Go!"
           </said> she said to <rs ref="#Fridolin" type="character">
           Fridolin
           </rs> . <said aloud="true" direct="true" who="Fridolin"
-            listener="woman">
+            toWhom="woman">
             "No,"
           </said> replied the latter, elevating his voice. <said
             aloud="true"
-            direct="true" who="Fridolin" listener="woman">
+            direct="true" who="Fridolin" toWhom="woman">
             "Life means nothing to me if
             I must leave here without
             you. I shall not ask who you are or where you come from. What difference can it make to
@@ -3268,19 +3270,19 @@
           the consequences."
           </said>
 					<said
-            aloud="true" direct="true" who="woman" listener="Fridolin">
+            aloud="true" direct="true" who="woman" toWhom="Fridolin">
             "Don't
             do it,"
           </said> exclaimed the <rs ref="woman"
             type="character">
             nun
           </rs> , <said aloud="true" direct="true" who="woman"
-            listener="Fridolin">
+            toWhom="Fridolin">
             "you would only ruin yourself without
             saving me. Go!"
           </said>
           Then she turned to the others, saying: <said aloud="true" direct="true" who="woman"
-            listener="gentlemen">
+            toWhom="gentlemen">
             "Here I am, take me—all of you!"
           </said> The dark costume dropped
           from her, as if by magic. She stood there in the radiance of her white body; reached for
@@ -3300,7 +3302,7 @@
           mourning-coach drove up from the street below, as though he had called it. A servant
           opened the door. </p>
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="servant">
+          <said aloud="true" direct="true" who="Fridolin" toWhom="servant">
             "I have my own cab,"
           </said> said <rs ref="#Fridolin"
             type="character">
@@ -3311,7 +3313,7 @@
             Fridolin
           </rs> continued: <said aloud="true" direct="true"
             who="Fridolin"
-            listener="servant">
+            toWhom="servant">
             "If it has
             already gone, I'll walk back to the city."
           </said>
@@ -3391,7 +3393,7 @@
             Fridolin
           </rs> got ready for an attack, but the tramp
           unexpectedly turned and ran. <said aloud="false" direct="false" who="Fridolin"
-            listener="Fridolin">
+            toWhom="Fridolin">
             What does that mean?
           </said> he asked himself. Then he decided
           that he must present a very uncanny appearance, took off the pilgrim's hat and buttoned
@@ -3480,23 +3482,24 @@
           difficulty. She stared at him, as though she did not recognize him.</p>
 
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="Albertina">"Albertina!"</said>
-          he cried for the third time. As she gained consciousness, an expression of fear, even of
+          <said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"Albertina!"</said> he
+          cried for the third time. As she gained consciousness, an expression of fear, even of
           terror came into her eyes. Half awake, and seemingly in despair, she raised her arms.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"What's the matter?"</said>
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"What's the matter?"</said>
           asked <rs type="person" ref="#Fridolin">Fridolin</rs> with bated breath. As she still
           stared at him, terrified, he added, to reassure her: <said aloud="true" direct="true"
-            who="Fridolin" listener="Albertina">"It is I, Albertina."</said> She breathed deeply,
+            who="Fridolin" toWhom="Albertina">"It is I, Albertina."</said> She breathed deeply,
           tried to smile, dropped her arms on the bed cover and said, in a far away voice: <said
-            aloud="true" direct="true" who="Albertina" listener="Fridolin">"Is it morning yet?"</said></p>
+            aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"Is it morning yet?"</said></p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"It will be very
-          soon,"</said> replied <rs type="person" ref="#Fridolin">Fridolin</rs>, <said aloud="true"
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"It will be very
+            soon,"</said> replied <rs type="person" ref="#Fridolin">Fridolin</rs>, <said
+            aloud="true"
             direct="true"
-            who="Fridolin" listener="Albertina">"it's past four o'clock. I've just come home."</said>
+            who="Fridolin" toWhom="Albertina">"it's past four o'clock. I've just come home."</said>
           She was silent and he continued: <said aloud="true" direct="true" who="Fridolin"
-            listener="Albertina">"The Councilor is dead. He was dying when I arrived, and naturally
+            toWhom="Albertina">"The Councilor is dead. He was dying when I arrived, and naturally
             I couldn't—leave
             immediately."</said></p>
 
@@ -3506,41 +3509,41 @@
           same time
           the idea seemed ridiculous. He bent down and touched her forehead. She shuddered slightly.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"What's the matter?"</said>
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"What's the matter?"</said>
           he asked again.</p>
 
         <p>She shook her head slowly and he passed his hand gently over her hair. <said aloud="true"
-            direct="true" who="Fridolin" listener="Albertina">"Albertina, what's the matter?"</said></p>
+            direct="true" who="Fridolin" toWhom="Albertina">"Albertina, what's the matter?"</said></p>
 
-        <p><said aloud="true" direct="true" who="Albertina" listener="Fridolin">"I've been
+        <p><said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"I've been
             dreaming,"</said> she said distantly.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"What have you been
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"What have you been
           dreaming?"</said> he asked mildly.</p>
 
         <p>
-          <said aloud="true" direct="true" who="Albertina" listener="Fridolin">"Oh, so much, I can't
+          <said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"Oh, so much, I can't
             quite remember."</said>
         </p>
 
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="Albertina">"Perhaps if you try?"</said>
+          <said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"Perhaps if you try?"</said>
         </p>
 
         <p>
-          <said aloud="true" direct="true" who="Albertina" listener="Fridolin">"It was all so
+          <said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"It was all so
             confused—and I'm tired. You must be tired, too."</said>
         </p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"Not in the least. I
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"Not in the least. I
           don't think I shall go to bed at all. You know, when I come home so late—it would really
             be
             best to sit right down to my desk—it's just in such morning hours—"</said> He
-          interrupted himself. <said aloud="true" direct="true" who="Fridolin" listener="Albertina">"Wouldn't
+          interrupted himself. <said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"Wouldn't
           it
             be better if you told me your dream?"</said> He smiled a little unnaturally.</p>
 
-        <p>She replied: <said aloud="true" direct="true" who="Albertina" listener="Fridolin">"You
+        <p>She replied: <said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"You
           really
             ought to lie down and take a little rest."</said></p>
 
@@ -3556,18 +3559,18 @@
           looked at her for a long time, as though he could see much more than just the outlines of
           her face.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"Your dream!"</said>
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"Your dream!"</said>
           he hinted, once more. She must just have been waiting for him to speak. She held out her
           hand to him, he took it and, more absent-mindedly than tenderly, clasped his hand about
           her slender fingers, as he had often done before. She began: <said aloud="true"
             direct="true"
-            who="Albertina" listener="Fridolin">"Do you still remember the room in the little villa
-          on Lake Worther, where I lived with Mother and Father the summer we became engaged?"</said></p>
+            who="Albertina" toWhom="Fridolin">"Do you still remember the room in the little villa
+            on Lake Worther, where I lived with Mother and Father the summer we became engaged?"</said></p>
 
         <p>He nodded.</p>
 
         <p>
-          <said aloud="true" direct="true" who="Albertina" listener="Fridolin">"Well, it was there
+          <said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"Well, it was there
             the
             dream began. I was entering this house, like an actress stepping onto the
             stage—I don't know where I came from. My parents seemed to have gone on a journey and
@@ -3605,15 +3608,15 @@
             ceiling of our bridal-chamber. You took me into your arms and loved me very much."</said>
         </p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"I hope you loved
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"I hope you loved
             me,
             too,"</said> remarked <rs type="person" ref="#Fridolin">Fridolin</rs> with an invisible,
           malicious smile.</p>
 
-        <p><said aloud="true" direct="true" who="Albertina" listener="Fridolin">"Even more than you
-          did
+        <p><said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"Even more than you
+            did
             me,"</said> replied <rs type="person" ref="#Albertina">Albertina</rs> seriously, <said
-            aloud="true" direct="true" who="Albertina" listener="Fridolin">"but, how can I explain
+            aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"but, how can I explain
           it—in spite of the
             intensity of our happiness our love was also sad, as if filled with some presentiment of
           sorrow. Suddenly,
@@ -3678,15 +3681,15 @@
         <p>She was silent. <rs type="person" ref="#Fridolin">Fridolin</rs>'s throat was parched. In
           the darkness of the room he could see she had concealed her face in her hands.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"A strange dream,"</said>
-          he said, <said aloud="true" direct="true" who="Fridolin" listener="Albertina">"but surely
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"A strange dream,"</said>
+          he said, <said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"but surely
           that isn't the end?"</said> When she said <said aloud="true" direct="true" who="Albertina"
-            listener="Fridolin">"no,"</said> he asked: <said aloud="true" direct="true"
-            who="Fridolin" listener="Albertina">"Then why
+            toWhom="Fridolin">"no,"</said> he asked: <said aloud="true" direct="true"
+            who="Fridolin" toWhom="Albertina">"Then why
             don't you continue?"</said></p>
 
-        <p><said aloud="true" direct="true" who="Albertina" listener="Fridolin">"It's not easy,"</said>
-          she began again. <said aloud="true" direct="true" who="Albertina" listener="Fridolin">"Such
+        <p><said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"It's not easy,"</said>
+          she began again. <said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"Such
           things are difficult to express in words. Well, to go on—I
             seemed to live through countless days and nights; there was neither time nor space. I
             was no longer in
@@ -3854,30 +3857,30 @@
           They had been extremely cautious, probably with good reason.</p>
 
         <p>At the costume shop, <rs type="person" ref="#Gibiser">Herr Gibiser</rs> himself opened
-          the door. <said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"I'm bringing
+          the door. <said aloud="true" direct="true" who="Fridolin" toWhom="Gibiser">"I'm bringing
           back
             the costume I hired,"</said> said <rs type="person" ref="#Fridolin">Fridolin</rs>, <said
-            aloud="true" direct="true" who="Fridolin" listener="Gibiser">"and would like to pay my
+            aloud="true" direct="true" who="Fridolin" toWhom="Gibiser">"and would like to pay my
           bill."</said> The proprietor mentioned a moderate sum, took the money and made an entry in
           a large ledger. He looked up, evidently surprised, when <rs type="person" ref="#Fridolin">
           Fridolin</rs> made no move to leave.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"I would also like,"</said>
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Gibiser">"I would also like,"</said>
           said <rs type="person" ref="#Fridolin">Fridolin</rs> in the tone of a police magistrate, <said
-            aloud="true" direct="true" who="Fridolin" listener="Gibiser">"to have a word with you
-          about your
+            aloud="true" direct="true" who="Fridolin" toWhom="Gibiser">"to have a word with you
+            about your
             daughter."</said></p>
 
         <p>There was a peculiar expression about the nostrils of <rs type="person" ref="#Gibiser">Herr
           Gibiser</rs>—it was difficult to say whether it was displeasure, scorn or annoyance.</p>
 
-        <p><said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"What did you say?"</said>
+        <p><said aloud="true" direct="true" who="Gibiser" toWhom="Fridolin">"What did you say?"</said>
           he asked in a perfectly indefinite voice.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"Yesterday you said,"</said>
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Gibiser">"Yesterday you said,"</said>
           remarked <rs type="person" ref="#Fridolin">Fridolin</rs>, one hand with outstretched
           fingers resting on the desk, <said aloud="true" direct="true" who="Fridolin"
-            listener="Gibiser">"that
+            toWhom="Gibiser">"that
             your daughter was not quite normal mentally. The situation in which we discovered her
           actually
             indicates some such thing. And since I took part in it, or was at least a spectator, I
@@ -3888,12 +3891,12 @@
           unnaturally long pen-holder in his hand.</p>
 
         <p>
-          <said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"And I suppose the
+          <said aloud="true" direct="true" who="Gibiser" toWhom="Fridolin">"And I suppose the
             doctor
             himself would like to take charge of the treatment?"</said>
         </p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"Please don't
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Gibiser">"Please don't
           misunderstand me,"</said> replied <rs type="person" ref="#Fridolin">Fridolin</rs> in a
           sharp voice.</p>
 
@@ -3906,25 +3909,25 @@
           waved his hand to Gibiser, lighted a cigarette with a match from the desk, and left the
           apartment.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"Oh, that's how it
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Gibiser">"Oh, that's how it
             is,"</said> remarked <rs type="person" ref="#Fridolin">Fridolin</rs> with a contemptuous
           twitch of his mouth and a bitter taste on his tongue.</p>
 
-        <p><said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"What did you say?"</said>
+        <p><said aloud="true" direct="true" who="Gibiser" toWhom="Fridolin">"What did you say?"</said>
           asked Gibiser with perfect equanimity.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Gibiser">"So you have changed
-          your
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Gibiser">"So you have changed
+            your
             mind about notifying the police,"</said> said <rs type="person" ref="#Fridolin">Fridolin</rs>
           as his eyes wandered significantly from the entrance door to that of Pierrette.</p>
 
-        <p><said aloud="true" direct="true" who="Gibiser" listener="Fridolin">"We have come to
-          another
+        <p><said aloud="true" direct="true" who="Gibiser" toWhom="Fridolin">"We have come to
+            another
             agreement,"</said> remarked Gibiser coldly, and got up as though this were the end of an
           interview. He obligingly opened the door as <rs type="person" ref="#Fridolin">Fridolin</rs>
           turned to go and said, without changing his expression: <said aloud="true" direct="true"
-            who="Gibiser" listener="Fridolin">"If the doctor should want anything again ... it
-          needn't necessarily be a monk's costume."</said></p>
+            who="Gibiser" toWhom="Fridolin">"If the doctor should want anything again ... it
+            needn't necessarily be a monk's costume."</said></p>
 
         <p><rs type="person" ref="#Fridolin">Fridolin</rs> slammed the door behind him. So that is
           settled, he thought, as he hurried down the stairs with a feeling of annoyance which, even
@@ -3934,8 +3937,8 @@
           Albertina</rs> herself came to the phone to answer <rs type="person" ref="#Fridolin">
           Fridolin</rs>'s call. She repeated everything the maid had already told him, and then said
           casually that she had just got up and was going to have breakfast with the child. <said
-            aloud="true" direct="true" who="Fridolin" listener="maid">"Give her a kiss for me,"</said>
-          said Fridolin, <said aloud="true" direct="true" who="Fridolin" listener="maid">"and I hope
+            aloud="true" direct="true" who="Fridolin" toWhom="maid">"Give her a kiss for me,"</said>
+          said Fridolin, <said aloud="true" direct="true" who="Fridolin" toWhom="maid">"and I hope
           you enjoy your breakfast."</said></p>
 
         <p>It had been pleasant to hear her voice but he quickly hung up the receiver. Although he
@@ -3988,7 +3991,7 @@
           examination?</p>
 
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="Fuchstaler">"Why certainly,
+          <said aloud="true" direct="true" who="Fridolin" toWhom="Fuchstaler">"Why certainly,
             doctor."</said>
         </p>
 
@@ -4160,33 +4163,33 @@
         <p>On the steps he met <rs type="person" ref="#Roediger">Doctor Roediger</rs> who held out
           his hand cordially.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Roediger">"How is Fraulein
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Roediger">"How is Fraulein
           Marianne?"</said> asked <rs type="person" ref="#Fridolin">Fridolin</rs>, <said
             aloud="true"
-            direct="true" who="Fridolin" listener="Roediger">"is she a little more composed?"</said></p>
+            direct="true" who="Fridolin" toWhom="Roediger">"is she a little more composed?"</said></p>
 
         <p><rs type="person" ref="#Roediger">Doctor Roediger</rs> shrugged his shoulders, <said
-            aloud="true" direct="true" who="Roediger" listener="Fridolin">"She was prepared for the
-          end long enough, doctor.—Only when they came this noon to call for the corpse———"</said></p>
+            aloud="true" direct="true" who="Roediger" toWhom="Fridolin">"She was prepared for the
+            end long enough, doctor.—Only when they came this noon to call for the corpse———"</said></p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Roediger">"So that's already
-          been
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Roediger">"So that's already
+            been
             done?"</said> Doctor Roediger nodded. <said aloud="true" direct="true" who="Roediger"
-            listener="Fridolin">"The funeral will be at three o'clock tomorrow afternoon."</said></p>
+            toWhom="Fridolin">"The funeral will be at three o'clock tomorrow afternoon."</said></p>
 
         <p><rs type="person" ref="#Fridolin">Fridolin</rs> looked down. <said aloud="true"
             direct="true"
-            who="Fridolin" listener="Roediger">"I suppose— Fraulein Marianne's relatives are with
-          her?"</said></p>
+            who="Fridolin" toWhom="Roediger">"I suppose— Fraulein Marianne's relatives are with
+            her?"</said></p>
 
-        <p><said aloud="true" direct="true" who="Roediger" listener="Fridolin">"No,"</said> replied <rs
+        <p><said aloud="true" direct="true" who="Roediger" toWhom="Fridolin">"No,"</said> replied <rs
             type="person" ref="#Roediger">Doctor Roediger</rs>, "she is alone now. She will be
           pleased to see you once more, for tomorrow my mother and I are taking her to Modling."
           When <rs
             type="person" ref="#Fridolin">Fridolin</rs> raised his eyes with a politely questioning
           look, <rs type="person" ref="#Roediger">Doctor Roediger</rs> continued: <said aloud="true"
-            direct="true" who="Roediger" listener="Fridolin">"My parents have a little house out
-          there. Good-bye,
+            direct="true" who="Roediger" toWhom="Fridolin">"My parents have a little house out
+            there. Good-bye,
             doctor. I still have many things to attend to. It's unbelievable how much trouble is
           connected with such
             a—case. I hope I shall still find you upstairs when I return."</said> And as he said
@@ -4197,12 +4200,12 @@
           opened the door. She was dressed in black and had on a jet necklace which he had never
           seen before. Her face became slightly flushed.</p>
 
-        <p><said aloud="true" direct="true" who="Marianne" listener="Fridolin">"You made me wait a
-          long
+        <p><said aloud="true" direct="true" who="Marianne" toWhom="Fridolin">"You made me wait a
+            long
             time,"</said> she said, smiling feebly.</p>
 
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="Marianne">"Forgive me, Fraulein
+          <said aloud="true" direct="true" who="Fridolin" toWhom="Marianne">"Forgive me, Fraulein
             Marianne, this was a particularly busy day for me."</said>
         </p>
 
@@ -4215,14 +4218,14 @@
           Marianne offered him a seat on the black leather divan and sat down opposite him.</p>
 
         <p>
-          <said aloud="true" direct="true" who="Fridolin" listener="Marianne">"I have just met
+          <said aloud="true" direct="true" who="Fridolin" toWhom="Marianne">"I have just met
             Doctor
             Roediger. So you are going to the country tomorrow?"</said>
         </p>
 
         <p>Marianne seemed little surprised at the cool tone of his question and her shoulders
           drooped when he continued almost harshly: <said aloud="true" direct="true" who="Fridolin"
-            listener="Marianne">"I think that's very sensible."</said> And he explained in a
+            toWhom="Marianne">"I think that's very sensible."</said> And he explained in a
           matter-of-fact way what a favorable effect the good air and the new environment would have
           on her.</p>
 
@@ -4239,18 +4242,18 @@
           Fridolin</rs>. He would gladly have said something kind to her, but found it difficult to
           do so.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Marianne">"I suppose you will
-          stay
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Marianne">"I suppose you will
+            stay
             in the country for several days,"</said> he began rather awkwardly. <said aloud="true"
-            direct="true" who="Fridolin" listener="Marianne">"I hope you will
+            direct="true" who="Fridolin" toWhom="Marianne">"I hope you will
             write to me ... By the way, Doctor Roediger says the wedding is to be soon. Let me offer
           you my best
             wishes."</said></p>
 
         <p>She did not move, as though she had understood neither his congratulations nor his
           farewell. He held out his hand but she refused it, and he repeated almost reproachfully: <said
-            aloud="true" direct="true" who="Fridolin" listener="Marianne">"Well then, I sincerely
-          hope that
+            aloud="true" direct="true" who="Fridolin" toWhom="Marianne">"Well then, I sincerely
+            hope that
             you will keep me posted about your health. Good-bye, Fraulein Marianne."</said></p>
 
         <p>She sat there as if turned to stone and he left the room, stopping for a second in the
@@ -4324,38 +4327,38 @@
           Fraulein Mizzi was not at home. But before the woman had an opportunity of taking charge
           of the package for Mizzi, another woman joined them. She was still young and not
           bad-looking, and had on a sort of bath-robe. <said aloud="true" direct="true" who="woman"
-            listener="Fridolin">"Whom are you
+            toWhom="Fridolin">"Whom are you
             looking for?"</said> she said, <said aloud="true" direct="true" who="woman"
-            listener="Fridolin">"Fraulein Mizzi? Well, she won't be home again for some time."</said></p>
+            toWhom="Fridolin">"Fraulein Mizzi? Well, she won't be home again for some time."</said></p>
 
         <p>The older woman made a sign to her to keep quiet, but <rs type="person" ref="#Fridolin">
           Fridolin</rs>, anxious to confirm what he had already half guessed asked very simply: <said
             aloud="true" direct="true" who="Fridolin">"She's in the hospital, isn't she?"</said></p>
 
-        <p><said aloud="true" direct="true" who="woman" listener="Fridolin">"Well, as long as you
-          know
+        <p><said aloud="true" direct="true" who="woman" toWhom="Fridolin">"Well, as long as you
+            know
             it anyhow. But there's nothing wrong with me, thank heaven,"</said> she exclaimed
           vivaciously and stepped quite close to <rs type="person" ref="#Fridolin">Fridolin</rs>.
           Her lips were half open, and as she boldly drew up her voluptuous body the bath-robe
           parted. <rs
             type="person" ref="#Fridolin">Fridolin</rs> declined and said: <said aloud="true"
-            direct="true" who="Fridolin" listener="woman">"I was passing by and I stopped
+            direct="true" who="Fridolin" toWhom="woman">"I was passing by and I stopped
             to bring something for Mizzi."</said> He suddenly felt very young, but asked in a
-          matter-of-fact voice: <said aloud="true" direct="true" who="Fridolin" listener="woman">"In
+          matter-of-fact voice: <said aloud="true" direct="true" who="Fridolin" toWhom="woman">"In
           which
             ward is she?"</said></p>
 
         <p>The younger woman mentioned the name of a professor in whose clinic <rs type="person"
             ref="#Fridolin">Fridolin</rs> had been an assistant several years before, and added
-          good-naturedly: <said aloud="true" direct="true" who="woman" listener="Fridolin">"Just let
-          me have those packages, I'll take them to her
+          good-naturedly: <said aloud="true" direct="true" who="woman" toWhom="Fridolin">"Just let
+            me have those packages, I'll take them to her
             tomorrow. And I promise that I won't snitch any of it. I'll give her your regards too
             and tell her that
             you're still true to her."</said></p>
 
         <p>She stepped closer to him and laughed invitingly but when he drew back a little she gave
           it up at once and said, as if to console him: <said aloud="true" direct="true" who="woman"
-            listener="Fridolin">"The doctor said she'd be home in six or, at most, eight weeks."</said></p>
+            toWhom="Fridolin">"The doctor said she'd be home in six or, at most, eight weeks."</said></p>
 
         <p>When <rs type="person" ref="#Fridolin">Fridolin</rs> returned to the street he felt
           choked with tears. He knew that this was not because he was deeply affected, but because
@@ -4478,7 +4481,8 @@
           now like a deep groan. The official on duty looked up, startled, and <rs type="person"
             ref="#Fridolin">Fridolin</rs> pulled himself together and courteously took his leave. A
           minute later he stood again out-doors. The hospital park was empty except where a nurse,
-          in her blue and white uniform and cap, was walking along a near-by path. <said aloud="no"
+          in her blue and white uniform and cap, was walking along a near-by path. <said
+            aloud="false"
             direct="false" who="Fridolin">"She is dead,"</said> <rs type="person" ref="#Fridolin">
           Fridolin</rs> said to himself.—If it is she. And if it is not? If she still lives, how can
           I find her? Only too easily could <rs type="person" ref="#Fridolin">Fridolin</rs> answer
@@ -4511,83 +4515,83 @@
           an assistant in the Institute and an old fellow-student of his, was in the center of the
           room. He raised his eyes from the microscope and arose from his chair.</p>
 
-        <p><said aloud="true" direct="true" who="Adler" listener="Fridolin">"Oh, it's you,"</said>
-          he said to <rs type="person" ref="#Fridolin">Fridolin</rs>, a little annoyed, but also
-          surprised, <said aloud="true" direct="true" who="Adler" listener="Fridolin">"to what do I
-          owe the honor of
+        <p><said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Oh, it's you,"</said> he
+          said to <rs type="person" ref="#Fridolin">Fridolin</rs>, a little annoyed, but also
+          surprised, <said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"to what do I
+            owe the honor of
             your visit at such an unaccustomed hour?"</said></p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Adler">"Forgive me for
-          disturbing
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Adler">"Forgive me for
+            disturbing
             you,"</said> said <rs type="person" ref="#Fridolin">Fridolin</rs>. <said aloud="true"
-            direct="true" who="Fridolin" listener="Adler">"I see you are just in the midst of some
+            direct="true" who="Fridolin" toWhom="Adler">"I see you are just in the midst of some
           work."</said></p>
 
-        <p><said aloud="true" direct="true" who="Adler" listener="Fridolin">"Yes, I am,"</said>
+        <p><said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Yes, I am,"</said>
           replied Alder in the sharp voice which he retained from his student days. He added in a
-          lighter tone: <said aloud="true" direct="true" who="Adler" listener="Fridolin">"What else
+          lighter tone: <said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"What else
           could one
             be doing in these sacred halls at midnight? But, of course, you're not
             disturbing me in the least. What can I do for you?"</said></p>
 
         <p>When <rs type="person" ref="#Fridolin">Fridolin</rs> did not answer, he continued: <said
-            aloud="true" direct="true" who="Adler" listener="Fridolin">"That Addison case you sent
-          down to us today is still lying
+            aloud="true" direct="true" who="Adler" toWhom="Fridolin">"That Addison case you sent
+            down to us today is still lying
             over there, lovely and inviolate. Dissection tomorrow morning at eight-thirty."</said></p>
 
         <p>With a gesture <rs type="person" ref="#Fridolin">Fridolin</rs> indicated that that was
           not the reason of his visit. <rs type="person" ref="#Adler">Doctor Adler</rs> went on: <said
-            aloud="true" direct="true" who="Adler" listener="Fridolin">"Oh,then it's the pleural
-          tumor. Well, the histological examination has unmistakably shown sarcoma. So you
+            aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Oh,then it's the pleural
+            tumor. Well, the histological examination has unmistakably shown sarcoma. So you
             needn't worry about that either."</said></p>
 
         <p><rs type="person" ref="#Fridolin">Fridolin</rs> again shook his head. <said aloud="true"
-            direct="true" who="Fridolin" listener="Adler">"My visit has nothing to do with—official
+            direct="true" who="Fridolin" toWhom="Adler">"My visit has nothing to do with—official
           matters."</said></p>
 
-        <p><said aloud="true" direct="true" who="Adler" listener="Fridolin">"Well, so much the
-          better,"</said> said <rs type="person" ref="#Adler">Adler</rs>. <said aloud="true"
-            direct="true" who="ADler"
-            listener="Fridolin">"I was beginning to think that your bad conscience brought you
+        <p><said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Well, so much the
+            better,"</said> said <rs type="person" ref="#Adler">Adler</rs>. <said aloud="true"
+            direct="true" who="Adler"
+            toWhom="Fridolin">"I was beginning to think that your bad conscience brought you
             down here when all good people should be sleeping."</said></p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Adler">"It has something to do
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Adler">"It has something to do
           with
             a bad conscience, or at least with conscience in general,"</said> <rs type="person"
             ref="#Fridolin">Fridolin</rs> replied.</p>
 
         <p>
-          <said aloud="true" direct="true" who="Adler" listener="Fridolin">"Oh!"</said>
+          <said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Oh!"</said>
         </p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Adler">"Briefly, and to the
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Adler">"Briefly, and to the
           point,"</said>—he spoke in a dry, off-hand tone—<said aloud="true" direct="true"
             who="Fridolin"
-            listener="Adler">"I should like to have some information
+            toWhom="Adler">"I should like to have some information
             about a woman who died of morphine poisoning in the second clinic this evening. She is
           likely to be
             down here now, a certain Baroness Dubieski."</said> He continued more hurriedly: <said
-            aloud="true" direct="true" who="Fridolin" listener="Adler">"I have a feeling that this
+            aloud="true" direct="true" who="Fridolin" toWhom="Adler">"I have a feeling that this
             so
             called Baroness is a person I knew casually years ago, and I am interested to know if j
           am right——."</said>
-<said aloud="true" direct="true" who="Adler" listener="Fridolin">
+<said aloud="true" direct="true" who="Adler" toWhom="Fridolin">
           "Suicidium?"</said> asked <rs type="person" ref="#Adler">Adler</rs>. <rs type="person"
             ref="#Fridolin">Fridolin</rs> nodded. <said aloud="true" direct="true" who="Fridolin"
-            listener="ADler">"Yes, suicide,"</said> he translated, as though he wished to restore
-          the matter to a personal plane.</p>
+            toWhom="Adler">"Yes, suicide,"</said> he translated, as though he wished to restore the
+          matter to a personal plane.</p>
 
         <p><rs type="person" ref="#Adler">Adler</rs> jokingly pointed his finger at him. <said
-            aloud="true" direct="true" who="Adler" listener="Fridolin">"Was she unhappily in love
-          with your Excellency?"</said></p>
+            aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Was she unhappily in love
+            with your Excellency?"</said></p>
 
         <p><rs type="person" ref="#Fridolin">Fridolin</rs> was a little annoyed and answered, <said
-            aloud="true" direct="true" who="Fridolin" listener="Adler">"The suicide of the Baroness
+            aloud="true" direct="true" who="Fridolin" toWhom="Adler">"The suicide of the Baroness
           Dubieski has nothing
             whatever to do with me personally."</said></p>
 
         <p>
-          <said aloud="true" direct="true" who="Adler" listener="Fridolin">"I beg your pardon, I
+          <said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"I beg your pardon, I
             didn't mean to be indiscreet. We can see for ourselves at once. As far as I know,
             no request from the coroner has come tonight. Very likely———"</said>
         </p>
@@ -4609,7 +4613,7 @@
           face of a gray-bearded man. He immediately covered it again with the shroud. On the next
           table was the naked, emaciated body of a young man, and <rs type="person" ref="#Adler">Doctor
           Adler</rs> called out from farther down: <said aloud="true" direct="true" who="Adler"
-            listener="Fridolin">"Here's
+            toWhom="Fridolin">"Here's
             a woman between sixty and seventy, so I suppose she isn't the one either."</said></p>
 
         <p><rs type="person" ref="#Fridolin">Fridolin</rs> suddenly felt irresistibly drawn to the
@@ -4618,8 +4622,8 @@
           stretched out his hand to put the head in its proper position, but feeling a certain dread
           which, as a doctor, was otherwise unknown to him he drew back his hand. <rs type="person"
             ref="#Adler">Doctor Adler</rs> came up and, pointing to the corpses behind him, remarked
-          : <said aloud="true" direct="true" who="Adler" listener="Fridolin">"All those are out of
-          the
+          : <said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"All those are out of
+            the
             question, so it's
             probably this one?"</said> He pointed his flashlight at the woman's head. Overcoming his
           dread, <rs type="person" ref="#Fridolin">Fridolin</rs> raised it a little with his hands.
@@ -4630,8 +4634,7 @@
           character. It was dead. It could just as easily have been the face of a woman of eighteen,
           as of thirty-eight.</p>
 
-        <p><said aloud="true" direct="true" who="Adler" listener="Fridolin">"Is it she?"</said>
-          asked <rs
+        <p><said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Is it she?"</said> asked <rs
             type="person" ref="#Adler">Doctor Adler</rs>.</p>
 
         <p><rs type="person" ref="#Fridolin">Fridolin</rs> bent lower, as though he could, with his
@@ -4649,7 +4652,7 @@
 
         <p>Suddenly he heard a voice behind him whispering: <said aloud="true" direct="true"
             who="Adler"
-            listener="Fridolin">"What on earth are you doing?"</said></p>
+            toWhom="Fridolin">"What on earth are you doing?"</said></p>
 
         <p><rs type="person" ref="#Fridolin">Fridolin</rs> regained his senses instantly. He freed
           his fingers from those of the corpse, and taking her thin wrists, placed the ice-cold arms
@@ -4659,33 +4662,33 @@
           before. Doctor Adler followed in silence and locked the door behind them.</p>
 
         <p><rs type="person" ref="#Fridolin">Fridolin</rs> stepped up to the wash-basin. <said
-            aloud="true" direct="true" who="Fridolin" listener="Adler">"With your permission,"</said>
+            aloud="true" direct="true" who="Fridolin" toWhom="Adler">"With your permission,"</said>
           he said and carefully washed his hands with disinfectant. Doctor Adler seemed anxious to
           continue his interrupted work without further ceremony. He switched on his microscope
           lamp, turned the micrometer screw and looked into the microscope. When <rs type="person"
             ref="#Fridolin">Fridolin</rs> went up to him to say good-bye he was already completely
           absorbed.</p>
 
-        <p><said aloud="true" direct="true" who="Adler" listener="Fridolin">"Would you like to have
+        <p><said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Would you like to have
             a
             look at this preparation?"</said> he asked.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Adler">"Why?"</said> asked <rs
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Adler">"Why?"</said> asked <rs
             type="person" ref="#Fridolin">Fridolin</rs> absent-mindedly.</p>
 
-        <p><said aloud="true" direct="true" who="Adler" listener="Fridolin">"Well, to quiet your
+        <p><said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Well, to quiet your
           conscience,"</said> replied <rs type="person" ref="#Adler">Doctor Adler</rs>—as if he
           assumed that, after all, the purpose of Fridolin's visit had been a medical-scientific
           one.</p>
 
-        <p><said aloud="true" direct="true" who="Adler" listener="Fridolin">"Can you make it out?"</said>
+        <p><said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Can you make it out?"</said>
           he asked, as <rs type="person" ref="#Fridolin">Fridolin</rs> looked into the microscope. <said
-            aloud="true" direct="true" who="Adler" listener="Fridolin">"It's a fairly new staining
+            aloud="true" direct="true" who="Adler" toWhom="Fridolin">"It's a fairly new staining
           method."</said></p>
 
         <p><rs type="person" ref="#Fridolin">Fridolin</rs> nodded, without raising his eyes from the
-          glass. <said aloud="true" direct="true" who="Fridolin" listener="Adler">"Perfectly ideal,"</said>
-          he said, <said aloud="true" direct="true" who="Fridolin" listener="Adler">"a colorful
+          glass. <said aloud="true" direct="true" who="Fridolin" toWhom="Adler">"Perfectly ideal,"</said>
+          he said, <said aloud="true" direct="true" who="Fridolin" toWhom="Adler">"a colorful
           picture,
             one might say."</said></p>
 
@@ -4696,21 +4699,21 @@
           probably be very useful to him in some work he was planning for the next few months, and
           asked permission to come again to get more information.</p>
 
-        <p><said aloud="true" direct="true" who="Adler" listener="Fridolin">"I'm always at your
+        <p><said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"I'm always at your
           service,"</said> said <rs type="person" ref="#Adler">Doctor Adler</rs>. He accompanied <rs
             type="person" ref="#Fridolin">Fridolin</rs> over the resounding flagstones to the locked
           outer door, and opened it with his own key.</p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Adler">"You're not going yet?"</said>
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Adler">"You're not going yet?"</said>
           asked <rs type="person" ref="#Fridolin">Fridolin</rs>.</p>
 
-        <p><said aloud="true" direct="true" who="Adler" listener="Fridolin">"Of course not,"</said>
+        <p><said aloud="true" direct="true" who="Adler" toWhom="Fridolin">"Of course not,"</said>
           replied <rs type="person" ref="#Adler">Doctor Adler</rs>. <said aloud="true" direct="true"
-            who="Adler" listener="Fridolin">"These are the very best hours for work— from about
+            who="Adler" toWhom="Fridolin">"These are the very best hours for work— from about
           midnight
             until morning. Then one is at least fairly certain not to be disturbed."</said></p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Adler">"Well"</said>—said <rs
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Adler">"Well"</said>—said <rs
             type="person" ref="#Fridolin">Fridolin</rs>, smiling slightly, as if he had a guilty
           conscience.</p>
 
@@ -4763,7 +4766,7 @@
 
         <p>A few minutes later he felt a soft hand caressing his hair. He looked up and from the
           depths of his heart he cried: <said aloud="true" direct="true" who="Fridolin"
-            listener="Albertina">"I
+            toWhom="Albertina">"I
             will tell you everything."</said></p>
 
         <p>She raised her hand, as if to stop him, but he took it and held it, and looked at her
@@ -4779,35 +4782,35 @@
           had finished. He was lying by her side and finally bent over her, and looking into her
           immobile face with the large, bright eyes in which morning seemed to have dawned, he
           asked, in a voice of both doubt and hope: <said aloud="true" direct="true" who="Fridolin"
-            listener="Albertina">"What shall we do now, Albertina?"</said></p>
+            toWhom="Albertina">"What shall we do now, Albertina?"</said></p>
 
         <p>She smiled, and after a minute, replied: <said aloud="true" direct="true" who="Albertina"
-            listener="Fridolin">"I think we ought to be grateful that we have come unharmed
+            toWhom="Fridolin">"I think we ought to be grateful that we have come unharmed
             out of all our adventures, whether they were real or only a dream."</said></p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"Are you quite sure
-          of
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"Are you quite sure
+            of
             that?"</said> he asked.</p>
 
         <p>
-          <said aloud="true" direct="true" who="Albertina" listener="Fridolin">"Just as sure as I am
+          <said aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"Just as sure as I am
             that the reality of one night, let alone that of a whole lifetime, is not the whole
             truth."</said>
         </p>
 
-        <p><said aloud="true" direct="true" who="Fridolin" listener="Albertina">"And no dream,"</said>
+        <p><said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">"And no dream,"</said>
           he said with a slight sigh, <said aloud="true" direct="true" who="Fridolin"
-            listener="Albertina">"is entirely a dream."</said></p>
+            toWhom="Albertina">"is entirely a dream."</said></p>
 
         <p>She took his head and pillowed it on her breast. <said aloud="true" direct="true"
-            who="Albertina" listener="Fridolin">"Now I suppose we are awake,"</said> she said,—<said
-            aloud="true" direct="true" who="Albertina" listener="Fridolin">"for a long
+            who="Albertina" toWhom="Fridolin">"Now I suppose we are awake,"</said> she said,—<said
+            aloud="true" direct="true" who="Albertina" toWhom="Fridolin">"for a long
             time to come."</said></p>
 
         <p>He was on the point of saying, "Forever," but before he could speak, she laid her finger
           on his lips and whispered, as if to herself: <said aloud="true" direct="true"
             who="Albertina"
-            listener="Fridolin">"Never inquire into the future."</said></p>
+            toWhom="Fridolin">"Never inquire into the future."</said></p>
 
         <p>So they lay silently, dozing a little, dreamlessly, close to one another—until, as on
           every
@@ -4818,9 +4821,10 @@
           the new day</p>
       </div>
 
-      <milestone unit="end">
+      <milestone unit="end" />
+      <div>
         <p>THE END</p>
-      </milestone>
+      </div>
     </body>
   </text>
 </TEI>
