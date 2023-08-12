@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="Interaction Count" attr.type="long"/>
+<graph edgedefault="undirected"><node id="Fridolin"/>
+<node id="daughter"/>
+<node id="Albertina"/>
+<node id="Marianne"/>
+<node id="unknown"/>
+<node id="Mizzi"/>
+<node id="Nachtigall"/>
+<node id="Gibiser"/>
+<node id="Gentlemen"/>
+<node id="Pierrette"/>
+<node id="TWOServants"/>
+<node id="woman"/>
+<node id="another woman"/>
+<node id="cavalier"/>
+<node id="cavaliers"/>
+<node id="YellowGentlemen"/>
+<node id="gentlemen"/>
+<node id="RedCavalier"/>
+<node id="servant"/>
+<node id="maid"/>
+<node id="Fuchstaler"/>
+<node id="Roediger"/>
+<node id="Adler"/>
+<edge source="Fridolin" target="daughter">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fridolin" target="Albertina">
+  <data key="d0">29</data>
+</edge>
+<edge source="Fridolin" target="Marianne">
+  <data key="d0">8</data>
+</edge>
+<edge source="Fridolin" target="unknown">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fridolin" target="Mizzi">
+  <data key="d0">5</data>
+</edge>
+<edge source="Fridolin" target="Nachtigall">
+  <data key="d0">44</data>
+</edge>
+<edge source="Fridolin" target="Gibiser">
+  <data key="d0">17</data>
+</edge>
+<edge source="Fridolin" target="Fridolin">
+  <data key="d0">10</data>
+</edge>
+<edge source="Fridolin" target="TWOServants">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fridolin" target="woman">
+  <data key="d0">17</data>
+</edge>
+<edge source="Fridolin" target="another woman">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fridolin" target="cavalier">
+  <data key="d0">3</data>
+</edge>
+<edge source="Fridolin" target="cavaliers">
+  <data key="d0">3</data>
+</edge>
+<edge source="Fridolin" target="YellowGentlemen">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fridolin" target="gentlemen">
+  <data key="d0">5</data>
+</edge>
+<edge source="Fridolin" target="RedCavalier">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fridolin" target="servant">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fridolin" target="maid">
+  <data key="d0">2</data>
+</edge>
+<edge source="Fridolin" target="Fuchstaler">
+  <data key="d0">1</data>
+</edge>
+<edge source="Fridolin" target="Roediger">
+  <data key="d0">4</data>
+</edge>
+<edge source="Fridolin" target="Adler">
+  <data key="d0">15</data>
+</edge>
+<edge source="unknown" target="Mizzi">
+  <data key="d0">1</data>
+</edge>
+<edge source="Gibiser" target="Gentlemen">
+  <data key="d0">3</data>
+</edge>
+<edge source="Gibiser" target="Pierrette">
+  <data key="d0">3</data>
+</edge>
+<edge source="woman" target="another woman">
+  <data key="d0">1</data>
+</edge>
+<edge source="woman" target="gentlemen">
+  <data key="d0">3</data>
+</edge>
+</graph></graphml>
