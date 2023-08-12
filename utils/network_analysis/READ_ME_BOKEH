@@ -1,0 +1,5 @@
+To open the file correctly download bokeh 2.3.3
+
+pip install bokeh==2.3.3
+
+PLEASE NOTE THAT YOU COULD HAVE TO CREATE A NEW PATH IN THE "MODIFICA LE VARIABILI AMBIENTALI DI SISTEMA"
