@@ -102,52 +102,52 @@
             </settingDesc>
             <particDesc>
                 <listPerson>
-                    <person>
-                        <persName xml:id="ALICE">Alice Harford</persName>
+                    <person xml:id="ALICE">
+                        <persName >Alice Harford</persName>
                     </person>
-                    <person>
-                        <persName xml:id="BILL">Bill Harford</persName>
+                    <person xml:id="BILL">
+                        <persName >Bill Harford</persName>
                     </person>
-                    <person>
-                        <persName xml:id="HELENA">Helena Harford</persName>
+                    <person xml:id="HELENA">
+                        <persName>Helena Harford</persName>
                         <note>Bill and Alice' daughter</note>
                     </person>
-                    <person>
-                        <persName xml:id="BABY-SITTER">babysitter</persName>
+                    <person xml:id="BABY-SITTER">
+                        <persName >babysitter</persName>
                         <note>young college girl</note>
                     </person>
-                    <person>
-                        <persName xml:id="ZIEGLER">Victor Ziegler</persName>
+                    <person xml:id="ZIEGLER">
+                        <persName >Victor Ziegler</persName>
                         <note>fit, sun-tanned, man in his mid-fifties</note>
                     </person>
-                    <person>
-                        <persName xml:id="NICK">Nick Nightingale</persName>
+                    <person xml:id="NICK">
+                        <persName >Nick Nightingale</persName>
                     </person>
-                    <person>
-                        <persName xml:id="SZABO">Sandor Szabo</persName>
+                    <person xml:id="SZABO">
+                        <persName>Sandor Szabo</persName>
                         <note>handsome man, in his mid-forties with a slight Central European
                             accent, hungarian</note>
                     </person>
-                    <person>
-                        <persName xml:id="NUALA">Nuala</persName>
+                    <person xml:id="NUALA">
+                        <persName >Nuala</persName>
                     </person>
-                    <person>
-                        <persName xml:id="GAYLE">Gayle</persName>
+                    <person xml:id="GAYLE">
+                        <persName >Gayle</persName>
                     </person>
-                    <person>
-                        <persName xml:id="HARRIS">Harris</persName>
+                    <person xml:id="HARRIS">
+                        <persName >Harris</persName>
                     </person>
-                    <person>
-                        <persName xml:id="MARION">Marion</persName>
+                    <person xml:id="MARION">
+                        <persName >Marion</persName>
                     </person>
-                    <person>
-                        <persName xml:id="CARL">Carl</persName>
+                    <person xml:id="CARL">
+                        <persName >Carl</persName>
                     </person>
-                    <person>
-                        <persName xml:id="DOORMAN">Doorman</persName>
+                    <person xml:id="DOORMAN">
+                        <persName >Doorman</persName>
                     </person>
-                    <person>
-                        <persName xml:id="DOMINO">Domino</persName>
+                    <person xml:id="DOMINO">
+                        <persName >Domino</persName>
                     </person>
                 </listPerson>
             </particDesc>

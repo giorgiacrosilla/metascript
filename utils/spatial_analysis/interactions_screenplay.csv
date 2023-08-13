@@ -1,0 +1,94 @@
+Scene,Interactions
+scene_1,"{'ALICE': 5, 'BILL': 3, 'BABY-SITTER': 1, 'HELENA': 1}"
+scene_2,"{'BABY-SITTER': 2, 'HELENA': 3, 'ALICE': 2, 'DOORMAN': 2, 'BILL': 3}"
+scene_3,{}
+scene_4,{}
+scene_5,{}
+scene_6,{}
+scene_7,"{'DRIVER': 3, 'BILL': 2}"
+scene_8,{}
+scene_9,{'ZIEGLER': 1}
+scene_10,{'ZIEGLER': 1}
+scene_11,"{'ZIEGLER': 1, 'BILL': 1}"
+scene_12,{}
+scene_13,"{'BILL': 12, 'ALICE': 4, 'NICK': 10, 'SZABO': 1}"
+scene_14,"{'SZABO': 4, 'ALICE': 3}"
+scene_15,"{'GAYLE': 4, 'BILL': 7, 'NUALA': 5, 'SZABO': 5, 'ALICE': 2}"
+scene_16,"{'SZABO': 11, 'ALICE': 8, 'NUALA': 3, 'BILL': 7, 'GAYLE': 4, 'HARRIS': 3}"
+scene_17,"{'SZABO': 2, 'ALICE': 1}"
+scene_18,"{'ZIEGLER': 2, 'HARRIS': 1}"
+scene_19,"{'BILL': 11, 'ZIEGLER': 8}"
+scene_20,"{'ALICE': 2, 'BILL': 1}"
+scene_21,{'V.O.': 2}
+scene_22,"{'BILL': 3, 'ALICE': 4}"
+scene_23,"{'ALICE': 44, 'BILL': 46}"
+scene_24,"{'BILL': 8, 'MARION': 9, 'V.O.': 1}"
+scene_25,{'CARL': 1}
+scene_26,"{'CARL': 2, 'MARION': 1, 'BILL': 1}"
+scene_27,"{'DOORMAN': 1, 'BILL': 1}"
+scene_28,{}
+scene_29,{'V.O.': 2}
+scene_30,{'V.O.': 1}
+scene_31,{'V.O.': 1}
+scene_32,"{'DOMINO': 10, 'BILL': 6}"
+scene_33,"{'BILL': 2, 'DOMINO': 2}"
+scene_34,"{'BILL': 27, 'DOMINO': 26}"
+scene_35,"{'V.O.': 1, 'DOORMAN': 1}"
+scene_36,{'NICK': 1}
+scene_37,"{'BILL': 39, 'NICK': 41}"
+scene_38,"{'BILL': 12, 'GIBSON': 9}"
+scene_39,"{'GIBSON': 4, 'BILL': 3}"
+scene_40,"{'GIBSON': 9, 'KIMONO 1': 2, 'KIMONO 2': 1, 'BILL': 4, 'YOUNG GIRL': 1}"
+scene_41,{'GIBSON': 1}
+scene_42,"{'GIBSON': 4, 'BILL': 5}"
+scene_43,"{'BILL': 3, 'CAB DRIVER': 2}"
+scene_44,{}
+scene_45,{'V.O.': 1}
+scene_46,{}
+scene_47,{'BILL': 2}
+scene_48,"{'BILL': 2, 'CAB DRIVER': 1}"
+scene_49,{'CAB DRIVER': 1}
+scene_50,"{'GATEMAN 1': 7, 'BILL': 6}"
+scene_51,"{'GATEMAN 1': 1, 'BILL': 1}"
+scene_52,"{'BILL': 11, 'SERVANTS': 1, 'SERVANT 1': 1, 'THE WOMAN': 12, 'ANOTHER WOMAN': 1, 'TALL MAN': 1, 'ELEGANT MAN': 1}"
+scene_53,"{'ELEGANT MAN': 15, 'BILL': 9, 'THE WOMAN': 4}"
+scene_54,"{'BILL': 18, 'ALICE': 11, 'V.O.': 1}"
+scene_55,{}
+scene_56,{}
+scene_57,"{'BILL': 5, 'CLEANING LADY': 1, 'MANAGERESS': 4}"
+scene_58,{}
+scene_59,"{'BILL': 11, 'DESK CLERK': 11}"
+scene_60,{}
+scene_61,"{'GIBSON': 9, 'BILL': 9}"
+scene_62,{'GIBSON': 2}
+scene_63,{}
+scene_64,{}
+scene_65,{}
+scene_66,{'V.O.': 1}
+scene_67,{'BILL': 1}
+scene_68,{}
+scene_69,{'V.O.': 1}
+scene_70,"{'V.O.': 1, 'ALICE': 1, 'BILL': 1}"
+scene_71,{}
+scene_72,"{'BILL': 4, 'CARL': 4}"
+scene_73,"{'MARION': 10, 'BILL': 15}"
+scene_74,{}
+scene_75,{}
+scene_76,{}
+scene_77,{}
+scene_78,"{'ARTY WOMAN': 2, 'BILL': 3, 'SALLY': 2}"
+scene_79,{'SALLY': 1}
+scene_80,{}
+scene_81,"{'SALLY': 4, 'BILL': 6, 'ARTY WOMAN': 4}"
+scene_82,{'V.O.': 1}
+scene_83,{}
+scene_84,{}
+scene_85,{}
+scene_86,"{'WAITRESS': 2, 'BILL': 2, 'V.O.': 1}"
+scene_87,"{'BILL': 6, 'CLERK': 5}"
+scene_88,"{'V.O.': 1, 'BILL': 3, 'ORDERLY': 1}"
+scene_89,"{'HARRIS': 3, 'BILL': 12, 'ZIEGLER': 14, 'BOTH': 1}"
+scene_90,"{'ZIEGLER': 20, 'BILL': 19}"
+scene_91,{'ZIEGLER': 1}
+scene_92,"{'V.O.': 1, 'BILL': 2}"
+scene_93,"{'BILL': 4, 'ALICE': 4}"
