@@ -22,10 +22,37 @@
                 </note>
             </notesStmt>
             <sourceDesc>
-                <p>
-                    <!-- information about the source from which
+                <biblStruct>
+                    <monogr>
+                        <author>Stanley Kubrick</author>
+                        <title type="main">Eyes Wide Shut</title>
+                        <imprint>
+                            <pubPlace></pubPlace>
+                            <publisher></publisher>
+                            <date></date>
+                        </imprint>
+                        <extent></extent>
+                    </monogr>
+                    <relatedItem type="inspiredby">
+                        <biblStruct>
+                            <monogr>
+                                <author>Arthur Schnitzler</author>
+                                <title type="main">Traumnovelle</title>
+                                <title type="alt">
+                                    Rhapsody: A Dream Novel
+                                </title>
+                                <imprint>
+                                    <pubPlace>Los Angeles</pubPlace>
+                                    <publisher>Green Integer</publisher>
+                                    <date>2003</date>
+                                </imprint>
+                                <extent>143 p.</extent>
+                            </monogr>
+                        </biblStruct>
+                    </relatedItem>
+                </biblStruct>
+                <!-- information about the source from which
                                 the resource was derived  -->
-                </p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>

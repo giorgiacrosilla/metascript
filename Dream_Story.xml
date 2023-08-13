@@ -387,6 +387,7 @@
             <note>
               doctor, rugged, knows how to play piano
             </note>
+            <ptr target="screenplay_1996.xml#BILL"/>
           </person>
           <person xml:id="Albertina" sex="FEMALE">
             <persName>
