@@ -66,10 +66,11 @@
                         <location>
                             <settlement type="city">New York</settlement>
                             <country>USA</country>
+                            <geo>40.78125249359862, -73.97242147116353</geo>
                         </location>
                     </place>
                     <place xml:id="rockefeller" type="building">
-                        <placeName>Rockefeller Center</placeName>
+                        <placeName ref="https://www.geonames.org/5134209/rockefeller-center.html">Rockefeller Center</placeName>
                         <location>
                             <settlement type="city">New York</settlement>
                             <country>USA</country>
@@ -93,9 +94,56 @@
                         </location>
                     </place>
                     <place xml:id="newjersey" type="state">
-                        <placeName>New Jersey</placeName>
+                        <placeName ref='https://www.geonames.org/5101760/new-jersey.html'>New Jersey</placeName>
                         <location>
                             <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="capecod" type="cape">
+                        <placeName>Cape Cod</placeName>
+                        <location>
+                            <country>USA</country>
+                            <geo>41.6862, -70.24308</geo>
+                        </location>
+                    </place>
+                    <place xml:id="sonatacafe" type="building">
+                        <placeName>Sonata Café</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="longisland" type="island">
+                        <placeName ref="https://www.geonames.org/5125123/long-island.html">Long Island</placeName>
+                        <location>
+                            <country>USA</country>
+                            <geo>40.81677, -73.06622</geo>
+                        </location>
+                    </place>
+                    <place xml:id="hoteljason" type="building">
+                        <placeName>Hotel Jason</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="bridge" type="bridge">
+                        <placeName ref="https://www.geonames.org/5133274/ed-koch-queensboro-bridge.html">59th Street Bridge</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.75769292828671, -73.9547551</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Connecticut" type="state">
+                        <placeName ref="https://www.geonames.org/4831725/connecticut.html">Connecticut</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="seattle" type="city">
+                        <placeName ref="https://www.geonames.org/7174408/city-of-seattle.html">Seattle</placeName>
+                        <location>
+                            <country>USA</country>
+                            <geo>47.60977888341013, -122.3311472912249</geo>
                         </location>
                     </place>
                 </listPlace>

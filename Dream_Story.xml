@@ -393,6 +393,7 @@
             <persName>
               Albertina
             </persName>
+            <ptr target="screenplay_1996.xml#ALICE"/>
           </person>
           <person xml:id="STRANGER" sex="MALE">
             <persName>
@@ -598,7 +599,8 @@
             governess
           </rs> entered and asked the little girl to say
           good-night. She got up obediently, kissed her father and mother and walked out quietly
-          hand in hand with the young woman. <rs ref="#Fridolin">
+          hand in hand with the young woman.
+          <rs ref="#Fridolin">
             Fridolin
           </rs> and <rs type="character" ref="#Albertina">
           Albertina
