@@ -945,7 +945,7 @@ ALICE sits reading the morning paper and drinking her
 coffee dressed in a morning gown. HELENA, still in her
 night clothes, eats breakfast while watching television.
 
-22. INT. EXAMINATION ROOM - BILL'S SURGERY DAY
+22. INT. EXAMINATION ROOM - BILL'S SURGERY - DAY
 
 BILL examines a young woman's chest using a stethoscope. His female nurse stands by as an observer.
 
@@ -981,12 +981,11 @@ Does this hurt?
 BOY
 Yeah.
 
-25. INT. DRESSING ROOM - BILL & ALICE'S
-APARTMENT - DAY
+25. INT. DRESSING ROOM - BILL & ALICE'S APARTMENT - DAY
 
 ALICE is naked. She puts on a bra.
 
-26. INT. EXAMINATION ROOM - BILL'S SURGERY DAY
+26. INT. EXAMINATION ROOM - BILL'S SURGERY - DAY
 
 BILL, with female nurse in attendance, examines a man
 who lies on the table. He pulls the patient's leg gently
@@ -1391,7 +1390,7 @@ BILL continues to torture himself with ALICE's confession.
 The elevator door opens and BILL comes out. He walks
 across the elegant, art deco lobby and presses a doorbell.
 
-38. INT. HALLWAY - NATHANSON APARTMENT NIGHT
+38. INT. HALLWAY - NATHANSON APARTMENT - NIGHT
 
 A maid walks to the door of the luxurious apartment
 and peeps through the spy-hole. This is ROSA. She opens
@@ -1420,7 +1419,7 @@ Come in.
 
 BILL goes into the room.
 
-39. INT. BEDROOM - NATHANSON APARTMENT NIGHT
+39. INT. BEDROOM - NATHANSON APARTMENT - NIGHT
 
 BILL comes into the bedroom and is greeted by a beautiful woman in her late thirties. This is MARION Nathanson who is crying over the loss of her father.
 
@@ -2230,7 +2229,7 @@ BILL
 Thanks. Keep the change.
 
 BILL walks up the stoop and rings the bell. A voice responds through the intercom with a heavy Slavic accent.
-This is MIUCH.
+This is MILICH.
 
 MILICH (o/s)
 Yes? Who is it?
@@ -2267,7 +2266,7 @@ BILL looks through the plate glass and sees a door open
 inside. From it a man appears and walks towards BILL.
 
 The man is middle-aged, has a beard and long hair and
-wears a dressing gown. This is MIUCH.
+wears a dressing gown. This is MILICH.
 
 62. INT. HALLWAY - RAINBOW FASHIONS - NIGHT
 
@@ -2337,7 +2336,7 @@ Yes.
 MILICH
 OK.
 
-63. INT. MAIN AREA - RAINBOW FASHIONS NIGHT
+63. INT. MAIN AREA - RAINBOW FASHIONS - NIGHT
 
 MILICH opens the door, lets BILL in, then closes it behind them.
 
@@ -2373,7 +2372,7 @@ me, please.
 
 MILICH leads BILL into another room of the shop.
 
-64. INT. INNER ROOM - RAINBOW FASHIONS NIGHT
+64. INT. INNER ROOM - RAINBOW FASHIONS - NIGHT
 
 MILICH
 (pointing to mannequins)
@@ -2419,7 +2418,7 @@ OK. May I take your coat?
 BILL
 Yes.
 
-BILL takes his coat and gives it to MIUCH.
+BILL takes his coat and gives it to MILICH.
 
 MILICH
 You are medicine doctor, yes?
@@ -2438,6 +2437,7 @@ MILICH
 It's starting to fall down, too fast. I lost in two
 weeks a lot of hair, mostly here. Look at this,
 here.
+
 MILICH bends over to show his balding patch. BILL
 quickly examines it.
 
@@ -2472,25 +2472,25 @@ bed.
 BILL
 I understand.
 
-MIUCH casts BILL's overcoat aside and goes to a rail of
+MILICH casts BILL's overcoat aside and goes to a rail of
 hooded cloaks.
 
 MILICH
 So, black cloak?
 
-Suddenly, MIUCH stops and turns to BILL.
+Suddenly, MILICH stops and turns to BILL.
 
 MILICH
 Did you hear something? What is it?
 
-MIUCH walks towards a room behind a glass wall at
+MILICH walks towards a room behind a glass wall at
 the back of the shop. He peers through the glass into the
 darkness to try to see where the noise came from.
 
 MILICH
 What is it?
 
-MIUCH goes into the room through a door and switches
+MILICH goes into the room through a door and switches
 on a light. He looks down to a low table laden with the
 remains of take-away meals. MILICH picks up a girl's
 slip and suddenly hears a sound behind him. He pulls
@@ -2503,7 +2503,7 @@ What is this? What on earth is going on here?
 JAPANESE MAN 1
 (very frightened)
 Oh, Milich! I can explain everything.
-MIUCH notices something behind the sofa. He attacks it
+MILICH notices something behind the sofa. He attacks it
 with the wig in his hand and up jumps a young girl
 dressed only in a bra and panties. This is MILICH's
 DAUGHTER.
@@ -2515,7 +2515,7 @@ promise I'll kill you!
 
 Another JAPANESE MAN in a wig and covering his
 "modesty" with a cloth pops up from behind the sofa.
-MIUCH grabs his wig and attacks him with it.
+MILICH grabs his wig and attacks him with it.
 
 MILICH
 And you, have you no sense of decency!?
@@ -2717,7 +2717,7 @@ driveway. The vehicle ferrying BILL drives up and stops.
 BILL steps out and then walks up to the front door which
 is opened for him. BILL enters the house.
 
-78. INT. PILLARED HALLWAY - "SOMERTON" NIGHT
+78. INT. PILLARED HALLWAY - "SOMERTON" - NIGHT
 
 BILL walks in and is approached by a MASKED BUTLER. The sound of strange music can be heard in the
 background.
@@ -3761,13 +3761,13 @@ While BILL can hear her voice in his head ALICE gives
 him a look full of love and affection. BILL responds with
 a forced smile.
 
-106. INT. RECEPTION AREA - BILL'S SURGERY NIGHT
+106. INT. RECEPTION AREA - BILL'S SURGERY - NIGHT
 
 The Christmas lights illuminate the area. At the end of
 the reception we see a door ajar and light coming
 through it.
 
-107. INT. PRIVATE OFFICE - BILL'S SURGERY NIGHT
+107. INT. PRIVATE OFFICE - BILL'S SURGERY - NIGHT
 
 BILL sits staring at the telephone.
 
@@ -3775,12 +3775,12 @@ BILL sits staring at the telephone.
 
 The thought of ALICE making love with the NAVAL OFFICER invades BILL's mind again.
 
-109. INT. PRIVATE OFFICE - BILL'S SURGERY NIGHT
+109. INT. PRIVATE OFFICE - BILL'S SURGERY - NIGHT
 
 BILL, still staring at his phone, decides to act. He picks
 up the receiver and punches in a number.
 
-110. INT. HALLWAY - NATHANSON APARTMENT NIGHT
+110. INT. HALLWAY - NATHANSON APARTMENT - NIGHT
 
 The phone rings in the hallway. CARL walks down the
 corridor and picks up the receiver.
@@ -3788,21 +3788,21 @@ corridor and picks up the receiver.
 CARL
 Hello? Hello? Hello?
 
-111. INT. PRIVATE OFFICE - BILL'S SURGERY NIGHT
+111. INT. PRIVATE OFFICE - BILL'S SURGERY - NIGHT
 
 BILL is disappointed at heanng CARL's voice. He had
 been expecting MARION to answer.
 
-11.2. INT. HALLWAY-NATHANSON APARTMENT NIGHT
+112. INT. HALLWAY-NATHANSON APARTMENT - NIGHT
 
 CARL is still trying to get a response from the telephone.
 
-113. INT. PRIVATE OFFICE - BILL'S SURGERY NIGHT
+113. INT. PRIVATE OFFICE - BILL'S SURGERY - NIGHT
 
 BILL thinks for a moment, then puts the p"hone down.
 He is clearly troubled.
 
-114. EXT. DOMINO APARTMENT BUILDING NIGHT
+114. EXT. DOMINO APARTMENT BUILDING - NIGHT
 
 A taxi pulls up at the curbside outside DOMINO's apartment building in Greenwich Village. BILL gets out and
 pays his fare.
@@ -3858,7 +3858,7 @@ You're Bill . .. the Bill? You're the doctor who
 was here last night?
 
 BILL
-Well, I suppose I 1am.
+Well, I suppose I am.
 
 SALLY
 Domino said how nice you were to her.
@@ -4048,7 +4048,7 @@ STALKER walks away leaving BILL feeling very anxious.
 BILL turns and walks down the street. He sees Sharkey's Cafe and welcomes the security the company of
 other people will afford him.
 
-120. INT. PASSAGEWAY - SHARKEY'S CAFE NIGHT
+120. INT. PASSAGEWAY - SHARKEY'S CAFE - NIGHT
 
 BILL walks up the stairs and into the cafe.
 
@@ -4146,11 +4146,11 @@ to her head. He leans forward, bringing his face close to
 hers, and closes his eyes. It's as if he were going to kiss
 her. He stops short and slowly pulls back until he is looking down at her face.
 
-126. INT. ANOTHER CORRIDOR - HOSPITAL NIGHT
+126. INT. ANOTHER CORRIDOR - HOSPITAL - NIGHT
 
 Despondently, BILL walks down the corridor. His mobile phone rings. He takes it out of his pocket.
 
-BilL
+BILL
 Hello? Yes, it's Dr Harford ... Tonight? ... No,
 no, no. That's OK. Just, please, tell him that. I'll
 be there in about twenty minutes ... OK?
@@ -4159,13 +4159,13 @@ be there in about twenty minutes ... OK?
 
 Lights burning in most rooms. Night traffic.
 
-128. INT. CORRIDOR/HALL - ZIEGLER MANSION NIGHT
+128. INT. CORRIDOR/HALL - ZIEGLER MANSION - NIGHT
 
 HARRIS, ZIEGLER's personal assistant, leads BILL
 down the corridor and across the hall. Not a word is
 spoken. They come to a door and HARRIS knocks on it.
 
-129. INT. BILLIARD ROOM - ZIEGLER MANSION NIGHT
+129. INT. BILLIARD ROOM - ZIEGLER MANSION - NIGHT
 
 A big, pine paneled room, lined with books and antique
 artifacts. In the middle of the room ZIEGLER is alone,
@@ -4561,7 +4561,7 @@ down into a chair and starts to drink.
 
 BILL quietly opens the bedroom door. To his dismay, he
 sees the mask on the pillow next to ALICE. BILL, emotionally wrecked, walks slowly towards the bed and sits
-down with tears in his eyes. Fi.nally, he can restrain
+down with tears in his eyes. Finally, he can restrain
 himself no longer, and breaks down into uncontrollable
 sobbing.
 ALICE wakes to see BILL's complete helplessness as he
@@ -4571,7 +4571,7 @@ ann around him as he sobs.
 BILL
 I'll tell you everything. I'll tell you everything.
 
-133. INT. LIVING ROOM - B1LL & ALICE'S APARTMENT - DAY
+133. INT. LIVING ROOM - BILL & ALICE'S APARTMENT - DAY
 
 Dawn has given way to early morning. ALICE, cigarette
 in hand, sits in tearful silence as she contemplates what
@@ -4587,7 +4587,7 @@ today.
 
 134. INT. TOY STORE - DAY
 
-BILL and ALICE walk together with HELENA who is t,ying to catch the soap bubbles floating in the air above
+BILL and ALICE walk together with HELENA who is trying to catch the soap bubbles floating in the air above
 her. Then HELENA run's off as BILL and ALICE follow,
 BILL glancing anxiously at ALICE as they go. They catch
 up with HELENA as she looks at a toy pram.
@@ -4637,7 +4637,7 @@ Alice . .. what do you think we should do?
 They stop and ALICE tries to gather her thoughts.
 
 ALICE
-What do I think we shol.ild do?
+What do I think we should do?
 
 HELENA
 Look, Mommy.
@@ -4656,6 +4656,7 @@ them which brings ALICE to a halt.
 ALICE
 (to Helena)
 Hey!
+
 When she thinks HELENA is out of earshot, ALICE continues, searching for words.
 
 ALICE
