@@ -320,9 +320,10 @@
         <body>
             <div type="scene" n="1">
                 <head type="scene_heading">
-                    <stage type="environment">INT BILL &amp; ALICE'S APT - LIVING ROOM - NIGHT</stage>
-                    <stage type="primary_location">INT BILL &amp; ALICE'S APT - LIVING ROOM - NIGHT</stage>
-                    <stage type="time">INT BILL &amp; ALICE'S APT - LIVING ROOM - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">BILL &amp; ALICE'S APT</stage>
+                    <stage type="secondary_location">LIVING ROOM</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">It is a week before Christmas. The tree is decorated and
                     Christmas cards stand open everywhere in the comfortable Central Park West
@@ -332,9 +333,7 @@
             </div>
             <div type="scene" n="2">
                 <head type="scene_heading">
-                    <stage type="environment">BEDROOM -</stage>
                     <stage type="primary_location">BEDROOM -</stage>
-                    <stage type="time">BEDROOM -</stage>
                 </head>
                 <sp rend="looking in mirror">
                     <speaker>ALICE</speaker>
@@ -373,7 +372,11 @@
                 </sp>
                 <sp rend="laughs">
                     <speaker>ALICE</speaker>
-                    <p>Thank you, Roz. (to Helena) All ready for bed?</p>
+                    <p>Thank you, Roz.</p>
+                </sp>
+                <sp rend="to Helena">
+                    <speaker>ALICE</speaker>
+                    <p>All ready for bed?</p>
                 </sp>
                 <sp>
                     <speaker>HELENA</speaker>
@@ -421,35 +424,44 @@
                 <stage type="setting">Bill returns to sitting room.</stage>
                 <sp>
                     <speaker>BILL</speaker>
-                    <p>OK the car's here - let's go. (to Baby-sitter) Roz, we might be late tonight
-                        but I'll hold the car to take you home.</p>
+                    <p>OK the car's here - let's go.</p>
+                </sp>
+                <sp rend="to Baby-sitter">
+                    <speaker>BILL</speaker>
+                    <p>Roz, we might be late tonight but I'll hold the car to take you home.</p>
                 </sp>
                 <sp>
                     <speaker>BABY-SITTER</speaker>
                     <p>Oh, that's great, Doctor Harford. Thanks very much.</p>
                 </sp>
                 <stage type="setting">AD-LIBS of Good nights and have a good time.</stage>
-                <stage type="setting">EXT HIRED CAR DRIVE-BY (CPW TO 5TH) - NIGHT (2nd Unit)</stage>
+            </div>
+            <div type="scene" n="3"> <!-- scenenumbering order-->
+                <head type="scene_heading">
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">HIRED CAR DRIVE-BY (CPW TO 5TH)</stage>
+                    <stage type="time">NIGHT</stage>
+                </head>
             </div>
             <div type="scene" n="3">
                 <head type="scene_heading">
-                    <stage type="environment">INT CAR - NIGHT</stage>
-                    <stage type="primary_location">INT CAR - NIGHT</stage>
-                    <stage type="time">INT CAR - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">CAR</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
             </div>
             <div type="scene" n="4">
                 <head type="scene_heading">
-                    <stage type="environment">EXT ZIEGLER MIDTOWN MANSION - NIGHT</stage>
-                    <stage type="primary_location">EXT ZIEGLER MIDTOWN MANSION - NIGHT</stage>
-                    <stage type="time">EXT ZIEGLER MIDTOWN MANSION - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">ZIEGLER MIDTOWN MANSION</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
             </div>
             <div type="scene" n="5">
                 <head type="scene_heading">
-                    <stage type="environment">INT CAR - NIGHT</stage>
-                    <stage type="primary_location">INT CAR - NIGHT</stage>
-                    <stage type="time">INT CAR - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">CAR</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>DRIVER</speaker>
@@ -458,8 +470,11 @@
                 <stage type="setting">The doorman, carrying an umbrella, opens the car door.</stage>
                 <sp rend="signing">
                     <speaker>BILL</speaker>
-                    <p>Okay, thanks.. DRIVER Thanks. (handing his card) Just phone about half hour
-                        before you want to be picked up.</p>
+                    <p>Okay, thanks..</p>
+                </sp>
+                <sp rend="handing his card">
+                    <speaker>DRIVER</speaker>
+                    <p>Just phone about half hour before you want to be picked up.</p>
                 </sp>
                 <sp>
                     <speaker>BILL</speaker>
@@ -473,9 +488,9 @@
             </div>
             <div type="scene" n="6">
                 <head type="scene_heading">
-                    <stage type="environment">INT ZIEGLER MANSION - NIGHT</stage>
-                    <stage type="primary_location">INT ZIEGLER MANSION - NIGHT</stage>
-                    <stage type="time">INT ZIEGLER MANSION - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">ZIEGLER MANSION</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">Sound of a dance band off.</stage>
                 <stage type="setting">Many guests still arriving.</stage>
@@ -506,18 +521,16 @@
             </div>
             <div type="scene" n="7">
                 <head type="scene_heading">
-                    <stage type="environment">ANOTHER FABULOUS ROOM - A LITTLE LATER</stage>
-                    <stage type="primary_location">ANOTHER FABULOUS ROOM - A LITTLE LATER</stage>
-                    <stage type="time">ANOTHER FABULOUS ROOM - A LITTLE LATER</stage>
+                    <stage type="primary_location">ANOTHER FABULOUS ROOM</stage>
+                    <stage type="time">A LITTLE LATER</stage>
                 </head>
                 <stage type="setting">They stop to admire the 17 foot Christmas tree trimmed with
                     colored lights and antique ornaments.</stage>
             </div>
             <div type="scene" n="8">
                 <head type="scene_heading">
-                    <stage type="environment">BALLROOM - BILL &amp; ALICE DANCING</stage>
-                    <stage type="primary_location">BALLROOM - BILL &amp; ALICE DANCING</stage>
-                    <stage type="time">BALLROOM - BILL &amp; ALICE DANCING</stage>
+                    <stage type="primary_location">BALLROOM</stage>
+                    <stage type="time">BALLROOM - BILL &amp; ALICE DANCING</stage> <!--other?? -->
                 </head>
                 <sp>
                     <speaker>BILL</speaker>
@@ -667,14 +680,20 @@
                     models.</stage>
                 <sp>
                     <speaker>ALICE</speaker>
-                    <p>Why not? - Sandor. ACROSS THE ROOM - BILL &amp; THE MODELS GAYLE, the taller
-                        model, shouts to BILL above the music.</p>
+                    <p>Why not? - Sandor.</p>
                 </sp>
-                <sp>
+            </div>
+            <div type="scene" n="8"> <!-- order numbering -->
+                <head type="scene_heading">
+                    <stage type="primary_location">ACROSS THE ROOM</stage>
+                    <stage type="time">BILL &amp; THE MODELS -</stage>
+                    <stage type="setting">GAYLE, the taller model, shouts to BILL above the music.</stage>
+                </head>
+                <sp >
                     <speaker>GAYLE</speaker>
-                    <p>Nobody likes you? (louder)</p>
+                    <p>Nobody likes you?</p>
                 </sp>
-                <sp>
+                <sp rend="louder">
                     <speaker>GAYLE</speaker>
                     <p>Nobody likes you, is that the problem?</p>
                 </sp>
@@ -847,9 +866,7 @@
             </div>
             <div type="scene" n="9">
                 <head type="scene_heading">
-                    <stage type="environment">BILL AND THE MODELS -</stage>
-                    <stage type="primary_location">BILL AND THE MODELS -</stage>
-                    <stage type="time">BILL AND THE MODELS -</stage>
+                    <stage type="setting">BILL AND THE MODELS-</stage> <!-- other?? -->
                 </head>
                 <sp>
                     <speaker>BILL</speaker>
@@ -1046,9 +1063,7 @@
             </div>
             <div type="scene" n="10">
                 <head type="scene_heading">
-                    <stage type="environment">BALLROOM -</stage>
-                    <stage type="primary_location">BALLROOM -</stage>
-                    <stage type="time">BALLROOM -</stage>
+                    <stage type="primary_location">BALLROOM</stage>
                 </head>
                 <stage type="setting">Then... a woman's arm slips through his.</stage>
                 <stage type="setting">He looks down at the wedding-ringed hand.</stage>
@@ -1070,16 +1085,15 @@
             </div>
             <div type="scene" n="11">
                 <head type="scene_heading">
-                    <stage type="environment">BILL AND ALICE'S BEDROOM - NIGHT</stage>
-                    <stage type="primary_location">BILL AND ALICE'S BEDROOM - NIGHT</stage>
-                    <stage type="time">BILL AND ALICE'S BEDROOM - NIGHT</stage>
+                    <stage type="primary_location">BILL AND ALICE'S BEDROOM</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>V.O.</speaker>
                     <p>That night they were more blissful in their ardent love than they had been
                         for a long time.</p>
                 </sp>
-                <stage type="setting">SHOTS TO ILLUSTRATE V.O.</stage>
+                <stage type="setting">SHOTS TO ILLUSTRATE V.O.</stage> <!-- camera?? -->
                 <stage type="setting">Getting up.</stage>
                 <stage type="setting">Alice and Helena in the kitchen.</stage>
                 <stage type="setting">Bill in his office with patients.</stage>
@@ -1094,9 +1108,9 @@
             </div>
             <div type="scene" n="12">
                 <head type="scene_heading">
-                    <stage type="environment">BILL'S APARTMENT - HELENA'S BEDROOM - NIGHT</stage>
-                    <stage type="primary_location">BILL'S APARTMENT - HELENA'S BEDROOM - NIGHT</stage>
-                    <stage type="time">BILL'S APARTMENT - HELENA'S BEDROOM - NIGHT</stage>
+                    <stage type="secondary_location">HELENA'S BEDROOM</stage>
+                    <stage type="primary_location">BILL'S APARTMENT</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>BILL</speaker>
@@ -1108,9 +1122,7 @@
             </div>
             <div type="scene" n="13">
                 <head type="scene_heading">
-                    <stage type="environment">LIVING ROOM -</stage>
-                    <stage type="primary_location">LIVING ROOM -</stage>
-                    <stage type="time">LIVING ROOM -</stage>
+                    <stage type="primary_location">LIVING ROOM</stage>
                 </head>
                 <sp>
                     <speaker>ALICE</speaker>
@@ -1144,16 +1156,13 @@
             </div>
             <div type="scene" n="14">
                 <head type="scene_heading">
-                    <stage type="environment">BATHROOM - A FEW MOMENTS LATER</stage>
-                    <stage type="primary_location">BATHROOM - A FEW MOMENTS LATER</stage>
-                    <stage type="time">BATHROOM - A FEW MOMENTS LATER</stage>
+                    <stage type="primary_location">BATHROOM</stage>
+                    <stage type="time">A FEW MOMENTS LATER</stage>
                 </head>
             </div>
             <div type="scene" n="15">
                 <head type="scene_heading">
-                    <stage type="environment">MINUTES LATER -</stage>
-                    <stage type="primary_location">MINUTES LATER -</stage>
-                    <stage type="time">MINUTES LATER -</stage>
+                    <stage type="time">MINUTES LATER</stage>
                 </head>
                 <stage type="setting">Alice inhales and leans back with an ashtray in her lap. She
                     is high.</stage>
@@ -1241,7 +1250,11 @@
                 </sp>
                 <sp>
                     <speaker>BILL</speaker>
-                    <p>And what did he want? ALICE Sex. Upstairs. Then and there.</p>
+                    <p>And what did he want?</p>
+                </sp>
+                <sp>
+                    <speaker>ALICE</speaker>
+                    <p>Sex. Upstairs. Then and there.</p>
                 </sp>
                 <stage type="setting">The pot makes ALICE think this is hilarious.</stage>
                 <sp>
@@ -1481,21 +1494,28 @@
                     <p>Go on.</p>
                 </sp>
                 <stage type="setting">ALICE thinks about how to continue.</stage>
-                <p>Later we were sitting on the balcony and he passed below us without looking up.</p>
-                <p>Just the sight of him stirred me deeply and I thought if he wanted me, I could
-                    not have resisted. I thought I was ready to give up you, the child, my whole
-                    future.</p>
-                <p>And yet at the same time - if you can understand it - you were dearer to me than
-                    ever, and I stroked your forehead and kissed your hair, and at that moment my
-                    love for you was both tender and sad.</p>
-                <p>At dinner I wore a white rose and you said I was very beautiful. It might not
-                    have been just an accident that he and his friends sat near us.</p>
-                <p>He didn't look up but I actually considered getting up, walking over to him and
-                    like someone in a movie, saying, 'Here I am, my love, for whom I have waited -
-                    take me.'</p>
-                <p>Well, it was about then that the waiter brought him the envelope. He read it,
-                    turned pale, said goodbye to his friends - and glancing at me mysteriously, he
-                    left the room.</p>
+                <stage type="setting">BILL stares at her.</stage>
+                <sp>
+                    <speaker>ALICE</speaker>
+                    <p>That afternoon you and I made love
+                        and talked about our future, and our
+                        child.</p>
+                    <p>Later we were sitting on the balcony and he passed below us without looking
+                        up.</p>
+                    <p>Just the sight of him stirred me deeply and I thought if he wanted me, I could
+                        not have resisted. I thought I was ready to give up you, the child, my whole
+                        future.</p>
+                    <p>And yet at the same time - if you can understand it - you were dearer to me than
+                        ever, and I stroked your forehead and kissed your hair, and at that moment my
+                        love for you was both tender and sad.</p>
+                    <p>At dinner I wore a white rose and you said I was very beautiful. It might not
+                        have been just an accident that he and his friends sat near us.</p>
+                    <p>He didn't look up but I actually considered getting up, walking over to him and
+                        like someone in a movie, saying, 'Here I am, my love, for whom I have waited -
+                        take me.'</p>
+                    <p>Well, it was about then that the waiter brought him the envelope. He read it,
+                        turned pale, said goodbye to his friends - and glancing at me mysteriously, he
+                        left the room.</p>
                 </sp>
                 <stage type="setting">ALICE stops for a moment.</stage>
                 <sp>
@@ -1565,23 +1585,21 @@
             </div>
             <div type="scene" n="16">
                 <head type="scene_heading">
-                    <stage type="environment">EXT MARION'S APARTMENT HOUSE - NIGHT</stage>
-                    <stage type="primary_location">EXT MARION'S APARTMENT HOUSE - NIGHT</stage>
-                    <stage type="time">EXT MARION'S APARTMENT HOUSE - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">MARION'S APARTMENT HOUSE</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
             </div>
             <div type="scene" n="17">
                 <head type="scene_heading">
-                    <stage type="environment">INT MARION'S LOBBY -</stage>
-                    <stage type="primary_location">INT MARION'S LOBBY -</stage>
-                    <stage type="time">INT MARION'S LOBBY -</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">MARION'S LOBBY</stage>
                 </head>
             </div>
             <div type="scene" n="18">
                 <head type="scene_heading">
-                    <stage type="environment">INT MARION'S PRIVATE ELEVATOR LOBBY -</stage>
-                    <stage type="primary_location">INT MARION'S PRIVATE ELEVATOR LOBBY -</stage>
-                    <stage type="time">INT MARION'S PRIVATE ELEVATOR LOBBY -</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">MARION'S PRIVATE ELEVATOR LOBBY</stage>
                 </head>
                 <sp rend="softly">
                     <speaker>BILL</speaker>
@@ -1591,9 +1609,7 @@
             </div>
             <div type="scene" n="19">
                 <head type="scene_heading">
-                    <stage type="environment">MASTER BEDROOM -</stage>
-                    <stage type="primary_location">MASTER BEDROOM -</stage>
-                    <stage type="time">MASTER BEDROOM -</stage>
+                    <stage type="primary_location">MASTER BEDROOM</stage>
                 </head>
                 <stage type="setting">MARION, the dead man's daughter, a pretty girl in her late
                     twenties, sits at the foot of the bed, exhausted, her arms hanging limply at her
@@ -1758,9 +1774,9 @@
             </div>
             <div type="scene" n="20">
                 <head type="scene_heading">
-                    <stage type="environment">EXT MARION'S APARTMENT - NIGHT</stage>
-                    <stage type="primary_location">EXT MARION'S APARTMENT - NIGHT</stage>
-                    <stage type="time">EXT MARION'S APARTMENT - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">MARION'S APARTMENT</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>BILL</speaker>
@@ -1769,16 +1785,16 @@
             </div>
             <div type="scene" n="21">
                 <head type="scene_heading">
-                    <stage type="environment">EXT STREET TO PARK - NIGHT</stage>
-                    <stage type="primary_location">EXT STREET TO PARK - NIGHT</stage>
-                    <stage type="time">EXT STREET TO PARK - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">STREET TO PARK</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
             </div>
             <div type="scene" n="22">
                 <head type="scene_heading">
-                    <stage type="environment">EXT PARK - NIGHT</stage>
-                    <stage type="primary_location">EXT PARK - NIGHT</stage>
-                    <stage type="time">EXT PARK - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">PARK</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">A tramp lies full length on a bench wrapped in newspapers with
                     his hat over his face.</stage>
@@ -1821,9 +1837,10 @@
             </div>
             <div type="scene" n="23">
                 <head type="scene_heading">
-                    <stage type="environment">EXT STREET - ON WAY DOMINO - NIGHT</stage>
-                    <stage type="primary_location">EXT STREET - ON WAY DOMINO - NIGHT</stage>
-                    <stage type="time">EXT STREET - ON WAY DOMINO - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">STREET</stage>
+                    <stage type="secondary_location">ON WAY DOMINO</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>V.O.</speaker>
@@ -1833,9 +1850,7 @@
             </div>
             <div type="scene" n="24">
                 <head type="scene_heading">
-                    <stage type="environment">JEALOUS FANTASY IMAGE - ALICE AND NAVAL OFFICER</stage>
-                    <stage type="primary_location">JEALOUS FANTASY IMAGE - ALICE AND NAVAL OFFICER</stage>
-                    <stage type="time">JEALOUS FANTASY IMAGE - ALICE AND NAVAL OFFICER</stage>
+                    <stage type="setting">JEALOUS FANTASY IMAGE - ALICE AND NAVAL OFFICER</stage> <!-- other??? -->
                 </head>
                 <sp>
                     <speaker>V.O.</speaker>
@@ -1847,9 +1862,10 @@
             </div>
             <div type="scene" n="25">
                 <head type="scene_heading">
-                    <stage type="environment">EXT STREET - DOMINO'S APARTMENT - NIGHT</stage>
-                    <stage type="primary_location">EXT STREET - DOMINO'S APARTMENT - NIGHT</stage>
-                    <stage type="time">EXT STREET - DOMINO'S APARTMENT - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">DOMINO'S APARTMENT</stage>
+                    <stage type="secondary_location">STREET</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>DOMINO</speaker>
@@ -1925,9 +1941,9 @@
             </div>
             <div type="scene" n="26">
                 <head type="scene_heading">
-                    <stage type="environment">INT DOMINO APARTMENT LOBBY - NIGHT</stage>
-                    <stage type="primary_location">INT DOMINO APARTMENT LOBBY - NIGHT</stage>
-                    <stage type="time">INT DOMINO APARTMENT LOBBY - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">DOMINO APARTMENT LOBBY</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>BILL</speaker>
@@ -2174,9 +2190,9 @@
             </div>
             <div type="scene" n="27">
                 <head type="scene_heading">
-                    <stage type="environment">EXT STREET TO CAFE SONATA - NIGHT</stage>
-                    <stage type="primary_location">EXT STREET TO CAFE SONATA - NIGHT</stage>
-                    <stage type="time">EXT STREET TO CAFE SONATA - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">STREET TO CAFE SONATA</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>V.O.</speaker>
@@ -2195,9 +2211,9 @@
             </div>
             <div type="scene" n="28">
                 <head type="scene_heading">
-                    <stage type="environment">INT CAFE SONATA - NIGHT</stage>
-                    <stage type="primary_location">INT CAFE SONATA - NIGHT</stage>
-                    <stage type="time">INT CAFE SONATA - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">CAFE SONATA</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">The place is about a quarter full. BILL sits down at a table
                     near the band.</stage>
@@ -2563,9 +2579,9 @@
             </div>
             <div type="scene" n="29">
                 <head type="scene_heading">
-                    <stage type="environment">EXT BUSY GREENWICH VILLAGE STREET - NIGHT</stage>
-                    <stage type="primary_location">EXT BUSY GREENWICH VILLAGE STREET - NIGHT</stage>
-                    <stage type="time">EXT BUSY GREENWICH VILLAGE STREET - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">BUSY GREENWICH VILLAGE STREET</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">The place is closed.</stage>
                 <sp>
@@ -2679,9 +2695,9 @@
             </div>
             <div type="scene" n="30">
                 <head type="scene_heading">
-                    <stage type="environment">INT COSTUME SHOP - NIGHT</stage>
-                    <stage type="primary_location">INT COSTUME SHOP - NIGHT</stage>
-                    <stage type="time">INT COSTUME SHOP - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">COSTUME SHOP</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>GIBSON</speaker>
@@ -2874,9 +2890,9 @@
             </div>
             <div type="scene" n="32">
                 <head type="scene_heading">
-                    <stage type="environment">EXT STREET OUTSIDE COSTUME SHOP - NIGHT</stage>
-                    <stage type="primary_location">EXT STREET OUTSIDE COSTUME SHOP - NIGHT</stage>
-                    <stage type="time">EXT STREET OUTSIDE COSTUME SHOP - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">STREET OUTSIDE COSTUME SHOP</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">He checks at a slip of paper with the address on it.</stage>
                 <sp>
@@ -2903,11 +2919,19 @@
                 <stage type="setting">EXT VARIOUS TAXI DRIVE-BYS - NIGHT (2ND UNIT) Brooklyn bridge
                     L.I. Expressway</stage>
             </div>
+            <div type="scene" n="32"> <!-- numbering -->
+                <head type="scene_heading">
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">Brooklyn bridge L.I. Expressway</stage>
+                    <stage type="other???">VARIOUS TAXI DRIVE-BYS</stage>
+                    <stage type="time">NIGHT</stage>
+                </head>
             <div type="scene" n="33">
                 <head type="scene_heading">
-                    <stage type="environment">INT CAB BILL - NIGHT</stage>
-                    <stage type="primary_location">INT CAB BILL - NIGHT</stage>
-                    <stage type="time">INT CAB BILL - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">CAB</stage>
+                    <stage type="other???">BILL</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>V.O.</speaker>
@@ -2916,16 +2940,15 @@
             </div>
             <div type="scene" n="34">
                 <head type="scene_heading">
-                    <stage type="environment">EXT LONG ISLAND MANSION ROAD - NIGHT</stage>
-                    <stage type="primary_location">EXT LONG ISLAND MANSION ROAD - NIGHT</stage>
-                    <stage type="time">EXT LONG ISLAND MANSION ROAD - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">LONG ISLAND MANSION ROAD</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
             </div>
             <div type="scene" n="35">
                 <head type="scene_heading">
-                    <stage type="environment">INT CAB -</stage>
-                    <stage type="primary_location">INT CAB -</stage>
-                    <stage type="time">INT CAB -</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">CAB</stage>
                 </head>
                 <stage type="setting">Up ahead, he sees a stretch-limo with darkened windows pulling
                     into a drive protected by iron gates flanked by two gatehouses.</stage>
@@ -2969,16 +2992,19 @@
             </div>
             <div type="scene" n="36">
                 <head type="scene_heading">
-                    <stage type="environment">EXT GATES - NIGHT</stage>
-                    <stage type="primary_location">EXT GATES - NIGHT</stage>
-                    <stage type="time">EXT GATES - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">GATES</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">Security cameras look at him.</stage>
                 <stage type="setting">The road leading to the Manor House curves away into a small
                     wood which covers the house.</stage>
                 <stage type="setting">BILL rings a bell at the side of the gate and two men promptly
-                    come out of the gate house. GATEMAN 1 (polite and well-spoken) Good morning,
-                    sir.</stage>
+                    come out of the gate house.</stage> 
+                <sp rend="polite and well-spoken">
+                    <speaker>GATEMAN 1</speaker>
+                    <p>Good morning,</p>
+                </sp>
                 <sp>
                     <speaker>BILL</speaker>
                     <p>Good morning.</p>
@@ -3035,23 +3061,22 @@
             </div>
             <div type="scene" n="37">
                 <head type="scene_heading">
-                    <stage type="environment">INT CAR -</stage>
-                    <stage type="primary_location">INT CAR -</stage>
-                    <stage type="time">INT CAR -</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">CAR</stage>
                 </head>
             </div>
             <div type="scene" n="38">
                 <head type="scene_heading">
-                    <stage type="environment">POV - THE LONG ISLAND - MANOR HOUSE - NIGHT</stage>
-                    <stage type="primary_location">POV - THE LONG ISLAND - MANOR HOUSE - NIGHT</stage>
-                    <stage type="time">POV - THE LONG ISLAND - MANOR HOUSE - NIGHT</stage>
+                    <stage type="other??">POV</stage>
+                    <stage type="primary_location">MANOR HOUSE</stage>
+                    <stage type="secondary_location">THE LONG ISLAND</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
             </div>
             <div type="scene" n="39">
                 <head type="scene_heading">
-                    <stage type="environment">INT CAR -</stage>
-                    <stage type="primary_location">INT CAR -</stage>
-                    <stage type="time">INT CAR -</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">CAR</stage>
                 </head>
                 <sp rend="tactfully">
                     <speaker></speaker>
@@ -3065,9 +3090,9 @@
             </div>
             <div type="scene" n="40">
                 <head type="scene_heading">
-                    <stage type="environment">EXT MANOR HOUSE - NIGHT</stage>
-                    <stage type="primary_location">EXT MANOR HOUSE - NIGHT</stage>
-                    <stage type="time">EXT MANOR HOUSE - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">MANOR HOUSE </stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <sp>
                     <speaker>BILL</speaker>
@@ -3078,9 +3103,8 @@
             </div>
             <div type="scene" n="41">
                 <head type="scene_heading">
-                    <stage type="environment">INT HOUSE -</stage>
-                    <stage type="primary_location">INT HOUSE -</stage>
-                    <stage type="time">INT HOUSE -</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">HOUSE</stage>
                 </head>
                 <sp>
                     <speaker>SERVANTS</speaker>
@@ -3173,9 +3197,9 @@
                 <stage type="setting">But just at that moment, THE WOMAN returns.</stage>
                 <stage type="setting">She pretends that she has just noticed him and says in a voice
                     that can be heard by the two men.</stage>
-                <sp>
+                <sp rend="she laughs">
                     <speaker>THE WOMAN</speaker>
-                    <p>Returned at last. (she laughs) All your efforts are useless. I know you.</p>
+                    <p>Returned at last. All your efforts are useless. I know you.</p>
                 </sp>
                 <stage type="setting">Then turning to the other woman she whispers:</stage>
                 <sp>
@@ -3193,7 +3217,11 @@
                 </sp>
                 <sp>
                     <speaker>BILL</speaker>
-                    <p>[illegible]? THE WOMAN There is no way.</p>
+                    <p>[illegible]</p>
+                </sp>
+                <sp>
+                    <speaker>THE WOMAN</speaker>
+                    <p>There is no way.</p>
                 </sp>
                 <stage type="setting">He takes her hand and draws her closer to him.</stage>
                 <sp>
@@ -3370,9 +3398,9 @@
             </div>
             <div type="scene" n="42">
                 <head type="scene_heading">
-                    <stage type="environment">INT BILL'S APARTMENT - NIGHT</stage>
-                    <stage type="primary_location">INT BILL'S APARTMENT - NIGHT</stage>
-                    <stage type="time">INT BILL'S APARTMENT - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">BILL'S APARTMENT</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">BILL, now changed back into his own clothes, enters his
                     apartment.</stage>
@@ -3384,9 +3412,7 @@
             </div>
             <div type="scene" n="43">
                 <head type="scene_heading">
-                    <stage type="environment">BEDROOM -</stage>
-                    <stage type="primary_location">BEDROOM -</stage>
-                    <stage type="time">BEDROOM -</stage>
+                    <stage type="primary_location">BEDROOM</stage>
                 </head>
                 <stage type="setting">Her lips are half open and painful shadows surround them.</stage>
                 <stage type="setting">It is a face BILL does not know.</stage>
@@ -3511,9 +3537,9 @@
                         chamber and you took me in your arms and made love to me and said you would
                         love me forever.</p>
                 </sp>
-                <sp>
+                <sp rend="with an invisible, malicious smile.">
                     <speaker>BILL</speaker>
-                    <p>I hope you loved me, too. BILL says this with an invisible, malicious smile.</p>
+                    <p>I hope you loved me, too.</p>
                 </sp>
                 <sp>
                     <speaker>ALICE</speaker>
@@ -3568,7 +3594,7 @@
                 <sp>
                     <speaker>ALICE</speaker>
                     <p>He looked at me...and slowly took me in his arms...and we began making love.
-                        ALICE (continuing) I seemed to live through countless days and nights -
+                        I seemed to live through countless days and nights -
                         there was neither time nor space. And the more we made love the more our
                         hunger for each other increased.</p>
                     <p>And just as that earlier feeling of terror and shame went beyond anything I
@@ -3620,30 +3646,26 @@
             </div>
             <div type="scene" n="44">
                 <head type="scene_heading">
-                    <stage type="environment">INT BILL'S APARTMENT - BEDROOM - DAWN</stage>
-                    <stage type="primary_location">INT BILL'S APARTMENT - BEDROOM - DAWN</stage>
-                    <stage type="time">INT BILL'S APARTMENT - BEDROOM - DAWN</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">BILL'S APARTMENT</stage>
+                    <stage type="time">DAWN</stage>
                 </head>
             </div>
             <div type="scene" n="45">
                 <head type="scene_heading">
-                    <stage type="environment">HELENA'S BEDROOM -</stage>
-                    <stage type="primary_location">HELENA'S BEDROOM -</stage>
-                    <stage type="time">HELENA'S BEDROOM -</stage>
+                    <stage type="primary_location">HELENA'S BEDROOM</stage>
                 </head>
             </div>
             <div type="scene" n="46">
                 <head type="scene_heading">
-                    <stage type="environment">STUDY -</stage>
-                    <stage type="primary_location">STUDY -</stage>
-                    <stage type="time">STUDY -</stage>
+                    <stage type="primary_location">STUDY</stage>
                 </head>
             </div>
             <div type="scene" n="47">
                 <head type="scene_heading">
-                    <stage type="environment">EXT CAFE SONATA - DAY</stage>
-                    <stage type="primary_location">EXT CAFE SONATA - DAY</stage>
-                    <stage type="time">EXT CAFE SONATA - DAY</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">CAFE SONATA</stage>
+                    <stage type="time">DAY</stage>
                 </head>
                 <stage type="setting">He takes a cab to the Cafe Sonata where he met Nick
                     Nightingale.</stage>
@@ -3699,16 +3721,15 @@
             </div>
             <div type="scene" n="48">
                 <head type="scene_heading">
-                    <stage type="environment">EXT HOTEL JASON - DAY</stage>
-                    <stage type="primary_location">EXT HOTEL JASON - DAY</stage>
-                    <stage type="time">EXT HOTEL JASON - DAY</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">HOTEL JASON</stage>
+                    <stage type="time">DAY</stage>
                 </head>
             </div>
             <div type="scene" n="49">
                 <head type="scene_heading">
-                    <stage type="environment">INT - LOBBY</stage>
-                    <stage type="primary_location">INT - LOBBY</stage>
-                    <stage type="time">INT - LOBBY</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">LOBBY</stage>
                 </head>
                 <sp>
                     <speaker>BILL</speaker>
@@ -3821,16 +3842,17 @@
             </div>
             <div type="scene" n="50">
                 <head type="scene_heading">
-                    <stage type="environment">EXT COSTUME SHOP - DAY</stage>
-                    <stage type="primary_location">EXT COSTUME SHOP - DAY</stage>
-                    <stage type="time">EXT COSTUME SHOP - DAY</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">COSTUME SHOP</stage>
+                    <stage type="time">DAY</stage>
                 </head>
+                <stage type="setting">BILL enters.</stage>
             </div>
             <div type="scene" n="51">
                 <head type="scene_heading">
-                    <stage type="environment">INT COSTUME SHOP - DAY</stage>
-                    <stage type="primary_location">INT COSTUME SHOP - DAY</stage>
-                    <stage type="time">INT COSTUME SHOP - DAY</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">COSTUME SHOP</stage>
+                    <stage type="time">DAY</stage>
                 </head>
                 <sp>
                     <speaker>GIBSON</speaker>
@@ -3907,7 +3929,11 @@
                     waves goodbye and leaves the shop.</stage>
                 <sp>
                     <speaker>BILL</speaker>
-                    <p>So that's how it is. GIBSON (with perfect equanimity) What did you say?</p>
+                    <p>So that's how it is.</p>
+                </sp>
+                <sp rend="with perfect equanimity">
+                    <speaker>GIBSON</speaker>
+                    <p>What did you say?</p>
                 </sp>
                 <sp>
                     <speaker>BILL</speaker>
@@ -3926,44 +3952,47 @@
                         deposit. Okay?</p>
                 </sp>
                 <stage type="setting">BILL nods.</stage>
-                <sp>
+                <sp rend="smiles">
                     <speaker>GIBSON</speaker>
-                    <p>And if the doctor should ever want anything again... (smiles) ...it needn't
+                    <p>And if the doctor should ever want anything again... it needn't
                         be a monk's costume.</p>
                 </sp>
             </div>
             <div type="scene" n="52">
                 <head type="scene_heading">
-                    <stage type="environment">EXT BILL'S SURGERY - DAY</stage>
-                    <stage type="primary_location">EXT BILL'S SURGERY - DAY</stage>
-                    <stage type="time">EXT BILL'S SURGERY - DAY</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">BILL'S SURGERY</stage>
+                    <stage type="time">DAY</stage>
                 </head>
             </div>
             <div type="scene" n="53">
                 <head type="scene_heading">
-                    <stage type="environment">INT BILL'S SURGERY - DAY</stage>
-                    <stage type="primary_location">INT BILL'S SURGERY - DAY</stage>
-                    <stage type="time">INT BILL'S SURGERY - DAY</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">BILL'S SURGERY</stage>
+                    <stage type="time">DAY</stage>
                 </head>
-                <stage type="setting">_Possible scene_.</stage>
-                <stage type="setting">BILL'S colleague, MAX</stage>
+                <stage type="setting">_Possible scene_.</stage> <!-- possible scene??? -->
+                <stage type="other???">BILL'S colleague, MAX</stage> 
                 <stage type="setting">In addition to whatever else they may talk about, BILL says he
                     feels a bit under the weather and asks MAX to take his appointments for the
                     afternoon.</stage>
             </div>
             <div type="scene" n="54">
                 <head type="scene_heading">
-                    <stage type="environment">EXT BILL'S SURGERY - DAY</stage>
-                    <stage type="primary_location">EXT BILL'S SURGERY - DAY</stage>
-                    <stage type="time">EXT BILL'S SURGERY - DAY</stage>
-                </head>
-            </div>
+                    <stage type="environment">EXT</stage>
+                        <stage type="primary_location">BILL'S SURGERY</stage>
+                        <stage type="time">DAY</stage>
+                    </head>
+                    <stage type="setting">BILL hails a taxi and makes a another deal to go to the
+                        house in Long Island.</stage>
+                </div>
             <div type="scene" n="55">
                 <head type="scene_heading">
-                    <stage type="environment">INT CAB - DAY</stage>
-                    <stage type="primary_location">INT CAB - DAY</stage>
-                    <stage type="time">INT CAB - DAY</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">CAB</stage>
+                    <stage type="time">DAY</stage>
                 </head>
+                <stage type="other???">BILL'S thoughts.</stage>
                 <sp>
                     <speaker>V.O.</speaker>
                     <p>To be written</p>
@@ -3971,19 +4000,19 @@
             </div>
             <div type="scene" n="56">
                 <head type="scene_heading">
-                    <stage type="environment">EXT VARIOUS POV'S DAY - 59th street Bridge. L.I.
-                        Express way.</stage>
-                    <stage type="primary_location">EXT VARIOUS POV'S DAY - 59th street Bridge. L.I.
-                        Express way.</stage>
-                    <stage type="time">EXT VARIOUS POV'S DAY - 59th street Bridge. L.I. Express way.</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">59th street Bridge. L.I. Express way.</stage>
+                    <stage type="other???">VARIOUS POV'S DAY</stage>
                 </head>
             </div>
             <div type="scene" n="57">
                 <head type="scene_heading">
-                    <stage type="environment">EXT LONG ISLAND MANSION - DAY</stage>
-                    <stage type="primary_location">EXT LONG ISLAND MANSION - DAY</stage>
-                    <stage type="time">EXT LONG ISLAND MANSION - DAY</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">LONG ISLAND MANSION</stage>
+                    <stage type="time">DAY</stage>
                 </head>
+                <stage type="setting">When the cab arrives there, nothing suspicious is in sight, 
+                    no cars or pedestrians.</stage>
                 <stage type="setting">It stops a little past the house and BILL get out and walks to
                     the gates.</stage>
                 <stage type="setting">The big gates are locked and there is no one in sight.</stage>
@@ -4016,16 +4045,16 @@
             </div>
             <div type="scene" n="58">
                 <head type="scene_heading">
-                    <stage type="environment">EXT CAB - DAY</stage>
-                    <stage type="primary_location">EXT CAB - DAY</stage>
-                    <stage type="time">EXT CAB - DAY</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">CAB</stage>
+                    <stage type="time">DAY</stage>
                 </head>
             </div>
             <div type="scene" n="59">
                 <head type="scene_heading">
-                    <stage type="environment">INT CAB - DAY</stage>
-                    <stage type="primary_location">INT CAB - DAY</stage>
-                    <stage type="time">INT CAB - DAY</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">CAB</stage>
+                    <stage type="time">DAY</stage>
                 </head>
                 <sp>
                     <speaker>V.O.</speaker>
@@ -4040,9 +4069,9 @@
             </div>
             <div type="scene" n="60">
                 <head type="scene_heading">
-                    <stage type="environment">INT BILL'S APARTMENT - NIGHT</stage>
-                    <stage type="primary_location">INT BILL'S APARTMENT - NIGHT</stage>
-                    <stage type="time">INT BILL'S APARTMENT - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">BILL'S APARTMENT</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">Some simple, natural dialog will be worked out for the action,
                     over which the V.O. will be heard.</stage>
@@ -4070,17 +4099,20 @@
             </div>
             <div type="scene" n="61">
                 <head type="scene_heading">
-                    <stage type="environment">EXT MARION'S APARTMENT - NIGHT</stage>
-                    <stage type="primary_location">EXT MARION'S APARTMENT - NIGHT</stage>
-                    <stage type="time">EXT MARION'S APARTMENT - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">MARION'S APARTMENT</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                <stage type="setting">BILL gets out of a cab..</stage>
             </div>
             <div type="scene" n="62">
                 <head type="scene_heading">
-                    <stage type="environment">INT MARION'S LOBBY - NIGHT</stage>
-                    <stage type="primary_location">INT MARION'S LOBBY - NIGHT</stage>
-                    <stage type="time">INT MARION'S LOBBY - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">MARION'S LOBBY</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                    <stage type="setting">He meets, her fiance, Carl, on his way out. Carl holds out
+                        his hand cordially and they exchange greetings. </stage>
                 <sp>
                     <speaker>BILL</speaker>
                     <p>How is Marion?</p>
@@ -4119,10 +4151,11 @@
             </div>
             <div type="scene" n="63">
                 <head type="scene_heading">
-                    <stage type="environment">INT MARION'S APARTMENT - NIGHT</stage>
-                    <stage type="primary_location">INT MARION'S APARTMENT - NIGHT</stage>
-                    <stage type="time">INT MARION'S APARTMENT - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">MARION'S APARTMENT</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                <stage type="setting">Marion opens the door.</stage>
                 <stage type="setting">She is dressed in black. Her face becomes slightly flushed.</stage>
                 <sp rend="smiling wearily">
                     <speaker>MARION</speaker>
@@ -4260,34 +4293,39 @@
             </div>
             <div type="scene" n="64">
                 <head type="scene_heading">
-                    <stage type="environment">EXT STREET - ON WAY TO DOMINO - NIGHT</stage>
-                    <stage type="primary_location">EXT STREET - ON WAY TO DOMINO - NIGHT</stage>
-                    <stage type="time">EXT STREET - ON WAY TO DOMINO - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">ON WAY TO DOMINO</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                <stage type="setting">BILL walks.</stage>
             </div>
             <div type="scene" n="65">
                 <head type="scene_heading">
-                    <stage type="environment">INT/EXT BAKERY - BILL BUYS A CAKE - NIGHT</stage>
-                    <stage type="primary_location">INT/EXT BAKERY - BILL BUYS A CAKE - NIGHT</stage>
-                    <stage type="time">INT/EXT BAKERY - BILL BUYS A CAKE - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">BAKERY</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                <stage type="setting">Seen through the window.</stage>
             </div>
             <div type="scene" n="66">
                 <head type="scene_heading">
-                    <stage type="environment">EXT. DOMINO STREET - NIGHT</stage>
-                    <stage type="primary_location">EXT. DOMINO STREET - NIGHT</stage>
-                    <stage type="time">EXT. DOMINO STREET - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">DOMINO STREET</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                <stage type="setting">Bill walks down the street where he was picked up the night before
+                    by the young prostitute, Domino.</stage>
                 <stage type="setting">He carries a small cake-box tied with a blue ribbon.</stage>
                 <stage type="setting">He finds the address and rings the bell. The buzzer sounds and
                     he goes in.</stage>
             </div>
             <div type="scene" n="67">
                 <head type="scene_heading">
-                    <stage type="environment">INT DOMINO STAIRCASE CORRIDOR - NIGHT</stage>
-                    <stage type="primary_location">INT DOMINO STAIRCASE CORRIDOR - NIGHT</stage>
-                    <stage type="time">INT DOMINO STAIRCASE CORRIDOR - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">DOMINO STAIRCASE CORRIDOR</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                <stage type="setting">An arty looking woman in her forties opens the door on the chain.</stage>
                 <sp>
                     <speaker>BILL</speaker>
                     <p>Good evening. I'm looking for Domino</p>
@@ -4319,10 +4357,11 @@
             </div>
             <div type="scene" n="68">
                 <head type="scene_heading">
-                    <stage type="environment">INT DOMINO APARTMENT - NIGHT</stage>
-                    <stage type="primary_location">INT DOMINO APARTMENT - NIGHT</stage>
-                    <stage type="time">INT DOMINO APARTMENT - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">DOMINO APARTMENT</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                <stage type="setting">Bill enters the apartment.</stage>
                 <sp>
                     <speaker>SALLY</speaker>
                     <p>Hi. I'm Sally. This is Pietra.</p>
@@ -4386,9 +4425,10 @@
             </div>
             <div type="scene" n="69">
                 <head type="scene_heading">
-                    <stage type="environment">EXT DOMINO STREET - BILL WALKING - NIGHT</stage>
-                    <stage type="primary_location">EXT DOMINO STREET - BILL WALKING - NIGHT</stage>
-                    <stage type="time">EXT DOMINO STREET - BILL WALKING - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">DOMINO STREET</stage>
+                    <stage type="time">NIGHT</stage>
+                    <stage type="setting">BILL WALKING</stage>
                 </head>
                 <sp>
                     <speaker>V.O.</speaker>
@@ -4405,9 +4445,10 @@
             </div>
             <div type="scene" n="70">
                 <head type="scene_heading">
-                    <stage type="environment">EXT STREET - BILL FOLLOWED - NIGHT</stage>
-                    <stage type="primary_location">EXT STREET - BILL FOLLOWED - NIGHT</stage>
-                    <stage type="time">EXT STREET - BILL FOLLOWED - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">STREET</stage>
+                    <stage type="setting">BILL FOLLOWED</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">Suddenly, BILL feels he is being followed.</stage>
                 <stage type="setting">He glances back and sees a man about half a block behind him
@@ -4417,28 +4458,25 @@
             </div>
             <div type="scene" n="71">
                 <head type="scene_heading">
-                    <stage type="environment">SHORT SEQUENCE OF THE MAN FOLLOWING BILL - SEVERAL
-                        STREETS</stage>
-                    <stage type="primary_location">SHORT SEQUENCE OF THE MAN FOLLOWING BILL -
-                        SEVERAL STREETS</stage>
-                    <stage type="time">SHORT SEQUENCE OF THE MAN FOLLOWING BILL - SEVERAL STREETS</stage>
+                    <stage type="other??">SHORT SEQUENCE OF THE MAN FOLLOWING BILL</stage>
+                    <stage type="primary_location">SEVERAL STREETS</stage>
                 </head>
             </div>
             <div type="scene" n="72">
                 <head type="scene_heading">
-                    <stage type="environment">STREET - NEWS-STAND NEAR COFFEE SHOP</stage>
-                    <stage type="primary_location">STREET - NEWS-STAND NEAR COFFEE SHOP</stage>
-                    <stage type="time">STREET - NEWS-STAND NEAR COFFEE SHOP</stage>
+                    <stage type="primary_location">STREET</stage>
+                    <stage type="secondary_location">NEWS-STAND NEAR COFFEE SHOP</stage>
                 </head>
+                <stage type="setting">BILL stops at the news-stand and buys a paper.</stage>
                 <stage type="setting">He looks back again.</stage>
                 <stage type="setting">The man is still there, walking slowly towards him.</stage>
                 <stage type="setting">BILL goes into a nearby Coffee Bar.</stage>
             </div>
             <div type="scene" n="73">
                 <head type="scene_heading">
-                    <stage type="environment">INT COFFEE BAR - NIGHT</stage>
-                    <stage type="primary_location">INT COFFEE BAR - NIGHT</stage>
-                    <stage type="time">INT COFFEE BAR - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">COFFEE BAR</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">A waitress comes over with a glass of ice water and a plastic
                     menu.</stage>
@@ -4487,16 +4525,16 @@
             </div>
             <div type="scene" n="74">
                 <head type="scene_heading">
-                    <stage type="environment">EXT HOSPITAL - NIGHT</stage>
-                    <stage type="primary_location">EXT HOSPITAL - NIGHT</stage>
-                    <stage type="time">EXT HOSPITAL - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">HOSPITAL</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                <stage type="other???">Establishing shot</stage>
             </div>
             <div type="scene" n="75">
                 <head type="scene_heading">
-                    <stage type="environment">INT HOSPITAL -</stage>
-                    <stage type="primary_location">INT HOSPITAL -</stage>
-                    <stage type="time">INT HOSPITAL -</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">HOSPITAL</stage>
                 </head>
                 <stage type="setting">BILL the signs to the Emergency Room Waiting Area.</stage>
                 <stage type="setting">He walks up a young black woman at the information desk.</stage>
@@ -4550,15 +4588,21 @@
                     <speaker>BILL</speaker>
                     <p>Is the body in the hospital morgue?</p>
                 </sp>
-                <stage type="setting">INT HOSPITAL CORRIDOR ON WAY TO MORGUE</stage>
+            </div>
+            <div type="scene" n="75"> <!-- numbering -->
+                <head type="scene_heading">
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">HOSPITAL CORRIDOR ON WAY TO MORGUE</stage>
+                </head>
                 <stage type="setting">BILL follows a black male orderly down a hospital corridor.</stage>
             </div>
             <div type="scene" n="76">
                 <head type="scene_heading">
-                    <stage type="environment">INT MORGUE -</stage>
-                    <stage type="primary_location">INT MORGUE -</stage>
-                    <stage type="time">INT MORGUE -</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">MORGUE</stage>
                 </head>
+                    <stage type="setting">The morgue is a brightly lit, white-tiled room with six
+                        autopsy tables and fifty numbered crypts.</stage>
                 <stage type="setting">There is no one else working in the room.</stage>
                 <stage type="setting">The black orderly checks a slip of paper and goes to that
                     crypt.</stage>
@@ -4623,10 +4667,14 @@
             </div>
             <div type="scene" n="77">
                 <head type="scene_heading">
-                    <stage type="environment">EXT ZIEGLER MANSION - NIGHT</stage>
-                    <stage type="primary_location">EXT ZIEGLER MANSION - NIGHT</stage>
-                    <stage type="time">EXT ZIEGLER MANSION - NIGHT</stage>
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">ZIEGLER MANSION</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
+                <stage type="setting">BILL's taxi pulls up.</stage>
+                <stage type="setting">There are only a few lights on inside, giving the house a more
+                    sombre appearance from the night of the Christmas party.</stage>
+                <stage type="setting">The butler opens the door and takes BILL's coat.</stage>
                 <stage type="setting">Ziegler's assistant, HARRIS, appears.</stage>
                 <sp>
                     <speaker>HARRIS</speaker>
@@ -4970,9 +5018,9 @@
             </div>
             <div type="scene" n="78">
                 <head type="scene_heading">
-                    <stage type="environment">INT BILL'S APARTMENT - NIGHT</stage>
-                    <stage type="primary_location">INT BILL'S APARTMENT - NIGHT</stage>
-                    <stage type="time">INT BILL'S APARTMENT - NIGHT</stage>
+                    <stage type="environment">INT</stage>
+                    <stage type="primary_location">BILL'S APARTMENT</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">He hears ALICE breathing softly and regularly and sees the
                     outline of her head on the pillow.</stage>
@@ -5009,9 +5057,8 @@
             </div>
             <div type="scene" n="79">
                 <head type="scene_heading">
-                    <stage type="environment">BEDROOM - IT IS NOW DAWN</stage>
-                    <stage type="primary_location">BEDROOM - IT IS NOW DAWN</stage>
-                    <stage type="time">BEDROOM - IT IS NOW DAWN</stage>
+                    <stage type="primary_location">BEDROOM</stage>
+                    <stage type="time">DAWN</stage>
                 </head>
                 <stage type="setting">ALICE sits expressionlessly at a small table near the window,
                     finishing a cigarette. A full ashtray next to her.</stage>
