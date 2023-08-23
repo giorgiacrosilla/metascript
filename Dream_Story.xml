@@ -387,13 +387,13 @@
             <note>
               doctor, rugged, knows how to play piano
             </note>
-            <ptr target="screenplay_1996.xml#BILL"/>
+            <ptr target="screenplay_1996.xml#BILL" />
           </person>
           <person xml:id="Albertina" sex="FEMALE">
             <persName>
               Albertina
             </persName>
-            <ptr target="screenplay_1996.xml#ALICE"/>
+            <ptr target="screenplay_1996.xml#ALICE" />
           </person>
           <person xml:id="STRANGER" sex="MALE">
             <persName>
@@ -563,28 +563,33 @@
     </front>
     <body>
       <div type="chapter" n="1">
-        <head>
-          1.
-        </head>
+      <head>
+        1.
+      </head>
+      <div type="subdivision">
         <p>
           <quote>
             "TWENTY-FOUR brown-skinned slaves rowed the splendid gallery which was to bring
-            Prince Amgiad to the palace of the caliph. The Prince, wrapped in his purple cloak, lay
-          alone on the deck
+            Prince Amgiad to the palace of the caliph. The Prince, wrapped in his purple cloak,
+            lay
+            alone on the deck
             under the dark-blue, starry sky, and his gaze—"
           </quote>
 					<lb />
           So far the <rs ref="#daughter">
             little girl
           </rs> had read aloud.Then, suddenly, her eyelids
-          drooped. Her parents looked at each other and smiled. <rs type="character" ref="#Fridolin">
-          Fridolin
-          </rs> bent down, kissed her blond hair and closed the book
-          which was lying on the untidy table. The child looked up as if caught at some mischief. <lb />
+          drooped. Her parents looked at each other and smiled. <rs type="character"
+            ref="#Fridolin">
+            Fridolin
+          </rs> bent down, kissed her blond hair and closed
+          the book which was lying on the untidy table. The child looked up as if caught at some
+          mischief. <lb />
 					<said
             aloud="true" direct="true" who="Fridolin" toWhom="daughter">
             "It's nine o'clock,"
-          </said> her father said, <said aloud="true"
+          </said> her father said, <said
+            aloud="true"
             direct="true"
             who="Fridolin" toWhom="daughter">
             "and time you were in
@@ -599,7 +604,10 @@
             governess
           </rs> entered and asked the little girl to say
           good-night. She got up obediently, kissed her father and mother and walked out quietly
-          hand in hand with the young woman.
+          hand in hand with the young woman. </p>
+      </div>
+      <div type="subdivision">
+        <p>
           <rs ref="#Fridolin">
             Fridolin
           </rs> and <rs type="character" ref="#Albertina">
