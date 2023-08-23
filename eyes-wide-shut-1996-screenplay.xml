@@ -332,8 +332,9 @@
                 <head type="scene_heading">
                     <stage type="primary_location">BEDROOM -</stage>
                 </head>
-                <sp rend="looking in mirror" who="ALICE" toWhom="">
+                <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
+                    <stage type="delivery">looking in mirror</stage>
                     <p>How do I look?</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -367,12 +368,14 @@
                     <speaker>BABY-SITTER</speaker>
                     <p>Oh, you look so-ooo lovely, Mrs. Harford.</p>
                 </sp>
-                <sp rend="laughs" who="ALICE" toWhom="">
+                <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>Thank you, Roz.</p>
                 </sp>
-                <sp rend="to Helena" who="ALICE" toWhom="">
+                <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
+                    <stage type="delivery">to Helena</stage>
                     <p>All ready for bed?</p>
                 </sp>
                 <sp who="HELENA" toWhom="">
@@ -406,8 +409,9 @@
                     <p>Thank you, Mommy.</p>
                 </sp>
                 <stage type="setting">The house intercom rings. BILL goes to answer it.</stage>
-                <sp rend="VOICE" who="DOORMAN" toWhom="">
+                <sp who="DOORMAN" toWhom="">
                     <speaker>DOORMAN</speaker>
+                    <stage type="delivery">VOICE</stage>
                     <p>Doctor Harford?</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -423,8 +427,9 @@
                     <speaker>BILL</speaker>
                     <p>OK the car's here - let's go.</p>
                 </sp>
-                <sp rend="to Baby-sitter" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">to Baby-sitter</stage>
                     <p>Roz, we might be late tonight but I'll hold the car to take you home.</p>
                 </sp>
                 <sp who="BABY-SITTER" toWhom="">
@@ -465,12 +470,14 @@
                     <p>Can you sign this, Doctor?</p>
                 </sp>
                 <stage type="setting">The doorman, carrying an umbrella, opens the car door.</stage>
-                <sp rend="signing" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">signing</stage>
                     <p>Okay, thanks..</p>
                 </sp>
-                <sp rend="handing his card" who="DRIVER" toWhom="">
+                <sp who="DRIVER" toWhom="">
                     <speaker>DRIVER</speaker>
+                    <stage type="delivery">handing his card</stage>
                     <p>Just phone about half hour before you want to be picked up.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -497,8 +504,9 @@
                 <stage type="setting">The hosts, VICTOR ZIEGLER, a fit, sun-tanned, man in his
                     mid-fifties, and his wife, ILLONA, a Hungarian beauty, stand to one side
                     greeting their guests in the large entrance hall.</stage>
-                <sp rend="speaking above the noise" who="ZIEGLER" toWhom="">
+                <sp who="ZIEGLER" toWhom="">
                     <speaker>ZIEGLER</speaker>
+                    <stage type="delivery">speaking above the noise</stage>
                     <p>Bill!...Alice!... I'm so glad you could come. It's wonderful to see you both,</p>
                 </sp>
                 <stage type="setting">AD-LIBS of further greetings while they shake hands and kiss
@@ -588,8 +596,9 @@
                     <speaker>NICK</speaker>
                     <p>My friends call me that.</p>
                 </sp>
-                <sp rend="laughs" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>And how do you happen to playing here tonight?</p>
                 </sp>
                 <sp who="NICK" toWhom="">
@@ -622,8 +631,9 @@
                         Village for the next two weeks, at the Cafe Sonata. Come by if you get a
                         chance.</p>
                 </sp>
-                <sp rend="nods" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">nods</stage>
                     <p>Cafe Sonata, right. Okay, and listen, it was great seeing you again.</p>
                 </sp>
                 <sp who="NICK" toWhom="">
@@ -636,8 +646,9 @@
                 <stage type="setting">ALICE is at the bar waiting for him.</stage>
                 <stage type="setting">She reaches absently for her champagne glass... and finds she
                     is holding - or touching - a man's hand.</stage>
-                <sp rend="smiles" who="ALICE" toWhom="">
+                <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
+                    <stage type="delivery">smiles</stage>
                     <p>I think that's my glass.</p>
                 </sp>
                 <sp who="SZABO" toWhom="">
@@ -690,8 +701,9 @@
                     <speaker>GAYLE</speaker>
                     <p>Nobody likes you?</p>
                 </sp>
-                <sp rend="louder" who="GAYLE" toWhom="">
+                <sp who="GAYLE" toWhom="">
                     <speaker>GAYLE</speaker>
+                    <stage type="delivery">louder</stage>
                     <p>Nobody likes you, is that the problem?</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -699,13 +711,15 @@
                     <p>Put it this way, nobody _wants_ to admit how much they like me. But I'm
                         confident it can still happen.</p>
                 </sp>
-                <sp rend="laughs" who="GAYLE" toWhom="">
+                <sp who="GAYLE" toWhom="">
                     <speaker>GAYLE</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>Do you know Nuala Windsor?</p>
                 </sp>
                 <stage type="setting">GAYLE asks, putting her arm around her friend's waist.</stage>
-                <sp rend="smiles" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">smiles</stage>
                     <p>Nuala...I certainly feel like I do. How do you spell, Nuala?</p>
                 </sp>
                 <sp who="NUALA" toWhom="">
@@ -734,8 +748,9 @@
                     <p>I was on a shoot, modelling at Rockefeller Center, on a very windy day. You
                         happened to be passing by.</p>
                 </sp>
-                <sp rend="remembering" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">remembering</stage>
                     <p>And you got something in your eye?</p>
                 </sp>
                 <sp who="NUALA" toWhom="">
@@ -885,8 +900,9 @@
                     <speaker>BILL</speaker>
                     <p>You're absolutely right. Where we going, girls?</p>
                 </sp>
-                <sp rend="laughs" who="NUALA" toWhom="">
+                <sp who="NUALA" toWhom="">
                     <speaker>NUALA</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>Where the rainbow ends.</p>
                 </sp>
                 <stage type="setting">BILL slows down a little.</stage>
@@ -908,8 +924,9 @@
                     <speaker>BILL</speaker>
                     <p>Sure.</p>
                 </sp>
-                <sp rend="nods towards the door" who="HARRIS" toWhom="">
+                <sp who="HARRIS" toWhom="">
                     <speaker>HARRIS</speaker>
+                    <stage type="delivery">nods towards the door</stage>
                     <p>Could you spare a minute, please?</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -920,8 +937,9 @@
                     <speaker>HARRIS</speaker>
                     <p>Could you come with me, please?</p>
                 </sp>
-                <sp rend="laughs" who="GAYLE" toWhom="">
+                <sp who="GAYLE" toWhom="">
                     <speaker>GAYLE</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>It's something for Me. Z.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -954,8 +972,9 @@
                         below.</p>
                 </sp>
                 <stage type="setting">HARRIS stops in front of a large door and knocks quietly.</stage>
-                <sp rend="os" who="ZIEGLER" toWhom="">
+                <sp who="ZIEGLER" toWhom="">
                     <speaker>ZIEGLER</speaker>
+                    <stage type="delivery">os</stage>
                     <p>Yes?</p>
                 </sp>
                 <sp who="HARRIS" toWhom="">
@@ -981,8 +1000,9 @@
                 </sp>
                 <stage type="setting">ZIEGLER gestures to the cocaine paraphernalia on the night
                     table.</stage>
-                <sp rend="checking her pulse" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">checking her pulse</stage>
                     <p>How long has she been like this?</p>
                 </sp>
                 <sp who="ZIEGLER" toWhom="">
@@ -1389,8 +1409,9 @@
                     <speaker>ALICE</speaker>
                     <p>And why is that?</p>
                 </sp>
-                <sp rend="laughs" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>Because they're too worried about what I might find.</p>
                 </sp>
                 <sp who="ALICE" toWhom="">
@@ -1430,8 +1451,9 @@
                     <speaker>BILL</speaker>
                     <p>If we knew -? What do you mean by that?</p>
                 </sp>
-                <sp rend="in a strangely harsh voice" who="ALICE" toWhom="">
+                <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
+                    <stage type="delivery">in a strangely harsh voice</stage>
                     <p>About what you imagine, my dear.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -1440,8 +1462,9 @@
                         me?</p>
                 </sp>
                 <stage type="setting">ALICE looks down with a strange smile.</stage>
-                <sp rend="laughs" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>You're just trying to wind me up.</p>
                 </sp>
                 <sp who="ALICE" toWhom="">
@@ -1567,16 +1590,18 @@
                     <speaker>ALICE</speaker>
                     <p>Obviously, it was a mistake to have told you.</p>
                 </sp>
-                <sp rend="coldly" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">coldly</stage>
                     <p>Not at all.. We must always tell each other everything.</p>
                 </sp>
                 <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
                     <p>It was the pot.</p>
                 </sp>
-                <sp rend="coldly" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">coldly</stage>
                     <p>It doesn't really matter. Nothing happened. Just a passing fancy.</p>
                 </sp>
             </div>
@@ -1598,8 +1623,9 @@
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">MARION'S PRIVATE ELEVATOR LOBBY</stage>
                 </head>
-                <sp rend="softly" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">softly</stage>
                     <p>Marion?</p>
                 </sp>
                 <stage type="setting">He walks through the quiet apartment.</stage>
@@ -1936,8 +1962,9 @@
                     <p>Really, it's okay. Come on.</p>
                 </sp>
                 <stage type="setting">BILL allows himself to be led to the door.</stage>
-                <sp rend="gently" who="DOMINO" toWhom="">
+                <sp who="DOMINO" toWhom="">
                     <speaker>DOMINO</speaker>
+                    <stage type="delivery">gently</stage>
                     <p>Come on.</p>
                 </sp>
             </div>
@@ -1961,8 +1988,9 @@
                     <p>Sixty. Sounds good.</p>
                 </sp>
                 <stage type="setting">DOMINO laughs.</stage>
-                <sp rend="laughs" who="DOMINO" toWhom="">
+                <sp who="DOMINO" toWhom="">
                     <speaker>DOMINO</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>I don't keep track of the time.</p>
                 </sp>
                 <stage type="setting">She unlocks the door and they go inside.</stage>
@@ -2095,12 +2123,14 @@
                     <speaker>DOMINO</speaker>
                     <p>My father's a GP.</p>
                 </sp>
-                <sp rend="laughs" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>No kidding? I hope I don't know him.</p>
                 </sp>
-                <sp rend="laughs" who="DOMINO" toWhom="">
+                <sp who="DOMINO" toWhom="">
                     <speaker>DOMINO</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>He practises in New Jersey.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -2123,8 +2153,9 @@
                     <p>Well, to be honest, I would have said sixteen or seventeen but obviously if
                         you're going to college... eighteen?</p>
                 </sp>
-                <sp rend="laughs" who="DOMINO" toWhom="">
+                <sp who="DOMINO" toWhom="">
                     <speaker>DOMINO</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>Nineteen.</p>
                 </sp>
                 <stage type="setting">She puts her arms around his neck again and gazes into his
@@ -2155,8 +2186,9 @@
                 </sp>
                 <stage type="setting">BILL thinks for a moment and nods. Then he sighs and gets to
                     his feet.</stage>
-                <sp rend="not a question" who="DOMINO" toWhom="">
+                <sp who="DOMINO" toWhom="">
                     <speaker>DOMINO</speaker>
+                    <stage type="delivery">not a question</stage>
                     <p>You have to go.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -2304,8 +2336,9 @@
                     <speaker>BILL</speaker>
                     <p>You're playing somewhere else _tonight_?</p>
                 </sp>
-                <sp rend="shrugs" who="NICK" toWhom="">
+                <sp who="NICK" toWhom="">
                     <speaker>NICK</speaker>
+                    <stage type="delivery">shrugs</stage>
                     <p>They only get started there about two</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -2333,8 +2366,9 @@
                     <speaker>NICK</speaker>
                     <p>So far.</p>
                 </sp>
-                <sp rend="laughs" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">laughs</stage>
                     <p>What's the big mystery?</p>
                 </sp>
                 <stage type="setting">Nick opens his palms in a parody of innocence.</stage>
@@ -2376,8 +2410,9 @@
                     <p>I play blindfolded.</p>
                 </sp>
                 <stage type="setting">Something near the entrance door attracts Nick's attention.</stage>
-                <sp rend="stands up" who="NICK" toWhom="">
+                <sp who="NICK" toWhom="">
                     <speaker>NICK</speaker>
+                    <stage type="delivery">stands up</stage>
                     <p>Back in a minute.</p>
                 </sp>
                 <stage type="setting">He walks to the front window of the club and looks out into
@@ -2485,8 +2520,9 @@
                     <p>Nick, don't you think you might just be over-dramatising this a little bit?
                         There must be some way you can get me in.</p>
                 </sp>
-                <sp rend="shakes his head" who="NICK" toWhom="">
+                <sp who="NICK" toWhom="">
                     <speaker>NICK</speaker>
+                    <stage type="delivery">shakes his head</stage>
                     <p>It would be too dangerous.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -2521,8 +2557,9 @@
                     <p>Password? NICK Yes. You can't get in without the password and they change it
                         every time. And. listen, I'm going to have to get weaving pretty soon.</p>
                 </sp>
-                <sp rend="said with a smile" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">said with a smile</stage>
                     <p>Nick, you son-of-a-bitch, you know you are definitely going to have to take
                         me with you tonight. You know that, don't you.</p>
                 </sp>
@@ -2755,8 +2792,9 @@
                         sure of her protection. Her pretty little face covered with powder and a
                         smile of impish desire in her eyes.</p>
                 </sp>
-                <sp rend="shouts" who="GIBSON" toWhom="">
+                <sp who="GIBSON" toWhom="">
                     <speaker>GIBSON</speaker>
+                    <stage type="delivery">shouts</stage>
                     <p>Gentlemen, you will stay here while I call the police.</p>
                 </sp>
                 <sp who="KIMONO 1" toWhom="">
@@ -2793,13 +2831,15 @@
                     <speaker>BILL</speaker>
                     <p>Black.</p>
                 </sp>
-                <sp rend="with gleaming eyes" who="YOUNG GIRL" toWhom="">
+                <sp who="YOUNG GIRL" toWhom="">
                     <speaker>YOUNG GIRL</speaker>
+                    <stage type="delivery">with gleaming eyes</stage>
                     <p>No. You must give this gentleman a cloak lined with ermine and a doublet of
                         red silk.</p>
                 </sp>
-                <sp rend="to girl" who="GIBSON" toWhom="">
+                <sp who="GIBSON" toWhom="">
                     <speaker>GIBSON</speaker>
+                    <stage type="delivery">to girl</stage>
                     <p>Don't you budge from there.</p>
                     <p>(to Bill) What size are you?</p>
                 </sp>
@@ -2877,8 +2917,9 @@
                     <p>Well, it's just that I first heard you say the girl was unbalanced, and then
                         you called her depraved. Those things are a little contradictory.</p>
                 </sp>
-                <sp rend="a bit theatrically" who="GIBSON" toWhom="">
+                <sp who="GIBSON" toWhom="">
                     <speaker>GIBSON</speaker>
+                    <stage type="delivery">a bit theatrically</stage>
                     <p>Well, aren't insanity and depravity the same in the eyes of God?</p>
                 </sp>
                 <stage type="setting">The last thing BILL wants right now is to get into an argument
@@ -2906,8 +2947,9 @@
                     <speaker>BILL</speaker>
                     <p>How about twenty bucks over the meter?</p>
                 </sp>
-                <sp rend="shakes his head" who="CAB DRIVER" toWhom="">
+                <sp who="CAB DRIVER" toWhom="">
                     <speaker>CAB DRIVER</speaker>
+                    <stage type="delivery">shakes his head</stage>
                     <p>I'll have to come back empty.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -3004,8 +3046,9 @@
                     wood which covers the house.</stage>
                 <stage type="setting">BILL rings a bell at the side of the gate and two men promptly
                     come out of the gate house.</stage> 
-                <sp rend="polite and well-spoken" who="GATEMAN 1" toWhom="">
+                <sp who="GATEMAN 1" toWhom="">
                     <speaker>GATEMAN 1</speaker>
+                    <stage type="delivery">polite and well-spoken</stage>
                     <p>Good morning,</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -3024,8 +3067,9 @@
                     <speaker>GATEMAN 1</speaker>
                     <p>If you wouldn't mind, sir.</p>
                 </sp>
-                <sp rend="slowly" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">slowly</stage>
                     <p>Fidelio Rainbow..</p>
                 </sp>
                 <sp who="GATEMAN 1" toWhom="">
@@ -3085,8 +3129,9 @@
                     <speaker></speaker>
                     <p>This might be a good time to put on your mask, sir.</p>
                 </sp>
-                <sp rend="casually" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">casually</stage>
                     <p>Oh, yes. Of course.</p>
                 </sp>
                 <stage type="setting">BILL takes the mask from his pocket and puts it on.</stage>
@@ -3200,8 +3245,9 @@
                 <stage type="setting">But just at that moment, THE WOMAN returns.</stage>
                 <stage type="setting">She pretends that she has just noticed him and says in a voice
                     that can be heard by the two men.</stage>
-                <sp rend="she laughs" who="THE WOMAN" toWhom="">
+                <sp who="THE WOMAN" toWhom="">
                     <speaker>THE WOMAN</speaker>
+                    <stage type="delivery">she laughs</stage>
                     <p>Returned at last. All your efforts are useless. I know you.</p>
                 </sp>
                 <stage type="setting">Then turning to the other woman she whispers:</stage>
@@ -3338,8 +3384,9 @@
                     <p>You will kindly remove your mask.</p>
                 </sp>
                 <stage type="setting">BILL looks around at the masked faces surrounding him.</stage>
-                <sp rend="sharply" who="ELEGANT MAN" toWhom="">
+                <sp who="ELEGANT MAN" toWhom="">
                     <speaker>ELEGANT MAN</speaker>
+                    <stage type="delivery">sharply</stage>
                     <p>Please remove your mask.</p>
                 </sp>
                 <stage type="setting">BILL slowly removes his mask and puts it in his pocket. THE
@@ -3424,8 +3471,9 @@
                     distorted.</stage>
                 <stage type="setting">Suddenly, still in her sleep, she laughs so shrilly that he
                     becomes alarmed.</stage>
-                <sp rend="involuntarily" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">involuntarily</stage>
                     <p>Alice.</p>
                 </sp>
                 <stage type="setting">She laughs again, as if in answer, in a strange, almost
@@ -3436,8 +3484,9 @@
                 </sp>
                 <stage type="setting">She opens her eyes, slowly and with difficulty.</stage>
                 <stage type="setting">She stares at him, as though she does not recognise him.</stage>
-                <sp rend="softly" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">softly</stage>
                     <p>Alice? As she wakes up, an expression of fear, even of terror comes into her
                         eyes.</p>
                 </sp>
@@ -3453,8 +3502,9 @@
                 </sp>
                 <stage type="setting">ALICE breathes deeply, tries to smile, drops her arms on the
                     blanket.</stage>
-                <sp rend="in a far away voice" who="ALICE" toWhom="">
+                <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
+                    <stage type="delivery">in a far away voice</stage>
                     <p>Is it morning yet?</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -3475,20 +3525,23 @@
                     <speaker>BILL</speaker>
                     <p>Alice, you laughed so strangely. What's the matter?</p>
                 </sp>
-                <sp rend="distantly" who="ALICE" toWhom="">
+                <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
+                    <stage type="delivery">distantly</stage>
                     <p>I've been dreaming.</p>
                 </sp>
-                <sp rend="gently" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">gently</stage>
                     <p>What have you been dreaming?</p>
                 </sp>
                 <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
                     <p>Oh, so much, I can't quite remember.</p>
                 </sp>
-                <sp rend="gently" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">gently</stage>
                     <p>Perhaps if you try.</p>
                 </sp>
                 <sp who="ALICE" toWhom="">
@@ -3540,8 +3593,9 @@
                         chamber and you took me in your arms and made love to me and said you would
                         love me forever.</p>
                 </sp>
-                <sp rend="with an invisible, malicious smile." who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">with an invisible, malicious smile.</stage>
                     <p>I hope you loved me, too.</p>
                 </sp>
                 <sp who="ALICE" toWhom="">
@@ -3747,8 +3801,9 @@
                     <p>Can you ring Mr. Nightingale's room for me, please?</p>
                 </sp>
                 <stage type="setting">The DESK CLERK gives him a strange look.</stage>
-                <sp rend="smiles" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">smiles</stage>
                     <p>Nick Nightingale?</p>
                 </sp>
                 <sp who="DESK CLERK" toWhom="">
@@ -3934,8 +3989,9 @@
                     <speaker>BILL</speaker>
                     <p>So that's how it is.</p>
                 </sp>
-                <sp rend="with perfect equanimity" who="GIBSON" toWhom="">
+                <sp who="GIBSON" toWhom="">
                     <speaker>GIBSON</speaker>
+                    <stage type="delivery">with perfect equanimity</stage>
                     <p>What did you say?</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -3955,8 +4011,9 @@
                         deposit. Okay?</p>
                 </sp>
                 <stage type="setting">BILL nods.</stage>
-                <sp rend="smiles" who="GIBSON" toWhom="">
+                <sp who="GIBSON" toWhom="">
                     <speaker>GIBSON</speaker>
+                    <stage type="delivery">smiles</stage>
                     <p>And if the doctor should ever want anything again... it needn't
                         be a monk's costume.</p>
                 </sp>
@@ -4134,8 +4191,9 @@
                     <speaker>CARL</speaker>
                     <p>She's taken it very hard. And when came for the body...it was just terrible.</p>
                 </sp>
-                <sp rend="nods" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">nods</stage>
                     <p>I suppose her relatives are with her now?</p>
                 </sp>
                 <sp who="CARL" toWhom="">
@@ -4143,12 +4201,14 @@
                     <p>No, they won't be coming until tonight. She'll be very glad to have some
                         company. I'm taking her to stay with my mother in Connecticut tomorrow.</p>
                 </sp>
-                <sp rend="nods" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">nods</stage>
                     <p>That's probably just what she needs.</p>
                 </sp>
-                <sp rend="putting out his hand" who="CARL" toWhom="">
+                <sp who="CARL" toWhom="">
                     <speaker>CARL</speaker>
+                    <stage type="delivery">putting out his hand</stage>
                     <p>Well, good to see you again. It's unbelievable how much there is to do to
                         arrange a funeral.</p>
                 </sp>
@@ -4161,8 +4221,9 @@
                 </head>
                 <stage type="setting">Marion opens the door.</stage>
                 <stage type="setting">She is dressed in black. Her face becomes slightly flushed.</stage>
-                <sp rend="smiling wearily" who="MARION" toWhom="">
+                <sp who="MARION" toWhom="">
                     <speaker>MARION</speaker>
+                    <stage type="delivery">smiling wearily</stage>
                     <p>You made me wait a long time.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -4191,8 +4252,9 @@
                 </sp>
                 <stage type="setting">He kisses her and starts to fondle her breasts and other
                     regions.</stage>
-                <sp rend="whimpers" who="MARION" toWhom="">
+                <sp who="MARION" toWhom="">
                     <speaker>MARION</speaker>
+                    <stage type="delivery">whimpers</stage>
                     <p>Oh, Bill, I love you. I love you.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -4203,8 +4265,9 @@
                     clothes.</stage>
                 <stage type="setting">Then she begins to weep.</stage>
                 <stage type="setting">BILL tries to ignore this but she doesn't stop.</stage>
-                <sp rend="whispers" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">whispers</stage>
                     <p>What's wrong?</p>
                 </sp>
                 <stage type="setting">At first, MARION doesn't reply.</stage>
@@ -4212,12 +4275,14 @@
                     <speaker>BILL</speaker>
                     <p>What's wrong?</p>
                 </sp>
-                <sp rend="smiling through her tears" who="MARION" toWhom="">
+                <sp who="MARION" toWhom="">
                     <speaker>MARION</speaker>
+                    <stage type="delivery">smiling through her tears</stage>
                     <p>Nothing.</p>
                 </sp>
-                <sp rend="coldly" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">coldly</stage>
                     <p>Nothing.</p>
                 </sp>
                 <stage type="setting">BILL sits up.</stage>
@@ -4344,8 +4409,9 @@
                 </sp>
                 <stage type="setting">An attractive girl in her twenties, wet hair and wrapped in a
                     towel robe, pokes her head out.</stage>
-                <sp rend="smiles" who="SALLY" toWhom="">
+                <sp who="SALLY" toWhom="">
                     <speaker>SALLY</speaker>
+                    <stage type="delivery">smiles</stage>
                     <p>You're looking for Domino? You'll have to excuse the way I look. I just got
                         out of the bath..</p>
                 </sp>
@@ -4388,8 +4454,9 @@
                     <speaker>BILL</speaker>
                     <p>Okay. Well, I'll just leave this cake for her, if I may.</p>
                 </sp>
-                <sp rend="akes the cake" who="ARTY WOMAN" toWhom="">
+                <sp who="ARTY WOMAN" toWhom="">
                     <speaker>ARTY WOMAN</speaker>
+                    <stage type="delivery">akes the cake</stage>
                     <p>Okay. Great. We'll see that she gets it.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -4422,8 +4489,9 @@
                     <p>Look, I'd love to but some other time. Okay? I was just passing by with the
                         cake. SALLY You sure?</p>
                 </sp>
-                <sp rend="nods" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">nods</stage>
                     <p>I've really got to go.</p>
                 </sp>
             </div>
@@ -4701,8 +4769,9 @@
                 <stage type="setting">BILL follows HARRIS. Their footsteps sound loud in the quiet
                     house.</stage>
                 <stage type="setting">They stop in front of the library door and HARRIS knocks.</stage>
-                <sp rend="o.s." who="ZIEGLER" toWhom="">
+                <sp who="ZIEGLER" toWhom="">
                     <speaker>ZIEGLER</speaker>
+                    <stage type="delivery">o.s.</stage>
                     <p>Come in.</p>
                 </sp>
                 <stage type="setting">HARRIS opens the door for BILL and closes it behind him,
@@ -4720,8 +4789,9 @@
                     <speaker>ZIEGLER</speaker>
                     <p>What are you drinking? BILL Well, I suppose a brandy would be nice.</p>
                 </sp>
-                <sp rend="going to the bar" who="ZIEGLER" toWhom="">
+                <sp who="ZIEGLER" toWhom="">
                     <speaker>ZIEGLER</speaker>
+                    <stage type="delivery">going to the bar</stage>
                     <p>It was lovely to see you and Alice the other night.</p>
                 </sp>
                 <sp who="BILL" toWhom="">
@@ -4798,8 +4868,9 @@
                     <speaker>BILL</speaker>
                     <p>Sorry, Victor but may I ask what the hell are you're talking about?</p>
                 </sp>
-                <sp rend="quietly" who="ZIEGLER" toWhom="">
+                <sp who="ZIEGLER" toWhom="">
                     <speaker>ZIEGLER</speaker>
+                    <stage type="delivery">quietly</stage>
                     <p>Bill, please believe me, I know this is awkward - perhaps as awkward for me
                         as it is for you. Okay?</p>
                 </sp>
@@ -4978,8 +5049,9 @@
                     <speaker>ZIEGLER</speaker>
                     <p>It is her.</p>
                 </sp>
-                <sp rend="quietly" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">quietly</stage>
                     <p>Is this what she meant when she aid she would redeem me?</p>
                 </sp>
                 <sp who="ZIEGLER" toWhom="">
@@ -5100,14 +5172,16 @@
                     <speaker>ALICE</speaker>
                     <p>But I think we're awake now.. And for a long time to come.</p>
                 </sp>
-                <sp rend="whispers" who="BILL" toWhom="">
+                <sp who="BILL" toWhom="">
                     <speaker>BILL</speaker>
+                    <stage type="delivery">whispers</stage>
                     <p>Forever.</p>
                 </sp>
                 <stage type="setting">Almost before he finishes the word, ALICE lays her fingers on
                     his lips.</stage>
-                <sp rend="whispers as if to herself" who="ALICE" toWhom="">
+                <sp who="ALICE" toWhom="">
                     <speaker>ALICE</speaker>
+                    <stage type="delivery">whispers as if to herself</stage>
                     <p>We should never look into the future.</p>
                 </sp>
                 <stage type="setting">They kiss tenderly and lie down on the bed, dozing a little,
