@@ -750,10 +750,20 @@
                 <sp>
                     <speaker>SZAVOST</speaker>
                     <p>It was the only way they could lose their virginity and be free to do what
-                        they wanted with other men ... the ones they really wanted. ALICE</p>
+                        they wanted with other men ... the ones they really wanted.</p>
                 </sp>
-                <stage type="setting">Fascinating.</stage>
-                <stage type="setting">14 . INT. ANOTHER CORRIDOR - ZIEGLER MANSION - NIGHT</stage>
+                <sp>
+                    <speaker>ALICE</speaker>
+                    <p>Fascinating.</p>
+                </sp>
+            </div>
+             <div type="scene" n="14">
+                <head type="scene_heading">
+                    <stage type="environment">INT.</stage>
+                    <stage type="secondary_location">ANOTHER CORRIDOR</stage>
+                    <stage type="primary_location">ZIEGLER MANSION</stage>
+                    <stage type="time">NIGHT</stage>
+                </head>
                 <stage type="setting">GAYLE and NUALA walk on each side of BILL, their arms linked
                     through his.</stage>
                 <sp>
