@@ -4909,8 +4909,7 @@
                     <p>We hated to go but I had a couple of early appointments.</p>
                 </sp>
                 <stage type="setting">ZIEGLER hands him his brandy and they touch glasses.</stage>
-                <!-- qui vedi tu come pensi sia gestire il BOTH -->
-                <sp who="BOTH" toWhom="">
+                <sp who="ZIEGLER, BILL">
                     <speaker>BOTH</speaker>
                     <p>Cheers.</p>
                 </sp>
