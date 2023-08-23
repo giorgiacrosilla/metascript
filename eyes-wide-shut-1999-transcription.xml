@@ -550,8 +550,9 @@
             <div type="scene" n="10">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
-                    <stage type="primary_location">ANTE-ROOM</stage>
-                    <stage type="time">ZIEGLER</stage>
+                    <stage type="secondary_location">ANTE-ROOM</stage>
+                    <stage type="primary_location">ZIEGLER MANSION</stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">ALICE stands, back to the bar, holding a glass of champagne.
                     The room is crowded with people talking. A tall, handsome man, suave and
@@ -670,8 +671,9 @@
             <div type="scene" n="12">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
-                    <stage type="primary_location">ANTE-ROOM</stage>
-                    <stage type="time">ZIEGLER</stage>
+                    <stage type="secondary_location">ANTE-ROOM</stage>
+                    <stage type="primary_location">ZIEGLER MANSION </stage>
+                    <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">The two beautiful girls, GAYLE and NUALA, have their arms
                     draped around each other as they talk to BILL.</stage>
