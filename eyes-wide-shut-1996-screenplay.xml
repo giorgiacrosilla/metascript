@@ -3636,7 +3636,7 @@
                     <p>But why don't you tell me about your dream?</p>
                 </sp>
                 <stage type="setting">He smiles a little artificially.</stage>
-                <sp who="ALICE" toWhom="ALICE">
+                <sp who="ALICE" toWhom="BILL">
                     <speaker>ALICE</speaker>
                     <p>You really ought to lie down and take a little rest.</p>
                 </sp>
