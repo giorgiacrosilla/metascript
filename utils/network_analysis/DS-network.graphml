@@ -1,104 +1,299 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d0" for="edge" attr.name="Interaction Count" attr.type="long"/>
-<graph edgedefault="undirected"><node id="Fridolin"/>
-<node id="daughter"/>
-<node id="Albertina"/>
-<node id="Marianne"/>
-<node id="unknown"/>
-<node id="Mizzi"/>
-<node id="Nachtigall"/>
-<node id="Gibiser"/>
-<node id="Gentlemen"/>
-<node id="Pierrette"/>
-<node id="TWOServants"/>
-<node id="woman"/>
-<node id="another woman"/>
-<node id="cavalier"/>
-<node id="cavaliers"/>
-<node id="YellowGentlemen"/>
-<node id="gentlemen"/>
-<node id="RedCavalier"/>
-<node id="servant"/>
-<node id="maid"/>
-<node id="Fuchstaler"/>
-<node id="Roediger"/>
-<node id="Adler"/>
-<edge source="Fridolin" target="daughter">
-  <data key="d0">2</data>
+<graph edgedefault="undirected"><node id="BILL"/>
+<node id="ALICE"/>
+<node id="ROZ"/>
+<node id=" HELENA"/>
+<node id="HELENA"/>
+<node id=" BILL"/>
+<node id="ZIEGLER"/>
+<node id=" ILONA"/>
+<node id=" ALICE"/>
+<node id="ILONA"/>
+<node id=" ZIEGLER"/>
+<node id="NICK"/>
+<node id="SECRETARY"/>
+<node id="SZAVOST"/>
+<node id="GAYLE"/>
+<node id=" NUALA"/>
+<node id="NUALA"/>
+<node id="HARRIS"/>
+<node id=" GAYLE"/>
+<node id="MANDY"/>
+<node id="LISA"/>
+<node id="SARAH"/>
+<node id="GIRL"/>
+<node id="BOY"/>
+<node id="PATIENT"/>
+<node id="ROSA"/>
+<node id="MARION"/>
+<node id="CARL"/>
+<node id=" MARION"/>
+<node id="STUDENT I"/>
+<node id="STUDENTS"/>
+<node id="STUDENT 2"/>
+<node id="DOMINO"/>
+<node id="bill"/>
+<node id="DOORMAN"/>
+<node id="MAITRE D'"/>
+<node id="AUDIENCE"/>
+<node id="VOICE FROM AUDIENCE"/>
+<node id=" PERSON AT THE PHONE"/>
+<node id="PERSON AT THE PHONE"/>
+<node id="DRIVER"/>
+<node id="MILICH"/>
+<node id="JAPANESE MAN 1"/>
+<node id="DAUGHTER"/>
+<node id="JAPANESE MAN 2"/>
+<node id=" JAPANESE MAN 1"/>
+<node id=" JAPANESE MAN 2"/>
+<node id=" DAUGHTER"/>
+<node id="CAB DRIVER"/>
+<node id="GATEMAN 1"/>
+<node id="MASKED BUTLER"/>
+<node id="MYSTERIOUS WOMAN"/>
+<node id="OMINOUS MAN"/>
+<node id="YOUNG WOMAN"/>
+<node id=" YOUNG WOMAN"/>
+<node id="TALL BUTLER"/>
+<node id="RED CLOAK"/>
+<node id="RED CLOACK"/>
+<node id="WAITRESS"/>
+<node id="CLERK"/>
+<node id="SALLY"/>
+<node id="RECEPTIONIST"/>
+<edge source="BILL" target="ALICE">
+  <data key="d0">72</data>
 </edge>
-<edge source="Fridolin" target="Albertina">
-  <data key="d0">29</data>
+<edge source="BILL" target="HELENA">
+  <data key="d0">7</data>
 </edge>
-<edge source="Fridolin" target="Marianne">
-  <data key="d0">8</data>
-</edge>
-<edge source="Fridolin" target="unknown">
-  <data key="d0">2</data>
-</edge>
-<edge source="Fridolin" target="Mizzi">
-  <data key="d0">5</data>
-</edge>
-<edge source="Fridolin" target="Nachtigall">
-  <data key="d0">44</data>
-</edge>
-<edge source="Fridolin" target="Gibiser">
-  <data key="d0">17</data>
-</edge>
-<edge source="Fridolin" target="Fridolin">
-  <data key="d0">10</data>
-</edge>
-<edge source="Fridolin" target="TWOServants">
+<edge source="BILL" target="ROZ">
   <data key="d0">1</data>
 </edge>
-<edge source="Fridolin" target="woman">
-  <data key="d0">17</data>
+<edge source="BILL" target="ZIEGLER">
+  <data key="d0">54</data>
 </edge>
-<edge source="Fridolin" target="another woman">
-  <data key="d0">1</data>
+<edge source="BILL" target=" ILONA">
+  <data key="d0">2</data>
 </edge>
-<edge source="Fridolin" target="cavalier">
+<edge source="BILL" target="NICK">
+  <data key="d0">34</data>
+</edge>
+<edge source="BILL" target="GAYLE">
+  <data key="d0">9</data>
+</edge>
+<edge source="BILL" target=" NUALA">
   <data key="d0">3</data>
 </edge>
-<edge source="Fridolin" target="cavaliers">
-  <data key="d0">3</data>
-</edge>
-<edge source="Fridolin" target="YellowGentlemen">
+<edge source="BILL" target="NUALA">
   <data key="d0">2</data>
 </edge>
-<edge source="Fridolin" target="gentlemen">
-  <data key="d0">5</data>
-</edge>
-<edge source="Fridolin" target="RedCavalier">
-  <data key="d0">2</data>
-</edge>
-<edge source="Fridolin" target="servant">
-  <data key="d0">2</data>
-</edge>
-<edge source="Fridolin" target="maid">
-  <data key="d0">2</data>
-</edge>
-<edge source="Fridolin" target="Fuchstaler">
+<edge source="BILL" target="HARRIS">
   <data key="d0">1</data>
 </edge>
-<edge source="Fridolin" target="Roediger">
+<edge source="BILL" target=" GAYLE">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="MANDY">
   <data key="d0">4</data>
 </edge>
-<edge source="Fridolin" target="Adler">
+<edge source="BILL" target="LISA">
+  <data key="d0">7</data>
+</edge>
+<edge source="BILL" target="SARAH">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="GIRL">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="BOY">
+  <data key="d0">2</data>
+</edge>
+<edge source="BILL" target="PATIENT">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="ROSA">
+  <data key="d0">2</data>
+</edge>
+<edge source="BILL" target="MARION">
   <data key="d0">15</data>
 </edge>
-<edge source="unknown" target="Mizzi">
+<edge source="BILL" target="CARL">
+  <data key="d0">5</data>
+</edge>
+<edge source="BILL" target=" MARION">
+  <data key="d0">3</data>
+</edge>
+<edge source="BILL" target="DOMINO">
+  <data key="d0">20</data>
+</edge>
+<edge source="BILL" target="DOORMAN">
   <data key="d0">1</data>
 </edge>
-<edge source="Gibiser" target="Gentlemen">
-  <data key="d0">3</data>
+<edge source="BILL" target="MAITRE D'">
+  <data key="d0">4</data>
 </edge>
-<edge source="Gibiser" target="Pierrette">
-  <data key="d0">3</data>
-</edge>
-<edge source="woman" target="another woman">
+<edge source="BILL" target="DRIVER">
   <data key="d0">1</data>
 </edge>
-<edge source="woman" target="gentlemen">
+<edge source="BILL" target="MILICH">
+  <data key="d0">35</data>
+</edge>
+<edge source="BILL" target="DAUGHTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="CAB DRIVER">
   <data key="d0">3</data>
+</edge>
+<edge source="BILL" target="GATEMAN 1">
+  <data key="d0">3</data>
+</edge>
+<edge source="BILL" target="MASKED BUTLER">
+  <data key="d0">2</data>
+</edge>
+<edge source="BILL" target="MYSTERIOUS WOMAN">
+  <data key="d0">7</data>
+</edge>
+<edge source="BILL" target="OMINOUS MAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="YOUNG WOMAN">
+  <data key="d0">2</data>
+</edge>
+<edge source="BILL" target="TALL BUTLER">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="RED CLOAK">
+  <data key="d0">5</data>
+</edge>
+<edge source="BILL" target="RED CLOACK">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="BILL">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="WAITRESS">
+  <data key="d0">8</data>
+</edge>
+<edge source="BILL" target="CLERK">
+  <data key="d0">16</data>
+</edge>
+<edge source="BILL" target=" HELENA">
+  <data key="d0">1</data>
+</edge>
+<edge source="BILL" target="SALLY">
+  <data key="d0">19</data>
+</edge>
+<edge source="BILL" target="RECEPTIONIST">
+  <data key="d0">6</data>
+</edge>
+<edge source="ALICE" target="ROZ">
+  <data key="d0">4</data>
+</edge>
+<edge source="ALICE" target=" HELENA">
+  <data key="d0">1</data>
+</edge>
+<edge source="ALICE" target="HELENA">
+  <data key="d0">17</data>
+</edge>
+<edge source="ALICE" target="ZIEGLER">
+  <data key="d0">1</data>
+</edge>
+<edge source="ALICE" target="ILONA">
+  <data key="d0">1</data>
+</edge>
+<edge source="ALICE" target="SZAVOST">
+  <data key="d0">22</data>
+</edge>
+<edge source="ALICE" target="bill">
+  <data key="d0">1</data>
+</edge>
+<edge source="ROZ" target=" BILL">
+  <data key="d0">1</data>
+</edge>
+<edge source="HELENA" target=" BILL">
+  <data key="d0">2</data>
+</edge>
+<edge source=" BILL" target="ILONA">
+  <data key="d0">1</data>
+</edge>
+<edge source=" BILL" target="STUDENT 2">
+  <data key="d0">1</data>
+</edge>
+<edge source=" BILL" target="STUDENT I">
+  <data key="d0">1</data>
+</edge>
+<edge source=" BILL" target="MILICH">
+  <data key="d0">2</data>
+</edge>
+<edge source="ZIEGLER" target=" ALICE">
+  <data key="d0">2</data>
+</edge>
+<edge source="ZIEGLER" target="ILONA">
+  <data key="d0">1</data>
+</edge>
+<edge source="ZIEGLER" target="MANDY">
+  <data key="d0">1</data>
+</edge>
+<edge source="ILONA" target=" ZIEGLER">
+  <data key="d0">1</data>
+</edge>
+<edge source="NICK" target="SECRETARY">
+  <data key="d0">1</data>
+</edge>
+<edge source="NICK" target="AUDIENCE">
+  <data key="d0">1</data>
+</edge>
+<edge source="NICK" target="VOICE FROM AUDIENCE">
+  <data key="d0">1</data>
+</edge>
+<edge source="NICK" target="MAITRE D'">
+  <data key="d0">2</data>
+</edge>
+<edge source="NICK" target=" PERSON AT THE PHONE">
+  <data key="d0">1</data>
+</edge>
+<edge source="NICK" target="PERSON AT THE PHONE">
+  <data key="d0">1</data>
+</edge>
+<edge source="ROSA" target="CARL">
+  <data key="d0">2</data>
+</edge>
+<edge source="MARION" target="CARL">
+  <data key="d0">1</data>
+</edge>
+<edge source="STUDENT I" target="STUDENTS">
+  <data key="d0">2</data>
+</edge>
+<edge source="STUDENTS" target="STUDENT 2">
+  <data key="d0">1</data>
+</edge>
+<edge source="MILICH" target="MILICH">
+  <data key="d0">1</data>
+</edge>
+<edge source="MILICH" target="JAPANESE MAN 1">
+  <data key="d0">5</data>
+</edge>
+<edge source="MILICH" target="DAUGHTER">
+  <data key="d0">4</data>
+</edge>
+<edge source="MILICH" target="JAPANESE MAN 2">
+  <data key="d0">1</data>
+</edge>
+<edge source="MILICH" target=" JAPANESE MAN 1">
+  <data key="d0">4</data>
+</edge>
+<edge source="MILICH" target=" JAPANESE MAN 2">
+  <data key="d0">2</data>
+</edge>
+<edge source="MILICH" target=" DAUGHTER">
+  <data key="d0">1</data>
+</edge>
+<edge source="MYSTERIOUS WOMAN" target=" YOUNG WOMAN">
+  <data key="d0">1</data>
+</edge>
+<edge source="MYSTERIOUS WOMAN" target="RED CLOAK">
+  <data key="d0">2</data>
 </edge>
 </graph></graphml>
