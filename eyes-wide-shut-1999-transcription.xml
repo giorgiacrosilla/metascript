@@ -8368,12 +8368,12 @@
                     <speaker>BILL</speaker>
                     <p>No ... no!</p>
                 </sp>
-                <sp who="ZIBGLER" toWhom="BILL">
+                <sp who="ZIEGLER" toWhom="BILL">
                     <timeline xml:id="SUB">
                         <when xml:id="line_start" absolute="" />
                         <when xml:id="line_end" absolute="" />
                     </timeline>
-                    <speaker>ZIBGLER</speaker>
+                    <speaker>ZIEGLER</speaker>
                     <p>You, erh ... do you feel like playing?</p>
                 </sp>
                 <stage type="setting">ZIEGLER starts playing with a billiard ball. He looks
@@ -8620,12 +8620,12 @@
                     <p>There was a ... there was a ... there was a woman there, who, erh ... tried
                         to warn me.</p>
                 </sp>
-                <sp who="ZIBGLER" toWhom="BILL">
+                <sp who="ZIEGLER" toWhom="BILL">
                     <timeline xml:id="SUB">
                         <when xml:id="line_start" absolute="" />
                         <when xml:id="line_end" absolute="" />
                     </timeline>
-                    <speaker>ZIBGLER</speaker>
+                    <speaker>ZIEGLER</speaker>
                     <p>I know....</p>
                 </sp>
                 <sp who="BILL" toWhom="ZIEGLER">
