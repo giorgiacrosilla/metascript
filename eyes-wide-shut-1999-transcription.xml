@@ -4016,7 +4016,7 @@
                     <p>Please, follow me. Can I take your coat?</p>
                 </sp>
                 <stage type="setting">As BILL is taken to his table we see his friend, NICK,
-                playing piano on stage with a jazz trio.</stage>
+                    playing piano on stage with a jazz trio.</stage>
                 <sp who="BILL" toWhom="MAITRE D'">
                     <timeline xml:id="SUB1101">
                         <when xml:id="line_start" absolute="02:05:10.302" />
@@ -4053,7 +4053,7 @@
                 <stage type="setting">BILL watches the group as it finishes its final number. Then
                     NICK quickly gets the band into the fast closing theme to cover his
                     introductions to the musicians and his thanks to the audience.</stage>
-                <sp who="NICK" toWhom="AUDIENCE"> 
+                <sp who="NICK" toWhom="AUDIENCE">
                     <timeline xml:id="SUB">
                         <when xml:id="line_start" absolute="" />
                         <when xml:id="line_end" absolute="" />
@@ -4641,7 +4641,7 @@
                     <stage type="primary_location">RAINBOW FASHIONS</stage>
                     <stage type="time">NIGHT</stage>
                 </head>
-                <stage type="setting">MILICHJ talks to BILL who stands on the steps outside the
+                <stage type="setting">MILICH talks to BILL who stands on the steps outside the
                     locked door.</stage>
                 <sp who="MILICH" toWhom="BILL">
                     <timeline xml:id="SUB670">
@@ -5150,8 +5150,9 @@
                     <stage type="delivery">(very frightened)</stage>
                     <p>Oh, Milich! I can explain everything.</p>
                 </sp>
-                <stage type="setting">MILICH notices something behind the sofa. He attacks it with the wig in his hand and up 
-                    jumps a young girl dressed only in a bra and panties. This is MILICH's DAUGHTER.</stage> 
+                <stage type="setting">MILICH notices something behind the sofa. He attacks it with
+                    the wig in his hand and up
+                    jumps a young girl dressed only in a bra and panties. This is MILICH's DAUGHTER.</stage>
                 <sp who="MILICH" toWhom="DAUGHTER">
                     <timeline xml:id="SUB">
                         <when xml:id="line_start" absolute="" />
@@ -5529,7 +5530,8 @@
                     <speaker>GATEMAN 1</speaker>
                     <p>Thank you, sir. We'll run you up to the house.</p>
                 </sp>
-                <stage type="setting">The GATEMAN gestures to a vehicle on the other side of the gates.</stage>
+                <stage type="setting">The GATEMAN gestures to a vehicle on the other side of the
+                    gates.</stage>
             </div>
             <div type="scene" n="77">
                 <head type="scene_heading">
@@ -5714,8 +5716,9 @@
                     <stage type="delivery">(to Bill)</stage>
                     <p>Would you be so good as to excuse us for a moment?</p>
                 </sp>
-                <stage>The OMINOUS MAN leads the MYSTERIOUS WOMAN away up a marble staircase. She looks back at BILL who is
-                left wondering what is going on in the house.</stage>
+                <stage>The OMINOUS MAN leads the MYSTERIOUS WOMAN away up a marble staircase. She
+                    looks back at BILL who is
+                    left wondering what is going on in the house.</stage>
             </div>
             <div type="scene" n="81">
                 <head type="scene_heading">
@@ -6070,7 +6073,7 @@
                     <p>Remove your clothes, or would you like us to do it for you? </p>
                 </sp>
                 <stage type="setting">Suddenly, there
-                is a shout from the balcony behind BILL.</stage>
+                    is a shout from the balcony behind BILL.</stage>
                 <sp who="MYSTERIOUS WOMAN" toWhom="RED CLOAK">
                     <timeline xml:id="SUB">
                         <when xml:id="line_start" absolute="" />
