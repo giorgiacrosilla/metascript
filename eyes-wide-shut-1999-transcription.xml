@@ -4641,7 +4641,7 @@
                     <stage type="primary_location">RAINBOW FASHIONS</stage>
                     <stage type="time">NIGHT</stage>
                 </head>
-                <stage type="setting">MILICHJ talks to BILL who stands on the steps outside the
+                <stage type="setting">MILICH talks to BILL who stands on the steps outside the
                     locked door.</stage>
                 <sp who="MILICH" toWhom="BILL">
                     <timeline xml:id="SUB670">
