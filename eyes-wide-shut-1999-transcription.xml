@@ -563,19 +563,10 @@
                         coming.</p>
                 </sp>
                 <sp who="BILL" toWhom="ZIEGLER">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
                     <speaker>BILL</speaker>
                     <p>Thank you.</p>
                 </sp>
                 <sp who="ALICE" toWhom="ZIEGLER">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
-                    <!-- TO DO: A TUTTI -->
                     <speaker>ALICE</speaker>
                     <p>Bye.</p>
                 </sp>
@@ -722,8 +713,8 @@
                 </sp>
                 <stage type="setting">NICK looks around to see who is calling his name. He jumps
                     down from the stage and he and BILL greet each other like old fri,ends.</stage>
-                <sp who="NICK" toWhom="BILL62">
-                    <timeline xml:id="SUB">
+                <sp who="NICK" toWhom="BILL">
+                    <timeline xml:id="SUB62">
                         <when xml:id="line_start" absolute="00:05:11.645" />
                         <when xml:id="line_end" absolute="00:05:17.192" />
                     </timeline>
@@ -1165,10 +1156,6 @@
                     <p>Just about half of Fifth Avenue.</p>
                 </sp>
                 <sp who="BILL" toWhom="GAYLE">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
                     <speaker>BILL</speaker>
                     <p>Right.</p>
                 </sp>
@@ -1368,10 +1355,6 @@
                     quiet muttering noises. ZIEGLER is panic stricken. He hears a knock on the door
                     and runs barefoot across the bathroom to open it.</stage>
                 <sp who="ZIEGLER" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
                     <speaker>ZIEGLER</speaker>
                     <p>Yeah?</p>
                 </sp>
@@ -1639,10 +1622,6 @@
                         understand?</p>
                 </sp>
                 <sp who="MANDY" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
                     <speaker>MANDY</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -1663,10 +1642,6 @@
                     <p>I know.</p>
                 </sp>
                 <sp who="BILL" toWhom="MANDY">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
                     <speaker>BILL</speaker>
                     <p>OK ... OK.</p>
                 </sp>
@@ -1712,10 +1687,6 @@
                     <p>I'd have someone take her home.</p>
                 </sp>
                 <sp who="ZIEGLER" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
                     <speaker>ZIEGLER</speaker>
                     <p>OK ... OK.</p>
                 </sp>
@@ -1961,7 +1932,6 @@
                          <when xml:id="line_start" absolute="00:21:13.440" />
                         <when xml:id="line_end" absolute="00:21:15.984" />
                     </timeline>
-                    <!-- TO DO: i don't know if it's necessary -->
                     <speaker>BILL</speaker>
                     <p>OK. That's fine. You can put your gown on.</p>
                 </sp>
@@ -2005,10 +1975,7 @@
                     <p>Looking forward to Christmas?</p>
                 </sp>
                 <sp who="BOY" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BOY</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -2021,10 +1988,7 @@
                     <p>Does this hurt?</p>
                 </sp>
                 <sp who="BOY" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BOY</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -2056,10 +2020,7 @@
                     <p>Right there?</p>
                 </sp>
                 <sp who="PATIENT" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>PATIENT</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -2680,10 +2641,7 @@
                     <p>Do you ... do you remember last summer at Cape Cod?</p>
                 </sp>
                 <sp who="BILL" toWhom="ALICE">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -2715,10 +2673,7 @@
                         bell?</p>
                 </sp>
                 <sp who="BILL" toWhom="ALICE">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>No.</p>
                 </sp>
@@ -3296,10 +3251,7 @@
                     <p>Thank you.</p>
                 </sp>
                 <sp who="BILL" toWhom="CARL, MARION">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Well....</p>
                 </sp>
@@ -3499,10 +3451,7 @@
                 <stage type="setting">He sees the apartment building, its front door painted bright
                     red.</stage>
                 <sp who="DOMINO" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>DOMINO</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -3662,8 +3611,7 @@
                     <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">ALICE sits eating cookies and smoking a cigarette while
-                    watching television. She is dressed in her blue silk dress. zng gown.</stage> 
-                    <!-- TO DO: CHECK LAST LINE -->
+                    watching television. She is dressed in her blue silk dressing gown.</stage> 
             </div>
             <div type="scene" n="50">
                 <head type="scene_heading">
@@ -3698,10 +3646,7 @@
                 </sp>
                 <stage type="setting">BILL faces the wall away from DOMINO as he takes the call.</stage>
                 <sp who="BILL" toWhom="ALICE">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Hello?</p>
                 </sp>
@@ -3715,10 +3660,7 @@
                 </head>
                 <stage type="setting">ALICE is on the telephone.</stage>
                 <sp who="ALICE" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>ALICE</speaker>
                     <p>Hi....</p>
                 </sp>
@@ -3829,10 +3771,7 @@
                     <stage type="time">NIGHT</stage>
                 </head>
                 <sp who="BILL" toWhom="ALICE">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>OK. Bye-bye.</p>
                 </sp>
@@ -3855,10 +3794,7 @@
                 </sp>
                 <stage type="setting">BILL, embarrassed, walks back towards the bed.</stage>
                 <sp who="BILL" toWhom="DOMINO">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Yes ... yes.</p>
                 </sp>
@@ -4402,10 +4338,7 @@
                         anything like this ... and never such women.</p>
                 </sp>
                 <sp who="BILL" toWhom="NICK">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Well?</p>
                 </sp>
@@ -4450,10 +4383,7 @@
                     <p>It's the name of a Beethoven opera, isn't it?</p>
                 </sp>
                 <sp who="BILL" toWhom="NICK">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Nick....</p>
                 </sp>
@@ -4741,10 +4671,7 @@
                     <p>A hundred dollars?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -4773,18 +4700,12 @@
                     <p>Two hundred dollars over the rental price?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
                 <sp who="MILICH" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>MILICH</speaker>
                     <p>OK.</p>
                 </sp>
@@ -4844,10 +4765,7 @@
                     <p>A cloak with a hood and a mask?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -4894,10 +4812,7 @@
                     <p>Come. So, what colour cloak?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Umm . ...</p>
                 </sp>
@@ -4958,10 +4873,6 @@
                     <p>With a hood and the mask.</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -4974,10 +4885,6 @@
                     <p>OK. May I take your coat?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -5042,10 +4949,7 @@
                     <p>You see?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -5260,10 +5164,7 @@
                     <p>Doctor, sorry, what colour did you say?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Umm.... I</p>
                 </sp>
@@ -5456,10 +5357,7 @@
                         stuff here in the back. OK?</p>
                 </sp>
                 <sp who="CAB DRIVER" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>CAB DRIVER</speaker>
                     <p>OK.</p>
                 </sp>
@@ -5903,10 +5801,7 @@
                 </sp>
                 <stage type="setting">BILL attempts to remove her mask but she holds tight.</stage>
                 <sp who="MYSTERIOUS WOMAN" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>MYSTERIOUS WOMAN</speaker>
                     <p>No!</p>
                 </sp>
@@ -6013,10 +5908,7 @@
                     <p>The password for the house?</p>
                 </sp>
                 <sp who="RED CLOAK" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>RED CLOAK</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -6109,10 +6001,7 @@
                     <p>Are you sure you understand what you are taking upon yourself in doing this?</p>
                 </sp>
                 <sp who="MYSTERIOUS WOMAN" toWhom="RED CLOAK">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>MYSTERIOUS WOMAN</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -6291,10 +6180,7 @@
                     <p>That's not the end, is it?</p>
                 </sp>
                 <sp who="ALICE" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>ALICE</speaker>
                     <p>No.</p>
                 </sp>
@@ -6379,10 +6265,7 @@
                 <stage type="setting">BILL walks in and finds a seat at the counter. An attractive
                     WAITRESS behind the counter greets him.</stage>
                 <sp who="WAITRESS" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>WAITRESS</speaker>
                     <p>Hi!</p>
                 </sp>
@@ -6553,10 +6436,7 @@
                     <p>He checked out?</p>
                 </sp>
                 <sp who="CLERK" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>CLERK</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -6601,10 +6481,7 @@
                     <p>Five o'clock this morning?</p>
                 </sp>
                 <sp who="CLERK" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>CLERK</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -6665,10 +6542,7 @@
                     <p>I'm a doctor.</p>
                 </sp>
                 <sp who="CLERK" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>CLERK</speaker>
                     <p>Oh.</p>
                 </sp>
@@ -6800,10 +6674,7 @@
                     <p>Oh, the good doctor.</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Mr Milich.</p>
                 </sp>
@@ -6902,20 +6773,14 @@
                     <p>Would you like to say hello to Dr Harford?</p>
                 </sp>
                 <sp who="DAUGHTER" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>DAUGHTER</speaker>
                     <stage type="delivery">(to Bill)</stage>
                     <p>Hello!</p>
                 </sp>
                 <stage type="setting">She offers her hand to BILL and they shake.</stage>
                 <sp who="BILL" toWhom="DAUGHTER">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Hello.</p>
                 </sp>
@@ -7081,10 +6946,7 @@
                     <p>No problem.</p>
                 </sp>
                 <sp who="BILL" toWhom="LISA">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>OK?</p>
                 </sp>
@@ -7205,18 +7067,12 @@
                     <p>Dr Sanders and, erh ... Mrs Shapiro.</p>
                 </sp>
                 <sp who="HELENA" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>HELENA</speaker>
                     <p>Hi, daddy!</p>
                 </sp>
                 <sp who="BILL" toWhom="HELENA">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Hey . ...</p>
                 </sp>
@@ -7238,10 +7094,7 @@
                     <p>You got all those right?</p>
                 </sp>
                 <sp who="HELENA" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>HELENA</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -7254,10 +7107,7 @@
                     <p>Every single one of them?</p>
                 </sp>
                 <sp who="HELENA" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>HELENA</speaker>
                     <p>Ah-hah ....</p>
                 </sp>
@@ -7459,10 +7309,7 @@
                 <stage type="setting">The phone rings in the hallway. CARL walks down the corridor
                     and picks up the receiver.</stage>
                 <sp who="CARL" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>CARL</speaker>
                     <p>Hello? Hello? Hello?</p>
                 </sp>
@@ -7680,10 +7527,7 @@
                 <stage type="setting">BILL, taking offhis overcoat, is not reticent in returning the
                     advance.</stage>
                 <sp who="SALLY" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>SALLY</speaker>
                     <p>Hi.</p>
                 </sp>
@@ -7819,10 +7663,7 @@
                     <p>Well, considering that you were with Domino last night ...</p>
                 </sp>
                 <sp who="BILL" toWhom="SALLY">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Hmm....</p>
                 </sp>
@@ -7846,10 +7687,7 @@
                     <p>HIV positive?</p>
                 </sp>
                 <sp who="SALLY" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>SALLY</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -7946,7 +7784,7 @@
                 <stage type="setting">BILL tries to see if the STALKER is still following him and
                     then decides to continue walking. As he reaches a newspaper kiosk he sees the
                     STALKER come round the comer and stop. BILL stops too and looks at him for some
-                    time while wondering what will happen next.</stage> <!-- TO DO: CHECK THE PASSAGE -->
+                    time while wondering what will happen next.</stage>
                 <stage type="setting">BILL then picks up a copy of the New York Post and throws some
                     change down. The STALKER crosses the street, all the time keeping a steady watch
                     on BILL. Then he stops and BILL waits. Finally, after a stand-off, the STALKER
@@ -8066,10 +7904,7 @@
                     <p>C . . . U . . . R . . . R . . . A . . . N?</p>
                 </sp>
                 <sp who="BILL" toWhom="RECEPTIONIST">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -8210,10 +8045,7 @@
                     <p>Bill, I appreciate you coming.</p>
                 </sp>
                 <sp who="BILL" toWhom="ZIEGLER">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>Sure.</p>
                 </sp>
@@ -8263,10 +8095,7 @@
                 <stage type="setting">They walk over to the drinks table. ZIEGLER laying BILL's coat
                     over an annchair.</stage>
                 <sp who="BILL" toWhom="ZIEGLER">
-                    <timeline xml:id="SUB">
-                         <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>OK.</p>
                 </sp>
@@ -8364,10 +8193,7 @@
                     <p>Sure, why not?</p>
                 </sp>
                 <sp who="BILL" toWhom="ZIEGLER">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>BILL</speaker>
                     <p>No ... no!</p>
                 </sp>
@@ -8751,10 +8577,7 @@
                     <p>Victor, the woman lying dead in the morgue was the woman at the party?</p>
                 </sp>
                 <sp who="ZIEGLER" toWhom="BILL">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>ZIEGLER</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -8913,10 +8736,7 @@
                     <p>I could put Sabrina in here.</p>
                 </sp>
                 <sp who="ALICE" toWhom="HELENA">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>ALICE</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -8963,10 +8783,7 @@
                     <p>You do?</p>
                 </sp>
                 <sp who="HELENA" toWhom="ALICE">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>HELENA</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -9019,10 +8836,7 @@
                 <stage type="setting">They move away into an aisle where ALICE stops and begins to
                     explain her feelings. HELENA walks between them which brings ALICE to a halt.</stage>
                 <sp who="ALICE" toWhom="HELENA">
-                    <timeline xml:id="SUB">
-                        <when xml:id="line_start" absolute="" />
-                        <when xml:id="line_end" absolute="" />
-                    </timeline>
+                    
                     <speaker>ALICE</speaker>
                     <stage type="delivery">(to Helena)</stage>
                     <p>Hey!</p>
