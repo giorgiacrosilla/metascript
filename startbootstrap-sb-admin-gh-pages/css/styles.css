@@ -140,6 +140,17 @@ nav a {
   z-index: 1;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width:30%;
+  height: 500px;
+  overflow: auto;
+}
+
 
 #space {
   overflow: hidden; /* Hide overflow to prevent scrollbars */
