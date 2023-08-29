@@ -92,6 +92,15 @@
   }
 }
 
+@font-face {
+  font-family: "Futura Extra Bold";
+  src: url(".././fonts/Futura Extra Bold/Futura Extra Bold.otf") format("opentype");
+}
+
+h2 {
+  font-family: 'Futura Extra Bold', sans-serif;
+}
+
 
 body {
   margin: 0;
@@ -138,7 +147,7 @@ nav a {
 .parallax {
   width: 100%;
   height: auto;
-  transition: transform 0.7s ease-in-out;
+  transition: transform 0.4s ease-in-out;
   /* Smooth transition for zoom effect */
   transform-origin: 60% 43%;
   position: relative;
