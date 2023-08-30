@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>METASCRIPT</title>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">METASCRIPT</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="analysis.html">Analysis</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="documentation.html">Documentation</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div id="layoutSidenav_content">
+        <div class="container-fluid" id="space">
+            <img src="./img/mask1.png" class="parallax" data-zoom="150">
+            <img src="./img/write3.png" class="image-fluid" id="write">
+        </div>
+        <main>
+            <div class="explanation">
+                <p></p>
+            </div>
+            <h2>Book-Screenplay-Movie rendering comparison</h2>
+            <form action="#">
+                <label for="lang">Select a scene: </label>
+                <select name="scene" id="lang">
+                    <option value="s60">Scene 60</option>
+                    <option value="php">...</option>
+                    <option value="java">...</option>
+                    <option value="golang">Golang</option>
+                    <option value="python">Python</option>
+                    <option value="c#">C#</option>
+                    <option value="C++">C++</option>
+                    <option value="erlang">Erlang</option>
+                </select>
+                <input type="submit" value="Submit" />
+            </form>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <pre lang="xml">
+                        <div type="scene" n='60'>
+                          <p> The care-taker opened the outer door and <rs
+                              ref="#Fridolin" type="character">
+                              Fridolin
+                            </rs> saw the mourning-coach standing opposite
+                            with the motionless driver on the box. <rs ref="#Nachtigall" type="character">
+                              Nachtigall
+                            </rs> was just on the point of leaving the cafe,
+                            and seemed somewhat taken aback at seeing <rs ref="#Fridolin" type="character">
+                              Fridolin
+                            </rs> at hand so promptly. <said aloud="true"
+                              direct="true"
+                              who="Nachtigall" toWhom="Fridolin">
+                              "Then you did manage to get a costume?"
+                            </said>
+                                    <said
+                              aloud="true"
+                              direct="true" who="Fridolin" toWhom="Nachtigall">
+                              "You can see for yourself. What's the
+                              password?"
+                            </said>
+                                    <said
+                              aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
+                              "You
+                              insist on knowing it?"
+                            </said>
+                                    <said
+                              aloud="true"
+                              direct="true"
+                              who="Fridolin" toWhom="Nachtigall">
+                              "Absolutely."
+                            </said>
+                                    <said aloud="true" direct="true"
+                              who="Nachtigall"
+                              toWhom="Fridolin">
+                              "Well then—it's Denmark."
+                            </said>
+                                    <said aloud="true"
+                              direct="true"
+                              who="Fridolin" toWhom="Nachtigall">
+                              "Are you mad, Nachtigall?"
+                            </said>
+                                    <said aloud="true"
+                              direct="true"
+                              who="Nachtigall" toWhom="Fridolin">
+                              "Why mad?"
+                            </said>
+                                    <said aloud="true" direct="true"
+                              who="Fridolin"
+                              toWhom="Nachtigall">
+                              "Oh, never mind—I was at
+                              the seashore in Denmark this summer. Get back into your carriage—but not
+                              too fast, so that I'll have time to take a cab over on the other side."
+                            </said>
+                                    <rs
+                              ref="#Nachtigall" type="character">
+                              Nachtigall
+                            </rs> nodded and leisurely lighted a cigarette.</p>
+                        </div>
+                </pre>
+                </div>
+                <div class="flex-item">
+                    <s src="https://gist.github.com/giorgiacrosilla/528578b87248cca46e6e80fc95500898.js"></s>
+                </div>
+                <div class="flex-item">
+                    <p>ciao</p>
+                </div>
+            </div>
+    </div>
+    </main>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
