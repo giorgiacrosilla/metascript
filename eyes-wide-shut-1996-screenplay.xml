@@ -11,51 +11,22 @@
                 <author>Frederic Raphael</author>
             </titleStmt>
             <publicationStmt>
-                <p>...</p>
+                <authority>Stanley Kubrick</authority>
+                <authority>Frederic Raphael</authority>
+                <availability status="restricted">
+                    <licence>Copyright ©1996,1999 Stanley Kubrick &amp; Frederic Raphael, All Rights Reserved</licence>
+                </availability>
             </publicationStmt>
-            <seriesStmt>
-                <p></p> <!-- info about series  -->
-            </seriesStmt>
-            <notesStmt>
-                <note>
-                    <!-- notes on other aspects of the resource -->
-                </note>
-            </notesStmt>
             <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>Stanley Kubrick</author>
-                        <title type="main">Eyes Wide Shut</title>
-                        <imprint>
-                            <pubPlace></pubPlace>
-                            <publisher></publisher>
-                            <date></date>
-                        </imprint>
-                        <extent></extent>
-                    </monogr>
-                    <relatedItem type="inspiredby">
-                        <biblStruct>
-                            <monogr>
-                                <author>Arthur Schnitzler</author>
-                                <title type="main">Traumnovelle</title>
-                                <title type="alt">
-                                    Rhapsody: A Dream Novel
-                                </title>
-                                <imprint>
-                                    <pubPlace>Los Angeles</pubPlace>
-                                    <publisher>Green Integer</publisher>
-                                    <date>2003</date>
-                                </imprint>
-                                <extent>143 p.</extent>
-                            </monogr>
-                        </biblStruct>
-                    </relatedItem>
-                </biblStruct>
-                <!-- information about the source from which
-                                the resource was derived  -->
+                <bibl>
+                    <distributor>ScreenTalk.org</distributor>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
+            <creation>
+                <date>1996-04-08</date>
+            </creation>
             <langUsage>
                 <language ident="en">English</language>
             </langUsage>
@@ -156,59 +127,119 @@
             </settingDesc>
             <particDesc>
                 <listPerson>
-                    <person xml:id="ALICE">
-                        <persName>Alice Harford</persName>
-                    </person>
-                    <person xml:id="BILL">
-                        <persName>Bill Harford</persName>
-                    </person>
-                    <person xml:id="HELENA">
-                        <persName>Helena Harford</persName>
-                        <note>Bill and Alice' daughter</note>
-                    </person>
-                    <person xml:id="BABY-SITTER">
-                        <persName>babysitter</persName>
-                        <note>young college girl</note>
-                    </person>
-                    <person xml:id="ZIEGLER">
-                        <persName>Victor Ziegler</persName>
-                        <note>fit, sun-tanned, man in his mid-fifties</note>
-                    </person>
-                    <person xml:id="NICK">
-                        <persName>Nick Nightingale</persName>
-                    </person>
-                    <person xml:id="SZABO">
-                        <persName>Sandor Szabo</persName>
-                        <note>handsome man, in his mid-forties with a slight Central European
-                            accent, hungarian</note>
-                    </person>
-                    <person xml:id="NUALA">
-                        <persName>Nuala</persName>
-                    </person>
-                    <person xml:id="GAYLE">
-                        <persName>Gayle</persName>
-                    </person>
-                    <person xml:id="HARRIS">
-                        <persName>Harris</persName>
-                    </person>
-                    <person xml:id="MARION">
-                        <persName>Marion</persName>
-                    </person>
-                    <person xml:id="CARL">
-                        <persName>Carl</persName>
-                    </person>
-                    <person xml:id="DOORMAN">
-                        <persName>Doorman</persName>
-                    </person>
-                    <person xml:id="DOMINO">
-                        <persName>Domino</persName>
-                    </person>
+                        <person xml:id="YOUNGGIRL">
+                            <persName>YOUNG GIRL</persName>
+                        </person>
+                        <person xml:id="ELEGANTMAN">
+                            <persName>ELEGANT MAN</persName>
+                        </person>
+                        <person xml:id="NUALA">
+                            <persName>NUALA</persName>
+                        </person>
+                        <person xml:id="ORDERLY">
+                            <persName>ORDERLY</persName>
+                        </person>
+                        <person xml:id="SZABO">
+                            <persName>SZABO</persName>
+                        </person>
+                        <person xml:id="THEWOMAN">
+                            <persName>THE WOMAN</persName>
+                        </person>
+                        <person xml:id="SERVANT1">
+                            <persName>SERVANT 1</persName>
+                        </person>
+                        <person xml:id="HARRIS">
+                            <persName>HARRIS</persName>
+                        </person>
+                        <person xml:id="ARTYWOMAN">
+                            <persName>ARTY WOMAN</persName>
+                        </person>
+                        <person xml:id="DRIVER">
+                            <persName>DRIVER</persName>
+                        </person>
+                        <person xml:id="BILL">
+                            <persName>BILL</persName>
+                        </person>
+                        <person xml:id="SERVANTS">
+                            <persName>SERVANTS</persName>
+                        </person>
+                        <person xml:id="GIBSON">
+                            <persName>GIBSON</persName>
+                        </person>
+                        <person xml:id="MARION">
+                            <persName>MARION</persName>
+                        </person>
+                        <person xml:id="CARL">
+                            <persName>CARL</persName>
+                        </person>
+                        <person xml:id="DOMINO">
+                            <persName>DOMINO</persName>
+                        </person>
+                        <person xml:id="TALLMAN">
+                            <persName>TALL MAN</persName>
+                        </person>
+                        <person xml:id="DESKCLERK">
+                            <persName>DESK CLERK</persName>
+                        </person>
+                        <person xml:id="DOORMAN">
+                            <persName>DOORMAN</persName>
+                        </person>
+                        <person xml:id="CABDRIVER">
+                            <persName>CAB DRIVER</persName>
+                        </person>
+                        <person xml:id="GATEMAN1">
+                            <persName>GATEMAN 1</persName>
+                        </person>
+                        <person xml:id="ALICE">
+                            <persName>ALICE</persName>
+                        </person>
+                        <person xml:id="NICK">
+                            <persName>NICK</persName>
+                        </person>
+                        <person xml:id="V.O.">
+                            <persName>V.O.</persName>
+                        </person>
+                        <person xml:id="KIMONO2">
+                            <persName>KIMONO2</persName>
+                        </person>
+                        <person xml:id="MANAGERESS">
+                            <persName>MANAGERESS</persName>
+                        </person>
+                        <person xml:id="BABY-SITTER">
+                            <persName>BABY-SITTER</persName>
+                        </person>
+                        <person xml:id="CLEANINGLADY">
+                            <persName>CLEANING LADY</persName>
+                        </person>
+                        <person xml:id="ANOTHERWOMAN">
+                            <persName>ANOTHER WOMAN</persName>
+                        </person>
+                        <person xml:id="SALLY">
+                            <persName>SALLY</persName>
+                        </person>
+                        <person xml:id="KIMONO1">
+                            <persName>KIMONO1</persName>
+                        </person>
+                        <person xml:id="WAITRESS">
+                            <persName>WAITRESS</persName>
+                        </person>
+                        <person xml:id="HELENA">
+                            <persName>HELENA</persName>
+                        </person>
+                        <person xml:id="GAYLE">
+                            <persName>GAYLE</persName>
+                        </person>
+                        <person xml:id="ZIEGLER">
+                            <persName>ZIEGLER</persName>
+                        </person>
+                        <person xml:id="CLERK">
+                            <persName>CLERK</persName>
+                        </person>
                 </listPerson>
             </particDesc>
         </profileDesc>
     </teiHeader>
     <text>
-        <!-- i'm not sure about the front and cast list in here -->
         <front>
             <castList>
                 <castItem>

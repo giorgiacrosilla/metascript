@@ -13,18 +13,158 @@
             <publicationStmt>
                 <publisher>ScriptSlug</publisher>
                 <availability>
-                    <p>This script is posted under the fair use for educational purposes only.</p>
+                    <licence>This script is posted under the fair use for educational purposes only.</licence>
                 </availability>
-                <ptr target="https://www.scriptslug.com/script/eyes-wide-shut-1999" />
+                <ref target="https://www.scriptslug.com/script/eyes-wide-shut-1999" />
             </publicationStmt>
             <sourceDesc>
-                <p>Born digital: no previous source exists.</p>
+                <bibl>
+                    <title>Eyes Wide Shut: A Screenplay</title>
+                    <author>Stanley Kubrick</author>
+                    <author>Frederic Raphael</author>
+                    <publisher>Warner Books</publisher>
+                    <date>1999</date>
+                    <idno type="ISBN">0446676322</idno>
+                </bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <langUsage>
                 <language ident="en">English</language>
             </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person xml:id="ALICE">
+                        <persName>ALICE</persName>
+                    </person>
+                    <person xml:id="BANDLEADER">
+                        <persName>BANDLEADER</persName>
+                    </person>
+                    <person xml:id="BILL">
+                        <persName>BILL</persName>
+                    </person>
+                    <person xml:id="BOY">
+                        <persName>BOY</persName>
+                    </person>
+                    <person xml:id="CABDRIVER">
+                        <persName>CAB DRIVER</persName>
+                    </person>
+                    <person xml:id="CARL">
+                        <persName>CARL</persName>
+                    </person>
+                    <person xml:id="CLERK">
+                        <persName>CLERK</persName>
+                    </person>
+                    <person xml:id="DAUGHTER">
+                        <persName>DAUGHTER</persName>
+                    </person>
+                    <person xml:id="DOMINO">
+                        <persName>DOMINO</persName>
+                    </person>
+                    <person xml:id="DRIVER">
+                        <persName>DRIVER</persName>
+                    </person>
+                    <person xml:id="GATEMAN1">
+                        <persName>GATEMAN 1</persName>
+                    </person>
+                    <person xml:id="GAYLE">
+                        <persName>GAYLE</persName>
+                    </person>
+                    <person xml:id="HARRIS">
+                        <persName>HARRIS</persName>
+                    </person>
+                    <person xml:id="HELENA">
+                        <persName>HELENA</persName>
+                    </person>
+                    <person xml:id="ILONA">
+                        <persName>ILONA</persName>
+                    </person>
+                    <person xml:id="JAPANESEMAN1">
+                        <persName>JAPANESE MAN 1</persName>
+                    </person>
+                    <person xml:id="JAPANESEMAN2">
+                        <persName>JAPANESE MAN 2</persName>
+                    </person>
+                    <person xml:id="LISA">
+                        <persName>LISA</persName>
+                    </person>
+                    <person xml:id="MAITRED">
+                        <persName>MAITRE D'</persName>
+                    </person>
+                    <person xml:id="MANDY">
+                        <persName>MANDY</persName>
+                    </person>
+                    <person xml:id="MARION">
+                        <persName>MARION</persName>
+                    </person>
+                    <person xml:id="MASKEDBUTLER">
+                        <persName>MASKED BUTLER</persName>
+                    </person>
+                    <person xml:id="MILICH">
+                        <persName>MILICH</persName>
+                    </person>
+                    <person xml:id="MYSTERIOUSWOMAN">
+                        <persName>MYSTERIOUS WOMAN</persName>
+                    </person>
+                    <person xml:id="NICK">
+                        <persName>NICK</persName>
+                    </person>
+                    <person xml:id="NUALA">
+                        <persName>NUALA</persName>
+                    </person>
+                    <person xml:id="OMINOUSMAN">
+                        <persName>OMINOUS MAN</persName>
+                    </person>
+                    <person xml:id="PATIENT">
+                        <persName>PATIENT</persName>
+                    </person>
+                    <person xml:id="RECEPTIONIST">
+                        <persName>RECEPTIONIST</persName>
+                    </person>
+                    <person xml:id="REDCLOAK">
+                        <persName>RED CLOAK</persName>
+                    </person>
+                    <person xml:id="ROSA">
+                        <persName>ROSA</persName>
+                    </person>
+                    <person xml:id="ROZ">
+                        <persName>ROZ</persName>
+                    </person>
+                    <person xml:id="SALLY">
+                        <persName>SALLY</persName>
+                    </person>
+                    <person xml:id="SARAH">
+                        <persName>SARAH</persName>
+                    </person>
+                    <person xml:id="SECRETARY">
+                        <persName>SECRETARY</persName>
+                    </person>
+                    <person xml:id="STUDENT2">
+                        <persName>STUDENT 2</persName>
+                    </person>
+                    <person xml:id="STUDENTI">
+                        <persName>STUDENT I</persName>
+                    </person>
+                    <person xml:id="SZAVOST">
+                        <persName>SZAVOST</persName>
+                    </person>
+                    <person xml:id="TALLBUTLER">
+                        <persName>TALL BUTLER</persName>
+                    </person>
+                    <person xml:id="VOICEFROMAUDIENCE">
+                        <persName>VOICE FROM AUDIENCE</persName>
+                    </person>
+                    <person xml:id="WAITRESS">
+                        <persName>WAITRESS</persName>
+                    </person>
+                    <person xml:id="YOUNGWOMAN">
+                        <persName>YOUNG WOMAN</persName>
+                    </person>
+                    <person xml:id="ZIEGLER">
+                        <persName>ZIEGLER</persName>
+                    </person>
+                </listPerson>
+            </particDesc>
         </profileDesc>
     </teiHeader>
     <text>
@@ -1597,7 +1737,7 @@
                 </sp>
                 <stage type="setting">BILL goes over to her and kneels down.</stage>
                 <sp who="BILL" toWhom="MANDY">
-                   <timeline xml:id="SUB203">
+                    <timeline xml:id="SUB203">
                         <when xml:id="line_start" absolute="00:16:52.638" />
                         <when xml:id="line_end" absolute="00:16:59.603" />
                     </timeline>
@@ -1929,7 +2069,7 @@
                     female nurse stands by as an observer.</stage>
                 <sp who="BILL" toWhom="GIRL">
                     <timeline xml:id="SUB245">
-                         <when xml:id="line_start" absolute="00:21:13.440" />
+                        <when xml:id="line_start" absolute="00:21:13.440" />
                         <when xml:id="line_end" absolute="00:21:15.984" />
                     </timeline>
                     <speaker>BILL</speaker>
@@ -1975,7 +2115,7 @@
                     <p>Looking forward to Christmas?</p>
                 </sp>
                 <sp who="BOY" toWhom="BILL">
-                    
+
                     <speaker>BOY</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -1988,7 +2128,7 @@
                     <p>Does this hurt?</p>
                 </sp>
                 <sp who="BOY" toWhom="BILL">
-                    
+
                     <speaker>BOY</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -2020,7 +2160,7 @@
                     <p>Right there?</p>
                 </sp>
                 <sp who="PATIENT" toWhom="BILL">
-                    
+
                     <speaker>PATIENT</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -2641,7 +2781,7 @@
                     <p>Do you ... do you remember last summer at Cape Cod?</p>
                 </sp>
                 <sp who="BILL" toWhom="ALICE">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -2673,7 +2813,7 @@
                         bell?</p>
                 </sp>
                 <sp who="BILL" toWhom="ALICE">
-                    
+
                     <speaker>BILL</speaker>
                     <p>No.</p>
                 </sp>
@@ -3251,7 +3391,7 @@
                     <p>Thank you.</p>
                 </sp>
                 <sp who="BILL" toWhom="CARL, MARION">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Well....</p>
                 </sp>
@@ -3451,7 +3591,7 @@
                 <stage type="setting">He sees the apartment building, its front door painted bright
                     red.</stage>
                 <sp who="DOMINO" toWhom="BILL">
-                    
+
                     <speaker>DOMINO</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -3611,7 +3751,7 @@
                     <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">ALICE sits eating cookies and smoking a cigarette while
-                    watching television. She is dressed in her blue silk dressing gown.</stage> 
+                    watching television. She is dressed in her blue silk dressing gown.</stage>
             </div>
             <div type="scene" n="50">
                 <head type="scene_heading">
@@ -3646,7 +3786,7 @@
                 </sp>
                 <stage type="setting">BILL faces the wall away from DOMINO as he takes the call.</stage>
                 <sp who="BILL" toWhom="ALICE">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Hello?</p>
                 </sp>
@@ -3660,7 +3800,7 @@
                 </head>
                 <stage type="setting">ALICE is on the telephone.</stage>
                 <sp who="ALICE" toWhom="BILL">
-                    
+
                     <speaker>ALICE</speaker>
                     <p>Hi....</p>
                 </sp>
@@ -3771,7 +3911,7 @@
                     <stage type="time">NIGHT</stage>
                 </head>
                 <sp who="BILL" toWhom="ALICE">
-                    
+
                     <speaker>BILL</speaker>
                     <p>OK. Bye-bye.</p>
                 </sp>
@@ -3794,7 +3934,7 @@
                 </sp>
                 <stage type="setting">BILL, embarrassed, walks back towards the bed.</stage>
                 <sp who="BILL" toWhom="DOMINO">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Yes ... yes.</p>
                 </sp>
@@ -4338,7 +4478,7 @@
                         anything like this ... and never such women.</p>
                 </sp>
                 <sp who="BILL" toWhom="NICK">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Well?</p>
                 </sp>
@@ -4383,7 +4523,7 @@
                     <p>It's the name of a Beethoven opera, isn't it?</p>
                 </sp>
                 <sp who="BILL" toWhom="NICK">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Nick....</p>
                 </sp>
@@ -4671,7 +4811,7 @@
                     <p>A hundred dollars?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -4700,12 +4840,12 @@
                     <p>Two hundred dollars over the rental price?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
                 <sp who="MILICH" toWhom="BILL">
-                    
+
                     <speaker>MILICH</speaker>
                     <p>OK.</p>
                 </sp>
@@ -4765,7 +4905,7 @@
                     <p>A cloak with a hood and a mask?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -4812,7 +4952,7 @@
                     <p>Come. So, what colour cloak?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Umm . ...</p>
                 </sp>
@@ -4949,7 +5089,7 @@
                     <p>You see?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -5164,7 +5304,7 @@
                     <p>Doctor, sorry, what colour did you say?</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Umm.... I</p>
                 </sp>
@@ -5357,7 +5497,7 @@
                         stuff here in the back. OK?</p>
                 </sp>
                 <sp who="CAB DRIVER" toWhom="BILL">
-                    
+
                     <speaker>CAB DRIVER</speaker>
                     <p>OK.</p>
                 </sp>
@@ -5614,7 +5754,8 @@
                     <stage type="delivery">(to Bill)</stage>
                     <p>Would you be so good as to excuse us for a moment?</p>
                 </sp>
-                <stage type="setting">The OMINOUS MAN leads the MYSTERIOUS WOMAN away up a marble staircase. She
+                <stage type="setting">The OMINOUS MAN leads the MYSTERIOUS WOMAN away up a marble
+                    staircase. She
                     looks back at BILL who is left wondering what is going on in the house.</stage>
             </div>
             <div type="scene" n="81">
@@ -5801,7 +5942,7 @@
                 </sp>
                 <stage type="setting">BILL attempts to remove her mask but she holds tight.</stage>
                 <sp who="MYSTERIOUS WOMAN" toWhom="BILL">
-                    
+
                     <speaker>MYSTERIOUS WOMAN</speaker>
                     <p>No!</p>
                 </sp>
@@ -5908,7 +6049,7 @@
                     <p>The password for the house?</p>
                 </sp>
                 <sp who="RED CLOAK" toWhom="BILL">
-                    
+
                     <speaker>RED CLOAK</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -6001,7 +6142,7 @@
                     <p>Are you sure you understand what you are taking upon yourself in doing this?</p>
                 </sp>
                 <sp who="MYSTERIOUS WOMAN" toWhom="RED CLOAK">
-                    
+
                     <speaker>MYSTERIOUS WOMAN</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -6180,7 +6321,7 @@
                     <p>That's not the end, is it?</p>
                 </sp>
                 <sp who="ALICE" toWhom="BILL">
-                    
+
                     <speaker>ALICE</speaker>
                     <p>No.</p>
                 </sp>
@@ -6265,7 +6406,7 @@
                 <stage type="setting">BILL walks in and finds a seat at the counter. An attractive
                     WAITRESS behind the counter greets him.</stage>
                 <sp who="WAITRESS" toWhom="BILL">
-                    
+
                     <speaker>WAITRESS</speaker>
                     <p>Hi!</p>
                 </sp>
@@ -6436,7 +6577,7 @@
                     <p>He checked out?</p>
                 </sp>
                 <sp who="CLERK" toWhom="BILL">
-                    
+
                     <speaker>CLERK</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -6481,7 +6622,7 @@
                     <p>Five o'clock this morning?</p>
                 </sp>
                 <sp who="CLERK" toWhom="BILL">
-                    
+
                     <speaker>CLERK</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -6542,7 +6683,7 @@
                     <p>I'm a doctor.</p>
                 </sp>
                 <sp who="CLERK" toWhom="BILL">
-                    
+
                     <speaker>CLERK</speaker>
                     <p>Oh.</p>
                 </sp>
@@ -6674,7 +6815,7 @@
                     <p>Oh, the good doctor.</p>
                 </sp>
                 <sp who="BILL" toWhom="MILICH">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Mr Milich.</p>
                 </sp>
@@ -6773,14 +6914,14 @@
                     <p>Would you like to say hello to Dr Harford?</p>
                 </sp>
                 <sp who="DAUGHTER" toWhom="BILL">
-                    
+
                     <speaker>DAUGHTER</speaker>
                     <stage type="delivery">(to Bill)</stage>
                     <p>Hello!</p>
                 </sp>
                 <stage type="setting">She offers her hand to BILL and they shake.</stage>
                 <sp who="BILL" toWhom="DAUGHTER">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Hello.</p>
                 </sp>
@@ -6946,7 +7087,7 @@
                     <p>No problem.</p>
                 </sp>
                 <sp who="BILL" toWhom="LISA">
-                    
+
                     <speaker>BILL</speaker>
                     <p>OK?</p>
                 </sp>
@@ -7067,12 +7208,12 @@
                     <p>Dr Sanders and, erh ... Mrs Shapiro.</p>
                 </sp>
                 <sp who="HELENA" toWhom="BILL">
-                    
+
                     <speaker>HELENA</speaker>
                     <p>Hi, daddy!</p>
                 </sp>
                 <sp who="BILL" toWhom="HELENA">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Hey . ...</p>
                 </sp>
@@ -7094,7 +7235,7 @@
                     <p>You got all those right?</p>
                 </sp>
                 <sp who="HELENA" toWhom="BILL">
-                    
+
                     <speaker>HELENA</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -7107,7 +7248,7 @@
                     <p>Every single one of them?</p>
                 </sp>
                 <sp who="HELENA" toWhom="BILL">
-                    
+
                     <speaker>HELENA</speaker>
                     <p>Ah-hah ....</p>
                 </sp>
@@ -7309,7 +7450,7 @@
                 <stage type="setting">The phone rings in the hallway. CARL walks down the corridor
                     and picks up the receiver.</stage>
                 <sp who="CARL" toWhom="BILL">
-                    
+
                     <speaker>CARL</speaker>
                     <p>Hello? Hello? Hello?</p>
                 </sp>
@@ -7527,7 +7668,7 @@
                 <stage type="setting">BILL, taking offhis overcoat, is not reticent in returning the
                     advance.</stage>
                 <sp who="SALLY" toWhom="BILL">
-                    
+
                     <speaker>SALLY</speaker>
                     <p>Hi.</p>
                 </sp>
@@ -7617,7 +7758,7 @@
                 </sp>
                 <sp who="BILL" toWhom="SALLY">
                     <timeline xml:id="SUB1081">
-                         <when xml:id="line_start" absolute="01:58:57.304" />
+                        <when xml:id="line_start" absolute="01:58:57.304" />
                         <when xml:id="line_end" absolute="01:59:00.599" />
                     </timeline>
                     <speaker>BILL</speaker>
@@ -7663,7 +7804,7 @@
                     <p>Well, considering that you were with Domino last night ...</p>
                 </sp>
                 <sp who="BILL" toWhom="SALLY">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Hmm....</p>
                 </sp>
@@ -7687,7 +7828,7 @@
                     <p>HIV positive?</p>
                 </sp>
                 <sp who="SALLY" toWhom="BILL">
-                    
+
                     <speaker>SALLY</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -7904,7 +8045,7 @@
                     <p>C . . . U . . . R . . . R . . . A . . . N?</p>
                 </sp>
                 <sp who="BILL" toWhom="RECEPTIONIST">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -8045,7 +8186,7 @@
                     <p>Bill, I appreciate you coming.</p>
                 </sp>
                 <sp who="BILL" toWhom="ZIEGLER">
-                    
+
                     <speaker>BILL</speaker>
                     <p>Sure.</p>
                 </sp>
@@ -8095,7 +8236,7 @@
                 <stage type="setting">They walk over to the drinks table. ZIEGLER laying BILL's coat
                     over an annchair.</stage>
                 <sp who="BILL" toWhom="ZIEGLER">
-                    
+
                     <speaker>BILL</speaker>
                     <p>OK.</p>
                 </sp>
@@ -8193,7 +8334,7 @@
                     <p>Sure, why not?</p>
                 </sp>
                 <sp who="BILL" toWhom="ZIEGLER">
-                    
+
                     <speaker>BILL</speaker>
                     <p>No ... no!</p>
                 </sp>
@@ -8577,7 +8718,7 @@
                     <p>Victor, the woman lying dead in the morgue was the woman at the party?</p>
                 </sp>
                 <sp who="ZIEGLER" toWhom="BILL">
-                    
+
                     <speaker>ZIEGLER</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -8736,7 +8877,7 @@
                     <p>I could put Sabrina in here.</p>
                 </sp>
                 <sp who="ALICE" toWhom="HELENA">
-                    
+
                     <speaker>ALICE</speaker>
                     <p>Yeah.</p>
                 </sp>
@@ -8783,7 +8924,7 @@
                     <p>You do?</p>
                 </sp>
                 <sp who="HELENA" toWhom="ALICE">
-                    
+
                     <speaker>HELENA</speaker>
                     <p>Yes.</p>
                 </sp>
@@ -8836,7 +8977,7 @@
                 <stage type="setting">They move away into an aisle where ALICE stops and begins to
                     explain her feelings. HELENA walks between them which brings ALICE to a halt.</stage>
                 <sp who="ALICE" toWhom="HELENA">
-                    
+
                     <speaker>ALICE</speaker>
                     <stage type="delivery">(to Helena)</stage>
                     <p>Hey!</p>
