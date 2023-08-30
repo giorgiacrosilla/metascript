@@ -168,6 +168,22 @@ nav a {
   color: black;
 }
 
+.container {
+  display: flex;
+}
+
+iframe, .bk-root {
+  flex: 1;
+  width: min-content;
+}
+
+.text {
+  flex: 1;
+  max-width: 60%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 pre {
   margin-left: 5px;
   white-space: pre-line;
