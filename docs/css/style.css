@@ -83,7 +83,7 @@ section {
 }
 
 .flex-item {
-    border-image-source: url('/img/ews-border2.png');
+    border-image-source: url('../img/ews-border2.png');
     border-image-slice: 230 115 225 120 fill;
     border-image-width: 12vh 3vw;
     border-image-outset: 12vh 3vw;
@@ -104,7 +104,7 @@ section {
 }
 
 .flex-item-central {
-    border-image-source: url('/img/ews-border.png');
+    border-image-source: url('../img/ews-border.png');
     border-image-slice: 450 200 250 215 fill;
     border-image-width: 20vh 6vw 13vh 6vw;
     border-image-outset: 20vh 6vw 13vh 6vw;
