@@ -1,0 +1,112 @@
+:root {
+    --azzurrino: #a6c9b5;
+    --giallino: #e5e1ad;
+    --violetto: #943689;
+    --viola: #2a0636;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+h2, h3, .title, .subtitle {
+  font-family: 'Futura Extra Bold', sans-serif;
+}
+
+.title-container {
+    position: absolute;
+    top: 50vh;
+    left: 35vw;
+    text-align: right;
+}
+
+.title {
+    color: var(--azzurrino);
+    font-size: 7rem;
+}
+
+.subtitle {
+    color: white;
+    font-size: 3rem;
+    text-decoration: underline var(--violetto);
+}
+
+section {
+    padding: 2rem 3rem;
+}
+
+.sectitle > h3 {
+    text-decoration: underline var(--violetto);
+    font-size: 2rem;
+    color: #060b0f;
+    margin-bottom: 2rem;
+}
+
+.film-introduction-section {
+    background-color: var(--azzurrino);
+    min-height: 80vh;
+}
+
+.film-introduction {
+    padding: 0 3rem;
+}
+
+.film-introduction > img {
+    max-height: 25rem;
+    float: left;
+    margin: 2rem;
+}
+
+.film-introduction > p {
+    margin: 2rem;
+    color: #060b0f;
+}
+
+.texts-introduction-section {
+    background-color: white;
+    min-height: 80vh;
+}
+
+.comparison-section {
+    background-color: var(--viola);
+}
+
+.comparison-section > .sectitle > h3 {
+    color: white;
+}
+
+
+.flex-container {
+    margin: 10rem 5rem;
+    gap: 8rem;
+}
+
+.flex-item {
+    border-image-source: url('/img/ews-border2.png');
+    border-image-slice: 230 115 225 120 fill;
+    border-image-width: 8rem 3rem;
+    border-image-outset: 8rem 3rem;
+    border-image-repeat: stretch stretch; 
+    padding: 3rem;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.flex-item::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.flex-item-central {
+    border-image-source: url('/img/ews-border.png');
+    border-image-slice: 450 200 250 215 fill;
+    border-image-width: 10rem 5rem 9rem 5rem;
+    border-image-outset: 10rem 5rem 9rem 5rem;
+    border-image-repeat: stretch stretch; 
+}
+
+
+footer {
+    height: 30vh;
+    background-color: var(--giallino);
+}

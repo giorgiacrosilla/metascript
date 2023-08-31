@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>METASCRIPT</title>
+    <title>MetaScript</title>
+    <link rel="icon" type="image/x-icon" href="/img/mask.ico">
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
@@ -34,16 +36,53 @@
             </ul>
         </div>
     </nav>
-    <div id="layoutSidenav_content">
+    <main>
         <div class="container-fluid" id="space">
             <img src="./img/mask1.png" class="parallax" data-zoom="150">
-            <img src="./img/write3.png" class="image-fluid" id="write">
-        </div>
-        <main>
-            <div class="explanation">
-                <p></p>
+            <div class="title-container">
+                <h1 class="title">EYES WIDE SHUT</h1>
+                <h4 class="subtitle">a captivating subtitle</h4>
             </div>
-            <h2>Book-Screenplay-Movie rendering comparison</h2>
+        </div>
+        <section class="film-introduction-section">
+            <div class="sectitle">
+                <h3>Section title</h3>
+            </div>
+            <div class="film-introduction">
+                <img src="/img/ews-poster.jpg" alt="The 'Eyes Wide Shut' movie poster.">
+                <p>Eyes Wide Shut is a 1999 erotic mystery psychological drama film directed, produced, and co-written
+                    by Stanley Kubrick. It is based on the 1926 novella Traumnovelle (Dream Story) by Arthur Schnitzler,
+                    transferring the story's setting from early twentieth-century Vienna to 1990s New York City. The
+                    plot centers on a doctor (Tom Cruise) who is shocked when his wife (Nicole Kidman) reveals that she
+                    had contemplated having an affair a year earlier. He then embarks on a night-long adventure, during
+                    which he infiltrates a masked orgy of an unnamed secret society. Kubrick obtained the filming rights
+                    for Dream Story in the 1960s, considering it a perfect text for a film adaptation about sexual
+                    relations. He revived the project in the 1990s when he hired writer Frederic Raphael to help him
+                    with the adaptation. The film, which was mostly shot in England, apart from some exterior
+                    establishing shots, includes a detailed recreation of exterior Greenwich Village street scenes made
+                    at Pinewood Studios. The film's production, at 400 days, holds the Guinness World Record for the
+                    longest continuous film shoot. Kubrick died six days after showing the final cut of Eyes Wide Shut
+                    to Warner Bros., making it the final film he directed. He reportedly considered it his "greatest
+                    contribution to the art of cinema". In order to ensure a theatrical R rating in the United States,
+                    Warner Bros. digitally altered several sexually explicit scenes during post-production. This version
+                    was premiered on July 13, 1999, before being released on July 16, to moderately positive reactions
+                    from film critics.[4] Box office receipts for the film worldwide were about $162 million, making it
+                    Kubrick's highest-grossing film. The uncut version has since been released in DVD, HD DVD and
+                    Blu-ray Disc formats. Eyes Wide Shut has been included in several lists of the greatest films of the
+                    1990s. </p>
+            </div>
+        </section>
+        <section class="texts-introduction-section">
+            <div class="sectitle">
+                <h3>Section title</h3>
+            </div>
+        </section>
+        <section class="comparison-section">
+            <div class="sectitle">
+                <h3>Book-Screenplay-Movie rendering comparison</h3>
+            </div>
+            <div>
+            </div>
             <form action="#">
                 <label for="lang">Select a scene: </label>
                 <select name="scene" id="lang">
@@ -62,84 +101,51 @@
                 <div class="flex-item">
                     <pre lang="xml">
                         <div type="scene" n='60'>
-                          <p> The care-taker opened the outer door and <rs
-                              ref="#Fridolin" type="character">
-                              Fridolin
-                            </rs> saw the mourning-coach standing opposite
-                            with the motionless driver on the box. <rs ref="#Nachtigall" type="character">
-                              Nachtigall
-                            </rs> was just on the point of leaving the cafe,
-                            and seemed somewhat taken aback at seeing <rs ref="#Fridolin" type="character">
-                              Fridolin
-                            </rs> at hand so promptly. <said aloud="true"
-                              direct="true"
-                              who="Nachtigall" toWhom="Fridolin">
-                              "Then you did manage to get a costume?"
-                            </said>
-                                    <said
-                              aloud="true"
-                              direct="true" who="Fridolin" toWhom="Nachtigall">
-                              "You can see for yourself. What's the
-                              password?"
-                            </said>
-                                    <said
-                              aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
-                              "You
-                              insist on knowing it?"
-                            </said>
-                                    <said
-                              aloud="true"
-                              direct="true"
-                              who="Fridolin" toWhom="Nachtigall">
-                              "Absolutely."
-                            </said>
-                                    <said aloud="true" direct="true"
-                              who="Nachtigall"
-                              toWhom="Fridolin">
-                              "Well then—it's Denmark."
-                            </said>
-                                    <said aloud="true"
-                              direct="true"
-                              who="Fridolin" toWhom="Nachtigall">
-                              "Are you mad, Nachtigall?"
-                            </said>
-                                    <said aloud="true"
-                              direct="true"
-                              who="Nachtigall" toWhom="Fridolin">
-                              "Why mad?"
-                            </said>
-                                    <said aloud="true" direct="true"
-                              who="Fridolin"
-                              toWhom="Nachtigall">
-                              "Oh, never mind—I was at
-                              the seashore in Denmark this summer. Get back into your carriage—but not
-                              too fast, so that I'll have time to take a cab over on the other side."
-                            </said>
-                                    <rs
-                              ref="#Nachtigall" type="character">
-                              Nachtigall
-                            </rs> nodded and leisurely lighted a cigarette.</p>
+                            <p> The care-taker opened the outer door and <rs ref="#Fridolin" type="character"> Fridolin
+                                </rs> saw the mourning-coach standing opposite with the motionless driver on the box.
+                                <rs ref="#Nachtigall" type="character"> Nachtigall </rs> was just on the point of
+                                leaving the cafe, and seemed somewhat taken aback at seeing <rs ref="#Fridolin"
+                                    type="character"> Fridolin </rs> at hand so promptly. <said aloud="true"
+                                    direct="true" who="Nachtigall" toWhom="Fridolin"> "Then you did manage to get a
+                                    costume?" </said>
+                                <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "You can see for
+                                    yourself. What's the password?" </said>
+                                <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "You insist on
+                                    knowing it?" </said>
+                                <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "Absolutely."
+                                </said>
+                                <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "Well then—it's
+                                    Denmark." </said>
+                                <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "Are you mad,
+                                    Nachtigall?" </said>
+                                <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "Why mad?" </said>
+                                <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "Oh, never mind—I
+                                    was at the seashore in Denmark this summer. Get back into your carriage—but not too
+                                    fast, so that I'll have time to take a cab over on the other side." </said>
+                                <rs ref="#Nachtigall" type="character"> Nachtigall </rs> nodded and leisurely lighted a
+                                cigarette.
+                            </p>
                         </div>
-                </pre>
+                    </pre>
                 </div>
-                <div class="flex-item">
+                <div class="flex-item flex-item-central">
                     <pre lang="xml">
                         <div type="scene" n="60">
+
                             <head type="scene_heading">
                                 <stage type="environment">INT.</stage>
                                 <stage type="primary_location">CAFE SONATA</stage>
                                 <stage type="time">NIGHT</stage>
                             </head>
-                            <stage type="setting">BILL walks down the stairs of the club. We hear live music as
-                                BILL is greeted by the MAITRE D'.</stage>
+                            <stage type="setting">BILL walks down the stairs of the club. We hear live music as BILL is
+                                greeted by the MAITRE D'.</stage>
                             <sp who="MAITRE D'" toWhom="BILL">
                                 <timeline xml:id="SUB">
                                     <when xml:id="line_start" absolute="" />
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>MAITRE D'</speaker>
-                                <p>Good evening, sir. Would you like a table or would you like to sit at the
-                                    bar?</p>
+                                <p>Good evening, sir. Would you like a table or would you like to sit at the bar? </p>
                             </sp>
                             <sp who="BILL" toWhom="MAITRE D'">
                                 <timeline xml:id="SUB">
@@ -157,8 +163,8 @@
                                 <speaker>MAITRE D'</speaker>
                                 <p>Please, follow me. Can I take your coat?</p>
                             </sp>
-                            <stage type="setting">As BILL is taken to his table we see his friend, NICK,
-                            playing piano on stage with a jazz trio.</stage>
+                            <stage type="setting">As BILL is taken to his table we see his friend, NICK, playing piano
+                                on stage with a jazz trio.</stage>
                             <sp who="BILL" toWhom="MAITRE D'">
                                 <timeline xml:id="SUB1101">
                                     <when xml:id="line_start" absolute="02:05:10.302" />
@@ -192,17 +198,17 @@
                                 <speaker>MAITRE D'</speaker>
                                 <p>Certainly.</p>
                             </sp>
-                            <stage type="setting">BILL watches the group as it finishes its final number. Then
-                                NICK quickly gets the band into the fast closing theme to cover his
-                                introductions to the musicians and his thanks to the audience.</stage>
-                            <sp who="NICK" toWhom="AUDIENCE"> 
+                            <stage type="setting">BILL watches the group as it finishes its final number. Then NICK
+                                quickly gets the band into the fast closing theme to cover his introductions to the
+                                musicians and his thanks to the audience.</stage>
+                            <sp who="NICK" toWhom="AUDIENCE">
                                 <timeline xml:id="SUB">
                                     <when xml:id="line_start" absolute="" />
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>NICK</speaker>
-                                <p>Hope you enjoyed the music tonight. We're going to be here for the next two
-                                    weeks. So, please, do stop by. I'm Nick Nightingale. Good night.</p>
+                                <p>Hope you enjoyed the music tonight. We're going to be here for the next two weeks.
+                                    So, please, do stop by. I'm Nick Nightingale. Good night.</p>
                             </sp>
                             <stage type="setting">NICK leaves the stage and walks through the club.</stage>
                             <sp who="VOICE FROM AUDIENCE" toWhom="NICK">
@@ -456,8 +462,8 @@
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>NICK</speaker>
-                                <p>No. It may sound ridiculous, but it's in a different place every time and I
-                                    only get it an hour or so before.</p>
+                                <p>No. It may sound ridiculous, but it's in a different place every time and I only get
+                                    it an hour or so before.</p>
                             </sp>
                             <sp who="BILL" toWhom="NICK">
                                 <timeline xml:id="SUB">
@@ -539,9 +545,9 @@
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>NICK</speaker>
-                                <p>No, it's the truth. And the last time, the blindfold wasn't on so well ...
-                                    man ... Bill, I have seen one or two things in my life but never, never
-                                    anything like this ... and never such women.</p>
+                                <p>No, it's the truth. And the last time, the blindfold wasn't on so well ... man ...
+                                    Bill, I have seen one or two things in my life but never, never anything like this
+                                    ... and never such women.</p>
                             </sp>
                             <sp who="BILL" toWhom="NICK">
                                 <timeline xml:id="SUB">
@@ -563,17 +569,17 @@
                                 <p>Excuse me.</p>
                                 <p>Hello? Yes, sir. Yes, sir. This is Nick. Uh-huh, I know where that is.</p>
                             </sp>
-                            <stage type="setting">NICK takes a pen from his pocket and starts to write on a
-                                paper napkin. He finds it difficult so BILL reaches across and holds the napkin.
-                                NICK writes on it the word "FIDELIO"</stage>
+                            <stage type="setting">NICK takes a pen from his pocket and starts to write on a paper
+                                napkin. He finds it difficult so BILL reaches across and holds the napkin. NICK writes
+                                on it the word "FIDELIO"</stage>
                             <sp who="NICK" toWhom="PERSON AT THE PHONE">
                                 <timeline xml:id="SUB">
                                     <when xml:id="line_start" absolute="" />
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>NICK</speaker>
-                                <p>Uh-huh .. .. right. OK. Well, I'm on my way right now. OK, sir. Thank you.
-                                    Bye-bye.</p>
+                                <p>Uh-huh .. .. right. OK. Well, I'm on my way right now. OK, sir. Thank you. Bye-bye.
+                                </p>
                             </sp>
                             <sp who="BILL" toWhom="NICK">
                                 <timeline xml:id="SUB730">
@@ -621,8 +627,8 @@
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>NICK</speaker>
-                                <p>Yeah, like I'm ... I'm really sorry to do this to you, Bill. I mean, I ... I
-                                    gotta get going. I gotta ... I gotta go.</p>
+                                <p>Yeah, like I'm ... I'm really sorry to do this to you, Bill. I mean, I ... I gotta
+                                    get going. I gotta ... I gotta go.</p>
                             </sp>
                             <sp who="BILL" toWhom="NICK">
                                 <timeline xml:id="SUB">
@@ -630,8 +636,8 @@
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>BILL</speaker>
-                                <p>Nick, you know there is no way on earth that you are going to leave here
-                                    tonight without taking me with you.</p>
+                                <p>Nick, you know there is no way on earth that you are going to leave here tonight
+                                    without taking me with you.</p>
                             </sp>
                             <sp who="NICK" toWhom="BILL">
                                 <timeline xml:id="SUB">
@@ -647,9 +653,8 @@
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>BILL</speaker>
-                                <p>Nick, I'll tell you what. I've already got the password. Just give me the
-                                    address and I'll go there by myself and there won't be any connection
-                                    between us whatsoever.</p>
+                                <p>Nick, I'll tell you what. I've already got the password. Just give me the address and
+                                    I'll go there by myself and there won't be any connection between us whatsoever.</p>
                             </sp>
                             <sp who="NICK" toWhom="BILL">
                                 <timeline xml:id="SUB">
@@ -657,8 +662,8 @@
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>NICK</speaker>
-                                <p>Listen, let's just say for one second that I was prepared to do that. You
-                                    couldn't get in anyway in those clothes.</p>
+                                <p>Listen, let's just say for one second that I was prepared to do that. You couldn't
+                                    get in anyway in those clothes.</p>
                             </sp>
                             <sp who="BILL" toWhom="NICK">
                                 <timeline xml:id="SUB1139">
@@ -674,8 +679,8 @@
                                     <when xml:id="line_end" absolute="" />
                                 </timeline>
                                 <speaker>NICK</speaker>
-                                <p>Because everyone is always costumed and masked, and where the hell are you
-                                    gonna get a costume at this hour of the morning?</p>
+                                <p>Because everyone is always costumed and masked, and where the hell are you gonna get
+                                    a costume at this hour of the morning?</p>
                             </sp>
                         </div>
                     </pre>
@@ -684,19 +689,22 @@
                     <p>ciao</p>
                 </div>
             </div>
-    </div>
+        </section>
     </main>
-    </div>
-    </div>
-    <script>  document.addEventListener("DOMContentLoaded", function () {
-            const preElements = document.querySelectorAll("pre");
-            preElements.forEach(function (preElement) {
-                preElement.innerHTML = preElement.innerHTML.replace(/\s+/g, " ");
-            });
-        });</script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <footer>
+        <div>
+            <p>©UNIBO 2023</p>
+        </div>
+    </footer>
 </body>
+<script>  document.addEventListener("DOMContentLoaded", function () {
+        const preElements = document.querySelectorAll("pre");
+        preElements.forEach(function (preElement) {
+            preElement.innerHTML = preElement.innerHTML.replace(/\s+/g, " ");
+        });
+    });</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
 
 </html>

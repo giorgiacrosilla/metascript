@@ -97,9 +97,6 @@
   src: url(".././fonts/Futura Extra Bold/Futura Extra Bold.otf") format("opentype");
 }
 
-h2 {
-  font-family: 'Futura Extra Bold', sans-serif;
-}
 
 
 body {
@@ -162,7 +159,7 @@ nav a {
 
 .flex-item {
   width: 30%;
-  height: 500px;
+  height: 40rem;
   overflow: auto;
   background-color: white;
   color: black;
