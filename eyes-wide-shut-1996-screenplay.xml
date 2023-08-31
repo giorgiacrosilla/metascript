@@ -1411,7 +1411,7 @@
                     <p>Hey, is this thing on Court TV?</p>
                 </sp>
                 <stage type="setting">BILL feigns looking around for cameras.</stage>
-                <sp who="ALICE" toWhom="NILL">
+                <sp who="ALICE" toWhom="BILL">
                     <speaker>ALICE</speaker>
                     <p>Why don't you just give me a straight answer?</p>
                 </sp>
@@ -1764,7 +1764,7 @@
                     <p>I phoned Carl - my fiancee. She does not look BILL straight in the eye when
                         she says, fiancee/</p>
                 </sp>
-                <sp who="MARION" toWhom="NILL">
+                <sp who="MARION" toWhom="BILL">
                     <speaker>MARION</speaker>
                     <p>He's going to make some calls for me and then he's coming over.</p>
                 </sp>
