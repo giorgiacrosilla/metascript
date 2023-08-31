@@ -157,13 +157,6 @@ nav a {
   justify-content: space-around;
 }
 
-.flex-item {
-  width: 30%;
-  height: 40rem;
-  overflow: auto;
-  background-color: white;
-  color: black;
-}
 
 .container {
   display: flex;

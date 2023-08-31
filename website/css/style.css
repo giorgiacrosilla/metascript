@@ -23,12 +23,12 @@ h2, h3, .title, .subtitle {
 
 .title {
     color: var(--azzurrino);
-    font-size: 7rem;
+    font-size: 6vw;
 }
 
 .subtitle {
     color: white;
-    font-size: 3rem;
+    font-size: 3vw;
     text-decoration: underline var(--violetto);
 }
 
@@ -78,19 +78,25 @@ section {
 
 
 .flex-container {
-    margin: 10rem 5rem;
-    gap: 8rem;
+    margin: 10rem 3rem;
+    gap: 9vw;
 }
 
 .flex-item {
     border-image-source: url('/img/ews-border2.png');
     border-image-slice: 230 115 225 120 fill;
-    border-image-width: 8rem 3rem;
-    border-image-outset: 8rem 3rem;
+    border-image-width: 12vh 3vw;
+    border-image-outset: 12vh 3vw;
     border-image-repeat: stretch stretch; 
     padding: 3rem;
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
     scrollbar-width: none;  /* Firefox */
+    width: 50vw;
+    height: 80vh;
+    overflow: auto;
+    background-color: white;
+    color: black;
+    z-index: 1;
 }
 
 .flex-item::-webkit-scrollbar { 
@@ -100,8 +106,8 @@ section {
 .flex-item-central {
     border-image-source: url('/img/ews-border.png');
     border-image-slice: 450 200 250 215 fill;
-    border-image-width: 10rem 5rem 9rem 5rem;
-    border-image-outset: 10rem 5rem 9rem 5rem;
+    border-image-width: 20vh 6vw 13vh 6vw;
+    border-image-outset: 20vh 6vw 13vh 6vw;
     border-image-repeat: stretch stretch; 
 }
 
@@ -109,4 +115,7 @@ section {
 footer {
     height: 30vh;
     background-color: var(--giallino);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
