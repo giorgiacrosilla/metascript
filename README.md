@@ -1,12 +1,13 @@
 # MetaScript
 
-## Book: 
-Giorgia fino a pag. 20 compresa
+Group project for the course "Digital Text in The Humanities".
 
-Erica da pag. 21 dopo "invited guest?"
+Made by: Andreose Erica, Crosilla Giorgia, Zilli Leonardo
 
-Leonardo da pag. 39 
 
-## Screenplay:
+Digital tool for for comparative textual analysis between book, screenplay and film.
 
+Example prototype based on: "Eyes Wide Shut"/"Dream Story"
+
+Website: https://giorgiacrosilla.github.io/metascript/
 
