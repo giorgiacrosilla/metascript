@@ -37,7 +37,7 @@
     </nav>
     <main>
         <div class="container-fluid" id="space">
-            <img src="./img/mask1.png" class="parallax" data-zoom="150">
+            <img src="./img/mask1.png" class="parallax" data-zoom="50">
             <div class="title-container">
                 <h1 class="title">EYES WIDE SHUT</h1>
                 <h4 class="subtitle">a captivating subtitle</h4>
@@ -82,50 +82,15 @@
             </div>
             <div>
             </div>
-            <form action="#">
-                <label for="lang">Select a scene: </label>
-                <select name="scene" id="lang">
-                    <option value="s60">Scene 60</option>
-                    <option value="php">Scene</option>
-                    <option value="java">Scene</option>
-                    <option value="golang">Scene</option>
-                    <option value="python">Scene</option>
-                    <option value="c#">Scene</option>
-                    <option value="C++">Scene</option>
-                    <option value="erlang">Scene</option>
-                </select>
-                <input type="submit" value="Submit" />
+            <form class="select-scene" action="#">
+                <label>Select a scene: </label>
+                <select name="scene" id="scene-selector"></select>
+                <button id='before' type="button" onclick="selectBefore()">Before</button>
+                <button id='next' type="button" onclick="selectNext()">Next</button>
             </form>
             <div class="flex-container">
                 <div class="flex-item">
-                    <pre lang="xml">
-                        <div type="scene" n='60'>
-                            <p> The care-taker opened the outer door and <rs ref="#Fridolin" type="character"> Fridolin
-                                </rs> saw the mourning-coach standing opposite with the motionless driver on the box.
-                                <rs ref="#Nachtigall" type="character"> Nachtigall </rs> was just on the point of
-                                leaving the cafe, and seemed somewhat taken aback at seeing <rs ref="#Fridolin"
-                                    type="character"> Fridolin </rs> at hand so promptly. <said aloud="true"
-                                    direct="true" who="Nachtigall" toWhom="Fridolin"> "Then you did manage to get a
-                                    costume?" </said>
-                                <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "You can see for
-                                    yourself. What's the password?" </said>
-                                <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "You insist on
-                                    knowing it?" </said>
-                                <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "Absolutely."
-                                </said>
-                                <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "Well then—it's
-                                    Denmark." </said>
-                                <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "Are you mad,
-                                    Nachtigall?" </said>
-                                <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "Why mad?" </said>
-                                <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "Oh, never mind—I
-                                    was at the seashore in Denmark this summer. Get back into your carriage—but not too
-                                    fast, so that I'll have time to take a cab over on the other side." </said>
-                                <rs ref="#Nachtigall" type="character"> Nachtigall </rs> nodded and leisurely lighted a
-                                cigarette.
-                            </p>
-                        </div>
-                    </pre>
+                    <pre id="left-text" lang="xml"></pre>
                 </div>
                 <div class="flex-item flex-item-central">
                     <pre lang="xml">
@@ -696,12 +661,34 @@
         </div>
     </footer>
 </body>
-<script>  document.addEventListener("DOMContentLoaded", function () {
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
         const preElements = document.querySelectorAll("pre");
         preElements.forEach(function (preElement) {
             preElement.innerHTML = preElement.innerHTML.replace(/\s+/g, " ");
         });
-    });</script>
+    });
+
+    function selectBefore() {
+        var select = document.getElementById('scene-selector');
+        var newIndex = select.selectedIndex - 1;
+  
+        if (newIndex < 0) {
+            newIndex = select.options.length - 1;
+        }
+
+        select.selectedIndex = newIndex;
+        var event = new Event('change', { bubbles: true });
+        select.dispatchEvent(event);
+    }
+
+    function selectNext() {
+        var select = document.getElementById('scene-selector');
+        select.selectedIndex++;
+        var event = new Event('change', { bubbles: true });
+        select.dispatchEvent(event);
+    }
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     crossorigin="anonymous"></script>
 <script src="js/main.js"></script>

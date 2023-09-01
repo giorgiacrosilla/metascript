@@ -10,6 +10,7 @@ main {
     flex-direction: column;
 }
 
+
 h2, h3, .title, .subtitle {
   font-family: 'Futura Extra Bold', sans-serif;
 }

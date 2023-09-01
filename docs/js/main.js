@@ -16,8 +16,54 @@ function parallax() {
   });
 };
 
+function sceneSelector() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "../../Arthur Schnitzler - Dream Story (2003, Green Integer).xml", true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      var xmlDoc = xhr.responseXML;
+      var sceneElements = xmlDoc.querySelectorAll("div[type='scene']");
+      sceneElements.forEach(function (sceneElement) {
+        var option = document.createElement("option");
+        option.text = sceneElement.getAttribute("n");
+        option.value = sceneElement.getAttribute("n");
+        $('#scene-selector').append(option);
+      });
+      getSelectedScene();
+    }
+  }
+  xhr.send();
+};
+
+function fetchTextContent(selectedSceneNumber) {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "../../Arthur Schnitzler - Dream Story (2003, Green Integer).xml", true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      var xmlDoc = xhr.responseXML;
+      var scene = xmlDoc.querySelector(`div[type='scene'][n='${selectedSceneNumber}']`);
+      $('#left-text').empty().append(scene)
+      console.log(scene)
+    }
+  }
+  xhr.send();
+};
+
+function getSelectedScene() {
+  var selectedSceneNumber = $('#scene-selector').val()
+  fetchTextContent(selectedSceneNumber);
+  $('#scene-selector').change(function () {
+    selectedSceneNumber = $(this).val();
+    fetchTextContent(selectedSceneNumber);
+  });
+};
+
+
+
+
 
 $(document).ready(function() {
+  parallax();
+  sceneSelector();
 
-    parallax();
 });
