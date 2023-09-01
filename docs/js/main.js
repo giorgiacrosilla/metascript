@@ -37,7 +37,7 @@ function sceneSelector() {
 
 function fetchTextContent(selectedSceneNumber) {
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "../../Arthur Schnitzler - Dream Story (2003, Green Integer).xml", true);
+  xhr.open("GET", "./src/Arthur Schnitzler - Dream Story (2003, Green Integer).xml", true);
   xhr.onreadystatechange = function () {
     if (xhr.readyState == 4 && xhr.status == 200) {
       var xmlDoc = xhr.responseXML;
