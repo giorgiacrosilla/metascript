@@ -16,7 +16,7 @@
 </head>
 
 <body class="sb-nav-fixed">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="index.html">
             <h2>METASCRIPT</h2>
         </a>
@@ -43,9 +43,18 @@
                 <h4 class="subtitle">a captivating subtitle</h4>
             </div>
         </div>
+        <section class="project-introduction-section">
+            <div class="sectitle">
+                <h3>The project</h3>
+            </div>
+            <div class="project-introduction">
+                <p>This project Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium eius suscipit dolorum impedit consequatur, nihil vel eos est possimus obcaecati cum sapiente ullam beatae. Praesentium eligendi ullam similique recusandae excepturi?</p>
+            </div>
+
+        </section>
         <section class="film-introduction-section">
             <div class="sectitle">
-                <h3>Section title</h3>
+                <h3>Eyes Wide Shut</h3>
             </div>
             <div class="film-introduction">
                 <img src="./img/ews-poster.jpg" alt="The 'Eyes Wide Shut' movie poster.">
@@ -73,7 +82,18 @@
         </section>
         <section class="texts-introduction-section">
             <div class="sectitle">
-                <h3>Section title</h3>
+                <h3>The texts</h3>
+            </div>
+            <div class="cards-container">
+                <div class="card card-left">
+
+                </div>
+                <div class="card card-middle">
+
+                </div>
+                <div class="card card-right">
+
+                </div>
             </div>
         </section>
         <section class="comparison-section">
@@ -88,576 +108,22 @@
                 <button id='before' type="button" onclick="selectBefore()">Before</button>
                 <button id='next' type="button" onclick="selectNext()">Next</button>
             </form>
-            <div class="flex-container">
-                <div class="flex-item">
+            <div class="comparison-container">
+                <div class="comparison-item">
                     <pre id="left-text" lang="xml"></pre>
                 </div>
-                <div class="flex-item flex-item-central">
-                    <pre lang="xml">
-                        <div type="scene" n="60">
-
-                            <head type="scene_heading">
-                                <stage type="environment">INT.</stage>
-                                <stage type="primary_location">CAFE SONATA</stage>
-                                <stage type="time">NIGHT</stage>
-                            </head>
-                            <stage type="setting">BILL walks down the stairs of the club. We hear live music as BILL is
-                                greeted by the MAITRE D'.</stage>
-                            <sp who="MAITRE D'" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>MAITRE D'</speaker>
-                                <p>Good evening, sir. Would you like a table or would you like to sit at the bar? </p>
-                            </sp>
-                            <sp who="BILL" toWhom="MAITRE D'">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>I'd like a table.</p>
-                            </sp>
-                            <sp who="MAITRE D'" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>MAITRE D'</speaker>
-                                <p>Please, follow me. Can I take your coat?</p>
-                            </sp>
-                            <stage type="setting">As BILL is taken to his table we see his friend, NICK, playing piano
-                                on stage with a jazz trio.</stage>
-                            <sp who="BILL" toWhom="MAITRE D'">
-                                <timeline xml:id="SUB1101">
-                                    <when xml:id="line_start" absolute="02:05:10.302" />
-                                    <when xml:id="line_end" absolute="02:05:11.470" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <stage type="delivery">(to Maitre D')</stage>
-                                <p>Thank you.</p>
-                            </sp>
-                            <sp who="MAITRE D'" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>MAITRE D'</speaker>
-                                <p>Can I get you anything to drink?</p>
-                            </sp>
-                            <sp who="BILL" toWhom="MAITRE D'">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>I'd like a beer.</p>
-                            </sp>
-                            <sp who="MAITRE D'" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>MAITRE D'</speaker>
-                                <p>Certainly.</p>
-                            </sp>
-                            <stage type="setting">BILL watches the group as it finishes its final number. Then NICK
-                                quickly gets the band into the fast closing theme to cover his introductions to the
-                                musicians and his thanks to the audience.</stage>
-                            <sp who="NICK" toWhom="AUDIENCE">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Hope you enjoyed the music tonight. We're going to be here for the next two weeks.
-                                    So, please, do stop by. I'm Nick Nightingale. Good night.</p>
-                            </sp>
-                            <stage type="setting">NICK leaves the stage and walks through the club.</stage>
-                            <sp who="VOICE FROM AUDIENCE" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>VOICE FROM AUDIENCE</speaker>
-                                <p>Nick, that was great!</p>
-                            </sp>
-                            <sp who="NICK" toWhom="VOICE FROM AUDIENCE">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Oh, thanks.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Nightingale!</p>
-                            </sp>
-                            <stage type="setting">NICK sees BILL and goes over to him.</stage>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Hey, Bill! You made it.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Yeah, listen, I'm sorry. I got here just as you were finishing your last set.</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>That's all right, the band sucked tonight anyway.</p>
-                            </sp>
-                            <stage type="setting">The MAITRE D' brings BILL his beer.</stage>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <stage type="delivery">(to Nick)</stage>
-                                <p>What are you drinking?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="MAITRE D'">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>A vodka and tonic, please.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="MAITRE D'">
-                                <timeline xml:id="SUB1101">
-                                    <when xml:id="line_start" absolute="02:05:10.302" />
-                                    <when xml:id="line_end" absolute="02:05:11.470" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Thank you.</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB597">
-                                    <when xml:id="line_start" absolute="00:57:17.521" />
-                                    <when xml:id="line_end" absolute="00:57:19.815" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>So what brings you out at this hour?</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>I have a patient in the neighbourhood.</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Do you live in the Village?</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB599">
-                                    <when xml:id="line_start" absolute="00:57:23.402" />
-                                    <when xml:id="line_end" absolute="00:57:26.321" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>No, we have an apartment on Central Park West.</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Are you married?</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB601">
-                                    <when xml:id="line_start" absolute="00:57:28.574" />
-                                    <when xml:id="line_end" absolute="00:57:29.950" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Nine years.</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Do you have any kids?</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Yes, we have a seven-year-old daughter. How about you?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>I've got a wife and four boys in Seattle.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB605">
-                                    <when xml:id="line_start" absolute="00:57:37.624" />
-                                    <when xml:id="line_end" absolute="00:57:39.001" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>You're a long way from home.</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Yeah, well, you've gotta go where the work is.</p>
-                            </sp>
-                            <stage type="setting">The MAITRE D' brings NICK his drink.</stage>
-                            <sp who="NICK" toWhom="MAITRE D'">
-                                <timeline xml:id="SUB1101">
-                                    <when xml:id="line_start" absolute="02:05:10.302" />
-                                    <when xml:id="line_end" absolute="02:05:11.470" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Thank you.</p>
-                            </sp>
-                            <stage type="setting">They touch glasses then drink.</stage>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>So, is this your band?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>No, this is just a pick-up band.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Who do you normally play with?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Anybody, anywhere. As a matter of fact I got another gig later tonight.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>You're playing somewhere else tonight?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Mmm.... they only get started there around two.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB613">
-                                    <when xml:id="line_start" absolute="00:58:04.276" />
-                                    <when xml:id="line_end" absolute="00:58:05.486" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>In the Village?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Believe it or not, I don't actually know the address yet.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB615">
-                                    <when xml:id="line_start" absolute="00:58:11.533" />
-                                    <when xml:id="line_end" absolute="00:58:12.576" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>You don't?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>No. It may sound ridiculous, but it's in a different place every time and I only get
-                                    it an hour or so before.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Different place every time?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>So far.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB619">
-                                    <when xml:id="line_start" absolute="00:58:25.005" />
-                                    <when xml:id="line_end" absolute="00:58:26.215" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>What's the big mystery?</p>
-                            </sp>
-                            <stage type="setting">NICK dangles his hands in front of BILL's face.</stage>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Hey, man! I just play the piano.</p>
-                            </sp>
-                            <stage type="setting">They start to giggle nervously.</stage>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Nick, I'm sorry. Is there something I'm missing here?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB624">
-                                    <when xml:id="line_start" absolute="00:58:47.236" />
-                                    <when xml:id="line_end" absolute="00:58:49.822" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>I play blindfolded.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB623">
-                                    <when xml:id="line_start" absolute="00:58:44.233" />
-                                    <when xml:id="line_end" absolute="00:58:45.400" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>What?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Yeah, I play blindfolded.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>You're putting me on?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>No, it's the truth. And the last time, the blindfold wasn't on so well ... man ...
-                                    Bill, I have seen one or two things in my life but never, never anything like this
-                                    ... and never such women.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Well?</p>
-                            </sp>
-                            <stage type="setting">NICK's mobile phone rings. He takes it out of his pocket.</stage>
-                            <sp who="NICK" toWhom="BILL, PERSON AT THE PHONE">
-                                <timeline xml:id="SUB934">
-                                    <when xml:id="line_start" absolute="01:41:42.478" />
-                                    <when xml:id="line_end" absolute="01:41:43.395" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <stage type="delivery">(to Bill)</stage>
-                                <stage type="delivery">(speaking into phone)</stage>
-                                <p>Excuse me.</p>
-                                <p>Hello? Yes, sir. Yes, sir. This is Nick. Uh-huh, I know where that is.</p>
-                            </sp>
-                            <stage type="setting">NICK takes a pen from his pocket and starts to write on a paper
-                                napkin. He finds it difficult so BILL reaches across and holds the napkin. NICK writes
-                                on it the word "FIDELIO"</stage>
-                            <sp who="NICK" toWhom="PERSON AT THE PHONE">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Uh-huh .. .. right. OK. Well, I'm on my way right now. OK, sir. Thank you. Bye-bye.
-                                </p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB730">
-                                    <when xml:id="line_start" absolute="01:06:59.102" />
-                                    <when xml:id="line_end" absolute="01:07:01.063" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>What is this?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB640">
-                                    <when xml:id="line_start" absolute="01:00:10.736" />
-                                    <when xml:id="line_end" absolute="01:00:13.363" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>It's the name of a Beethoven opera, isn't it?</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Nick....</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB641">
-                                    <when xml:id="line_start" absolute="01:00:18.160" />
-                                    <when xml:id="line_end" absolute="01:00:19.828" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>It's the password.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB642">
-                                    <when xml:id="line_start" absolute="01:00:20.579" />
-                                    <when xml:id="line_end" absolute="01:00:22.080" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>The password?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Yeah, like I'm ... I'm really sorry to do this to you, Bill. I mean, I ... I gotta
-                                    get going. I gotta ... I gotta go.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Nick, you know there is no way on earth that you are going to leave here tonight
-                                    without taking me with you.</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Come on, buddy, give me a break.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Nick, I'll tell you what. I've already got the password. Just give me the address and
-                                    I'll go there by myself and there won't be any connection between us whatsoever.</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Listen, let's just say for one second that I was prepared to do that. You couldn't
-                                    get in anyway in those clothes.</p>
-                            </sp>
-                            <sp who="BILL" toWhom="NICK">
-                                <timeline xml:id="SUB1139">
-                                    <when xml:id="line_start" absolute="02:11:42.069" />
-                                    <when xml:id="line_end" absolute="02:11:43.070" />
-                                </timeline>
-                                <speaker>BILL</speaker>
-                                <p>Why not?</p>
-                            </sp>
-                            <sp who="NICK" toWhom="BILL">
-                                <timeline xml:id="SUB">
-                                    <when xml:id="line_start" absolute="" />
-                                    <when xml:id="line_end" absolute="" />
-                                </timeline>
-                                <speaker>NICK</speaker>
-                                <p>Because everyone is always costumed and masked, and where the hell are you gonna get
-                                    a costume at this hour of the morning?</p>
-                            </sp>
-                        </div>
-                    </pre>
+                <div class="comparison-item comparison-item-central">
+                    <pre id="central-text" lang="xml"></pre>
                 </div>
-                <div class="flex-item">
-                    <p>ciao</p>
+                <div class="comparison-item">
+                    <pre id="right-text" lang="xml"></pre>
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div>
-            <p>©UNIBO 2023</p>
+            <h5>©UNIBO 2023</h5>
         </div>
     </footer>
 </body>

@@ -152,7 +152,7 @@ nav a {
   z-index: 1;
 }
 
-.flex-container {
+.comparison-container {
   display: flex;
   justify-content: space-around;
 }
@@ -184,7 +184,7 @@ pre {
 #space {
   overflow: hidden;
   /* Hide overflow to prevent scrollbars */
-  height: 45vw;
+  height: 90vh;
   /* Set a fixed height for the container */
   position: relative;
 }
@@ -9359,7 +9359,7 @@ fieldset:disabled .btn {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #060b0f;
 }
 
 .bg-black {
