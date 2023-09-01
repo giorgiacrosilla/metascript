@@ -22,7 +22,7 @@ function sceneSelector() {
   xhr.onreadystatechange = function () {
     if (xhr.readyState == 4 && xhr.status == 200) {
       var xmlDoc = xhr.responseXML;
-      var sceneElements = xmlDoc.querySelectorAll("div[type='scene']");
+      var sceneElements = xmlDoc.querySelectorAll("div[type='scene']:not([n='none'])");
       sceneElements.forEach(function (sceneElement) {
         var option = document.createElement("option");
         option.text = sceneElement.getAttribute("n");
