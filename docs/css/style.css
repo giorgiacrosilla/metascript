@@ -190,3 +190,24 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+/* analysis page */
+
+.spatial {
+    background-color: var(--verdino);
+}
+
+.network {
+    background-color: var(--giallino);
+}
+
+.time {
+    background-color: white;
+}
+
+.spatial > h3, .network > h3, .time > h3 {
+    text-decoration: underline var(--violetto);
+    font-size: 2rem;
+    color: #060b0f;
+    margin-bottom: 2rem;
+}
