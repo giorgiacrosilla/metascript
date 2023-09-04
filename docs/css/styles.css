@@ -162,9 +162,10 @@ nav a {
   display: flex;
 }
 
-iframe, .bk-root {
+iframe, .bk {
   flex: 1;
-  width: min-content;
+  width: 400px;
+  height: 400px;
 }
 
 .text {
