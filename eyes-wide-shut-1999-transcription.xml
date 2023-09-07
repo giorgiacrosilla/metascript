@@ -32,6 +32,103 @@
             <langUsage>
                 <language ident="en">English</language>
             </langUsage>
+            <settingDesc>
+                <listPlace>
+                    <place xml:id="ap" type="building">
+                        <placeName>Central Park West Apartment</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.78125249359862, -73.97242147116353</geo>
+                        </location>
+                    </place>
+                    <place xml:id="rockefeller" type="building">
+                        <placeName
+                            ref="https://www.geonames.org/5134209/rockefeller-center.html">Rockefeller
+                            Center</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.75887832552362, -73.97873797769469</geo>
+                        </location>
+                    </place>
+                    <place xml:id="fifthav" type="street">
+                        <placeName>5th Avenue</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.774601441653054, -73.9656606200207</geo>
+                        </location>
+                    </place>
+                    <place xml:id="greenwich" type="neighborhood">
+                        <placeName>Greenwich Village</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.4401, -74.0010</geo>
+                        </location>
+                    </place>
+                    <place xml:id="newjersey" type="state">
+                        <placeName ref='https://www.geonames.org/5101760/new-jersey.html'>New
+                            Jersey</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="capecod" type="cape">
+                        <placeName>Cape Cod</placeName>
+                        <location>
+                            <country>USA</country>
+                            <geo>41.6862, -70.24308</geo>
+                        </location>
+                    </place>
+                    <place xml:id="sonatacafe" type="building">
+                        <placeName>Sonata Café</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="longisland" type="island">
+                        <placeName ref="https://www.geonames.org/5125123/long-island.html">Long
+                            Island</placeName>
+                        <location>
+                            <country>USA</country>
+                            <geo>40.81677, -73.06622</geo>
+                        </location>
+                    </place>
+                    <place xml:id="hoteljason" type="building">
+                        <placeName>Hotel Jason</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="bridge" type="bridge">
+                        <placeName
+                            ref="https://www.geonames.org/5133274/ed-koch-queensboro-bridge.html">59th
+                            Street Bridge</placeName>
+                        <location>
+                            <settlement type="city">New York</settlement>
+                            <country>USA</country>
+                            <geo>40.75769292828671, -73.9547551</geo>
+                        </location>
+                    </place>
+                    <place xml:id="Connecticut" type="state">
+                        <placeName ref="https://www.geonames.org/4831725/connecticut.html">
+                            Connecticut</placeName>
+                        <location>
+                            <country>USA</country>
+                        </location>
+                    </place>
+                    <place xml:id="seattle" type="city">
+                        <placeName ref="https://www.geonames.org/7174408/city-of-seattle.html">
+                            Seattle</placeName>
+                        <location>
+                            <country>USA</country>
+                            <geo>47.60977888341013, -122.3311472912249</geo>
+                        </location>
+                    </place>
+                </listPlace>
+            </settingDesc>
             <particDesc>
                 <listPerson>
                     <person xml:id="ALICE">
@@ -169,6 +266,114 @@
     </teiHeader>
     <text>
         <front>
+            <castList>
+                <castItem>
+                    <role xml:id="alice">Alice Harford</role>
+                    <roleDesc>Bill's wife</roleDesc>
+                    <actor ref='https://www.imdb.com/name/nm0000173/'>Nicole Kidman</actor>
+                </castItem>
+                <castItem>
+                    <role xml:id="bill">Dr. William Harford, Bill</role>
+                    <roleDesc>Doctor, Alice's husband</roleDesc>
+                    <actor ref='https://www.imdb.com/name/nm0000129/'>Tom Cruise</actor>
+                </castItem>
+                <castItem>
+                    <role>Helena Harford</role>
+                    <actor ref='https://www.imdb.com/name/nm0251036/'>Madison Eginton</actor>
+                </castItem>
+                <castItem>
+                    <role>Roz</role>
+                    <actor ref='https://www.imdb.com/name/nm0768113/'>Jackie Sawiris</actor>
+                </castItem>
+                <castItem>
+                    <role>Victor Ziegler</role>
+                    <actor ref='https://www.imdb.com/name/nm0001628/'>Sydney Pollack</actor>
+                </castItem>
+                <castItem>
+                    <role>Illona</role>
+                    <actor ref='https://www.imdb.com/name/nm0522992/'>Leslie Lowe</actor>
+                </castItem>
+                <castItem>
+                    <role>Bandleader</role>
+                    <actor ref='https://www.imdb.com/name/nm0072613/'>Peter Hans Benson</actor>
+                </castItem>
+                <castItem>
+                    <role>Nick Nightingale</role>
+                    <actor ref='https://www.imdb.com/name/nm0276062/'>Todd Field</actor>
+                </castItem>
+                <castItem>
+                    <role>Ziegler's Secretary</role>
+                    <actor ref='https://www.imdb.com/name/nm0006440/'>Michael Doven</actor>
+                </castItem>
+                <castItem>
+                    <role>Sandor Szavost</role>
+                    <actor ref='https://www.imdb.com/name/nm0241694/'>Sky du Mont</actor>
+                </castItem>
+                <castItem>
+                    <role>Gayle</role>
+                    <actor ref='https://www.imdb.com/name/nm0852801/'>Louise J. Taylor</actor>
+                </castItem>
+                <castItem>
+                    <role>Nuala</role>
+                    <actor ref='https://www.imdb.com/name/nm0861344/'>Stewart Thorndike</actor>
+                </castItem>
+                <castItem>
+                    <role>Harris</role>
+                    <actor ref='https://www.imdb.com/name/nm0666955/'>Randall Paul</actor>
+                </castItem>
+                <castItem>
+                    <role>Mandy</role>
+                    <actor ref='https://www.imdb.com/name/nm0204924/'>Julienne Davis</actor>
+                </castItem>
+                <castItem>
+                    <role>Lisa</role>
+                    <actor ref='https://www.imdb.com/name/nm0502900/'>Lisa Leone</actor>
+                </castItem>
+                <castItem>
+                    <role>Lou Nathanson</role>
+                    <actor ref='https://www.imdb.com/name/nm0174941/'>Kevin Connealy</actor>
+                </castItem>
+                <castItem>
+                    <role>Marion</role>
+                    <actor ref='https://www.imdb.com/name/nm0724688/'>Marie Richardson</actor>
+                </castItem>
+                <castItem>
+                    <role>Carl</role>
+                    <actor ref='https://www.imdb.com/name/nm0004959/'>Thomas Gibson</actor>
+                </castItem>
+                <castItem>
+                    <role>Rosa</role>
+                    <actor ref='https://www.imdb.com/name/nm0381984/'>Mariana Hewett</actor>
+                </castItem>
+                <castItem>
+                    <role>Domino</role>
+                    <actor ref='https://www.imdb.com/name/nm0005416/'>Vinessa Shaw</actor>
+                </castItem>
+                <castItem>
+                    <role>Milich</role>
+                    <actor ref='https://www.imdb.com/name/nm0784884/'>Rade Serbedzija</actor>
+                </castItem>
+                <castItem>
+                    <role>Mysterious Woman / Masked Party Principal</role>
+                    <actor ref='https://www.imdb.com/name/nm0328661/'>Abigail Good</actor>
+                </castItem>
+                <castItem>
+                    <role>Red Cloak</role>
+                    <actor ref='https://www.imdb.com/name/nm0899920/'>Leon Vitali</actor>
+                </castItem>
+                <castItem>
+                    <role>Tall Butler</role>
+                    <actor ref='https://www.imdb.com/name/nm0176929/'>Brian W. Cook</actor>
+                </castItem>
+                <castItem>
+                    <role>Sally</role>
+                    <actor ref='https://www.imdb.com/name/nm0557739/'>Fay Masterson</actor>
+                </castItem>
+                <castItem>
+                    <role>Stalker</role>
+                    <actor ref='https://www.imdb.com/name/nm1765910/'>Phil Davies</actor>
+                </castItem>
+            </castList>
             <titlePage>
                 <docTitle>
                     <titlePart type="main">
