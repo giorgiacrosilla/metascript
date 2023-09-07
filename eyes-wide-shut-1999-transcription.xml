@@ -722,7 +722,7 @@
                 </head>
                 <stage type="setting">The walls are draped with the "curtain of light" illuminations
                     seen in the corridor. There is a stage and upon it is the small orchestra
-                    playi,ng ballroom music. The guests dance on the crowded floor. BILL and ALICE
+                    playing ballroom music. The guests dance on the crowded floor. BILL and ALICE
                     dance together.</stage>
                 <sp who="ALICE" toWhom="BILL">
                     <timeline xml:id="SUB44">
@@ -1624,7 +1624,7 @@
                     <stage type="time">NIGHT</stage>
                 </head>
                 <stage type="setting">SZAVOST and ALICE are still dancing. ALICE is quite
-                    intoxi,cated by both SZAVOSTand the champagne.</stage>
+                    intoxi,cated by both SZAVOST and the champagne.</stage>
                 <sp who="SZAVOST" toWhom="ALICE">
                     <timeline xml:id="SUB184">
                         <when xml:id="line_start" absolute="00:14:50.224" />
