@@ -116,7 +116,9 @@ nav a {
   margin-left: 20px;
   font-weight: bold;
 }
-
+.spatial, .network, .time {
+  padding:3%;
+}
 /* #write {
   position: absolute;
   margin-left: -20cm;
