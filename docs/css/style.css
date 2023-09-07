@@ -131,8 +131,10 @@ p {
     transition: 0.3s;
 }
 
-.card:hover {
-
+.card > img {
+    height: 70%;
+    width: min-content;
+    margin: auto;
 }
 
 /* comparison section */

@@ -111,10 +111,15 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 nav a {
   margin-left: 20px;
   font-weight: bold;
+}
+
+
+
+.spatial, .network, .time {
+  padding:3%;
 }
 
 /* #write {
