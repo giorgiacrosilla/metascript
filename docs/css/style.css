@@ -203,14 +203,17 @@ footer {
 
 .spatial {
     background-color: var(--verdino);
+    padding:3%
 }
 
 .network {
     background-color: var(--giallino);
+    padding:3%;
 }
 
 .time {
     background-color: white;
+    padding:3%;
 }
 
 .spatial > h3, .network > h3, .time > h3 {
