@@ -311,6 +311,14 @@
                 </listPerson>
             </particDesc>
         </profileDesc>
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fabio="http://purl.org/spar/fabio/">
+                <rdf:Description rdf:about="">
+                    <dc:title>Dream Story</dc:title>
+                    <dc:creator>Arthur Schnitzler</dc:creator>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
