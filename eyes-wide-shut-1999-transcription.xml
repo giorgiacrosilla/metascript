@@ -4,28 +4,47 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-                    Eyes Wide Shut
-                </title>
+                <title type="main">Eyes Wide Shut</title>
                 <author>Stanley Kubrick</author>
                 <author>Frederic Raphael</author>
             </titleStmt>
+            <extent>
+                <measure unit="pages" quantity="281"> 281 pages </measure>
+            </extent>
             <publicationStmt>
-                <publisher>ScriptSlug</publisher>
-                <availability>
-                    <licence>This script is posted under the fair use for educational purposes only.</licence>
-                </availability>
-                <ref target="https://www.scriptslug.com/script/eyes-wide-shut-1999" />
+                <publisher>Grand Central Pub</publisher>
+                <pubPlace> New York </pubPlace>
+                <date when="1999">1 October 1999</date>
+                <idno type="ISBN-10"> 0446676322 </idno>
+                <idno type="ISBN-13"> 978-0446676328 </idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
-                    <title>Eyes Wide Shut: A Screenplay</title>
-                    <author>Stanley Kubrick</author>
-                    <author>Frederic Raphael</author>
-                    <publisher>Warner Books</publisher>
-                    <date>1999</date>
-                    <idno type="ISBN">0446676322</idno>
-                </bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title>Eyes Wide Shut</title>
+                        <author>Stanley Kubrick </author>
+                        <author>Frederic Raphael </author>
+                        <editor>Erica Andreose</editor>
+                        <editor>Giorgia Crosilla</editor>
+                        <editor>Leonardo Zilli</editor>
+                        <respStmt>
+                            <resp>Edited for Metascript Project and encoded by</resp>
+                            <name>Erica Andreose</name>
+                            <name>Giorgia Crosilla</name>
+                            <name>Leonardo Zilli</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Metascript</publisher>
+                        <address>
+                            <addrLine>https://giorgiacrosilla.github.io/metascript/</addrLine>
+                        </address>
+                        <availability>
+                            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Distributed
+                                under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</licence>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
         <profileDesc>

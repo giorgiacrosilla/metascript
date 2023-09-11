@@ -4,9 +4,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title type="main">
-                    Eyes Wide Shut
-                </title>
+                <title type="main">Eyes Wide Shut</title>
                 <author>Stanley Kubrick</author>
                 <author>Frederic Raphael</author>
             </titleStmt>
@@ -16,18 +14,42 @@
                 <availability status="restricted">
                     <licence>Copyright ©1996,1999 Stanley Kubrick &amp; Frederic Raphael, All Rights
                         Reserved</licence>
+                <p>It's a draft, not published.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
-                <bibl>
-                    <distributor>ScreenTalk.org</distributor>
-                </bibl>
+                <biblFull>
+                    <titleStmt>
+                        <title>Eyes Wide Shut</title>
+                        <author>Stanley Kubrick </author>
+                        <author>Frederic Raphael </author>
+                        <editor>Erica Andreose</editor>
+                        <editor>Giorgia Crosilla</editor>
+                        <editor>Leonardo Zilli</editor>
+                        <respStmt>
+                            <resp>Edited for Metascript Project and encoded by</resp>
+                            <name>Erica Andreose</name>
+                            <name>Giorgia Crosilla</name>
+                            <name>Leonardo Zilli</name>
+                        </respStmt>
+                    </titleStmt>
+                    <publicationStmt>
+                        <publisher>Metascript</publisher>
+                        <address>
+                            <addrLine>https://giorgiacrosilla.github.io/metascript/</addrLine>
+                        </address>
+                        <availability>
+                            <licence target="https://creativecommons.org/publicdomain/zero/1.0/">Distributed
+                                under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication</licence>
+                        </availability>
+                    </publicationStmt>
+                </biblFull>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
             <creation>
-                <date>1996-04-08</date>
-            </creation>
+                <date>1996</date>
+               </creation>
             <langUsage>
                 <language ident="en">English</language>
             </langUsage>
