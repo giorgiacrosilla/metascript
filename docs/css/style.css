@@ -236,6 +236,9 @@ footer {
     color: black;
 }
 
+.bk {
+}
+
 .time {
     background-color: white;
     padding:3%;
@@ -248,6 +251,7 @@ footer {
     color: #060b0f;
     margin-bottom: 2rem;
 }
+
 
 
 /* documentation */

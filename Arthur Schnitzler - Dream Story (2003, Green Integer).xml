@@ -335,10 +335,19 @@
             </particDesc>
         </profileDesc>
         <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fabio="http://purl.org/spar/fabio/">
+            <rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:frbr="http://purl.org/vocab/frbr/core#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fabio="http://purl.org/spar/fabio/">
                 <rdf:Description rdf:about="">
+                    <owl:sameAs rdf:resource="https://viaf.org/viaf/183449849/" /> 
+                    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation" />
                     <dc:title>Dream Story</dc:title>
-                    <dc:creator>Arthur Schnitzler</dc:creator>
+                    <dc:creator rdf:resoucer="https://viaf.org/viaf/82526567/">Arthur Schnitzler</dc:creator>
+                    <bibo:translator rdf:resource="https://viaf.org/viaf/277043376/" /> <!-- da chiedere --> 
+                    <dcterms:publisher rdf:resource="https://dbpedia.org/page/Green_Integer"></dcterms:publisher>
+                    <dcterms:gYear>2003</dcterms:gYear>
+                    <fabio:hasPageCount>143</fabio:hasPageCount>
+                    <frbr:translationOf rdf:resource="https://viaf.org/viaf/185456578/"></frbr:translationOf>
+                    <dcterms:hasIdentifier>1931243484</dcterms:hasIdentifier>
+                    <dcterms:hasIdentifier>9781931243483</dcterms:hasIdentifier>
                 </rdf:Description>
             </rdf:RDF>
         </xenoData>

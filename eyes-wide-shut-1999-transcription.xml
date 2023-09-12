@@ -8,9 +8,6 @@
                 <author>Stanley Kubrick</author>
                 <author>Frederic Raphael</author>
             </titleStmt>
-            <extent>
-                <measure unit="pages" quantity="281"> 281 pages </measure>
-            </extent>
             <publicationStmt>
                 <publisher>Grand Central Pub</publisher>
                 <pubPlace> New York </pubPlace>
@@ -282,6 +279,22 @@
                 </listPerson>
             </particDesc>
         </profileDesc>
+        <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rico="https://www.ica.org/standards/RiC/ontology#" xmlns:frbr="http://purl.org/vocab/frbr/core#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fabio="http://purl.org/spar/fabio/">
+                <rdf:Description rdf:about="">
+                    <owl:sameAs rdf:resource="https://worldcat.org/title/797726240" /> 
+                    <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation" />
+                    <dc:title>Eyes Wide Shut</dc:title>
+                    <dc:creator rdf:resoucer="https://viaf.org/viaf/14772018/">Stanley Kubrick</dc:creator>
+                    <dc:creator rdf:resoucer="http://viaf.org/viaf/24643548">Frederic Raphael</dc:creator>
+                    <dcterms:date>1999-10-01</dcterms:date>
+                    <rico:hasDraft rdf:resource="http://www.archiviokubrick.it/opere/film/ews/script/ews-script.html"></rico:hasDraft>
+                    <dcterms:publisher rdf:resource="http://viaf.org/viaf/311379728"></dcterms:publisher>
+                    <dcterms:hasIdentifier>0446676322</dcterms:hasIdentifier>
+                    <dcterms:hasIdentifier>978-0446676328</dcterms:hasIdentifier>
+                </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
     </teiHeader>
     <text>
         <front>
