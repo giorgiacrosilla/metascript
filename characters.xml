@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="lists">
+                <!-- Elenco dei personaggi / rese tra i 3 documenti  -->
+                <listPerson xml:id="book">
+                    <person xml:id="Fridolin" sex="MALE">
+                        <persName> Fridolin </persName>
+                    </person>
+                    <person xml:id="Albertina" sex="FEMALE">
+                        <persName> Albertina </persName>
+                    </person>
+                    <person xml:id="STRANGER" sex="MALE">
+                        <persName> A stranger </persName>
+                    </person>
+                    <person xml:id="TWOW" sex="FEMALE">
+                        <persName> Two women in red dominoes </persName>
+                    </person>
+                    <person xml:id="daughter" sex="FEMALE">
+                    </person>
+                    <person xml:id="governess" sex="FEMALE">
+                        <persName> Governess </persName>
+                    </person>
+                    <person xml:id="younggirl" sex="FEMALE">
+                        <persName> Young girl </persName>
+                    </person>
+                    <person xml:id="councilor" sex="MALE">
+                        <persName> councilor </persName>
+                    </person>
+                    <person xml:id="Marianne" sex="FEMALE">
+                        <persName> Marianne </persName>
+                    </person>
+                    <person xml:id="Roediger" sex="MALE">
+                        <persName> Doctor Roediger </persName>
+                    </person>
+                    <person xml:id="Fuchstaler" sex="MALE">
+                        <persName> Doctor Fuchstaler </persName>
+                    </person>
+                    <person xml:id="Adler" sex="MALE">
+                        <persName> Doctor Adler </persName>
+                    </person>
+                    <person xml:id="Mizzi" sex="FEMALE">
+                        <persName> Mizzi </persName>
+                    </person>
+                    <person xml:id="Nachtigall" sex="MALE">
+                        <persName> Herr Nachtigall </persName>
+                    </person>
+                    <person xml:id="Gibiser" sex="MALE">
+                        <persName> Herr Gibiser </persName>
+                    </person>
+                    <person xml:id="Pierette" sex="FEMALE">
+                        <persName> Pierrette </persName>
+                    </person>
+                    <person xml:id="TWOServants" sex="MALE">
+                        <persName> two servants </persName>
+                    </person>
+                    <person xml:id="woman" sex="FEMALE">
+                        <persName> woman </persName>
+                    </person>
+                    <person xml:id="cavalier" sex="MALE">
+                        <persName> cavalier in black </persName>
+                    </person>
+                    <person xml:id="YellowGentlemen" sex="MALE">
+                        <persName> gentleman in yellow </persName>
+                    </person>
+                    <person xml:id="RedCavalier" sex="MALE">
+                        <persName> cavalier in red </persName>
+                    </person>
+                    <person xml:id="nun" sex="FEMALE">
+                        <persName> nun </persName>
+                    </person>
+                    <person xml:id="FridolinMother" sex="FEMALE">
+                        <persName> mother </persName>
+                        <note> Fridolin's mother </note>
+                    </person>
+                    <person xml:id="Baroness" sex="FEMALE">
+                        <persName> Baroness Dubieski </persName>
+                    </person>
+                </listPerson>
+                <listPerson xml:id="draft">
+                    <person xml:id="YOUNGGIRL">
+                        <persName>YOUNG GIRL</persName>
+                    </person>
+                    <person xml:id="ELEGANTMAN">
+                        <persName>ELEGANT MAN</persName>
+                    </person>
+                    <person xml:id="NUALA">
+                        <persName>NUALA</persName>
+                    </person>
+                    <person xml:id="ORDERLY">
+                        <persName>ORDERLY</persName>
+                    </person>
+                    <person xml:id="SZABO">
+                        <persName>SZABO</persName>
+                    </person>
+                    <person xml:id="THEWOMAN">
+                        <persName>THE WOMAN</persName>
+                    </person>
+                    <person xml:id="SERVANT1">
+                        <persName>SERVANT 1</persName>
+                    </person>
+                    <person xml:id="HARRIS">
+                        <persName>HARRIS</persName>
+                    </person>
+                    <person xml:id="ARTYWOMAN">
+                        <persName>ARTY WOMAN</persName>
+                    </person>
+                    <person xml:id="DRIVER">
+                        <persName>DRIVER</persName>
+                    </person>
+                    <person xml:id="BILL">
+                        <persName>BILL</persName>
+                    </person>
+                    <person xml:id="SERVANTS">
+                        <persName>SERVANTS</persName>
+                    </person>
+                    <person xml:id="GIBSON">
+                        <persName>GIBSON</persName>
+                    </person>
+                    <person xml:id="MARION">
+                        <persName>MARION</persName>
+                    </person>
+                    <person xml:id="CARL">
+                        <persName>CARL</persName>
+                    </person>
+                    <person xml:id="DOMINO">
+                        <persName>DOMINO</persName>
+                    </person>
+                    <person xml:id="TALLMAN">
+                        <persName>TALL MAN</persName>
+                    </person>
+                    <person xml:id="DESKCLERK">
+                        <persName>DESK CLERK</persName>
+                    </person>
+                    <person xml:id="DOORMAN">
+                        <persName>DOORMAN</persName>
+                    </person>
+                    <person xml:id="CABDRIVER">
+                        <persName>CAB DRIVER</persName>
+                    </person>
+                    <person xml:id="GATEMAN1">
+                        <persName>GATEMAN 1</persName>
+                    </person>
+                    <person xml:id="ALICE">
+                        <persName>ALICE</persName>
+                    </person>
+                    <person xml:id="NICK">
+                        <persName>NICK</persName>
+                    </person>
+                    <person xml:id="V.O.">
+                        <persName>V.O.</persName>
+                    </person>
+                    <person xml:id="KIMONO2">
+                        <persName>KIMONO2</persName>
+                    </person>
+                    <person xml:id="MANAGERESS">
+                        <persName>MANAGERESS</persName>
+                    </person>
+                    <person xml:id="BABY-SITTER">
+                        <persName>BABY-SITTER</persName>
+                    </person>
+                    <person xml:id="CLEANINGLADY">
+                        <persName>CLEANING LADY</persName>
+                    </person>
+                    <person xml:id="ANOTHERWOMAN">
+                        <persName>ANOTHER WOMAN</persName>
+                    </person>
+                    <person xml:id="SALLY">
+                        <persName>SALLY</persName>
+                    </person>
+                    <person xml:id="KIMONO1">
+                        <persName>KIMONO1</persName>
+                    </person>
+                    <person xml:id="WAITRESS">
+                        <persName>WAITRESS</persName>
+                    </person>
+                    <person xml:id="HELENA">
+                        <persName>HELENA</persName>
+                    </person>
+                    <person xml:id="GAYLE">
+                        <persName>GAYLE</persName>
+                    </person>
+                    <person xml:id="ZIEGLER">
+                        <persName>ZIEGLER</persName>
+                    </person>
+                    <person xml:id="CLERK">
+                        <persName>CLERK</persName>
+                    </person>
+                </listPerson>
+                <listPerson xml:id="transcription">
+                    <person xml:id="ALICE">
+                        <persName>ALICE</persName>
+                    </person>
+                    <person xml:id="BANDLEADER">
+                        <persName>BANDLEADER</persName>
+                    </person>
+                    <person xml:id="BILL">
+                        <persName>BILL</persName>
+                    </person>
+                    <person xml:id="BOY">
+                        <persName>BOY</persName>
+                    </person>
+                    <person xml:id="CABDRIVER">
+                        <persName>CAB DRIVER</persName>
+                    </person>
+                    <person xml:id="CARL">
+                        <persName>CARL</persName>
+                    </person>
+                    <person xml:id="CLERK">
+                        <persName>CLERK</persName>
+                    </person>
+                    <person xml:id="DAUGHTER">
+                        <persName>DAUGHTER</persName>
+                    </person>
+                    <person xml:id="DOMINO">
+                        <persName>DOMINO</persName>
+                    </person>
+                    <person xml:id="DRIVER">
+                        <persName>DRIVER</persName>
+                    </person>
+                    <person xml:id="GATEMAN1">
+                        <persName>GATEMAN 1</persName>
+                    </person>
+                    <person xml:id="GAYLE">
+                        <persName>GAYLE</persName>
+                    </person>
+                    <person xml:id="HARRIS">
+                        <persName>HARRIS</persName>
+                    </person>
+                    <person xml:id="HELENA">
+                        <persName>HELENA</persName>
+                    </person>
+                    <person xml:id="ILONA">
+                        <persName>ILONA</persName>
+                    </person>
+                    <person xml:id="JAPANESEMAN1">
+                        <persName>JAPANESE MAN 1</persName>
+                    </person>
+                    <person xml:id="JAPANESEMAN2">
+                        <persName>JAPANESE MAN 2</persName>
+                    </person>
+                    <person xml:id="LISA">
+                        <persName>LISA</persName>
+                    </person>
+                    <person xml:id="MAITRED">
+                        <persName>MAITRE D'</persName>
+                    </person>
+                    <person xml:id="MANDY">
+                        <persName>MANDY</persName>
+                    </person>
+                    <person xml:id="MARION">
+                        <persName>MARION</persName>
+                    </person>
+                    <person xml:id="MASKEDBUTLER">
+                        <persName>MASKED BUTLER</persName>
+                    </person>
+                    <person xml:id="MILICH">
+                        <persName>MILICH</persName>
+                    </person>
+                    <person xml:id="MYSTERIOUSWOMAN">
+                        <persName>MYSTERIOUS WOMAN</persName>
+                    </person>
+                    <person xml:id="NICK">
+                        <persName>NICK</persName>
+                    </person>
+                    <person xml:id="NUALA">
+                        <persName>NUALA</persName>
+                    </person>
+                    <person xml:id="OMINOUSMAN">
+                        <persName>OMINOUS MAN</persName>
+                    </person>
+                    <person xml:id="PATIENT">
+                        <persName>PATIENT</persName>
+                    </person>
+                    <person xml:id="RECEPTIONIST">
+                        <persName>RECEPTIONIST</persName>
+                    </person>
+                    <person xml:id="REDCLOAK">
+                        <persName>RED CLOAK</persName>
+                    </person>
+                    <person xml:id="ROSA">
+                        <persName>ROSA</persName>
+                    </person>
+                    <person xml:id="ROZ">
+                        <persName>ROZ</persName>
+                    </person>
+                    <person xml:id="SALLY">
+                        <persName>SALLY</persName>
+                    </person>
+                    <person xml:id="SARAH">
+                        <persName>SARAH</persName>
+                    </person>
+                    <person xml:id="SECRETARY">
+                        <persName>SECRETARY</persName>
+                    </person>
+                    <person xml:id="STUDENT2">
+                        <persName>STUDENT 2</persName>
+                    </person>
+                    <person xml:id="STUDENTI">
+                        <persName>STUDENT I</persName>
+                    </person>
+                    <person xml:id="SZAVOST">
+                        <persName>SZAVOST</persName>
+                    </person>
+                    <person xml:id="TALLBUTLER">
+                        <persName>TALL BUTLER</persName>
+                    </person>
+                    <person xml:id="VOICEFROMAUDIENCE">
+                        <persName>VOICE FROM AUDIENCE</persName>
+                    </person>
+                    <person xml:id="WAITRESS">
+                        <persName>WAITRESS</persName>
+                    </person>
+                    <person xml:id="YOUNGWOMAN">
+                        <persName>YOUNG WOMAN</persName>
+                    </person>
+                    <person xml:id="ZIEGLER">
+                        <persName>ZIEGLER</persName>
+                    </person>
+                </listPerson>
+            </div>
+            <linkGrp>
+                <link target="#Fridolin #BILL #BILL"/>
+                <link target="#Albertina #ALICE #ALICE"/>
+                <link target="#daughter #HELENA #HELENA"/>
+                <link target="#Nachtigall #NICK #NICK"/>
+                <link target="#governess #BABY-SITTER #ROZ"/>
+                <link target="#Marianne #MARION #MARION"/>
+                <link target="#Gibiser #GIBSON #MILICH"/>
+                <link target="#Mizzi #DOMINO #DOMINO"/>
+                <link target="#Roediger #CARL #CARL"/>
+                <link target="#STRANGER #SZABO #SZAVOST"/>
+                <link target="#Pierrette #YOUNG GIRL #DAUGHTER"/>
+                <link target="#woman #THE WOMAN #MYSTERIOUS WOMAN"/>
+                <link target="#Gentlemen #JAPANESEMAN1, JAPANESEMAN2 #KIMONO1, KIMONO2"/>
+                <link target="#TWOW #GAYLE,NUALA #GAYLE,NUALA"/>
+            </linkGrp>
+        </body>
+    </text>
+</TEI>

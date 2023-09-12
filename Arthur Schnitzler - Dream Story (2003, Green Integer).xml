@@ -238,11 +238,11 @@
                         <persName> Fridolin </persName>
                         <age> 30s </age>
                         <note> doctor, rugged, knows how to play piano </note>
-                        <link target="#Fridolin #BILL" />
+                       
                     </person>
                     <person xml:id="Albertina" sex="FEMALE">
                         <persName> Albertina </persName>
-                        <link target="#Albertina #ALICE" />
+                        
                     </person>
                     <person xml:id="STRANGER" sex="MALE">
                         <persName> A stranger </persName>
@@ -254,7 +254,7 @@
                     <person xml:id="daughter" sex="FEMALE">
                         <persName> Fridolin and Albertina's daughter </persName>
                         <note> blonde hair </note>
-                        <link target="#daughter #HELENA" />
+                        
                     </person>
                     <person xml:id="governess" sex="FEMALE">
                         <persName> Governess </persName>
@@ -284,7 +284,6 @@
                     </person>
                     <person xml:id="Mizzi" sex="FEMALE">
                         <persName> Mizzi </persName>
-                        <link target="#Mizzi #GAYLE" />
                     </person>
                     <person xml:id="Nachtigall" sex="MALE">
                         <persName> Herr Nachtigall </persName>
@@ -295,7 +294,6 @@
                             three false diamond studs, a crinkled collar and a dangling, white silk
                             tie. His eyelids were inflamed, as if from many sleepless nights, but
                             his blue eyes gleamed brightly. </note>
-                        <link target="#Nachtigall #NICK" />
                     </person>
                     <person xml:id="Gibiser" sex="MALE">
                         <persName> Herr Gibiser </persName>
