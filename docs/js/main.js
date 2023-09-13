@@ -57,7 +57,7 @@ function fetchScreencaps(scenes) {
 
   sceneNumbers.forEach(function (sceneNumber) {
     $.ajax({
-      url: "/img/screencaps/SCENE" + sceneNumber + "/",
+      url: "/docs/img/screencaps/SCENE" + sceneNumber + "/",
       success: function (data) {
         $(data)
           .find("a:contains(" + ".png" + ")")
@@ -94,8 +94,4 @@ $(document).ready(function() {
   parallax();
   fetchScreencaps('4');
   sceneSelector();
-      var dir = "/img/screencaps/";
-var fileextension = ".png";
-
-
 });
