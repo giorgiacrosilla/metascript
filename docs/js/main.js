@@ -56,26 +56,22 @@ function fetchScreencaps(scenes) {
   $("#image-container").empty();
 
   sceneNumbers.forEach(function (sceneNumber) {
-
-    var folderPath = "./img/screencaps/SCENE" + sceneNumber + ".png";
-
-  $.ajax({
-    url: "./img/screencaps/SCENE" + sceneNumber + "/",
-    success: function (data) {
-      $(data)
-        .find("a:contains(" + ".png" + ")")
-        .each(function () {
-          var filename = this.href
-            .replace(window.location.host, "")
-            .replace("http://", "");
-          console.log(filename);
-          var img = document.createElement("img");
-          img.className = "screencap";
-          img.src = filename;
-          imageContainer.appendChild(img);
-        });
-    },
-  });
+    $.ajax({
+      url: "/img/screencaps/SCENE" + sceneNumber + "/",
+      success: function (data) {
+        $(data)
+          .find("a:contains(" + ".png" + ")")
+          .each(function () {
+            var filename = this.href
+              .replace(window.location.host, "")
+              .replace("http://", "");
+            var img = document.createElement("img");
+            img.className = "screencap";
+            img.src = filename;
+            imageContainer.appendChild(img);
+          });
+      },
+    });
   });
 
 }
