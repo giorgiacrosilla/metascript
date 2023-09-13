@@ -75,14 +75,14 @@ function fetchScreencaps(scenes) {
     return scene.trim();
   });
   $("#image-container").empty();
-  $.getJSON("/img/screencaps/folder_structure.json", function (folderStructure) {
+  $.getJSON("./img/screencaps/folder_structure.json", function (folderStructure) {
 
     sceneNumbers.forEach(function (sceneNumber) {
       folder_name = "SCENE" + sceneNumber;
       if (folderStructure.hasOwnProperty(folder_name)) {
         file_list = folderStructure[folder_name];
         file_list.forEach(function (filename) {
-          image_name = "/img/screencaps/SCENE" + sceneNumber + "/" + filename;
+          image_name = "./img/screencaps/SCENE" + sceneNumber + "/" + filename;
           var img = document.createElement("img");
           img.className = "screencap";
           img.src = image_name;
