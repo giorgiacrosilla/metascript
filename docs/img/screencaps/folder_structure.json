@@ -1,0 +1,103 @@
+{
+  ".": [
+    "INT.MORNING.png",
+    "EXT.DAY..png",
+    "folder_structure.json",
+    "generate_json.sh",
+    "fold.sh"
+  ],
+  "SCENE50": [
+    "SCENE50.2.png",
+    "SCENE50.1.png"
+  ],
+  "SCENE46": [
+    "SCENE46.png",
+    "SCENE46.2.png"
+  ],
+  "SCENE19": [
+    "SCENE19.2.png",
+    "SCENE19.1.png"
+  ],
+  "SCENE61": [
+    "SCENE61.1.png"
+  ],
+  "SCENE13": [
+    "SCENE13.1.png"
+  ],
+  "SCENE12": [
+    "SCENE12.1.png"
+  ],
+  "SCENE47": [
+    "SCENE47.1.png"
+  ],
+  "SCENE39": [
+    "SCENE39.1.png",
+    "SCENE39.3.png",
+    "SCENE39.2.png"
+  ],
+  "SCENE20": [
+    "SCENE20.png"
+  ],
+  "SCENE4": [
+    "SCENE4.2.png",
+    "SCENE4.3.png",
+    "SCENE4.1.png"
+  ],
+  "SCENE43": [
+    "SCENE43.png"
+  ],
+  "SCENE32": [
+    "SCENE32.1.png"
+  ],
+  "SCENE59": [
+    "SCENE59.1.png"
+  ],
+  "SCENE62": [
+    "SCENE62.2.png",
+    "SCENE62.3.png"
+  ],
+  "SCENE10": [
+    "SCENE10.2.png",
+    "SCENE10.1.png",
+    "SCENE10.png"
+  ],
+  "SCENE38": [
+    "SCENE38.1.png"
+  ],
+  "SCENE18": [
+    "SCENE18.2.png",
+    "SCENE18.1.png"
+  ],
+  "SCENE48": [
+    "SCENE48.1.png",
+    "SCENE48.2.png"
+  ],
+  "SCENE41": [
+    "SCENE41.1.png",
+    "SCENE41.2.png"
+  ],
+  "SCENE5": [
+    "SCENE5.png"
+  ],
+  "SCENE63": [
+    "SCENE63.2.png",
+    "SCENE63.1.png"
+  ],
+  "SCENE60": [
+    "SCENE60.2.png",
+    "SCENE60.1.png",
+    "SCENE60.3.png"
+  ],
+  "SCENE11": [
+    "SCENE11.1.png",
+    "SCENE11.2.png"
+  ],
+  "SCENE45": [
+    "SCENE45.2.png",
+    "SCENE45.1.png",
+    "SCENE45.3.png"
+  ],
+  "SCENE21": [
+    "SCENE21.png"
+  ]
+}
