@@ -43,11 +43,42 @@ function fetchTextContent(selectedSceneNumber) {
       var xmlDoc = xhr.responseXML;
       var scene = xmlDoc.querySelector(`div[type='scene'][n='${selectedSceneNumber}']`);
       $('#left-text').empty().append(scene)
-      console.log(scene)
     }
   }
   xhr.send();
 };
+
+function fetchScreencaps(scenes) {
+  var imageContainer = document.getElementById("image-container");
+  sceneNumbers = scenes.split(",").map(function (scene) {
+    return scene.trim();
+  });
+  $("#image-container").empty();
+
+  sceneNumbers.forEach(function (sceneNumber) {
+
+    var folderPath = "./img/screencaps/SCENE" + sceneNumber + ".png";
+
+  $.ajax({
+    url: "./img/screencaps/SCENE" + sceneNumber + "/",
+    success: function (data) {
+      $(data)
+        .find("a:contains(" + ".png" + ")")
+        .each(function () {
+          var filename = this.href
+            .replace(window.location.host, "")
+            .replace("http://", "");
+          console.log(filename);
+          var img = document.createElement("img");
+          img.className = "screencap";
+          img.src = filename;
+          imageContainer.appendChild(img);
+        });
+    },
+  });
+  });
+
+}
 
 function getSelectedScene() {
   var selectedSceneNumber = $('#scene-selector').val()
@@ -55,6 +86,7 @@ function getSelectedScene() {
   $('#scene-selector').change(function () {
     selectedSceneNumber = $(this).val();
     fetchTextContent(selectedSceneNumber);
+    fetchScreencaps(selectedSceneNumber)
   });
 };
 
@@ -64,6 +96,10 @@ function getSelectedScene() {
 
 $(document).ready(function() {
   parallax();
+  fetchScreencaps('4');
   sceneSelector();
+      var dir = "/img/screencaps/";
+var fileextension = ".png";
+
 
 });
