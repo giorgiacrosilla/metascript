@@ -57,7 +57,7 @@ function fetchScreencaps(scenes) {
 
   sceneNumbers.forEach(function (sceneNumber) {
     $.ajax({
-      url: "./img/screencaps/SCENE" + sceneNumber + "/",
+      url: "img/screencaps/SCENE" + sceneNumber + "/",
       success: function (data) {
         $(data)
           .find("a:contains(" + ".png" + ")")
