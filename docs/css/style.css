@@ -38,7 +38,7 @@ body {
 /* cover section */
 
 h2, h3, h5, .title, .subtitle {
-  font-family: 'Futura Extra Bold', sans-serif;
+  font-family: 'Futura Extra Bold', sans-serif !important;
 }
 
 .title-container {
@@ -78,12 +78,17 @@ p {
     font-size: 1em;
     line-height: 2em;
     letter-spacing: 0.1em;
+    text-align: justify;
 }
 
 .project-introduction-section {
     background-color: var(--verdino);
     min-height: 80vh;
     color: black;
+}
+
+.mySlides {
+    display: none;
 }
 
 .film-introduction-section {
@@ -106,7 +111,6 @@ p {
     margin: 2rem;
     color: #060b0f;
 }
-
 
 
 /* cards section */
@@ -244,7 +248,7 @@ footer {
     height: 30vh;
     background-color: var(--off-black);
     color: white;
-    display: flex;
+    display: flex !important;
     justify-content: center;
     align-items: center;
 }
