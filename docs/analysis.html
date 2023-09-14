@@ -13,12 +13,6 @@
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js"
-        integrity="sha384-dM3QQsP+wXdHg42wTqW85BjZQdLNNIXqlPw/BgKoExPmTG7ZLML4EGqLMfqHT6ON"
-        crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        Bokeh.set_log_level("info");
-    </script>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
@@ -46,47 +40,59 @@
     <main>
         <section class="spatial">
             <h3 class="analysis-title">Spatial analysis</h3>
-            <p>The aim of this analysis is twofold: first, to examine the locations mentioned in both the book and the screenplay, and second, to offer a direct comparison between the two portrayals. This will enable the reader to gain a precise understanding of the author's attention to detail in describing places and how the cinematic adaptation has altered the settings.</p>
+            <p>The aim of this analysis is twofold: first, to examine the locations mentioned in both the book and the
+                screenplay, and second, to offer a direct comparison between the two portrayals. This will enable the
+                reader to gain a precise understanding of the author's attention to detail in describing places and how
+                the cinematic adaptation has altered the settings.</p>
             <div class="tables-containers">
                 <div class="table-container">
                     <h5>1. Spatial analysis of the book</h5>
                     <iframe src="https://giorgiacrosilla.altervista.org/metascript_map.html"
                         title="Iframe Example"></iframe>
-                    <div class="table-text">
-                        <p>The analysis of the book involves a predominantly Vienna-based setting in the early 1900s, where the author is highly specific in mentioning streets, specific buildings, and key locations within the city.</p>
+                    <div class="text">
+                        <p>The analysis of the book involves a predominantly Vienna-based setting in the early 1900s,
+                            where the author is highly specific in mentioning streets, specific buildings, and key
+                            locations within the city.</p>
                     </div>
                 </div>
                 <div class="table-container">
                     <h5>2. Spatial Analysis of the screenplay</h5>
                     <iframe src="https://giorgiacrosilla.altervista.org/screenplay_map.html"
                         title="Iframe Example"></iframe>
-                    <div class="table-text">
-                        <p>In the screenplay adapted from the book, the setting is New York. In this adaptation, Kubrick doesn't delve into precise details when describing the locations. He mentions generic locations (i.e. "costume shop") without specifying its exact location. Therefore, we have limited information regarding the geographical location of the scenes.</p>
+                    <div class="text">
+                        <p>In the screenplay adapted from the book, the setting is New York. In this adaptation, Kubrick
+                            doesn't delve into precise details when describing the locations. He mentions generic
+                            locations (i.e. "costume shop") without specifying its exact position. Therefore, we have
+                            limited information regarding the geographical location of the scenes.</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="network">
             <h3 class="analysis-title">Network Analysis</h3>
-            <p>A comparison of character interactions between the original book, the 1996 draft screenplay, and the final
-                screenplay enables us to observe how these interactions have evolved and transformed during the adaptation
-                process. It also helps identify any alterations made to character names.</p>
-            <div class="network-container">
+            <p>A comparison of character interactions between the original book, the 1996 draft screenplay, and the
+                final screenplay enables us to observe how these interactions have evolved and transformed during the
+                adaptation process. It also helps identify any alterations made to character names.</p>
 
-                <div class="table-cont">
-                    <iframe src="https://giorgiacrosilla.altervista.org/Dream_Story_Network.html" title="Iframe Example"></iframe>
+            <div class="tables-containers">
+                <div class="table-containe">
+                    <iframe src="https://giorgiacrosilla.altervista.org/Dream_Story_Network.html"
+                        title="Iframe Example"></iframe>
                     <div class="text">
                         <p>this map..........</p>
                     </div>
                 </div>
-                <div class="table-cont">
+
+
+                <div class="table-containe">
                     <iframe src="https://giorgiacrosilla.altervista.org/Screenplay_1996_Network.html"
                         title="Iframe Example"></iframe>
                     <div class="text">
                         <p></p>
                     </div>
                 </div>
-                <div class="table-cont">
+
+                <div class="table-containe">
                     <iframe src="https://giorgiacrosilla.altervista.org/Screenplay_1999_Network.html"
                         title="Iframe Example"></iframe>
                     <div class="text">
@@ -97,9 +103,18 @@
         </section>
         <div class="time">
             <h3>Time and space analysis</h3>
-            <p>This spatiotemporal analysis considers all the director's scene directions in the 1999 transcription and examines the percentage concerning the spatial and temporal setting of the screenplay.</p>
+            <p>This spatiotemporal analysis considers all the director's scene directions in the 1999 transcription and
+                examines the percentage concerning the spatial and temporal setting of the screenplay.</p>
             <p>
                 Click on a slice and visualize related images taken from the movie.</p>
+            <div class="container">
+                <div class="item">
+                    <div id="chart1"></div>
+                </div>
+                <div class="item">
+                    <div id="chart2"></div>
+                </div>
+            </div>
             <div class="container">
                 <div class="item">
                     <div id="chart"></div>
@@ -171,6 +186,43 @@
                 return null;
         }
     };
+
+    const data1 = [{
+        values: [105, 29],
+        labels: ['INT', 'EXT'],
+        type: 'pie',
+        hoverinfo: 'label+value',
+        marker: {
+            colors: ['#FF5733', '#FFC300', '#DAF7A6']
+        }
+    }];
+
+    const layout1 = {
+        height: 400,
+        width: 500,
+    };
+
+    Plotly.newPlot('chart1', data1, layout1);
+
+
+    const data2 = [{
+        values: [104, 1, 29],
+        labels: ['NIGHT', 'MORNING', 'DAY'],
+        type: 'pie',
+        hoverinfo: 'label+value',
+        marker: {
+            colors: ['#FF5733', '#FFC300', '#DAF7A6']
+        }
+    }];
+
+    const layout2 = {
+        height: 400,
+        width: 500,
+    };
+
+    Plotly.newPlot('chart2', data2, layout2);
+
+
 </script>
 
 
