@@ -338,7 +338,7 @@
                     <owl:sameAs rdf:resource="https://viaf.org/viaf/183449849/" /> 
                     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation" />
                     <dc:title>Dream Story</dc:title>
-                    <dc:creator rdf:resoucer="https://viaf.org/viaf/82526567/">Arthur Schnitzler</dc:creator>
+                    <dc:creator rdf:resource="https://viaf.org/viaf/82526567/">Arthur Schnitzler</dc:creator>
                     <bibo:translator rdf:resource="https://viaf.org/viaf/277043376/" /> <!-- da chiedere --> 
                     <dcterms:publisher rdf:resource="https://dbpedia.org/page/Green_Integer"></dcterms:publisher>
                     <dcterms:gYear>2003</dcterms:gYear>
@@ -387,7 +387,7 @@
                         kissed her father and mother and walked out quietly hand in hand with the
                         young woman. </p>
                 </div>
-                <div type="scene" n="5, 10, 11, 12,13,18">
+                <div type="scene" n="5, 10, 11, 12, 13, 18">
                     <p>
                         <rs ref="#Fridolin"> Fridolin </rs> and <rs type="character"
                             ref="#Albertina"> Albertina </rs> , left alone under the reddish glow of
@@ -3124,7 +3124,7 @@
                         become untied and had enveloped her naked body as they had driven him from
                         the room. Would that be enough to tell him if it were unmistakably she? </p>
                 </div>
-                <div type="scene" n="123,124,125">
+                <div type="scene" n="123, 124, 125">
                     <p> With slow and hesitating steps he crossed the familiar courtyards to the
                         Institute of Pathological Anatomy. Finding the door unlocked, it was
                         unnecessary to ring the bell. The stone floor resounded under his footsteps
@@ -3337,7 +3337,7 @@
             </div>
             <div type="chapter" n="7">
                 <head> 7. </head>
-                <div type="scene" n="132,133,134">
+                <div type="scene" n="132, 133, 134">
                     <p>
                         <rs type="person" ref="#Fridolin"> Fridolin </rs> hurried home through the
                         dark and empty streets. After undressing in the consultation room, as he had

@@ -37,7 +37,7 @@ body {
 }
 /* cover section */
 
-h2, h3, h5, .title, .subtitle {
+h2, h3, h4, h5, .title, .subtitle {
   font-family: 'Futura Extra Bold', sans-serif !important;
 }
 
@@ -181,6 +181,11 @@ p {
     color: white;
 }
 
+.subsectitle {
+    color: black;
+    text-decoration: underline var(--violetto);
+}
+
 
 .comparison-container {
     margin: 10rem 3rem;
@@ -236,7 +241,6 @@ div pre {
     align-items: center;
     gap: 2vw;
     margin: 2rem;
-    padding-top: 5rem;
 }
 
 .image-container > img {

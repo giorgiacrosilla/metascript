@@ -15,6 +15,7 @@ function showDivs(n) {
     }
     x[slideIndex - 1].style.display = "block";
 };
+
 function parallax() {
   var image = document.querySelector(".parallax");
   var zoomFactor = parseFloat(image.getAttribute("data-zoom"));
@@ -64,27 +65,6 @@ function fetchTextContent(selectedSceneNumber) {
   }
   xhr.send();
 };
-
-function fetchImageJSON(json) {
-  // Parse the folder structure JSON
-  var folderStructure = JSON.parse(folderStructureJSON);
-
-  // Iterate through the folder structure
-  for (var sceneNumber in folderStructure) {
-    if (folderStructure.hasOwnProperty(sceneNumber)) {
-      // Create an image element for each file in the scene folder
-      var files = folderStructure[sceneNumber];
-      if (Array.isArray(files) && files.length > 0) {
-        files.forEach(function (filename) {
-          var img = document.createElement("img");
-          img.className = "screencap";
-          img.src = "img/screencaps/" + sceneNumber + "/" + filename;
-          imageContainer.appendChild(img);
-        });
-      }
-    }
-  }
-}
 
 function fetchScreencaps(scenes) {
   var imageContainer = document.getElementById("image-container");
