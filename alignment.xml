@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+               <title>Alignment of the narration between book, draft screenplay and transcription. </title>
+               <respStmt>
+                  <resp>Edited by</resp>
+                  <name>Erica Andreose</name>
+                  <name>Giorgia Crosilla</name>
+                  <name>Leonardo Zilli</name>
+               </respStmt>
+            </titleStmt>
+            <publicationStmt>
+               <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+               <p>Information about the source</p>
+            </sourceDesc>
+         </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Alignment of the narration between book, draft screenplay and transcription.</p>
+            <linkGrp>
+                <link target="#B1 #BILL #BILL"/>
+                <link target="#B2 #ALICE #ALICE"/>
+                <link target="#B3 #HELENA #HELENA"/>
+                <link target="#B4 #NICK #NICK"/>
+                <link target="#B5 #BABY-SITTER #ROZ"/>
+                <link target="#B6 #MARION #MARION"/>
+                <link target="#B7 #GIBSON #MILICH"/>
+                <link target="#B8 #DOMINO #DOMINO"/>
+                <link target="#B9 #CARL #CARL"/>
+                <link target="#B10 #SZABO #SZAVOST"/>
+                <link target="#B11 #YOUNG GIRL #DAUGHTER"/>
+                <link target="#B12 #THE WOMAN #MYSTERIOUS WOMAN"/>
+                <link target="#B13 #JAPANESEMAN1, JAPANESEMAN2 #KIMONO1, KIMONO2"/>
+                <link target="#B14 #GAYLE,NUALA #GAYLE,NUALA"/>
+                <link target="#B15"></link>
+                <link target="#B16"></link>
+                <link target="#B17"></link>
+                <link target="#B18"></link>
+                <link target="#B19"></link>
+                <link target="#B20"></link>
+                <link target="#B21"></link>
+                <link target="#B22"></link>
+                <link target="#B23"></link>
+                <link target="#B24"></link>
+                <link target="#B25"></link>
+                <link target="#B26"></link>
+                <link target="#B27"></link>
+                <link target="#B28"></link>
+                <link target="#B29"></link>
+                <link target="#B30"></link>
+            </linkGrp>
+        </body>
+    </text>
+</TEI>

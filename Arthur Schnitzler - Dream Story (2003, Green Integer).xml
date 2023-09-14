@@ -364,7 +364,7 @@
         <body>
             <div type="chapter" n="1">
                 <head> 1. </head>
-                <div type="scene" n="4">
+                <div type="scene" n="4" xml:id="B1">
                     <p>
                         <quote> "TWENTY-FOUR brown-skinned slaves rowed the splendid gallery which
                         was to bring Prince Amgiad to the palace of the caliph. The Prince, wrapped
@@ -387,7 +387,7 @@
                         kissed her father and mother and walked out quietly hand in hand with the
                         young woman. </p>
                 </div>
-                <div type="scene" n="5, 10, 11, 12, 13, 18">
+                <div type="scene" n="5, 10, 11, 12, 13, 18" xml:id="B2">
                     <p>
                         <rs ref="#Fridolin"> Fridolin </rs> and <rs type="character"
                             ref="#Albertina"> Albertina </rs> , left alone under the reddish glow of
@@ -412,7 +412,7 @@
                         Suddenly he had offended her--frightened her by a rather common and
                         impertinent remark. </p>
                 </div>
-                <div type="scene" n="19">
+                <div type="scene" n="19" xml:id="B3">
                     <p>
                         <rs type="character" ref="#Fridolin"> Fridolin </rs> and <rs
                             ref="#Albertina"> Albertina </rs> were glad to have escaped from a
@@ -424,13 +424,13 @@
                         sank into each other's arms and were more blissful in their ardent love than
                         they had been for a long time. </p>
                 </div>
-                <div type="scene" n="20,21">
+                <div type="scene" n="20,21" xml:id="B4">
                     <p> The gray of morning awakened them only too soon. Fridolin's profession
                         summoned him to his patients at an early hour, while <rs type="character"
                             ref="#Albertina"> Albertina </rs> would not stay in bed longer because
                         of her duties as housewife and mother. </p>
                 </div>
-                <div type="scene" n="32">
+                <div type="scene" n="32" xml:id="B5">
                     <p> So the ensuing hours passed, soberly and predetermined, in daily routine and
                         work, and the events of the night before, both those at the beginning and at
                         the end, had faded. </p>
@@ -663,7 +663,7 @@
             </div>
             <div type="chapter" n="2">
                 <head> 2. </head>
-                <div type="scene" n="38,39">
+                <div type="scene" n="38,39" xml:id="B6">
                     <p> WHEN <rs ref="#Fridolin"> Fridolin </rs> reached the street, he unbuttoned
                         his coat. It had suddenly begun to thaw; the snow on the sidewalk was almost
                         gone, and there was a touch of spring in the air. It was less than a quarter
@@ -830,7 +830,7 @@
                         released, he hastily kissed <rs ref="#Marianne"> Marianne </rs> 's hand, as
                         if in gratitude, and went to open the door. </p>
                 </div>
-                <div type="scene" n="41">
+                <div type="scene" n="41" xml:id="B7">
                     <p>
                         <rs ref="#Roediger"> Doctor Roediger </rs> stood there, in a dark gray
                         top-coat, an umbrella in his hand and a serious face, appropriate to the
@@ -863,7 +863,7 @@
             </div>
             <div type="chapter" n="3">
                 <head> 3. </head>
-                <div type="scene" n="43,45">
+                <div type="scene" n="43,45" xml:id="B8">
                     <p> WHEN <rs ref="#Fridolin"> Fridolin </rs> stood on the street in front of the
                         house, he looked up at the window which he himself had opened a little while
                         before. The casements were swaying slightly in the wind of early spring, and
@@ -975,7 +975,7 @@
                         him, for it seemed to free him from all responsibility, and to loosen all
                         the bonds of human relationship. </p>
                 </div>
-                <div type="scene" n="46">
+                <div type="scene" n="46" xml:id="B9">
                     <p>
                         <rs ref="#Mizzi"> One of the girls </rs> wandering about stopped him. She
                         was still a young and pretty little thing, very pale with red-painted lips. <said
@@ -1007,7 +1007,7 @@
                         Mizzi, of course." </said>
                     </p>
                 </div>
-                <div type="scene" n="47,48,50">
+                <div type="scene" n="47,48,50" xml:id="B10">
                     <p> She unlocked the house-door, stepped into the hallway and waited for <rs
                             ref="#Fridolin"> Fridolin </rs> to follow her. <said aloud="true"
                             direct="true" who="Mizzi" toWhom="Fridolin"> "Come on," </said> she said
@@ -1083,7 +1083,7 @@
             </div>
             <div type="chapter" n="4">
                 <head> 4. </head>
-                <div type="scene" n="59,60">
+                <div type="scene" n="59,60" xml:id="B11">
                     <p> MEANWHILE it had become even milder outside. A fragrance from dewy meadows
                         and distant mountains drifted with the gentle breezes into the narrow
                         street. <said aloud="false" direct="false" who="Fridolin"> Where shall I go
@@ -1445,7 +1445,7 @@
                         like a mourning-coach, <rs ref="#Fridolin" type="character"> Fridolin </rs>
                         thought. </p>
                 </div>
-                <div type="scene" n="61,62,63,64">
+                <div type="scene" n="61,62,63,64" xml:id="B12">
                     <p> He ran down the street and reached the corner-house he was looking for a few
                         minutes later. He rang the bell, inquired from the care-taker whether the
                         costumer <rs ref="#Gibiser" type="character"> Gibiser </rs> lived in the
@@ -1628,7 +1628,7 @@
                         Fridolin </rs> took off the hat, cassock and mask while going downstairs,
                         carrying the bundle under his arm. </p>
                 </div>
-                <div type="scene" n="60">
+                <div type="scene" n="60" xml:id="B13">
                     <p> The care-taker opened the outer door and <rs ref="#Fridolin"
                             type="character"> Fridolin </rs> saw the mourning-coach standing
                         opposite with the motionless driver on the box. <rs ref="#Nachtigall"
@@ -1661,7 +1661,7 @@
                             type="character"> Nachtigall </rs> nodded and leisurely lighted a
                         cigarette. </p>
                 </div>
-                <div type="scene" n="69,72,73,74">
+                <div type="scene" n="69,72,73,74" xml:id="B13">
                     <p>
                         <rs ref="#Fridolin" type="character"> Fridolin </rs> quickly crossed the
                         street, hailed a cab in an offhand way, as though he were playing a joke,
@@ -1716,7 +1716,7 @@
                         ravine, or into the darkness that seemed like one. <rs ref="#Nachtigall"
                             type="character"> Nachtigall </rs> must, therefore, have got out. </p>
                 </div>
-                <div type="scene" n="75,76">
+                <div type="scene" n="75,76" xml:id="B14">
                     <p>
                         <rs ref="#Fridolin" type="character"> Fridolin </rs> quickly sprang out of
                         the cab and told the driver to wait for him up at the turn, no matter how
@@ -1735,7 +1735,7 @@
                             toWhom="TWOServants"> "Denmark." </said>
                     </p>
                 </div>
-                <div type="scene" n="77,78">
+                <div type="scene" n="77,78" xml:id="B15">
                     <p> One of them took his fur coat and disappeared with it into an adjoining
                         room, while the other opened a door. <rs ref="#Fridolin" type="character">
                         Fridolin </rs> entered a dimly lighted room with high ceilings, hung on all
@@ -1765,7 +1765,7 @@
                             type="character"> Fridolin </rs> surrendered himself for a moment to the
                         wondrously swelling melody. </p>
                 </div>
-                <div type="scene" n="80">
+                <div type="scene" n="80" xml:id="B16">
                     <p> A soft voice suddenly whispered from behind: <said aloud="true"
                             direct="true" who="woman" toWhom="Fridolin"> "Don't turn around. There's
                         still a chance for you to get away. You don't belong here. If it's
@@ -1786,7 +1786,7 @@
                         room; the organ had a new sound which was anything but sacred. It was
                         worldly, voluptuous, and pealing. </p>
                 </div>
-                <div type="scene" n="79">
+                <div type="scene" n="79" xml:id="B17">
                     <p> Looking around <rs ref="#Fridolin" type="character"> Fridolin </rs> saw that
                         all the nuns had disappeared and that only the monks were left. The voice
                         had meanwhile also changed. It rose by way of an artistically executed trill
@@ -1823,7 +1823,7 @@
                         with their gay-colored costumes were reflected, dancing with their naked
                         partners. </p>
                 </div>
-                <div type="scene" n="83,84">
+                <div type="scene" n="83,84" xml:id="B18">
                     <p> A woman came up suddenly behind <rs ref="#Fridolin" type="character">
                         Fridolin </rs> and whispered—for no one spoke aloud, as if the voices, too,
                         were to remain a secret—: <said aloud="true" direct="true"
@@ -1929,7 +1929,7 @@
                         "Wasn't it a girl of the nobility who was engaged to marry an Italian
                         Prince?" </said> She nodded. </p>
                 </div>
-                <div type="scene" n="86">
+                <div type="scene" n="86" xml:id="B19">
                     <p> One of the cavaliers, the most distinguished looking of them all and the
                         only one dressed in white, suddenly stopped before them. With a slight bow,
                         courteous but imperative, he asked the woman with whom <rs ref="#Fridolin"
@@ -2078,7 +2078,7 @@
                         even glance at her face, he was seized by irresistible arms, and pushed to
                         the door. </p>
                 </div>
-                <div type="scene" n="none">
+                <div type="scene" n="extra">
                     <p> A moment later he found himself in the anteroom, the door closed behind him.
                         A masked servant brought him his fur coat and helped him put it on. The main
                         door opened automatically, and as if driven by some invisible force, he
@@ -2226,7 +2226,7 @@
             </div>
             <div type="chapter" n="5">
                 <head> 5. </head>
-                <div type="scene" n="87,88">
+                <div type="scene" n="87,88" xml:id="B20">
                     <p> IT was four o'clock in the morning when <rs type="person" ref="#Fridolin">
                         Fridolin </rs> walked up the steps of his home. Before doing anything else
                         he went into his office and carefully locked the masquerade costume in a
@@ -2515,7 +2515,7 @@
             </div>
             <div type="chapter" n="6">
                 <head> 6. </head>
-                <div type="scene" n="93">
+                <div type="scene" n="93" xml:id="B21">
                     <p> AT seven o'clock <rs type="person" ref="#Fridolin"> Fridolin </rs> was
                         awakened by the maid gently knocking on the door, and he cast a quick glance
                         at <rs type="person" ref="#Albertina"> Albertina </rs> . Sometimes this
@@ -2559,7 +2559,7 @@
                             type="person" ref="#Nachtigall"> Nachtigall </rs> for the time being.
                         They had been extremely cautious, probably with good reason. </p>
                 </div>
-                <div type="scene" n="95">
+                <div type="scene" n="95" xml:id="B22">
                     <p> At the costume shop, <rs type="person" ref="#Gibiser"> Herr Gibiser </rs>
                         himself opened the door. <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Gibiser"> "I'm bringing back the costume I hired," </said> said <rs
@@ -2624,7 +2624,7 @@
                         settled, he thought, as he hurried down the stairs with a feeling of
                         annoyance which, even to him, seemed exaggerated. </p>
                 </div>
-                <div type="scene" n="97,99">
+                <div type="scene" n="97,99" xml:id="B23">
                     <p> The first thing he did on arriving at the Polyclinic was to telephone home
                         to inquire whether any patients had sent for him, if there was any mail, or
                         any other news. The maid had scarcely answered him when <rs type="person"
@@ -2684,7 +2684,7 @@
                             toWhom="Fuchstaler"> "Why certainly, doctor." </said>
                     </p>
                 </div>
-                <div type="scene" n="100,101,102,103">
+                <div type="scene" n="100,101,102,103" xml:id="B24">
                     <p> He took a cab at the corner, consulting his notebook and pretending to the
                         cabman that he was making up his mind where to go. "To Ottakring" he then
                         said, "take the street going out to Galitzinberg. /'ll tell you where to
@@ -2761,7 +2761,7 @@
                         convinced that the woman he was so uneasy about was still alive, and that it
                         would be possible to find her if he went about it cautiously and cleverly. </p>
                 </div>
-                <div type="scene" n="105">
+                <div type="scene" n="105" xml:id="B25">
                     <p> He went home, feeling rather tired but with a strange sense of security
                         which somehow seemed deceptive. <rs type="person" ref="#Albertina">
                             Albertina </rs> and the child had finished their dinner, but they kept
@@ -2787,7 +2787,7 @@
                         ought to go for a walk on such a beautiful, sunny afternoon, and went to his
                         consulting room. </p>
                 </div>
-                <div type="scene" n="107,109">
+                <div type="scene" n="107,109" xml:id="B26">
                     <p> During the next two hours he had to see six old patients and two new ones.
                         In every single case he had his whole mind on the subject. He made
                         examinations, jotted down notes and wrote prescriptions—and he was glad that
@@ -2922,7 +2922,7 @@
                         doesn't remember until very much later, and doesn't even then know whether
                         it was real or only a dream. Only a dream! </p>
                 </div>
-                <div type="scene" n="115,116">
+                <div type="scene" n="115,116" xml:id="B27">
                     <p> While <rs type="person" ref="#Fridolin"> Fridolin </rs> wandered along,
                         drifting aimlessly towards his home, he entered the neighborhood of the
                         dark, rather questionable street, where he had accompanied the forlorn
@@ -2974,7 +2974,7 @@
                             doctor said she'd be home in six or, at most, eight weeks." </said>
                     </p>
                 </div>
-                <div type="scene" n="none">
+                <div type="scene" n="extra">
                     <p> When <rs type="person" ref="#Fridolin"> Fridolin </rs> returned to the
                         street he felt choked with tears. He knew that this was not because he was
                         deeply affected, but because his nerves were gradually giving way, and he
@@ -2999,7 +2999,7 @@
                         circumstances would he go home—"home?"—until he could be certain of finding
                         Albertina asleep. </p>
                 </div>
-                <div type="scene" n="120,121">
+                <div type="scene" n="120,121" xml:id="B28">
                     <p> He entered a cafe, one of the more quiet and select ones near the Rathaus.
                         He telephoned home not to expect him for supper, and hung up the receiver
                         quickly so that <rs type="person" ref="#Albertina"> Albertina </rs> wouldn't
@@ -3062,7 +3062,7 @@
                         he replied courteously that the sad case had not occurred there, but in the
                         Hotel Erzherzog Karl. . . . </p>
                 </div>
-                <div type="scene" n="none">
+                <div type="scene" n="extra">
                     <p>
                         <rs type="person" ref="#Fridolin"> Fridolin </rs> at once went there and
                         found that Baroness D. had been taken to the General Hospital immediately
@@ -3124,7 +3124,7 @@
                         become untied and had enveloped her naked body as they had driven him from
                         the room. Would that be enough to tell him if it were unmistakably she? </p>
                 </div>
-                <div type="scene" n="123, 124, 125">
+                <div type="scene" n="123, 124, 125" xml:id="B29">
                     <p> With slow and hesitating steps he crossed the familiar courtyards to the
                         Institute of Pathological Anatomy. Finding the door unlocked, it was
                         unnecessary to ring the bell. The stone floor resounded under his footsteps
@@ -3337,7 +3337,7 @@
             </div>
             <div type="chapter" n="7">
                 <head> 7. </head>
-                <div type="scene" n="132, 133, 134">
+                <div type="scene" n="132, 133, 134" xml:id="B30">
                     <p>
                         <rs type="person" ref="#Fridolin"> Fridolin </rs> hurried home through the
                         dark and empty streets. After undressing in the consultation room, as he had
