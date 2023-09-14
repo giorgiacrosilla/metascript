@@ -268,7 +268,7 @@ footer {
 
 }
 
-.table-container{
+.table-container, .table-cont{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -283,10 +283,15 @@ footer {
 
 }
 
+.table-cont > iframe {
+    width: 50vw;
+    min-height: 80vh;
+    border: none; 
+}
+
 .text {
     width: 60vw;
 }
-
 
 .network {
     background-color: var(--giallino);
