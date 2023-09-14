@@ -1,5 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -388,7 +386,7 @@
         </front>
 
         <body>
-            <div type="scene" n="1">
+            <div type="scene" n="1" xml:id="S1">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">BILL &amp; ALICE'S APT</stage>
@@ -401,7 +399,7 @@
                 <stage type="setting">Settled into the couch in the living room, watching TV, are
                     seven year-old , HELENA, and the BABY-SITTER, a young college girl.</stage>
             </div>
-            <div type="scene" n="2">
+            <div type="scene" n="2" xml:id="S2">
                 <div type="scene99" n="3,4">
                     <head type="scene_heading">
                         <stage type="primary_location">BEDROOM -</stage>
@@ -518,28 +516,28 @@
                     <stage type="setting">AD-LIBS of Good nights and have a good time.</stage>
                 </div>
             </div>
-            <div type="scene" n="3">
+            <div type="scene" n="3" xml:id="S3">
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">HIRED CAR DRIVE-BY (CPW TO 5TH)</stage>
                     <stage type="time">NIGHT</stage>
                 </head>
             </div>
-            <div type="scene" n="4">
+            <div type="scene" n="4" xml:id="S4">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">CAR</stage>
                     <stage type="time">NIGHT</stage>
                 </head>
             </div>
-            <div type="scene" n="5">
+            <div type="scene" n="5" xml:id="S5">
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">ZIEGLER MIDTOWN MANSION</stage>
                     <stage type="time">NIGHT</stage>
                 </head>
             </div>
-            <div type="scene" n="6">
+            <div type="scene" n="6" xml:id="S6">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">CAR</stage>
@@ -570,7 +568,7 @@
                 </sp>
                 <stage type="setting">BILL and ALICE exit the car and enter the house.</stage>
             </div>
-            <div type="scene" n="7">
+            <div type="scene" n="7" xml:id="S7">
                 <div type="scene99" n="6">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -614,7 +612,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="8">
+            <div type="scene" n="8" xml:id="S8">
                 <head type="scene_heading">
                     <stage type="primary_location">ANOTHER FABULOUS ROOM</stage>
                     <stage type="time">A LITTLE LATER</stage>
@@ -622,7 +620,7 @@
                 <stage type="setting">They stop to admire the 17 foot Christmas tree trimmed with
                     colored lights and antique ornaments.</stage>
             </div>
-            <div type="scene" n="9">
+            <div type="scene" n="9" xml:id="S9">
                 <div type="scene99" n="7,9,10">
                     <head type="scene_heading">
                         <stage type="primary_location">BALLROOM</stage>
@@ -796,7 +794,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="10">
+            <div type="scene" n="10" xml:id="S10">
                 <div type="scene99" n="12,11">
                     <head type="scene_heading">
                         <stage type="primary_location">ACROSS THE ROOM</stage>
@@ -804,7 +802,7 @@
                         <stage type="setting">GAYLE, the taller model, shouts to BILL above the
                             music.</stage>
                     </head>
-                    <sp who='GAYLE' toWhom="BILL">
+                    <sp who="GAYLE" toWhom="BILL">
                         <speaker>GAYLE</speaker>
                         <p>Nobody likes you?</p>
                     </sp>
@@ -993,7 +991,7 @@
                     <stage type="setting">ALICE smiles and shakes her head.</stage>
                 </div>
             </div>
-            <div type="scene" n="11">
+            <div type="scene" n="11" xml:id="S11">
                 <div type="scene99" n="14,15,18,17">
                     <head type="scene_heading">
                         <view>BILL AND THE MODELS-</view>
@@ -1207,7 +1205,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="12">
+            <div type="scene" n="12" xml:id="S12">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="primary_location">BALLROOM</stage>
@@ -1231,7 +1229,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="13">
+            <div type="scene" n="13" xml:id="S13">
                 <div type="scene99" n="19">
                     <head type="scene_heading">
                         <stage type="primary_location">BILL AND ALICE'S BEDROOM</stage>
@@ -1259,7 +1257,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="14">
+            <div type="scene" n="14" xml:id="S14">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="secondary_location">HELENA'S BEDROOM</stage>
@@ -1276,7 +1274,7 @@
                         into the living room.</stage>
                 </div>
             </div>
-            <div type="scene" n="15">
+            <div type="scene" n="15" xml:id="S15">
                 <div type="scene99" n="28,29">
                     <head type="scene_heading">
                         <stage type="primary_location">LIVING ROOM</stage>
@@ -1313,13 +1311,13 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="16">
+            <div type="scene" n="16" xml:id="S16">
                 <head type="scene_heading">
                     <stage type="primary_location">BATHROOM</stage>
                     <stage type="time">A FEW MOMENTS LATER</stage>
                 </head>
             </div>
-            <div type="scene" n="17">
+            <div type="scene" n="17" xml:id="S17">
                 <div type="scene99" n="31,32,33">
                     <head type="scene_heading">
                         <stage type="time">MINUTES LATER</stage>
@@ -1792,7 +1790,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="18">
+            <div type="scene" n="18" xml:id="S18">
 
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
@@ -1800,13 +1798,13 @@
                     <stage type="time">NIGHT</stage>
                 </head>
             </div>
-            <div type="scene" n="19">
+            <div type="scene" n="19" xml:id="S19">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">MARION'S LOBBY</stage>
                 </head>
             </div>
-            <div type="scene" n="20">
+            <div type="scene" n="20" xml:id="S20">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -1820,7 +1818,7 @@
                     <stage type="setting">He walks through the quiet apartment.</stage>
                 </div>
             </div>
-            <div type="scene" n="21">
+            <div type="scene" n="21" xml:id="S21">
                 <div type="scene99" n="39,41">
                     <head type="scene_heading">
                         <stage type="primary_location">MASTER BEDROOM</stage>
@@ -2024,7 +2022,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="22">
+            <div type="scene" n="22" xml:id="S22">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -2045,7 +2043,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="23">
+            <div type="scene" n="23" xml:id="S23">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -2054,7 +2052,7 @@
                     </head>
                 </div>
             </div>
-            <div type="scene" n="24">
+            <div type="scene" n="24" xml:id="S24">
                 <div type="scene99" n="45">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -2115,7 +2113,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="25">
+            <div type="scene" n="25" xml:id="S25">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -2131,7 +2129,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="26">
+            <div type="scene" n="26" xml:id="S26">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <view>JEALOUS FANTASY IMAGE - ALICE AND NAVAL OFFICER</view>
@@ -2146,7 +2144,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="27">
+            <div type="scene" n="27" xml:id="S27">
                 <div type="scene99" n="46">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -2229,7 +2227,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="28">
+            <div type="scene" n="28" xml:id="S28">
                 <div type="scene99" n="48,50,51,52,53,54,55,56,57,58">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -2505,7 +2503,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="29">
+            <div type="scene" n="29" xml:id="S29">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -2533,7 +2531,7 @@
                     <stage type="setting">BILL nods and goes in.</stage>
                 </div>
             </div>
-            <div type="scene" n="30">
+            <div type="scene" n="30" xml:id="S30">
                 <div type="scene99" n="59,60">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -2933,7 +2931,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="31">
+            <div type="scene" n="31" xml:id="S31">
                 <div type="scene99" n="61,62">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -3063,7 +3061,7 @@
                         Gibson.</stage>
                 </div>
             </div>
-            <div type="scene" n="32">
+            <div type="scene" n="32" xml:id="S32">
                 <div type="scene99" n="63,64">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -3226,7 +3224,7 @@
                     <stage type="setting">The girl gives BILL a sad shake of her head and exits.</stage>
                 </div>
             </div>
-            <div type="scene" n="33">
+            <div type="scene" n="33" xml:id="S33">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="environment">INT FRONT OF COSTUME SHOP - A LITTLE LATER</stage>
@@ -3285,7 +3283,7 @@
                     <stage type="setting">Gibson laughs mockingly without uttering a sound.</stage>
                 </div>
             </div>
-            <div type="scene" n="34">
+            <div type="scene" n="34" xml:id="S34">
                 <div type="scene99" n="75">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -3320,7 +3318,7 @@
                         L.I. Expressway</stage>
                 </div>
             </div>
-            <div type="scene" n="35">
+            <div type="scene" n="35" xml:id="S35">
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">Brooklyn bridge L.I. Expressway</stage>
@@ -3328,7 +3326,7 @@
                     <stage type="time">NIGHT</stage>
                 </head>
             </div>
-            <div type="scene" n="36">
+            <div type="scene" n="36" xml:id="S36">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">CAB</stage>
@@ -3340,14 +3338,14 @@
                     <p>Bills Thoughts: Variations of, "I must be mad."</p>
                 </sp>
             </div>
-            <div type="scene" n="37">
+            <div type="scene" n="37" xml:id="S37">
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">LONG ISLAND MANSION ROAD</stage>
                     <stage type="time">NIGHT</stage>
                 </head>
             </div>
-            <div type="scene" n="38">
+            <div type="scene" n="38" xml:id="S38">
                 <div type="scene99" n="75">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -3400,7 +3398,7 @@
                         his coat over his shoulders and walks back to the gates.</stage>
                 </div>
             </div>
-            <div type="scene" n="39">
+            <div type="scene" n="39" xml:id="S39">
                 <div type="scene99" n="76">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -3464,7 +3462,7 @@
                     <stage type="setting">Bill laughs uncomfortably without getting a penny's change
                         from the men.</stage>
                     <sp rend="pointing a car">
-                        <speaker></speaker>
+                        <speaker />
                         <p>If you'd like to get in the car, sir. We'll run you up to the house.</p>
                     </sp>
                     <sp who="BILL" toWhom="GATEMAN 1">
@@ -3475,13 +3473,13 @@
                     <stage type="setting">Gateman 2 remains at the gate.</stage>
                 </div>
             </div>
-            <div type="scene" n="40">
+            <div type="scene" n="40" xml:id="S40">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">CAR</stage>
                 </head>
             </div>
-            <div type="scene" n="41">
+            <div type="scene" n="41" xml:id="S41">
                 <head type="scene_heading">
                     <camera type="pov">POV</camera>
                     <stage type="primary_location">MANOR HOUSE</stage>
@@ -3489,7 +3487,7 @@
                     <stage type="time">NIGHT</stage>
                 </head>
             </div>
-            <div type="scene" n="42">
+            <div type="scene" n="42" xml:id="S42">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">CAR</stage>
@@ -3505,7 +3503,7 @@
                 </sp>
                 <stage type="setting">BILL takes the mask from his pocket and puts it on.</stage>
             </div>
-            <div type="scene" n="43">
+            <div type="scene" n="43" xml:id="S43">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -3521,7 +3519,7 @@
                         before he reaches them.</stage>
                 </div>
             </div>
-            <div type="scene" n="44">
+            <div type="scene" n="44" xml:id="S44">
                 <div type="scene99" n="78,79,80,81,82,83,84,85,86">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -3859,7 +3857,7 @@
                         momentary glimpse of her face.</stage>
                     <stage type="setting">Then he is seized by irresistible arms and pushed out.</stage>
                 </div>
-                <div type="scene" n="45">
+                <div type="scene" n="45" xml:id="S45">
                     <div type="scene99" n="87">
                         <head type="scene_heading">
                             <stage type="environment">INT</stage>
@@ -3879,7 +3877,7 @@
                     </div>
                 </div>
             </div>
-            <div type="scene" n="46">
+            <div type="scene" n="46" xml:id="S46">
                 <div type="scene99" n="87">
                     <head type="scene_heading">
                         <stage type="primary_location">BEDROOM</stage>
@@ -4165,24 +4163,24 @@
                     <stage type="setting">We are lying here like mortal enemies.</stage>
                 </div>
             </div>
-            <div type="scene" n="47">
+            <div type="scene" n="47" xml:id="S47">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">BILL'S APARTMENT</stage>
                     <stage type="time">DAWN</stage>
                 </head>
             </div>
-            <div type="scene" n="48">
+            <div type="scene" n="48" xml:id="S48">
                 <head type="scene_heading">
                     <stage type="primary_location">HELENA'S BEDROOM</stage>
                 </head>
             </div>
-            <div type="scene" n="49">
+            <div type="scene" n="49" xml:id="S49">
                 <head type="scene_heading">
                     <stage type="primary_location">STUDY</stage>
                 </head>
             </div>
-            <div type="scene" n="50">
+            <div type="scene" n="50" xml:id="S50">
                 <div type="scene99" n="90,91">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -4245,7 +4243,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="51">
+            <div type="scene" n="51" xml:id="S51">
 
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
@@ -4253,7 +4251,7 @@
                     <stage type="time">DAY</stage>
                 </head>
             </div>
-            <div type="scene" n="52">
+            <div type="scene" n="52" xml:id="S52">
                 <div type="scene99" n="93">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -4379,7 +4377,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="53">
+            <div type="scene" n="53" xml:id="S53">
                 <div type="scene99" n="95">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -4388,7 +4386,7 @@
                     </head>
                     <stage type="setting">BILL enters.</stage>
                 </div>
-                <div type="scene" n="54">
+                <div type="scene" n="54" xml:id="S54">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
                         <stage type="primary_location">COSTUME SHOP</stage>
@@ -4509,14 +4507,14 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="55">
+            <div type="scene" n="55" xml:id="S55">
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">BILL'S SURGERY</stage>
                     <stage type="time">DAY</stage>
                 </head>
             </div>
-            <div type="scene" n="56">
+            <div type="scene" n="56" xml:id="S56">
                 <div type="scene99" n="99">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -4533,8 +4531,8 @@
                         afternoon.</stage>
                 </div>
             </div>
-            <div type="scene" n="57">
-                <div type="scene" n="100">
+            <div type="scene" n="57" xml:id="S57">
+                <div type="scene99" n="100">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
                         <stage type="primary_location">BILL'S SURGERY</stage>
@@ -4544,7 +4542,7 @@
                         house in Long Island.</stage>
                 </div>
             </div>
-            <div type="scene" n="58">
+            <div type="scene" n="58" xml:id="S58">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">CAB</stage>
@@ -4556,14 +4554,14 @@
                     <p>To be written</p>
                 </sp>
             </div>
-            <div type="scene" n="59">
+            <div type="scene" n="59" xml:id="S59">
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">59th street Bridge. L.I. Express way.</stage>
                     <view>VARIOUS POV'S DAY</view>
                 </head>
             </div>
-            <div type="scene" n="60">
+            <div type="scene" n="60" xml:id="S60">
                 <div type="scene99" n="103">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -4612,14 +4610,14 @@
                     <stage type="setting">BILL stands there looking at the note.</stage>
                 </div>
             </div>
-            <div type="scene" n="61">
+            <div type="scene" n="61" xml:id="S61">
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">CAB</stage>
                     <stage type="time">DAY</stage>
                 </head>
             </div>
-            <div type="scene" n="62">
+            <div type="scene" n="62" xml:id="S62">
                 <head type="scene_heading">
                     <stage type="environment">INT</stage>
                     <stage type="primary_location">CAB</stage>
@@ -4636,8 +4634,8 @@
                         would be possible to find her if he went about it cautiously and cleverly.</p>
                 </sp>
             </div>
-            <div type="scene" n="63">
-                <div type="scene" n="105">
+            <div type="scene" n="63" xml:id="S63">
+                <div type="scene99" n="105">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
                         <stage type="primary_location">BILL'S APARTMENT</stage>
@@ -4674,7 +4672,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="64">
+            <div type="scene" n="64" xml:id="S64">
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">MARION'S APARTMENT</stage>
@@ -4682,7 +4680,7 @@
                 </head>
                 <stage type="setting">BILL gets out of a cab..</stage>
             </div>
-            <div type="scene" n="65">
+            <div type="scene" n="65" xml:id="S65">
                 <div type="scene99" n="110">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -4732,7 +4730,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="66">
+            <div type="scene" n="66" xml:id="S66">
                 <div type="scene99" n="extra">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -4895,7 +4893,7 @@
                     <stage type="setting">But she turns her head away.</stage>
                 </div>
             </div>
-            <div type="scene" n="67">
+            <div type="scene" n="67" xml:id="S67">
                 <div type="scene99" n="114">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -4905,7 +4903,7 @@
                     <stage type="setting">BILL walks.</stage>
                 </div>
             </div>
-            <div type="scene" n="68">
+            <div type="scene" n="68" xml:id="S68">
                 <div type="scene99" n="114">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -4915,7 +4913,7 @@
                     <stage type="setting">Seen through the window.</stage>
                 </div>
             </div>
-            <div type="scene" n="69">
+            <div type="scene" n="69" xml:id="S69">
                 <div type="scene99" n="114">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -4932,7 +4930,7 @@
                         he goes in.</stage>
                 </div>
             </div>
-            <div type="scene" n="70">
+            <div type="scene" n="70" xml:id="S70">
                 <div type="scene99" n="115">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -4974,7 +4972,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="71">
+            <div type="scene" n="71" xml:id="S71">
                 <div type="scene99" n="116">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -5056,7 +5054,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="72">
+            <div type="scene" n="72" xml:id="S72">
                 <div type="scene99" n="117">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -5079,7 +5077,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="73">
+            <div type="scene" n="73" xml:id="S73">
                 <div type="scene99" n="118">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -5095,7 +5093,7 @@
                         looks in a shop window.</stage>
                 </div>
             </div>
-            <div type="scene" n="74">
+            <div type="scene" n="74" xml:id="S74">
                 <div type="scene99" n="119">
                     <head type="scene_heading">
                         <view>SHORT SEQUENCE OF THE MAN FOLLOWING BILL</view>
@@ -5103,7 +5101,7 @@
                     </head>
                 </div>
             </div>
-            <div type="scene" n="75">
+            <div type="scene" n="75" xml:id="S75">
                 <div type="scene99" n="119">
                     <head type="scene_heading">
                         <stage type="primary_location">STREET</stage>
@@ -5115,7 +5113,7 @@
                     <stage type="setting">BILL goes into a nearby Coffee Bar.</stage>
                 </div>
             </div>
-            <div type="scene" n="76">
+            <div type="scene" n="76" xml:id="S76">
                 <div type="scene99" n="121">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -5177,7 +5175,7 @@
                         suspicious character at the table but he is already gone.</stage>
                 </div>
             </div>
-            <div type="scene" n="77">
+            <div type="scene" n="77" xml:id="S77">
 
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
@@ -5186,7 +5184,7 @@
                 </head>
                 <view>Establishing shot</view>
             </div>
-            <div type="scene" n="78">
+            <div type="scene" n="78" xml:id="S78">
                 <div type="scene99" n="123">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -5246,7 +5244,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="79">
+            <div type="scene" n="79" xml:id="S79">
                 <div type="scene99" n="124">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -5256,7 +5254,7 @@
                         corridor.</stage>
                 </div>
             </div>
-            <div type="scene" n="80">
+            <div type="scene" n="80" xml:id="S80">
                 <div type="scene99" n="125">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -5336,7 +5334,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="81">
+            <div type="scene" n="81" xml:id="S81">
                 <div type="scene99" n="128,129">
                     <head type="scene_heading">
                         <stage type="environment">EXT</stage>
@@ -5737,7 +5735,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="82">
+            <div type="scene" n="82" xml:id="S82">
                 <div type="scene99" n="130,131,132">
                     <head type="scene_heading">
                         <stage type="environment">INT</stage>
@@ -5785,7 +5783,7 @@
                     </sp>
                 </div>
             </div>
-            <div type="scene" n="83">
+            <div type="scene" n="83" xml:id="S83">
                 <div type="scene99" n="133,134">
                     <head type="scene_heading">
                         <stage type="primary_location">BEDROOM</stage>

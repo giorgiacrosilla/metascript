@@ -440,7 +440,7 @@
                     <caption>A FILM BY STANLEY KUBRICK</caption>
                 </div>
             </div>
-            <div type="scene" n="1">
+            <div type="scene" n="1" xml:id="T1">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">DRESSING ROOM</stage>
@@ -454,7 +454,7 @@
                 <head>MAIN TITLE CARD:</head>
                 <caption>EYES WIDE SHUT</caption>
             </div>
-            <div type="scene" n="2">
+            <div type="scene" n="2" xml:id="T2">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">APARTMENT BLOCK</stage>
@@ -463,7 +463,7 @@
                 </head>
                 <stage type="setting">BILL and ALICE's apartment block on Central Park West.</stage>
             </div>
-            <div type="scene" n="3">
+            <div type="scene" n="3" xml:id="T3">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">DRESSING ROOM</stage>
@@ -594,7 +594,7 @@
                     bed to pick up her coat and bag. BILL, his overcoat on his arm, switches off the
                     music centre. They leave the bedroom together. BILL switches off the lights.</stage>
             </div>
-            <div type="scene" n="4">
+            <div type="scene" n="4" xml:id="T4">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">CORRIDOR</stage>
@@ -802,7 +802,7 @@
                 </sp>
                 <stage type="setting">BILL and ALICE walk down the apartment corridor.</stage>
             </div>
-            <div type="scene" n="5">
+            <div type="scene" n="5" xml:id="T5">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">ZIEGLER MANSION</stage>
@@ -812,7 +812,7 @@
                 <stage type="setting">A palatial house in mid-town Manhattan. Doormen stand outside
                     the entrance. A large stretch limo is parked nearby.</stage>
             </div>
-            <div type="scene" n="6">
+            <div type="scene" n="6" xml:id="T6">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">CORRIDOR</stage>
@@ -950,7 +950,7 @@
                 <stage type="setting">BILL and ALICE make their way to the crowded main reception
                     room.</stage>
             </div>
-            <div type="scene" n="7">
+            <div type="scene" n="7" xml:id="T7">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BALLROOM</stage>
@@ -1060,7 +1060,7 @@
                 </sp>
                 <stage type="setting">BILL kisses ALICE on the cheek as she leaves the ballroom.</stage>
             </div>
-            <div type="scene" n="8">
+            <div type="scene" n="8" xml:id="T8">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ANTE-ROOM</stage>
@@ -1071,7 +1071,7 @@
                     with glasses of champagne. She takes a glass without stopping and drinks it "in
                     one" as she moves away.</stage>
             </div>
-            <div type="scene" n="9">
+            <div type="scene" n="9" xml:id="T9">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BALLROOM</stage>
@@ -1239,7 +1239,7 @@
                 </sp>
                 <stage type="setting">They exchange friendly pats as Nick goes.</stage>
             </div>
-            <div type="scene" n="10">
+            <div type="scene" n="10" xml:id="T10">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ANTE-ROOM</stage>
@@ -1335,7 +1335,7 @@
                 </sp>
                 <stage type="setting">ALICE thinks for a moment then offers her arm to SZAVOST.</stage>
             </div>
-            <div type="scene" n="11">
+            <div type="scene" n="11" xml:id="T11">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BALLROOM</stage>
@@ -1441,7 +1441,7 @@
                     <p>As good as that.</p>
                 </sp>
             </div>
-            <div type="scene" n="12">
+            <div type="scene" n="12" xml:id="T12">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ANTE-ROOM</stage>
@@ -1554,7 +1554,7 @@
                     <p>Well that is the kind of hero I can be ... sometimes.</p>
                 </sp>
             </div>
-            <div type="scene" n="13">
+            <div type="scene" n="13" xml:id="T13">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BALLROOM</stage>
@@ -1596,7 +1596,7 @@
                     <p>Fascinating.</p>
                 </sp>
             </div>
-            <div type="scene" n="14">
+            <div type="scene" n="14" xml:id="T14">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ANOTHER CORRIDOR</stage>
@@ -1720,7 +1720,7 @@
                 </sp>
                 <stage type="setting">HARRIS leads BILL across the hall and up the marble staircase.</stage>
             </div>
-            <div type="scene" n="15">
+            <div type="scene" n="15" xml:id="T15">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BATHROOM</stage>
@@ -1853,7 +1853,7 @@
                         me. Look at me. Look at me, Mandy. Good. Good.</p>
                 </sp>
             </div>
-            <div type="scene" n="16">
+            <div type="scene" n="16" xml:id="T16">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BALLROOM</stage>
@@ -1928,7 +1928,7 @@
                     <p>Maybe ... not just ... now.</p>
                 </sp>
             </div>
-            <div type="scene" n="17">
+            <div type="scene" n="17" xml:id="T17">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BATHROOM</stage>
@@ -2110,7 +2110,7 @@
                     <p>Of course.</p>
                 </sp>
             </div>
-            <div type="scene" n="18">
+            <div type="scene" n="18" xml:id="T18">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BALLROOM</stage>
@@ -2212,7 +2212,7 @@
                     kisses her index finger and plants it on SZAVOST's lips as she leaves him on the
                     dance floor.</stage>
             </div>
-            <div type="scene" n="19">
+            <div type="scene" n="19" xml:id="T19">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -2226,7 +2226,7 @@
                     and putting her arms around him. They kiss. ALICE looks at herself in the mirror
                     as BILL kisses her neck and shoulder.</stage>
             </div>
-            <div type="scene" n="20">
+            <div type="scene" n="20" xml:id="T20">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">RECEPTION</stage>
@@ -2284,7 +2284,7 @@
                     <p>Good morning, doctor.</p>
                 </sp>
             </div>
-            <div type="scene" n="21">
+            <div type="scene" n="21" xml:id="T21">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">KITCHEN</stage>
@@ -2295,7 +2295,7 @@
                     dressed in a morning gown. HELENA, still in her night clothes, eats breakfast
                     while watching television.</stage>
             </div>
-            <div type="scene" n="22">
+            <div type="scene" n="22" xml:id="T22">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">EXAMINATION ROOM</stage>
@@ -2313,7 +2313,7 @@
                     <p>OK. That's fine. You can put your gown on.</p>
                 </sp>
             </div>
-            <div type="scene" n="23">
+            <div type="scene" n="23" xml:id="T23">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">HELENA'S BEDROOM</stage>
@@ -2334,7 +2334,7 @@
                 <stage type="setting">HELENA takes the brush as ALICE arranges her daughter's hair
                     in a pony tail.</stage>
             </div>
-            <div type="scene" n="24">
+            <div type="scene" n="24" xml:id="T24">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">EXAMINATION ROOM</stage>
@@ -2370,7 +2370,7 @@
                     <p>Yeah.</p>
                 </sp>
             </div>
-            <div type="scene" n="25">
+            <div type="scene" n="25" xml:id="T25">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">DRESSING ROOM</stage>
@@ -2379,7 +2379,7 @@
                 </head>
                 <stage type="setting">ALICE is naked. She puts on a bra.</stage>
             </div>
-            <div type="scene" n="26">
+            <div type="scene" n="26" xml:id="T26">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">EXAMINATION ROOM</stage>
@@ -2402,7 +2402,7 @@
                     <p>Yeah.</p>
                 </sp>
             </div>
-            <div type="scene" n="27">
+            <div type="scene" n="27" xml:id="T27">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BATHROOM</stage>
@@ -2412,7 +2412,7 @@
                 <stage type="setting">ALICE, in skirt and bra, rolls deodorant under her arms as
                     HELENA cleans her teeth.</stage>
             </div>
-            <div type="scene" n="28">
+            <div type="scene" n="28" xml:id="T28">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">LIVING ROOM</stage>
@@ -2429,7 +2429,7 @@
                     <p>Oh, daddy's gonna like that ... a very good choice.</p>
                 </sp>
             </div>
-            <div type="scene" n="29">
+            <div type="scene" n="29" xml:id="T29">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">HELENA'S BEDROOM</stage>
@@ -2447,7 +2447,7 @@
                     <p>Before me, when I jump into my bed.</p>
                 </sp>
             </div>
-            <div type="scene" n="30">
+            <div type="scene" n="30" xml:id="T30">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">LIVING ROOM</stage>
@@ -2492,7 +2492,7 @@
                     <p>Oh, oh ... let's do that tomorrow.</p>
                 </sp>
             </div>
-            <div type="scene" n="31">
+            <div type="scene" n="31" xml:id="T31">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BATHROOM</stage>
@@ -2504,7 +2504,7 @@
                     packet of cigarette papers and a polythene bag of grass (marijuana). She leaves
                     the bathroom.</stage>
             </div>
-            <div type="scene" n="32">
+            <div type="scene" n="32" xml:id="T32">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -2513,7 +2513,7 @@
                 </head>
                 <stage type="setting">ALICE rolls a joint.</stage>
             </div>
-            <div type="scene" n="33">
+            <div type="scene" n="33" xml:id="T33">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -3089,7 +3089,7 @@
                     <p>Lou Nathanson just died. I'm gonna have to go over there and show my face.</p>
                 </sp>
             </div>
-            <div type="scene" n="34">
+            <div type="scene" n="34" xml:id="T34">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">TAXI CAB</stage>
@@ -3097,7 +3097,7 @@
                 </head>
                 <stage type="setting">BILL sits in the cab thinking about what ALICE has told him.</stage>
             </div>
-            <div type="scene" n="35">
+            <div type="scene" n="35" xml:id="T35">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ROOM</stage>
@@ -3107,7 +3107,7 @@
                 <stage type="setting">BILL, in his jealousy, fantasises about ALICE and the NAVAL
                     OFFICER making love.</stage>
             </div>
-            <div type="scene" n="36">
+            <div type="scene" n="36" xml:id="T36">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">TAXI CAB</stage>
@@ -3115,7 +3115,7 @@
                 </head>
                 <stage type="setting">BILL continues to torture himself with ALICE's confession.</stage>
             </div>
-            <div type="scene" n="37">
+            <div type="scene" n="37" xml:id="T37">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">LOBBY</stage>
@@ -3125,7 +3125,7 @@
                 <stage type="setting">The elevator door opens and BILL comes out. He walks across
                     the elegant, art deco lobby and presses a doorbell.</stage>
             </div>
-            <div type="scene" n="38">
+            <div type="scene" n="38" xml:id="T38">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">HALLWAY</stage>
@@ -3186,7 +3186,7 @@
                 </sp>
                 <stage type="setting">BILL goes into the room.</stage>
             </div>
-            <div type="scene" n="39">
+            <div type="scene" n="39" xml:id="T39">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -3475,7 +3475,7 @@
                 </sp>
                 <stage type="setting">She gets up, leaving BILL to sit and ponder what has happened.</stage>
             </div>
-            <div type="scene" n="40">
+            <div type="scene" n="40" xml:id="T40">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">HALLWAY</stage>
@@ -3533,7 +3533,7 @@
                     <p>Come in.</p>
                 </sp>
             </div>
-            <div type="scene" n="41">
+            <div type="scene" n="41" xml:id="T41">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -3651,7 +3651,7 @@
                 <stage type="setting">CARL shows BILL out and MARION is left in a state of
                     confusion.</stage>
             </div>
-            <div type="scene" n="42">
+            <div type="scene" n="42" xml:id="T42">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">STREET</stage>
@@ -3660,7 +3660,7 @@
                 </head>
                 <stage type="setting">Cabs, night life, a few pedestrians.</stage>
             </div>
-            <div type="scene" n="43">
+            <div type="scene" n="43" xml:id="T43">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">ANOTHER STREET</stage>
@@ -3670,7 +3670,7 @@
                 <stage type="setting">BILL walks aimlessly along the street. He sees a young couple
                     up against a shop front kissing passionately, oblivious of all around them.</stage>
             </div>
-            <div type="scene" n="44">
+            <div type="scene" n="44" xml:id="T44">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ROOM</stage>
@@ -3680,7 +3680,7 @@
                 <stage type="setting">The taunting fantasy image of ALICE and the NAVAL OFFICER
                     making love returns to haunt BILL.</stage>
             </div>
-            <div type="scene" n="45">
+            <div type="scene" n="45" xml:id="T45">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">ANOTHER STREET</stage>
@@ -3721,7 +3721,7 @@
                     him about his sexuality. BILL stands and angrily stares at them then, as they
                     continue down the street shouting their insults, he finally turns and walks on.</stage>
             </div>
-            <div type="scene" n="46">
+            <div type="scene" n="46" xml:id="T46">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">ANOTHER STREET</stage>
@@ -3851,7 +3851,7 @@
                 </sp>
                 <stage type="setting">DOMINO gently pulls him up the stoop to the front door.</stage>
             </div>
-            <div type="scene" n="47">
+            <div type="scene" n="47" xml:id="T47">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">LOBBY</stage>
@@ -3861,7 +3861,7 @@
                 <stage type="setting">DOMINO leads BILL across the small, dingy lobby to a door on
                     the ground floor. She unlocks the door and they enter.</stage>
             </div>
-            <div type="scene" n="48">
+            <div type="scene" n="48" xml:id="T48">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">DOMINO APARTMENT</stage>
@@ -3980,7 +3980,7 @@
                     <p>Don't worry, I don't keep track of the time.</p>
                 </sp>
             </div>
-            <div type="scene" n="49">
+            <div type="scene" n="49" xml:id="T49">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">KITCHEN</stage>
@@ -3990,7 +3990,7 @@
                 <stage type="setting">ALICE sits eating cookies and smoking a cigarette while
                     watching television. She is dressed in her blue silk dressing gown.</stage>
             </div>
-            <div type="scene" n="50">
+            <div type="scene" n="50" xml:id="T50">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -4028,7 +4028,7 @@
                     <p>Hello?</p>
                 </sp>
             </div>
-            <div type="scene" n="51">
+            <div type="scene" n="51" xml:id="T51">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">KITCHEN</stage>
@@ -4042,7 +4042,7 @@
                     <p>Hi....</p>
                 </sp>
             </div>
-            <div type="scene" n="52">
+            <div type="scene" n="52" xml:id="T52">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -4058,7 +4058,7 @@
                     <p>Hi. Is everything all right?</p>
                 </sp>
             </div>
-            <div type="scene" n="53">
+            <div type="scene" n="53" xml:id="T53">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">KITCHEN</stage>
@@ -4075,7 +4075,7 @@
                         much longer?</p>
                 </sp>
             </div>
-            <div type="scene" n="54">
+            <div type="scene" n="54" xml:id="T54">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -4092,7 +4092,7 @@
                         could be a while.</p>
                 </sp>
             </div>
-            <div type="scene" n="55">
+            <div type="scene" n="55" xml:id="T55">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">KITCHEN</stage>
@@ -4108,7 +4108,7 @@
                     <p>Any idea how long?</p>
                 </sp>
             </div>
-            <div type="scene" n="56">
+            <div type="scene" n="56" xml:id="T56">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -4124,7 +4124,7 @@
                     <p>No, I don't really know. We're still waiting for some relatives to arrive.</p>
                 </sp>
             </div>
-            <div type="scene" n="57">
+            <div type="scene" n="57" xml:id="T57">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">KITCHEN</stage>
@@ -4140,7 +4140,7 @@
                     <p>Well, I'm ... I'm gonna go to bed now.</p>
                 </sp>
             </div>
-            <div type="scene" n="58">
+            <div type="scene" n="58" xml:id="T58">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -4275,7 +4275,7 @@
                     <p>Well, thank you very much.</p>
                 </sp>
             </div>
-            <div type="scene" n="59">
+            <div type="scene" n="59" xml:id="T59">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">ANOTHER STREET</stage>
@@ -4295,7 +4295,7 @@
                     <p>Thank you.</p>
                 </sp>
             </div>
-            <div type="scene" n="60">
+            <div type="scene" n="60" xml:id="T60">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">CAFE SONATA</stage>
@@ -4843,7 +4843,7 @@
                         gonna get a costume at this hour of the morning?</p>
                 </sp>
             </div>
-            <div type="scene" n="61">
+            <div type="scene" n="61" xml:id="T61">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">ANOTHER STREET</stage>
@@ -4941,7 +4941,7 @@
                 <stage type="setting">The man is middle-aged, has a beard and long hair and wears a
                     dressing gown. This is MILICH.</stage>
             </div>
-            <div type="scene" n="62">
+            <div type="scene" n="62" xml:id="T62">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">HALLWAY</stage>
@@ -5087,7 +5087,7 @@
                     <p>OK.</p>
                 </sp>
             </div>
-            <div type="scene" n="63">
+            <div type="scene" n="63" xml:id="T63">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">MAIN AREA</stage>
@@ -5156,7 +5156,7 @@
                 </sp>
                 <stage type="setting">MILICH leads BILL into another room of the shop.</stage>
             </div>
-            <div type="scene" n="64">
+            <div type="scene" n="64" xml:id="T64">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">INNER ROOM</stage>
@@ -5588,7 +5588,7 @@
                 <stage type="setting">The DAUGHTER slowly leaves the room, giving BILL a suggestive
                     look as she goes. BILL looks at her perplexed.</stage>
             </div>
-            <div type="scene" n="65">
+            <div type="scene" n="65" xml:id="T65">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">TAXI CAB</stage>
@@ -5597,7 +5597,7 @@
                 </head>
                 <stage type="setting">A taxi speeds over the bridge.</stage>
             </div>
-            <div type="scene" n="66">
+            <div type="scene" n="66" xml:id="T66">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">TAXI CAB</stage>
@@ -5605,7 +5605,7 @@
                 </head>
                 <stage type="setting">BILL sits in the cab alone with his churning thoughts.</stage>
             </div>
-            <div type="scene" n="67">
+            <div type="scene" n="67" xml:id="T67">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ROOM</stage>
@@ -5615,7 +5615,7 @@
                 <stage type="setting">BILL's relentless fantasy returns as he imagines the NAVAL
                     OFFICER and his wife making love.</stage>
             </div>
-            <div type="scene" n="68">
+            <div type="scene" n="68" xml:id="T68">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">TAXI CAB</stage>
@@ -5624,7 +5624,7 @@
                 <stage type="setting">BILL closes his eyes as if to shut out the thought of his wife
                     with another man.</stage>
             </div>
-            <div type="scene" n="69">
+            <div type="scene" n="69" xml:id="T69">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">TAXI CAB</stage>
@@ -5634,7 +5634,7 @@
                 <stage type="setting">BILL's view from the cab as it swings off the bridge and onto
                     a link road which will take it through the suburbs and out to the country.</stage>
             </div>
-            <div type="scene" n="70">
+            <div type="scene" n="70" xml:id="T70">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">TAXI CAB</stage>
@@ -5644,7 +5644,7 @@
                 <stage type="setting">The taxi drives through the suburbs. Festive illuminations
                     strung across the road proclaim "HAPPY HOLIDAY."</stage>
             </div>
-            <div type="scene" n="71">
+            <div type="scene" n="71" xml:id="T71">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">TAXI CAB</stage>
@@ -5653,7 +5653,7 @@
                 </head>
                 <stage type="setting">The cab proceeds down a tree-lined country road.</stage>
             </div>
-            <div type="scene" n="72">
+            <div type="scene" n="72" xml:id="T72">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">TAXI CAB</stage>
@@ -5661,7 +5661,7 @@
                 </head>
                 <stage type="setting">BILL looks out to see where he is.</stage>
             </div>
-            <div type="scene" n="73">
+            <div type="scene" n="73" xml:id="T73">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">TAXI CAB</stage>
@@ -5673,7 +5673,7 @@
                     of them. A sign shows the name of the house as "Somerton." The two men watch the
                     cab closely.</stage>
             </div>
-            <div type="scene" n="74">
+            <div type="scene" n="74" xml:id="T74">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="primary_location">ENTRY GATES</stage>
@@ -5681,7 +5681,7 @@
                 </head>
                 <stage type="setting">The taxi slows to a halt.</stage>
             </div>
-            <div type="scene" n="75">
+            <div type="scene" n="75" xml:id="T75">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">TAXI CAB</stage>
@@ -5741,7 +5741,7 @@
                 <stage type="setting">The TAXI DRIVER takes one half of the $100 note and BILL gets
                     out of the cab.</stage>
             </div>
-            <div type="scene" n="76">
+            <div type="scene" n="76" xml:id="T76">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="primary_location">ENTRY GATES</stage>
@@ -5808,7 +5808,7 @@
                 <stage type="setting">The GATEMAN gestures to a vehicle on the other side of the
                     gates.</stage>
             </div>
-            <div type="scene" n="77">
+            <div type="scene" n="77" xml:id="T77">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="primary_location">"SOMERTON"</stage>
@@ -5819,7 +5819,7 @@
                     BILL drives up and stops. BILL steps out and then walks up to the front door
                     which is opened for him. BILL enters the house.</stage>
             </div>
-            <div type="scene" n="78">
+            <div type="scene" n="78" xml:id="T78">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">PILLARED HALLWAY</stage>
@@ -5873,7 +5873,7 @@
                     head as he walks towards another door which is opened for him by a MASKED MAN.
                     BILL enters.</stage>
             </div>
-            <div type="scene" n="79">
+            <div type="scene" n="79" xml:id="T79">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">ANTE-ROOM/MARBLE HALL "SOMERTON"</stage>
@@ -5928,7 +5928,7 @@
                 <stage type="setting">She gently places her hand on his shoulder as she leans
                     forward to "kiss" him. Then she leads BILL by the hand out of the hall.</stage>
             </div>
-            <div type="scene" n="80">
+            <div type="scene" n="80" xml:id="T80">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">RED CARPETED CORRIDOR "SOMERTON"</stage>
@@ -5995,7 +5995,7 @@
                     staircase. She
                     looks back at BILL who is left wondering what is going on in the house.</stage>
             </div>
-            <div type="scene" n="81">
+            <div type="scene" n="81" xml:id="T81">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BALCONIED HALLWAY</stage>
@@ -6009,7 +6009,7 @@
                     end of the room a naked man eases a woman in an elegant dress on to a polished
                     table. He begins fucking her, unaware of BILL who passes closely by.</stage>
             </div>
-            <div type="scene" n="82">
+            <div type="scene" n="82" xml:id="T82">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">LONG TABLE ROOM</stage>
@@ -6022,7 +6022,7 @@
                     sensuously caressing each other's bodies. Gathered around the table are masked
                     voyeurs enjoying the spectacle. BILL continues through the house.</stage>
             </div>
-            <div type="scene" n="83">
+            <div type="scene" n="83" xml:id="T83">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ANTE-ROOM/LIBRARY</stage>
@@ -6087,7 +6087,7 @@
                 <stage type="setting">The MYSTERIOUS WOMAN takes BILL by the hand and leads him out
                     of the library.</stage>
             </div>
-            <div type="scene" n="84">
+            <div type="scene" n="84" xml:id="T84">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">SMALL HALL</stage>
@@ -6220,7 +6220,7 @@
                 </sp>
                 <stage type="setting">He gestures BILL to follow him and they leave the room.</stage>
             </div>
-            <div type="scene" n="85">
+            <div type="scene" n="85" xml:id="T85">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">LARGE PALM-LINED HALL "SOMERTON"</stage>
@@ -6230,7 +6230,7 @@
                     Nightingale, still blindfolded, is led through the room and away down a
                     corridor.</stage>
             </div>
-            <div type="scene" n="86">
+            <div type="scene" n="86" xml:id="T86">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">RED CARPETED CORRIDOR "SOMERTON"</stage>
@@ -6414,7 +6414,7 @@
                         no turning back. Go!</p>
                 </sp>
             </div>
-            <div type="scene" n="87">
+            <div type="scene" n="87" xml:id="T87">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">BILL &amp; ALICE'S APARTMENT</stage>
@@ -6427,7 +6427,7 @@
                     does, and into his study. He unlocks a cupboard and hides the bag with his
                     costume there.</stage>
             </div>
-            <div type="scene" n="88">
+            <div type="scene" n="88" xml:id="T88">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -6605,7 +6605,7 @@
                 <stage type="setting">She weeps and caresses BILL who is perplexed and sits not
                     knowing what to feel about what she has told him.</stage>
             </div>
-            <div type="scene" n="89">
+            <div type="scene" n="89" xml:id="T89">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">STREET</stage>
@@ -6614,7 +6614,7 @@
                 </head>
                 <stage type="setting">The following morning. A street full of traffic. Crowds.</stage>
             </div>
-            <div type="scene" n="90">
+            <div type="scene" n="90" xml:id="T90">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="primary_location">CAFE SONATA</stage>
@@ -6634,7 +6634,7 @@
                 <stage type="setting">He wonders what to do. He looks around and sees that
                     Gillespie's Coffee Shop next door is open. He goes inside.</stage>
             </div>
-            <div type="scene" n="91">
+            <div type="scene" n="91" xml:id="T91">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">GILLESPIE'S COFFEE SHOP</stage>
@@ -6752,7 +6752,7 @@
                         And I know he'll wanna know about them as soon as possible.</p>
                 </sp>
             </div>
-            <div type="scene" n="92">
+            <div type="scene" n="92" xml:id="T92">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">ANOTHER STREET</stage>
@@ -6763,7 +6763,7 @@
                     pedestrians. BILL, carrying his bag, walks up the street and comes to the Hotel
                     Jason. He goes in.</stage>
             </div>
-            <div type="scene" n="93">
+            <div type="scene" n="93" xml:id="T93">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">LOBBY</stage>
@@ -7026,7 +7026,7 @@
                 </sp>
                 <stage type="setting">BILL leaves the Hotel Jason.</stage>
             </div>
-            <div type="scene" n="94">
+            <div type="scene" n="94" xml:id="T94">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="primary_location">STREET- GREENWICH VILLAGE</stage>
@@ -7036,7 +7036,7 @@
                     the costume the night before. BILL gets out the cab with his bag and ascends the
                     stoop.</stage>
             </div>
-            <div type="scene" n="95">
+            <div type="scene" n="95" xml:id="T95">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">RAINBOW FASHIONS</stage>
@@ -7219,7 +7219,7 @@
                 </sp>
                 <stage type="setting">BILL is left speechless at this invitation.</stage>
             </div>
-            <div type="scene" n="96">
+            <div type="scene" n="96" xml:id="T96">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">AVENUE</stage>
@@ -7228,7 +7228,7 @@
                 </head>
                 <stage type="setting">A busy avenue with office blocks in mid-town Manhattan.</stage>
             </div>
-            <div type="scene" n="97">
+            <div type="scene" n="97" xml:id="T97">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">PRIVATE OFFICE</stage>
@@ -7237,7 +7237,7 @@
                 </head>
                 <stage type="setting">BILL, in his white doctor's coat, sits deep in thought.</stage>
             </div>
-            <div type="scene" n="98">
+            <div type="scene" n="98" xml:id="T98">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ROOM</stage>
@@ -7247,7 +7247,7 @@
                 <stage type="setting">BILL continues to brood over the fantasy of ALICE making love
                     with the NAVAL OFFICER.</stage>
             </div>
-            <div type="scene" n="99">
+            <div type="scene" n="99" xml:id="T99">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">PRIVATE OFFICE</stage>
@@ -7337,7 +7337,7 @@
                     <p>Sure.</p>
                 </sp>
             </div>
-            <div type="scene" n="100">
+            <div type="scene" n="100" xml:id="T100">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">RANGE ROVER</stage>
@@ -7346,7 +7346,7 @@
                 </head>
                 <stage type="setting">BILL's Range Rover speeds over the bridge.</stage>
             </div>
-            <div type="scene" n="101">
+            <div type="scene" n="101" xml:id="T101">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">RANGE ROVER</stage>
@@ -7354,7 +7354,7 @@
                 </head>
                 <stage type="setting">BILL continues driving over the bridge.</stage>
             </div>
-            <div type="scene" n="102">
+            <div type="scene" n="102" xml:id="T102">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">RANGE ROVER</stage>
@@ -7363,7 +7363,7 @@
                 </head>
                 <stage type="setting">BILL's Range Rover on its way through the suburbs.</stage>
             </div>
-            <div type="scene" n="103">
+            <div type="scene" n="103" xml:id="T103">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="primary_location">COUNTRY ROAD</stage>
@@ -7390,7 +7390,7 @@
                 <stage type="setting">BILL thinks long and hard about this warning and what it
                     implies. He turns away from the gates to go back to his car.</stage>
             </div>
-            <div type="scene" n="104">
+            <div type="scene" n="104" xml:id="T104">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="primary_location">BILL &amp; ALICE'S APARTMENT</stage>
@@ -7398,7 +7398,7 @@
                 </head>
                 <stage type="setting">Night time traffic. Illuminations. People walking about.</stage>
             </div>
-            <div type="scene" n="105">
+            <div type="scene" n="105" xml:id="T105">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">BILL &amp; ALICE'S APARTMENT</stage>
@@ -7638,7 +7638,7 @@
                 <stage type="setting">While BILL can hear her voice in his head ALICE gives him a
                     look full of love and affection. BILL responds with a forced smile.</stage>
             </div>
-            <div type="scene" n="106">
+            <div type="scene" n="106" xml:id="T106">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">RECEPTION AREA</stage>
@@ -7648,7 +7648,7 @@
                 <stage type="setting">The Christmas lights illuminate the area. At the end of the
                     reception we see a door ajar and light coming through it.</stage>
             </div>
-            <div type="scene" n="107">
+            <div type="scene" n="107" xml:id="T107">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">PRIVATE OFFICE</stage>
@@ -7657,7 +7657,7 @@
                 </head>
                 <stage type="setting">BILL sits staring at the telephone.</stage>
             </div>
-            <div type="scene" n="108">
+            <div type="scene" n="108" xml:id="T108">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ROOM</stage>
@@ -7667,7 +7667,7 @@
                 <stage type="setting">The thought of ALICE making love with the NAVAL OFFICER
                     invades BILL's mind again.</stage>
             </div>
-            <div type="scene" n="109">
+            <div type="scene" n="109" xml:id="T109">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">PRIVATE OFFICE</stage>
@@ -7677,7 +7677,7 @@
                 <stage type="setting">BILL, still staring at his phone, decides to act. He picks up
                     the receiver and punches in a number.</stage>
             </div>
-            <div type="scene" n="110">
+            <div type="scene" n="110" xml:id="T110">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">HALLWAY</stage>
@@ -7692,7 +7692,7 @@
                     <p>Hello? Hello? Hello?</p>
                 </sp>
             </div>
-            <div type="scene" n="111">
+            <div type="scene" n="111" xml:id="T111">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">PRIVATE OFFICE</stage>
@@ -7702,7 +7702,7 @@
                 <stage type="setting">BILL is disappointed at heanng CARL's voice. He had been
                     expecting MARION to answer.</stage>
             </div>
-            <div type="scene" n="112">
+            <div type="scene" n="112" xml:id="T112">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">HALLWAY-NATHANSON APARTMENT</stage>
@@ -7710,7 +7710,7 @@
                 </head>
                 <stage type="setting">CARL is still trying to get a response from the telephone.</stage>
             </div>
-            <div type="scene" n="113">
+            <div type="scene" n="113" xml:id="T113">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">PRIVATE OFFICE</stage>
@@ -7720,7 +7720,7 @@
                 <stage type="setting">BILL thinks for a moment, then puts the phone down. He is
                     clearly troubled.</stage>
             </div>
-            <div type="scene" n="114">
+            <div type="scene" n="114" xml:id="T114">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="primary_location">DOMINO APARTMENT BUILDING</stage>
@@ -7740,7 +7740,7 @@
                     walks up the stoop to the front door. He stands aside to let a parcel-laden lady
                     go by, then goes irz. through the front door.</stage>
             </div>
-            <div type="scene" n="115">
+            <div type="scene" n="115" xml:id="T115">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">LOBBY</stage>
@@ -7875,7 +7875,7 @@
                 </sp>
                 <stage type="setting">BILL enters the apartment.</stage>
             </div>
-            <div type="scene" n="116">
+            <div type="scene" n="116" xml:id="T116">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">DOMINO APARTMENT</stage>
@@ -8106,7 +8106,7 @@
                     <p>No thank you. I think erh . .. maybe I had better be going.</p>
                 </sp>
             </div>
-            <div type="scene" n="117">
+            <div type="scene" n="117" xml:id="T117">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">STREET</stage>
@@ -8116,7 +8116,7 @@
                 <stage type="setting">It is deserted, but for a passing car, as we see BILL slowly
                     walking down the street.</stage>
             </div>
-            <div type="scene" n="118">
+            <div type="scene" n="118" xml:id="T118">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">ANOTHER STREET</stage>
@@ -8128,7 +8128,7 @@
                     distance on the opposite side of the street. BILL realizes he is being followed.
                     This is the STALKER.</stage>
             </div>
-            <div type="scene" n="119">
+            <div type="scene" n="119" xml:id="T119">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">ANOTHER STREET</stage>
@@ -8170,7 +8170,7 @@
                 <stage type="setting">BILL turns and walks down the street. He sees Sharkey's Cafe
                     and welcomes the security the company of other people will afford him.</stage>
             </div>
-            <div type="scene" n="120">
+            <div type="scene" n="120" xml:id="T120">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">PASSAGEWAY</stage>
@@ -8179,7 +8179,7 @@
                 </head>
                 <stage type="setting">BILL walks up the stairs and into the cafe.</stage>
             </div>
-            <div type="scene" n="121">
+            <div type="scene" n="121" xml:id="T121">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">SHARKEY'S CAFE</stage>
@@ -8209,7 +8209,7 @@
                     which reads, EX-BEAUTY QUEEN IN HOTEL DRUGS OVERDOSE. He reads the article in
                     dread of what it seems to be revealing.</stage>
             </div>
-            <div type="scene" n="122">
+            <div type="scene" n="122" xml:id="T122">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="secondary_location">HOSPITAL</stage>
@@ -8219,7 +8219,7 @@
                 <stage type="setting">A busy Manhattan general hospital: ambulances, cars, staff and
                     public.</stage>
             </div>
-            <div type="scene" n="123">
+            <div type="scene" n="123" xml:id="T123">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">MAIN ENTRANCE</stage>
@@ -8327,7 +8327,7 @@
                     <p>Yes, at three-forty-five p.m. I'm sorry.</p>
                 </sp>
             </div>
-            <div type="scene" n="124">
+            <div type="scene" n="124" xml:id="T124">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">CORRIDOR</stage>
@@ -8336,7 +8336,7 @@
                 </head>
                 <stage type="setting">BILL follows an ORDERLY down the corridor.</stage>
             </div>
-            <div type="scene" n="125">
+            <div type="scene" n="125" xml:id="T125">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">MORGUE</stage>
@@ -8354,7 +8354,7 @@
                     It's as if he were going to kiss her. He stops short and slowly pulls back until
                     he is looking down at her face.</stage>
             </div>
-            <div type="scene" n="126">
+            <div type="scene" n="126" xml:id="T126">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">ANOTHER CORRIDOR</stage>
@@ -8373,7 +8373,7 @@
                         please, tell him that. I'll be there in about twenty minutes ... OK?</p>
                 </sp>
             </div>
-            <div type="scene" n="127">
+            <div type="scene" n="127" xml:id="T127">
                 <head type="scene_heading">
                     <stage type="environment">EXT.</stage>
                     <stage type="primary_location">ZIEGLER MANSION</stage>
@@ -8381,7 +8381,7 @@
                 </head>
                 <stage type="setting">Lights burning in most rooms. Night traffic.</stage>
             </div>
-            <div type="scene" n="128">
+            <div type="scene" n="128" xml:id="T128">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">CORRIDOR/HALL</stage>
@@ -8392,7 +8392,7 @@
                     corridor and across the hall. Not a word is spoken. They come to a door and
                     HARRIS knocks on it.</stage>
             </div>
-            <div type="scene" n="129">
+            <div type="scene" n="129" xml:id="T129">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BILLIARD ROOM</stage>
@@ -9017,7 +9017,7 @@
                     <p>But you know that, don't you?</p>
                 </sp>
             </div>
-            <div type="scene" n="130">
+            <div type="scene" n="130" xml:id="T130">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -9027,7 +9027,7 @@
                 <stage type="setting">The mask that BILL wore at the ball rests an a pillow bathed
                     in moonlight. Next to it lies ALICE asleep.</stage>
             </div>
-            <div type="scene" n="131">
+            <div type="scene" n="131" xml:id="T131">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">HALLWAY</stage>
@@ -9043,7 +9043,7 @@
                     tie. He goes to the fridge and takes out a can of beer. Then he goes to the
                     table, slumps down into a chair and starts to drink.</stage>
             </div>
-            <div type="scene" n="132">
+            <div type="scene" n="132" xml:id="T132">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">BEDROOM</stage>
@@ -9065,7 +9065,7 @@
                     <p>I'll tell you everything. I'll tell you everything.</p>
                 </sp>
             </div>
-            <div type="scene" n="133">
+            <div type="scene" n="133" xml:id="T133">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="secondary_location">LIVING ROOM</stage>
@@ -9087,7 +9087,7 @@
                         Christmas shopping today.</p>
                 </sp>
             </div>
-            <div type="scene" n="134">
+            <div type="scene" n="134" xml:id="T134">
                 <head type="scene_heading">
                     <stage type="environment">INT.</stage>
                     <stage type="primary_location">TOY STORE</stage>
