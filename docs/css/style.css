@@ -264,9 +264,8 @@ footer {
 .tables-containers{
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-evenly;
-    gap: 4vw;
+
 }
 
 .table-container{
@@ -278,10 +277,16 @@ footer {
 }
 
 .table-container > iframe {
-    width: 40vw;
+    width: 35vw;
     min-height: 60vh;
     border: none;
+
 }
+
+.text {
+    width: 60vw;
+}
+
 
 .network {
     background-color: var(--giallino);
@@ -289,8 +294,7 @@ footer {
     color: black;
 }
 
-.bk {
-}
+
 
 .time {
     background-color: white;
