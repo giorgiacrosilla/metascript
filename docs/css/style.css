@@ -6,6 +6,7 @@
     --violetto: #943689;
     --viola: #2a0636;
     --off-black: #060b0f;
+    --violino: #aea7d0;
 }
 
 main {
@@ -59,15 +60,18 @@ h2, h3, h4, h5, .title, .subtitle {
     text-decoration: underline var(--violetto);
 }
 
-section {
-    padding: 2rem 3rem;
+section:not(.comparison-section){
+    padding: 3rem 10rem;
+}
+
+.comparison-section {
+    padding: 3rem 4rem;
 }
 
 .sectitle > h3 {
     text-decoration: underline var(--violetto);
     font-size: 2rem;
     color: #060b0f;
-    margin-bottom: 2rem;
 }
 
 
@@ -83,12 +87,29 @@ p {
 
 .project-introduction-section {
     background-color: var(--verdino);
-    min-height: 80vh;
     color: black;
 }
 
 .mySlides {
-    display: none;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.w3-content {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: none !important;
+    min-height: 110vh;
+    overflow: hidden;
+    position: relative;
 }
 
 .film-introduction-section {
@@ -112,12 +133,29 @@ p {
     color: #060b0f;
 }
 
+.film-introduction > p:not(first-child) {
+    margin-top: 0rem;
+    color: #060b0f;
+}
+
+.subsectitle {
+    color: black;
+    text-decoration: underline var(--violetto);
+}
+
 
 /* cards section */
 
 .texts-introduction-section {
-    background-color: white;
+    background-image: url('../img/klimt.png');
+    background-size: cover;
     min-height: 80vh;
+}
+
+.texts-introduction-section > .sectitle > h3{
+    color: white;
+    text-shadow: 2px 2px 20px black;
+    font-size: 2.3rem;
 }
 
 .cards-container {
@@ -139,10 +177,14 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    background-color: var(--verdino);
+    background-color: #ede0c7;
     color: black;
     text-align: center;
-    border-radius: 1px !important;
+    border-radius: 3px !important;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .card > img {
@@ -160,16 +202,14 @@ p {
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
+    border-radius: 3px !important;
 }
-
 
 .download-xml-button > a {
     text-decoration: none;
     color: white;
 
 }
-
-
 
 /* comparison section */
 
@@ -181,10 +221,6 @@ p {
     color: white;
 }
 
-.subsectitle {
-    color: black;
-    text-decoration: underline var(--violetto);
-}
 
 
 .comparison-container {
@@ -269,7 +305,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    margin-top: 2rem;
 }
 
 .table-container {
@@ -278,6 +314,7 @@ footer {
     align-items: center;
     justify-content: center;
     gap: 1vw;
+    width: 45vw;
 }
 
 .table-container > iframe {
@@ -293,12 +330,26 @@ footer {
     width: 60vw;
 }
 
+.table-text {
+    width: 60vw;
+    flex: 1;
+    max-width: 35vw;
+    padding: 20px;
+    box-sizing: border-box
+}
+
 .network {
     background-color: var(--giallino);
     padding:3%;
     color: black;
 }
 
+.network-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
 
 
 .time {
@@ -312,6 +363,11 @@ footer {
     font-size: 2rem;
     color: #060b0f;
     margin-bottom: 2rem;
+}
+
+.bk {
+    width: 30px !important;
+    height: 30px !important;
 }
 
 
