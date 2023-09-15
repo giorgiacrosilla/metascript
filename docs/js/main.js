@@ -29,24 +29,21 @@ function carousel() {
   }
 }
 
-function plusDivs(n) {
-  showDivs((slideIndex += n));
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = x.length;
-  }
-  for (i = 0; i < x.length; i++) {
-    x[i].style.transition = "left 0.5s"; // Add a transition
-    x[i].style.left = "100%"; // Slide all slides to the right
-  }
-  x[slideIndex - 1].style.left = "0";
+function cardsBackground() {
+  let background = $(".texts-introduction-section");
+  $(".card-left").hover(function() {
+    $(".texts-introduction-section > .sectitle > h3").css("color", "white");
+    background.css("background-image", "url(./img/klimt.png)");
+  });
+  $(".card-middle").hover(function() {
+    background.css("background-image", "url(./img/script96_page.jpg)");
+    $(".texts-introduction-section > .sectitle > h3").css("text-shadow", "none");
+    $(".texts-introduction-section > .sectitle > h3").css("color", "black");
+  });
+  $(".card-right").hover(function() {
+    $(".texts-introduction-section > .sectitle > h3").css("color", "white");
+    background.css("background-image", "url(./img/making-of.png)");
+  });
 }
 
 function parallax() {
@@ -151,7 +148,7 @@ function getSelectedScene() {
 $(document).ready(function () {
   parallax();
   carousel();
+  cardsBackground();
   fetchScreencaps("4");
   sceneSelector();
-  showDivs(slideIndex);
 });
