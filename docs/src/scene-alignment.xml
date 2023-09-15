@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alignment of the narration between book, draft screenplay and transcription. </title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name>Erica Andreose</name>
+                    <name>Giorgia Crosilla</name>
+                    <name>Leonardo Zilli</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Alignment of the narration between book, draft screenplay and transcription.</p>
+            <note>In this comparison we have not added narrative sections that are present only in
+                one of the three texts analyzed. Generally speaking, the comparison is done
+                considering the book first, then the screenplay and the transcription. When only a
+                comparison between two texts is possible, the one in which a correspondence cannot be found is omitted.</note>
+            <linkGrp>
+                <link target="#S2 #T3" />
+                <link target="#B1 #S2 #T4" />
+                <link target="#S7 #T6" />
+                <link target="#S9 #T7 #T9" />
+                <link target="#B2 #S10 #T11 #T12" />
+                <link target="#B2 #T9 #T10" />
+                <link target="#B2 #T5 #T13" />
+                <link target="#S11 #T14 #T15 #T17" />
+                <link target="#B2 #S11 #T18" />
+                <link target="#B3 #S13 #T19" />
+                <link target="#S15 #T28 #T29" />
+                <link target="#B4 #T20 #T21" />
+                <link target="#S17 #T31 #T33" />
+                <link target="#B5 #S17 #T32" />
+                <link target="#B6 #S21 #T38 #T39" />
+                <link target="#B7 #S21 #T41" />
+                <link target="#B8 #S24 #T43 #T45" />
+                <link target="#B9 #S27 #T46" />
+                <link target="#B10 #T47" />
+                <link target="#B10 #S28 #T48 #T50" />
+                <link target="#S28 #T51 #T52 #T53 #T54 #T55 #T56 #T57 #T58" />
+                <link target="#B11 #S30 #T59 #T60" />
+                <link target="#B12 #S31 #T61 #T62" />
+                <link target="#B12 #S32 #T63 #T64" />
+                <link target="#B13 #T60" />
+                <link target="#B14 #T69 #T72 #T73 #T74" />
+                <link target="#S34 #S38 #T75" />
+                <link target="#B15 #S39 #T75 #T76" />
+                <link target="#B16 #T77" />
+                <link target="#B16 #S44 #T78" />
+                <link target="#S44 #T81 #T82 #T85" />
+                <link target="#B17 #S44 #T80" />
+                <link target="#B18 #S44 #T79" />
+                <link target="#B19 #S44 #T83 #T84" />
+                <link target="#B20 #S44 #T86" />
+                <link target="#B21 #T87 #T88" />
+                <link target="#S45 #S46 #T87" />
+                <link target="#S50 #T90 #T91" />
+                <link target="#B22 #T93" />
+                <link target="#B23 #S53 #T95" />
+                <link target="#B24 #T97 #T99" />
+                <link target="#B26 #T99" />
+                <link target="#B25 #S57 #T100" />
+                <link target="#B25 #T101 #T102" />
+                <link target="#B25 #S60 #T103" />
+                <link target="#B26 #S63 #T105" />
+                <link target="#B27 #T107 #T109" />
+                <link target="#S65 #T110" />
+                <link target="#S67 #S68 #S69 #T114" />
+                <link target="#B28 #S70 #T115" />
+                <link target="#B28 #S71 #T116" />
+                <link target="#S72 #T117" />
+                <link target="#S73 #T118" />
+                <link target="#S74 #S75 #T119" />
+                <link target="#B29 #T120" />
+                <link target="#B29 #S76 #T121" />
+                <link target="#B30 #S78 #T123" />
+                <link target="#B30 #S79 #T124" />
+                <link target="#B30 #S80 #T125" />
+                <link target="#S81 #T128 #T129" />
+                <link target="#S82 #T130 #T131" />
+                <link target="#B31 #S82 #T132" />
+                <link target="#B31 #S83 #T133 #T134" />
+            </linkGrp>
+        </body>
+    </text>
+</TEI>

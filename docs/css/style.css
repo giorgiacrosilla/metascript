@@ -231,7 +231,6 @@ p {
 }
 
 .comparison-item {
-    padding: 2vh 0px;
     border-top: 1.2rem solid transparent;
     border-bottom: 6px solid transparent;
     border-left: 2vw solid transparent;
@@ -256,7 +255,6 @@ p {
 }
 
 .comparison-item-central {
-    border-top: 4px solid transparent;
     border-bottom: 6px solid transparent;
     border-left: 2vw solid transparent;
     border-right: 2vw solid transparent;
@@ -268,8 +266,8 @@ p {
 }
 
 div pre {
+    font-family: Courier, 'Courier New', monospace;
     font-size: 0.8rem; 
-    white-space: normal;       /* Since CSS 2.1 */
 }
 
 .image-container {
