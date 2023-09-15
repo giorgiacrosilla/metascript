@@ -12,7 +12,7 @@
                 <availability status="restricted">
                     <licence>Copyright ©1996,1999 Stanley Kubrick &amp; Frederic Raphael, All Rights
                         Reserved</licence>
-                <p>It's a draft, not published.</p>
+                    <p>It's a draft, not published.</p>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -47,7 +47,7 @@
         <profileDesc>
             <creation>
                 <date>1996</date>
-               </creation>
+            </creation>
             <langUsage>
                 <language ident="en">English</language>
             </langUsage>
@@ -260,9 +260,16 @@
             </particDesc>
         </profileDesc>
         <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rico="https://www.ica.org/standards/RiC/ontology#" xmlns:frbr="http://purl.org/vocab/frbr/core#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fabio="http://purl.org/spar/fabio/">
+            <rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#"
+                xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
+                xmlns:frbr="http://purl.org/vocab/frbr/core#"
+                xmlns:bibo="http://purl.org/ontology/bibo/"
+                xmlns:dcterms="http://purl.org/dc/terms/"
+                xmlns:dc="http://purl.org/dc/elements/1.1/"
+                xmlns:fabio="http://purl.org/spar/fabio/">
                 <rdf:Description rdf:about="">
-                    <owl:sameAs rdf:resource="http://www.archiviokubrick.it/opere/film/ews/script/ews-script.html" /> 
+                    <owl:sameAs
+                        rdf:resource="http://www.archiviokubrick.it/opere/film/ews/script/ews-script.html" />
                     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation" />
                     <dc:title>Eyes Wide Shut</dc:title>
                     <dc:creator rdf:resoucer="https://viaf.org/viaf/14772018/">Stanley Kubrick</dc:creator>
@@ -1791,7 +1798,6 @@
                 </div>
             </div>
             <div type="scene" n="18" xml:id="S18">
-
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">MARION'S APARTMENT HOUSE</stage>
@@ -2023,34 +2029,30 @@
                 </div>
             </div>
             <div type="scene" n="22" xml:id="S22">
-                <div type="scene99" n="extra">
-                    <head type="scene_heading">
-                        <stage type="environment">EXT</stage>
-                        <stage type="primary_location">MARION'S APARTMENT</stage>
-                        <stage type="time">NIGHT</stage>
-                    </head>
-                    <stage type="setting">Bill walks outside. It has become even milder. A gentle
-                        breeze
-                        carries
-                        [illegible] from the nearby park to the street. BILL inhales the fresh air.</stage>
-                    <sp who="DOORMAN" toWhom="BILL">
-                        <speaker>DOORMAN</speaker>
-                        <p>Taxi?</p>
-                    </sp>
-                    <sp who="BILL" toWhom="DOORMAN">
-                        <speaker>BILL</speaker>
-                        <p>No thanks. I think I'll walk for a bit.</p>
-                    </sp>
-                </div>
+                <head type="scene_heading">
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">MARION'S APARTMENT</stage>
+                    <stage type="time">NIGHT</stage>
+                </head>
+                <stage type="setting">Bill walks outside. It has become even milder. A gentle
+                    breeze
+                    carries
+                    [illegible] from the nearby park to the street. BILL inhales the fresh air.</stage>
+                <sp who="DOORMAN" toWhom="BILL">
+                    <speaker>DOORMAN</speaker>
+                    <p>Taxi?</p>
+                </sp>
+                <sp who="BILL" toWhom="DOORMAN">
+                    <speaker>BILL</speaker>
+                    <p>No thanks. I think I'll walk for a bit.</p>
+                </sp>
             </div>
             <div type="scene" n="23" xml:id="S23">
-                <div type="scene99" n="extra">
-                    <head type="scene_heading">
-                        <stage type="environment">EXT</stage>
-                        <stage type="primary_location">STREET TO PARK</stage>
-                        <stage type="time">NIGHT</stage>
-                    </head>
-                </div>
+                <head type="scene_heading">
+                    <stage type="environment">EXT</stage>
+                    <stage type="primary_location">STREET TO PARK</stage>
+                    <stage type="time">NIGHT</stage>
+                </head>
             </div>
             <div type="scene" n="24" xml:id="S24">
                 <div type="scene99" n="45">
@@ -4244,7 +4246,6 @@
                 </div>
             </div>
             <div type="scene" n="51" xml:id="S51">
-
                 <head type="scene_heading">
                     <stage type="environment">EXT</stage>
                     <stage type="primary_location">HOTEL JASON</stage>
