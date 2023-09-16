@@ -1,9 +1,16 @@
 #!/bin/bash
-for filename in ./*.png; do
-  echo "${filename}" | cut -d. -f-2
+for filename in ../screencaps_comp/*.png; do
+  base_dir="$(dirname "$filename")"
+  filename="$(basename "$filename")"
+  foldname="$(echo "$filename" | cut -d'.' -f1)"
   if [[ "$filename" == *"SCENE"* ]]; then
-    foldname="$(cut -d. -f-2 <<<$filename)/"
-    echo $foldname
-    mkdir -p "$foldname" && cp "$filename" "$foldname"
+    folder_path="./${foldname}/"
+    if [ ! -d "$folder_path" ]; then
+      echo "Creating folder: $folder_path"
+      mkdir -p "$folder_path" && cp "$base_dir/$filename" "$folder_path"
+    else
+      echo "Folder already exists: $folder_path"
+    fi
   fi
+
 done
