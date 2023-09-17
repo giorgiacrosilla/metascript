@@ -29,20 +29,22 @@ body {
 
 /* navbar */
 
+nav > a > h2 {
+    font-size: 2rem !important;
+}
+
 .nav-link {
     font-family: 'Futura Extra Bold', sans-serif;
     color: white;
     letter-spacing: 2px;
 }
 
-.navbar-brand>h2 {
-    margin-bottom: 0.1rem;
-}
 
 /* cover section */
 
-h1, h2, h3, h4, h5, h6, .title, .subtitle {
+h1, h2, h3, h4, h5, .title, .subtitle {
   font-family: 'Futura Extra Bold', sans-serif !important;
+  margin: 0 !important;
 }
 
 .title-container {
@@ -64,17 +66,18 @@ h1, h2, h3, h4, h5, h6, .title, .subtitle {
 }
 
 section:not(.comparison-section, .texts-introduction-section, .spatial, .network, .time) {
-    padding: 3rem 10rem;
+    padding: 3rem 4rem;
 }
 
 .comparison-section {
     padding: 3rem 4rem;
 }
 
-.sectitle>h3 {
+.sectitle > h3 {
     text-decoration: underline var(--violetto);
     font-size: 2rem;
     color: #060b0f;
+    margin-bottom: 20px !important;
 }
 
 
@@ -93,6 +96,10 @@ p {
     color: black;
 }
 
+.project-introduction {
+    padding: 0 5rem;
+}
+
 .mySlides {
     width: 100%;
     flex-shrink: 0;
@@ -108,14 +115,49 @@ p {
     margin-left: 0 !important;
     margin-right: 0 !important;
     max-width: none !important;
-    min-height: 110vh;
     overflow: hidden;
     position: relative;
 }
 
+.w3-button.w3-black {
+    cursor: pointer;
+    color: #fff!important;
+    background-color: #000!important;
+    user-select: none;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    -webkit-appearance: button;
+    text-transform: none;
+    font: inherit;
+    margin: 0;
+    border-radius: 0;
+}
+
+.w3-display-right {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+}
+
+.w3-display-left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%,-50%);
+}
+
 .film-introduction-section {
     background-color: var(--giallino);
-    min-height: 80vh;
 }
 
 .film-introduction {
@@ -142,6 +184,7 @@ p {
 .subsectitle {
     color: black;
     text-decoration: underline var(--violetto);
+    margin-bottom: 10px;
 }
 
 
@@ -160,20 +203,19 @@ p {
 }
 
 .cards-container {
-    margin: 3rem 10rem;
+    margin: 3vh 10vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 4vw;
-    padding-top: 7vh;
     padding-bottom: 7vh;
 }
 
 .texts-introduction-section > .sectitle {
     position: relative;
     margin-top: 3rem;
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 .bg-image {
@@ -207,6 +249,7 @@ p {
     color: black;
     text-align: center;
     border-radius: 3px !important;
+    padding: 20px;
 }
 
 .card:hover {
@@ -405,11 +448,32 @@ footer {
     section:not(.texts-introduction-section) {
         padding: 40px !important;
     }
+    
+    .project-introduction-section {
+        padding: 0 !important;
+    }
 
     .texts-introduction-section > .sectitle{
         padding: 40px !important;
         padding-bottom: 0 !important;
         margin: 0 !important;
+    }
+
+    .mySlides:nth-child(1), .w3-button {
+        display: none !important;
+    }
+
+    .film-introduction, .project-introduction {
+        padding: 0 !important;
+    }
+
+    .film-introduction > img {
+        width: 35vw !important;
+    }
+
+    .carousel-track {
+        flex-direction: column;
+        transform: none !important;
     }
 
     .texts-introduction-section > .cards-container {
@@ -430,8 +494,8 @@ footer {
     }
 
     .bg-image > img {
-        width: auto;
-        height: 100%;
+        object-fit: cover;
+        height: 160%;
     }
 
     .card > img {

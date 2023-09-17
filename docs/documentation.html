@@ -9,6 +9,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>METASCRIPT</title>
+    <link rel="icon" type="image/x-icon" href="./img/mask.ico">
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
@@ -68,17 +69,16 @@
             grid-template-rows: 1fr auto;
             gap: 0px 0px;
             grid-template-areas: "sidebar content"
-                                "footer" "footer";
-            transition: grid-template-columns 0.3s;
         }
     
-        .grid-item {
+        .content.grid-item {
             padding: 40px !important;
         }
+
     
         .sidebar {
             background-color: var(--giallino);
-            padding: 20px;
+            padding: 40px 10px 40px 10px !important;
         }
     
         .sidebar ul {
@@ -87,7 +87,7 @@
         }
     
         .sidebar ul li {
-            margin: 20px;
+            margin: 10px;
         }
         
         #sidebar-list > li > a {
@@ -122,7 +122,6 @@
         }
 
         footer {
-            display: inline;
         }
     
         @media screen and (max-width: 768px) {
