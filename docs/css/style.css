@@ -68,6 +68,13 @@ h5,
     text-decoration: underline var(--violetto);
 }
 
+section:not(.comparison-section, .spatial, .network, .time) {
+    padding: 3rem 10rem;
+}
+
+.comparison-section {
+    padding: 3rem 4rem;
+}
 
 .sectitle>h3 {
     text-decoration: underline var(--violetto);
@@ -301,7 +308,7 @@ footer {
 
 .spatial {
     background-color: var(--verdino);
-    padding: 3%;
+    padding: 4%;
     color: black;
 }
 
@@ -327,14 +334,13 @@ footer {
     border: none;
 
 }
-
 .text {
-    width: 70vw;
+    max-width: 60vw;
 }
 
 .network {
     background-color: var(--giallino);
-    padding: 3%;
+    padding: 4%;
     color: black;
 }
 
@@ -354,10 +360,9 @@ footer {
     max-width: inherit;
 }
 
-
 .time {
     background-color: white;
-    padding: 3%;
+    padding: 4%;
     color: black;
 }
 
@@ -369,9 +374,6 @@ footer {
     color: #060b0f;
     margin-bottom: 2rem;
 }
-
-
-
 
 /* documentation */
 
