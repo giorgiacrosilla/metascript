@@ -1,48 +1,57 @@
 function carousel() {
   const carouselTrack = document.querySelector(".carousel-track");
-  const slides = document.querySelectorAll(".mySlides");
+  let slides = document.querySelectorAll(".mySlides");
   const prevButton = document.getElementById("prev-button");
   const nextButton = document.getElementById("next-button");
   nextButton.addEventListener("click", nextSlide);
   prevButton.addEventListener("click", prevSlide);
-  let slideIndex = 0;
+  let slideIndex = 1;
   const slideWidth = slides[0].clientWidth;
+  console.log(slides.length, slideIndex)
+  carouselTrack.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
 
   function updateCarousel() {
+    slides = document.querySelectorAll(".mySlides");
     carouselTrack.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
+    console.log(slideIndex, slides[slideIndex], slides.length)
   }
 
   function nextSlide() {
-    slideIndex++;
-    if (slideIndex >= slides.length) {
-      slideIndex = 0;
+    if (slideIndex >= slides.length - 1) {
+      slideClone = slides[slideIndex - 1].cloneNode(true);
+      slides[slideIndex].insertAdjacentElement("afterend", slideClone);
     }
+    slideIndex++;
     updateCarousel();
   }
 
   function prevSlide() {
-    slideIndex--;
-    if (slideIndex < 0) {
-      slideIndex = slides.length - 1;
+    if (slideIndex <= 1) {
+      slideClone = slides[slideIndex].cloneNode(true);
+      slides[slideIndex - 1].insertAdjacentElement("beforebegin", slideClone);
     }
+    slideIndex--;
     updateCarousel();
   }
 }
 
 function cardsBackground() {
-  let background = $(".texts-introduction-section");
+  let bgContainer = $(".bg-image");
   $(".card-left").hover(function() {
     $(".texts-introduction-section > .sectitle > h3").css("color", "white");
-    background.css("background-image", "url(./img/klimt.png)");
+    bgContainer.children().css("opacity", "-1");
+    $("#klimt").css("opacity", "100");
   });
   $(".card-middle").hover(function() {
-    background.css("background-image", "url(./img/script96_page.jpg)");
     $(".texts-introduction-section > .sectitle > h3").css("text-shadow", "none");
     $(".texts-introduction-section > .sectitle > h3").css("color", "black");
+    bgContainer.children().css("opacity", "-1");
+    $("#page").css("opacity", "100");
   });
   $(".card-right").hover(function() {
     $(".texts-introduction-section > .sectitle > h3").css("color", "white");
-    background.css("background-image", "url(./img/making-of.png)");
+    bgContainer.children().css("opacity", "-1");
+    $("#bts").css("opacity", "100");
   });
 }
 
@@ -124,9 +133,6 @@ function fetchAndProcessXML(path, sceneNumbers, container) {
           if (element) {
             const text = element.textContent;
             $(container).append(text.replace(/\n *\n *\n/gm, "<br>"));
-            console.log(text)
-          } else {
-            console.log(`Scene ${sceneId} not found in ${path}`);
           }
         });
       } else {

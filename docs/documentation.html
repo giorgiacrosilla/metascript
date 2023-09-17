@@ -33,11 +33,25 @@
             </ul>
         </div>
     </nav>
-    <main>
-        <section class="sidebar">
-
+    <main class="grid-container">
+        <section class="sidebar grid-item">
+            <ul id="sidebar-list"></ul>
         </section>
-        <section class="content">
+        <section class="content grid-item">
+            <h2>Overview</h2>
+            <p>Vespasiano da Bisticci’s <em>Letters</em> are a series of manuscript letters that were sent to and received by <em>Vespasiano da Bisticci</em> (1421–1498), an Italian humanist and librarian, over a time period spanning from 1444 to 1497. Their content focuses mostly on manuscripts and codex trade with other notable people of that time. From the letters it is possible to learn many relevant features of these manuscripts: materials, copyists, costs, but also names of latin, greek and humanistic authors and texts.</p>
+            <p>A <a href="http://projects.dharc.unibo.it/vespasiano/">knowledge site</a> of the Letters has been developed in order to facilitate the navigation, study and conservation of such documents, as well as to contextualize them in a semantically-rich and metatextual framework.</p>
+            <ul>
+                <li><a href="methodology.html">Methodology</a>: this section explains in detail the methodology used to develop the Knowledge site, which comprises the <strong>development workflow</strong> and the list of <strong>reused models</strong>;</li>
+                <li><a href="components.html">Components</a>: this section explains in detail the structure of the RDF graph by dividing it into <strong>a series of smaller models</strong>;</li>
+                <li><a href="visualization.html">Visualization</a>: this section illustrates some examples of <strong>graphs and charts</strong> to visualize certain aspects of the edition.</li>
+            </ul>
+            <hr>
+            <h2>Test</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, sint. Rem tenetur suscipit eius, doloribus, eveniet numquam non saepe ea sit cupiditate dolor repellendus sapiente nesciunt nemo provident excepturi quaerat.</p>
+            <h3>SubSection</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore numquam hic harum, et reprehenderit doloribus iste sunt voluptatum? Ea sed odio, distinctio omnis consequuntur fuga dolores mollitia sequi iste.</p>
+
 
         </section>
     </main>
@@ -47,6 +61,101 @@
             <h5>©UNIBO 2023</h5>
         </div>
     </footer>
-</body>
+    <style>
+        .grid-container {
+            display: grid !important;
+            grid-template-columns: 0.5fr 3.5fr;
+            grid-template-rows: 1fr auto;
+            gap: 0px 0px;
+            grid-template-areas: "sidebar content"
+                                "footer" "footer";
+            transition: grid-template-columns 0.3s;
+        }
+    
+        .grid-item {
+            padding: 40px !important;
+        }
+    
+        .sidebar {
+            background-color: var(--giallino);
+            padding: 20px;
+        }
+    
+        .sidebar ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+    
+        .sidebar ul li {
+            margin: 20px;
+        }
+        
+        #sidebar-list > li > a {
+            color: black !important;
+            text-decoration: none !important;
+            font-family: 'Playfair Display', serif
+        }
 
-</html>
+        #sidebar-list > li > a:hover {
+            font-weight: bold;
+        }
+    
+        .content {
+            background-color: var(--verdino);
+            color: black;
+        }
+
+        hr {
+            margin: 4rem 0 ;
+        }
+
+        .H3-header {
+            margin-left: 1rem;
+        }
+
+        .H4-header {
+            margin-left: 2rem;
+        }
+
+        .H5-header {
+            margin-left: 3rem;
+        }
+
+        footer {
+            display: inline;
+        }
+    
+        @media screen and (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+    
+            .sidebar {
+                display: none;
+            }
+        }
+    </style>
+    <script>
+        function populateSidebar() {
+            const headings = document.querySelectorAll('.content h1, .content h2, .content h3, .content h4, .content h5, .content h6');
+            const sidebarList = document.getElementById('sidebar-list');
+
+            headings.forEach((heading, index) => {
+                const headingId = `heading-${index}`;
+                const listItem = document.createElement('li');
+                const link = document.createElement('a');
+                link.textContent = heading.textContent;
+                link.href = `#${headingId}`;
+                link.classList.add(heading.tagName + '-header');
+                listItem.appendChild(link);
+                sidebarList.appendChild(listItem);
+                heading.setAttribute('id', headingId);
+            });
+        }
+
+        // Call the function to populate the sidebar when the page loads
+        window.addEventListener('load', populateSidebar);
+    </script>
+    </body>
+    
+    </html>
