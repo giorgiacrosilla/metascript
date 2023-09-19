@@ -266,7 +266,8 @@
                 xmlns:bibo="http://purl.org/ontology/bibo/"
                 xmlns:dcterms="http://purl.org/dc/terms/"
                 xmlns:dc="http://purl.org/dc/elements/1.1/"
-                xmlns:fabio="http://purl.org/spar/fabio/">
+                xmlns:fabio="http://purl.org/spar/fabio/"
+                xmlns:rda="http://rdaregistry.info/Elements/u/P60832">
                 <rdf:Description rdf:about="">
                     <owl:sameAs
                         rdf:resource="http://www.archiviokubrick.it/opere/film/ews/script/ews-script.html" />
@@ -277,6 +278,7 @@
                     <dcterms:date>1996-04-08</dcterms:date>
                     <rico:isDraftOf rdf:resource="https://worldcat.org/title/797726240"></rico:isDraftOf>
                     <rico:isDraftOf rdf:resource="https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut-1999-transcription.xml"></rico:isDraftOf>
+                    <rdau:P60832 rdf:resource="https://github.com/giorgiacrosilla/metascript/blob/main/Arthur%20Schnitzler%20-%20Dream%20Story%20(2003%2C%20Green%20Integer).xml"></rdau:P60832>
                 </rdf:Description>
             </rdf:RDF>
         </xenoData>
