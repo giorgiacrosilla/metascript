@@ -14,7 +14,7 @@
     <link href="css/style.css" rel="stylesheet" />
     <link rel="icon" type="image/x-icon" href="./img/mask.ico">
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 
 </head>
 
@@ -61,7 +61,8 @@
                     <iframe src="https://giorgiacrosilla.altervista.org/screenplay_map.html"
                         title="Iframe Example"></iframe>
                     <div class="text">
-                        <p>In the screenplay adapted from the book, the setting is New York at the end of the XX century. In this adaptation, Kubrick
+                        <p>In the screenplay adapted from the book, the setting is New York at the end of the XX
+                            century. In this adaptation, Kubrick
                             doesn't delve into precise details when describing the locations. He mentions generic
                             locations (i.e. "costume shop") without specifying its exact position. Therefore, we have
                             limited information regarding the geographical location of the scenes.</p>
@@ -79,55 +80,39 @@
                 <div class="containe">
                     <iframe src="https://giorgiacrosilla.altervista.org/Dream_Story_Network.html"
                         title="Iframe Example"></iframe>
-                    <div class="text">
-                        <p></p>
-                    </div>
                 </div>
 
 
                 <div class="containe">
                     <iframe src="https://giorgiacrosilla.altervista.org/Screenplay_1996_Network.html"
                         title="Iframe Example"></iframe>
-                    <div class="text">
-                        <p></p>
-                    </div>
                 </div>
 
                 <div class="containe">
                     <iframe src="https://giorgiacrosilla.altervista.org/Screenplay_1999_Network.html"
                         title="Iframe Example"></iframe>
-                    <div class="text">
-                        <p>this map..........</p>
-                    </div>
                 </div>
             </div>
         </section>
-        <div class="time">
+        <section class="time">
             <h3 class="analysis-title">Time and space analysis</h3>
-            <div class="container">
-                <div class="item">
-                    <div id="chart1"></div>
-                </div>
-                <div class="item">
-                    <div id="chart2"></div>
-                </div>
-            </div>
             <p>This spatiotemporal analysis considers all the director's scene directions in the 1999 transcription and
                 examines the percentage concerning the spatial and temporal setting of the screenplay.</p>
             <p>
                 Click on a slice and visualize related images taken from the movie.</p>
-            <div class="container">
-
-                <div class="item">
-                    <div id="chart"></div>
+            <div class="pie-chart-container">
+                <div class="pie-chart">
+                    <div class="chart" id="chart1"></div>
                 </div>
-                <div class="item">
-                    <div id="image-container" style="display: none;">
-                        <img id="selected-image" src="" alt="Selected Image" style="width: auto; height: 200px;" />
-                    </div>
+                <div class="pie-chart">
+                    <div class="chart" id="chart2"></div>
+                </div>
+                <div class="pie-chart">
+                    <div class="chart" id="chart3"></div>
                 </div>
             </div>
-        </div>
+            <div class="pie-chart-image-container" id="image-container"></div>
+        </section>
     </main>
     <footer>
         <div>
@@ -138,7 +123,7 @@
 </body>
 <script src="js/main.js"></script>
 <script>
-    const data = [{
+    const data1 = [{
         values: [83, 21, 22, 1, 7],
         labels: ['NIGHT,INT', 'NIGHT,EXT', 'DAY,INT', 'MORNING,INT', 'DAY,EXT'],
         type: 'pie',
@@ -148,48 +133,23 @@
         }
     }];
 
-    const layout = {
+    const layout1 = {
         height: 400,
-        width: 500,
+        width: 400,
     };
 
-    Plotly.newPlot('chart', data, layout);
+    Plotly.newPlot('chart1', data1, layout1);
 
-    const chart = document.getElementById('chart');
-    const imageContainer = document.getElementById('image-container');
-    const selectedImage = document.getElementById('selected-image');
+    const chart1 = document.getElementById('chart1');
 
-    chart.on('plotly_click', (eventData) => {
+    chart1.on('plotly_click', (eventData) => {
         if (eventData.points.length > 0) {
             const selectedLabel = eventData.points[0].label;
-            const imageSrc = getImageForLabel(selectedLabel);
-
-            if (imageSrc) {
-                selectedImage.src = imageSrc;
-                imageContainer.style.display = 'block';
-            }
+            const imageSrc = getImageForLabel(selectedLabel, 'time+space');
         }
     });
 
-    function getImageForLabel(label) {
-        // Replace with your logic to map labels to image URLs
-        switch (label) {
-            case 'NIGHT,INT':
-                return 'https://pixelsquare.it/wp-content/uploads/2022/04/Pixel-Square-Eyes-wide-shout-Stanley-Kubrick-colore-espressione-interiorita-Cover-1-1024x683.jpg';
-            case 'NIGHT,EXT':
-                return 'https://onthesetofnewyork.com/locations/eyeswideshut/eyeswideshut203.jpg';
-            case 'DAY,INT':
-                return 'https://screenmusings.org/movie/blu-ray/Eyes-Wide-Shut/images/Eyes-Wide-Shut-120.jpg';
-            case 'MORNING,INT':
-                return 'https://via.placeholder.com/150?text=Image+5';
-            case 'DAY,EXT':
-                return 'https://via.placeholder.com/150?text=Image+6';
-            default:
-                return null;
-        }
-    };
-
-    const data1 = [{
+    const data2 = [{
         values: [105, 29],
         labels: ['INT', 'EXT'],
         type: 'pie',
@@ -199,15 +159,23 @@
         }
     }];
 
-    const layout1 = {
+    const layout2 = {
         height: 400,
-        width: 500,
+        width: 400,
     };
 
-    Plotly.newPlot('chart1', data1, layout1);
+    Plotly.newPlot('chart2', data2, layout2);
+
+    const chart2 = document.getElementById('chart2');
+    chart2.on('plotly_click', (eventData) => {
+        if (eventData.points.length > 0) {
+            const selectedLabel = eventData.points[0].label;
+            const imageSrc = getImageForLabel(selectedLabel, 'space');
+        }
+    });
 
 
-    const data2 = [{
+    const data3 = [{
         values: [104, 1, 29],
         labels: ['NIGHT', 'MORNING', 'DAY'],
         type: 'pie',
@@ -217,12 +185,20 @@
         }
     }];
 
-    const layout2 = {
+    const layout3 = {
         height: 400,
-        width: 500,
+        width: 400,
     };
 
-    Plotly.newPlot('chart2', data2, layout2);
+    Plotly.newPlot('chart3', data3, layout3);
+
+    const chart3 = document.getElementById('chart3');
+    chart3.on('plotly_click', (eventData) => {
+        if (eventData.points.length > 0) {
+            const selectedLabel = eventData.points[0].label;
+            const imageSrc = getImageForLabel(selectedLabel, 'time');
+        }
+    });
 
 
 </script>

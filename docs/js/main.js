@@ -7,13 +7,11 @@ function carousel() {
   prevButton.addEventListener("click", prevSlide);
   let slideIndex = 1;
   const slideWidth = slides[0].clientWidth;
-  console.log(slides.length, slideIndex)
   carouselTrack.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
 
   function updateCarousel() {
     slides = document.querySelectorAll(".mySlides");
     carouselTrack.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
-    console.log(slideIndex, slides[slideIndex], slides.length)
   }
 
   function nextSlide() {
@@ -76,7 +74,7 @@ function parallax() {
 function populateSelector(zipped_elements) {
   zipped_elements.forEach(function (element) {
     var option = document.createElement("option");
-    option.text = element[0].map(item => item.replace('#', ''));
+    option.text = element[0].map(item => item.replace('#T', ''));
     option.value = element[1] + ' ' + element[2] + ' ' + element[0];
     $("#scene-selector").append(option);
   });
@@ -159,7 +157,7 @@ function fetchTextContent(selectedSceneNumbers) {
 function fetchScreencaps(scenes) {
   var imageContainer = document.getElementById("image-container");
   sceneNumbers = scenes.split(",").map(function (scene) {
-    return scene.trim().replace("#T", "");
+    return scene.trim().replace(/[^0-9]/g, "");
   });
   $("#image-container").empty();
   $.getJSON(
@@ -187,6 +185,63 @@ function getSelectedScene() {
   var selectedSceneNumber = $("#scene-selector").val().split(' ');
   fetchTextContent(selectedSceneNumber);
   fetchScreencaps(selectedSceneNumber[2]);
+}
+
+function getImageForLabel(label, type) {
+
+  const xhr = new XMLHttpRequest();
+  xhr.open("GET", './src/eyes-wide-shut-1999-transcription.xml', true);
+
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        const xmlDoc = xhr.responseXML;
+        let elements;
+        let scenes = [];
+
+        if (xmlDoc) {
+          if (type == "time+space") {
+            const [time, space] = label.split(",");
+            elements = xmlDoc.evaluate(
+              `//tei:div[@type="scene"][tei:head[tei:stage[@type="time"]="${time}" and tei:stage[@type="environment"]="${space}."]]`,
+              xmlDoc,
+              (prefix) =>
+                prefix === "tei" ? "http://www.tei-c.org/ns/1.0" : null,
+              XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,
+              null
+            );
+          } else if (type == "space") {
+            const space = label;
+            elements = xmlDoc.evaluate(
+              `//tei:div[@type="scene"][tei:head[tei:stage[@type="environment"]="${space}."]]`,
+              xmlDoc,
+              (prefix) =>
+                prefix === "tei" ? "http://www.tei-c.org/ns/1.0" : null,
+              XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,
+              null
+            );
+          } else if (type == "time") {
+            const time = label;
+            elements = xmlDoc.evaluate(
+              `//tei:div[@type="scene"][tei:head[tei:stage[@type="time"]="${time}"]]`,
+              xmlDoc,
+              (prefix) =>
+                prefix === "tei" ? "http://www.tei-c.org/ns/1.0" : null,
+              XPathResult.ORDERED_NODE_SNAPSHOT_TYPE,
+              null
+            );
+          }
+          for (let i = 0; i < elements.snapshotLength; i++) {
+            const element = elements.snapshotItem(i);
+            scenes.push(element.getAttribute("xml:id"));
+          }
+          fetchScreencaps(scenes.join(","));
+        } else {
+          console.error(`Failed to parse XML`);
+        }
+      }
+    }
+
+  xhr.send();
 }
 
 $(document).ready(function () {

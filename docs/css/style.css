@@ -294,8 +294,22 @@ p {
 
 
 .comparison-container {
-    margin: 10rem 3rem;
+    margin: 4rem 3rem;
     gap: 9vw;
+}
+
+.comparison-item-title {
+    font-family: 'Playfair Display', serif !important;
+    text-align: center;
+    color: white;
+}
+
+.comparison-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
 }
 
 .comparison-item {
@@ -312,7 +326,7 @@ p {
     /* Internet Explorer 10+ */
     scrollbar-width: none;
     /* Firefox */
-    width: 50vw;
+    width: 23vw;
     height: 80vh;
     overflow: auto;
     background-color: white;
@@ -347,11 +361,17 @@ div pre {
     justify-content: center;
     align-items: center;
     gap: 2vw;
-    margin: 2rem;
+    margin: 10rem 2rem 2rem 2rem;
 }
 
 .image-container>img {
     width: 20vw;
+    transition: transform 0.3s ease;
+}
+
+.image-container>img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
 }
 
 
@@ -371,6 +391,7 @@ footer {
     padding: 4%;
     color: black;
 }
+
 
 .tables-containers {
     display: flex;
@@ -409,33 +430,70 @@ footer {
     display: flex;
     max-width: 100vw;
     justify-content: space-evenly;
+    margin: 2rem 0;
 }
 
-.containe {
+.container {
     max-width: 35vw !important;
     
 }
 
-.containe>iframe {
+.container>iframe {
     max-width: inherit;
 }
 
 .time {
-    background-color: white;
+    background-color: var(--viola);
     padding: 4%;
-    color: black;
+    color: white;
+}
+
+.time > h3 {
+    text-decoration: underline var(--violetto);
+    font-size: 2rem;
+    margin-bottom: 1rem !important;
+}
+
+.pie-chart-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slice {
+    cursor: pointer;
 }
 
 .analysis_title {
     margin-bottom: 2%;
 }
 
+.pie-chart-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+.pie-chart-image-container>img {
+    width: 10vw;
+    transition: transform 0.3s ease;
+}
+
+.pie-chart-image-container>img:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+
 .spatial>h3,
-.network>h3,
-.time>h3 {
+.network>h3 {
     text-decoration: underline var(--violetto);
     font-size: 2rem;
     color: #060b0f;
+    margin-bottom: 1rem !important;
 }
 
 

@@ -225,7 +225,7 @@
         </section>
         <section class="comparison-section">
             <div class="sectitle">
-                <h3>Book-Screenplay-Movie rendering comparison</h3>
+                <h3>Book-Screenplay-Movie comparison</h3>
                 <br>
             </div>
             <form class="select-scene" action="#">
@@ -235,14 +235,23 @@
                 <button id='next' type="button" onclick="selectNext()">Next</button>
             </form>
             <div class="comparison-container">
-                <div class="comparison-item">
-                    <pre id="left-text" lang="xml"></pre>
+                <div class="comparison-item-container">
+                    <h5 class="comparison-item-title">Book</h5>
+                    <div class="comparison-item">
+                        <pre id="left-text" lang="xml"></pre>
+                    </div>
                 </div>
-                <div class="comparison-item comparison-item-central">
-                    <pre id="central-text" lang="xml"></pre>
+                <div class="comparison-item-container">
+                    <h5 class="comparison-item-title">'96 Screenplay</h2>
+                    <div class="comparison-item comparison-item-central">
+                        <pre id="central-text" lang="xml"></pre>
+                    </div>
                 </div>
-                <div class="comparison-item">
-                    <pre id="right-text" lang="xml"></pre>
+                <div class="comparison-item-container">
+                    <h5 class="comparison-item-title">Movie Transcription</h5>
+                    <div class="comparison-item">
+                        <pre id="right-text" lang="xml"></pre>
+                    </div>
                 </div>
             </div>
             <div class="image-container" id="image-container">
