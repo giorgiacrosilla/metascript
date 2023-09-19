@@ -333,7 +333,7 @@
             </particDesc>
         </profileDesc>
         <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:frbr="http://purl.org/vocab/frbr/core#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:rda="http://rdaregistry.info/Elements/u">
+            <rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:frbr="http://purl.org/vocab/frbr/core#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:rdau="http://rdaregistry.info/Elements/u">
                 <rdf:Description rdf:about="">
                     <owl:sameAs rdf:resource="https://viaf.org/viaf/183449849/" /> 
                     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation" />
@@ -346,7 +346,7 @@
                     <frbr:translationOf rdf:resource="https://viaf.org/viaf/185456578/"></frbr:translationOf>
                     <dcterms:hasIdentifier>1931243484</dcterms:hasIdentifier>
                     <dcterms:hasIdentifier>9781931243483</dcterms:hasIdentifier>
-                    <rdau:P60833 rdf:resource="https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut-1999-transcription.xml"></rdf:resource>
+                    <rdau:P60833 rdf:resource="https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut-1999-transcription.xml"></rdau:P60833>
                 </rdf:Description>
             </rdf:RDF>
         </xenoData>
