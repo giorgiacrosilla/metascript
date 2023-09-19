@@ -267,7 +267,7 @@
                 xmlns:dcterms="http://purl.org/dc/terms/"
                 xmlns:dc="http://purl.org/dc/elements/1.1/"
                 xmlns:fabio="http://purl.org/spar/fabio/"
-                xmlns:rda="http://rdaregistry.info/Elements/u/P60832">
+                xmlns:rda="http://rdaregistry.info/Elements/u">
                 <rdf:Description rdf:about="">
                     <owl:sameAs
                         rdf:resource="http://www.archiviokubrick.it/opere/film/ews/script/ews-script.html" />
