@@ -289,6 +289,7 @@
                     <dc:creator rdf:resoucer="http://viaf.org/viaf/24643548">Frederic Raphael</dc:creator>
                     <dcterms:date>1999-10-01</dcterms:date>
                     <rico:hasDraft rdf:resource="http://www.archiviokubrick.it/opere/film/ews/script/ews-script.html"></rico:hasDraft>
+                    <rico:hasDraft rdf:resource="https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut-1996-screenplay.xml"></rico:hasDraft>
                     <dcterms:publisher rdf:resource="http://viaf.org/viaf/311379728"></dcterms:publisher>
                     <dcterms:hasIdentifier>0446676322</dcterms:hasIdentifier>
                     <dcterms:hasIdentifier>978-0446676328</dcterms:hasIdentifier>
@@ -300,65 +301,65 @@
         <front>
             <castList>
                 <castItem>
-                    <role xml:id="alice">Alice Harford</role>
+                    <role xml:id="ALICE">Alice Harford</role>
                     <roleDesc>Bill's wife</roleDesc>
                     <actor ref='https://www.imdb.com/name/nm0000173/'>Nicole Kidman</actor>
                 </castItem>
                 <castItem>
-                    <role xml:id="bill">Dr. William Harford, Bill</role>
+                    <role xml:id="BILL">Dr. William Harford, Bill</role>
                     <roleDesc>Doctor, Alice's husband</roleDesc>
                     <actor ref='https://www.imdb.com/name/nm0000129/'>Tom Cruise</actor>
                 </castItem>
                 <castItem>
-                    <role>Helena Harford</role>
+                    <role xml:id="HELENA">Helena Harford</role>
                     <actor ref='https://www.imdb.com/name/nm0251036/'>Madison Eginton</actor>
                 </castItem>
                 <castItem>
-                    <role>Roz</role>
+                    <role xml:id="ROZ">Roz</role>
                     <actor ref='https://www.imdb.com/name/nm0768113/'>Jackie Sawiris</actor>
                 </castItem>
                 <castItem>
-                    <role>Victor Ziegler</role>
+                    <role xml:id="ZIEGLER">Victor Ziegler</role>
                     <actor ref='https://www.imdb.com/name/nm0001628/'>Sydney Pollack</actor>
                 </castItem>
                 <castItem>
-                    <role>Illona</role>
+                    <role xml:id="ILONA">Illona</role>
                     <actor ref='https://www.imdb.com/name/nm0522992/'>Leslie Lowe</actor>
                 </castItem>
                 <castItem>
-                    <role>Bandleader</role>
+                    <role xml:id="BANDLEADER">Bandleader</role>
                     <actor ref='https://www.imdb.com/name/nm0072613/'>Peter Hans Benson</actor>
                 </castItem>
                 <castItem>
-                    <role>Nick Nightingale</role>
+                    <role xml:id="NICK">Nick Nightingale</role>
                     <actor ref='https://www.imdb.com/name/nm0276062/'>Todd Field</actor>
                 </castItem>
                 <castItem>
-                    <role>Ziegler's Secretary</role>
+                    <role xml:id="SECRETARY">Ziegler's Secretary</role>
                     <actor ref='https://www.imdb.com/name/nm0006440/'>Michael Doven</actor>
                 </castItem>
                 <castItem>
-                    <role>Sandor Szavost</role>
+                    <role xml:id="SZAVOST">Sandor Szavost</role>
                     <actor ref='https://www.imdb.com/name/nm0241694/'>Sky du Mont</actor>
                 </castItem>
                 <castItem>
-                    <role>Gayle</role>
+                    <role xml:id="GAYLE">Gayle</role>
                     <actor ref='https://www.imdb.com/name/nm0852801/'>Louise J. Taylor</actor>
                 </castItem>
                 <castItem>
-                    <role>Nuala</role>
+                    <role xml:id="NUALA">Nuala</role>
                     <actor ref='https://www.imdb.com/name/nm0861344/'>Stewart Thorndike</actor>
                 </castItem>
                 <castItem>
-                    <role>Harris</role>
+                    <role xml:id="HARRIS">Harris</role>
                     <actor ref='https://www.imdb.com/name/nm0666955/'>Randall Paul</actor>
                 </castItem>
                 <castItem>
-                    <role>Mandy</role>
+                    <role xml:id="MANDY">Mandy</role>
                     <actor ref='https://www.imdb.com/name/nm0204924/'>Julienne Davis</actor>
                 </castItem>
                 <castItem>
-                    <role>Lisa</role>
+                    <role xml:id="LISA">Lisa</role>
                     <actor ref='https://www.imdb.com/name/nm0502900/'>Lisa Leone</actor>
                 </castItem>
                 <castItem>
@@ -366,39 +367,39 @@
                     <actor ref='https://www.imdb.com/name/nm0174941/'>Kevin Connealy</actor>
                 </castItem>
                 <castItem>
-                    <role>Marion</role>
+                    <role xml:id="MARION">Marion</role>
                     <actor ref='https://www.imdb.com/name/nm0724688/'>Marie Richardson</actor>
                 </castItem>
                 <castItem>
-                    <role>Carl</role>
+                    <role xml:id="CARL">Carl</role>
                     <actor ref='https://www.imdb.com/name/nm0004959/'>Thomas Gibson</actor>
                 </castItem>
                 <castItem>
-                    <role>Rosa</role>
+                    <role xml:id="ROSA">Rosa</role>
                     <actor ref='https://www.imdb.com/name/nm0381984/'>Mariana Hewett</actor>
                 </castItem>
                 <castItem>
-                    <role>Domino</role>
+                    <role xml:id="DOMINO">Domino</role>
                     <actor ref='https://www.imdb.com/name/nm0005416/'>Vinessa Shaw</actor>
                 </castItem>
                 <castItem>
-                    <role>Milich</role>
+                    <role xml:id="MILICH">Milich</role>
                     <actor ref='https://www.imdb.com/name/nm0784884/'>Rade Serbedzija</actor>
                 </castItem>
                 <castItem>
-                    <role>Mysterious Woman / Masked Party Principal</role>
+                    <role xml:id="MYSTERIOUSWOMAN">Mysterious Woman / Masked Party Principal</role>
                     <actor ref='https://www.imdb.com/name/nm0328661/'>Abigail Good</actor>
                 </castItem>
                 <castItem>
-                    <role>Red Cloak</role>
+                    <role xml:id="REDCLOAK">Red Cloak</role>
                     <actor ref='https://www.imdb.com/name/nm0899920/'>Leon Vitali</actor>
                 </castItem>
                 <castItem>
-                    <role>Tall Butler</role>
+                    <role xml:id="TALLBUTLER">Tall Butler</role>
                     <actor ref='https://www.imdb.com/name/nm0176929/'>Brian W. Cook</actor>
                 </castItem>
                 <castItem>
-                    <role>Sally</role>
+                    <role xml:id="SALLY">Sally</role>
                     <actor ref='https://www.imdb.com/name/nm0557739/'>Fay Masterson</actor>
                 </castItem>
                 <castItem>
