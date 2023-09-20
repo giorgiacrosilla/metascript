@@ -77,19 +77,19 @@
                 adaptation process. It also helps identify any alterations made to character names.</p>
 
             <div class="t">
-                <div class="containe">
+                <div class="container">
                     <iframe src="https://giorgiacrosilla.altervista.org/Dream_Story_Network.html"
                         title="Iframe Example"></iframe>
                 </div>
 
 
-                <div class="containe">
+                <div class="container">
                     <iframe src="https://giorgiacrosilla.altervista.org/Screenplay_1996_Network.html"
                         title="Iframe Example"></iframe>
                 </div>
 
-                <div class="containe">
-                    <iframe src="https://giorgiacrosilla.altervista.org/Screenplay_1999_Network.html"
+                <div class="container">
+                    <iframe src='https://giorgiacrosilla.altervista.org/Screenplay_1999_Network.html'
                         title="Iframe Example"></iframe>
                 </div>
             </div>
@@ -125,17 +125,22 @@
 <script>
     const data1 = [{
         values: [83, 21, 22, 1, 7],
-        labels: ['NIGHT,INT', 'NIGHT,EXT', 'DAY,INT', 'MORNING,INT', 'DAY,EXT'],
+        labels: ['NIGHT,INT', 'NIGHT,EXT', 'DAY,INT', 'MORNING,EXT', 'DAY,EXT'],
         type: 'pie',
         hoverinfo: 'label+value',
         marker: {
-            colors: ['#FF5733', '#FFC300', '#DAF7A6']
+            colors: ['#A66038', '#1445A6', '#A599BF', '#83704E', '#8C0D0D']
         }
     }];
 
     const layout1 = {
         height: 400,
         width: 400,
+        plot_bgcolor: '#2a0636',
+        paper_bgcolor: '#2a0636',
+        font: {
+            color: 'white',
+        }
     };
 
     Plotly.newPlot('chart1', data1, layout1);
@@ -155,13 +160,18 @@
         type: 'pie',
         hoverinfo: 'label+value',
         marker: {
-            colors: ['#FF5733', '#FFC300', '#DAF7A6']
+            colors: ['#A66038', '#1445A6']
         }
     }];
 
     const layout2 = {
         height: 400,
         width: 400,
+        plot_bgcolor: '#2a0636',
+        paper_bgcolor: '#2a0636',
+        font: {
+            color: 'white',
+        }
     };
 
     Plotly.newPlot('chart2', data2, layout2);
@@ -181,13 +191,18 @@
         type: 'pie',
         hoverinfo: 'label+value',
         marker: {
-            colors: ['#FF5733', '#FFC300', '#DAF7A6']
+            colors: ['#A66038', '#83704E', '#A599BF']
         }
     }];
 
     const layout3 = {
         height: 400,
         width: 400,
+        plot_bgcolor: '#2a0636',
+        paper_bgcolor: '#2a0636',
+        font: {
+            color: 'white',
+        }
     };
 
     Plotly.newPlot('chart3', data3, layout3);

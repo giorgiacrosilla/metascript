@@ -1,85 +1,88 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-  
-  <head>
-    
-      <meta charset="utf-8">
-      <title>Bokeh Plot</title>
-      
-      
-        
-          
-        
-        
-          
-        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js" integrity="sha384-dM3QQsP+wXdHg42wTqW85BjZQdLNNIXqlPw/BgKoExPmTG7ZLML4EGqLMfqHT6ON" crossorigin="anonymous"></script>
-        <script type="text/javascript">
-            Bokeh.set_log_level("info");
+
+<head>
+
+  <meta charset="utf-8">
+  <title>Bokeh Plot</title>
+
+
+
+
+
+
+
+  <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js"
+    integrity="sha384-dM3QQsP+wXdHg42wTqW85BjZQdLNNIXqlPw/BgKoExPmTG7ZLML4EGqLMfqHT6ON"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript">
+    Bokeh.set_log_level("info");
+  </script>
+  <style>
+    body {
+
+      overflow: hidden;
+    }
+  </style>
+
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+
+  <div class="bk-root" id="d5e4162d-7093-427f-86b2-c4022283f62a" data-root-id="1643"></div>
+
+
+
+
+
+  <script type="application/json" id="2141">
+          {"1eae9725-b198-4317-b009-efaac2e51159":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"1652"}],"center":[{"id":"1655"},{"id":"1659"}],"left":[{"id":"1656"}],"renderers":[{"id":"1671"},{"id":"1716"}],"sizing_mode":"scale_width","title":{"id":"1644"},"toolbar":{"id":"1665"},"x_range":{"id":"1641"},"x_scale":{"id":"1648"},"y_range":{"id":"1642"},"y_scale":{"id":"1650"}},"id":"1643","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"1648","type":"LinearScale"},{"attributes":{},"id":"1796","type":"Selection"},{"attributes":{"end":10.1,"start":-10.1},"id":"1641","type":"Range1d"},{"attributes":{"callback":null,"tooltips":[["Character","@index"],["Interactions","@degree"],["Modularity Class","@modularity_class"],["Modularity Color","$color[swatch]:modularity_color"]]},"id":"1664","type":"HoverTool"},{"attributes":{"source":{"id":"1677"}},"id":"1679","type":"CDSView"},{"attributes":{},"id":"1797","type":"UnionRenderers"},{"attributes":{"data":{"name":["Fridolin","daughter","Albertina","Marianne","unknown","Mizzi","Nachtigall","Gibiser","Gentlemen","Pierrette","TWOServants","woman","another woman","cavalier","cavaliers","YellowGentlemen","gentlemen","RedCavalier","servant","maid","Fuchstaler","Roediger","Adler"],"x":[-0.7947294503871661,-3.8340182048457816,-5.339074266648007,3.3018052737479238,-2.287689662235402,-3.2672319115189192,-5.72248072952481,5.871235144550599,10.0,9.096933176929591,-0.04868839656464684,-1.4599349931766699,-3.689554775611208,-3.7777136012438675,1.7838497395144892,1.6586742120541862,0.1584665807752842,-2.4177110524470766,-1.3676749410586564,2.565983669923414,1.4254750389123332,3.3728671785806075,-5.228788029726227],"y":[-0.33938130684687107,-3.7852377432360456,1.3967627671056357,-0.5478638428554782,4.351215410796802,2.2498975726926833,-0.47987508084078534,2.0996956032209684,2.1981580987508345,4.664687620091794,-5.123628339313164,3.163678465785384,3.6257164016400636,-1.128230424884491,-4.415225886896188,3.861424127838342,3.0889315525003407,-5.146672135908712,-3.583152087005175,1.5281400489414376,-2.3585779478913054,-2.745314256504281,-2.5751486171817635]},"selected":{"id":"1796"},"selection_policy":{"id":"1797"}},"id":"1715","type":"ColumnDataSource"},{"attributes":{},"id":"1786","type":"BasicTickFormatter"},{"attributes":{"edge_renderer":{"id":"1678"},"inspection_policy":{"id":"1713"},"layout_provider":{"id":"1680"},"node_renderer":{"id":"1674"},"selection_policy":{"id":"1711"}},"id":"1671","type":"GraphRenderer"},{"attributes":{"source":{"id":"1673"}},"id":"1675","type":"CDSView"},{"attributes":{"fill_color":{"value":"white"},"line_width":{"value":2},"size":{"field":"adjusted_node_size"}},"id":"1686","type":"Circle"},{"attributes":{},"id":"1713","type":"NodesAndLinkedEdges"},{"attributes":{"data_source":{"id":"1677"},"glyph":{"id":"1696"},"hover_glyph":{"id":"1706"},"muted_glyph":null,"selection_glyph":{"id":"1701"},"view":{"id":"1679"}},"id":"1678","type":"GlyphRenderer"},{"attributes":{"active_multi":null,"active_scroll":{"id":"1661"},"tools":[{"id":"1660"},{"id":"1661"},{"id":"1662"},{"id":"1663"},{"id":"1664"}]},"id":"1665","type":"Toolbar"},{"attributes":{},"id":"1798","type":"Selection"},{"attributes":{},"id":"1800","type":"Selection"},{"attributes":{"data":{"Interaction Count":[2,29,8,2,5,44,17,10,1,17,1,3,3,2,5,2,2,2,1,4,15,1,3,3,1,3],"end":["daughter","Albertina","Marianne","unknown","Mizzi","Nachtigall","Gibiser","Fridolin","TWOServants","woman","another woman","cavalier","cavaliers","YellowGentlemen","gentlemen","RedCavalier","servant","maid","Fuchstaler","Roediger","Adler","Mizzi","Gentlemen","Pierrette","another woman","gentlemen"],"start":["Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","unknown","Gibiser","Gibiser","woman","woman"]},"selected":{"id":"1798"},"selection_policy":{"id":"1799"}},"id":"1677","type":"ColumnDataSource"},{"attributes":{"fill_color":{"field":"modularity_color"},"size":{"field":"adjusted_node_size"}},"id":"1681","type":"Circle"},{"attributes":{"graph_layout":{"Adler":[-5.228788029726227,-2.5751486171817635],"Albertina":[-5.339074266648007,1.3967627671056357],"Fridolin":[-0.7947294503871661,-0.33938130684687107],"Fuchstaler":[1.4254750389123332,-2.3585779478913054],"Gentlemen":[10.0,2.1981580987508345],"Gibiser":[5.871235144550599,2.0996956032209684],"Marianne":[3.3018052737479238,-0.5478638428554782],"Mizzi":[-3.2672319115189192,2.2498975726926833],"Nachtigall":[-5.72248072952481,-0.47987508084078534],"Pierrette":[9.096933176929591,4.664687620091794],"RedCavalier":[-2.4177110524470766,-5.146672135908712],"Roediger":[3.3728671785806075,-2.745314256504281],"TWOServants":[-0.04868839656464684,-5.123628339313164],"YellowGentlemen":[1.6586742120541862,3.861424127838342],"another woman":[-3.689554775611208,3.6257164016400636],"cavalier":[-3.7777136012438675,-1.128230424884491],"cavaliers":[1.7838497395144892,-4.415225886896188],"daughter":[-3.8340182048457816,-3.7852377432360456],"gentlemen":[0.1584665807752842,3.0889315525003407],"maid":[2.565983669923414,1.5281400489414376],"servant":[-1.3676749410586564,-3.583152087005175],"unknown":[-2.287689662235402,4.351215410796802],"woman":[-1.4599349931766699,3.163678465785384]}},"id":"1680","type":"StaticLayoutProvider"},{"attributes":{},"id":"1799","type":"UnionRenderers"},{"attributes":{"data":{"adjusted_node_size":[27,6,6,6,7,7,6,8,6,6,6,8,7,6,6,6,7,6,6,6,6,6,6],"degree":[22,1,1,1,2,2,1,3,1,1,1,3,2,1,1,1,2,1,1,1,1,1,1],"index":["Fridolin","daughter","Albertina","Marianne","unknown","Mizzi","Nachtigall","Gibiser","Gentlemen","Pierrette","TWOServants","woman","another woman","cavalier","cavaliers","YellowGentlemen","gentlemen","RedCavalier","servant","maid","Fuchstaler","Roediger","Adler"],"modularity_class":[0,0,0,0,3,3,0,1,1,1,0,2,2,0,0,0,2,0,0,0,0,0,0],"modularity_color":["#3288bd","#3288bd","#3288bd","#3288bd","#e6f598","#e6f598","#3288bd","#66c2a5","#66c2a5","#66c2a5","#3288bd","#abdda4","#abdda4","#3288bd","#3288bd","#3288bd","#abdda4","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd"]},"selected":{"id":"1800"},"selection_policy":{"id":"1801"}},"id":"1673","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"white"},"line_width":{"value":2},"size":{"field":"adjusted_node_size"}},"id":"1691","type":"Circle"},{"attributes":{},"id":"1657","type":"BasicTicker"},{"attributes":{},"id":"1783","type":"BasicTickFormatter"},{"attributes":{"axis":{"id":"1656"},"dimension":1,"ticker":null},"id":"1659","type":"Grid"},{"attributes":{"background_fill_alpha":{"value":0.7},"background_fill_color":{"value":"white"},"source":{"id":"1715"},"text":{"field":"name"},"text_font_size":{"value":"10px"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1716","type":"LabelSet"},{"attributes":{},"id":"1661","type":"WheelZoomTool"},{"attributes":{"axis":{"id":"1652"},"ticker":null},"id":"1655","type":"Grid"},{"attributes":{"formatter":{"id":"1786"},"major_label_policy":{"id":"1785"},"ticker":{"id":"1653"}},"id":"1652","type":"LinearAxis"},{"attributes":{},"id":"1653","type":"BasicTicker"},{"attributes":{"formatter":{"id":"1783"},"major_label_policy":{"id":"1782"},"ticker":{"id":"1657"}},"id":"1656","type":"LinearAxis"},{"attributes":{},"id":"1650","type":"LinearScale"},{"attributes":{},"id":"1660","type":"PanTool"},{"attributes":{},"id":"1801","type":"UnionRenderers"},{"attributes":{"line_alpha":{"value":0.3}},"id":"1696","type":"MultiLine"},{"attributes":{},"id":"1662","type":"SaveTool"},{"attributes":{},"id":"1663","type":"ResetTool"},{"attributes":{},"id":"1782","type":"AllLabels"},{"attributes":{"line_width":{"value":2}},"id":"1701","type":"MultiLine"},{"attributes":{"line_width":{"value":2}},"id":"1706","type":"MultiLine"},{"attributes":{"data_source":{"id":"1673"},"glyph":{"id":"1681"},"hover_glyph":{"id":"1686"},"muted_glyph":null,"selection_glyph":{"id":"1691"},"view":{"id":"1675"}},"id":"1674","type":"GlyphRenderer"},{"attributes":{"text":"Dream Story Network"},"id":"1644","type":"Title"},{"attributes":{},"id":"1785","type":"AllLabels"},{"attributes":{"end":10.1,"start":-10.1},"id":"1642","type":"Range1d"},{"attributes":{},"id":"1711","type":"NodesAndLinkedEdges"}],"root_ids":["1643"]},"title":"Bokeh Application","version":"2.3.3"}}
         </script>
-        
-      
-      
-    
-  </head>
-  
-  
-  <body>
-    
-      
-        
-          
-          
-            
-              <div class="bk-root" id="5444cd79-7ceb-4988-8db5-c85b72f07ee3" data-root-id="4805" style="overflow-x: hidden; overflow-y: hidden;"></div>
-            
-          
-        
-      
-      
-        <script type="application/json" id="5471">
-          {"bbc01c3c-f2fe-463f-aa72-96b1d0b1366f":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"4814"}],"center":[{"id":"4817"},{"id":"4821"}],"left":[{"id":"4818"}],"renderers":[{"id":"4833"},{"id":"4878"}],"title":{"id":"4806"},"toolbar":{"id":"4827"},"x_range":{"id":"4803"},"x_scale":{"id":"4810"},"y_range":{"id":"4804"},"y_scale":{"id":"4812"}},"id":"4805","subtype":"Figure","type":"Plot"},{"attributes":{"axis":{"id":"4814"},"ticker":null},"id":"4817","type":"Grid"},{"attributes":{},"id":"4810","type":"LinearScale"},{"attributes":{},"id":"5126","type":"Selection"},{"attributes":{"formatter":{"id":"5121"},"major_label_policy":{"id":"5120"},"ticker":{"id":"4815"}},"id":"4814","type":"LinearAxis"},{"attributes":{"end":10.1,"start":-10.1},"id":"4803","type":"Range1d"},{"attributes":{"line_alpha":{"value":0.3}},"id":"4858","type":"MultiLine"},{"attributes":{"end":10.1,"start":-10.1},"id":"4804","type":"Range1d"},{"attributes":{"text":"Dream Story Network"},"id":"4806","type":"Title"},{"attributes":{"line_width":{"value":2}},"id":"4863","type":"MultiLine"},{"attributes":{"data":{"adjusted_node_size":[27,6,6,6,7,7,6,8,6,6,6,8,7,6,6,6,7,6,6,6,6,6,6],"degree":[22,1,1,1,2,2,1,3,1,1,1,3,2,1,1,1,2,1,1,1,1,1,1],"index":["Fridolin","daughter","Albertina","Marianne","unknown","Mizzi","Nachtigall","Gibiser","Gentlemen","Pierrette","TWOServants","woman","another woman","cavalier","cavaliers","YellowGentlemen","gentlemen","RedCavalier","servant","maid","Fuchstaler","Roediger","Adler"],"modularity_class":[0,0,0,0,3,3,0,1,1,1,0,2,2,0,0,0,2,0,0,0,0,0,0],"modularity_color":["#3288bd","#3288bd","#3288bd","#3288bd","#e6f598","#e6f598","#3288bd","#66c2a5","#66c2a5","#66c2a5","#3288bd","#abdda4","#abdda4","#3288bd","#3288bd","#3288bd","#abdda4","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd"]},"selected":{"id":"5130"},"selection_policy":{"id":"5131"}},"id":"4835","type":"ColumnDataSource"},{"attributes":{},"id":"5120","type":"AllLabels"},{"attributes":{"background_fill_alpha":{"value":0.7},"background_fill_color":{"value":"white"},"source":{"id":"4877"},"text":{"field":"name"},"text_font_size":{"value":"10px"},"x":{"field":"x"},"y":{"field":"y"}},"id":"4878","type":"LabelSet"},{"attributes":{"fill_color":{"value":"white"},"line_width":{"value":2},"size":{"field":"adjusted_node_size"}},"id":"4853","type":"Circle"},{"attributes":{},"id":"5121","type":"BasicTickFormatter"},{"attributes":{"data":{"name":["Fridolin","daughter","Albertina","Marianne","unknown","Mizzi","Nachtigall","Gibiser","Gentlemen","Pierrette","TWOServants","woman","another woman","cavalier","cavaliers","YellowGentlemen","gentlemen","RedCavalier","servant","maid","Fuchstaler","Roediger","Adler"],"x":[0.12057317748509516,-4.432573210347907,-1.229514885933656,0.7042691174644516,0.5227641136313719,2.0750263744119772,-2.736285598602283,-0.9672325532199567,-0.2779607020991492,-2.8124951823327975,-4.6801876592920895,1.903407879759202,0.37469860162900026,2.989502464827945,2.9085804600343192,4.315184560892874,3.3507779400978346,-2.7414176426776478,-3.4824016377227003,4.456233154403375,-1.7471900768136408,4.8678354830660915,-3.4815941786616915],"y":[0.8142188398793335,-0.23662709744429863,5.293829999652258,5.6979614733931445,3.7326528961243044,3.2108219812879915,0.8512929348201277,-5.96483259984854,-10.0,-9.568337043405263,1.854730180564575,-2.8412860258025296,-2.8161299264947925,-0.25853764282026975,4.941580239918619,3.225839523430307,-2.3819465299580314,4.571145661650653,3.170789357973606,1.4760005281531647,-2.4614716774708962,-0.4390609454454096,-1.872634128158062]},"selected":{"id":"5126"},"selection_policy":{"id":"5127"}},"id":"4877","type":"ColumnDataSource"},{"attributes":{"graph_layout":{"Adler":[-3.4815941786616915,-1.872634128158062],"Albertina":[-1.229514885933656,5.293829999652258],"Fridolin":[0.12057317748509516,0.8142188398793335],"Fuchstaler":[-1.7471900768136408,-2.4614716774708962],"Gentlemen":[-0.2779607020991492,-10.0],"Gibiser":[-0.9672325532199567,-5.96483259984854],"Marianne":[0.7042691174644516,5.6979614733931445],"Mizzi":[2.0750263744119772,3.2108219812879915],"Nachtigall":[-2.736285598602283,0.8512929348201277],"Pierrette":[-2.8124951823327975,-9.568337043405263],"RedCavalier":[-2.7414176426776478,4.571145661650653],"Roediger":[4.8678354830660915,-0.4390609454454096],"TWOServants":[-4.6801876592920895,1.854730180564575],"YellowGentlemen":[4.315184560892874,3.225839523430307],"another woman":[0.37469860162900026,-2.8161299264947925],"cavalier":[2.989502464827945,-0.25853764282026975],"cavaliers":[2.9085804600343192,4.941580239918619],"daughter":[-4.432573210347907,-0.23662709744429863],"gentlemen":[3.3507779400978346,-2.3819465299580314],"maid":[4.456233154403375,1.4760005281531647],"servant":[-3.4824016377227003,3.170789357973606],"unknown":[0.5227641136313719,3.7326528961243044],"woman":[1.903407879759202,-2.8412860258025296]}},"id":"4842","type":"StaticLayoutProvider"},{"attributes":{"line_width":{"value":2}},"id":"4868","type":"MultiLine"},{"attributes":{"source":{"id":"4835"}},"id":"4837","type":"CDSView"},{"attributes":{},"id":"5131","type":"UnionRenderers"},{"attributes":{},"id":"5123","type":"AllLabels"},{"attributes":{},"id":"5128","type":"Selection"},{"attributes":{"active_multi":null,"active_scroll":{"id":"4823"},"tools":[{"id":"4822"},{"id":"4823"},{"id":"4824"},{"id":"4825"},{"id":"4826"}]},"id":"4827","type":"Toolbar"},{"attributes":{},"id":"5124","type":"BasicTickFormatter"},{"attributes":{},"id":"4875","type":"NodesAndLinkedEdges"},{"attributes":{},"id":"5130","type":"Selection"},{"attributes":{},"id":"4815","type":"BasicTicker"},{"attributes":{"formatter":{"id":"5124"},"major_label_policy":{"id":"5123"},"ticker":{"id":"4819"}},"id":"4818","type":"LinearAxis"},{"attributes":{},"id":"4873","type":"NodesAndLinkedEdges"},{"attributes":{},"id":"4812","type":"LinearScale"},{"attributes":{"fill_color":{"field":"modularity_color"},"size":{"field":"adjusted_node_size"}},"id":"4843","type":"Circle"},{"attributes":{"fill_color":{"value":"white"},"line_width":{"value":2},"size":{"field":"adjusted_node_size"}},"id":"4848","type":"Circle"},{"attributes":{},"id":"5129","type":"UnionRenderers"},{"attributes":{"data_source":{"id":"4839"},"glyph":{"id":"4858"},"hover_glyph":{"id":"4868"},"muted_glyph":null,"selection_glyph":{"id":"4863"},"view":{"id":"4841"}},"id":"4840","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"4835"},"glyph":{"id":"4843"},"hover_glyph":{"id":"4848"},"muted_glyph":null,"selection_glyph":{"id":"4853"},"view":{"id":"4837"}},"id":"4836","type":"GlyphRenderer"},{"attributes":{"source":{"id":"4839"}},"id":"4841","type":"CDSView"},{"attributes":{"axis":{"id":"4818"},"dimension":1,"ticker":null},"id":"4821","type":"Grid"},{"attributes":{},"id":"4819","type":"BasicTicker"},{"attributes":{},"id":"5127","type":"UnionRenderers"},{"attributes":{"callback":null,"tooltips":[["Character","@index"],["Interactions","@degree"],["Modularity Class","@modularity_class"],["Modularity Color","$color[swatch]:modularity_color"]]},"id":"4826","type":"HoverTool"},{"attributes":{"edge_renderer":{"id":"4840"},"inspection_policy":{"id":"4875"},"layout_provider":{"id":"4842"},"node_renderer":{"id":"4836"},"selection_policy":{"id":"4873"}},"id":"4833","type":"GraphRenderer"},{"attributes":{},"id":"4823","type":"WheelZoomTool"},{"attributes":{},"id":"4822","type":"PanTool"},{"attributes":{},"id":"4824","type":"SaveTool"},{"attributes":{},"id":"4825","type":"ResetTool"},{"attributes":{"data":{"Interaction Count":[2,29,8,2,5,44,17,10,1,17,1,3,3,2,5,2,2,2,1,4,15,1,3,3,1,3],"end":["daughter","Albertina","Marianne","unknown","Mizzi","Nachtigall","Gibiser","Fridolin","TWOServants","woman","another woman","cavalier","cavaliers","YellowGentlemen","gentlemen","RedCavalier","servant","maid","Fuchstaler","Roediger","Adler","Mizzi","Gentlemen","Pierrette","another woman","gentlemen"],"start":["Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","Fridolin","unknown","Gibiser","Gibiser","woman","woman"]},"selected":{"id":"5128"},"selection_policy":{"id":"5129"}},"id":"4839","type":"ColumnDataSource"}],"root_ids":["4805"]},"title":"Bokeh Application","version":"2.3.3"}}
-        </script>
-        <script type="text/javascript">
-          (function() {
-            var fn = function() {
-              Bokeh.safely(function() {
-                (function(root) {
-                  function embed_document(root) {
-                    
-                  var docs_json = document.getElementById('5471').textContent;
-                  var render_items = [{"docid":"bbc01c3c-f2fe-463f-aa72-96b1d0b1366f","root_ids":["4805"],"roots":{"4805":"5444cd79-7ceb-4988-8db5-c85b72f07ee3"}}];
-                  root.Bokeh.embed.embed_items(docs_json, render_items);
-                
+  <script type="text/javascript">
+    (function () {
+      var fn = function () {
+        Bokeh.safely(function () {
+          (function (root) {
+            function embed_document(root) {
+
+              var docs_json = document.getElementById('2141').textContent;
+              var render_items = [{ "docid": "1eae9725-b198-4317-b009-efaac2e51159", "root_ids": ["1643"], "roots": { "1643": "d5e4162d-7093-427f-86b2-c4022283f62a" } }];
+              root.Bokeh.embed.embed_items(docs_json, render_items);
+
+            }
+            if (root.Bokeh !== undefined) {
+              embed_document(root);
+            } else {
+              var attempts = 0;
+              var timer = setInterval(function (root) {
+                if (root.Bokeh !== undefined) {
+                  clearInterval(timer);
+                  embed_document(root);
+                } else {
+                  attempts++;
+                  if (attempts > 100) {
+                    clearInterval(timer);
+                    console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
                   }
-                  if (root.Bokeh !== undefined) {
-                    embed_document(root);
-                  } else {
-                    var attempts = 0;
-                    var timer = setInterval(function(root) {
-                      if (root.Bokeh !== undefined) {
-                        clearInterval(timer);
-                        embed_document(root);
-                      } else {
-                        attempts++;
-                        if (attempts > 100) {
-                          clearInterval(timer);
-                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
-                        }
-                      }
-                    }, 10, root)
-                  }
-                })(window);
-              });
-            };
-            if (document.readyState != "loading") fn();
-            else document.addEventListener("DOMContentLoaded", fn);
-          })();
-        </script>
-    
-  </body>
-  
+                }
+              }, 10, root)
+            }
+          })(window);
+        });
+      };
+      if (document.readyState != "loading") fn();
+      else document.addEventListener("DOMContentLoaded", fn);
+    })();
+  </script>
+
+</body>
+
 </html>

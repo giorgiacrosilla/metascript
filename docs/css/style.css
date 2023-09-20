@@ -440,6 +440,7 @@ footer {
 
 .container>iframe {
     max-width: inherit;
+    overflow-x: hidden;
 }
 
 .time {
