@@ -29,7 +29,7 @@ body {
 
 /* navbar */
 
-nav > a > h2 {
+nav>a>h2 {
     font-size: 2rem !important;
 }
 
@@ -42,9 +42,15 @@ nav > a > h2 {
 
 /* cover section */
 
-h1, h2, h3, h4, h5, .title, .subtitle {
-  font-family: 'Futura Extra Bold', sans-serif !important;
-  margin: 0 !important;
+h1,
+h2,
+h3,
+h4,
+h5,
+.title,
+.subtitle {
+    font-family: 'Futura Extra Bold', sans-serif !important;
+    margin: 0 !important;
 }
 
 .title-container {
@@ -73,7 +79,7 @@ section:not(.comparison-section, .texts-introduction-section, .spatial, .network
     padding: 3rem 4rem;
 }
 
-.sectitle > h3 {
+.sectitle>h3 {
     text-decoration: underline var(--violetto);
     font-size: 2rem;
     color: #060b0f;
@@ -121,8 +127,8 @@ p {
 
 .w3-button.w3-black {
     cursor: pointer;
-    color: #fff!important;
-    background-color: #000!important;
+    color: #fff !important;
+    background-color: #000 !important;
     user-select: none;
     border: none;
     display: inline-block;
@@ -146,14 +152,14 @@ p {
     position: absolute;
     top: 50%;
     right: 0%;
-    transform: translate(0%,-50%);
+    transform: translate(0%, -50%);
 }
 
 .w3-display-left {
     position: absolute;
     top: 50%;
     left: 0%;
-    transform: translate(0%,-50%);
+    transform: translate(0%, -50%);
 }
 
 .film-introduction-section {
@@ -195,7 +201,7 @@ p {
 }
 
 
-.texts-introduction-section > .sectitle > h3{
+.texts-introduction-section>.sectitle>h3 {
     color: white;
     text-shadow: 2px 2px 20px black;
     font-size: 2.3rem;
@@ -212,7 +218,7 @@ p {
     padding-bottom: 7vh;
 }
 
-.texts-introduction-section > .sectitle {
+.texts-introduction-section>.sectitle {
     position: relative;
     margin-top: 3rem;
     margin-left: 5rem;
@@ -223,17 +229,17 @@ p {
     height: 100%;
 }
 
-.bg-image > img {
+.bg-image>img {
     position: absolute;
     width: 100%;
     height: 110%;
     /* transitions */
     -webkit-transition: all .4s ease;
-       -moz-transition: all .4s ease;
-        -ms-transition: all .4s ease;
-         -o-transition: all .4s ease;
-            transition: all .4s ease;
-    
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+
 }
 
 .card {
@@ -415,6 +421,7 @@ footer {
     border: none;
 
 }
+
 .text {
     max-width: 60vw;
 }
@@ -423,24 +430,28 @@ footer {
     background-color: var(--giallino);
     padding: 4%;
     color: black;
-}
+    height: 170vh;
 
+}
 
 .t {
     display: flex;
-    max-width: 100vw;
     justify-content: space-evenly;
     margin: 2rem 0;
-}
+}  
 
-.container {
+.containe {
+    display: flex;
+    flex-direction: column;
     max-width: 35vw !important;
+    min-height: 50vh;
     
 }
 
-.container>iframe {
+.containe>iframe {
+    min-height: 100%;
     max-width: inherit;
-    overflow-x: hidden;
+    margin-bottom: 8%;
 }
 
 .time {
@@ -449,7 +460,7 @@ footer {
     color: white;
 }
 
-.time > h3 {
+.time>h3 {
     text-decoration: underline var(--violetto);
     font-size: 2rem;
     margin-bottom: 1rem !important;
@@ -502,30 +513,32 @@ footer {
     .parallax {
         display: none;
     }
-    
+
     section:not(.texts-introduction-section) {
         padding: 40px !important;
     }
-    
+
     .project-introduction-section {
         padding: 0 !important;
     }
 
-    .texts-introduction-section > .sectitle{
+    .texts-introduction-section>.sectitle {
         padding: 40px !important;
         padding-bottom: 0 !important;
         margin: 0 !important;
     }
 
-    .mySlides:nth-child(1), .w3-button {
+    .mySlides:nth-child(1),
+    .w3-button {
         display: none !important;
     }
 
-    .film-introduction, .project-introduction {
+    .film-introduction,
+    .project-introduction {
         padding: 0 !important;
     }
 
-    .film-introduction > img {
+    .film-introduction>img {
         width: 35vw !important;
     }
 
@@ -534,7 +547,7 @@ footer {
         transform: none !important;
     }
 
-    .texts-introduction-section > .cards-container {
+    .texts-introduction-section>.cards-container {
         flex-direction: column;
     }
 
@@ -551,14 +564,14 @@ footer {
         overflow: hidden;
     }
 
-    .bg-image > img {
+    .bg-image>img {
         object-fit: cover;
         height: 160%;
     }
 
-    .card > img {
+    .card>img {
         width: 20vw;
-        margin-top: 1rem ;
+        margin-top: 1rem;
     }
 
     .comparison-container {
