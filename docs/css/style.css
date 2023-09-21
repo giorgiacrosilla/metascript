@@ -380,6 +380,7 @@ div pre {
     cursor: pointer;
 }
 
+
 footer {
     height: 30vh;
     background-color: var(--off-black);
@@ -450,7 +451,7 @@ footer {
 .containe>iframe {
     min-height: 100%;
     max-width: inherit;
-    margin-bottom: 10%;
+    margin-bottom: 8%;
 }
 
 .time {
