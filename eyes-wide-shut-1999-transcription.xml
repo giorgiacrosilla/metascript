@@ -4067,7 +4067,7 @@
                     <stage type="primary_location">BILL &amp; ALICE'S APARTMENT</stage>
                     <stage type="time">NIGHT</stage>
                 </head>
-                <sp who="ALICE" toWhom="bill">
+                <sp who="ALICE" toWhom="BILL">
                     <timeline xml:id="SUB559">
                         <when xml:id="line_start" absolute="00:52:41.537" />
                         <when xml:id="line_end" absolute="00:52:44.873" />

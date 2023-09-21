@@ -1,89 +1,85 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-  <meta charset="utf-8">
-  <title>Bokeh Plot</title>
-
-
-
-
-
-
-
-  <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js"
-    integrity="sha384-dM3QQsP+wXdHg42wTqW85BjZQdLNNIXqlPw/BgKoExPmTG7ZLML4EGqLMfqHT6ON"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript">
-    Bokeh.set_log_level("info");
-  </script>
-  <style>
-    body {
-
-      overflow: hidden;
-    }
-  </style>
-
-
-
-
-</head>
-
-
-<body>
-
-
-
-
-
-
-  <div class="bk-root" id="51a8c5ed-6322-4867-88a1-ff0681ad900f" data-root-id="15161"></div>
-
-
-
-
-
-  <script type="application/json" id="16163">
-          {"c6890542-c119-4b2d-b056-5ee02ecfbaf7":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"15170"}],"center":[{"id":"15173"},{"id":"15177"}],"height":430,"left":[{"id":"15174"}],"renderers":[{"id":"15189"},{"id":"15234"}],"title":{"id":"15162"},"toolbar":{"id":"15183"},"width":400,"x_range":{"id":"15159"},"x_scale":{"id":"15166"},"y_range":{"id":"15160"},"y_scale":{"id":"15168"}},"id":"15161","subtype":"Figure","type":"Plot"},{"attributes":{"line_width":{"value":2}},"id":"15224","type":"MultiLine"},{"attributes":{},"id":"15821","type":"UnionRenderers"},{"attributes":{"source":{"id":"15195"}},"id":"15197","type":"CDSView"},{"attributes":{"fill_color":{"value":"white"},"line_width":{"value":2},"size":{"field":"adjusted_node_size"}},"id":"15209","type":"Circle"},{"attributes":{"graph_layout":{" ALICE":[0.5337854109998029,5.833127678677442]," BILL":[1.3919057399314332,5.722178559632231]," DAUGHTER":[-2.2637973528298314,7.136067047212565]," GAYLE":[1.6793433961971735,-0.23652280821149096]," HELENA":[1.895760196437363,1.0946333906278942]," ILONA":[-1.769881573731851,-0.0796476707966665]," JAPANESE MAN 1":[-3.7000261630950524,6.875231114410573]," JAPANESE MAN 2":[-4.619929346820479,5.615210399878703]," MARION":[1.4604937202337434,-1.2000739566767815]," NUALA":[-1.9110011103690423,-3.8380350843416218]," PERSON AT THE PHONE":[2.5357562866985672,-9.325432782043219]," YOUNG WOMAN":[-7.230672191915627,-3.1943746983480645]," ZIEGLER":[2.440734827366743,7.817520166081445],"ALICE":[2.4602796706232644,2.6325808615111645],"AUDIENCE":[1.7454859155100908,-9.391834330125837],"BILL":[-0.332842069223283,-0.96769851832419],"BOY":[-0.18531078996850453,-4.00812679942952],"CAB DRIVER":[-3.098480816896468,-2.8144115320247063],"CARL":[-2.904001220154898,0.055669147175869266],"CLERK":[-1.603073216330154,-2.457878610978384],"DAUGHTER":[-1.7280420733782202,2.3121372349955114],"DOMINO":[0.5796761736913493,0.3682512981359536],"DOORMAN":[2.912473051432757,-1.5463103678294605],"DRIVER":[2.5301576362972957,0.02507017596739848],"GATEMAN 1":[-2.5392909424341172,-2.161264009190117],"GAYLE":[2.090208371967519,-3.1336784933200486],"GIRL":[-3.118387010715896,-1.0398238525598604],"HARRIS":[2.032806521624383,-1.9700263211552769],"HELENA":[0.7461816355060902,2.69544884228996],"ILONA":[2.376477154221151,5.290530289133933],"JAPANESE MAN 1":[-3.0830224405808146,7.36605419656525],"JAPANESE MAN 2":[-4.283462059313497,6.377588981489767],"LISA":[-1.0685868302249755,-4.222809441796244],"MAITRE D'":[0.9205211492985605,-4.60503783868813],"MANDY":[0.10821754604273767,1.6743021171515882],"MARION":[-2.9143053474699983,0.7653034045285226],"MASKED BUTLER":[-2.499581097172496,-3.364193730544674],"MILICH":[-2.0861086954944668,4.57851436295985],"MYSTERIOUS WOMAN":[-4.490676954453956,-2.265396044932352],"NICK":[1.6333137599913872,-6.653926927625557],"NUALA":[-2.1255137020886194,-1.2043656443607382],"OMINOUS MAN":[0.4521294632927945,-3.4116404604936106],"PATIENT":[-1.95808048881126,1.0244158484145627],"PERSON AT THE PHONE":[3.169112428695949,-8.82555553577799],"RECEPTIONIST":[-0.8985753136854016,0.8732813456905913],"RED CLOACK":[-1.1269110808278322,-3.354566070868305],"RED CLOAK":[-3.5460187997060624,-1.8098269086583167],"ROSA":[-3.52118037800783,-0.30084517614994494],"ROZ":[1.334470974219745,2.586243527763224],"SALLY":[0.979084979879079,-2.345759941303115],"SARAH":[1.312095103707987,-3.3872202777296234],"SECRETARY":[0.9058926975449432,-9.229044665220885],"STUDENT 2":[3.461438814027873,8.219804701269313],"STUDENT I":[2.8405543415947023,8.687535243494597],"STUDENTS":[4.19693440849803,10.000000000000002],"SZAVOST":[5.22063304457277,3.391595784264897],"TALL BUTLER":[2.8401048709592716,-0.7762315932924478],"VOICE FROM AUDIENCE":[3.7902320165963985,-8.263741411336852],"WAITRESS":[-0.3275636840792863,-2.659210200487838],"YOUNG WOMAN":[2.6963027230010166,-2.465298432264528],"ZIEGLER":[0.934602885641477,3.1947062381098097],"bill":[4.727155833476431,4.296808179453746]}},"id":"15198","type":"StaticLayoutProvider"},{"attributes":{"end":10.1,"start":-10.1},"id":"15159","type":"Range1d"},{"attributes":{},"id":"15168","type":"LinearScale"},{"attributes":{},"id":"15171","type":"BasicTicker"},{"attributes":{"axis":{"id":"15170"},"ticker":null},"id":"15173","type":"Grid"},{"attributes":{"data":{"name":["BILL","ALICE","ROZ"," HELENA","HELENA"," BILL","ZIEGLER"," ILONA"," ALICE","ILONA"," ZIEGLER","NICK","SECRETARY","SZAVOST","GAYLE"," NUALA","NUALA","HARRIS"," GAYLE","MANDY","LISA","SARAH","GIRL","BOY","PATIENT","ROSA","MARION","CARL"," MARION","STUDENT I","STUDENTS","STUDENT 2","DOMINO","bill","DOORMAN","MAITRE D'","AUDIENCE","VOICE FROM AUDIENCE"," PERSON AT THE PHONE","PERSON AT THE PHONE","DRIVER","MILICH","JAPANESE MAN 1","DAUGHTER","JAPANESE MAN 2"," JAPANESE MAN 1"," JAPANESE MAN 2"," DAUGHTER","CAB DRIVER","GATEMAN 1","MASKED BUTLER","MYSTERIOUS WOMAN","OMINOUS MAN","YOUNG WOMAN"," YOUNG WOMAN","TALL BUTLER","RED CLOAK","RED CLOACK","WAITRESS","CLERK","SALLY","RECEPTIONIST"],"x":[-0.332842069223283,2.4602796706232644,1.334470974219745,1.895760196437363,0.7461816355060902,1.3919057399314332,0.934602885641477,-1.769881573731851,0.5337854109998029,2.376477154221151,2.440734827366743,1.6333137599913872,0.9058926975449432,5.22063304457277,2.090208371967519,-1.9110011103690423,-2.1255137020886194,2.032806521624383,1.6793433961971735,0.10821754604273767,-1.0685868302249755,1.312095103707987,-3.118387010715896,-0.18531078996850453,-1.95808048881126,-3.52118037800783,-2.9143053474699983,-2.904001220154898,1.4604937202337434,2.8405543415947023,4.19693440849803,3.461438814027873,0.5796761736913493,4.727155833476431,2.912473051432757,0.9205211492985605,1.7454859155100908,3.7902320165963985,2.5357562866985672,3.169112428695949,2.5301576362972957,-2.0861086954944668,-3.0830224405808146,-1.7280420733782202,-4.283462059313497,-3.7000261630950524,-4.619929346820479,-2.2637973528298314,-3.098480816896468,-2.5392909424341172,-2.499581097172496,-4.490676954453956,0.4521294632927945,2.6963027230010166,-7.230672191915627,2.8401048709592716,-3.5460187997060624,-1.1269110808278322,-0.3275636840792863,-1.603073216330154,0.979084979879079,-0.8985753136854016],"y":[-0.96769851832419,2.6325808615111645,2.586243527763224,1.0946333906278942,2.69544884228996,5.722178559632231,3.1947062381098097,-0.0796476707966665,5.833127678677442,5.290530289133933,7.817520166081445,-6.653926927625557,-9.229044665220885,3.391595784264897,-3.1336784933200486,-3.8380350843416218,-1.2043656443607382,-1.9700263211552769,-0.23652280821149096,1.6743021171515882,-4.222809441796244,-3.3872202777296234,-1.0398238525598604,-4.00812679942952,1.0244158484145627,-0.30084517614994494,0.7653034045285226,0.055669147175869266,-1.2000739566767815,8.687535243494597,10.000000000000002,8.219804701269313,0.3682512981359536,4.296808179453746,-1.5463103678294605,-4.60503783868813,-9.391834330125837,-8.263741411336852,-9.325432782043219,-8.82555553577799,0.02507017596739848,4.57851436295985,7.36605419656525,2.3121372349955114,6.377588981489767,6.875231114410573,5.615210399878703,7.136067047212565,-2.8144115320247063,-2.161264009190117,-3.364193730544674,-2.265396044932352,-3.4116404604936106,-2.465298432264528,-3.1943746983480645,-0.7762315932924478,-1.8098269086583167,-3.354566070868305,-2.659210200487838,-2.457878610978384,-2.345759941303115,0.8732813456905913]},"selected":{"id":"15818"},"selection_policy":{"id":"15819"}},"id":"15233","type":"ColumnDataSource"},{"attributes":{"formatter":{"id":"15805"},"major_label_policy":{"id":"15804"},"ticker":{"id":"15175"}},"id":"15174","type":"LinearAxis"},{"attributes":{},"id":"15807","type":"AllLabels"},{"attributes":{"data_source":{"id":"15195"},"glyph":{"id":"15214"},"hover_glyph":{"id":"15224"},"muted_glyph":null,"selection_glyph":{"id":"15219"},"view":{"id":"15197"}},"id":"15196","type":"GlyphRenderer"},{"attributes":{"source":{"id":"15191"}},"id":"15193","type":"CDSView"},{"attributes":{"text":"Screenplay 1999 Network"},"id":"15162","type":"Title"},{"attributes":{"data_source":{"id":"15191"},"glyph":{"id":"15199"},"hover_glyph":{"id":"15204"},"muted_glyph":null,"selection_glyph":{"id":"15209"},"view":{"id":"15193"}},"id":"15192","type":"GlyphRenderer"},{"attributes":{},"id":"15178","type":"PanTool"},{"attributes":{"active_multi":null,"active_scroll":{"id":"15179"},"tools":[{"id":"15178"},{"id":"15179"},{"id":"15180"},{"id":"15181"},{"id":"15182"}]},"id":"15183","type":"Toolbar"},{"attributes":{},"id":"15822","type":"Selection"},{"attributes":{"data":{"Interaction Count":[72,7,1,54,2,34,9,3,2,1,1,4,7,1,1,2,1,2,15,5,3,20,1,4,1,35,1,3,3,2,7,1,2,1,5,1,1,8,16,1,19,6,4,1,17,1,1,22,1,1,2,1,1,1,2,2,1,1,1,1,1,1,2,1,1,2,1,2,1,1,5,4,1,4,2,1,1,2],"end":["ALICE","HELENA","ROZ","ZIEGLER"," ILONA","NICK","GAYLE"," NUALA","NUALA","HARRIS"," GAYLE","MANDY","LISA","SARAH","GIRL","BOY","PATIENT","ROSA","MARION","CARL"," MARION","DOMINO","DOORMAN","MAITRE D'","DRIVER","MILICH","DAUGHTER","CAB DRIVER","GATEMAN 1","MASKED BUTLER","MYSTERIOUS WOMAN","OMINOUS MAN","YOUNG WOMAN","TALL BUTLER","RED CLOAK","RED CLOACK","BILL","WAITRESS","CLERK"," HELENA","SALLY","RECEPTIONIST","ROZ"," HELENA","HELENA","ZIEGLER","ILONA","SZAVOST","bill"," BILL"," BILL","ILONA","STUDENT 2","STUDENT I","MILICH"," ALICE","ILONA","MANDY"," ZIEGLER","SECRETARY","AUDIENCE","VOICE FROM AUDIENCE","MAITRE D'"," PERSON AT THE PHONE","PERSON AT THE PHONE","CARL","CARL","STUDENTS","STUDENT 2","MILICH","JAPANESE MAN 1","DAUGHTER","JAPANESE MAN 2"," JAPANESE MAN 1"," JAPANESE MAN 2"," DAUGHTER"," YOUNG WOMAN","RED CLOAK"],"start":["BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","ALICE","ALICE","ALICE","ALICE","ALICE","ALICE","ALICE","ROZ","HELENA"," BILL"," BILL"," BILL"," BILL","ZIEGLER","ZIEGLER","ZIEGLER","ILONA","NICK","NICK","NICK","NICK","NICK","NICK","ROSA","MARION","STUDENT I","STUDENTS","MILICH","MILICH","MILICH","MILICH","MILICH","MILICH","MILICH","MYSTERIOUS WOMAN","MYSTERIOUS WOMAN"]},"selected":{"id":"15820"},"selection_policy":{"id":"15821"}},"id":"15195","type":"ColumnDataSource"},{"attributes":{},"id":"15823","type":"UnionRenderers"},{"attributes":{"end":10.1,"start":-10.1},"id":"15160","type":"Range1d"},{"attributes":{},"id":"15181","type":"ResetTool"},{"attributes":{"background_fill_alpha":{"value":0.7},"background_fill_color":{"value":"white"},"source":{"id":"15233"},"text":{"field":"name"},"text_font_size":{"value":"10px"},"x":{"field":"x"},"y":{"field":"y"}},"id":"15234","type":"LabelSet"},{"attributes":{"callback":null,"tooltips":[["Character","@index"],["Interactions","@degree"],["Modularity Class","@modularity_class"],["Modularity Color","$color[swatch]:modularity_color"]]},"id":"15182","type":"HoverTool"},{"attributes":{},"id":"15808","type":"BasicTickFormatter"},{"attributes":{},"id":"15179","type":"WheelZoomTool"},{"attributes":{},"id":"15231","type":"NodesAndLinkedEdges"},{"attributes":{"line_alpha":{"value":0.3}},"id":"15214","type":"MultiLine"},{"attributes":{},"id":"15180","type":"SaveTool"},{"attributes":{"axis":{"id":"15174"},"dimension":1,"ticker":null},"id":"15177","type":"Grid"},{"attributes":{"edge_renderer":{"id":"15196"},"inspection_policy":{"id":"15231"},"layout_provider":{"id":"15198"},"node_renderer":{"id":"15192"},"selection_policy":{"id":"15229"}},"id":"15189","type":"GraphRenderer"},{"attributes":{},"id":"15818","type":"Selection"},{"attributes":{"fill_color":{"field":"modularity_color"},"size":{"field":"adjusted_node_size"}},"id":"15199","type":"Circle"},{"attributes":{"data":{"adjusted_node_size":[48,13,8,7,8,11,10,6,6,9,6,12,6,6,6,6,6,6,6,7,6,6,6,6,6,7,7,8,6,7,7,7,6,6,6,7,6,6,6,6,6,15,6,7,6,6,6,6,6,6,6,8,6,6,6,6,7,6,6,6,6,6],"degree":[43,8,3,2,3,6,5,1,1,4,1,7,1,1,1,1,1,1,1,2,1,1,1,1,1,2,2,3,1,2,2,2,1,1,1,2,1,1,1,1,1,10,1,2,1,1,1,1,1,1,1,3,1,1,1,1,2,1,1,1,1,1],"index":["BILL","ALICE","ROZ"," HELENA","HELENA"," BILL","ZIEGLER"," ILONA"," ALICE","ILONA"," ZIEGLER","NICK","SECRETARY","SZAVOST","GAYLE"," NUALA","NUALA","HARRIS"," GAYLE","MANDY","LISA","SARAH","GIRL","BOY","PATIENT","ROSA","MARION","CARL"," MARION","STUDENT I","STUDENTS","STUDENT 2","DOMINO","bill","DOORMAN","MAITRE D'","AUDIENCE","VOICE FROM AUDIENCE"," PERSON AT THE PHONE","PERSON AT THE PHONE","DRIVER","MILICH","JAPANESE MAN 1","DAUGHTER","JAPANESE MAN 2"," JAPANESE MAN 1"," JAPANESE MAN 2"," DAUGHTER","CAB DRIVER","GATEMAN 1","MASKED BUTLER","MYSTERIOUS WOMAN","OMINOUS MAN","YOUNG WOMAN"," YOUNG WOMAN","TALL BUTLER","RED CLOAK","RED CLOACK","WAITRESS","CLERK","SALLY","RECEPTIONIST"],"modularity_class":[0,1,1,1,1,1,1,0,1,1,1,2,2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0,2,2,2,2,2,0,3,3,3,3,3,3,3,0,0,0,4,0,0,4,0,4,0,0,0,0,0],"modularity_color":["#3288bd","#66c2a5","#66c2a5","#66c2a5","#66c2a5","#66c2a5","#66c2a5","#3288bd","#66c2a5","#66c2a5","#66c2a5","#abdda4","#abdda4","#66c2a5","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#66c2a5","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#66c2a5","#66c2a5","#66c2a5","#3288bd","#66c2a5","#3288bd","#abdda4","#abdda4","#abdda4","#abdda4","#abdda4","#3288bd","#e6f598","#e6f598","#e6f598","#e6f598","#e6f598","#e6f598","#e6f598","#3288bd","#3288bd","#3288bd","#fee08b","#3288bd","#3288bd","#fee08b","#3288bd","#fee08b","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd"]},"selected":{"id":"15822"},"selection_policy":{"id":"15823"}},"id":"15191","type":"ColumnDataSource"},{"attributes":{"fill_color":{"value":"white"},"line_width":{"value":2},"size":{"field":"adjusted_node_size"}},"id":"15204","type":"Circle"},{"attributes":{},"id":"15819","type":"UnionRenderers"},{"attributes":{},"id":"15166","type":"LinearScale"},{"attributes":{},"id":"15804","type":"AllLabels"},{"attributes":{},"id":"15229","type":"NodesAndLinkedEdges"},{"attributes":{},"id":"15805","type":"BasicTickFormatter"},{"attributes":{"line_width":{"value":2}},"id":"15219","type":"MultiLine"},{"attributes":{"formatter":{"id":"15808"},"major_label_policy":{"id":"15807"},"ticker":{"id":"15171"}},"id":"15170","type":"LinearAxis"},{"attributes":{},"id":"15820","type":"Selection"},{"attributes":{},"id":"15175","type":"BasicTicker"}],"root_ids":["15161"]},"title":"Bokeh Application","version":"2.3.3"}}
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.3.min.js" integrity="sha384-dM3QQsP+wXdHg42wTqW85BjZQdLNNIXqlPw/BgKoExPmTG7ZLML4EGqLMfqHT6ON" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
         </script>
-  <script type="text/javascript">
-    (function () {
-      var fn = function () {
-        Bokeh.safely(function () {
-          (function (root) {
-            function embed_document(root) {
-
-              var docs_json = document.getElementById('16163').textContent;
-              var render_items = [{ "docid": "c6890542-c119-4b2d-b056-5ee02ecfbaf7", "root_ids": ["15161"], "roots": { "15161": "51a8c5ed-6322-4867-88a1-ff0681ad900f" } }];
-              root.Bokeh.embed.embed_items(docs_json, render_items);
-
-            }
-            if (root.Bokeh !== undefined) {
-              embed_document(root);
-            } else {
-              var attempts = 0;
-              var timer = setInterval(function (root) {
-                if (root.Bokeh !== undefined) {
-                  clearInterval(timer);
-                  embed_document(root);
-                } else {
-                  attempts++;
-                  if (attempts > 100) {
-                    clearInterval(timer);
-                    console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="6385ed63-ae9d-4584-86ff-e152a5d50f9d" data-root-id="6890"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="7640">
+          {"d4c65e0e-f287-4ff4-a7b9-4b5ea0bd4ee4":{"defs":[],"roots":{"references":[{"attributes":{"below":[{"id":"6899"}],"center":[{"id":"6902"},{"id":"6906"}],"height":390,"left":[{"id":"6903"}],"renderers":[{"id":"6918"},{"id":"6963"}],"title":{"id":"6891"},"toolbar":{"id":"6912"},"width":390,"x_range":{"id":"6888"},"x_scale":{"id":"6895"},"y_range":{"id":"6889"},"y_scale":{"id":"6897"}},"id":"6890","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"7282","type":"BasicTickFormatter"},{"attributes":{},"id":"7299","type":"Selection"},{"attributes":{},"id":"7298","type":"UnionRenderers"},{"attributes":{},"id":"7281","type":"AllLabels"},{"attributes":{},"id":"7296","type":"UnionRenderers"},{"attributes":{"data":{"adjusted_node_size":[46,11,7,7,9,8,11,6,6,6,6,6,7,6,6,6,6,6,7,7,8,7,7,7,6,6,7,6,6,6,6,11,6,7,6,6,6,6,8,6,7,6,7,6,6,6,6,6],"degree":[41,6,2,2,4,3,6,1,1,1,1,1,2,1,1,1,1,1,2,2,3,2,2,2,1,1,2,1,1,1,1,6,1,2,1,1,1,1,3,1,2,1,2,1,1,1,1,1],"index":["BILL","ALICE","ROZ","HELENA","ZIEGLER","ILONA","NICK","SECRETARY","SZAVOST","GAYLE","NUALA","HARRIS","MANDY","LISA","SARAH","GIRL","BOY","PATIENT","ROSA","MARION","CARL","STUDENT I","STUDENTS","STUDENT 2","DOMINO","DOORMAN","MAITRE D'","AUDIENCE","VOICE FROM AUDIENCE","PERSON AT THE PHONE","DRIVER","MILICH","JAPANESE MAN 1","DAUGHTER","JAPANESE MAN 2","CAB DRIVER","GATEMAN 1","MASKED BUTLER","MYSTERIOUS WOMAN","OMINOUS MAN","YOUNG WOMAN","TALL BUTLER","RED CLOAK","RED CLOACK","WAITRESS","CLERK","SALLY","RECEPTIONIST"],"modularity_class":[0,1,1,1,1,1,2,2,1,0,0,0,1,0,0,0,0,0,0,0,0,4,4,4,0,0,2,2,2,2,0,3,3,3,3,0,0,0,5,0,5,0,5,0,0,0,0,0],"modularity_color":["#3288bd","#66c2a5","#66c2a5","#66c2a5","#66c2a5","#66c2a5","#abdda4","#abdda4","#66c2a5","#3288bd","#3288bd","#3288bd","#66c2a5","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd","#fee08b","#fee08b","#fee08b","#3288bd","#3288bd","#abdda4","#abdda4","#abdda4","#abdda4","#3288bd","#e6f598","#e6f598","#e6f598","#e6f598","#3288bd","#3288bd","#3288bd","#fdae61","#3288bd","#fdae61","#3288bd","#fdae61","#3288bd","#3288bd","#3288bd","#3288bd","#3288bd"]},"selected":{"id":"7299"},"selection_policy":{"id":"7300"}},"id":"6920","type":"ColumnDataSource"},{"attributes":{"graph_layout":{"ALICE":[0.4606826674139321,-5.092072633760727],"AUDIENCE":[1.576187596545865,10.0],"BILL":[-0.6733977712506645,-0.4005407745861993],"BOY":[3.0414727686407903,1.086281945745239],"CAB DRIVER":[-5.136747332050579,0.6390444452722531],"CARL":[-1.882029614625548,-2.987398344558433],"CLERK":[-1.9636095418648647,3.671614509528987],"DAUGHTER":[3.378447008450085,-1.365402611392228],"DOMINO":[-3.198350956529521,3.0569675615519327],"DOORMAN":[-3.801554323574701,-3.636305579406087],"DRIVER":[1.918959731414376,-0.09383338606241831],"GATEMAN 1":[1.526065702217439,2.350688666909206],"GAYLE":[-3.680786024765208,-1.2479556249197141],"GIRL":[-2.815048127545603,1.1847748477827598],"HARRIS":[2.5247120605192395,2.0153828321891045],"HELENA":[-0.7521678680564772,-4.628391477895598],"ILONA":[0.7289739177029088,-3.726723642013188],"JAPANESE MAN 1":[8.785921295979334,-1.808899048541069],"JAPANESE MAN 2":[8.43184937781923,-3.3402003484276617],"LISA":[-5.099229514714646,-1.397219329820569],"MAITRE D'":[0.9581408829162454,4.043336256275841],"MANDY":[1.7424402486563524,-1.7762045116117597],"MARION":[-2.677504268814844,-3.734598897149908],"MASKED BUTLER":[-4.696722114536527,-0.35371215801368894],"MILICH":[5.25845119259722,-1.7231732027234934],"MYSTERIOUS WOMAN":[-0.4291706229399072,1.9615704544825996],"NICK":[1.30978667556831,6.504914330324841],"NUALA":[-2.358764132599971,2.281915778191691],"OMINOUS MAN":[-4.207559730730654,1.2463843222223223],"PATIENT":[-4.185044844975986,2.3177987351917113],"PERSON AT THE PHONE":[3.7259641651005198,8.920835010053361],"RECEPTIONIST":[0.06487949883650115,3.244377686079203],"RED CLOACK":[-3.2881251380233136,0.0057955110776825485],"RED CLOAK":[0.5978390987192447,1.3344150825100463],"ROSA":[-1.7181389054003795,-1.944632590491309],"ROZ":[-0.3190870686370464,-3.6718984359680213],"SALLY":[-3.39345904986248,-2.4416333698132835],"SARAH":[3.1931856018026563,-0.028534188219938694],"SECRETARY":[2.7470268485285696,9.728467656025183],"STUDENT 2":[2.9585645807415575,-3.5992798333655722],"STUDENT I":[2.274490352868905,-4.315816214689863],"STUDENTS":[4.29734068355466,-6.105964164996831],"SZAVOST":[0.9489006603567833,-8.816005100050333],"TALL BUTLER":[-4.577008699283588,-2.5156897021497624],"VOICE FROM AUDIENCE":[0.31123581387468985,9.830333407228567],"WAITRESS":[-2.0046034120362797,-4.540725016373424],"YOUNG WOMAN":[-1.0915882375596113,2.861888014072085],"ZIEGLER":[1.18817886955296,-2.9939768657135564]}},"id":"6927","type":"StaticLayoutProvider"},{"attributes":{},"id":"7297","type":"Selection"},{"attributes":{"end":10.1,"start":-10.1},"id":"6888","type":"Range1d"},{"attributes":{"source":{"id":"6924"}},"id":"6926","type":"CDSView"},{"attributes":{},"id":"6895","type":"LinearScale"},{"attributes":{},"id":"7285","type":"BasicTickFormatter"},{"attributes":{},"id":"7284","type":"AllLabels"},{"attributes":{"end":10.1,"start":-10.1},"id":"6889","type":"Range1d"},{"attributes":{"text":"Screenplay 1999 Network"},"id":"6891","type":"Title"},{"attributes":{},"id":"6960","type":"NodesAndLinkedEdges"},{"attributes":{"data_source":{"id":"6920"},"glyph":{"id":"6928"},"hover_glyph":{"id":"6933"},"muted_glyph":null,"selection_glyph":{"id":"6938"},"view":{"id":"6922"}},"id":"6921","type":"GlyphRenderer"},{"attributes":{"background_fill_alpha":{"value":0.7},"background_fill_color":{"value":"white"},"source":{"id":"6962"},"text":{"field":"name"},"text_font_size":{"value":"10px"},"x":{"field":"x"},"y":{"field":"y"}},"id":"6963","type":"LabelSet"},{"attributes":{},"id":"7300","type":"UnionRenderers"},{"attributes":{"fill_color":{"value":"white"},"line_width":{"value":2},"size":{"field":"adjusted_node_size"}},"id":"6933","type":"Circle"},{"attributes":{"active_multi":null,"active_scroll":{"id":"6908"},"tools":[{"id":"6907"},{"id":"6908"},{"id":"6909"},{"id":"6910"},{"id":"6911"}]},"id":"6912","type":"Toolbar"},{"attributes":{"line_alpha":{"value":0.3}},"id":"6943","type":"MultiLine"},{"attributes":{"edge_renderer":{"id":"6925"},"inspection_policy":{"id":"6960"},"layout_provider":{"id":"6927"},"node_renderer":{"id":"6921"},"selection_policy":{"id":"6958"}},"id":"6918","type":"GraphRenderer"},{"attributes":{"line_width":{"value":2}},"id":"6948","type":"MultiLine"},{"attributes":{"line_width":{"value":2}},"id":"6953","type":"MultiLine"},{"attributes":{"fill_color":{"field":"modularity_color"},"size":{"field":"adjusted_node_size"}},"id":"6928","type":"Circle"},{"attributes":{},"id":"6897","type":"LinearScale"},{"attributes":{},"id":"6958","type":"NodesAndLinkedEdges"},{"attributes":{"data":{"name":["BILL","ALICE","ROZ","HELENA","ZIEGLER","ILONA","NICK","SECRETARY","SZAVOST","GAYLE","NUALA","HARRIS","MANDY","LISA","SARAH","GIRL","BOY","PATIENT","ROSA","MARION","CARL","STUDENT I","STUDENTS","STUDENT 2","DOMINO","DOORMAN","MAITRE D'","AUDIENCE","VOICE FROM AUDIENCE","PERSON AT THE PHONE","DRIVER","MILICH","JAPANESE MAN 1","DAUGHTER","JAPANESE MAN 2","CAB DRIVER","GATEMAN 1","MASKED BUTLER","MYSTERIOUS WOMAN","OMINOUS MAN","YOUNG WOMAN","TALL BUTLER","RED CLOAK","RED CLOACK","WAITRESS","CLERK","SALLY","RECEPTIONIST"],"x":[-0.6733977712506645,0.4606826674139321,-0.3190870686370464,-0.7521678680564772,1.18817886955296,0.7289739177029088,1.30978667556831,2.7470268485285696,0.9489006603567833,-3.680786024765208,-2.358764132599971,2.5247120605192395,1.7424402486563524,-5.099229514714646,3.1931856018026563,-2.815048127545603,3.0414727686407903,-4.185044844975986,-1.7181389054003795,-2.677504268814844,-1.882029614625548,2.274490352868905,4.29734068355466,2.9585645807415575,-3.198350956529521,-3.801554323574701,0.9581408829162454,1.576187596545865,0.31123581387468985,3.7259641651005198,1.918959731414376,5.25845119259722,8.785921295979334,3.378447008450085,8.43184937781923,-5.136747332050579,1.526065702217439,-4.696722114536527,-0.4291706229399072,-4.207559730730654,-1.0915882375596113,-4.577008699283588,0.5978390987192447,-3.2881251380233136,-2.0046034120362797,-1.9636095418648647,-3.39345904986248,0.06487949883650115],"y":[-0.4005407745861993,-5.092072633760727,-3.6718984359680213,-4.628391477895598,-2.9939768657135564,-3.726723642013188,6.504914330324841,9.728467656025183,-8.816005100050333,-1.2479556249197141,2.281915778191691,2.0153828321891045,-1.7762045116117597,-1.397219329820569,-0.028534188219938694,1.1847748477827598,1.086281945745239,2.3177987351917113,-1.944632590491309,-3.734598897149908,-2.987398344558433,-4.315816214689863,-6.105964164996831,-3.5992798333655722,3.0569675615519327,-3.636305579406087,4.043336256275841,10.0,9.830333407228567,8.920835010053361,-0.09383338606241831,-1.7231732027234934,-1.808899048541069,-1.365402611392228,-3.3402003484276617,0.6390444452722531,2.350688666909206,-0.35371215801368894,1.9615704544825996,1.2463843222223223,2.861888014072085,-2.5156897021497624,1.3344150825100463,0.0057955110776825485,-4.540725016373424,3.671614509528987,-2.4416333698132835,3.244377686079203]},"selected":{"id":"7295"},"selection_policy":{"id":"7296"}},"id":"6962","type":"ColumnDataSource"},{"attributes":{"source":{"id":"6920"}},"id":"6922","type":"CDSView"},{"attributes":{"formatter":{"id":"7282"},"major_label_policy":{"id":"7281"},"ticker":{"id":"6904"}},"id":"6903","type":"LinearAxis"},{"attributes":{"data_source":{"id":"6924"},"glyph":{"id":"6943"},"hover_glyph":{"id":"6953"},"muted_glyph":null,"selection_glyph":{"id":"6948"},"view":{"id":"6926"}},"id":"6925","type":"GlyphRenderer"},{"attributes":{},"id":"6900","type":"BasicTicker"},{"attributes":{"formatter":{"id":"7285"},"major_label_policy":{"id":"7284"},"ticker":{"id":"6900"}},"id":"6899","type":"LinearAxis"},{"attributes":{"axis":{"id":"6899"},"ticker":null},"id":"6902","type":"Grid"},{"attributes":{"fill_color":{"value":"white"},"line_width":{"value":2},"size":{"field":"adjusted_node_size"}},"id":"6938","type":"Circle"},{"attributes":{"axis":{"id":"6903"},"dimension":1,"ticker":null},"id":"6906","type":"Grid"},{"attributes":{},"id":"7295","type":"Selection"},{"attributes":{},"id":"6904","type":"BasicTicker"},{"attributes":{"callback":null,"tooltips":[["Character","@index"],["Interactions","@degree"],["Modularity Class","@modularity_class"],["Modularity Color","$color[swatch]:modularity_color"]]},"id":"6911","type":"HoverTool"},{"attributes":{"data":{"Interaction Count":[73,9,2,54,1,34,10,2,1,4,7,1,1,2,1,2,18,5,1,1,20,1,4,1,35,1,3,3,2,7,1,2,1,5,1,1,8,16,19,6,4,12,3,1,22,1,1,1,1,1,2,2,2,1,2,1,1,5,5,1,1,2],"end":["ALICE","HELENA","ROZ","ZIEGLER","ILONA","NICK","GAYLE","NUALA","HARRIS","MANDY","LISA","SARAH","GIRL","BOY","PATIENT","ROSA","MARION","CARL","STUDENT 2","STUDENT I","DOMINO","DOORMAN","MAITRE D'","DRIVER","MILICH","DAUGHTER","CAB DRIVER","GATEMAN 1","MASKED BUTLER","MYSTERIOUS WOMAN","OMINOUS MAN","YOUNG WOMAN","TALL BUTLER","RED CLOAK","RED CLOACK","BILL","WAITRESS","CLERK","SALLY","RECEPTIONIST","ROZ","HELENA","ZIEGLER","ILONA","SZAVOST","ILONA","MANDY","SECRETARY","AUDIENCE","VOICE FROM AUDIENCE","MAITRE D'","PERSON AT THE PHONE","CARL","CARL","STUDENTS","STUDENT 2","MILICH","JAPANESE MAN 1","DAUGHTER","JAPANESE MAN 2","YOUNG WOMAN","RED CLOAK"],"start":["BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","BILL","ALICE","ALICE","ALICE","ALICE","ALICE","ZIEGLER","ZIEGLER","NICK","NICK","NICK","NICK","NICK","ROSA","MARION","STUDENT I","STUDENTS","MILICH","MILICH","MILICH","MILICH","MYSTERIOUS WOMAN","MYSTERIOUS WOMAN"]},"selected":{"id":"7297"},"selection_policy":{"id":"7298"}},"id":"6924","type":"ColumnDataSource"},{"attributes":{},"id":"6908","type":"WheelZoomTool"},{"attributes":{},"id":"6907","type":"PanTool"},{"attributes":{},"id":"6909","type":"SaveTool"},{"attributes":{},"id":"6910","type":"ResetTool"}],"root_ids":["6890"]},"title":"Bokeh Application","version":"2.3.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('7640').textContent;
+                  var render_items = [{"docid":"d4c65e0e-f287-4ff4-a7b9-4b5ea0bd4ee4","root_ids":["6890"],"roots":{"6890":"6385ed63-ae9d-4584-86ff-e152a5d50f9d"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
                   }
-                }
-              }, 10, root)
-            }
-          })(window);
-        });
-      };
-      if (document.readyState != "loading") fn();
-      else document.addEventListener("DOMContentLoaded", fn);
-    })();
-  </script>
-
-</body>
-
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
 </html>
