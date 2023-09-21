@@ -1,8 +1,6 @@
 {
   ".": [
     "comp.sh",
-    "INT.MORNING.png",
-    "EXT.DAY..png",
     "folder_structure.json",
     "generate_json.sh",
     "fold.sh"
@@ -309,6 +307,9 @@
     "SCENE93.2.jpg",
     "SCENE93.1.jpg",
     "SCENE93.3.jpg"
+  ],
+  "SCENE89": [
+    "SCENE89.jpg"
   ],
   "SCENE103": [
     "SCENE103.1.jpg",

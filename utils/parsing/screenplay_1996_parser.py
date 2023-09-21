@@ -72,7 +72,7 @@ def xml_parser(script, destination_file):
         print(scene_count)
 
 if __name__ == "__main__":
-    script = '/home/leo/Desktop/dhdk/digitaltext/MetaScript/The Kubrick Site_ The Eyes Wide Shut Screenplay.html'
+    script = './The Kubrick Site_ The Eyes Wide Shut Screenplay.html'
     destination_file = './parsed_script_1996.xml'
     xml_parser(script, destination_file)
 
