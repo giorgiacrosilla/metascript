@@ -14,7 +14,7 @@ class UnsortedAttributes(HTMLFormatter):
 with open('./eyes-wide-shut-1999-transcription.xml', 'r') as xml_file:
     xml_content = xml_file.read()
 
-with open('./src/Eyes.Wide.Shut.1999.1080p.BluRay.x264.YIFY.srt', 'r') as sub_file:
+with open('./src/Eyes.Wide.Shut.1999.srt', 'r') as sub_file:
     subs = sub_file.read()
 
 soup = BeautifulSoup(xml_content, 'xml')
