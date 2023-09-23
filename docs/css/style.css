@@ -47,6 +47,7 @@ h2,
 h3,
 h4,
 h5,
+h6,
 .title,
 .subtitle {
     font-family: 'Futura Extra Bold', sans-serif !important;
@@ -388,6 +389,17 @@ footer {
     display: flex !important;
 }
 
+div[class^="grid-item"] {
+    padding: 2rem;
+}
+
+div[class^="grid-item"] p {
+    line-height: 1rem;
+}
+
+p[class^="text"] a {
+    margin-left: 0px;
+}
 
 /* analysis page */
 
@@ -508,7 +520,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; /* Two columns with equal width */
     grid-gap: 6%; /* Adjust the gap between the columns */
-    margin-left: 5%;
 }
 
 .spatial>h3,
@@ -612,4 +623,25 @@ footer {
         flex-direction: column;
         gap: 30vh;
     }
+}
+
+
+
+::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #646464;
+    transition: all 0.3s linear;
 }

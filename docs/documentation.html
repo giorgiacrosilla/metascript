@@ -37,11 +37,11 @@
             </ul>
         </div>
     </nav>
-    <main class="grid-container">
-        <section class="sidebar grid-item">
+    <main>
+        <section class="sidebar">
             <ul id="sidebar-list"></ul>
         </section>
-        <section class="content grid-item">
+        <section class="content">
             <h2>OVERVIEW</h2>
             <p>Metascript is an open source tool that provides a basic textual analysis framework for the comparison of
                 an
@@ -146,14 +146,13 @@
 
             </ul>
             <p>The chosen source materials are: </p>
-            <p>- the novel &quot;Dream Story&quot; translated by Otto P. Schinnerer from the original German
-                &quot;Traumnovelle&quot; by author Arthur Schnitzler, published by Green Integer (Los Angeles)</p>
-            <p>- the 1996 draft screenplay of &quot;Eyes Wide Shut&quot; written by Stanley Kubrick and Frederic Raphael
-            </p>
-            <p>- the 1999 transcript of &quot;Eyes Wide Shut&quot; published on October 1, 1999 by Grand Central Pub
-                (New
-                York)
-            </p>
+            <ul>
+                <li>the novel &quot;Dream Story&quot; translated by Otto P. Schinnerer from the original German
+                &quot;Traumnovelle&quot; by author Arthur Schnitzler, published by Green Integer (Los Angeles)</li>
+                <li>the 1996 draft screenplay of &quot;Eyes Wide Shut&quot; written by Stanley Kubrick and Frederic Raphael</li>
+                <li>the 1999 transcript of &quot;Eyes Wide Shut&quot; published on October 1, 1999 by Grand Central Pub (New York)</li>
+
+            </ul>
             <p>The ‘96 draft and the ‘99 transcription are very similar, but have some differences on various scenes
                 that
                 were
@@ -281,19 +280,21 @@
                 Bibliographic Ontology) was used to describe the elements of our project as codependent from one
                 another:
             </p>
-            <p>- <a href='http://purl.org/spar/fabio/Work'>fabio:Work</a> refers to the general concept of the book
+            <ul>
+            <li><a href='http://purl.org/spar/fabio/Work'>fabio:Work</a> refers to the general concept of the book
                 “Dream
                 Story”, the one that then is materialized in the actual book, but also inspired the movie transposition.
-            </p>
-            <p>- <a href='http://purl.org/spar/fabio/Expression'>fabio:expression</a>, the intellectual content, in our
+            </li>
+            <li><a href='http://purl.org/spar/fabio/Expression'>fabio:expression</a>, the intellectual content, in our
                 case
                 is
-                the translated version of the book, the draft screenplay and the transcription of the movie.</p>
-            <p>- <a href='http://purl.org/spar/fabio/Manifestation'>fabio:manifestation</a> is the materialization of
+                the translated version of the book, the draft screenplay and the transcription of the movie.</li>
+            <li><a href='http://purl.org/spar/fabio/Manifestation'>fabio:manifestation</a> is the materialization of
                 the
                 entity, in our case the book version that has been published by Green Integer, the XML-TEI encodings,
                 the
-                transcription of the movie published in 1999 and the draft screenplay. </p>
+                transcription of the movie published in 1999 and the draft screenplay. </li>
+            </ul>
             <p class="img-container"><img src="./img/1st graph.png" referrerpolicy="no-referrer" alt="img"></p>
             <p>We chose to use FABiO as the core ontology for this project because it describes “entities that are
                 published
@@ -417,7 +418,7 @@
                 consists of three main sections:</p>
             <ul>
                 <li><a
-                        href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html'><strong>fileDesc</strong></a>:This
+                        href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html'><strong>fileDesc</strong></a>: This
                     is a mandatory section that provides a description of the TEI file. It comprises the following
                     subcomponents:</li>
 
@@ -1015,10 +1016,9 @@
 
     <footer>
 
-        <div class="container-fluid">
+        <div class="container-fluid footer">
             <div class="grid-container">
                 <div class="grid-item-1">
-                    <br>
                     <p class="text1">Metascript is an open source tool that provides a basic textual analysis framework
                         for the comparison of an original text (novels, short stories, etc.) and its film transposition
                         (screenplays). The goal of Metascript is to provide a set of guidelines for the markup and the
@@ -1034,8 +1034,8 @@
                             src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
                 </div>
                 <div class="grid-item-2">
+                    <h6>Contacts</h6>
                     <br>
-                    <h6>Contact</h6>
                     <p class="text1"><a href="https://www.unibo.it/it" target="_blank" class="icon-link">Alma Mater
                             Studiorum Università di Bologna</a></p>
                     <p class="text1"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank"
@@ -1043,10 +1043,9 @@
                     <p class="text1"><a
                             href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467035"
                             target="_blank" class="icon-link">Digital Text in The Humanities</a></p>
-                    <a href="#su"><button type="button" class="btn btn-outline-light">Back to the top</button></a>
+                    <a href="#top"><button type="button" class="btn btn-outline-light">Back to the top</button></a>
                 </div>
                 <div class="grid-item-3">
-                    <br>
                     <h6>Team</h6>
                     <br>
                     <button class="btn btn-outline-light" id="contact-button">
@@ -1083,22 +1082,39 @@
 
     </footer>
     <style>
-        .grid-container {
-            display: grid !important;
-            grid-template-columns: 20vw 80vw;
-            grid-template-rows: 1fr auto;
-            gap: 0px 0px;
-            grid-template-areas: "sidebar content"
+
+        .footer {
+            position: relative;
+            left: 20vw !important;
+            top: 65px;
+            width: 80vw;
         }
 
-        .content.grid-item {
+        .content {
             padding: 5vh 7vw !important;
+            position: relative;
+            left: 20vw;
+            top: 65px !important;
+            width: 80vw;
         }
 
+        .navbar {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+            background-color: black;
+        }
 
         .sidebar {
             background-color: var(--giallino);
-            padding: 40px 10px 40px 10px !important;
+            padding: 30px 10px 40px 10px !important;
+            position: fixed;
+            top: 65px;
+            left: 0;
+            height: 100%;
+            width: 20vw;
+            overflow-x: scroll;
         }
 
         .sidebar ul {
@@ -1108,6 +1124,7 @@
 
         .sidebar ul li {
             margin: 10px;
+            font-size: 0.9rem;
         }
 
         #sidebar-list>li>a {
@@ -1143,8 +1160,6 @@
             letter-spacing: 0px !important;
         }
 
-        .H2-header {}
-
         .H3-header {
             margin-left: 1rem;
         }
@@ -1169,6 +1184,7 @@
         section li {
             font-family: 'Playfair Display', serif;
             font-size: 1em;
+            margin: 0.5rem 0rem;
         }
 
         thead,
