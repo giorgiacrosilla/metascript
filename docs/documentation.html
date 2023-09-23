@@ -146,14 +146,17 @@
 
             </ul>
             <p>The chosen source materials are: </p>
-            <p>- the novel &quot;Dream Story&quot; translated by Otto P. Schinnerer from the original German
-                &quot;Traumnovelle&quot; by author Arthur Schnitzler, published by Green Integer (Los Angeles)</p>
-            <p>- the 1996 draft screenplay of &quot;Eyes Wide Shut&quot; written by Stanley Kubrick and Frederic Raphael
-            </p>
-            <p>- the 1999 transcript of &quot;Eyes Wide Shut&quot; published on October 1, 1999 by Grand Central Pub
-                (New
-                York)
-            </p>
+            <ol>
+                <li> the novel &quot;Dream Story&quot; translated by Otto P. Schinnerer from the original German
+                    &quot;Traumnovelle&quot; by author Arthur Schnitzler, published by Green Integer (Los Angeles)</li>
+                <li> the 1996 draft screenplay of &quot;Eyes Wide Shut&quot; written by Stanley Kubrick and Frederic
+                    Raphael
+                </li>
+                <li> the 1999 transcript of &quot;Eyes Wide Shut&quot; published on October 1, 1999 by Grand Central Pub
+                    (New
+                    York)
+                </li>
+            </ol>
             <p>The ‘96 draft and the ‘99 transcription are very similar, but have some differences on various scenes
                 that
                 were
@@ -210,13 +213,14 @@
                             <td>Definition of the starting material and objectives + relevant academic literature with
                                 similar
                                 examples</td>
-                            <td>Search for the book connected to the screenplay (editions and translations).Screenplay
+                            <td>Search for the book connected to the screenplay (editions and translations). Screenplay
                                 research
-                                (various drafts and published transcription).Definition of research objectives and
+                                (various drafts and published transcription). Definition of research objectives and
                                 relative
                                 competency questions. </td>
-                            <td>IMSDbIMDbInternet ArchiveWorldCatAcademiaJStor</td>
-                            <td>Starting files.Metadata.Working plan.Idea of the state of the art of the field. </td>
+                            <td>IMSDb, IMDb, Internet Archive, WorldCat, Academia, JStor</td>
+                            <td>Starting files. <br>Metadata.<br>Working plan.<br>Idea of the state of the art of the
+                                field. </td>
                         </tr>
                         <tr>
                             <td>Workflow definition + ontologies choice</td>
@@ -224,23 +228,23 @@
                                 the
                                 ontologies useful for visualizing the creative process</td>
                             <td>LOVDocumentation</td>
-                            <td>UMLWork schemeConceptual Map for the Ontologies</td>
+                            <td>UML <br>Work scheme <br>Conceptual Map for the Ontologies</td>
                         </tr>
                         <tr>
                             <td>Transformation in XML-TEI + Markup Model definition</td>
                             <td>Markup of the texts in XML-TEI + search for the most appropriate tags for the type of
                                 material
-                                analyzed.Creation of the general markup model adaptable to a film script.</td>
-                            <td>Python scriptTEI documentationVisual Studio Code</td>
+                                analyzed. Creation of the general markup model adaptable to a film script.</td>
+                            <td>Python script, TEI documentation, Visual Studio Code</td>
                             <td>File XML-TEI with LOD</td>
                         </tr>
                         <tr>
                             <td>Data extraction and analysis</td>
                             <td>Extraction of data, from the XML-TEI files, relating to characters, their interactions,
-                                geographical locations, time and space.Creation of csv and json files.Data processing
+                                geographical locations, time and space. Creation of csv and json files. Data processing
                                 through
                                 appropriate python libraries and graphical display of results. </td>
-                            <td>Python libraries used:BokehPlotlyNetworkXFoliumBeautifulSoupxml.eTree</td>
+                            <td>Python libraries used:Bokeh, Plotly, NetworkX, Folium, BeautifulSoup, xml.eTree</td>
                             <td>Data and graphs</td>
                         </tr>
                         <tr>
@@ -256,7 +260,7 @@
                                 even
                                 by
                                 less expert users.</td>
-                            <td>htmlcssJavascript</td>
+                            <td>html, css, Javascript</td>
                             <td>Final website for the user</td>
                         </tr>
                     </tbody>
@@ -392,8 +396,12 @@
             </figure>
             <p> </p>
             <p>Then, we have used the tool Graffoo to render graphically our model.</p>
-            <p><img src="./img/2nd graph.png" referrerpolicy="no-referrer" alt="img"></p>
-
+            <div class="gallery-slider swiper">
+                <div class="swiper-wrapper align-items-center">
+                    <a href="./img/2nd graph.png" class="gallery-lightbox">
+                        <img src="./img/2nd graph.png" class="img-fluid" alt=""></a>
+                </div>
+            </div>
 
             <hr>
 
@@ -417,28 +425,29 @@
                 consists of three main sections:</p>
             <ul>
                 <li><a
-                        href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html'><strong>fileDesc</strong></a>:This
+                        href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html'><strong>&lt;fileDesc&gt;</strong></a>:This
                     is a mandatory section that provides a description of the TEI file. It comprises the following
                     subcomponents:</li>
 
                 <ul>
-                    <li><a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html'>titleStmt</a>:
+                    <li><a
+                            href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html'>&lt;titleStmt&gt;</a>:
                         This section
                         contains
                         information about the title of the text and its author.</li>
                     <li><a
-                            href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html'>publicationStmt</a>:
+                            href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html'>&lt;publicationStmt&gt;</a>:
                         Here,
                         details
                         about
                         the publisher and the date of publication are included.</li>
                     <li><a
-                            href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-seriesStmt.html'>seriesStmt</a>:
+                            href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-seriesStmt.html'>&lt;seriesStmt&gt;</a>:
                         This section
                         contains
                         information about the series to which the book belongs.</li>
                     <li><a
-                            href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-sourceDesc.html'>SourceDesc</a>:
+                            href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-sourceDesc.html'>&lt;sourceDesc&gt;</a>:
                         This part is
                         used
                         to
@@ -448,7 +457,7 @@
                 </ul>
 
                 <li> <a
-                        href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html'><strong>profileDesc</strong></a>:
+                        href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html'><strong>&lt;profileDesc&gt;</strong></a>:
                     This section provides information about the language used in the text, the locations mentioned,
                     and
                     the
@@ -456,57 +465,76 @@
 
                 <ul>
                     <li><a
-                            href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-settingDesc.html'>settingDesc</a>:
+                            href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-settingDesc.html'>&lt;settingDesc&gt;</a>:
                         Within this
                         part, a
-                        list of locations is included using the <listPlace> tag. Each <place> is assigned an ID, and its
-                                type
-                                (e.g.,
-                                building, street, city, region, state, park) is specified. The type of designation is
-                                valuable
-                                for
-                                spatial analysis, as it helps determine whether the location can be represented
-                                individually or
-                                by
-                                highlighting an area. The <placename> tag specifies the name used in the text to refer
-                                    to that
-                                    location,
-                                    and in some cases, the corresponding GeoNames URI is added as an attribute to this
-                                    tag. The
-                                    <location> tag provides additional geographical information about the location,
-                                        including
-                                        the
-                                        settlement type (e.g., city) and country. The <geo> tag is used to express the
-                                            coordinates
-                                            of
-                                            the location. Occasionally, the <desc> tag is employed to convey additional
-                                                information
-                                                about places mentioned in the text, especially considering that the book
-                                                was
-                                                written
-                                                in
-                                                the early 20th century and some specific buildings, cafes, or hotels
-                                                mentioned
-                                                may
-                                                no
-                                                longer exist. In such cases, coordinates are added based on the
-                                                annotated
-                                                edition of
-                                                Traumnovelle.</li>
+                        list of locations is included using the <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-listPlace.html">&lt;listPlace&gt;</a>
+                        tag. Each <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-place.html">&lt;place&gt;</a>
+                        is assigned an ID, and its
+                        type
+                        (e.g.,
+                        building, street, city, region, state, park) is specified. The type of designation is
+                        valuable
+                        for
+                        spatial analysis, as it helps determine whether the location can be represented
+                        individually or
+                        by
+                        highlighting an area. The <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-placeName.html">&lt;placename&gt;</a>
+                        tag specifies the name used in the
+                        text to refer
+                        to that
+                        location,
+                        and in some cases, the corresponding GeoNames URI is added as an attribute to this
+                        tag. The
+                        <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-location.html">&lt;location&gt;</a>
+                        tag provides additional geographical information about the
+                        location,
+                        including
+                        the
+                        settlement type (e.g., city) and country. The <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-geo.html">&lt;geo&gt;</a> tag is
+                        used to express
+                        the
+                        coordinates
+                        of
+                        the location. Occasionally, the <a
+                            href="https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-desc.html">&lt;desc&gt;</a> tag
+                        is employed to convey additional
+                        information
+                        about places mentioned in the text, especially considering that the book
+                        was
+                        written
+                        in
+                        the early 20th century and some specific buildings, cafes, or hotels
+                        mentioned
+                        may
+                        no
+                        longer exist. In such cases, coordinates are added based on the
+                        annotated
+                        edition of
+                        Traumnovelle.
+                    </li>
                     <li><a
-                            href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-particDesc.html'>particDesc</a>:
+                            href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-particDesc.html'>&lt;particDesc&gt;</a>:
                         This section
                         contains
                         a list of all the characters mentioned in the text.</li>
                     <ul>
                         <li><a
-                                href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/examples-listPerson.html'>listPerson</a>:
+                                href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/examples-listPerson.html'>&lt;listPerson&gt;</a>:
                             Serves
                             as a
                             container for individual character items represented as <person> elements, each with a
                                 unique
                                 ID.</li>
-                        <li><a href="https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-persName.html">persName</a> : This tag specifies the name of the character. Additionally, gender information is
+                        <li><a
+                                href="https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-persName.html">&lt;persName&gt;</a>
+                            :
+                            This tag specifies the name of the character. Additionally, gender information is
                             provided when
                             available, using the &quot;sex&quot; attribute within the <person> tag. If applicable, the
                                 <age>
@@ -529,7 +557,7 @@
                     </ul>
                 </ul>
                 <li><a
-                        href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-xenoData.html'><strong>xenodata</strong></a>,
+                        href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-xenoData.html'><strong>&lt;xenodata&gt;</strong></a>,
                     a
                     tag used to insert non-TEI elements, in this case we have used it to add Linked Open
                     Data
@@ -539,7 +567,8 @@
                     RDF format. </li>
                 <ul>
 
-                    <li><a href='http://www.w3.org/1999/02/22-rdf-syntax-ns#.'>rdf</a>, the tag specifies the opening
+                    <li><a href='http://www.w3.org/1999/02/22-rdf-syntax-ns#.'>&lt;rdf:RDF&gt;</a>, the tag specifies
+                        the opening
                         and
                         closing
                         line
@@ -582,23 +611,25 @@
             </ul>
             <h3>Book Encoding</h3>
             <p>To encode the information found on the first page, we utilized the <a
-                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-front.html'></a> tag,
+                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-front.html'>&lt;front&gt;</a> tag,
                 specifying
                 that
                 it
-                concerns the <a href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-titlePage.html'></a>
+                concerns the <a
+                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-titlePage.html'>&lt;titlePage&gt;</a>
                 of
                 the
                 book.
                 Within this section, the <a
-                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-docTitle.html'></a>
+                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-docTitle.html'>&lt;docTitle&gt;</a>
                 tag serves to contain details about the book&#39;s title, while the <a
-                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-byline.html'></a> tag holds
+                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-byline.html'>&lt;byline&gt;</a> tag
+                holds
                 the
                 primary
                 statement of responsibility.</p>
             <p>Each chapter within the book is divided using a <a
-                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-div.html'></a> tag, along
+                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-div.html'>&lt;div&gt;</a> tag, along
                 with
                 specifications
                 for its type and sequential number. In cases where text portions, which may or may not align
@@ -617,16 +648,18 @@
                 a
                 macro-XML file known as alignment.xml.</p>
             <p>To mark citations in the text, we manually inserted the <a
-                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-quote.html'></a> tag where
+                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-quote.html'>&lt;quote&gt;</a> tag
+                where
                 appropriate.
-                We employed a generic <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-rs.html'></a>
+                We employed a generic <a
+                    href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-rs.html'>&lt;rs&gt;</a>
                 tag,
                 followed by an attribute specifying the type of person mentioned, such as character or real
                 person,
                 along
                 with an id to uniquely identify the character referenced in the book.</p>
             <p>For dialogues, we employed the <a
-                    href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-said.html'></a>
+                    href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-said.html'>&lt;said&gt;</a>
                 tag, providing specific attributes:</p>
             <ul>
                 <li> "aloud" is set to true if the speech is said out loud, and false if it is not.</li>
@@ -677,21 +710,25 @@
                 tagging
                 performance texts. </p>
             <p>In the header, the <front> tag is employed to store information about the cast members within the
-                    <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-castList.html'></a>, with each
+                    <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-castList.html'>&lt;castlist&gt;</a>,
+                    with each
                     cast
                     member&#39;s details enclosed within a <a
-                        href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-castItem.html'></a> tag. For
+                        href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-castItem.html'>&lt;castItem&gt;</a>
+                    tag. For
                     each
                     <castItem>, the character&#39;s name is defined using the <a
-                            href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-role.html'></a> tag, and
+                            href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-role.html'>&lt;role&gt;</a> tag,
+                        and
                         a
                         concise
                         description is included using <a
-                            href='https://www.tei-c.org/release/doc/tei-p5-doc/it/html/ref-roleDesc.html'></a>.
+                            href='https://www.tei-c.org/release/doc/tei-p5-doc/it/html/ref-roleDesc.html'>&lt;roleDesc&gt;</a>.
                         To
                         specify
                         the actor portraying the character in the film, the <a
-                            href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-actor.html'></a> tag is
+                            href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-actor.html'>&lt;actor&gt;</a> tag
+                        is
                         used,
                         and
                         each tag contains a reference to the unique identifier provided by IMDB. The information
@@ -717,7 +754,8 @@
                 in the transcription match the given scene.</p>
             <p> </p>
             <p>Stage directions are marked using the <a
-                    href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-stage.html'></a> tag and feature
+                    href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-stage.html'>&lt;scene&gt;</a> tag and
+                feature
                 various attributes:
             <ul>
                 <li>&quot;environment&quot; specifies whether the setting is internal or external.</li>
@@ -741,17 +779,18 @@
             <p>Each line of dialogue is tagged as follows:</p>
             <ul>
                 <li>The line is enclosed within a <a
-                        href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sp.html'></a>
+                        href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sp.html'>&lt;sp&gt;</a>
                     tag, which specifies
                     the speaker and listener using the same attributes as those employed in the book.</li>
                 <li>In the transcription, the<a
-                        href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-timeline.html'> </a>
+                        href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-timeline.html'>&lt;timeline&gt; </a>
                     tag specifies
                     the start and end running times of the line.</li>
-                <li>The <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-speaker.html'></a> tag
+                <li>The <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-speaker.html'>&lt;speaker&gt;</a>
+                    tag
                     identifies
                     the speaker.</li>
-                <li>The <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-p.html'></a> tag
+                <li>The <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-p.html'>&lt;p&gt;</a> tag
                     contains
                     the
                     actual dialogue line.</li>
@@ -826,7 +865,9 @@
                 geographical elements. Unfortunately, there&#39;s the need to manually insert GeoJSON files
                 corresponding to regions, states, or country areas that we want to display on screen.</p>
             <p>The python libraries needed to extract information from the TEI document and visualize them
-                inside a map are respectively xml.etree and folium.</p>
+                inside a map are respectively <a
+                    href="https://docs.python.org/3/library/xml.etree.elementtree.html">xml.etree</a> and <a
+                    href="https://python-visualization.github.io/folium/latest/#">folium</a>.</p>
             <p><strong>xml.etree</strong> is used to progressively search into the hierarchical structure of
                 the
                 XML-TEI document. In this case we need to search inside the TEI header the content inside
@@ -874,7 +915,10 @@
                 interactions; a static graph; an interactive graph. </p>
             <p>The libraries needed to extract information from the TEI document, visualize it in a static
                 graph
-                and then in a dynamic one are: xml.etree, NetworkX, Bokeh.</p>
+                and then in a dynamic one are: <a
+                    href="https://docs.python.org/3/library/xml.etree.elementtree.html">xml.etree</a>, <a
+                    href="https://networkx.org/">NetworkX</a>, <a href="https://docs.bokeh.org/en/latest/">Bokeh</a>.
+            </p>
             <p><strong>xml.etree</strong> is used to search inside the TEI header the content inside the tag
                 <said> or <sp> and get all the information contained in the tags “who” and “toWhom”. This
                         process is done for each <said> or <sp> tag and then the information is added in a
@@ -946,8 +990,9 @@
             <h3>Spatio-Temporal Analysis</h3>
             <p>This analysis gives an idea of the prevalent time and space setting, extracting the stage
                 directions that the director had written on the screenplay. The libraries needed to extract
-                information from the TEI document and visualize graphically the data are: xml.etree and
-                Plotly.
+                information from the TEI document and visualize graphically the data are: <a
+                    href="https://docs.python.org/3/library/xml.etree.elementtree.html">xml.etree</a> and
+                <a href="https://plotly.com/python/">Plotly</a>.
             </p>
             <p><strong>xml.etree</strong> is used to search inside the TEI header the content inside the tag
                 <stage> two specific attributes which content is stored in lists. A list of tuples is
@@ -1201,6 +1246,7 @@
         }
     </style>
     <script>
+
         function populateSidebar() {
             const headings = document.querySelectorAll('.content h1, .content h2, .content h3, .content h4, .content h5, .content h6');
             const sidebarList = document.getElementById('sidebar-list');
@@ -1219,6 +1265,20 @@
         }
 
         window.addEventListener('load', populateSidebar);
+        new Swiper('.events-slider', {
+            speed: 600,
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false
+            },
+            slidesPerView: 'auto',
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true
+            }
+        });
     </script>
 </body>
 
