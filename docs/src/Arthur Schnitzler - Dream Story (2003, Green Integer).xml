@@ -333,7 +333,7 @@
             </particDesc>
         </profileDesc>
         <xenoData xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:frbr="http://purl.org/vocab/frbr/core#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fabio="http://purl.org/spar/fabio/">
+            <rdf:RDF xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:frbr="http://purl.org/vocab/frbr/core#" xmlns:bibo="http://purl.org/ontology/bibo/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fabio="http://purl.org/spar/fabio/" xmlns:rdau="http://rdaregistry.info/Elements/u">
                 <rdf:Description rdf:about="">
                     <owl:sameAs rdf:resource="https://viaf.org/viaf/183449849/" /> 
                     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation" />
@@ -346,6 +346,7 @@
                     <frbr:translationOf rdf:resource="https://viaf.org/viaf/185456578/"></frbr:translationOf>
                     <dcterms:hasIdentifier>1931243484</dcterms:hasIdentifier>
                     <dcterms:hasIdentifier>9781931243483</dcterms:hasIdentifier>
+                    <rdau:P60833 rdf:resource="https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut-1999-transcription.xml"></rdau:P60833>
                 </rdf:Description>
             </rdf:RDF>
         </xenoData>
@@ -370,7 +371,7 @@
                         was to bring Prince Amgiad to the palace of the caliph. The Prince, wrapped
                         in his purple cloak, lay alone on the deck under the dark-blue, starry sky,
                         and his gaze—" </quote>
-                        <lb /> So far the <rs ref="#daughter"> little girl </rs>
+                        <lb /> So far the <rs type="character" ref="#daughter"> little girl </rs>
                         had read aloud.Then, suddenly, her eyelids drooped. Her parents looked at
                         each other and smiled. <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         bent down, kissed her blond hair and closed the book which was lying on the
@@ -379,21 +380,20 @@
                             aloud="true" direct="true" who="Fridolin" toWhom="daughter"> "It's nine
                         o'clock," </said> her father said, <said aloud="true" direct="true"
                             who="Fridolin" toWhom="daughter"> "and time you were in bed." </said>
-                        <rs
+                        <rs type="character"
                             ref="#Albertina"> Albertina </rs> also bent over her, and as her hand
                         met her husband's on the beloved forehead, they looked at each other with a
-                        tender smile not meant for the child. The <rs ref="#governess"> governess </rs>
+                        tender smile not meant for the child. The <rs type="character" ref="#governess"> governess </rs>
                         entered and asked the little girl to say good-night. She got up obediently,
                         kissed her father and mother and walked out quietly hand in hand with the
                         young woman. </p>
                 </div>
                 <div type="scene" n="5, 10, 11, 12, 13, 18" xml:id="B2">
                     <p>
-                        <rs ref="#Fridolin"> Fridolin </rs> and <rs type="character"
+                        <rs  type="character" ref="#Fridolin"> Fridolin </rs> and <rs type="character"
                             ref="#Albertina"> Albertina </rs> , left alone under the reddish glow of
                         the hanging-lamp, continued the conversation they had begun before supper. </p>
-                    <p> It dealt with their experiences the night before at the <rs type="event"
-                            ref="#MASQ"> masquerade ball </rs> . They had decided to attend it just
+                    <p> It dealt with their experiences the night before at the  masquerade ball. They had decided to attend it just
                         before the end of the <rs type="event" ref="#CARNIVAL"> carnival period </rs>
                         , as their first one of the season. No sooner had <rs type="character"
                             ref="Fridolin"> Fridolin </rs> entered the ball-room than he was
@@ -415,7 +415,7 @@
                 <div type="scene" n="19" xml:id="B3">
                     <p>
                         <rs type="character" ref="#Fridolin"> Fridolin </rs> and <rs
-                            ref="#Albertina"> Albertina </rs> were glad to have escaped from a
+                        type="character" ref="#Albertina"> Albertina </rs> were glad to have escaped from a
                         disappointingly commonplace masquerade prank, and soon sat like two lovers,
                         among the other couples, in the buffet, eating oysters and drinking
                         champagne. They chatted gaily, as though they had just made each other's
@@ -504,12 +504,12 @@
                             all. I remember that I woke the next morning with a restless anxiety. I
                             don't know whether I was afraid that he had left or that he might still
                             be there. But when he didn't appear at noon, I breathed a sigh of
-                            relief. Don't ask any more, <rs ref="#Fridolin"> Fridolin </rs> . I've
+                            relief. Don't ask any more, <rs type="character" ref="#Fridolin"> Fridolin </rs> . I've
                             told you the whole truth. And you, too, had some sort of experience at
                             the seashore—I know it." </said>
                     </p>
                     <p>
-                        <rs ref="#Fridolin"> Fridolin </rs> rose, walked up and down the room
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> rose, walked up and down the room
                         several times and then said: <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Albertina"> "You're right." </said> He was standing at the
                         window, his face in shadow and in a hoarse and slightly hostile voice he
@@ -525,7 +525,7 @@
                         had suddenly appeared on the narrow ledge of a bathing-hut, which rested on
                         piles driven into the sand. She was cautiously advancing, placing one foot
                         before the other, her arms extended backward against the wooden boards. She
-                        was quite a <rs ref="#younggirl"> young girl </rs> , possibly fifteen years
+                        was quite a <rs type="character" ref="#younggirl"> young girl </rs> , possibly fifteen years
                         old, with loose blond hair hanging over her shoulders and on one side over
                         her delicate breast. She was looking down into the water and was slowly
                         moving along the wall, her gaze lowered in the direction of the far corner.
@@ -556,10 +556,10 @@
                     <p>
                         <said aloud="true" direct="true" who="Fridolin" toWhom="Albertina"> "What I
                         have told you," </said>
-                        <rs ref="#Fridolin"> Fridolin </rs> answered, <said
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> answered, <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Albertina"> "happened
                         on the last day of our stay in Denmark. Otherwise I don't know what might
-                        have taken place. You, too, mustn't ask any more, <rs ref="#Albertina">
+                        have taken place. You, too, mustn't ask any more, <rs type="character" ref="#Albertina">
                         Albertina </rs> ." </said>
                     </p>
                     <p> He was still standing at the window, motionless as <rs ref="#Albertina">
@@ -610,7 +610,7 @@
                             who="Fridolin" toWhom="Albertina"> "You were barely seventeen when we
                         became engaged." </said>
                         <said aloud="true" direct="true" who="Albertina"
-                            toWhom="Fridolin"> "Past sixteen, yes, <rs ref="#Fridolin"> Fridolin </rs>
+                            toWhom="Fridolin"> "Past sixteen, yes, <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         . But it wasn't my fault that I was a virgin when I became your wife." </said>
                         She looked at him brightly. <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Albertina"> " <rs ref="#Albertina"> Albertina </rs> ——!" </said>
@@ -627,7 +627,7 @@
                             he asked me—if I would be his wife. And I said yes." </said>
                     </p>
                     <p>
-                        <rs ref="#Fridolin"> Fridolin </rs> was annoyed and dropped her hand. <said
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> was annoyed and dropped her hand. <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Albertina"> "And if," </said>
                         he said, <said aloud="true" direct="true" who="Fridolin" toWhom="Albertina">
                         "someone else had stood by your window that night and the right word had
@@ -643,7 +643,7 @@
                         say now. Perhaps you even believe it at this moment. But——" </said> There
                         was a knock on the door. The maid entered and said that the housekeeper from
                         Schreyvogel Strasse had come to fetch the doctor, as the Privy Councilor was
-                        very low again. <rs ref="#Fridolin"> Fridolin </rs> went out into the hall,
+                        very low again. <rs type="character" ref="#Fridolin"> Fridolin </rs> went out into the hall,
                         and when the woman told him that the Councilor had had a very serious heart
                         attack, he promised to come at once. As he was leaving, <rs ref="#Albertina">
                         Albertina </rs> asked: <said aloud="true" direct="true" who="Albertina"
@@ -656,7 +656,7 @@
                             very serious," </said> said <rs ref="#Fridolin"> Fridolin </rs> . <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Albertina"> "Up to now
                         three centigrams of morphine have always pulled him through." </said> The
-                        maid brought his fur coat, and absent-mindedly kissing <rs ref="#Albertina">
+                        maid brought his fur coat, and absent-mindedly kissing <rs type="character" ref="#Albertina">
                         Albertina </rs> on her forehead and mouth, as if everything during the last
                         hour had been completely forgotten, he hurried away. </p>
                 </div>
@@ -664,7 +664,7 @@
             <div type="chapter" n="2">
                 <head> 2. </head>
                 <div type="scene" n="38,39" xml:id="B6">
-                    <p> WHEN <rs ref="#Fridolin"> Fridolin </rs> reached the street, he unbuttoned
+                    <p> WHEN <rs type="character" ref="#Fridolin"> Fridolin </rs> reached the street, he unbuttoned
                         his coat. It had suddenly begun to thaw; the snow on the sidewalk was almost
                         gone, and there was a touch of spring in the air. It was less than a quarter
                         of an hour's walk to Schreyvogel Strasse from his home near the General
@@ -674,15 +674,15 @@
                         entering through the unlighted foyer into the living room he saw at once
                         that he had come too late. The green-shaded kerosene lamp which was hanging
                         from the low ceiling cast a dim light on the bedspread under which a lean
-                        body lay motionless. <rs ref="#Fridolin"> Fridolin </rs> knew the old man so
+                        body lay motionless. <rs type="character" ref="#Fridolin"> Fridolin </rs> knew the old man so
                         well that he seemed to see the face plainly, although it was outside the
                         circle of light— the high forehead, the thin and lined cheeks, the
                         snow-white beard and also the strikingly ugly ears with coarse, white hairs.
-                        At the foot of the bed sat <rs ref="#Marianne"> Marianne </rs> , the
+                        At the foot of the bed sat <rs type="character" ref="#Marianne"> Marianne </rs> , the
                         Councilor's daughter, completely exhausted, her arms hanging limply from her
                         shoulders. An odor of old furniture, medicine, petroleum and cooking
                         pervaded the room, and in addition to that there was a trace of eau de
-                        Cologne and scented soap. <rs ref="#Fridolin"> Fridolin </rs> also noticed
+                        Cologne and scented soap. <rs type="character" ref="#Fridolin"> Fridolin </rs> also noticed
                         the indefinite, sweetish scent of this pale girl who was still young and who
                         had been slowly fading for months and years under the stress of severe
                         household duties, nursing and night watches. When the doctor entered she
@@ -694,7 +694,7 @@
                         lying on the bed-spread in loose and open shirt sleeves. His shoulders
                         drooped with a slight expression of regret. He stuck his hands into the
                         pockets of his coat and his eyes wandered about the room until they finally
-                        rested on <rs ref="#Marianne"> Marianne </rs> . Her hair was blond and
+                        rested on <rs type="character" ref="#Marianne"> Marianne </rs> . Her hair was blond and
                         thick, but dry; her neck well-formed and slender, although a little wrinkled
                         and rather yellow; and her lips were thin and firmly pressed together. <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Marianne"> Well, my
@@ -717,13 +717,13 @@
                         Roediger would soon appear. </said>
                         <said aloud="true" direct="true"
                             who="Marianne" toWhom="Fridolin"> "My fiance," </said> she added, and
-                        did not look him straight in the eye. <rs ref="#Fridolin"> Fridolin </rs>
-                        simply nodded. During the year he had met <rs ref="#Roediger"> Doctor
+                        did not look him straight in the eye. <rs type="character" ref="#Fridolin"> Fridolin </rs>
+                        simply nodded. During the year he had met <rs type="character" ref="#Roediger"> Doctor
                         Roediger </rs> two or three times in the Councilor's house. The pale young
                         man—an instructor in History at the University of Vienna—was of an unusually
                         slender build with a short, blond beard and spectacles, and had made quite a
                         good impression upon him, without, however, arousing his interest beyond
-                        that. <rs ref="#Marianne"> Marianne </rs> would certainly look better, he
+                        that. <rs type="character" ref="#Marianne"> Marianne </rs> would certainly look better, he
                         thought to himself, if she were his mistress. Her hair would be less dry,
                         her lips would be fuller and redder. <said aloud="false" direct="false"
                             who="Fridolin"> I wonder how old she is, he reflected. The first time I
@@ -737,7 +737,7 @@
                             quite possible that I shall never see her again, since there's nothing
                         more
                             for me to do here. Well, many others that I cared for have gone the same
-                        way. </said> As these thoughts passed through his mind, <rs ref="#Marianne">
+                        way. </said> As these thoughts passed through his mind, <rs type="character" ref="#Marianne">
                         Marianne </rs> began to speak of her father—with fervor—as if his death had
                         suddenly made him a more remarkable person. <said aloud="false"
                             direct="false" who="Fridolin"> Then he was really only fifty-four years
@@ -745,7 +745,7 @@
                             wife always ill—and his son such a grief! What, she had a brother?
                         Certainly, she had once told the doctor about him. </said> Her brother was
                         now living somewhere abroad. A picture that he had painted when he was
-                        fifteen was hanging over there in <rs ref="#Marianne"> Marianne </rs> 's
+                        fifteen was hanging over there in <rs type="character" ref="#Marianne"> Marianne </rs> 's
                         room. It represented an officer galloping down a hill. Her father had always
                         pretended not to see it although it wasn't bad. Oh yes, if he'd had a chance
                         her brother might have made something of himself. <said aloud="false"
@@ -759,7 +759,7 @@
                         from him four or five years ago, at Christmas, from a small city in Italy.
                         Strange to say, she had forgotten the name. She continued like this for a
                         while, almost incoherently. Suddenly she stopped and sat there silently, her
-                        head resting in her hands. <rs ref="#Fridolin"> Fridolin </rs> was tired and
+                        head resting in her hands. <rs type="character" ref="#Fridolin"> Fridolin </rs> was tired and
                         even more bored. He was anxiously waiting for some one to come, her
                         relatives, or her fiance. The silence in the room was oppressive. It seemed
                         to him that the dead man joined in the silence, deliberately and with
@@ -777,18 +777,18 @@
                         medicine. Suddenly he felt that compared with this noble <rs ref="#Roediger">
                         Doctor Roediger </rs> , he was the inferior. <said aloud="true"
                             direct="true" who="Marianne" toWhom="Fridolin"> We shall move soon," </said>
-                        <rs
+                        <rs type="character"
                             ref="#Marianne"> Marianne </rs> listlessly, <said aloud="true"
                             direct="true" who="Marianne" toWhom="Fridolin"> "he has a post at the
                         University of Gottingen." </said>
                         <said aloud="true" direct="true"
-                            who="Fridolin" toWhom="Marianne"> "Oh," </said> said <rs ref="#Fridolin">
+                            who="Fridolin" toWhom="Marianne"> "Oh," </said> said <rs type="character" ref="#Fridolin">
                         Fridolin </rs> , and was about to congratulate her but it seemed rather out
                         of place at the moment. He glanced at the closed window, and without asking
                         for permission but availing himself of his privilege as a doctor, he opened
                         both casements and let some air in. It had become even warmer and more
                         spring-like, and the breeze seemed to bring with it a slight fragrance of
-                        the distant awakening woods. When he turned back into the room, he saw <rs
+                        the distant awakening woods. When he turned back into the room, he saw <rs type="character"
                             ref="#Marianne"> Marianne </rs> 's eyes fixed upon him with a
                         questioning look. He moved nearer to her and said: <said aloud="true"
                             direct="true" who="Fridolin" toWhom="Marianne"> "I hope the fresh air
@@ -801,7 +801,7 @@
                         she buried her face in her hands. In spite of himself, he placed his hand on
                         her head, caressing it. He could feel her body beginning to tremble, and her
                         sobs which were at first very quiet, gradually became louder and finally
-                        quite unrestrained. All at once she slipped down from her chair and lay at <rs
+                        quite unrestrained. All at once she slipped down from her chair and lay at <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> 's feet, clasping his knees with her
                         arms and pressing her face against them. Then she looked up to him with
                         large eyes, wild with grief, and whispered ardently: <said aloud="true"
@@ -823,39 +823,39 @@
                         the friend of his mother at the latter's deathbed. At the same time he
                         thought of his wife, without knowing why, and he was conscious of some
                         bitterness and a vague animosity against the man with the yellow hand-bag on
-                        the hotel stairs in Denmark. He held <rs ref="#Marianne"> Marianne </rs>
+                        the hotel stairs in Denmark. He held <rs type="character" ref="#Marianne"> Marianne </rs>
                         closer, but without the slightest emotion. The sight of her lustreless, dry
                         hair, the indefinite, sweetish scent of her unaired dress gave him a slight
                         feeling of revulsion. The bell outside rang again, and feeling he was
-                        released, he hastily kissed <rs ref="#Marianne"> Marianne </rs> 's hand, as
+                        released, he hastily kissed <rs type="character" ref="#Marianne"> Marianne </rs> 's hand, as
                         if in gratitude, and went to open the door. </p>
                 </div>
                 <div type="scene" n="41" xml:id="B7">
                     <p>
-                        <rs ref="#Roediger"> Doctor Roediger </rs> stood there, in a dark gray
+                        <rs type="character" ref="#Roediger"> Doctor Roediger </rs> stood there, in a dark gray
                         top-coat, an umbrella in his hand and a serious face, appropriate to the
                         occasion. The two men greeted each other much more cordially than was called
                         for by their actual state of acquaintance. Then they stepped into the room.
-                        After an embarrassed look at the deceased, <rs ref="#Roediger"> Roediger </rs>
-                        expressed his sympathy to <rs ref="#Marianne"> Marianne </rs> , while <rs
+                        After an embarrassed look at the deceased, <rs type="character" ref="#Roediger"> Roediger </rs>
+                        expressed his sympathy to <rs type="character" ref="#Marianne"> Marianne </rs> , while <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> went into the adjoining room to write
                         out the official death certificate. He turned up the gas-light over the desk
                         and his eyes fell upon the picture of the whiteuniformed officer, galloping
                         down hill, with drawn sabre, to meet an invisible enemy. It hung in a narrow
                         frame of dull gold and rather resembled a modest chromo-lithograph. With his
-                        death-certificate filled out, <rs ref="#Fridolin"> Fridolin </rs> returned
+                        death-certificate filled out, <rs type="character" ref="#Fridolin"> Fridolin </rs> returned
                         to the room where the engaged couple sat, hand in hand, by the bed of the
                         dead Councilor. Again the door-bell rang and Doctor Roediger rose to answer
-                        it. While he was gone, <rs ref="#Marianne"> Marianne </rs> , with her eyes
+                        it. While he was gone, <rs type="character" ref="#Marianne"> Marianne </rs> , with her eyes
                         on the floor, said, almost inaudibly: <said aloud="true" direct="true"
                             who="Marianne" toWhom="Fridolin"> "I love you," </said> and <rs
                             ref="#Fridolin"> Fridolin </rs> answered by <said aloud="true"
                             direct="false" who="Fridolin" toWhom="Marianne"> pronouncing her name
-                        tenderly </said> . Then <rs ref="#Roediger"> Roediger </rs> came back with
-                        an elderly couple, <rs ref="#Marianne"> Marianne </rs> 's uncle and aunt,
+                        tenderly </said> . Then <rs type="character" ref="#Roediger"> Roediger </rs> came back with
+                        an elderly couple, <rs type="character" ref="#Marianne"> Marianne </rs> 's uncle and aunt,
                         and a few words, appropriate to the occasion, were exchanged, with the usual
                         embarrassment in the presence of one who has just died. The little room
-                        suddenly seemed crowded with mourners. <rs ref="#Fridolin"> Fridolin </rs>
+                        suddenly seemed crowded with mourners. <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         felt superfluous, took his leave and was escorted to the door by Roediger
                         who said a few words of gratitude and expressed the hope of seeing him soon
                         again. </p>
@@ -864,7 +864,7 @@
             <div type="chapter" n="3">
                 <head> 3. </head>
                 <div type="scene" n="43,45" xml:id="B8">
-                    <p> WHEN <rs ref="#Fridolin"> Fridolin </rs> stood on the street in front of the
+                    <p> WHEN <rs type="character" ref="#Fridolin"> Fridolin </rs> stood on the street in front of the
                         house, he looked up at the window which he himself had opened a little while
                         before. The casements were swaying slightly in the wind of early spring, and
                         the people who remained behind them up there, the living as well as the
@@ -873,7 +873,7 @@
                         the power of which he was trying to break. He felt strangely disinclined to
                         go home. The snow in the streets had melted, except where little heaps of
                         dirty white had been piled up on either side of the curb. The gas-flame in
-                        the street lamps flickered and a nearby church bell struck eleven. <rs
+                        the street lamps flickered and a nearby church bell struck eleven. <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> decided that before going to bed, he
                         would spend a half hour in a quiet nook of a cafe near his residence. As he
                         walked through Rathaus Park he noticed here and there on benches standing in
@@ -911,7 +911,7 @@
                         lamp fell upon them he thought he recognized them, with their blue caps, as
                         members of the Alemannia, for although he had never belonged to a
                         fraternity, he had fought a few sabre duels in his time. In thinking of his
-                        student days he was reminded again of the <rs ref="#TWOW"> red dominoes </rs>
+                        student days he was reminded again of the <rs type="character" ref="#TWOW"> red dominoes </rs>
                         who had lured him into a box at the ball the night before and then had so
                         shamefully deserted him. The students were quite near now; they were
                         laughing and talking loudly. Perhaps one or two of them were from the
@@ -922,10 +922,10 @@
                         deliberately bumped into him with his raised elbow. It couldn't have been
                         mere chance. <said aloud="false" direct="false" who="Fridolin"> What's got
                         into that fellow? </said>
-                        <rs ref="#Fridolin"> Fridolin </rs> thought, and
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> thought, and
                         involuntarily he stopped. The other took two more steps and turned. They
                         looked at each other for a moment with only a short distance separating
-                        them. Suddenly <rs ref="#Fridolin"> Fridolin </rs> turned around again and
+                        them. Suddenly <rs type="character" ref="#Fridolin"> Fridolin </rs> turned around again and
                         went on. He heard a short laugh behind him and he longed to challenge the
                         fellow, but he felt his heart beating strangely, just as it had on a
                         previous occasion, twelve or fourteen years before. There had been an
@@ -954,7 +954,7 @@
                         fellow again, the affair could still be straightened out. He was by no means
                         bound by the code of honor to take a silly encounter with a student
                         seriously when on an errand of mercy, to or from a patient. But if, for
-                        instance, he should meet the young Dane with whom <rs ref="#Albertina">
+                        instance, he should meet the young Dane with whom <rs type="character" ref="#Albertina">
                         Albertina </rs> — oh, nonsense, what was he thinking of? Well, after all, it
                         was just as bad as if she had been his mistress. Even worse. Yes, just let
                         that fellow cross his path! What a joy it would be to face him somewhere in
@@ -964,9 +964,9 @@
                         women were strolling about in a pitiful attempt to bag their game. <said
                             aloud="false" direct="false" who="Fridolin"> It's phantomlike </said> ,
                         he thought. And in retrospect the students, too, with their blue caps,
-                        suddenly seemed unreal. The same was true of <rs ref="#Marianne"> Marianne </rs>
+                        suddenly seemed unreal. The same was true of <rs type="character" ref="#Marianne"> Marianne </rs>
                         , her fiance, her uncle and aunt, all of whom he pictured standing hand in
-                        hand around the deathbed of the old <rs ref="councilor"> Councilor </rs> . <rs
+                        hand around the deathbed of the old <rs type="character" ref="councilor"> Councilor </rs> . <rs type="character"
                             ref="#Albertina"> Albertina </rs> , too, whom he could see in his mind's
                         eye soundly sleeping, her arms folded under her head—even his child lying in
                         the narrow white brass bed, rolled up in a heap, and the red-cheeked
@@ -977,7 +977,7 @@
                 </div>
                 <div type="scene" n="46" xml:id="B9">
                     <p>
-                        <rs ref="#Mizzi"> One of the girls </rs> wandering about stopped him. She
+                        <rs type="character" ref="#Mizzi"> One of the girls </rs> wandering about stopped him. She
                         was still a young and pretty little thing, very pale with red-painted lips. <said
                             aloud="false" direct="false" who="Fridolin"> She also might lead to a
                         fatal end, only not as quickly </said> , he thought. <said aloud="false"
@@ -993,10 +993,10 @@
                         of this sort since he had been a student at the Gymnasium. Was the
                         attraction this girl had for him a sign that he was suddenly reverting to
                         adolescence? He recalled a casual acquaintance, a smart young man, who was
-                        supposed to be extremely successful with women. Once while <rs
+                        supposed to be extremely successful with women. Once while <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> was a student he had been sitting with
                         him in an all-night cafe, after a ball. When the young man proposed to leave
-                        with one of the regular girls of the place, <rs ref="#Fridolin"> Fridolin </rs>
+                        with one of the regular girls of the place, <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         looked at him in surprise. Thereupon he answered: <said aloud="true"
                             direct="true" who="Fridolin"
                             toWhom="Mizzi"> "After all, it's the most convenient way— and they
@@ -1008,7 +1008,7 @@
                     </p>
                 </div>
                 <div type="scene" n="47,48,50" xml:id="B10">
-                    <p> She unlocked the house-door, stepped into the hallway and waited for <rs
+                    <p> She unlocked the house-door, stepped into the hallway and waited for <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> to follow her. <said aloud="true"
                             direct="true" who="Mizzi" toWhom="Fridolin"> "Come on," </said> she said
                         when he hesitated. He stepped in beside her, the door closed behind him, she
@@ -1016,10 +1016,10 @@
                             aloud="false" direct="false" who="Fridolin"> —Am I mad? </said> he asked
                         himself. Of course I shall have nothing to do with her. An oil-lamp was
                         burning in her room, and she turned it up. It was a fairly pleasant place
-                        and neatly kept. At any rate, it smelled fresher than <rs ref="#Marianne">
+                        and neatly kept. At any rate, it smelled fresher than <rs type="character" ref="#Marianne">
                         Marianne </rs> 's home, for instance. But then, of course, no old man had
-                        been lying ill there for months. <rs ref="#Mizzi"> The girl </rs> smiled,
-                        and without forwardness approached <rs ref="#Fridolin"> Fridolin </rs> who
+                        been lying ill there for months. <rs type="character" ref="#Mizzi"> The girl </rs> smiled,
+                        and without forwardness approached <rs type="character" ref="#Fridolin"> Fridolin </rs> who
                         gently kept her at a distance. She pointed to a rocking-chair into which he
                         was glad to drop. <said aloud="true" direct="true" who="Mizzi"
                             toWhom="Fridolin"> "You must be very tired," </said> she remarked. He
@@ -1032,13 +1032,13 @@
                             should I rouge?" she inquired. "How old do you think I am?" </said>
                         <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Mizzi"> "Twenty?" </said>
-                        <rs
+                        <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> ventured. <said aloud="true"
                             direct="true" who="Mizzi" toWhom="Fridolin"> "Seventeen," </said> she
                         said, and sat on his lap, putting her arms around his neck like a child. <said
                             aloud="false" direct="false" who="Fridolin"> Who in the world would
                         suspect that I'm here in this room at this moment? </said>
-                        <rs
+                        <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> thought. <said aloud="false"
                             direct="false" who="Fridolin"> I'd never have thought it possible an
                             hour or even ten minutes ago. And— why? Why am I here? </said> Her lips
@@ -1076,7 +1076,7 @@
                         She looked up to him astonished, almost frightened. Then she laughed,
                         embarrassed and happy. <said aloud="true" direct="true" who="Mizzi"
                             toWhom="Fridolin"> "Just as if I were a young lady," </said> she said.
-                        The door closed behind <rs ref="#Fridolin"> Fridolin </rs> and he quickly
+                        The door closed behind <rs type="character" ref="#Fridolin"> Fridolin </rs> and he quickly
                         made a mental note of the street number, so as to be able to send the poor
                         little thing some wine and cakes the following day. </p>
                 </div>
@@ -1088,21 +1088,21 @@
                         and distant mountains drifted with the gentle breezes into the narrow
                         street. <said aloud="false" direct="false" who="Fridolin"> Where shall I go
                         now? </said>
-                        <rs ref="#Fridolin"> Fridolin </rs> asked himself, as though it
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> asked himself, as though it
                         weren't the obvious thing to go home to bed. But he couldn't persuade
                         himself to do so. He felt homeless, an outcast, since his annoying meeting
-                        with the students ... or was it since <rs ref="#Marianne"> Marianne </rs> 's
+                        with the students ... or was it since <rs type="character" ref="#Marianne"> Marianne </rs> 's
                         confession? No, it was longer than that—ever since this evening's
-                        conversation with <rs ref="#Albertina"> Albertina </rs> he was moving
+                        conversation with <rs type="character" ref="#Albertina"> Albertina </rs> he was moving
                         farther and farther away from his everyday existence into some strange and
                         distant world. He wandered about aimlessly through the dark streets, letting
                         the breeze blow through his hair. Finally, he turned resolutely into a
                         third-rate coffee-house. The place was dimly lighted and not especially
                         large, but it had an old-fashioned, cozy air about it, and was almost empty
                         at this late hour. Three men were playing cards in a corner. The waiter who
-                        had been watching them helped <rs ref="#Fridolin"> Fridolin </rs> take off
+                        had been watching them helped <rs type="character" ref="#Fridolin"> Fridolin </rs> take off
                         his fur coat, took his order and placed illustrated journals and evening
-                        papers on his table. <rs ref="#Fridolin"> Fridolin </rs> felt slightly more
+                        papers on his table. <rs type="character" ref="#Fridolin"> Fridolin </rs> felt slightly more
                         secure and began to look through the papers. His eyes were arrested here and
                         there by some news-item. In some Bohemian city, street signs with German
                         names had been torn down. There was a conference in Constantinople in which
@@ -1113,14 +1113,14 @@
                         Hall. Marie B., a young girl residing at No. 28 Schonbrunn Strasse, had
                         poisoned herself with mercuric chloride.—Prosaically commonplace as they
                         were, all these facts, the insignificant as well as the sad, had a sobering
-                        and reassuring effect on <rs ref="#Fridolin"> Fridolin </rs> . He felt sorry
+                        and reassuring effect on <rs type="character" ref="#Fridolin"> Fridolin </rs> . He felt sorry
                         for the young girl, Marie B. How stupid to take mercuric chloride! At this
-                        very moment, while he was sitting snugly in the cafe, while <rs
-                            ref="#Albertina"> Albertina </rs> was calmly sleeping, and the <rs
+                        very moment, while he was sitting snugly in the cafe, while <rs type="character"
+                            ref="#Albertina"> Albertina </rs> was calmly sleeping, and the <rs type="character"
                             ref="#councilor"> Councilor </rs> had passed beyond all human suffering,
                         Marie B., No. 28 Schonbrunn Strasse, was writhing in incredible pain. He
                         looked up from his paper and encountered the gaze of a man seated opposite. <said
-                            aloud="false" direct="false" who="Fridolin"> Was it possible? <rs
+                            aloud="false" direct="false" who="Fridolin"> Was it possible? <rs type="character"
                                 ref="#Nachtigall"> Nachtigall </rs> —? </said> The latter had
                         already recognized him, threw up his hands in pleased surprise and joined
                         him at his table. He was still a young man, tall, rather broad, and none too
@@ -1130,19 +1130,19 @@
                         shirt with three false diamond studs, a crinkled collar and a dangling,
                         white silk tie. His eyelids were inflamed, as if from many sleepless nights,
                         but his blue eyes gleamed brightly. <said aloud="true" direct="true"
-                            who="Fridolin" toWhom="Nachtigall"> You here in Vienna, <rs
-                                ref="#Nachtigall"> Nachtigall </rs> ?" </said> exclaimed <rs
+                            who="Fridolin" toWhom="Nachtigall"> You here in Vienna, <rs type="character"
+                                ref="#Nachtigall"> Nachtigall </rs> ?" </said> exclaimed <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> . <said aloud="true" direct="true"
-                            who="Nachtigall" toWhom="Fridolin"> "Didn't you know?" </said> said <rs
+                            who="Nachtigall" toWhom="Fridolin"> "Didn't you know?" </said> said <rs type="character"
                             ref="#Nachtigall"> Nachtigall </rs> with a soft, Polish accent and a
                         slightly Jewish twang. <said aloud="true" direct="true" who="Nachtigall"
                             toWhom="Fridolin"> "How could you miss it, and me so famous?" </said> He
-                        laughed loudly and good-naturedly, and sat down opposite <rs ref="#Fridolin">
+                        laughed loudly and good-naturedly, and sat down opposite <rs type="character" ref="#Fridolin">
                         Fridolin </rs> . <said aloud="true" direct="true" who="Fridolin"
-                            toWhom="Nachtigall"> "What," </said> asked <rs ref="#Fridolin"> Fridolin </rs>
+                            toWhom="Nachtigall"> "What," </said> asked <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         , <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "have
                         you been appointed Professor of Surgery without my hearing of it?" </said>
-                        <rs
+                        <rs type="character"
                             ref="#Nachtigall"> Nachtigall </rs> laughed still louder. <said
                             aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "Didn't
                         you hear me just now, just a minute ago?" </said>
@@ -1154,12 +1154,12 @@
                             direct="true" who="Fridolin" toWhom="Nachtigall"> "So that was you
                         playing?" </said> he exclaimed. <said aloud="true" direct="true"
                             who="Nachtigall" toWhom="Fridolin"> "It was," </said>
-                        <rs
-                            ref="#Nachtigall"> Nachtigall </rs> said, laughing. <rs ref="#Fridolin">
+                        <rs type="character"
+                            ref="#Nachtigall"> Nachtigall </rs> said, laughing. <rs type="character" ref="#Fridolin">
                         Fridolin </rs> nodded. Why, of course—the strangely vigorous touch, the
                         peculiar, but euphonious bass chords had at once seemed familiar to him. <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "Are you
-                        devoting yourself entirely to it?" </said> he asked. He remembered that <rs
+                        devoting yourself entirely to it?" </said> he asked. He remembered that <rs type="character"
                             ref="#Nachtigall"> Nachtigall </rs> had definitely given up the study of
                         medicine after his second preliminary examination in zoology, which he had
                         passed although he was seven years late in taking it. Since then he had been
@@ -1172,7 +1172,7 @@
                         come to Vienna to study medicine. The trifling sums he received from his
                         parents had from the very-beginning been scarcely worth mention and were
                         soon discontinued. However, this didn't prevent his appearing in the Riedhof
-                        Hotel at the table reserved for medical students where <rs ref="#Fridolin">
+                        Hotel at the table reserved for medical students where <rs type="character" ref="#Fridolin">
                         Fridolin </rs> was a regular guest. At intervals, one after another of his
                         more well-todo fellow-students would pay his bill. He sometimes, also, was
                         given clothes, which he accepted gladly and without false pride. He had
@@ -1190,47 +1190,47 @@
                         could carry. Once, playing for a dance in the house of a wealthy banker, he
                         embarrassed several couples with flattering but improper remarks, and ended
                         up by playing a wild cancan and singing a risque song with his powerful,
-                        bass voice. The host gave him a severe calling down, but <rs
+                        bass voice. The host gave him a severe calling down, but <rs type="character"
                             ref="#Nachtigall"> Nachtigall </rs> , blissfully hilarious, got up and
                         embraced him. The latter was furious and, although himself a Jew, hurled a
-                        common insult at him. <rs ref="#Nachtigall"> Nachtigall </rs> at once
+                        common insult at him. <rs type="character" ref="#Nachtigall"> Nachtigall </rs> at once
                         retaliated with a powerful box on his ears, and this definitely concluded
                         his career in the fashionable houses of the city. He behaved better, on the
                         whole, in more intimate circles, although sometimes when the hour was late,
                         he had to be put out of the place by force. But the following morning all
                         was forgiven and forgotten. One day, long after his friends had graduated,
                         he disappeared from the city without a word. For a few months he sent post
-                        cards from various Russian and Polish cities, and once <rs ref="#Fridolin">
-                        Fridolin </rs> , who was one of <rs ref="#Nachtigall"> Nachtigall </rs> 's
+                        cards from various Russian and Polish cities, and once <rs type="character" ref="#Fridolin">
+                        Fridolin </rs> , who was one of <rs type="character" ref="#Nachtigall"> Nachtigall </rs> 's
                         favorites, was reminded of his existence not only by a card, but by a
-                        request for a moderate sum of money, without explanation. <rs
+                        request for a moderate sum of money, without explanation. <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> sent it at once, but never received a
-                        word of thanks or any other sign of life from <rs ref="#Nachtigall">
+                        word of thanks or any other sign of life from <rs type="character" ref="#Nachtigall">
                         Nachtigall </rs> . At this moment, however, eight years later, at a quarter
-                        to one in the morning, <rs ref="#Nachtigall"> Nachtigall </rs> insisted on
+                        to one in the morning, <rs type="character" ref="#Nachtigall"> Nachtigall </rs> insisted on
                         paying his debt, and took the exact amount in bank-notes from a rather
-                        shabby pocket-book. As the latter was fairly well filled, <rs
+                        shabby pocket-book. As the latter was fairly well filled, <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> accepted the repayment with a good
                         conscience. <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Nachtigall"> Are you getting along well," </said> he asked with
                         a smile, in order to make sure. <said aloud="true" direct="true"
-                            who="Nachtigall" toWhom="Fridolin"> "I can't complain," </said> replied <rs
-                            ref="#Nachtigall"> Nachtigall </rs> . Placing his hand on <rs
+                            who="Nachtigall" toWhom="Fridolin"> "I can't complain," </said> replied <rs type="character"
+                            ref="#Nachtigall"> Nachtigall </rs> . Placing his hand on <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> 's arm, he continued: <said aloud="true"
                             direct="true" who="Nachtigall" toWhom="Fridolin"> "But tell me, why are
                         you here so late at night?" </said>
-                        <rs ref="#Fridolin"> Fridolin </rs>
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         explained that <said aloud="true" direct="false" who="Fridolin"
                             toWhom="Nachtigall"> he had needed a cup of coffee after visiting a
                         patient, although he didn't say, without quite knowing why, that he hadn't
                         found his patient alive. Then he talked in very general terms of his duties
                         at the hospital and his private practice, and mentioned that he was happily
                         married, and the father of a six-year old girl. </said>
-                        <rs ref="#Nachtigall">
+                        <rs type="character" ref="#Nachtigall">
                         Nachtigall </rs> in his turn, <said aloud="true" direct="false"
                             who="Nachtigall" toWhom="Fridolin"> explained that he had spent the time
                         as a pianist in every possible sort of Polish, Roumanian, Serbian and
-                        Bulgarian city and town, just as <rs ref="#Fridolin"> Fridolin </rs> had
+                        Bulgarian city and town, just as <rs type="character" ref="#Fridolin"> Fridolin </rs> had
                         surmised. He had a wife and four children living in Lemberg, and he laughed
                         heartily, as though it were unusually jolly to have four children, all of
                         them living in Lemberg, and all by one and the same woman. He had been back
@@ -1244,13 +1244,13 @@
                             who="Nachtigall" toWhom="Fridolin"> "But if you have to provide for four
                         children and a wife in Lemberg"—he laughed again, though not quite as gaily
                         as before, and added: "But sometimes I am privately engaged." </said>
-                        Noticing a reminiscent smile on <rs ref="#Fridolin"> Fridolin </rs> 's face,
+                        Noticing a reminiscent smile on <rs type="character" ref="#Fridolin"> Fridolin </rs> 's face,
                         he continued: <said aloud="true" direct="true" who="Nachtigall"
                             toWhom="Fridolin"> "Not just in the houses of bankers and such, but in
                         all kinds of circles, even larger ones, both public and secret." </said>
                         <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "Secret? </said>
-                        " <rs ref="#Fridolin"> Fridolin </rs> asked. <rs ref="#Nachtigall">
+                        " <rs ref="#Fridolin"> Fridolin </rs> asked. <rs type="character" ref="#Nachtigall">
                         Nachtigall </rs> looked straight before him with a gloomy and crafty air,
                         and said: <said aloud="true" direct="true" who="Nachtigall"
                             toWhom="Fridolin"> "They will be calling for me again in a minute." </said>
@@ -1264,17 +1264,17 @@
                             toWhom="Nachtigall"> "It must be an unusually smart place." </said>
                         <said
                             aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "Yes and
-                        no," </said> said <rs ref="#Nachtigall"> Nachtigall </rs> , laughing, but he
+                        no," </said> said <rs type="character" ref="#Nachtigall"> Nachtigall </rs> , laughing, but he
                         became serious again at once. <said aloud="true" direct="true"
-                            who="Fridolin" toWhom="Nachtigall"> "Yes and no?" </said> queried <rs
-                            ref="#Fridolin"> Fridolin </rs> , curiously. <rs ref="#Nachtigall">
+                            who="Fridolin" toWhom="Nachtigall"> "Yes and no?" </said> queried <rs type="character"
+                            ref="#Fridolin"> Fridolin </rs> , curiously. <rs type="character" ref="#Nachtigall">
                         Nachtigall </rs> bent across the table. <said aloud="true" direct="true"
                             who="Nachtigall" toWhom="Fridolin"> "I'm playing tonight in a private
                         house, but I don't know whose it is." </said>
                         <said aloud="true"
                             direct="true" who="Fridolin" toWhom="Nachtigall"> "Then you're playing
                         there for the first time?" </said>
-                        <rs ref="#Fridolin"> Fridolin </rs> asked
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> asked
                         with increasing interest. <said aloud="true" direct="true" who="Nachtigall"
                             toWhom="Fridolin"> "No, it's the third time, but it will probably be a
                         different house again." </said>
@@ -1282,11 +1282,11 @@
                             who="Fridolin" toWhom="Nachtigall"> "I don't understand." </said>
                         <said
                             aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "Neither
-                        do I," </said> said <rs ref="#Nachtigall"> Nachtigall </rs> , laughing, <said
+                        do I," </said> said <rs type="character" ref="#Nachtigall"> Nachtigall </rs> , laughing, <said
                             aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "but
                             you'd better not ask any more." </said>
                         <said aloud="true" direct="true"
-                            who="Fridolin" toWhom="Nachtigall"> "Oh, I see," </said> remarked <rs
+                            who="Fridolin" toWhom="Nachtigall"> "Oh, I see," </said> remarked <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> . <said aloud="true" direct="true"
                             who="Nachtigall" toWhom="Fridolin"> "No, you're wrong. It's not what you
                         think. I've seen a great deal in my time. It's unbelievable what one sees in
@@ -1294,23 +1294,23 @@
                         back the yellow curtain from the window, looked out on the street and said
                         as if to himself: <said aloud="true" direct="true" who="Nachtigall"
                             toWhom="Fridolin"> "Not here yet." </said> Then he turned to <rs
-                            ref="#Fridolin"> Fridolin </rs> and explained: <said aloud="true"
+                            ref="#Fridolin" type="character"> Fridolin </rs> and explained: <said aloud="true"
                             direct="true" who="Nachtigall" toWhom="Fridolin"> "I mean the carriage.
                         There's always a carriage to call for me, a different one each time." </said>
                         <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "You're
-                        making me very curious, <rs ref="#Nachtigall"> Nachtigall </rs> ," </said>
-                        <rs
+                        making me very curious, <rs type="character" ref="#Nachtigall"> Nachtigall </rs> ," </said>
+                        <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> assured him. <said aloud="true"
                             direct="true" who="Nachtigall" toWhom="Fridolin"> "Listen to me," </said>
-                        said <rs ref="#Nachtigall"> Nachtigall </rs> after a slight pause. <said
+                        said <rs type="character" ref="#Nachtigall"> Nachtigall </rs> after a slight pause. <said
                             aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin"> "I'd like
                         to be able to arrange it—'but how can I do it—" </said> Suddenly he burst
                         out: <said aloud="true" direct="true" who="Nachtigall" toWhom="Fridolin">
                         "Have you got plenty of nerve?" </said>
                         <said aloud="true" direct="true"
                             who="Fridolin" toWhom="Nachtigall"> "That's a strange question," </said>
-                        said <rs ref="#Fridolin"> Fridolin </rs> in the tone of an offended
+                        said <rs type="character" ref="#Fridolin"> Fridolin </rs> in the tone of an offended
                         fraternity student. <said aloud="true" direct="true" who="Nachtigall"
                             toWhom="Fridolin"> "I don't mean that." </said>
                         <said aloud="true"
@@ -1323,7 +1323,7 @@
                         curtain. <said aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall">
                         "Well, then where's the difficulty?" </said>
                         <said aloud="true" direct="true"
-                            who="Nachtigall" toWhom="Fridolin"> "What did you say?" </said> asked <rs
+                            who="Nachtigall" toWhom="Fridolin"> "What did you say?" </said> asked <rs type="character"
                             ref="#Nachtigall"> Nachtigall </rs> , as if coming out of a dream. <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Nachtigall"> "Tell me
                         the rest of the story, now that you've started. A secret party? Closed
@@ -2227,21 +2227,21 @@
             <div type="chapter" n="5">
                 <head> 5. </head>
                 <div type="scene" n="87,88" xml:id="B21">
-                    <p> IT was four o'clock in the morning when <rs type="person" ref="#Fridolin">
+                    <p> IT was four o'clock in the morning when <rs type="character" ref="#Fridolin">
                         Fridolin </rs> walked up the steps of his home. Before doing anything else
                         he went into his office and carefully locked the masquerade costume in a
-                        closet. As he wished not to wake <rs type="person" ref="#Albertina">
+                        closet. As he wished not to wake <rs type="character" ref="#Albertina">
                         Albertina </rs> , he took off his shoes and clothes before going into the
                         bedroom, and very cautiously turned on the light on the little table beside
-                        his bed. <rs type="person" ref="#Albertina"> Albertina </rs> was lying there
+                        his bed. <rs type="character" ref="#Albertina"> Albertina </rs> was lying there
                         quietly, with her arms folded under her head. Her lips were half-open, and
-                        painful shadows surrounded them. It was a face that <rs type="person"
+                        painful shadows surrounded them. It was a face that <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> did not know. He bent down over her, and
                         at once her forehead became lined with furrows, as though someone had
                         touched it, and her features seemed strangely distorted. Suddenly, still in
                         her sleep, she laughed so shrilly that he became frightened. Involuntarily
                         he called her name. She laughed again, as if in answer, in a strange, almost
-                        uncanny manner. <rs type="person" ref="#Fridolin"> Fridolin </rs> called her
+                        uncanny manner. <rs type="character" ref="#Fridolin"> Fridolin </rs> called her
                         in a louder voice, and she opened her eyes, slowly and with difficulty. She
                         stared at him, as though she did not recognize him. <said aloud="true"
                             direct="true" who="Fridolin" toWhom="Albertina"> "Albertina!" </said> he
@@ -2249,7 +2249,7 @@
                         fear, even of terror came into her eyes. Half awake, and seemingly in
                         despair, she raised her arms. <said aloud="true" direct="true"
                             who="Fridolin" toWhom="Albertina"> "What's the matter?" </said> asked <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> with bated breath. As she
+                            type="character" ref="#Fridolin"> Fridolin </rs> with bated breath. As she
                         still stared at him, terrified, he added, to reassure her: <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Albertina"> "It is I,
                         Albertina." </said> She breathed deeply, tried to smile, dropped her arms on
@@ -2257,7 +2257,7 @@
                             direct="true" who="Albertina" toWhom="Fridolin"> "Is it morning yet?" </said>
                         <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Albertina"> "It will
-                            be very soon," </said> replied <rs type="person" ref="#Fridolin">
+                            be very soon," </said> replied <rs type="character" ref="#Fridolin">
                         Fridolin </rs> , <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Albertina"> "it's
                             past four o'clock. I've just come home." </said> She was silent and he
@@ -2340,10 +2340,10 @@
                         much." </said>
                         <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Albertina"> "I hope you loved me, too," </said> remarked <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> with an invisible,
+                            type="character" ref="#Fridolin"> Fridolin </rs> with an invisible,
                         malicious smile. <said aloud="true" direct="true" who="Albertina"
                             toWhom="Fridolin"> "Even more than you did me," </said> replied <rs
-                            type="person" ref="#Albertina"> Albertina </rs> seriously, <said
+                            type="character" ref="#Albertina"> Albertina </rs> seriously, <said
                             aloud="true" direct="true" who="Albertina" toWhom="Fridolin"> "but, how
                         can I explain it—in spite of the intensity of our happiness our love was
                             also sad, as if filled with some presentiment of sorrow. Suddenly, it
@@ -2396,7 +2396,7 @@
                             as I have never laughed in my life, and he held out his arms to me. I
                         wished
                             to escape but it was useless—and he sank down beside me on the meadow." </said>
-                        She was silent. <rs type="person" ref="#Fridolin"> Fridolin </rs> 's throat
+                        She was silent. <rs type="character" ref="#Fridolin"> Fridolin </rs> 's throat
                         was parched. In the darkness of the room he could see she had concealed her
                         face in her hands. <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Albertina"> "A strange dream," </said> he said, <said
@@ -2496,9 +2496,9 @@
                         still clasping her fingers. Ready as he was to hate her, his feeling of
                         tenderness for these slender, cool fingers was unchanged except that it was
                         more acute. Involuntarily, in fact against his will, he gently pressed his
-                        lips on this familiar hand before he let it go. <rs type="person"
+                        lips on this familiar hand before he let it go. <rs type="character"
                             ref="#Albertina">
-                            Albertina </rs> still kept her eyes closed and <rs type="person"
+                            Albertina </rs> still kept her eyes closed and <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> thought he could see a happy, innocent
                         smile playing about her mouth. He felt an incomprehensible desire to bend
                         over her and kiss her pale forehead. But he checked himself. He realized
@@ -2507,7 +2507,7 @@
                         his present state of mind— whatever decisions he might reach in the next few
                         hours, the urgent demand of the moment was for sleep and forgetfulness. He
                         had been able to sleep long and dreamlessly the night following the death of
-                        his <rs type="person" ref="#FridolinMother"> mother </rs> , so why not now?
+                        his <rs type="character" ref="#FridolinMother"> mother </rs> , so why not now?
                         He stretched himself out beside his wife who seemed already asleep. A sword
                         between us, he thought, we are lying here like mortal enemies. But it was
                         only an illusion. </p>
@@ -2516,69 +2516,69 @@
             <div type="chapter" n="6">
                 <head> 6. </head>
                 <div type="scene" n="93" xml:id="B22">
-                    <p> AT seven o'clock <rs type="person" ref="#Fridolin"> Fridolin </rs> was
+                    <p> AT seven o'clock <rs type="character" ref="#Fridolin"> Fridolin </rs> was
                         awakened by the maid gently knocking on the door, and he cast a quick glance
-                        at <rs type="person" ref="#Albertina"> Albertina </rs> . Sometimes this
+                        at <rs type="character" ref="#Albertina"> Albertina </rs> . Sometimes this
                         knocking awakened her too. But today she was sleeping soundly; too soundly <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> thought. He dressed
+                            type="character" ref="#Fridolin"> Fridolin </rs> thought. He dressed
                         himself quickly, intending to see his little daughter before leaving. The
                         child lay quietly in her white bed, her hands clenched into little fists, as
                         children do in sleep, and he kissed her on her forehead. Tip-toeing to the
-                        door of the bedroom he found <rs type="person" ref="#Albertina"> Albertina </rs>
+                        door of the bedroom he found <rs type="character" ref="#Albertina"> Albertina </rs>
                         still sleeping soundly; then he went out. The cassock and pilgrim's hat were
                         safely concealed in his black doctor's bag. He had drawn up a program for
                         the day with great care, indeed, even a bit pedantically. First of all he
                         had to see a young attorney in the neighborhood who was seriously ill. <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> made a careful examination
+                            type="character" ref="#Fridolin"> Fridolin </rs> made a careful examination
                         and found his condition somewhat improved. He expressed his satisfaction
                         with sincere joy and ordered an old prescription to be refilled. Then he
                         went to the house in the basement of which Nachtigall had played the piano
                         the night before. The place was still closed, but the girl at the counter in
-                        the cafe above said that <rs type="person" ref="#Nachtigall"> Nachtigall </rs>
+                        the cafe above said that <rs type="character" ref="#Nachtigall"> Nachtigall </rs>
                         lived in a small hotel in Leopoldstadt. He took a cab and arrived there a
                         quarter of an hour later. It was a very shabby place, smelling of unaired
                         beds, rancid lard and chicory. A tough looking concierge, with sly, inflamed
                         eyes, wishing to keep on good terms with the police, willingly gave
-                        information. <rs type="person" ref="#Nachtigall"> Herr Nachtigall </rs> had
+                        information. <rs type="character" ref="#Nachtigall"> Herr Nachtigall </rs> had
                         arrived in a cab at five o'clock in the morning, accompanied by two men who
                         had disguised their faces, perhaps intentionally so, with scarfs which they
-                        wore wrapped about their heads and necks. While <rs type="person"
+                        wore wrapped about their heads and necks. While <rs type="character"
                             ref="#Nachtigall"> Nachtigall </rs> was in his room, the two men had
                         paid his bill for the last four weeks. When he didn't appear after half an
                         hour, one of them had gone up to fetch him, whereupon they all three took a
-                        cab to North Station. <rs type="person" ref="#Nachtigall"> Nachtigall </rs>
+                        cab to North Station. <rs type="character" ref="#Nachtigall"> Nachtigall </rs>
                         had seemed highly excited, in fact—well, why not tell the whole truth to a
                         man who gave one so much confidence—he had tried to slip a letter to the
-                        concierge, but the two men stopped that. Any letters for <rs type="person"
+                        concierge, but the two men stopped that. Any letters for <rs type="character"
                             ref="#Nachtigall"> Herr Nachtigall </rs> —so the men had explained—
                         would be called for by a person properly authorized to do so. <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> took his leave. He was
+                            type="character" ref="#Fridolin"> Fridolin </rs> took his leave. He was
                         glad that he had his doctor's bag with him when he stepped out of the door,
                         for anyone seeing him would not think that he was staying at the hotel, but
                         would take him for some official person. There was nothing to be done about <rs
-                            type="person" ref="#Nachtigall"> Nachtigall </rs> for the time being.
+                            type="character" ref="#Nachtigall"> Nachtigall </rs> for the time being.
                         They had been extremely cautious, probably with good reason. </p>
                 </div>
                 <div type="scene" n="95" xml:id="B23">
-                    <p> At the costume shop, <rs type="person" ref="#Gibiser"> Herr Gibiser </rs>
+                    <p> At the costume shop, <rs type="character" ref="#Gibiser"> Herr Gibiser </rs>
                         himself opened the door. <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Gibiser"> "I'm bringing back the costume I hired," </said> said <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> , <said aloud="true"
+                            type="character" ref="#Fridolin"> Fridolin </rs> , <said aloud="true"
                             direct="true" who="Fridolin" toWhom="Gibiser"> "and would like to pay my
                         bill." </said> The proprietor mentioned a moderate sum, took the money and
                         made an entry in a large ledger. He looked up, evidently surprised, when <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> made no move to leave. <said
+                            type="character" ref="#Fridolin"> Fridolin </rs> made no move to leave. <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Gibiser"> "I would
-                            also like," </said> said <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                            also like," </said> said <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         in the tone of a police magistrate, <said aloud="true" direct="true"
                             who="Fridolin" toWhom="Gibiser"> "to have a word with you about your
                         daughter." </said> There was a peculiar expression about the nostrils of <rs
-                            type="person" ref="#Gibiser"> Herr Gibiser </rs> —it was difficult to
+                            type="character" ref="#Gibiser"> Herr Gibiser </rs> —it was difficult to
                         say whether it was displeasure, scorn or annoyance. <said aloud="true"
                             direct="true" who="Gibiser" toWhom="Fridolin"> "What did you say?" </said>
                         he asked in a perfectly indefinite voice. <said aloud="true" direct="true"
                             who="Fridolin" toWhom="Gibiser"> "Yesterday you said," </said> remarked <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> , one hand with
+                            type="character" ref="#Fridolin"> Fridolin </rs> , one hand with
                         outstretched fingers resting on the desk, <said aloud="true" direct="true"
                             who="Fridolin" toWhom="Gibiser"> "that your daughter was not quite
                             normal mentally. The situation in which we discovered her actually
@@ -2586,40 +2586,40 @@
                             some such thing. And since I took part in it, or was at least a
                         spectator, I
                             would very much like to advise you to consult a doctor." </said> Gibiser
-                        surveyed <rs type="person" ref="#Fridolin"> Fridolin </rs> insolently,
+                        surveyed <rs type="character" ref="#Fridolin"> Fridolin </rs> insolently,
                         twirling an unnaturally long pen-holder in his hand. <said aloud="true"
                             direct="true" who="Gibiser" toWhom="Fridolin"> "And I suppose the doctor
                         himself would like to take charge of the treatment?" </said>
                         <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Gibiser"> "Please
-                            don't misunderstand me," </said> replied <rs type="person"
+                            don't misunderstand me," </said> replied <rs type="character"
                             ref="#Fridolin">
                             Fridolin </rs> in a sharp voice.At this moment the door which led to the
                         inner rooms was opened, and a young man with an open top-coat over his
-                        evening clothes stepped out. <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                        evening clothes stepped out. <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         decided it could be none other than one of the vehmic judges of the night
                         before. He undoubtedly came from Pierrette's room. He seemed taken aback
-                        when he caught sight of <rs type="person" ref="#Fridolin"> Fridolin </rs> ,
+                        when he caught sight of <rs type="character" ref="#Fridolin"> Fridolin </rs> ,
                         but he regained his composure at once. He waved his hand to Gibiser, lighted
                         a cigarette with a match from the desk, and left the apartment. <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Gibiser"> "Oh, that's
-                        how it is," </said> remarked <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                        how it is," </said> remarked <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         with a contemptuous twitch of his mouth and a bitter taste on his tongue. <said
                             aloud="true" direct="true" who="Gibiser" toWhom="Fridolin"> "What did
                             you say?" </said> asked Gibiser with perfect equanimity. <said
                             aloud="true"
                             direct="true" who="Fridolin" toWhom="Gibiser"> "So you have changed your
-                        mind about notifying the police," </said> said <rs type="person"
+                        mind about notifying the police," </said> said <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> as his eyes wandered significantly from
                         the entrance door to that of Pierrette. <said aloud="true" direct="true"
                             who="Gibiser" toWhom="Fridolin"> "We have come to another agreement," </said>
                         remarked Gibiser coldly, and got up as though this were the end of an
-                        interview. He obligingly opened the door as <rs type="person"
+                        interview. He obligingly opened the door as <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> turned to go and said, without changing
                         his expression: <said aloud="true" direct="true" who="Gibiser"
                             toWhom="Fridolin"> "If the doctor should want anything again ... it
                         needn't necessarily be a monk's costume." </said>
-                        <rs type="person"
+                        <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> slammed the door behind him. So that is
                         settled, he thought, as he hurried down the stairs with a feeling of
                         annoyance which, even to him, seemed exaggerated. </p>
@@ -2627,9 +2627,9 @@
                 <div type="scene" n="97,99" xml:id="B24">
                     <p> The first thing he did on arriving at the Polyclinic was to telephone home
                         to inquire whether any patients had sent for him, if there was any mail, or
-                        any other news. The maid had scarcely answered him when <rs type="person"
+                        any other news. The maid had scarcely answered him when <rs type="character"
                             ref="#Albertina"> Albertina </rs> herself came to the phone to answer <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> 's call. She repeated
+                            type="character" ref="#Fridolin"> Fridolin </rs> 's call. She repeated
                         everything the maid had already told him, and then said casually that she
                         had just got up and was going to have breakfast with the child. <said
                             aloud="true" direct="true" who="Fridolin" toWhom="maid"> "Give her a
@@ -2644,7 +2644,7 @@
                         not. </p>
                     <p> A few minutes later he was in the ward. The physician in charge had suddenly
                         sent word that he had to leave the city for a conference, and that the
-                        assistants should make the rounds without him. <rs type="person"
+                        assistants should make the rounds without him. <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> felt almost happy as he walked from bed
                         to bed, followed by the students, making examinations, writing
                         prescriptions, and having professional conversations with the assistants and
@@ -2657,24 +2657,24 @@
                         after tomorrow. Hiigelmann, at present professor at the University of
                         Marburg, had the best chances, although four years ago he had been merely a
                         second assistant to Stellwag. That's quick promotion, thought <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> . I'll never be considered
+                            type="character" ref="#Fridolin"> Fridolin </rs> . I'll never be considered
                         for the headship of a department, if for no other reason than that I've
                         never been a Dozent. It's too late. But why should it be? I really ought to
                         begin again to do scientific work or take up more seriously some of the
                         things that I have already started. My private practice would leave me ample
-                        time for it. He asked <rs type="person" ref="#Fuchstaler"> Doctor Fuchstaler </rs>
+                        time for it. He asked <rs type="character" ref="#Fuchstaler"> Doctor Fuchstaler </rs>
                         if he would please take charge of the dispensary. He confessed to himself
                         that he would rather have stayed there than drive out to Galitzinberg. And
                         yet, he must. He felt obliged, not only for his own sake, to investigate
                         this matter further, but there were all sorts of other things to be settled
-                        that day. He decided to ask <rs type="person" ref="#Fuchstaler"> Doctor
+                        that day. He decided to ask <rs type="character" ref="#Fuchstaler"> Doctor
                         Fuchstaler </rs> to take charge of the afternoon rounds, too, so as to be
                         prepared for all emergencies. The young girl, over there, with suspected
                         tuberculosis was smiling at him. It was the same one who had recently
                         pressed her breasts so confidingly against his cheek when he examined her. <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> gave her a cold look and
+                            type="character" ref="#Fridolin"> Fridolin </rs> gave her a cold look and
                         turned away with a frown. They are all alike, he thought bitterly, and <rs
-                            type="person" ref="#Albertina"> Albertina </rs> is like the rest of them
+                            type="character" ref="#Albertina"> Albertina </rs> is like the rest of them
                         —if not the worst. I won't live with her any longer. Things can never be the
                         same again. On the stairs he spoke to a colleague from the surgical
                         division. Well, how was the woman who had been transferred during the night
@@ -2727,7 +2727,7 @@
                         looking for. It certainly did not seem large or magnificent. It was a
                         one-story villa in modest Empire style and obviously renovated a
                         comparatively short time before. The green blinds were down and there was
-                        nothing to show that anyone lived there. <rs type="person" ref="#Fridolin">
+                        nothing to show that anyone lived there. <rs type="character" ref="#Fridolin">
                         Fridolin </rs> looked around. There was no one in the street, except farther
                         down where two boys with books under their arms were going in the opposite
                         direction. He stopped in front of the garden gate. And what was he to do
@@ -2737,10 +2737,10 @@
                         the summer. But the house-door had already opened and an old servant in
                         plain morning livery came out and slowly walked down the narrow path to the
                         gate. He held a letter in his hand and silently pushed it through the iron
-                        bars to <rs type="person" ref="#Fridolin"> Fridolin </rs> whose heart was
+                        bars to <rs type="character" ref="#Fridolin"> Fridolin </rs> whose heart was
                         beating wildly. <said aloud="true" direct="true" who="Fridolin"> "For me?" </said>
                         he asked, hesitantly. The servant nodded, went back to the house, and the
-                        door closed behind him. What does that mean? <rs type="person"
+                        door closed behind him. What does that mean? <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> asked himself. Can it possibly be from
                         her? Does she, herself, own the house? He walked back up the street quickly
                         and it was only then that he noticed his name on the envelope in large,
@@ -2763,7 +2763,7 @@
                 </div>
                 <div type="scene" n="105" xml:id="B26">
                     <p> He went home, feeling rather tired but with a strange sense of security
-                        which somehow seemed deceptive. <rs type="person" ref="#Albertina">
+                        which somehow seemed deceptive. <rs type="character" ref="#Albertina">
                             Albertina </rs> and the child had finished their dinner, but they kept
                         him company while he ate his meal. There she sat opposite him, the woman who
                         had calmly allowed him to be crucified the preceding night. She was sitting
@@ -2771,19 +2771,19 @@
                         surprise he did not hate her. He enjoyed his meal, being in an excited,
                         cheerful mood, and, as he usually did, gave a very lively account of the
                         little professional incidents of the day. He mentioned especially the gossip
-                        about the doctors, about whom he always kept <rs type="person"
+                        about the doctors, about whom he always kept <rs type="character"
                             ref="#Albertina"> Albertina </rs> well informed. He told her that the
                         appointment of Hugelmann was as good as settled, and then spoke pf his own
                         determination to take up scientific work again with greater energy. <rs
-                            type="person" ref="#Albertina"> Albertina </rs> knew this mood. She also
+                            type="character" ref="#Albertina"> Albertina </rs> knew this mood. She also
                         knew that it usually didn't last very long and betrayed her doubts by a
-                        slight smile. When <rs type="person" ref="#Fridolin"> Fridolin </rs> became
+                        slight smile. When <rs type="character" ref="#Fridolin"> Fridolin </rs> became
                         quite warm on the subject, she gently smoothed his hair to calm him. He
                         started slightly and turned to the child, so as to remove his forehead from
                         the embarrassing touch. He took the little girl on his lap and was just
                         beginning to dance her up and down, when the maid announced that several
                         patients were waiting. Fridolin rose with a sigh of relief, suggesting to <rs
-                            type="person" ref="#Albertina"> Albertina </rs> that she and the child
+                            type="character" ref="#Albertina"> Albertina </rs> that she and the child
                         ought to go for a walk on such a beautiful, sunny afternoon, and went to his
                         consulting room. </p>
                 </div>
@@ -2794,7 +2794,7 @@
                         he felt so unusually fresh and clear in mind after spending the last two
                         nights almost without sleep.At the end of his consultation period, he
                         stopped to see his wife and little daughter once more. He noted with
-                        satisfaction that <rs type="person" ref="#Albertina"> Albertina </rs> 's
+                        satisfaction that <rs type="character" ref="#Albertina"> Albertina </rs> 's
                         mother was with her, and that the child was having a French lesson with her
                         governess. It was only when he reached the front steps that he realized that
                         all this order, this regularity, all the security of his existence, was
@@ -2810,25 +2810,25 @@
                         of failure here. He could begin his work of vengeance without any special
                         exertion and with little difficulty or danger. What might have deterred
                         others, the betrayal of her fiance, only made him keener. Yes, to betray, to
-                        deceive, to lie, to play a part, before <rs type="person" ref="#Marianne">
-                        Marianne </rs> , before <rs type="person" ref="#Albertina"> Albertina </rs>
+                        deceive, to lie, to play a part, before <rs type="character" ref="#Marianne">
+                        Marianne </rs> , before <rs type="character" ref="#Albertina"> Albertina </rs>
                         , before the good Doctor Roediger, before the whole world. To lead a sort of
                         double life, to be the capable, reliable physician with a future before him,
                         the upright husband and head of a family. And at the same time a libertine,
                         a seducer, a cynic who played with people, with men and women, just as the
                         spirit moved him— that seemed to him, at the time, very delightful. And the
                         most delightful part was that at some future time, long after <rs
-                            type="person" ref="#Albertina"> Albertina </rs> fancied herself secure
+                            type="character" ref="#Albertina"> Albertina </rs> fancied herself secure
                         in the peacefulness of marriage and of—family life—he would confess to her,
                         with a superior smile, all of his sins, in retribution for the bitter and
                         shameful things she had committed against him in a dream.On the steps he met <rs
-                            type="person" ref="#Roediger"> Doctor Roediger </rs> who held out his
+                            type="character" ref="#Roediger"> Doctor Roediger </rs> who held out his
                         hand cordially. <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Roediger"> "How is Fraulein Marianne?" </said> asked <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> , <said aloud="true"
+                            type="character" ref="#Fridolin"> Fridolin </rs> , <said aloud="true"
                             direct="true" who="Fridolin" toWhom="Roediger"> "is she a little more
                         composed?" </said>
-                        <rs type="person" ref="#Roediger"> Doctor Roediger </rs>
+                        <rs type="character" ref="#Roediger"> Doctor Roediger </rs>
                         shrugged his shoulders, <said aloud="true" direct="true" who="Roediger"
                             toWhom="Fridolin"> "She was prepared for the end long enough,
                         doctor.—Only when they came this noon to call for the corpse———" </said>
@@ -2837,24 +2837,24 @@
                         already been done?" </said> Doctor Roediger nodded. <said aloud="true"
                             direct="true" who="Roediger" toWhom="Fridolin"> "The funeral will be at
                         three o'clock tomorrow afternoon." </said>
-                        <rs type="person" ref="#Fridolin">
+                        <rs type="character" ref="#Fridolin">
                         Fridolin </rs> looked down. <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Roediger"> "I suppose— Fraulein Marianne's relatives are with
                         her?" </said>
                         <said aloud="true" direct="true" who="Roediger"
-                            toWhom="Fridolin"> "No," </said> replied <rs type="person"
+                            toWhom="Fridolin"> "No," </said> replied <rs type="character"
                             ref="#Roediger"> Doctor Roediger </rs> , "she is alone now. She will be
                         pleased to see you once more, for tomorrow my mother and I are taking her to
-                        Modling." When <rs type="person" ref="#Fridolin"> Fridolin </rs> raised his
-                        eyes with a politely questioning look, <rs type="person" ref="#Roediger">
+                        Modling." When <rs type="character" ref="#Fridolin"> Fridolin </rs> raised his
+                        eyes with a politely questioning look, <rs type="character" ref="#Roediger">
                         Doctor Roediger </rs> continued: <said aloud="true" direct="true"
                             who="Roediger" toWhom="Fridolin"> "My parents have a little house out
                         there. Good-bye, doctor. I still have many things to attend to. It's
                         unbelievable how much trouble is connected with such a—case. I hope I shall
                         still find you upstairs when I return." </said> And as he said this he
-                        reached the street. <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                        reached the street. <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         hesitated a moment, then slowly went up the stairs. He rang the bell and <rs
-                            type="person" ref="#Marianne"> Marianne </rs> herself opened the door.
+                            type="character" ref="#Marianne"> Marianne </rs> herself opened the door.
                         She was dressed in black and had on a jet necklace which he had never seen
                         before. Her face became slightly flushed. <said aloud="true" direct="true"
                             who="Marianne" toWhom="Fridolin"> "You made me wait a long time," </said>
@@ -2878,7 +2878,7 @@
                         perhaps, she might be lying at his feet, repeating her confession of the
                         night before, filled him with fear. When she said nothing he got up
                         suddenly. "Much as I regret it, Fraulein Marianne—" He looked at his
-                        watch.Still crying, she raised her head and looked at <rs type="person"
+                        watch.Still crying, she raised her head and looked at <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> . He would gladly have said something
                         kind to her, but found it difficult to do so. <said aloud="true"
                             direct="true" who="Fridolin" toWhom="Marianne"> "I suppose you will stay
@@ -2923,7 +2923,7 @@
                         it was real or only a dream. Only a dream! </p>
                 </div>
                 <div type="scene" n="115,116" xml:id="B28">
-                    <p> While <rs type="person" ref="#Fridolin"> Fridolin </rs> wandered along,
+                    <p> While <rs type="character" ref="#Fridolin"> Fridolin </rs> wandered along,
                         drifting aimlessly towards his home, he entered the neighborhood of the
                         dark, rather questionable street, where he had accompanied the forlorn
                         little girl to her humble room less than twenty-four hours before. Why was
@@ -2946,23 +2946,23 @@
                             direct="true" who="woman" toWhom="Fridolin"> "Whom are you looking for?" </said>
                         she said, <said aloud="true" direct="true" who="woman" toWhom="Fridolin">
                         "Fraulein Mizzi? Well, she won't be home again for some time." </said> The
-                        older woman made a sign to her to keep quiet, but <rs type="person"
+                        older woman made a sign to her to keep quiet, but <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> , anxious to confirm what he had already
                         half guessed asked very simply: <said aloud="true" direct="true"
                             who="Fridolin"> "She's in the hospital, isn't she?" </said>
                         <said
                             aloud="true" direct="true" who="woman" toWhom="Fridolin"> "Well, as long
                         as you know it anyhow. But there's nothing wrong with me, thank heaven," </said>
-                        she exclaimed vivaciously and stepped quite close to <rs type="person"
+                        she exclaimed vivaciously and stepped quite close to <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> . Her lips were half open, and as she
-                        boldly drew up her voluptuous body the bath-robe parted. <rs type="person"
+                        boldly drew up her voluptuous body the bath-robe parted. <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> declined and said: <said aloud="true"
                             direct="true" who="Fridolin" toWhom="woman"> "I was passing by and I
                         stopped to bring something for Mizzi." </said> He suddenly felt very young,
                         but asked in a matter-of-fact voice: <said aloud="true" direct="true"
                             who="Fridolin" toWhom="woman"> "In which ward is she?" </said> The
                         younger woman mentioned the name of a professor in whose clinic <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> had been an assistant
+                            type="character" ref="#Fridolin"> Fridolin </rs> had been an assistant
                         several years before, and added good-naturedly: <said aloud="true"
                             direct="true" who="woman" toWhom="Fridolin"> "Just let me have those
                         packages, I'll take them to her tomorrow. And I promise that I won't snitch
@@ -2975,7 +2975,7 @@
                     </p>
                 </div>
                 <div type="scene" n="extra">
-                    <p> When <rs type="person" ref="#Fridolin"> Fridolin </rs> returned to the
+                    <p> When <rs type="character" ref="#Fridolin"> Fridolin </rs> returned to the
                         street he felt choked with tears. He knew that this was not because he was
                         deeply affected, but because his nerves were gradually giving way, and he
                         intentionally struck up a quicker and more lively pace than he was in the
@@ -2993,7 +2993,7 @@
                         matter how one looked at it, she had permitted him to be crucified the night
                         before.And he suddenly realized why he was walking, not towards his house,
                         but, unconsciously, farther and farther in the opposite direction. He would
-                        not, and could not, face <rs type="person" ref="#Albertina"> Albertina </rs>
+                        not, and could not, face <rs type="character" ref="#Albertina"> Albertina </rs>
                         now. The most sensible tiling to do was to have supper away from home, then
                         he could go to his ward and look after his two cases. But under no
                         circumstances would he go home—"home?"—until he could be certain of finding
@@ -3002,10 +3002,10 @@
                 <div type="scene" n="120,121" xml:id="B29">
                     <p> He entered a cafe, one of the more quiet and select ones near the Rathaus.
                         He telephoned home not to expect him for supper, and hung up the receiver
-                        quickly so that <rs type="person" ref="#Albertina"> Albertina </rs> wouldn't
+                        quickly so that <rs type="character" ref="#Albertina"> Albertina </rs> wouldn't
                         have a chance to come to the phone.Then he sat down by a window and drew the
                         curtain. A man had just taken a seat in a distant corner. He wore a dark
-                        overcoat and inconspicuous clothes and <rs type="person" ref="#Fridolin">
+                        overcoat and inconspicuous clothes and <rs type="character" ref="#Fridolin">
                         Fridolin </rs> thought he had seen his face before, during the day. It
                         might, of course, be just a fancy. He picked up an evening paper, read a few
                         lines here and there, just as he had done the night before in a different
@@ -3013,13 +3013,13 @@
                         literature, accounts of accidents and disasters. In some city that he had
                         never heard of in the United States a theatre had burned down. Peter Korand,
                         a chimney-sweep, had thrown himself out of a window. Somehow, it seemed
-                        strange to <rs type="person" ref="#Fridolin"> Fridolin </rs> that even
+                        strange to <rs type="character" ref="#Fridolin"> Fridolin </rs> that even
                         chimney-sweeps occasionally commit suicide. Involuntarily he wondered
                         whether the man had first washed himself properly or whether he had plunged
                         into nothingness just as he was, black and dirty. A woman had taken poison
                         that morning in a fashionable hotel in the heart of the city. She was an
                         unusually good-looking woman and had registered there a few days before
-                        under the name of Baroness D. At once <rs type="person" ref="#Fridolin">
+                        under the name of Baroness D. At once <rs type="character" ref="#Fridolin">
                         Fridolin </rs> felt a strange presentiment. The woman had returned to the
                         hotel at four o'clock in the morning, accompanied by two men who had left
                         her at the door. Four o'clock! That was exactly the time that he, too, had
@@ -3032,7 +3032,7 @@
                         it held the paper. In a fashionable hotel . . . which one—? Why so
                         mysterious?—so discreet? . . .He put the paper down and at the same time the
                         man in the far corner raised his, a large, illustrated journal, and held it
-                        to shield his face. <rs type="person" ref="#Fridolin"> Fridolin </rs> at
+                        to shield his face. <rs type="character" ref="#Fridolin"> Fridolin </rs> at
                         once picked up his paper again and decided that the Baroness D. must
                         certainly be the woman he had seen the night before. In a fashionable hotel.
                         . . . There were not many which would be considered—by a Baroness D. . . .
@@ -3047,24 +3047,24 @@
                         died for him. He was the cause of her death— he alone—if it were she. Yes,
                         it was she. Returned to the hotel at four o'clock in the morning,
                         accompanied by two men! Very likely the same men who had taken <rs
-                            type="person" ref="#Fridolin"> Nachtigall </rs> to the station a few
+                            type="character" ref="#Fridolin"> Nachtigall </rs> to the station a few
                         hours later. This did not seem to point to a very clear conscience.He stood
                         in the large Square before the Rathaus and looked around. There were only a
                         few people in sight and the suspicious looking man from the cafe was not
-                        among them. But even if he were—the men had been afraid— <rs type="person"
+                        among them. But even if he were—the men had been afraid— <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> had the upper hand. He hurried on, took
                         a cab when he reached the Ring, and driving first to the Hotel Bristol,
                         asked the concierge, as though he were fully authorized to do so, whether
-                        the <rs type="person" ref="#Baroness"> Baroness D. </rs> who had taken
+                        the <rs type="character" ref="#Baroness"> Baroness D. </rs> who had taken
                         poison that morning, had stopped at this hotel. The concierge didn't seem at
-                        all surprised; perhaps he thought <rs type="person" ref="#Fridolin">
+                        all surprised; perhaps he thought <rs type="character" ref="#Fridolin">
                             Fridolin </rs> was a police officer or some other official. At any rate,
                         he replied courteously that the sad case had not occurred there, but in the
                         Hotel Erzherzog Karl. . . . </p>
                 </div>
                 <div type="scene" n="extra">
                     <p>
-                        <rs type="person" ref="#Fridolin"> Fridolin </rs> at once went there and
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> at once went there and
                         found that Baroness D. had been taken to the General Hospital immediately
                         after they found her. He also inquired how they had discovered her attempt
                         at suicide. Why had they disturbed at noon a lady who had not returned until
@@ -3075,35 +3075,35 @@
                         Finally, they had had to break it open, and they found the Baroness in her
                         bed, unconscious. They had at once called an ambulance and notified the
                         police. <said aloud="true" direct="true" who="Fridolin"> "And the two men?" </said>
-                        asked <rs type="person" ref="#Fridolin"> Fridolin </rs> , rather sharply. He
+                        asked <rs type="character" ref="#Fridolin"> Fridolin </rs> , rather sharply. He
                         felt like a detective.Yes, of course the two men looked rather suspicious.
                         In the meantime they had completely disappeared. Anyhow, it was unlikely
-                        that she was really the <rs type="person" ref="#Baroness"> Baroness Dubieski </rs>
+                        that she was really the <rs type="character" ref="#Baroness"> Baroness Dubieski </rs>
                         , the name under which she had registered. This was the first time she had
                         stopped at the hotel. Besides, there wasn't a family by that name; at least
                         none belonging to the nobility. </p>
                     <p>
-                        <rs type="person" ref="#Fridolin"> Fridolin </rs> thanked the concierge for
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> thanked the concierge for
                         the information and left quickly, for one of the hotel managers had just
                         come up and looked him over with unpleasant curiosity. He got back into the
                         cab and told the cabman to take him to the hospital. A few minutes later, in
-                        the outside office, he learned that the allege <rs type="person"
+                        the outside office, he learned that the allege <rs type="character"
                             ref="#Baroness"> Baroness Dubieski </rs> had been taken to the second
                         clinic for internal medicine. In spite of all the efforts of the doctors,
                         she had died at five in the afternoon— without having regained
                         consciousness. </p>
                     <p>
-                        <rs type="person" ref="#Fridolin"> Fridolin </rs> breathed a sigh of relief
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> breathed a sigh of relief
                         that sounded now like a deep groan. The official on duty looked up,
-                        startled, and <rs type="person" ref="#Fridolin"> Fridolin </rs> pulled
+                        startled, and <rs type="character" ref="#Fridolin"> Fridolin </rs> pulled
                         himself together and courteously took his leave. A minute later he stood
                         again out-doors. The hospital park was empty except where a nurse, in her
                         blue and white uniform and cap, was walking along a near-by path. <said
                             aloud="false" direct="false" who="Fridolin"> "She is dead," </said>
                         <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> said to himself.—If it is
+                            type="character" ref="#Fridolin"> Fridolin </rs> said to himself.—If it is
                         she. And if it is not? If she still lives, how can I find her? Only too
-                        easily could <rs type="person" ref="#Fridolin"> Fridolin </rs> answer the
+                        easily could <rs type="character" ref="#Fridolin"> Fridolin </rs> answer the
                         question as to where at that moment he could find the body of the unknown
                         woman. As she had died so recently, she was undoubtedly lying in the
                         hospital morgue, a few hundred paces away. As a doctor, there would, of
@@ -3112,7 +3112,7 @@
                         He had only snatched a hasty glance at the former when he had been driven
                         out. Up to this moment he hadn't thought of that fact. During the time since
                         he had read the account in the paper he had pictured the suicide, whose face
-                        he didn't know, as having the features of <rs type="person" ref="#Albertina">
+                        he didn't know, as having the features of <rs type="character" ref="#Albertina">
                         Albertina </rs> . In fact, he now shuddered to realize that his wife had
                         constantly been in his mind's eye as the woman he was seeking. He asked
                         himself again why he really wanted to go to the morgue. He was sure that if
@@ -3132,19 +3132,19 @@
                         extent homelike, smell of all kinds of chemicals pervaded the place. He
                         knocked on the door of the Histological Room where he expected to find some
                         assistant still at work. A rather gruff voice called "Come in." <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> entered the high-ceilinged
+                            type="character" ref="#Fridolin"> Fridolin </rs> entered the high-ceilinged
                         room which seemed almost festively illuminated. As he half expected, <rs
-                            type="person" ref="#Adler"> Doctor Adler </rs> , an assistant in the
+                            type="character" ref="#Adler"> Doctor Adler </rs> , an assistant in the
                         Institute and an old fellow-student of his, was in the center of the room.
                         He raised his eyes from the microscope and arose from his chair. <said
                             aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "Oh, it's
-                            you," </said> he said to <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                            you," </said> he said to <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         , a little annoyed, but also surprised, <said aloud="true" direct="true"
                             who="Adler" toWhom="Fridolin"> "to what do I owe the honor of your visit
                         at such an unaccustomed hour?" </said>
                         <said aloud="true" direct="true"
                             who="Fridolin" toWhom="Adler"> "Forgive me for disturbing you," </said>
-                        said <rs type="person" ref="#Fridolin"> Fridolin </rs> . <said aloud="true"
+                        said <rs type="character" ref="#Fridolin"> Fridolin </rs> . <said aloud="true"
                             direct="true" who="Fridolin" toWhom="Adler"> "I see you are just in the
                         midst of some work." </said>
                         <said aloud="true" direct="true" who="Adler"
@@ -3153,23 +3153,23 @@
                             aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "What else
                         could one be doing in these sacred halls at midnight? But, of course, you're
                         not disturbing me in the least. What can I do for you?" </said> When <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> did not answer, he
+                            type="character" ref="#Fridolin"> Fridolin </rs> did not answer, he
                         continued: <said aloud="true" direct="true" who="Adler" toWhom="Fridolin">
                         "That Addison case you sent down to us today is still lying over there,
                         lovely and inviolate. Dissection tomorrow morning at eight-thirty." </said>
-                        With a gesture <rs type="person" ref="#Fridolin"> Fridolin </rs> indicated
-                        that that was not the reason of his visit. <rs type="person" ref="#Adler">
+                        With a gesture <rs type="character" ref="#Fridolin"> Fridolin </rs> indicated
+                        that that was not the reason of his visit. <rs type="character" ref="#Adler">
                         Doctor Adler </rs> went on: <said aloud="true" direct="true" who="Adler"
                             toWhom="Fridolin"> "Oh,then it's the pleural tumor. Well, the
                         histological examination has unmistakably shown sarcoma. So you needn't
                             worry about that either." </said>
-                        <rs type="person" ref="#Fridolin">
+                        <rs type="character" ref="#Fridolin">
                         Fridolin </rs> again shook his head. <said aloud="true" direct="true"
                             who="Fridolin"
                             toWhom="Adler"> "My visit has nothing to do with—official matters." </said>
                         <said
                             aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "Well, so much
-                        the better," </said> said <rs type="person" ref="#Adler"> Adler </rs> . <said
+                        the better," </said> said <rs type="character" ref="#Adler"> Adler </rs> . <said
                             aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "I was
                         beginning to think that your bad conscience brought you down here when all
                         good people should be sleeping." </said>
@@ -3177,7 +3177,7 @@
                             who="Fridolin" toWhom="Adler"> "It has something to do with a bad
                         conscience, or at least with conscience in general," </said>
                         <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> replied. <said
+                            type="character" ref="#Fridolin"> Fridolin </rs> replied. <said
                             aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "Oh!" </said>
                         <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Adler"> "Briefly, and
@@ -3193,14 +3193,14 @@
                         <said aloud="true"
                             direct="true"
                             who="Adler" toWhom="Fridolin"> "Suicidium?" </said> asked <rs
-                            type="person" ref="#Adler"> Adler </rs> . <rs type="person"
+                            type="character" ref="#Adler"> Adler </rs> . <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> nodded. <said aloud="true" direct="true"
                             who="Fridolin" toWhom="Adler"> "Yes, suicide," </said> he translated, as
                         though he wished to restore the matter to a personal plane. <rs
-                            type="person" ref="#Adler"> Adler </rs> jokingly pointed his finger at
+                            type="character" ref="#Adler"> Adler </rs> jokingly pointed his finger at
                         him. <said aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "Was
                             she unhappily in love with your Excellency?" </said>
-                        <rs type="person"
+                        <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> was a little annoyed and answered, <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Adler"> "The suicide
                             of the Baroness Dubieski has nothing whatever to do with me personally." </said>
@@ -3208,48 +3208,48 @@
                             aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "I beg your
                         pardon, I didn't mean to be indiscreet. We can see for ourselves at once. As
                         far as I know, no request from the coroner has come tonight. Very likely———" </said>
-                        Post-mortem examination—flashed across <rs type="person" ref="#Fridolin">
+                        Post-mortem examination—flashed across <rs type="character" ref="#Fridolin">
                         Fridolin </rs> 's mind. That might easily be the case. Who knows whether her
                         suicide was in any sense voluntary? He thought again of the two men who had
                         so suddenly disappeared from the hotel after learning of her attempt at
                         suicide. The affair might still develop into a criminal case of great
-                        importance. And mightn't he— <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                        importance. And mightn't he— <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         —perhaps be summoned as a witness?—In fact, wasn't it really his duty to
-                        report to the police?He followed <rs type="person" ref="#Adler"> Doctor
+                        report to the police?He followed <rs type="character" ref="#Adler"> Doctor
                             Adler </rs> across the hallway to the door opposite, which was ajar. The
                         bare high room was dimly lighted by the low, unshaded flames of a two-armed
                         gas-fixture. Less than half of the twelve or fourteen morgue tables were
                         occupied by corpses. A few bodies were lying there naked. Others were
-                        covered with linen sheets. <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                        covered with linen sheets. <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         stepped up to the first table by the door and carefully drew back the
                         covering from the head of the corpse. A glare from Doctor Adler's flashlight
                         suddenly fell upon it and Fridolin saw the yellow face of a gray-bearded
                         man. He immediately covered it again with the shroud. On the next table was
-                        the naked, emaciated body of a young man, and <rs type="person" ref="#Adler">
+                        the naked, emaciated body of a young man, and <rs type="character" ref="#Adler">
                         Doctor Adler </rs> called out from farther down: <said aloud="true"
                             direct="true" who="Adler" toWhom="Fridolin"> "Here's a woman between
                         sixty and seventy, so I suppose she isn't the one either." </said>
                         <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> suddenly felt irresistibly
+                            type="character" ref="#Fridolin"> Fridolin </rs> suddenly felt irresistibly
                         drawn to the end of the room where the sallow body of a woman faintly glowed
                         in the darkness. The head was hanging to one side and the long dark hair
                         almost touched the floor. He instinctively stretched out his hand to put the
                         head in its proper position, but feeling a certain dread which, as a doctor,
-                        was otherwise unknown to him he drew back his hand. <rs type="person"
+                        was otherwise unknown to him he drew back his hand. <rs type="character"
                             ref="#Adler"> Doctor Adler </rs> came up and, pointing to the corpses
                         behind him, remarked : <said aloud="true" direct="true" who="Adler"
                             toWhom="Fridolin"> "All those are out of the question, so it's probably
                         this one?" </said> He pointed his flashlight at the woman's head. Overcoming
-                        his dread, <rs type="person" ref="#Fridolin"> Fridolin </rs> raised it a
+                        his dread, <rs type="character" ref="#Fridolin"> Fridolin </rs> raised it a
                         little with his hands. A white face with halfclosed eyelids stared at him.
                         The lower jaw hung down limply, the narrow upper lip was drawn up, revealing
-                        the bluish gums and a number of white teeth. <rs type="person"
+                        the bluish gums and a number of white teeth. <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> could not tell whether this face had
                         ever been beautiful, even as lately as the day before. It was a face without
                         any expression or character. It was dead. It could just as easily have been
                         the face of a woman of eighteen, as of thirty-eight. <said aloud="true"
                             direct="true" who="Adler" toWhom="Fridolin"> "Is it she?" </said> asked <rs
-                            type="person" ref="#Adler"> Doctor Adler </rs> . <rs type="person"
+                            type="character" ref="#Adler"> Doctor Adler </rs> . <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> bent lower, as though he could, with his
                         piercing look, wrest an answer from the rigid features. Yet at the same time
                         he knew that if it were her face, and her eyes, the eyes that had shone at
@@ -3257,7 +3257,7 @@
                         reality did not, want to know. He gently laid the head back on the table.
                         His eyes followed the moving flashlight, passing along the dead body. Was it
                         her body?—the wonderful alluring body for which, only yesterday, he had felt
-                        such agonizing desire? <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                        such agonizing desire? <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         touched the forehead, the cheeks, the shoulders and arms of the dead woman,
                         doing so as if compelled and directed by an invisible power. He twined his
                         fingers about those of the corpse, and rigid as they were, they seemed to
@@ -3267,61 +3267,61 @@
                         behind him whispering: <said aloud="true" direct="true" who="Adler"
                             toWhom="Fridolin"> "What on earth are you doing?" </said>
                         <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> regained his senses
+                            type="character" ref="#Fridolin"> Fridolin </rs> regained his senses
                         instantly. He freed his fingers from those of the corpse, and taking her
                         thin wrists, placed the ice-cold arms alongside of the body very carefully,
                         even a little scrupulously. It seemed to him that she had just at that
                         moment died. He turned away, directed his steps to the door and across the
                         resounding hallway back into the room which they had left a little while
                         before. Doctor Adler followed in silence and locked the door behind them. <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> stepped up to the
+                            type="character" ref="#Fridolin"> Fridolin </rs> stepped up to the
                         wash-basin. <said aloud="true" direct="true" who="Fridolin" toWhom="Adler">
                         "With your permission," </said> he said and carefully washed his hands with
                         disinfectant. Doctor Adler seemed anxious to continue his interrupted work
                         without further ceremony. He switched on his microscope lamp, turned the
-                        micrometer screw and looked into the microscope. When <rs type="person"
+                        micrometer screw and looked into the microscope. When <rs type="character"
                             ref="#Fridolin"> Fridolin </rs> went up to him to say good-bye he was
                         already completely absorbed. <said aloud="true" direct="true" who="Adler"
                             toWhom="Fridolin"> "Would you like to have a look at this preparation?" </said>
                         he asked. <said aloud="true" direct="true" who="Fridolin" toWhom="Adler">
-                        "Why?" </said> asked <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                        "Why?" </said> asked <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         absent-mindedly. <said aloud="true" direct="true" who="Adler"
                             toWhom="Fridolin"> "Well, to quiet your conscience," </said> replied <rs
-                            type="person" ref="#Adler"> Doctor Adler </rs> —as if he assumed that,
+                            type="character" ref="#Adler"> Doctor Adler </rs> —as if he assumed that,
                         after all, the purpose of Fridolin's visit had been a medical-scientific
                         one. <said aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "Can
-                            you make it out?" </said> he asked, as <rs type="person" ref="#Fridolin">
+                            you make it out?" </said> he asked, as <rs type="character" ref="#Fridolin">
                         Fridolin </rs> looked into the microscope. <said aloud="true" direct="true"
                             who="Adler" toWhom="Fridolin"> "It's a fairly new staining method." </said>
                         <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> nodded, without raising
+                            type="character" ref="#Fridolin"> Fridolin </rs> nodded, without raising
                         his eyes from the glass. <said aloud="true" direct="true" who="Fridolin"
                             toWhom="Adler"> "Perfectly ideal," </said> he said, <said aloud="true"
                             direct="true" who="Fridolin" toWhom="Adler"> "a colorful picture, one
                         might say." </said> And he inquired about various details of the new
-                        technique.> <rs type="person" ref="#Adler"> Doctor Adler </rs> gave him the
-                        desired explanations. <rs type="person" ref="#Fridolin"> Fridolin </rs> told
+                        technique.> <rs type="character" ref="#Adler"> Doctor Adler </rs> gave him the
+                        desired explanations. <rs type="character" ref="#Fridolin"> Fridolin </rs> told
                         him that the new method would most probably be very useful to him in some
                         work he was planning for the next few months, and asked permission to come
                         again to get more information. <said aloud="true" direct="true" who="Adler"
                             toWhom="Fridolin"> "I'm always at your service," </said> said <rs
-                            type="person" ref="#Adler"> Doctor Adler </rs> . He accompanied <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> over the resounding
+                            type="character" ref="#Adler"> Doctor Adler </rs> . He accompanied <rs
+                            type="character" ref="#Fridolin"> Fridolin </rs> over the resounding
                         flagstones to the locked outer door, and opened it with his own key. <said
                             aloud="true" direct="true" who="Fridolin" toWhom="Adler"> "You're not
-                        going yet?" </said> asked <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                        going yet?" </said> asked <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         . <said aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "Of course
-                        not," </said> replied <rs type="person" ref="#Adler"> Doctor Adler </rs> . <said
+                        not," </said> replied <rs type="character" ref="#Adler"> Doctor Adler </rs> . <said
                             aloud="true" direct="true" who="Adler" toWhom="Fridolin"> "These are the
                         very best hours for work— from about midnight until morning. Then one is at
                         least fairly certain not to be disturbed." </said>
                         <said aloud="true"
                             direct="true" who="Fridolin" toWhom="Adler"> "Well" </said> —said <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> , smiling slightly, as if
-                        he had a guilty conscience. <rs type="person" ref="#Adler"> Doctor Adler </rs>
-                        placed his hand on <rs type="person" ref="#Fridolin"> Fridolin </rs> 's arm
+                            type="character" ref="#Fridolin"> Fridolin </rs> , smiling slightly, as if
+                        he had a guilty conscience. <rs type="character" ref="#Adler"> Doctor Adler </rs>
+                        placed his hand on <rs type="character" ref="#Fridolin"> Fridolin </rs> 's arm
                         reassuringly, and then asked, with some reserve: "Well—was it she?" <rs
-                            type="person" ref="#Fridolin"> Fridolin </rs> hesitated for a moment,
+                            type="character" ref="#Fridolin"> Fridolin </rs> hesitated for a moment,
                         and then nodded, without saying a word. He was hardly aware that by this
                         action he might be guilty of untruthfulness. It did not matter to him
                         whether the woman—now lying in the hospital morgue—was the same one he had
@@ -3339,11 +3339,11 @@
                 <head> 7. </head>
                 <div type="scene" n="132, 133, 134" xml:id="B31">
                     <p>
-                        <rs type="person" ref="#Fridolin"> Fridolin </rs> hurried home through the
+                        <rs type="character" ref="#Fridolin"> Fridolin </rs> hurried home through the
                         dark and empty streets. After undressing in the consultation room, as he had
                         done twenty-four hours before, he entered the bedroom as silently as
                         possible. </p>
-                    <p> He heard <rs type="person" ref="#Albertina"> Albertina </rs> breathing
+                    <p> He heard <rs type="character" ref="#Albertina"> Albertina </rs> breathing
                         quietly and regularly and saw the outlines of her head on the soft pillow.
                         Unexpectedly, his heart was filled with a feeling of tenderness and even of
                         security. He decided to tell her the story of the preceding night very soon—
@@ -3351,19 +3351,19 @@
                         experienced had been a dream. Then, when she had fully realized the utter
                         futility of his adventures, he would confess to her that they had been real.
                         Real? he asked himself—and at this moment he noticed something dark quite
-                        near <rs type="person" ref="#Albertina"> Albertina </rs> 's face. It had
+                        near <rs type="character" ref="#Albertina"> Albertina </rs> 's face. It had
                         definite outlines like the shadowy features of a human face, and it was
                         lying on his pillow. For a moment his heart stopped beating, but an instant
                         later he saw what it was, and stretching out his hand, picked up the mask he
                         had worn the night before. He must have lost it in the morning when making
-                        up his bundle, and the maid or <rs type="person" ref="#Albertina"> Albertina </rs>
-                        herself had found it. Undoubtedly <rs type="person" ref="#Albertina">
+                        up his bundle, and the maid or <rs type="character" ref="#Albertina"> Albertina </rs>
+                        herself had found it. Undoubtedly <rs type="character" ref="#Albertina">
                         Albertina </rs> , after making this find, suspected something—presumably,
                         more and worse things than had actually happened. And she intimated this, by
                         placing the mask on the pillow beside her, as though it signified his face,
                         the face of her husband who had become an enigma to her. This playful,
                         almost joking action seemed to express both a gentle warning and her
-                        readiness to forgive. <rs type="person" ref="#Fridolin"> Fridolin </rs>
+                        readiness to forgive. <rs type="character" ref="#Fridolin"> Fridolin </rs>
                         confidently hoped that, remembering her own dream, she would not be inclined
                         to take his too seriously, no matter what might have happened. All at once,
                         however, he reached the end of his strength. He dropped the mask, uttered a
@@ -3374,12 +3374,12 @@
                         tell you everything." </said> She raised her hand, as if to stop him, but he
                         took it and held it, and looked at her both questioningly and beseechingly.
                         She encouraged him with a nod and he began his story.The gray dawn was
-                        creeping in through the curtains when <rs type="person" ref="#Fridolin">
-                        Fridolin </rs> finished. <rs type="person" ref="#Albertina"> Albertina </rs>
+                        creeping in through the curtains when <rs type="character" ref="#Fridolin">
+                        Fridolin </rs> finished. <rs type="character" ref="#Albertina"> Albertina </rs>
                         hadn't once interrupted him with a curious or impatient question. She
                         probably felt that he could not, and would not, keep anything from her. She
                         lay there quietly, with her arms folded under her head, and remained silent
-                        long after <rs type="person" ref="#Fridolin"> Fridolin </rs> had finished.
+                        long after <rs type="character" ref="#Fridolin"> Fridolin </rs> had finished.
                         He was lying by her side and finally bent over her, and looking into her
                         immobile face with the large, bright eyes in which morning seemed to have
                         dawned, he asked, in a voice of both doubt and hope: <said aloud="true"

@@ -430,7 +430,7 @@ footer {
     background-color: var(--giallino);
     padding: 4%;
     color: black;
-    height: 120vh;
+    height: 150vh;
 
 }
 
@@ -445,7 +445,7 @@ footer {
     flex-direction: column;
     max-width: 35vw !important;
     align-items: center;
-    height: 130vh;
+    height: 150vh;
 }
 
 .containe>iframe {
