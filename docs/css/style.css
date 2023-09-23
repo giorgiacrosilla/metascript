@@ -382,13 +382,12 @@ div pre {
 
 
 footer {
-    height: 30vh;
+    
     background-color: var(--off-black);
-    color: white;
+    color: rgb(230, 230, 230);
     display: flex !important;
-    justify-content: center;
-    align-items: center;
 }
+
 
 /* analysis page */
 
@@ -425,6 +424,12 @@ footer {
 .text {
     max-width: 60vw;
 }
+
+.text1 {
+    max-width: 60vw;
+    font-size: smaller;
+}
+
 
 .network {
     background-color: var(--giallino);
@@ -499,6 +504,12 @@ footer {
     cursor: pointer;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Two columns with equal width */
+    grid-gap: 6%; /* Adjust the gap between the columns */
+    margin-left: 5%;
+}
 
 .spatial>h3,
 .network>h3 {
@@ -508,6 +519,29 @@ footer {
     margin-bottom: 1rem !important;
 }
 
+#contact-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.person-name {
+    margin-right: auto; /* Pushes the icons to the right */
+}
+
+.icon-link {
+    margin-left: 10px; /* Add space between the name and icons */
+    color: #007bff; /* Initial icon color */
+    text-decoration: none;
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.icon-link:hover {
+    color: #ffbe33; /* Change color on hover */
+}
+
+  
 
 @media screen and (max-width: 768px) {
     .parallax {
