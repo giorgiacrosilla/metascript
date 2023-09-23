@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>METASCRIPT</title>
+    <title>MetaScript</title>
     <link rel="icon" type="image/x-icon" href="./img/mask.ico">
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
@@ -40,24 +40,792 @@
             <ul id="sidebar-list"></ul>
         </section>
         <section class="content grid-item">
-            <h2>Overview</h2>
-            <p>Vespasiano da Bisticci’s <em>Letters</em> are a series of manuscript letters that were sent to and received by <em>Vespasiano da Bisticci</em> (1421–1498), an Italian humanist and librarian, over a time period spanning from 1444 to 1497. Their content focuses mostly on manuscripts and codex trade with other notable people of that time. From the letters it is possible to learn many relevant features of these manuscripts: materials, copyists, costs, but also names of latin, greek and humanistic authors and texts.</p>
-            <p>A <a href="http://projects.dharc.unibo.it/vespasiano/">knowledge site</a> of the Letters has been developed in order to facilitate the navigation, study and conservation of such documents, as well as to contextualize them in a semantically-rich and metatextual framework.</p>
+            <h2>OVERVIEW</h2>
+            <p>Metascript is an open source tool that provides a basic textual analysis framework for the comparison of an
+                original text (novels, short stories, etc.) and its film transposition (screenplays). The goal of Metascript
+                is
+                to provide a set of guidelines for the markup and the metadata enrichment among multimodal texts, such as a
+                book
+                with its screenplay adaptation for audiovisual transposition. </p>
+            <p>Metascript also enables the alignment of the marked texts with the final visual rendering of the film through
+                the
+                use of timestamps inherited from subtitles files, allowing for the visualization of the different portions
+                of
+                the texts in its different versions, both textual and visual, paired with analysis of the colors and of the
+                scenic rendering of the narrative passage. </p>
+            <p>The example used as a working prototype for the project is Arthur Schnitzler&#39;s novel &quot;Dream
+                Story&quot;
+                and the two screenplays (a &#39;96 draft and a &#39;99 transcript) from the film &quot;Eyes Wide Shut&quot;,
+                a
+                transposition of Schnitzler&#39;s novel directed by Stanley Kubrick and adapted by Kubrick himself alongside
+                with Frederic Raphael. </p>
+            <p>The development of Metascript has followed three macro-stages:</p>
+            <ol>
+                <li>The creation of the XML-TEI encodings of the different texts (with a particular attention for the
+                    implementation of Linked Open Data)</li>
+                <li>The extraction of relevant data using python scripts</li>
+                <li>The analysis of the data and the graphical visualization of the results </li>
+        
+            </ol>
+            <p>Metascript aims to answer the call for the development of a working model of digital textual analysis related
+                to
+                film screenplays, a niche literary class of texts whose digital applications and methodologies have not yet
+                been
+                studied and/or applied thoroughly. Our project wants to stand as an initial model and reference guideline
+                for
+                the encoding of screenplays, and in particular for the ones that spur from the adaptation of more classical
+                literary texts. In this sense, Metascript is set to create an encoding model that connects the different
+                text
+                and audiovisual mediums, aligning elements such as scenes, characters and places between them; for example,
+                characters whose names, gender or other peculiarities have been changed in the adaptation from the book to
+                the
+                screenplay are aligned in a way that allows for the changes to bee tracked among the transmodality of the
+                texts.
+                The same thing is done for paragraphs of the book that have been translated in specific scenes of the
+                screenplay. Metascript enables the reader to navigate these scenes and explore the differences between the
+                original text and its adaptation, from a narrative and textual point of view but also visually, by enabling
+                an
+                easy alignment with the film itself, and its corresponding visual frames. </p>
+            <p>In addition to XML-TEI tagging and text alignment work, special attention is given to the inclusion of
+                metadata
+                and linked open data.</p>
+            <p>A further goal of the project is to be able to extrapolate quantitative data from the texts, capable of
+                providing
+                insights on the changes and/or similarities among them. In our prototype, we chose to extrapolate data
+                regarding
+                the relationships between characters through the use of Python scripts. A network analysis of this data has
+                subsequently been produced using libraries such as networkX and Bokeh to concretely visualize the results
+                and
+                answer some research questions.</p>
+            <p>The same thing was done in relation to geographic data, utilizing the libraries xml.etree and folium.</p>
+            <p>Finally, one last analysis was performed in relation to the space and time data of the single scenes from the
+                screenplay to quantify the percentages of the scenes that have been shot at night rather than during the
+                day,
+                indoors or outdoors.</p>
+        
+            <h3>The source material</h3>
+            <p>In choosing the working material on which to set our prototype, we conducted extensive research around film
+                transpositions derived from books.</p>
+            <p>One well-known director who often relied on novels in the creation of his films was Stanley Kubrick.
+                Therefore,
+                we decided to analyze his filmography and trace back to the original texts from which he started his
+                adaptations. </p>
+            <p>Some of the titles that most attracted our attention were Lolita, Eyes Wide Shut, 2001: A Space Odyssey,
+                Barry
+                Lyndon, and Full Metal Jacket.</p>
+            <p>Our final choice fell on Eyes Wide Shut and its corresponding novel &quot;Dream Story&quot; (original
+                language
+                &quot;Traumnovelle&quot;) for several reasons: </p>
             <ul>
-                <li><a href="methodology.html">Methodology</a>: this section explains in detail the methodology used to develop the Knowledge site, which comprises the <strong>development workflow</strong> and the list of <strong>reused models</strong>;</li>
-                <li><a href="components.html">Components</a>: this section explains in detail the structure of the RDF graph by dividing it into <strong>a series of smaller models</strong>;</li>
-                <li><a href="visualization.html">Visualization</a>: this section illustrates some examples of <strong>graphs and charts</strong> to visualize certain aspects of the edition.</li>
+                <li> the availability of the html and txt texts of the screenplay and the book</li>
+                <li> the presence of interesting changes implemented by the director in terms of space and time</li>
+                <li> the particular use of color and outdoor/indoor spaces in the film </li>
+        
             </ul>
+            <p>The chosen source materials are: </p>
+            <p>- the novel &quot;Dream Story&quot; translated by Otto P. Schinnerer from the original German
+                &quot;Traumnovelle&quot; by author Arthur Schnitzler, published by Green Integer (Los Angeles)</p>
+            <p>- the 1996 draft screenplay of &quot;Eyes Wide Shut&quot; written by Stanley Kubrick and Frederic Raphael</p>
+            <p>- the 1999 transcript of &quot;Eyes Wide Shut&quot; published on October 1, 1999 by Grand Central Pub (New
+                York)
+            </p>
+            <p>The ‘96 draft and the ‘99 transcription are very similar, but have some differences on various scenes that
+                were
+                later cut or changed by the director. In addition, the ‘96 draft is incomplete in that it is missing some
+                scenes
+                that were later included in the final version of the film. </p>
+            <p>Apart from these minor differences in content, the two texts are otherwise formally the same. Respecting the
+                look
+                and layout rules of a film script (capitalized names before each line of dialogue, scene setting introducing
+                the
+                place and light characterizing the moment of the scene etc.). These particularities led us to think
+                carefully
+                about how we could mark this text type correctly and in an efficient way.</p>
+        
+            <h3>The competency questions</h3>
+            <p>Starting from the reading of the source materials, we defined some research questions to better visualize the
+                goals of the project:</p>
+            <ol>
+                <li>How can we simply and directly compare the various scenes in the film with the corresponding moments in
+                    the
+                    original book, so as to highlight their fidelity and changes?</li>
+                <li>What differences exist at the level of characters and their relationships within the book and the
+                    screenplay? What about between the &#39;96 draft and the final &#39;99 version? Do they reflect or
+                    highlight
+                    changes?</li>
+                <li>How does the geographical setting of events change between book and film? </li>
+                <li>Which scenes and passages in the book occur during the day, and which occur at night? Do moments set
+                    outside
+                    in the book remain so in the film, and vice versa?</li>
+            </ol>
+        
+        
+            <h3>Workflow scheme</h3>
+            <p>From the research questions posed, it quickly became clear that we needed to follow a clear workflow to
+                achieve
+                our goals step by step. </p>
+            <figure class='table-figure'>
+                <table>
+                    <thead>
+                        <tr>
+                            <th><strong>Step name</strong></th>
+                            <th><strong>Description</strong></th>
+                            <th><strong>Technologies and tools</strong></th>
+                            <th><strong>Output</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Definition of the starting material and objectives + relevant academic literature with
+                                similar
+                                examples</td>
+                            <td>Search for the book connected to the screenplay (editions and translations).Screenplay
+                                research
+                                (various drafts and published transcription).Definition of research objectives and relative
+                                competency questions. </td>
+                            <td>IMSDbIMDbInternet ArchiveWorldCatAcademiaJStor</td>
+                            <td>Starting files.Metadata.Working plan.Idea of the state of the art of the field. </td>
+                        </tr>
+                        <tr>
+                            <td>Workflow definition + ontologies choice</td>
+                            <td>Definition of the workflow stages + creation of the UML of the project and definition of the
+                                ontologies useful for visualizing the creative process</td>
+                            <td>LOVDocumentation</td>
+                            <td>UMLWork schemeConceptual Map for the Ontologies</td>
+                        </tr>
+                        <tr>
+                            <td>Transformation in XML-TEI + Markup Model definition</td>
+                            <td>Markup of the texts in XML-TEI + search for the most appropriate tags for the type of
+                                material
+                                analyzed.Creation of the general markup model adaptable to a film script.</td>
+                            <td>Python scriptTEI documentationVisual Studio Code</td>
+                            <td>File XML-TEI with LOD</td>
+                        </tr>
+                        <tr>
+                            <td>Data extraction and analysis</td>
+                            <td>Extraction of data, from the XML-TEI files, relating to characters, their interactions,
+                                geographical locations, time and space.Creation of csv and json files.Data processing
+                                through
+                                appropriate python libraries and graphical display of results. </td>
+                            <td>Python libraries used:BokehPlotlyNetworkXFoliumBeautifulSoupxml.eTree</td>
+                            <td>Data and graphs</td>
+                        </tr>
+                        <tr>
+                            <td>Visualization of the XML in html</td>
+                            <td>Creation of three sections for comparing the same scenes/moments in the book, draft and
+                                transcription</td>
+                            <td>http request with javascript</td>
+                            <td>Viewing texts on the website</td>
+                        </tr>
+                        <tr>
+                            <td>Website development</td>
+                            <td>Creation of the website of the application example prototype, suitable for consultation even
+                                by
+                                less expert users.</td>
+                            <td>htmlcssJavascript</td>
+                            <td>Final website for the user</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </figure>
+        
+            <h3>Data Modeling</h3>
+            <p>After having defined the workflow, we started modeling the data to understand how to formalize all the
+                relationships used inside the project.</p>
+            <p>The structure of the data model was inspired by the one created for the “National Edition of Aldo Moro’s
+                Works”.
+            </p>
+            <p>We modeled the data starting from the basic element, the RDF statement, constituted by a triple that
+                represents
+                subject, predicate, object. Subject and predicate are always represented by a URI, while the object can be
+                an
+                URI or a literal value.</p>
+            <p>Then, the formalization offered by <a href='http://purl.org/spar/frbr'>FRBR</a> (Functional Requirements for
+                Bibliographic Records) and, consequently, <a href='http://purl.org/spar/fabio'>FABiO</a> (FRBR-aligned
+                Bibliographic Ontology) was used to describe the elements of our project as codependent from one another:
+            </p>
+            <p>- <a href='http://purl.org/spar/fabio/Work'>fabio:Work</a> refers to the general concept of the book “Dream
+                Story”, the one that then is materialized in the actual book, but also inspired the movie transposition.</p>
+            <p>- <a href='http://purl.org/spar/fabio/Expression'>fabio:expression</a>, the intellectual content, in our case
+                is
+                the translated version of the book, the draft screenplay and the transcription of the movie.</p>
+            <p>- <a href='http://purl.org/spar/fabio/Manifestation'>fabio:manifestation</a> is the materialization of the
+                entity, in our case the book version that has been published by Green Integer, the XML-TEI encodings, the
+                transcription of the movie published in 1999 and the draft screenplay. </p>
+            <p class="img-container"><img src="./img/1st graph.png"
+                    referrerpolicy="no-referrer" alt="img"></p>
+            <p>We chose to use FABiO as the core ontology for this project because it describes “entities that are published
+                or
+                potentially publishable, and that contain or are referred to by bibliographic references, or entities used
+                to
+                define such bibliographic references”.</p>
+            <p>We used other ontologies to formalize the relationships between the entity and its metadata or between
+                entities
+                as shown in the table below.</p>
+            <p> </p>
+            <figure class='table-figure'>
+                <table>
+                    <thead>
+                        <tr>
+                            <th><strong>Ontology</strong></th>
+                            <th><strong>Documentation</strong></th>
+                            <th><strong>Properties or classes used</strong></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>FABiO</td>
+                            <td><a href='https://sparontologies.github.io/fabio/current/fabio.html' target='_blank'
+                                    class='url'>https://sparontologies.github.io/fabio/current/fabio.html</a></td>
+                            <td>fabio:Work, fabio:Expression, fabio:Manifestation, fabio:hasISBN, fabio:book, fabio:webpage
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>FRBR</td>
+                            <td><a href='https://vocab.org/frbr/core' target='_blank'
+                                    class='url'>https://vocab.org/frbr/core</a>
+                            </td>
+                            <td>frbr:embodiment, frbr:realization, frbr:translationOf</td>
+                        </tr>
+                        <tr>
+                            <td>FOAF</td>
+                            <td><a href='http://xmlns.com/foaf/0.1/' target='_blank' class='url'>http://xmlns.com/foaf/0.1/</a>
+                            </td>
+                            <td>foaf:person</td>
+                        </tr>
+                        <tr>
+                            <td>PROV-O</td>
+                            <td><a href='https://www.w3.org/TR/prov-o/' target='_blank'
+                                    class='url'>https://www.w3.org/TR/prov-o/</a></td>
+                            <td>prov:publisher</td>
+                        </tr>
+                        <tr>
+                            <td>dcterms</td>
+                            <td><a href='https://www.dublincore.org/specifications/dublin-core/dcmi-terms/' target='_blank'
+                                    class='url'>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</a></td>
+                            <td>dcterms:date, dcterms:title, dcterms:source, dcterms:publisher, dcterms:hasFormat,
+                                dcterms:hasIdentifier, dcterms:FileFormat</td>
+                        </tr>
+                        <tr>
+                            <td>dc</td>
+                            <td><a href='https://www.dublincore.org/specifications/dublin-core/dcmi-terms/' target='_blank'
+                                    class='url'>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</a></td>
+                            <td>dc:creator</td>
+                        </tr>
+                        <tr>
+                            <td>BIBO</td>
+                            <td><a href='https://www.dublincore.org/specifications/bibo/bibo/bibo.rdf.xml#' target='_blank'
+                                    class='url'>https://www.dublincore.org/specifications/bibo/bibo/bibo.rdf.xml#</a></td>
+                            <td>bibo:translator, bibo:numPages,</td>
+                        </tr>
+                        <tr>
+                            <td>schema</td>
+                            <td><a href='https://schema.org/' target='_blank' class='url'>https://schema.org/</a></td>
+                            <td>Schema:author</td>
+                        </tr>
+                        <tr>
+                            <td>RDA</td>
+                            <td><a href='http://www.rdaregistry.info/' target='_blank'
+                                    class='url'>http://www.rdaregistry.info/</a>
+                            </td>
+                            <td>rdau:P60832</td>
+                        </tr>
+                        <tr>
+                            <td>OWL</td>
+                            <td><a href='https://www.w3.org/2002/07/owl' target='_blank'
+                                    class='url'>https://www.w3.org/2002/07/owl</a></td>
+                            <td>owl:sameAs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </figure>
+            <p> </p>
+            <p>Then, we have used the tool Graffoo to render graphically our model.</p>
+            <p><img src="./img/2nd graph.png"
+                    referrerpolicy="no-referrer" alt="img"></p>
+        
+        
             <hr>
-            <h2>Test</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, sint. Rem tenetur suscipit eius, doloribus, eveniet numquam non saepe ea sit cupiditate dolor repellendus sapiente nesciunt nemo provident excepturi quaerat.</p>
-            <h3>SubSection</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores inventore numquam hic harum, et reprehenderit doloribus iste sunt voluptatum? Ea sed odio, distinctio omnis consequuntur fuga dolores mollitia sequi iste.</p>
+        
+            <h2>XML-TEI ENCODING</h2>
+            <p>The next step was the encoding of the three texts using <a href='https://tei-c.org/'>XML-TEI</a>. XML is a
+                metalanguage, a basis for other standards and can be easily transformed in another format. TEI is used for
+                the
+                digital representation of texts and its specifications allow the encoding of different types of text (i.e.,
+                screenplays, novels, poetry). The goal of the XML-TEI is to encode the texts both from a logical and a
+                semantic
+                point of view, using tags to make explicit the structure of the text and add metadata that can be useful for
+                a
+                standardized and immediate interpretation, but also to extract information and analyze it.</p>
+            <h3>The TEI header</h3>
+            <p>The TEI header serves as a repository for metadata related to the encoded text. In our project, the TEI
+                header
+                consists of three main sections:</p>
+            <ul>
+                <li><a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-fileDesc.html'><strong></strong></a>:This
+                    is a mandatory section that provides a description of the TEI file. It comprises the following
+                    subcomponents:</li>
+        
+            </ul>
+            <p> - <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-titleStmt.html'></a>: This section
+                contains
+                information about the title of the text and its author.</p>
+            <p> - <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-publicationStmt.html'></a>: Here, details
+                about
+                the publisher and the date of publication are included.</p>
+            <p> - <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-seriesStmt.html'></a>: This section
+                contains
+                information about the series to which the book belongs.</p>
+            <p> - <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-sourceDesc.html'></a>: This part is used
+                to
+                convey information regarding the resource, specifically the TEI encoding. It includes a comprehensive
+                description of who was involved in the encoding process and the main project&#39;s details.</p>
+            <ul>
+                <li> <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-profileDesc.html'><strong></strong></a>:
+                    This section provides information about the language used in the text, the locations mentioned, and the
+                    characters involved in the narrative.</li>
+        
+            </ul>
+            <p> - <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-settingDesc.html'></a>: Within this
+                part, a
+                list of locations is included using the <listPlace> tag. Each <place> is assigned an ID, and its type (e.g.,
+                        building, street, city, region, state, park) is specified. The type of designation is valuable for
+                        spatial analysis, as it helps determine whether the location can be represented individually or by
+                        highlighting an area. The <placename> tag specifies the name used in the text to refer to that
+                            location,
+                            and in some cases, the corresponding GeoNames URI is added as an attribute to this tag. The
+                            <location> tag provides additional geographical information about the location, including the
+                                settlement type (e.g., city) and country. The <geo> tag is used to express the coordinates
+                                    of
+                                    the location. Occasionally, the <desc> tag is employed to convey additional information
+                                        about places mentioned in the text, especially considering that the book was written
+                                        in
+                                        the early 20th century and some specific buildings, cafes, or hotels mentioned may
+                                        no
+                                        longer exist. In such cases, coordinates are added based on the annotated edition of
+                                        Traumnovelle.</p>
+            <p> - <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-particDesc.html'></a>: This section
+                contains
+                a list of all the characters mentioned in the text.</p>
+            <p> - <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/examples-listPerson.html'></a>: Serves as a
+                container for individual character items represented as <person> elements, each with a unique ID.</p>
+            <p> - [&gt;: This tag specifies the name of the character. Additionally, gender information is provided when
+                available, using the &quot;sex&quot; attribute within the <person> tag. If applicable, the <age> tag is used
+                        to
+                        include further details about the character&#39;s age. Physical descriptions of the character or
+                        notes
+                        regarding parental or social relationships between characters are also included. The same structural
+                        organization is employed in a macro-XML file called &quot;characters.xml,&quot; which is essential
+                        for
+                        aligning character names between the original text, draft screenplay, and transcription.</p>
+            <ul>
+                <li><a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-xenoData.html'><strong></strong></a>,
+                    a
+                    tag used to insert non-TEI elements, in this case we have used it to add Linked Open Data inside the XML
+                    in
+                    RDF format. </li>
+        
+            </ul>
+            <ul>
+                <li><a href='http://www.w3.org/1999/02/22-rdf-syntax-ns#.'></a>, the tag specifies the opening and closing
+                    line
+                    of RDF triples. In the opening tag, all ontologies and metadatadata standards used in the triples are
+                    included as attributes.</li>
+                <li>&lt;rdf:Description rdf:about=&quot;&quot;&gt;, this tag is the subject of our triples. Reported like
+                    this,
+                    with the empty quotes on rdf:about, it means that we intend the xml file we are working on as the
+                    subject of
+                    the triple. Within this tag are inserted other tags describing the rest of the triple, with predicate
+                    and
+                    object. The predicate is always associated with an authoritative ontology, while the object can be a
+                    literal
+                    or a uri resource derived from a thesaurus or authoritative coding system. A triple has also been
+                    inserted
+                    that traces the subject back to its entity expressed in the project UML. Each XML markup of texts is in
+                    fact
+                    a manifestation and is reported as follows: &lt;rdf:type rdf:resource=&quot;<a
+                        href='http://purl.org/spar/fabio/Manifestation' target='_blank'
+                        class='url'>http://purl.org/spar/fabio/Manifestation</a>&quot; /&gt;. Triples using the predicates
+                    rdau:p60832 (is inspired by) and rdau:P60833 (is inspiration for) were also inserted to describe the
+                    internal relationships between the XML files of the original novel and film scripts.</li>
+        
+            </ul>
+            <h3>Book Encoding</h3>
+            <p>To encode the information found on the first page, we utilized the <a
+                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-front.html'></a> tag, specifying that it
+                concerns the <a href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-titlePage.html'></a> of the
+                book.
+                Within this section, the <a href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-docTitle.html'></a>
+                tag serves to contain details about the book&#39;s title, while the <a
+                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-byline.html'></a> tag holds the primary
+                statement of responsibility.</p>
+            <p>Each chapter within the book is divided using a <a
+                    href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-div.html'></a> tag, along with
+                specifications
+                for its type and sequential number. In cases where text portions, which may or may not align with chapters,
+                relate to scenes from the &#39;99 transcription, we include a
+            <div> tag to label them with a type attribute set to &quot;scene&quot; and an &quot;n&quot; attribute to
+                correspond
+                to the scene in the transcription. Furthermore, each portion is uniquely identified using an id attribute.
+                This
+                division is crucial for creating a direct comparison among the three texts on the website and is aligned in
+                a
+                macro-XML file known as alignment.xml.</p>
+                <p>To mark citations in the text, we manually inserted the <a
+                        href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-quote.html'></a> tag where
+                    appropriate.
+                    We employed a generic <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-rs.html'></a> tag,
+                    followed by an attribute specifying the type of person mentioned, such as character or real person,
+                    along
+                    with an id to uniquely identify the character referenced in the book.</p>
+                <p>For dialogues, we employed the <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-said.html'></a>
+                    tag, providing specific attributes:</p>
+                <p>- &quot;aloud&quot; is set to true if the speech is said out loud, and false if it is not.</p>
+                <p>- &quot;direct&quot; indicates whether the speech is presented in a direct or indirect manner.</p>
+                <p>- &quot;who&quot; refers to the speaker.</p>
+                <p>- &quot;toWhom&quot; identifies the listener.</p>
+                <p>Multiple speakers or listeners are added as a single string and separated with a comma.</p>
+                <h3> Screenplay Encoding</h3>
+                <p>Being screenplays already loosely schematised texts, we were able to develop a set of scripts to help
+                    automate the process of mark-up. This was achieved with the use of the BeautifulSoup library to deal
+                    with
+                    the original files (an html file for the 1996 screenplay and a txt file in the case of the
+                    transcription)
+                    which have been parsed using regular expressions to identify patterns in the files that were
+                    subsequently
+                    translated in the respective XML/TEI-compliant tags for each one of the descriptive elements of the
+                    screenplays and for the additional metadata elements.
+                    These scripts were able to cut the time that would have been spent manually encoding the texts by a lot;
+                    unfortunately, the original screenplay files found on the internet were not flawlessly formatted,
+                    presenting
+                    many errors in the layout of the pages. This effectively decreased the efficiency of the parsing
+                    scripts, as
+                    we were forced to correct these sporadic errors by hand after the encoding of the whole files.</p>
+                <p>In the case of the screenplay of the movie&#39;s transcription, we were able to enrich the TEI encoding
+                    of
+                    the text by adding a timestamp related to the start and to the end of each of the speech tags of the
+                    text as
+                    they appear in the movie itself. These timestamps were automatically extracted, using again a Python
+                    script,
+                    from a subtitle file for the movie, which has been parsed and matched with each of the <sp> elements of
+                        the
+                        marked-up file using the TheFuzz library for fuzzy string matching.</p>
+                <p>The final screenplay encoding adheres to the guidelines provided by the TEI consortium for correctly
+                    tagging
+                    performance texts. </p>
+                <p>In the header, the <front> tag is employed to store information about the cast members within the <a
+                            href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-castList.html'></a>, with each cast
+                        member&#39;s details enclosed within a <a
+                            href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-castItem.html'></a> tag. For each
+                        <castItem>, the character&#39;s name is defined using the <a
+                                href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-role.html'></a> tag, and a
+                            concise
+                            description is included using <a
+                                href='https://www.tei-c.org/release/doc/tei-p5-doc/it/html/ref-roleDesc.html'></a>. To
+                            specify
+                            the actor portraying the character in the film, the <a
+                                href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-actor.html'></a> tag is used, and
+                            each tag contains a reference to the unique identifier provided by IMDB. The information
+                            contained
+                            within the <actor> tag was automatically extracted using a script, significantly reducing the
+                                time
+                                required for this task. This Python script leveraged the IMDb library to retrieve the names
+                                of
+                                all cast members involved in the film adaptation, along with their respective roles.
+                                Subsequently, this data was saved in both CSV and JSON formats for further use.</p>
+                <p>Every scene is tagged with a
+                <div>, indicating its type and scene number, along with a unique identifier. If a scene corresponds to one
+                    or
+                    more scenes in the transcription, an additional <div> is added, containing information about which
+                        scene(s)
+                        in the transcription match the given scene.</p>
+                        <p> </p>
+                        <p>Stage directions are marked using the <a
+                                href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-stage.html'></a> tag and feature
+                            various attributes:</p>
+                        <p>- &quot;environment&quot; specifies whether the setting is internal or external.</p>
+                        <p>- &quot;primary_location&quot; denotes the general location of the scene.</p>
+                        <p>- &quot;secondary_location&quot; provides more specific location details, such as a particular
+                            room.
+                        </p>
+                        <p>- &quot;time&quot; conveys information about the temporal setting of the scene.</p>
+                        <p> </p>
+                        <p>Additional stage directions are also included using the <stage> tag but with distinct attributes:
+                        </p>
+                        <p>- &quot;setting&quot; offers further details about the scene&#39;s setting.</p>
+                        <p>- &quot;delivery&quot; is employed when the director provides directions on how the scene should
+                            be
+                            performed by the actor.</p>
+                        <p>Each line of dialogue is tagged as follows:</p>
+                        <p>- The line is enclosed within a <a
+                                href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-sp.html'></a>
+                            tag, which specifies
+                            the speaker and listener using the same attributes as those employed in the book.</p>
+                        <p>- In the transcription, the<a
+                                href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-timeline.html'> </a>
+                            tag specifies
+                            the start and end running times of the line.</p>
+                        <p>- The <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-speaker.html'></a> tag
+                            identifies
+                            the speaker.</p>
+                        <p>- The <a href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-p.html'></a> tag contains
+                            the
+                            actual dialogue line.</p>
+                        <h3>Macro-XML</h3>
+                        <p>We have chosen to create two additional XML files, namely &quot;characters.xml&quot; and
+                            &quot;alignment.xml,&quot; to facilitate the alignment of characters and narrative
+                            correspondences
+                            among the three texts.</p>
+                        <p>For character alignment, we have compiled lists of characters that were previously defined in the
+                            TEI
+                            headers of the texts. These character lists are combined in &quot;characters.xml.&quot; All
+                            correspondences between different characters are encapsulated within a <a
+                                href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-linkGrp.html'></a> element. The
+                            <a href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-link.html'></a> tag is employed to
+                            establish hypertextual associations, in this case, aligning the character IDs from the book with
+                            their counterparts in the draft screenplay and transcription.
+                        </p>
+                        <p>Regarding the alignment of narrative correspondences, we based it on the transcription as the
+                            primary
+                            text from which we derived the others and identified relative correspondences. We divided the
+                            book
+                            into sections using a
+                        <div> element, corresponding to scenes in the transcription. Each section was assigned a unique
+                            identifier (ID) that corresponds to a specific portion of text. The same process was applied to
+                            align the draft screenplay with the transcription.</p>
+                            <p>In the XML file, we used
+                                <link> tags, as mentioned previously, to align the IDs of corresponding scenes among the
+                                three
+                                texts. When it is possible to compare only two texts due to a lack of correspondence in the
+                                third, the text without the relevant correspondence is omitted.
+                            </p>
+        
+                            <hr>
+        
+                            <h2>ANALYSIS</h2>
+                            <p>The objective of the analyses conducted in this project is to facilitate the comprehension of
+                                dispersed information within a text, while also helping the comparison of the three core
+                                texts
+                                under analysis. This is crucial for gaining an immediate understanding of how the adaptation
+                                has
+                                evolved from the original, encompassing not only stylistic changes but also alterations in
+                                setting and character interactions. We have opted to perform these analyses because they
+                                enable
+                                a simultaneous reading and comparison that may not be readily apparent if only one of the
+                                texts
+                                is read.</p>
+                            <p>The analyses that we have chosen to conduct are the following:</p>
+                            <p>· Spatial analysis of the places mentioned in the book and in the transcription of the movie.
+                            </p>
+                            <p>· Network analysis, analyzing the network of characters’ interactions between the three
+                                texts.
+                            </p>
+                            <p>· Spatio-temporal analysis of the transcription, analyzing which combination of
+                                environment-time
+                                is more used in the text. </p>
+        
+                            <h3>Spatial Analysis</h3>
+                            <p>The main goal in doing a spatial analysis in this project was both to visualize and compare
+                                the
+                                places in which the book and the screenplay take place. In our case “Traumnovelle” and “Eyes
+                                Wide Shut” are set in two different cities, and in the movie, the places in which scenes
+                                take
+                                place are not specified. This tool can be more useful if in both texts there are
+                                specifications
+                                about the settings, and in this way the differences are more relevant and useful for a
+                                comparison. The goal of this script is to automate as much as possible the creation of the
+                                map,
+                                automatically adding circles corresponding to city areas and points to other types of
+                                geographical elements. Unfortunately, there&#39;s the need to manually insert GeoJSON files
+                                corresponding to regions, states, or country areas that we want to display on screen.</p>
+                            <p>The python libraries needed to extract information from the TEI document and visualize them
+                                inside a map are respectively xml.etree and folium.</p>
+                            <p><strong>xml.etree</strong> is used to progressively search into the hierarchical structure of
+                                the
+                                XML-TEI document. In this case we need to search inside the TEI header the content inside
+                                the
+                                tag <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-place.html'></a>. Then we
+                                create a dictionary in which the content of <a
+                                    href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-placeName.html'></a> and of
+                                the
+                                attribute &quot;type&quot; constitute a tuple that represents the key of the dictionary,
+                                while
+                                the coordinates are the value of the dictionary.</p>
+                            <p><strong>Folium</strong> leverages the Leaflet.js JavaScript library to generate maps directly
+                                in
+                                a Python environment. It is used here to create the map, manually specifying the focus on a
+                                specific area from which we want to start our visualization. Through an iteration inside the
+                                dictionary, if the &#39;type&#39; attribute corresponds to &#39;city&#39;, a circle is drawn
+                                around the coordinates defined in the XML-TEI document, if it is not the case, then only a
+                                point
+                                is added in correspondence of the value of the dictionary.</p>
+                            <p>Considering that we want to visualize the areas corresponding to regions/countries/states, we
+                                need to find the corresponding GeoJSON files and manually load them one by one into the map.
+                            </p>
+                            <p>Then, we save the map as an html file that can be embedded inside the main website for
+                                visualization.</p>
+                            <p>From the analysis we can conclude that Schnitzler set the book mainly in Vienna and was
+                                extremely
+                                precise from a spatial point of view, mentioning specific cafes, hotels and relevant
+                                locations
+                                within the city. On the other hand, in the adaptation, Kubrick sets the scene in New York
+                                and
+                                doesn’t delve into much details about the actual locations, he generally mentions a general
+                                setting (i.e. a costume shop), without specifying its exact location. Consequently, in this
+                                example, we can readily discern the contrasting city settings, but we are unable to make
+                                similarly detailed comparisons for specific locations within the story.</p>
 
 
+                            <h3>Network Analysis</h3>
+                            <p>The goal in doing a characters network analysis is to analyze the number of interactions that
+                                the
+                                characters have inside the story, and simultaneously do a comparison between interactions in
+                                the
+                                story, draft screenplay and the transcription of the screenplay (1999).</p>
+                            <p>For each of the XML documents analyzed we have created the following: a CSV file containing
+                                the
+                                interactions; a static graph; an interactive graph. </p>
+                            <p>The libraries needed to extract information from the TEI document, visualize it in a static
+                                graph
+                                and then in a dynamic one are: xml.etree, NetworkX, Bokeh.</p>
+                            <p><strong>xml.etree</strong> is used to search inside the TEI header the content inside the tag
+                                <said> or <sp> and get all the information contained in the tags “who” and “toWhom”. This
+                                        process is done for each <said> or <sp> tag and then the information is added in a
+                                                list.
+                                                The script finds if speakers or listeners are more than one (so separated by
+                                                a
+                                                comma), splits them, adds them into a list. A dictionary is used to store
+                                                the
+                                                number of times the characters interact with each other, counting the number
+                                                of
+                                                times the tuple is inside the list.
+                            </p>
+                            <p>Then, we store the data into an external CSV file.</p>
+                            <p><strong>NetworkX</strong> is used to visualize the data extracted from the XML-TEI in a
+                                static
+                                network graph. The data previously created is stored in CSV files and is now used to create
+                                a
+                                data frame using pandas. Then data inside the columns &quot;Character&quot; and
+                                &quot;Listener&quot; are transformed into nodes and their relationship through edges by the
+                                library. Labels are added to clearly visualize the relationships between speaker and
+                                listener.
+                            </p>
+                            <p>Values are then sorted in a descending order, highlighting the characters that have more
+                                interactions inside the text, then a bar graph has been created to visualize the 10
+                                characters
+                                that have interacted the most throughout the narration.</p>
+                            <p><strong>Bokeh</strong></p>
+                            <p>In the pursuit of crafting interactive visualizations for the network analysis graphs of the
+                                three distinct texts, we adopted the Python library Bokeh. Bokeh stands out for its
+                                extensive
+                                customization capabilities, offering an array of plots tailored to specific needs. Using as
+                                inspiration the procedural steps outlined in <em>Introduction to Cultural Analytics and
+                                    Python</em>, we undertook our project with Bokeh, exploiting the data sourced from CSV
+                                files
+                                containing character relationships in the texts. Bokeh&#39;s remarkable versatility enabled
+                                us
+                                to thoroughly tailor the graphical representations to our precise requirements.
+                                Subsequently, we
+                                saved the resulting visualizations as HTML files, making them readily deployable for online
+                                uploading. Furthermore, Bokeh&#39;s inherent functionality empowers external users to
+                                dynamically manipulate the visualizations and export them in PNG format to their local
+                                devices.
+                            </p>
+                            <p>Our analysis yielded insights into the evolution of character nomenclature and interaction
+                                networks across various adaptations of the original literary work. Notably, we observed that
+                                character names underwent significant modifications, &#39;americanizing&#39; several
+                                character
+                                names to align with a global audience, particularly in the case of key protagonists. To
+                                illustrate, an examination of Arthur Schnitzler&#39;s &quot;Dream Story&quot; revealed a
+                                narrative characterized by a relatively modest cast of characters, with the majority of
+                                relationships converging upon the central figure, Fridolin. In contrast, an analysis of the
+                                1996
+                                screenplay draft demonstrated a deliberate expansion of character relationships and
+                                dialogues,
+                                accompanied by the introduction of numerous secondary characters. Furthermore, this
+                                adaptation
+                                witnessed a noteworthy process of name adaptation, &#39;americanizing&#39; several character
+                                names to attract an international audience. The final 1999 script transcript marked the
+                                climax
+                                of narrative expansion, as a plethora of secondary characters orbited around the principal
+                                character, Bill, who emerged as the central storytelling focal point. Only a select trio of
+                                characters (Alice, Milich, and Nick) established secondary relationships that did not
+                                intersect
+                                with our central protagonist. This exploration not only underscores the malleability of
+                                character names in adaptation but also elucidates the dynamic transformations and
+                                amplifications
+                                of interpersonal networks within the context of literary adaptations.</p>
+        
+                            <h3>Spatio-Temporal Analysis</h3>
+                            <p>This analysis gives an idea of the prevalent time and space setting, extracting the stage
+                                directions that the director had written on the screenplay. The libraries needed to extract
+                                information from the TEI document and visualize graphically the data are: xml.etree and
+                                Plotly.
+                            </p>
+                            <p><strong>xml.etree</strong> is used to search inside the TEI header the content inside the tag
+                                <stage> two specific attributes which content is stored in lists. A list of tuples is
+                                    created,
+                                    where each tuple contains the information of time setting and related environment. We
+                                    iterate over the list, and use a dictionary to count the occurrences.
+                            </p>
+                            <p><strong>Plotly</strong> is a library used to create interactive graphs based on the data that
+                                we
+                                have extracted before. In this case we wanted to represent our data with a pie chart that
+                                represents the percentage of space/time settings. The values of the dictionary, so the
+                                occurrences, are stored into a list, and then automatically transformed into percentage
+                                values.
+                            </p>
+                            <p>This analysis concludes that the prevalent setting of the movie is in an internal space at
+                                night.
+                            </p>
+       
+                            <hr>
+        
+                            <h2>WEB APPLICATION DEVELOPMENT</h2>
+                            <p>The web application built to showcase the project has been developed with HTML, CSS and
+                                Javascript and has been hosted, alongside all the material which has been used and crafted
+                                for
+                                the project, and deployed on Github thanks to Github Pages.</p>
+                            <p>The website serves as a display of the project&#39;s capabilities, demonstrating many
+                                different
+                                kinds of applications that the encoding methodology previously presented can accommodate.
+                                Other
+                                than hosting the present documentation and the page in which the different analyses are
+                                displayed, the webpage also offers a parallel visualization of the three texts, which can be
+                                explored scene by scene and compared simultaneously. This was achieved thanks to XML&#39;s
+                                querying capabilities through the use of XPath selectors, which fetch the portion of the
+                                texts
+                                corresponding to the scene selected by the user other than also fetching and displaying the
+                                corresponding screencaps from the movie, which are also uploaded and aligned in the
+                                resource.
+                            </p>
+                            <p>We&#39;ve also developed a script using the moviepy and imageio libraries to facilitate the
+                                extraction of frames from the movie scenes. The script is structured into several sequential
+                                steps for efficient processing. In the initial step, utilizing regex, we focus on creating
+                                and
+                                saving a CSV file. This CSV file contains all the subtitles sourced from the XML screenplay
+                                document, along with their respective dialog start and end timestamps.</p>
+                            <p>Moving to the second step, we employ the ffmpeg_extract_subclip method from moviepy for
+                                processing the full-length MP4 video file and extract a clip of our choice. Users have the
+                                flexibility to extract a specific clip of interest by inputting the desired subtitle ID.
+                                After
+                                saving this chosen clip as a new MP4 file, we can apply the final step to that one only,
+                                significantly shortening the analysis time.The last step entails using imageio to capture
+                                and
+                                save frames from the selected clip in image format. Users also have the option to customize
+                                the
+                                number of frames to be extracted from the clip, as well as the temporal intervals between
+                                each
+                                frame.</p>
+        
+        
+                            <hr>
+        
+                            <h2>CONCLUSIONS AND FUTURE DEVELOPMENTS</h2>
+        
         </section>
     </main>
-
+    
     <footer>
         
         <div class="container-fluid">
@@ -110,16 +878,16 @@
     <style>
         .grid-container {
             display: grid !important;
-            grid-template-columns: 0.5fr 3.5fr;
+            grid-template-columns: 20vw 80vw;
             grid-template-rows: 1fr auto;
             gap: 0px 0px;
             grid-template-areas: "sidebar content"
         }
     
         .content.grid-item {
-            padding: 40px !important;
+            padding: 5vh 7vw !important;
         }
-
+    
     
         .sidebar {
             background-color: var(--giallino);
@@ -134,14 +902,14 @@
         .sidebar ul li {
             margin: 10px;
         }
-        
-        #sidebar-list > li > a {
+    
+        #sidebar-list>li>a {
             color: black !important;
             text-decoration: none !important;
             font-family: 'Playfair Display', serif
         }
-
-        #sidebar-list > li > a:hover {
+    
+        #sidebar-list>li>a:hover {
             font-weight: bold;
         }
     
@@ -149,23 +917,67 @@
             background-color: var(--verdino);
             color: black;
         }
-
+    
         hr {
-            margin: 4rem 0 ;
+            margin: 4rem 0;
         }
 
+        [id^=heading]:first-child {
+            margin: 0rem 0px  2rem 0px !important;
+
+        }
+
+        [id^=heading]:not(:first-child) {
+            margin: 4rem 0px  2rem 0px !important;
+
+        }
+
+        p {
+            letter-spacing: 0px !important;
+        }
+
+        .H2-header {
+        }
+    
         .H3-header {
             margin-left: 1rem;
         }
-
+    
         .H4-header {
             margin-left: 2rem;
         }
-
+    
         .H5-header {
             margin-left: 3rem;
         }
 
+        p > img, table {
+            max-width: 100% !important;
+        }
+
+        .img-container {
+            text-align: center;
+        }
+
+        section li {
+            font-family: 'Playfair Display', serif;
+            font-size: 1em;
+        }
+
+        thead, tbody, tfoot, tr, td, th {
+            border: 1px solid black !important;
+            font-size: 13px;
+            white-space: wrap;
+        }
+
+        th {
+            text-align: center !important;
+        }
+
+        td {
+            padding: 1rem !important;
+        }
+    
         @media screen and (max-width: 768px) {
             .grid-container {
                 grid-template-columns: 1fr;
@@ -194,7 +1006,6 @@
             });
         }
 
-        // Call the function to populate the sidebar when the page loads
         window.addEventListener('load', populateSidebar);
     </script>
     </body>
