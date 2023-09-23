@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>MetaScript</title>
+    <title>METASCRIPT</title>
     <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <link href="css/styles.css" rel="stylesheet" />
@@ -15,7 +15,6 @@
     <link rel="icon" type="image/x-icon" href="./img/mask.ico">
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
 </head>
 
 <body class="sb-nav-fixed">
@@ -77,21 +76,29 @@
                 adaptation process. It also helps identify any alterations made to character names.</p>
 
             <div class="t">
-                <div class="container">
-                    <iframe src="https://giorgiacrosilla.altervista.org/Dream_Story_Network.html"
-                        title="Iframe Example"scrolling="no"></iframe>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, qui magni officiis enim impedit cum ex numquam minus necessitatibus possimus iusto, illum asperiores! Modi sequi cupiditate nesciunt ipsa alias. Odio?</p>
+                <div class="containe">
+                    <iframe src="https://giorgiacrosilla.altervista.org/Dream_Story_Network.html" title="Iframe Example"
+                        scrolling="no"></iframe>
+                    <div class="text">
+                        <p>In this first character's interaction network, we can see a small web of connections between
+                            the main characters.</p>
+                    </div>
                 </div>
-
-
-                <div class="container">
-                    <iframe src="https://giorgiacrosilla.altervista.org/Screenplay_1996_Network.html"
+                <div class="containe">
+                    <iframe src="https://giorgiacrosilla.altervista.org/Screenplay_196_Network.html"
                         title="Iframe Example" scrolling="no"></iframe>
+                    <div class="text">
+                        <p>In this first adaptation, Kubrick enlarged the network, adding lots of secondary characters
+                            and changing the names of almost all of them.</p>
+                    </div>
                 </div>
-
-                <div class="container">
-                    <iframe src='https://giorgiacrosilla.altervista.org/Screenplay_199_Network.html'
+                <div class="containe">
+                    <iframe src='https://giorgiacrosilla.altervista.org/Screenplay_1999_Network.html'
                         title="Iframe Example" scrolling="no"></iframe>
+                    <div class="text">
+                        <p>In the final version, the network is furtherly expanded, there are still some name changes
+                            and we can still see how the main character Bill is the center of the narrative.</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -116,11 +123,52 @@
         </section>
     </main>
     <footer>
-        <div>
-            <h5>©UNIBO 2023</h5>
+       
+        <div class="container-fluid">
+            <div class="grid-container">
+              <div class="grid-item-1">
+                <br>
+                <p class="text1">Metascript is an open source tool that provides a basic textual analysis framework for the comparison of an original text (novels, short stories, etc.) and its film transposition (screenplays). The goal of Metascript is to provide a set of guidelines for the markup and the metadata enrichment among multimodal texts, such as a book with its screenplay adaptation for audiovisual transposition. </p>
+                <p class="text1">This work is distributed with the license <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">Creative Commons Attribuzione - Non commerciale - Non opere derivate 3.0 Unported</a>.</p>
+                <a class="text1" rel="license" class="icon-link" href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+              </div>
+              <div class="grid-item-2">
+                <br>
+                <h6 >Contact</h6>
+                <p class="text1"><a href="https://www.unibo.it/it" target="_blank" class="icon-link">Alma Mater Studiorum Università di Bologna</a></p>
+                <p class="text1"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank" class="icon-link">Digital Humanities and Digital Knowledge</a></p>
+                <p class="text1"><a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467035" target="_blank" class="icon-link">Digital Text in The Humanities</a></p>
+                <a href="#su"><button type="button" class="btn btn-outline-light">Back to the top</button></a>
+              </div>
+              <div class="grid-item-3">
+                <br>
+                <h6>Team</h6>
+                <br>
+                <button class="btn btn-outline-light" id="contact-button">
+                    <span class="person-name">Erica Andreose</span>
+                    <a href="https://github.com/EricaAndreose" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/erica-andreose-1535a7201/" target="_blank" class="icon-link"><i class="fab fa-linkedin"></i></a>
+                </button>
+                <br>
+                <button class="btn btn-outline-light" id="contact-button">
+                    <span class="person-name">Giorgia Crosilla</span>
+                    <a href="https://github.com/giorgiacrosilla" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/giorgia-crosilla-9b563a215/" target="_blank" class="icon-link"><i class="fab fa-linkedin"></i></a>
+                </button>
+                <br>
+                <button class="btn btn-outline-light" id="contact-button">
+                    <span class="person-name">Leonardo Zilli</span>
+                    <a href="https://github.com/leonardozilli" target="_blank" class="icon-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/leonardo-z-a3b7061a0/" target="_blank" class="icon-link"><i class="fab fa-linkedin"></i></a>
+                </button>
+              </div>
+            </div>
+            <br>
+            <p style="text-align: center; font-size: smaller;">&copy; Copyright 2023 Erica Andreose, Giorgia Crosilla, Leonardo Zilli - DTiTH project - DHDK - Alma Mater Studiorum Bologna</p>
         </div>
+        
     </footer>
-
+    
 </body>
 <script src="js/main.js"></script>
 <script>
