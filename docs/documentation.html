@@ -271,7 +271,7 @@
             <p>After having defined the workflow, we started modeling the data to understand how to formalize all the
                 relationships used inside the project.</p>
             <p>The structure of the data model was inspired by the one created for the “National Edition of Aldo Moro’s
-                Works”.
+                Works”<sup><a href="#footnote-1">[1]</a></sup>.
             </p>
             <p>We modeled the data starting from the basic element, the RDF statement, constituted by a triple that
                 represents
@@ -285,21 +285,19 @@
                 Bibliographic Ontology) was used to describe the elements of our project as codependent from one
                 another:
             </p>
-            <ul>
-            <li><a href='http://purl.org/spar/fabio/Work'>fabio:Work</a> refers to the general concept of the book
+            <p>- <a href='http://purl.org/spar/fabio/Work'>fabio:Work</a> refers to the general concept of the book
                 “Dream
                 Story”, the one that then is materialized in the actual book, but also inspired the movie transposition.
-            </li>
-            <li><a href='http://purl.org/spar/fabio/Expression'>fabio:expression</a>, the intellectual content, in our
+            </p>
+            <p>- <a href='http://purl.org/spar/fabio/Expression'>fabio:expression</a>, the intellectual content, in our
                 case
                 is
-                the translated version of the book, the draft screenplay and the transcription of the movie.</li>
-            <li><a href='http://purl.org/spar/fabio/Manifestation'>fabio:manifestation</a> is the materialization of
+                the translated version of the book, the draft screenplay and the transcription of the movie.</p>
+            <p>- <a href='http://purl.org/spar/fabio/Manifestation'>fabio:manifestation</a> is the materialization of
                 the
                 entity, in our case the book version that has been published by Green Integer, the XML-TEI encodings,
                 the
-                transcription of the movie published in 1999 and the draft screenplay. </li>
-            </ul>
+                transcription of the movie published in 1999 and the draft screenplay. </p>
             <p class="img-container"><img src="./img/1st graph.png" referrerpolicy="no-referrer" alt="img"></p>
             <p>We chose to use FABiO as the core ontology for this project because it describes “entities that are
                 published
@@ -307,7 +305,7 @@
                 potentially publishable, and that contain or are referred to by bibliographic references, or entities
                 used
                 to
-                define such bibliographic references”.</p>
+                define such bibliographic references”<sup><a href="#footnote-2">[2]</a></sup>.</p>
             <p>We used other ontologies to formalize the relationships between the entity and its metadata or between
                 entities
                 as shown in the table below.</p>
@@ -518,7 +516,7 @@
                         longer exist. In such cases, coordinates are added based on the
                         annotated
                         edition of
-                        Traumnovelle.
+                        Traumnovelle<sup><a href="#footnote-3">[3]</a></sup>.
                     </li>
                     <li><a
                             href='https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-particDesc.html'>&lt;particDesc&gt;</a>:
@@ -574,7 +572,7 @@
                         and
                         closing
                         line
-                        of RDF triples. In the opening tag, all ontologies and metadatadata standards used in the
+                        of RDF triples. In the opening tag, all ontologies and metadata standards used in the
                         triples
                         are
                         included as attributes.</li>
@@ -648,7 +646,7 @@
                 aligned
                 in
                 a
-                macro-XML file known as alignment.xml.</p>
+                macro-XML file known as "alignment.xml".</p>
             <p>To mark citations in the text, we manually inserted the <a
                     href='https://www.tei-c.org/release/doc/tei-p5-doc/es/html/ref-quote.html'>&lt;quote&gt;</a> tag
                 where
@@ -706,11 +704,12 @@
                     elements
                     of
                     the
-                    marked-up file using the TheFuzz library for fuzzy string matching.</p>
+                    marked-up file using the <a href="https://github.com/seatgeek/thefuzz">TheFuzz library</a> for fuzzy
+                    string matching.</p>
             <p>The final screenplay encoding adheres to the guidelines provided by the TEI consortium for
                 correctly
                 tagging
-                performance texts. </p>
+                performance texts<sup><a href="#footnote-4">[4]</a></sup>. </p>
             <p>In the header, the <front> tag is employed to store information about the cast members within the
                     <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-castList.html'>&lt;castlist&gt;</a>,
                     with each
@@ -719,32 +718,33 @@
                         href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-castItem.html'>&lt;castItem&gt;</a>
                     tag. For
                     each
-                    <castItem>, the character&#39;s name is defined using the <a
-                            href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-role.html'>&lt;role&gt;</a> tag,
-                        and
-                        a
-                        concise
-                        description is included using <a
-                            href='https://www.tei-c.org/release/doc/tei-p5-doc/it/html/ref-roleDesc.html'>&lt;roleDesc&gt;</a>.
-                        To
-                        specify
-                        the actor portraying the character in the film, the <a
-                            href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-actor.html'>&lt;actor&gt;</a> tag
-                        is
-                        used,
-                        and
-                        each tag contains a reference to the unique identifier provided by IMDB. The information
-                        contained
-                        within the <actor> tag was automatically extracted using a script, significantly
-                            reducing
-                            the
-                            time
-                            required for this task. This Python script leveraged the IMDb library to retrieve
-                            the
-                            names
-                            of
-                            all cast members involved in the film adaptation, along with their respective roles.
-                            Subsequently, this data was saved in both CSV and JSON formats for further use.</p>
+                    &lt;castItem&gt;, the character&#39;s name is defined using the <a
+                        href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-role.html'>&lt;role&gt;</a> tag,
+                    and
+                    a
+                    concise
+                    description is included using <a
+                        href='https://www.tei-c.org/release/doc/tei-p5-doc/it/html/ref-roleDesc.html'>&lt;roleDesc&gt;</a>.
+                    To
+                    specify
+                    the actor portraying the character in the film, the <a
+                        href='https://tei-c.org/release/doc/tei-p5-doc/it/html/ref-actor.html'>&lt;actor&gt;</a> tag
+                    is
+                    used,
+                    and
+                    each tag contains a reference to the unique identifier provided by IMDB. The information
+                    contained
+                    within the <actor> tag was automatically extracted using a script, significantly
+                        reducing
+                        the
+                        time
+                        required for this task. This Python script leveraged the <a
+                            href="https://pypi.org/project/imdby/">IMDb library</a> to retrieve
+                        the
+                        names
+                        of
+                        all cast members involved in the film adaptation, along with their respective roles.
+                        Subsequently, this data was saved in both CSV and JSON formats for further use.</p>
             <p>Every scene is tagged with a
                 &lt;div&gt;, indicating its type and scene number, along with a unique identifier. If a scene
                 corresponds to one
@@ -938,7 +938,8 @@
                 static
                 network graph. The data previously created is stored in CSV files and is now used to create
                 a
-                data frame using pandas. Then data inside the columns &quot;Character&quot; and
+                data frame using <a href="https://pandas.pydata.org/">pandas</a> library. Then data inside the columns
+                &quot;Character&quot; and
                 &quot;Listener&quot; are transformed into nodes and their relationship through edges by the
                 library. Labels are added to clearly visualize the relationships between speaker and
                 listener.
@@ -953,7 +954,8 @@
                 extensive
                 customization capabilities, offering an array of plots tailored to specific needs. Using as
                 inspiration the procedural steps outlined in <em>Introduction to Cultural Analytics and
-                    Python</em>, we undertook our project with Bokeh, exploiting the data sourced from CSV
+                    Python</em><sup><a href="#footnote-5">[5]</a></sup>, we undertook our project with Bokeh, exploiting
+                the data sourced from CSV
                 files
                 containing character relationships in the texts. Bokeh&#39;s remarkable versatility enabled
                 us
@@ -1033,12 +1035,14 @@
                 corresponding screencaps from the movie, which are also uploaded and aligned in the
                 resource.
             </p>
-            <p>We&#39;ve also developed a script using the moviepy and imageio libraries to facilitate the
+            <p>We&#39;ve also developed a script using the <a href="https://pypi.org/project/moviepy/">moviepy</a> and
+                <a href="https://pypi.org/project/imageio/ ">imageio</a> libraries to facilitate the
                 extraction of frames from the movie scenes. The script is structured into several sequential
                 steps for efficient processing. In the initial step, utilizing regex, we focus on creating
                 and
                 saving a CSV file. This CSV file contains all the subtitles sourced from the XML screenplay
-                document, along with their respective dialog start and end timestamps.</p>
+                document, along with their respective dialog start and end timestamps.
+            </p>
             <p>Moving to the second step, we employ the ffmpeg_extract_subclip method from moviepy for
                 processing the full-length MP4 video file and extract a clip of our choice. Users have the
                 flexibility to extract a specific clip of interest by inputting the desired subtitle ID.
@@ -1056,6 +1060,41 @@
             <hr>
 
             <h2>CONCLUSIONS AND FUTURE DEVELOPMENTS</h2>
+            <p>Throughout the project, we have had the opportunity to assess the challenges associated with XML markup,
+                particularly in the context of film scripts. Additionally, during the data analysis phase, we have
+                observed how changes in spatial settings, temporal elements, and character relationships have influenced
+                the adaptation of the audiovisual content.
+
+                The Metascript markup model is designed to serve as a versatile and open-source prototype. It can be
+                easily adapted for use with other source materials, including screenplays and original novels, in future
+                projects.
+
+                Furthermore, the potential for textual comparison can be expanded by delving into the development of
+                sentiment analysis and color analysis for film frames<sup><a href="#footnote-6">[6]</a></sup>. We aspire to incorporate these enhancements into
+                the future evolution of Metascript.</p>
+
+            <hr>
+
+            <h2>NOTES</h2>
+            <p id="footnote-1">[1]<a href="https://aldomorodigitale.unibo.it/about/docs/models#rdf-section">
+                    https://aldomorodigitale.unibo.it/about/docs/models#rdf-section</a> </p>
+            <p id="footnote-2">[2] <a
+                    href="https://sparontologies.github.io/fabio/current/fabio.html">https://sparontologies.github.io/fabio/current/fabio.html</a>
+            </p>
+            <p id="footnote-3">[3] Schnitzler Arthur and Michael Scheffel. 2012. Traumnovelle : Reclams
+                Universal-Bibliothek. Ditzingen: Reclam Verlag. <a
+                    href="https://public.ebookcentral.proquest.com/choice/publicfullrecord.aspx?p=5800094">https://public.ebookcentral.proquest.com/choice/publicfullrecord.aspx?p=5800094</a>.
+            <p id="footnote-4">[4] <a
+                    href="https://tei-c.org/release/doc/tei-p5-doc/es/html/DR.html">https://tei-c.org/release/doc/tei-p5-doc/es/html/DR.html
+                </a></p>
+            </p>
+            <p id="footnote-5">[5] <a href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html">https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html</a>
+            </p>
+            <p id="footnote-6">[6] <a href="https://towardsdatascience.com/image-color-extraction-with-python-in-4-steps-8d9370d9216e">https://towardsdatascience.com/image-color-extraction-with-python-in-4-steps-8d9370d9216e</a></p>
+            <hr>
+
+            <h2>BIBLIOGRAPHY</h2>
+            <p>Barzaghi, Sebastian. (2021). Data modelling in the National Edition of Aldo Moro's works (2.0.1). Zenodo. <a href="https://doi.org/10.5281/zenodo.5524746">https://doi.org/10.5281/zenodo.5524746</a> .</p>
 
         </section>
     </main>
@@ -1128,7 +1167,6 @@
 
     </footer>
     <style>
-
         .footer {
             position: relative;
             left: 20vw !important;
