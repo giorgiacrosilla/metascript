@@ -365,8 +365,9 @@
                         rdf:resource="https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut-1999-transcription.xml"></rdau:P60833>
                 </rdf:Description>
 
-                <dc:Agent rdf:nodeID="creator"> <dc:name>Arthur Schnitzler</dc:name><rdfs:seeAlso
-                        rdf:resource="https://viaf.org/viaf/82526567/"/>
+                <dc:Agent rdf:nodeID="creator"> 
+                    <dc:name>Arthur Schnitzler</dc:name>
+                    <rdfs:seeAlso rdf:resource="https://viaf.org/viaf/82526567/"/>
                 </dc:Agent>
             </rdf:RDF>
         </xenoData>

@@ -94,5 +94,3 @@ for sp in sps:
 with open('timestamp_xml.xml', 'w') as xml_file:
     xml_content = soup.encode(formatter=UnsortedAttributes()).decode('utf-8').replace('&', '&amp;')
     xml_file.write(xml_content)
-    print(process.extractOne("So, when you are feeling tits it's nothing more than your professionalism, is that what you're saying?", merged_subs))
-    print(merged_subs[250:270])
