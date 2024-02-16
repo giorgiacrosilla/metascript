@@ -395,7 +395,8 @@
                 </table>
             </figure>
             <p> </p>
-            <p>Then, we have used the tool <a href="https://essepuntato.it/graffoo/">Graffoo</a> to render graphically our model.</p>
+            <p>Then, we have used the tool <a href="https://essepuntato.it/graffoo/">Graffoo</a> to render graphically
+                our model.</p>
             <div class="gallery-slider swiper">
                 <div class="swiper-wrapper align-items-center">
                     <a href="./img/2nd graph.png" class="gallery-lightbox">
@@ -487,7 +488,8 @@
                         text to refer
                         to that
                         location,
-                        and in some cases, the corresponding <a href="https://www.geonames.org/">GeoNames</a> URI is added as an attribute to this
+                        and in some cases, the corresponding <a href="https://www.geonames.org/">GeoNames</a> URI is
+                        added as an attribute to this
                         tag. The
                         <a
                             href="https://tei-c.org/release/doc/tei-p5-doc/de/html/ref-location.html">&lt;location&gt;</a>
@@ -536,23 +538,24 @@
                             :
                             This tag specifies the name of the character. Additionally, gender information is
                             provided when
-                            available, using the &quot;sex&quot; attribute within the <person> tag. If applicable, the
-                                <age>
-                                    tag is
-                                    used
-                                    to
-                                    include further details about the character&#39;s age. Physical descriptions of the
-                                    character or
-                                    notes
-                                    regarding parental or social relationships between characters are also included. The
-                                    same
-                                    structural
-                                    organization is employed in a macro-XML file called &quot;characters.xml,&quot;
-                                    which is
-                                    essential
-                                    for
-                                    aligning character names between the original text, draft screenplay, and
-                                    transcription.
+                            available, using the &quot;sex&quot; attribute within the &lt;person&gt; tag. If applicable,
+                            the
+                            &lt;age&gt;
+                            tag is
+                            used
+                            to
+                            include further details about the character&#39;s age. Physical descriptions of the
+                            character or
+                            notes
+                            regarding parental or social relationships between characters are also included. The
+                            same
+                            structural
+                            organization is employed in a macro-XML file called &quot;characters.xml,&quot;
+                            which is
+                            essential
+                            for
+                            aligning character names between the original text, draft screenplay, and
+                            transcription.
                         </li>
                     </ul>
                 </ul>
@@ -564,7 +567,9 @@
                     inside the
                     XML
                     in
-                    RDF format. </li>
+                    RDF format. The goal here is to combine the document-centric point of view, typical of XML-TEI and
+                    traditional digital scholarly editions, with the data-centric point of view, that characterizes the
+                    semantic Web<sup><a href="#footnote-4">[4]</a></sup>. </li>
                 <ul>
 
                     <li><a href='http://www.w3.org/1999/02/22-rdf-syntax-ns#.'>&lt;rdf:RDF&gt;</a>, the tag specifies
@@ -671,7 +676,8 @@
             <h3> Screenplay Encoding</h3>
             <p>Being screenplays already loosely schematised texts, we were able to develop a set of scripts to
                 help
-                automate the process of mark-up. This was achieved with the use of the <a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup library</a> to
+                automate the process of mark-up. This was achieved with the use of the <a
+                    href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">BeautifulSoup library</a> to
                 deal
                 with
                 the original files (an html file for the 1996 screenplay and a txt file in the case of the
@@ -709,7 +715,7 @@
             <p>The final screenplay encoding adheres to the guidelines provided by the TEI consortium for
                 correctly
                 tagging
-                performance texts<sup><a href="#footnote-4">[4]</a></sup><sup><a href="#footnote-5">[5]</a></sup>. </p>
+                performance texts<sup><a href="#footnote-5">[5]</a></sup><sup><a href="#footnote-6">[6]</a></sup>. </p>
             <p>In the header, the <front> tag is employed to store information about the cast members within the
                     <a href='https://tei-c.org/release/doc/tei-p5-doc/en/html/ref-castList.html'>&lt;castlist&gt;</a>,
                     with each
@@ -841,7 +847,7 @@
                 a simultaneous reading and comparison that may not be readily apparent if only one of the
                 texts
                 is read.</p>
-            <p>The analyses that we have chosen to conduct are the following<sup><a href="#footnote-6">[6]</a></sup>:
+            <p>The analyses that we have chosen to conduct are the following<sup><a href="#footnote-7">[7]</a></sup>:
             </p>
             <ul>
                 <li>Spatial analysis of the places mentioned in the book and in the transcription of the movie.
@@ -865,7 +871,7 @@
                 comparison. The goal of this script is to automate as much as possible the creation of the
                 map,
                 automatically adding circles corresponding to city areas and points to other types of
-                geographical elements<sup><a href="#footnote-7">[7]</a></sup>. Unfortunately, there is still the need to
+                geographical elements<sup><a href="#footnote-8">[8]</a></sup>. Unfortunately, there is still the need to
                 manually insert GeoJSON files
                 corresponding to regions, states, or country areas that we want to display on screen.</p>
             <p>The python libraries needed to extract information from the TEI document and visualize them
@@ -956,7 +962,7 @@
                 extensive
                 customization capabilities, offering an array of plots tailored to specific needs. Using as
                 inspiration the procedural steps outlined in <em>Introduction to Cultural Analytics and
-                    Python</em><sup><a href="#footnote-8">[8]</a></sup>, we undertook our project with Bokeh, exploiting
+                    Python</em><sup><a href="#footnote-9">[9]</a></sup>, we undertook our project with Bokeh, exploiting
                 the data sourced from CSV
                 files
                 containing character relationships in the texts. Bokeh&#39;s remarkable versatility enabled
@@ -1072,7 +1078,8 @@
                 projects.
 
                 Furthermore, the potential for textual comparison can be expanded by delving into the development of
-                sentiment analysis and color analysis for film frames<sup><a href="#footnote-9">[9]</a></sup>. We aspire
+                sentiment analysis and color analysis for film frames<sup><a href="#footnote-10">[10]</a></sup>. We
+                aspire
                 to incorporate these enhancements into
                 the future evolution of Metascript.</p>
 
@@ -1088,24 +1095,33 @@
                 Universal-Bibliothek. Ditzingen: Reclam Verlag. <a
                     href="https://public.ebookcentral.proquest.com/choice/publicfullrecord.aspx?p=5800094">https://public.ebookcentral.proquest.com/choice/publicfullrecord.aspx?p=5800094</a>.
             </p>
-            <p id="footnote-4">[4] <a
-                    href="https://tei-c.org/release/doc/tei-p5-doc/es/html/DR.html">https://tei-c.org/release/doc/tei-p5-doc/es/html/DR.html</a>.
+            <p id="footnote-4">[4] Daquino, M., Giovannetti, F., & Tomasi, F. (2019). <i>Linked Data per le edizioni
+                    scientifiche digitali.
+                    Il
+                    workflow di pubblicazione dell’edizione semantica del quaderno di appunti di Paolo Bufalini.</i>
+                Umanistica
+                Digitale, 3(7), p.50-51. <a
+                    href="https://doi.org/10.6092/issn.2532-8816/9091">https://doi.org/10.6092/issn.2532-8816/9091</a>.
             </p>
             <p id="footnote-5">[5] <a
+                    href="https://tei-c.org/release/doc/tei-p5-doc/es/html/DR.html">https://tei-c.org/release/doc/tei-p5-doc/es/html/DR.html</a>.
+            </p>
+            <p id="footnote-6">[6] <a
                     href="https://quod.lib.umich.edu/cgi/t/tei/tei-idx?type=pointer&value=DROTH">https://quod.lib.umich.edu/cgi/t/tei/tei-idx?type=pointer&value=DROTH</a>.
             </p>
-            <p id="footnote-6">[6] The analyses conducted were inspired by a project focused on film scripts that can be
+            <p id="footnote-7">[7] The analyses conducted were inspired by a project focused on film scripts that can be
                 found here: <a
                     href="https://github.com/AdeboyeML/Film_Script_Analysis">https://github.com/AdeboyeML/Film_Script_Analysis</a>.
             </p>
-            <p id="footnote-7">[7] The process of analysis and tools used are taken from <i>Introduction to Cultural
+            <p id="footnote-8">[8] The process of analysis and tools used are taken from <i>Introduction to Cultural
                     Analytics</i> :<a
                     href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/07-Mapping/00-Mapping.html">https://melaniewalsh.github.io/Intro-Cultural-Analytics/07-Mapping/00-Mapping.html</a>.
             </p>
-            <p id="footnote-8">[8] <a
+            <p id="footnote-9">[9] <a
                     href="https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html">https://melaniewalsh.github.io/Intro-Cultural-Analytics/06-Network-Analysis/02-Making-Network-Viz-with-Bokeh.html</a>.
             </p>
-            <p id="footnote-9">[9] As for the color analysis, an interesting project has been developed in this website:
+            <p id="footnote-10">[10] As for the color analysis, an interesting project has been developed in this
+                website:
                 <a href="http://cinemetrics.fredericbrodbeck.de/old">http://cinemetrics.fredericbrodbeck.de/old</a>.
                 Guidelines for developing this additional analysis: <a
                     href="https://towardsdatascience.com/image-color-extraction-with-python-in-4-steps-8d9370d9216e">https://towardsdatascience.com/image-color-extraction-with-python-in-4-steps-8d9370d9216e</a>.
