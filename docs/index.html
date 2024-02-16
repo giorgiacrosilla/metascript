@@ -14,7 +14,7 @@
     <link href="css/style.css" rel="stylesheet" />
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
 
 <body class="sb-nav-fixed">
@@ -72,9 +72,9 @@
 
         </section>
         <section class="film-introduction-section">
-            <div class="w3-content w3-display-container">
-                <div class="carousel-track">
-                    <div class="mySlides" id="traumnovelle">
+            <div id="introductionCarousel" class="carousel slide" data-bs-interval="false" >
+                <div class="carousel-inner">
+                    <div class="mySlides carousel-item" id="traumnovelle">
                         <div class="sectitle">
                             <h3>Dream Story</h3>
                         </div>
@@ -103,7 +103,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="mySlides" id="ews">
+                    <div class="mySlides carousel-item active" id="ews">
                         <div class="sectitle">
                             <h3>Eyes Wide Shut</h3>
                         </div>
@@ -153,38 +153,15 @@
                                 1990s. </p>
                         </div>
                     </div>
-                    <div class="mySlides" id="traumnovelle">
-                        <div class="sectitle">
-                            <h3>Dream Story</h3>
-                        </div>
-                        <div class="film-introduction">
-                            <img src="./img/traumnovelle.jpg"
-                                alt="First edition of the book.">
-                            <p>"Traumnovelle," also known as "Dream Story," is a novella written by the Austrian author
-                                Arthur Schnitzler and ublished in 1926.
-                                <br>
-                                Set in early 20th-century Vienna, "Traumnovelle" tells the story of Dr. Fridolin and his
-                                wife, Albertine. The narrative unfolds when Fridolin stumbles upon his wife's hidden sexual
-                                fantasies, which shakes the foundation of their seemingly stable marriage. This discovery
-                                leads Fridolin on a surreal and introspective journey through the city's nightmarish
-                                underbelly, filled with a series of erotic and unsettling encounters.
-                                <br>
-                                Schnitzler's work is notable for its exploration of the human psyche and the blurring of the
-                                line between dreams and reality. The novella delves into the secret desires and hidden
-                                motives of its characters, revealing the complex and often contradictory nature of human
-                                sexuality.
-                                <br>
-                                "Traumnovelle" has had a significant influence on literature and cinema, most notably
-                                inspiring Stanley Kubrick's film "Eyes Wide Shut," starring Tom Cruise and Nicole Kidman.
-                                Schnitzler's exploration of sexual desire, jealousy, and the hidden aspects of the human
-                                psyche continues to captivate readers and remains a thought-provoking piece of literature in
-                                the realm of psychoanalytical fiction.
-                            </p>
-                        </div>
-                    </div>
                 </div>
-                <button class="w3-button w3-black w3-display-left" id="prev-button" >&#10094;</button>
-                <button class="w3-button w3-black w3-display-right" id="next-button" >&#10095;</button>
+                <button class="carousel-control-prev" type="button" data-bs-target="#introductionCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#introductionCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
         <section class="texts-introduction-section">
@@ -274,7 +251,6 @@
                 <p class="text1"><a href="https://www.unibo.it/it" target="_blank" class="icon-link">Alma Mater Studiorum Università di Bologna</a></p>
                 <p class="text1"><a href="https://corsi.unibo.it/2cycle/DigitalHumanitiesKnowledge" target="_blank" class="icon-link">Digital Humanities and Digital Knowledge</a></p>
                 <p class="text1"><a href="https://www.unibo.it/en/teaching/course-unit-catalogue/course-unit/2022/467035" target="_blank" class="icon-link">Digital Text in The Humanities</a></p>
-                <a href="#top"><button type="button" class="btn btn-outline-light">Back to the top</button></a>
               </div>
               <div class="grid-item-3">
                 <h6>Team</h6>
@@ -301,7 +277,7 @@
               </div>
             </div>
             <br>
-            <p style="text-align: center; font-size: smaller;">&copy; Copyright 2023 Erica Andreose, Giorgia Crosilla, Leonardo Zilli - DTiTH project - DHDK - Alma Mater Studiorum Bologna</p>
+            <p style="text-align: center; font-size: smaller; margin-bottom: 2rem;">&copy; Copyright 2023 Erica Andreose, Giorgia Crosilla, Leonardo Zilli - DTiTH project - DHDK - Alma Mater Studiorum Bologna</p>
         </div>
 
     </footer>
@@ -339,8 +315,5 @@
     }
 
 </script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    crossorigin="anonymous"></script>
 <script src="js/main.js"></script>
-
 </html>

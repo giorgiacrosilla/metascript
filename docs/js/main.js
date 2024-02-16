@@ -1,38 +1,3 @@
-function carousel() {
-  const carouselTrack = document.querySelector(".carousel-track");
-  let slides = document.querySelectorAll(".mySlides");
-  const prevButton = document.getElementById("prev-button");
-  const nextButton = document.getElementById("next-button");
-  nextButton.addEventListener("click", nextSlide);
-  prevButton.addEventListener("click", prevSlide);
-  let slideIndex = 1;
-  const slideWidth = slides[0].clientWidth;
-  carouselTrack.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
-
-  function updateCarousel() {
-    slides = document.querySelectorAll(".mySlides");
-    carouselTrack.style.transform = `translateX(-${slideIndex * slideWidth}px)`;
-  }
-
-  function nextSlide() {
-    if (slideIndex >= slides.length - 1) {
-      slideClone = slides[slideIndex - 1].cloneNode(true);
-      slides[slideIndex].insertAdjacentElement("afterend", slideClone);
-    }
-    slideIndex++;
-    updateCarousel();
-  }
-
-  function prevSlide() {
-    if (slideIndex <= 1) {
-      slideClone = slides[slideIndex].cloneNode(true);
-      slides[slideIndex - 1].insertAdjacentElement("beforebegin", slideClone);
-    }
-    slideIndex--;
-    updateCarousel();
-  }
-}
-
 function cardsBackground() {
   let bgContainer = $(".bg-image");
   $(".card-left").hover(function() {
@@ -246,7 +211,6 @@ function getImageForLabel(label, type) {
 
 $(document).ready(function () {
   parallax();
-  carousel();
   cardsBackground();
   fetchAlignment()
   .then(function (alignmentData) {
