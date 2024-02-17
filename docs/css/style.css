@@ -61,7 +61,9 @@ table {
 
 main {
     display: flex !important;
-    flex-direction: column;
+    
+  flex-direction: row;
+  height: 100vh;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
