@@ -49,6 +49,10 @@ table {
 	border-spacing: 0;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 :root {
     --verdino: #a6c9b5;
