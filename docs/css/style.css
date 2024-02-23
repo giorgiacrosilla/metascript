@@ -59,13 +59,6 @@ table {
     --violino: #aea7d0;
 }
 
-main {
-    display: flex !important;
-    
-  flex-direction: row;
-  height: 100vh;
-}
-
 /* Hide scrollbar for Chrome, Safari and Opera */
 body::-webkit-scrollbar {
     display: none;
@@ -341,6 +334,7 @@ p {
 .comparison-section {
     background-color: var(--viola);
     z-index: 2;
+    margin-top: 23vh;
 }
 
 .comparison-section>.sectitle>h3 {
