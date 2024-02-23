@@ -338,7 +338,7 @@ p {
 .comparison-section {
     background-color: var(--viola);
     z-index: 2;
-    margin-top: 23vh;
+    
 }
 
 .comparison-section>.sectitle>h3 {
