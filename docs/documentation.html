@@ -1163,13 +1163,8 @@
                         metadata enrichment among multimodal texts, such as a book with its screenplay adaptation for
                         audiovisual transposition. </p>
 
-                    <p class="text1">This work is distributed with the license <a rel="license"
-                            href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">Creative Commons
-                            Attribuzione - Non commerciale - Non opere derivate 3.0 Unported</a>.</p>
-                    <a class="text1" rel="license" class="icon-link"
-                        href="http://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank"><img
-                            alt="Licenza Creative Commons" style="border-width:0"
-                            src="https://i.creativecommons.org/l/by-nc-nd/3.0/88x31.png"></a>
+                        <p class="text1">This work is distributed with the license <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC-BY-4.0 Deed</a>.</p>
+                        <a class="text1" rel="license" class="icon-link" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Licenza Creative Commons" style="border-width:0; width:100px;" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"></a>
                 </div>
                 <div class="grid-item-2">
                     <h6>Contacts</h6>
@@ -1220,9 +1215,14 @@
 
     </footer>
     <style>
+        main {
+        display: flex !important;
+        flex-direction: row;
+        height: 100vh;
+        }
         .footer {
             position: relative;
-            left: 20vw !important;
+            margin:0 auto;
             top: 65px;
             width: 80vw;
         }
@@ -1230,9 +1230,9 @@
         .content {
             padding: 5vh 7vw !important;
             position: relative;
-            left: 20vw;
             top: 65px !important;
             width: 80vw;
+            overflow: auto;
         }
 
         .navbar {
@@ -1245,13 +1245,12 @@
 
         .sidebar {
             background-color: var(--giallino);
-            padding: 30px 10px 40px 10px !important;
-            position: fixed;
-            top: 65px;
+            padding: 100px 10px 40px 10px !important;
+            position: sticky;
             left: 0;
             height: 100%;
             width: 20vw;
-            overflow-x: scroll;
+            margin-top: 65px !important;
         }
 
         .sidebar ul {

@@ -49,6 +49,10 @@ table {
 	border-spacing: 0;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
 
 :root {
     --verdino: #a6c9b5;
@@ -57,11 +61,6 @@ table {
     --viola: #2a0636;
     --off-black: #060b0f;
     --violino: #aea7d0;
-}
-
-main {
-    display: flex !important;
-    flex-direction: column;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -339,6 +338,7 @@ p {
 .comparison-section {
     background-color: var(--viola);
     z-index: 2;
+    
 }
 
 .comparison-section>.sectitle>h3 {
