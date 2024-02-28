@@ -94,8 +94,13 @@ function fetchAndProcessXML(path, sceneNumbers, container) {
         sceneIds.forEach(sceneId => {
           const element = xmlDoc.querySelector(`div[type="scene"][*|id="${sceneId}"]`);
           if (element) {
-            const text = element.textContent;
-            $(container).append(text.replace(/\n *\n *\n/gm, "<br>"));
+            var text = element.textContent;
+            if (container[0].id ==="right-text") {
+              text = text.replace(/\n *\n *\n/gm, "<br>");
+            } else if (container[0].id ==="left-text") {
+              text = text.replace(/\n/gm, "");
+            }
+            $(container).append(text.trim().replace());
           }
         });
       } else {

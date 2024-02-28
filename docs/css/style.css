@@ -348,8 +348,8 @@ p {
 
 
 .comparison-container {
-    margin: 4rem 3rem;
-    gap: 9vw;
+    margin-top: 4rem;
+    gap: 2vw;
 }
 
 .comparison-item-title {
@@ -363,11 +363,11 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 9rem;
+    gap: 2rem;
 }
 
 .comparison-item {
-    border-top: 1.2rem solid transparent;
+    /* border-top: 1.2rem solid transparent;
     border-bottom: 6px solid transparent;
     border-left: 2vw solid transparent;
     border-right: 2vw solid transparent;
@@ -375,11 +375,10 @@ p {
     border-image-slice: 230 115 225 120 fill;
     border-image-width: 12vh 3vw;
     border-image-outset: 12vh 3vw;
-    border-image-repeat: stretch stretch;
+    border-image-repeat: stretch stretch; */
+    padding: 2rem;
     -ms-overflow-style: none;
-    /* Internet Explorer 10+ */
-    scrollbar-width: none;
-    /* Firefox */
+    /* scrollbar-width: none; */
     width: 23vw;
     height: 80vh;
     overflow: auto;
@@ -389,24 +388,29 @@ p {
 }
 
 .comparison-item::-webkit-scrollbar {
-    display: none;
-    /* Safari and Chrome */
+    /* display: none; */
 }
 
 .comparison-item-central {
-    border-bottom: 6px solid transparent;
+    /* border-bottom: 6px solid transparent;
     border-left: 2vw solid transparent;
     border-right: 2vw solid transparent;
     border-image-source: url('../img/ews-border.png');
     border-image-slice: 450 200 250 215 fill;
     border-image-width: 20vh 6vw 13vh 6vw;
     border-image-outset: 20vh 6vw 13vh 6vw;
-    border-image-repeat: stretch stretch;
+    border-image-repeat: stretch stretch; */
 }
 
-div pre {
+div pre, .scene-selector-container {
     font-family: Courier, 'Courier New', monospace;
     font-size: 0.8rem;
+}
+
+#left-text {
+    text-align: justify;
+    hyphens: auto;
+    text-indent: 2rem;
 }
 
 .image-container {
@@ -426,6 +430,35 @@ div pre {
 .image-container>img:hover {
     transform: scale(1.02);
     cursor: pointer;
+}
+
+.scene-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scene-selector-container label {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.scene-selector-container select,
+.scene-selector-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--giallino);
+    color: black;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.scene-selector-container select:hover,
+.scene-selector-container button:hover {
+    background-color: var(--verdino)
 }
 
 
@@ -690,6 +723,7 @@ p[class^="text"] a {
         border-image-width: 9vh 7vw;
         border-image-outset: 9vh 3vw;
     }
+    
 
 }
 

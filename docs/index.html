@@ -205,12 +205,6 @@
                 <h3>Book-Screenplay-Movie comparison</h3>
                 <br>
             </div>
-            <form class="select-scene" action="#">
-                <label style="color: white;">Select a scene from the movie: </label>
-                <select name="scene" id="scene-selector"></select>
-                <button id='before' type="button" onclick="selectBefore()">Before</button>
-                <button id='next' type="button" onclick="selectNext()">Next</button>
-            </form>
             <div class="comparison-container">
                 <div class="comparison-item-container">
                     <h5 class="comparison-item-title">Book</h5>
@@ -230,6 +224,12 @@
                         <pre id="right-text" lang="xml"></pre>
                     </div>
                 </div>
+                <form class="scene-selector-container" action="#">
+                    <label style="color: white;">Select a scene from the movie: </label>
+                    <button id='before' type="button" onclick="selectBefore()"><i class="fas fa-chevron-up"></i></button>
+                    <select name="scene" id="scene-selector"></select>
+                    <button id='next' type="button" onclick="selectNext()"><i class="fas fa-chevron-down"></i></button>
+                </form>
             </div>
             <div class="image-container" id="image-container">
 
