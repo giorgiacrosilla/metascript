@@ -1,12 +1,49 @@
-@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>
-@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-@prefix owl:<http://www.w3.org/2002/07/owl#>
-@prefix rico:<https://www.ica.org/standards/RiC/ontology#>
-@prefix frbr:<http://purl.org/vocab/frbr/core#>
-@prefix bibo:<http://purl.org/ontology/bibo/>
-@prefix dcterms:<http://purl.org/dc/terms/>
-@prefix dc:<http://purl.org/dc/elements/1.1/>
-@prefix fabio:<http://purl.org/spar/fabio/>
-@prefix rdau:<http://rdaregistry.info/Elements/u>
+@prefix rdfs:<http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl:<http://www.w3.org/2002/07/owl#>.
+@prefix rico:<https://www.ica.org/standards/RiC/ontology#>.
+@prefix frbr:<http://purl.org/vocab/frbr/core#>.
+@prefix bibo:<http://purl.org/ontology/bibo/>.
+@prefix dcterms:<http://purl.org/dc/terms/>.
+@prefix dc:<http://purl.org/dc/elements/1.1/>.
+@prefix fabio:<http://purl.org/spar/fabio/>.
+@prefix rdau:<http://rdaregistry.info/Elements/u>.
+@prefix viaf:<http://viaf.org/viaf/>.
 
 
+<https://purl.org/metascript/data/work/eyeswideshut> a fabio:Work;
+                                                    frbr:realization fabio:Expression;
+                                                    owl:sameAs viaf:316753477.
+<https://purl.org/metascript/data/expression/draft1996> a fabio:Expression;
+                                                        frbr:embodiment fabio:Manifestation.
+<https://purl.org/metascript/data/expression/screen1999> a fabio:Expression;
+                                                        frbr:embodiment fabio:Manifestation.
+<https://purl.org/metascript/data/manifestation/screen1999/txt> a fabio:Manifestation;
+                                                    frbr:exemplar fabio:Item;
+                                                    owl:sameAs <https://search.worldcat.org/it/title/797726240>.
+<https://purl.org/metascript/data/manifestation/screen1999/xmltei> a fabio:Manifestation;
+                                                        frbr:exemplar fabio:Item.
+<https://purl.org/metascript/data/manifestation/draft1996/txt> a fabio:Manifestation;
+                                                    frbr:exemplar fabio:Item.
+<https://purl.org/metascript/data/manifestation/draft1996/xmltei> a fabio:Manifestation;
+                                                        frbr:exemplar fabio:Item.
+<https://purl.org/metascript/data/item/draft1996/encodingpage> a fabio:Item;
+                                                owl:sameAs <https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut/eyes-wide-shut-1996-screenplay.xml>.
+<https://purl.org/metascript/data/item/screen1999/encodingpage> a fabio:Item;
+                                                owl:sameAs <https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut/eyes-wide-shut-1999-transcription.xml>.
+
+<https://purl.org/metascript/data/work/traumnovelle> a fabio:Work;
+                                                    frbr:realization fabio:Expression;
+                                                    owl:sameAs viaf:185456578.
+<https://purl.org/metascript/data/expression/translation> a fabio:Expression;
+                                                        frbr:embodiment fabio:Manifestation;
+                                                        owl:sameAs viaf:183449849.
+<https://purl.org/metascript/data/manifestation/translation/txt> a fabio:Manifestation;
+                                                    frbr:exemplar fabio:Item;
+                                                    owl:sameAs <https://search.worldcat.org/it/title/56449627>.
+<https://purl.org/metascript/data/manifestation/translation/xmltei> a fabio:Manifestation;
+                                                        frbr:exemplar fabio:Item.
+<https://purl.org/metascript/data/item/xmltei/encodingpage> a fabio:Item;
+                                                owl:sameAs <https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut/Arthur%20Schnitzler%20-%20Dream%20Story%20(2003%2C%20Green%20Integer).xml>.
+
+    
