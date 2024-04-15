@@ -289,9 +289,8 @@
                     <dc:creator rdf:nodeID="creator" />
                     <dc:creator rdf:nodeID="creator" />
                     <dcterms:date>1996-04-08</dcterms:date>
-                    <rico:isDraftOf rdf:resource="https://worldcat.org/title/797726240"></rico:isDraftOf>
                     <rico:isDraftOf
-                        rdf:resource="https://purl.org/metascript/data/manifestation/screen1999/txt"></rico:isDraftOf>
+                        rdf:resource="https://purl.org/metascript/data/expression/screen1999"></rico:isDraftOf>
                 </rdf:Description>
                 <dc:Agent rdf:nodeID="creator">
                     <dc:name>Stanley Kubrick </dc:name>

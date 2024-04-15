@@ -309,7 +309,7 @@
                     <dc:creator rdf:nodeID="creator" />
                     <dcterms:date>1999-10-01</dcterms:date>
                     <rico:hasDraft
-                        rdf:resource="https://purl.org/metascript/data/manifestation/draft1996/txt"></rico:hasDraft>
+                        rdf:resource="https://purl.org/metascript/data/expression/draft1996"></rico:hasDraft>
                     <dcterms:publisher rdf:resource="http://viaf.org/viaf/311379728"></dcterms:publisher>
                     <dcterms:hasIdentifier>0446676322</dcterms:hasIdentifier>
                     <dcterms:hasIdentifier>978-0446676328</dcterms:hasIdentifier>
