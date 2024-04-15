@@ -10,10 +10,10 @@
 @prefix rdau:<http://rdaregistry.info/Elements/u>.
 @prefix viaf:<http://viaf.org/viaf/>.
 
-
 <https://purl.org/metascript/data/work/eyeswideshut> a fabio:Work;
                                                     frbr:realization fabio:Expression;
-                                                    owl:sameAs viaf:316753477.
+                                                    owl:sameAs viaf:316753477;
+                                                    rdau:P60832 <https://purl.org/metascript/data/work/traumnovelle>.
 <https://purl.org/metascript/data/expression/draft1996> a fabio:Expression;
                                                         frbr:embodiment fabio:Manifestation.
 <https://purl.org/metascript/data/expression/screen1999> a fabio:Expression;

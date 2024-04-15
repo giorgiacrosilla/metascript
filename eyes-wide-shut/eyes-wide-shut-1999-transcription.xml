@@ -282,6 +282,17 @@
         <xenoData>
             <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:owl="http://www.w3.org/2002/07/owl#">
+                <rdf:Description
+                    rdf:about="">
+                    <rdf:type
+                        rdf:resource="http://purl.org/spar/fabio/Item" />
+                    </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+        <xenoData>
+            <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 xmlns:owl="http://www.w3.org/2002/07/owl#"
                 xmlns:rico="https://www.ica.org/standards/RiC/ontology#"
                 xmlns:frbr="http://purl.org/vocab/frbr/core#"
@@ -290,7 +301,7 @@
                 xmlns:dc="http://purl.org/dc/elements/1.1/"
                 xmlns:fabio="http://purl.org/spar/fabio/"
                 xmlns:rdau="http://rdaregistry.info/Elements/u">
-                <rdf:Description rdf:about="">
+                <rdf:Description rdf:about="https://purl.org/metascript/data/manifestation/screen1999/txt">
                     <owl:sameAs rdf:resource="https://worldcat.org/title/797726240" />
                     <rdf:type rdf:resource="http://purl.org/spar/fabio/Manifestation" />
                     <dc:title>Eyes Wide Shut</dc:title>
@@ -298,11 +309,7 @@
                     <dc:creator rdf:nodeID="creator" />
                     <dcterms:date>1999-10-01</dcterms:date>
                     <rico:hasDraft
-                        rdf:resource="http://www.archiviokubrick.it/opere/film/ews/script/ews-script.html"></rico:hasDraft>
-                    <rico:hasDraft
-                        rdf:resource="https://github.com/giorgiacrosilla/metascript/blob/main/eyes-wide-shut-1996-screenplay.xml"></rico:hasDraft>
-                    <rdau:P60832
-                        rdf:resource="https://github.com/giorgiacrosilla/metascript/blob/main/Arthur%20Schnitzler%20-%20Dream%20Story%20(2003%2C%20Green%20Integer).xml"></rdau:P60832>
+                        rdf:resource="https://purl.org/metascript/data/manifestation/draft1996/txt"></rico:hasDraft>
                     <dcterms:publisher rdf:resource="http://viaf.org/viaf/311379728"></dcterms:publisher>
                     <dcterms:hasIdentifier>0446676322</dcterms:hasIdentifier>
                     <dcterms:hasIdentifier>978-0446676328</dcterms:hasIdentifier>
@@ -315,6 +322,33 @@
                     <dc:name>Frederic Raphael </dc:name>
                     <rdfs:seeAlso rdf:resource="http://viaf.org/viaf/24643548" />
                 </dc:Agent>
+            </rdf:RDF>
+        </xenoData>
+        <xenoData>
+            <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:owl="http://www.w3.org/2002/07/owl#">
+                <rdf:Description
+                    rdf:about="https://purl.org/metascript/data/expression/translation">
+                    <rdf:type
+                        rdf:resource="http://purl.org/spar/fabio/Expression" />
+                    </rdf:Description>
+            </rdf:RDF>
+        </xenoData>
+        <xenoData>
+            <rdf:RDF xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:owl="http://www.w3.org/2002/07/owl#"
+                xmlns:rdau="http://rdaregistry.info/Elements/u">
+                <rdf:Description
+                    rdf:about="https://purl.org/metascript/data/work/eyeswideshut">
+                    <rdf:type
+                        rdf:resource="http://purl.org/spar/fabio/Work" />
+                        <owl:sameAs
+                        rdf:resource="https://viaf.org/viaf/316753477/" />
+                        <rdau:P60832
+                        rdf:resource="https://purl.org/metascript/data/work/traumnovelle"></rdau:P60832>
+                    </rdf:Description>
             </rdf:RDF>
         </xenoData>
     </teiHeader>
